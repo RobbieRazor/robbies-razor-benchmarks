@@ -79,6 +79,7 @@ Governed by the **Authorship Conservation Rule (ACR)**.
 ---
 
 ## Status
+Run tests: `python -m unittest -v`
 
 Canonical reference implementation.  
 Tests validate R4-level memory stability and governed recursion behavior.
