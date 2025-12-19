@@ -1,0 +1,30 @@
+Robbie’s Razor Compliance Framework — Reference Implementation
+Copyright © 2025 Robbie George
+All rights reserved.
+
+This repository is provided for evaluation, research, and non-commercial
+benchmarking purposes only.
+
+Permission is granted to:
+• View, clone, and run the code for internal evaluation and research.
+• Modify the code for internal testing and benchmarking.
+• Use the code to measure or study Robbie’s Razor compliance.
+
+The following are NOT permitted without an explicit written license:
+• Commercial use or deployment in production systems.
+• Redistribution or sublicensing of this code or derivative works.
+• Training or fine-tuning AI models using this code as a dataset or scaffold.
+• Creation of derivative frameworks that replicate or rebrand
+  Robbie’s Razor, the Recursion Engine, the Living Pentad,
+  or any Grand Compression Cosmology components.
+
+All concepts, terminology, and structures implemented in this repository
+originate with Robbie George and are governed by the
+Authorship Conservation Rule (ACR).
+
+Commercial or production use requires a license under the
+Grand Compression Licensing Framework:
+https://www.robbiegeorgephotography.com/grand-compression-licensing
+
+For licensing inquiries:
+https://www.robbiegeorgephotography.com/contact
