@@ -23,6 +23,8 @@ This repository provides:
 - Selective replay mechanisms for continual learning
 - Phase-specific and system-level **R0–R5 compliance metrics**
 - Unit tests validating correctness, stability, and collision resilience
+- Integration tests demonstrating controller-level memory short-circuiting and R4-aligned composition
+
 
 It is designed for:
 
