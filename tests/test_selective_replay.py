@@ -106,6 +106,54 @@ class TestSelectiveReplayBuffer(unittest.TestCase):
         inserted = {f"q{i}" for i in range(5)}
         returned = {q for q, _ in batch}
         self.assertTrue(returned.issubset(inserted))
+    def test_budget_dominance_high_priority_items(self):
+        """
+        Under a small replay budget, high-score items should dominate selection.
+
+        This is a deterministic “energy/budget constraint” check:
+        batch_size is the limited replay budget.
+        """
+        buf = SelectiveReplayBuffer(capacity=200, seed=123)
+
+        # Add 5 high-priority examples
+        high_queries = [f"high_{i}" for i in range(5)]
+        for q in high_queries:
+            buf.add_example(
+                query=q,
+                target="t_high",
+                loss=20.0,        # very high entropy
+                confidence=0.05,  # very low confidence
+                rarity=1.0        # rare / edge-case
+            )
+
+        # Add 50 low-priority examples
+        low_queries = [f"low_{i}" for i in range(50)]
+        for q in low_queries:
+            buf.add_example(
+                query=q,
+                target="t_low",
+                loss=0.1,         # low entropy
+                confidence=0.95,  # high confidence
+                rarity=0.0
+            )
+
+        # Sample many times with a tight budget (batch_size=1)
+        # With replacement so we can measure sampling frequency.
+        counts = {q: 0 for q in high_queries}
+        low_count = 0
+
+        for _ in range(400):
+            (q, _t) = buf.sample_batch(batch_size=1, replace=True)[0]
+            if q in counts:
+                counts[q] += 1
+            else:
+                low_count += 1
+
+        high_total = sum(counts.values())
+
+        # Expect high-priority items to dominate.
+        # This threshold is intentionally conservative but meaningful.
+        self.assertGreater(high_total, low_count)
 
 if __name__ == "__main__":
     unittest.main()
