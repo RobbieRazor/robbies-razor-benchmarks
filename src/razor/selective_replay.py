@@ -5,6 +5,11 @@ Purpose:
 - Prioritize replay of high-entropy / low-confidence / rare examples
 - Reduce catastrophic forgetting with minimal overhead
 - Model-agnostic reference implementation (no ML framework required)
+References:
+- Razor Compliance Framework:
+  https://www.robbiegeorgephotography.com/robbies-razor-compliance-framework
+- Razor Evaluation Protocol:
+  https://www.robbiegeorgephotography.com/robbies-razor-lab-evaluation-protocol
 
 Author: Robbie George
 Governed by MRD v1.8 and the Authorship Conservation Rule (ACR).
