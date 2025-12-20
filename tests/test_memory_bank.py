@@ -59,6 +59,52 @@ class TestRazorMemoryBank(unittest.TestCase):
         entry = self.bank.entries[key]
         self.assertTrue(entry.timestamp <= time.time())
 
+    def test_store_same_query_overwrites_and_no_lru_duplicates(self):
+        # Store once
+        self.bank.store("q1", "s1", 0.95)
+        # Store again (same query, new solution)
+        self.bank.store("q1", "s1_updated", 0.95)
+
+        # Must retrieve latest solution
+        sol, conf = self.bank.retrieve("q1")
+        self.assertEqual(sol, "s1_updated")
+        self.assertEqual(conf, 0.95)
+
+        # LRU queue should contain each key at most once
+        lru_keys = list(self.bank.lru_queue)
+        self.assertEqual(len(lru_keys), len(set(lru_keys)))
+
+    def test_retrieve_increments_access_count_and_updates_recency(self):
+        self.bank.store("q1", "s1", 0.95)
+        self.bank.store("q2", "s2", 0.95)
+        self.bank.store("q3", "s3", 0.95)
+
+        # Access q1 twice
+        self.bank.retrieve("q1")
+        self.bank.retrieve("q1")
+
+        key1 = self.bank._hash_query("q1")
+        entry1 = self.bank.entries[key1]
+
+        # Access count should be 2
+        self.assertEqual(entry1.access_count, 2)
+
+        # q1 should be most-recent (at end of LRU)
+        self.assertEqual(list(self.bank.lru_queue)[-1], key1)
+
+    def test_overwrite_updates_timestamp(self):
+        self.bank.store("q1", "s1", 0.95)
+        key = self.bank._hash_query("q1")
+        t1 = self.bank.entries[key].timestamp
+
+        # Wait a tiny moment so timestamps differ deterministically
+        time.sleep(0.01)
+
+        # Overwrite should update timestamp
+        self.bank.store("q1", "s1_new", 0.95)
+        t2 = self.bank.entries[key].timestamp
+
+        self.assertGreater(t2, t1)
 
 if __name__ == "__main__":
     unittest.main()
