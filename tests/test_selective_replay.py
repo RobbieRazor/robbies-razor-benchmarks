@@ -66,6 +66,46 @@ class TestSelectiveReplayBuffer(unittest.TestCase):
 
         self.assertGreater(counts["q_high"], counts["q_low"])
 
+    def test_score_prioritizes_loss_and_low_confidence(self):
+        buf = SelectiveReplayBuffer(capacity=10, seed=123)
+
+        # Same rarity, compare two examples:
+        # A) low loss + high confidence
+        # B) high loss + low confidence (should score higher)
+        score_a = buf.add_example("a", "ta", loss=0.1, confidence=0.95, rarity=0.0)
+        score_b = buf.add_example("b", "tb", loss=10.0, confidence=0.10, rarity=0.0)
+
+        self.assertGreater(score_b, score_a)
+
+        # Ensure top-scoring item appears in buffer
+        top = max(buf.buffer, key=lambda e: e.score)
+        self.assertEqual(top.query, "b")
+
+    def test_sampling_replace_true_can_repeat(self):
+        buf = SelectiveReplayBuffer(capacity=10, seed=123)
+        for i in range(3):
+            buf.add_example(f"q{i}", f"t{i}", loss=1.0, confidence=0.5)
+
+        batch = buf.sample_batch(batch_size=50, replace=True)
+        queries = [q for q, _ in batch]
+
+        # With replacement and many draws, repeats are expected
+        self.assertLess(len(set(queries)), len(queries))
+
+    def test_equal_scores_do_not_crash_and_sample_valid(self):
+        buf = SelectiveReplayBuffer(capacity=10, seed=123)
+
+        # Add items with identical scores
+        for i in range(5):
+            buf.add_example(f"q{i}", f"t{i}", loss=1.0, confidence=0.5, rarity=0.0)
+
+        batch = buf.sample_batch(batch_size=5, replace=False)
+        self.assertEqual(len(batch), 5)
+
+        # All returned items should be among inserted queries
+        inserted = {f"q{i}" for i in range(5)}
+        returned = {q for q, _ in batch}
+        self.assertTrue(returned.issubset(inserted))
 
 if __name__ == "__main__":
     unittest.main()
