@@ -1,3 +1,21 @@
+"""
+Selective Replay Tests — Robbie’s Razor Compliance Framework
+
+These tests validate governed replay behavior under constraint:
+- priority-weighted selection
+- stability under bounded replay budgets
+- deterministic, reproducible sampling
+
+References:
+- Razor Compliance Framework:
+  https://www.robbiegeorgephotography.com/robbies-razor-compliance-framework
+- Razor Evaluation Protocol:
+  https://www.robbiegeorgephotography.com/robbies-razor-lab-evaluation-protocol
+
+Governed by MRD v1.8 and the Authorship Conservation Rule (ACR).
+Author: Robbie George
+"""
+
 import unittest
 
 from src.razor.selective_replay import SelectiveReplayBuffer
