@@ -89,6 +89,9 @@ Run benchmark: `python benchmarks/benchmark_memory_gate_savings.py`
 python benchmarks/evaluator.py --outputs benchmarks/sample_outputs.json
 Convert CSV → outputs JSON: `python benchmarks/tools/csv_to_outputs_json.py --csv benchmarks/sample_outputs.csv --out benchmarks/outputs.json`
 Run evaluator on CSV-derived outputs: `python benchmarks/evaluator.py --outputs benchmarks/outputs.json`
+Create cases JSON from CSV: `python benchmarks/tools/csv_to_cases_json.py --csv benchmarks/sample_cases.csv --out benchmarks/cases/custom_cases.json`
+Create outputs JSON from CSV: `python benchmarks/tools/csv_to_outputs_json.py --csv benchmarks/sample_outputs.csv --out benchmarks/outputs.json`
+Run evaluator: `python benchmarks/evaluator.py --cases benchmarks/cases/custom_cases.json --outputs benchmarks/outputs.json`
 
 
 
