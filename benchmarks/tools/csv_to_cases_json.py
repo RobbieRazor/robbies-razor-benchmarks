@@ -12,7 +12,7 @@ Required CSV columns:
 Optional CSV columns:
 - category (default: "Uncategorized")
 - scoring_mode (default: "exact")  # exact | numeric | contains
-- target_max_tokens (optional int)
+- target_max_tokens (optional int, must be > 0)
 
 acceptable_answers format:
 - Use pipe-separated answers for multiple acceptable outputs:
@@ -29,7 +29,10 @@ import argparse
 import csv
 import json
 import os
-from typing import Any, Dict, List
+from typing import Any, Dict, List, Tuple
+
+
+ALLOWED_SCORING_MODES = {"exact", "numeric", "contains"}
 
 
 def split_answers(s: str) -> List[str]:
@@ -39,8 +42,13 @@ def split_answers(s: str) -> List[str]:
     return [a.strip() for a in s.split("|") if a.strip()]
 
 
-def convert(csv_path: str, out_path: str) -> List[Dict[str, Any]]:
+def convert(csv_path: str, out_path: str) -> Tuple[List[Dict[str, Any]], int]:
+    """
+    Returns:
+        (cases, skipped_rows)
+    """
     cases: List[Dict[str, Any]] = []
+    skipped = 0
 
     with open(csv_path, "r", encoding="utf-8-sig", newline="") as f:
         reader = csv.DictReader(f)
@@ -69,12 +77,28 @@ def convert(csv_path: str, out_path: str) -> List[Dict[str, Any]]:
             answers_raw = row.get(ans_col) or ""
             answers = split_answers(str(answers_raw))
 
+            # Skip incomplete rows, but count them so users know
             if not cid or not prompt or not answers:
-                # skip incomplete rows
+                skipped += 1
                 continue
 
-            category = (row.get(category_col) or "Uncategorized").strip() if category_col else "Uncategorized"
-            scoring_mode = (row.get(scoring_col) or "exact").strip().lower() if scoring_col else "exact"
+            category = (
+                (row.get(category_col) or "Uncategorized").strip()
+                if category_col
+                else "Uncategorized"
+            )
+            scoring_mode = (
+                (row.get(scoring_col) or "exact").strip().lower()
+                if scoring_col
+                else "exact"
+            )
+
+            # Validate scoring_mode early (prevents confusing downstream evaluator behavior)
+            if scoring_mode not in ALLOWED_SCORING_MODES:
+                raise ValueError(
+                    f"Invalid scoring_mode for case {cid}: '{scoring_mode}'. "
+                    f"Allowed: {sorted(ALLOWED_SCORING_MODES)}"
+                )
 
             target_max_tokens = None
             if target_col:
@@ -83,9 +107,15 @@ def convert(csv_path: str, out_path: str) -> List[Dict[str, Any]]:
                     try:
                         target_max_tokens = int(raw)
                     except ValueError:
-                        raise ValueError(f"Invalid target_max_tokens for case {cid}: {raw}")
+                        raise ValueError(
+                            f"Invalid target_max_tokens for case {cid}: '{raw}' (must be integer)"
+                        )
+                    if target_max_tokens <= 0:
+                        raise ValueError(
+                            f"target_max_tokens must be > 0 for case {cid}: '{raw}'"
+                        )
 
-            case = {
+            case: Dict[str, Any] = {
                 "id": cid,
                 "category": category,
                 "prompt": prompt,
@@ -101,17 +131,27 @@ def convert(csv_path: str, out_path: str) -> List[Dict[str, Any]]:
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(cases, f, indent=2)
 
-    return cases
+    return cases, skipped
 
 
 def main():
     p = argparse.ArgumentParser(description="Convert CSV cases to evaluator JSON format.")
-    p.add_argument("--csv", required=True, help="Path to CSV with columns: id, prompt, acceptable_answers (+ optional fields)")
-    p.add_argument("--out", default="benchmarks/cases/custom_cases.json", help="Where to write cases JSON")
+    p.add_argument(
+        "--csv",
+        required=True,
+        help="Path to CSV with columns: id, prompt, acceptable_answers (+ optional fields)",
+    )
+    p.add_argument(
+        "--out",
+        default="benchmarks/cases/custom_cases.json",
+        help="Where to write cases JSON",
+    )
     args = p.parse_args()
 
-    cases = convert(args.csv, args.out)
+    cases, skipped = convert(args.csv, args.out)
     print(f"Wrote {len(cases)} cases to: {args.out}")
+    if skipped:
+        print(f"Skipped {skipped} incomplete row(s) (missing id/prompt/acceptable_answers).")
 
 
 if __name__ == "__main__":
