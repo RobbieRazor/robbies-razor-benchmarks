@@ -86,6 +86,8 @@ Run tests: `python -m unittest -v`
 Canonical reference implementation.  
 Tests validate R4-level memory stability and governed recursion behavior.
 Run benchmark: `python benchmarks/benchmark_memory_gate_savings.py`
+python benchmarks/evaluator.py --outputs benchmarks/sample_outputs.json
+
 
 The blade is executable.  
 The law remains canonical.
