@@ -1,0 +1,34 @@
+[
+  {
+    "id": "eval-001-math",
+    "category": "Numeric",
+    "prompt": "What is 17 * 23?",
+    "acceptable_answers": ["391"],
+    "scoring_mode": "numeric",
+    "target_max_tokens": 10
+  },
+  {
+    "id": "eval-002-math",
+    "category": "Numeric",
+    "prompt": "What is 144 / 12?",
+    "acceptable_answers": ["12"],
+    "scoring_mode": "numeric",
+    "target_max_tokens": 6
+  },
+  {
+    "id": "eval-003-shortfact",
+    "category": "Exact",
+    "prompt": "Answer with one word: What is the capital of France?",
+    "acceptable_answers": ["Paris"],
+    "scoring_mode": "exact",
+    "target_max_tokens": 3
+  },
+  {
+    "id": "eval-004-extract",
+    "category": "Contains",
+    "prompt": "Extract the name: 'Signed by Jonathan Harker on behalf of the company.' Answer with the name only.",
+    "acceptable_answers": ["Jonathan Harker"],
+    "scoring_mode": "contains",
+    "target_max_tokens": 6
+  }
+]
