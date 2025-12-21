@@ -87,6 +87,9 @@ Canonical reference implementation.
 Tests validate R4-level memory stability and governed recursion behavior.
 Run benchmark: `python benchmarks/benchmark_memory_gate_savings.py`
 python benchmarks/evaluator.py --outputs benchmarks/sample_outputs.json
+Convert CSV → outputs JSON: `python benchmarks/tools/csv_to_outputs_json.py --csv benchmarks/sample_outputs.csv --out benchmarks/outputs.json`
+Run evaluator on CSV-derived outputs: `python benchmarks/evaluator.py --outputs benchmarks/outputs.json`
+
 
 
 The blade is executable.  
