@@ -1,0 +1,5 @@
+id,category,prompt,acceptable_answers,scoring_mode,target_max_tokens
+eval-001-math,Numeric,"What is 17 * 23?","391",numeric,10
+eval-002-math,Numeric,"What is 144 / 12?","12",numeric,6
+eval-003-shortfact,Exact,"Answer with one word: What is the capital of France?","Paris",exact,3
+eval-004-extract,Contains,"Extract the name: 'Signed by Jonathan Harker on behalf of the company.' Answer with the name only.","Jonathan Harker|J. Harker",contains,8
