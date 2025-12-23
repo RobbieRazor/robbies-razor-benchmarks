@@ -66,5 +66,8 @@ This document pairs naturally with measurable targets such as:
 - tail latency (p95/p99) reduction from replay vs recompute
 - energy proxy metrics (tokens × model-cost × hardware-power envelope)
 
+- See also: *Razor Infrastructure Externalities* for downstream energy, cooling, and water impacts.
+
+
 ## Status
 This document is a living note intended to remain consistent with the canonical definition of Robbie’s Razor and the Grand Compression Cosmology (MRD).
