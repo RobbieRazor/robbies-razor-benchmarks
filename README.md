@@ -47,6 +47,13 @@ This repository is **not**:
 All definitions, theory, and governance remain canonical on:
 https://www.robbiegeorgephotography.com
 
+## Why this exists
+
+Razor-aligned systems reduce redundant inference by prioritizing early compression, stabilized memory, and governed recursion.
+
+- Read: **[Razor Hardware Longevity](docs/razor-hardware-longevity.md)** (how this extends the economic life of older GPUs)
+
+
 ---
 
 ## Licensing & usage
