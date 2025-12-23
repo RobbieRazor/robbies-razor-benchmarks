@@ -128,6 +128,8 @@ Infrastructure-level validation can be derived from:
 
 These metrics can be evaluated independently of model architecture.
 
+See also: *Razor Regulatory Inevitability* for downstream governance and reporting implications.
+
 ---
 
 ## Status
