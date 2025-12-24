@@ -62,7 +62,8 @@ In practice, this improves efficiency on constrained or older hardware and smoot
 
 Supporting notes (engineering → infrastructure):
 
-- **[Razor GPU Longevity](docs/razor-gpu-longevity.md)** — how recursion efficiency extends the *economic* life of existing GPUs  
+- **[Razor Hardware Longevity](docs/razor-hardware-longevity.md)** — how recursion efficiency extends the *economic* life of existing GPUs
+  
 - **[Razor Infrastructure Externalities](docs/razor-infrastructure-externalities.md)** — how reduced redundant computation lowers energy, cooling, and water demand  
 - **[Razor Regulatory Inevitability](docs/razor-regulatory-inevitability.md)** — why efficiency-first systems become structurally advantaged as infrastructure constraints force reporting and explanation
 
