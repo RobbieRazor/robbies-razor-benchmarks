@@ -19,7 +19,7 @@ By late 2025, inference performance and cost are increasingly shaped by:
 - Regulatory pressure on energy, water, and emissions reporting
 - Fixed depreciation schedules misaligned with hardware replacement cycles
 
-These conditions produce **structural inequality** between operators with privileged access to inference-optimized hardware and those without.
+These conditions produce structural disparity between operators with privileged access to inference-optimized hardware and those without.
 
 Inference parity achieved through governed recursion materially reduces dependency on continuous hardware replacement cycles.
 
