@@ -50,6 +50,7 @@ python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 
+
 Canonical evaluation command (stable)
 
 Run exactly one command for full evaluation:
@@ -103,7 +104,7 @@ These metrics are provided for deeper efficiency and
 anti-gaming analysis and do not replace the canonical
 razor_compliance_score.
 
-Agents should treat missing keys as schema violations.
+Agents should treat missing required keys in artifacts/run.json as schema violations
 
 Minimal agent task loop
 
