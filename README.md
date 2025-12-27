@@ -51,7 +51,7 @@ See:
 - docs/razor-diffusion-metric.md
 - razor_metrics/rdm.py
 - notebooks/razor_diffusion_plot.ipynb
-- - baselines/cheating_agent.py — adversarial anti-gaming baseline
+- baselines/cheating_agent.py — adversarial anti-gaming baseline
 
 
 
