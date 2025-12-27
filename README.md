@@ -34,6 +34,21 @@ It is designed for:
 - Edge-device and constrained-inference experimentation
 - Internal benchmarking prior to licensing or production deployment
 
+  ## Razor Diffusion Metric (RDM)
+
+This repository includes the Razor Diffusion Metric (RDM),
+a governance-aware evaluation standard for reasoning efficiency.
+
+RDM measures semantic diffusion per unit compute.
+RDM* extends this with explicit boundary adherence,
+penalizing looping, redundancy, and unguided probability spread.
+
+See:
+- docs/razor-diffusion-metric.md
+- razor_metrics/rdm.py
+- notebooks/razor_diffusion_plot.ipynb
+
+
 ---
 
 ## What this repository is NOT
