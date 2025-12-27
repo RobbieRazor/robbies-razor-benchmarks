@@ -16,6 +16,9 @@ Reference implementation and benchmark suite for measuring **Robbie’s Razor co
 - memory discipline
 - recursion governance
 - long-horizon stability
+- semantic diffusion control (Razor Diffusion Metric, RDM / RDM*)
+
+
 
 This repository is designed to be **re-evaluated repeatedly over time** as constraints tighten.
 
@@ -85,6 +88,20 @@ artifacts/run.json MUST conform to the following logical schema:
     "pass_rate": "number (0..1)"
   }
 }
+
+Optional extended metrics (non-contractual)
+
+The following metrics may be produced by evaluators as
+informational extensions and SHOULD NOT be treated as
+schema violations if absent:
+
+- rdm — Razor Diffusion Metric (semantic diffusion per unit compute)
+- rdm_star — governance-adjusted diffusion score (RDM*)
+- boundary_adherence — mean Razor boundary compliance (0..1)
+
+These metrics are provided for deeper efficiency and
+anti-gaming analysis and do not replace the canonical
+razor_compliance_score.
 
 Agents should treat missing keys as schema violations.
 
