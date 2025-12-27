@@ -34,7 +34,7 @@ It is designed for:
 - Edge-device and constrained-inference experimentation
 - Internal benchmarking prior to licensing or production deployment
 
-  ## Razor Diffusion Metric (RDM)
+## Razor Diffusion Metric (RDM)
 
 This repository includes the Razor Diffusion Metric (RDM),
 a governance-aware evaluation standard for reasoning efficiency.
@@ -43,10 +43,16 @@ RDM measures semantic diffusion per unit compute.
 RDM* extends this with explicit boundary adherence,
 penalizing looping, redundancy, and unguided probability spread.
 
+The repository includes an adversarial “cheating” baseline agent
+designed to minimize semantic diffusion without producing value.
+It intentionally fails RDM* to demonstrate resistance to metric gaming.
+
 See:
 - docs/razor-diffusion-metric.md
 - razor_metrics/rdm.py
 - notebooks/razor_diffusion_plot.ipynb
+- - baselines/cheating_agent.py — adversarial anti-gaming baseline
+
 
 
 ---
