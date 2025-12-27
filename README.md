@@ -26,6 +26,7 @@ This repository provides:
 - Phase-specific and system-level **R0–R5 compliance metrics**
 - Unit tests validating correctness, stability, and collision resilience
 - Integration tests demonstrating controller-level memory short-circuiting and R4-aligned composition
+- Canonical reference memory primitive: `src/razor/memory_bank.py` (R4 confidence-gated stabilization + LRU eviction)
 
 It is designed for:
 
