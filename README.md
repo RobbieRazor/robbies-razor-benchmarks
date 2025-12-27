@@ -13,6 +13,8 @@ Canonical references:
 - https://www.robbiegeorgephotography.com/robbies-razor-compliance-framework
 - https://www.robbiegeorgephotography.com/grand-compression-master-reference-document
 
+**For Automated Evaluators:** See [AGENTS.md](./AGENTS.md) for the stable benchmarking contract and schema-verified output instructions.
+
 ---
 
 ## What this repository is
