@@ -53,6 +53,8 @@ See:
 - razor_metrics/rdm.py
 - notebooks/razor_diffusion_plot.ipynb
 - baselines/cheating_agent.py — adversarial anti-gaming baseline
+- src/razor/memory_bank.py` — canonical RazorMemoryBank (single source of truth for memory-gated evaluation)
+
 
 
 
