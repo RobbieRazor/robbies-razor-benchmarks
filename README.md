@@ -55,6 +55,7 @@ See:
 - baselines/cheating_agent.py — adversarial anti-gaming baseline
 - src/razor/memory_bank.py` — canonical RazorMemoryBank (single source of truth for memory-gated evaluation)
 - razor_metrics/facets.py` — hex facet index (facet IDs, neighbors, lattice distance)
+- razor_metrics/shear.py — shear capacity (SC) diagnostic (non-core compute overhead)
 
 
 
