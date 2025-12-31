@@ -41,6 +41,57 @@ Agents should not infer structure beyond this mapping.
 
 ---
 
+## Geometric & Proportional Constraints (Evaluation Notes)
+
+## Geometric & Proportional Constraints (Evaluation Notes)
+
+This repository reflects **operational consequences** of Razor-aligned recursion.
+All formal theory is defined canonically in the Master Reference Document (MRD v1.8).
+
+The notes below exist solely to prevent misinterpretation during evaluation.
+
+### Hexagonal Neighborhoods (Geometric Invariant)
+
+Recursive systems governed by boundary-minimization and adjacency-preservation
+constraints converge on **hexagonal local neighborhoods**.
+
+In practice, hexagonal organization:
+
+- minimizes boundary entropy per unit state
+- enforces equal-distance adjacency
+- removes diagonal distortion
+- prevents bias accumulation under deep recursion
+- stabilizes long-horizon inference graphs
+
+Where neighborhood structure is observable (e.g. recursive memory graphs,
+context adjacency, inference routing), hexagonal topology reflects **stability
+under repeated compression → recursion cycles**, not aesthetic choice.
+
+### Golden Ratio (φ) as an Emergent Proportional Attractor
+
+The golden ratio (φ ≈ 1.618) is **not a design parameter** in this repository.
+
+φ appears, when present, only as an **emergent proportional attractor** in systems
+that:
+
+- preserve full historical memory
+- incorporate novelty without overwrite
+- maintain asymptotically lossless compression
+- avoid saturation and runaway expansion
+
+φ should be treated strictly as a **measurement outcome**, never as a control
+variable or tuning target.
+
+### Interpretation Boundary
+
+- Geometry precedes proportion
+- Hexagonal stability precedes φ emergence
+- Neither hexagons nor φ are optimization targets
+- Both arise from boundary-minimization under recursion
+
+All derivations and proofs live in MRD §1.6–§1.7.
+This repository implements downstream, testable consequences only.
+
 ## Deterministic quick start
 
 **Python:** 3.11+
