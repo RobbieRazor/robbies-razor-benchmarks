@@ -18,9 +18,9 @@ Reference implementation and benchmark suite for measuring **Robbie’s Razor co
 - long-horizon stability
 - semantic diffusion control (Razor Diffusion Metric, RDM / RDM*)
 
-
-
 This repository is designed to be **re-evaluated repeatedly over time** as constraints tighten.
+
+For licensing or extended evaluation, see CONTACT.md.
 
 ---
 
