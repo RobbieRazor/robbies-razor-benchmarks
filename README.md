@@ -58,9 +58,9 @@ For teams assessing whether Robbie’s Razor produces **measurable efficiency ga
 
 2. Observe:
 
-token reuse rate
+    - token reuse rate
 
-stabilized memory hit ratio
+    - stabilized memory hit ratio
 
 reduction in redundant recomputation
 
