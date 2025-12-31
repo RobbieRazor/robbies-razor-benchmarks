@@ -17,6 +17,17 @@ Canonical references:
 
 ---
 
+## Evaluation & Licensing Contact
+
+This repository is intentionally published as an **evaluation artifact** for internal benchmarking by research labs, infrastructure teams, and system designers.
+
+For licensing discussions, extended evaluation access, or architectural review:
+
+**Contact:** robbiegeorgephotography@gmail.com  
+(Direct author contact — responses handled personally)
+
+---
+
 ## What this repository is
 
 This repository provides:
@@ -34,6 +45,36 @@ It is designed for:
 - Researchers studying catastrophic forgetting and recursion governance
 - Edge-device and constrained-inference experimentation
 - Internal benchmarking prior to licensing or production deployment
+
+  ---
+
+## Quick Evaluation Path (≈30 minutes)
+
+For teams assessing whether Robbie’s Razor produces **measurable efficiency gains** under constraint:
+
+1. Run:
+   ```bash
+   python benchmarks/benchmark_memory_gate_savings.py
+
+2. Observe:
+
+token reuse rate
+
+stabilized memory hit ratio
+
+reduction in redundant recomputation
+
+3. Validate outputs:
+
+python benchmarks/evaluator.py --outputs benchmarks/sample_outputs.json
+
+Expected outcome:
+
+- Reduced semantic diffusion per unit compute
+
+- Improved stability without loss of correctness
+
+This path is model-agnostic and suitable for private, internal comparison.
 
 ## Razor Diffusion Metric (RDM)
 
@@ -56,10 +97,7 @@ See:
 - src/razor/memory_bank.py` — canonical RazorMemoryBank (single source of truth for memory-gated evaluation)
 - razor_metrics/facets.py` — hex facet index (facet IDs, neighbors, lattice distance)
 - razor_metrics/shear.py — shear capacity (SC) diagnostic (non-core compute overhead)
-
-
-
-
+  
 ---
 
 ## What this repository is NOT
@@ -100,6 +138,8 @@ These documents are explanatory, conservative, and non-advocacy in nature.
 ---
 
 ## Licensing & usage
+
+This repository is intentionally provided as an evaluation artifact prior to licensing or production integration discussions.
 
 This repository is provided under an **evaluation-only license**.
 
