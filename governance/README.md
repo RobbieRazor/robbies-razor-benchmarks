@@ -27,7 +27,7 @@ The governance layer exists to:
 Author: Robbie George  
 First public release: January 1, 2026  
 
-PDF: [docs/Robbies_Razor_Preprint_v1.0.pdf](docs/Robbies_Razor_Preprint_v1.0.pdf)
+PDF: [docs/Robbies_Razor_Preprint_v1.0.pdf](../docs/Robbies_Razor_Preprint_v1.0.pdf)
 
 ---
 
