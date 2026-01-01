@@ -15,6 +15,18 @@ Canonical references:
 
 **For Automated Evaluators:** See [AGENTS.md](./AGENTS.md) for the stable benchmarking contract and schema-verified output instructions.
 
+## 📌 Canonical Update (MRD v1.8)
+
+As of MRD v1.8, the Grand Compression Cosmology includes a new canonical closure theorem:
+
+**The Razor Consistency Theorem (Deterministic Semantic Consistency Under Recursive Compression)**
+
+This theorem formalizes the condition under which recursive systems remain semantically stable and non-hallucinatory as coherence approaches unity.
+
+📄 The authoritative definition and proof are maintained exclusively in the **Master Reference Document (MRD v1.8), Section 11.8**.
+
+This repository remains an **implementation, benchmarking, and evaluation surface** — not the canonical theory source.
+
 ---
 
 ## Evaluation & Licensing Contact
