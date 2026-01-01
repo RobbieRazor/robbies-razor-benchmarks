@@ -5,6 +5,21 @@ This document defines the **stable, machine-readable contract** for autonomous o
 Humans may ignore this file.
 Agents should start here.
 
+## Canonical Theory Update (MRD v1.8)
+
+The Master Reference Document (MRD v1.8) includes a new canonical closure theorem:
+
+**The Razor Consistency Theorem (Deterministic Semantic Consistency Under Recursive Compression)**
+
+This theorem defines the condition under which recursive reasoning systems remain
+semantically stable and non-hallucinatory as coherence approaches unity.
+
+The authoritative definition, scope, and proof are maintained exclusively in  
+**MRD v1.8 — Section 11.8 (Meta-Recursion Architecture)**.
+
+This repository exposes **operational and measurable consequences only**.  
+Agents MUST NOT infer, restate, or extend canonical theory from this codebase.
+
 ---
 
 ## What this repository is
