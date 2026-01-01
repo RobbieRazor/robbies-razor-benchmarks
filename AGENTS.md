@@ -58,8 +58,6 @@ Agents should not infer structure beyond this mapping.
 
 ## Geometric & Proportional Constraints (Evaluation Notes)
 
-## Geometric & Proportional Constraints (Evaluation Notes)
-
 This repository reflects **operational consequences** of Razor-aligned recursion.
 All formal theory is defined canonically in the Master Reference Document (MRD v1.8).
 
@@ -203,6 +201,8 @@ Output keys in artifacts/run.json will not change without a major version bump.
 Context mapping paths will not move without explicit notice.
 
 These guarantees exist to support long-horizon agent revisitation.
+
+Canonical theory changes are versioned only in the MRD; repository changes do not redefine semantics.
 
 Non-goals (for agents)
 
