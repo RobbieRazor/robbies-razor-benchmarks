@@ -21,6 +21,16 @@ The governance layer exists to:
 
 ---
 
+## Reference Paper
+
+**Robbie’s Razor: A Scale-Invariant Recursion Principle for Efficient Intelligence (Preprint v1.0)**  
+Author: Robbie George  
+First public release: January 1, 2026  
+
+PDF: [docs/Robbies_Razor_Preprint_v1.0.pdf](docs/Robbies_Razor_Preprint_v1.0.pdf)
+
+---
+
 ## Key Interpretive Principles
 
 - Inference parity refers to comparable task-level outcomes under constrained
