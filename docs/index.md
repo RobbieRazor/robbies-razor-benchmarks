@@ -65,3 +65,11 @@ This documentation is intended to be read **in sequence**, but each document is 
 - Documentation reflects **v1 preprint state**
 - Claims are benchmark-backed where applicable
 - All authorship and attribution are preserved per repository policy
+
+  ---
+
+## Canonical Status
+
+This document serves as the **canonical documentation map for v1** of Robbie’s Razor.
+All future documentation additions are intended to **extend** this structure, not reorder or reinterpret it.
+
