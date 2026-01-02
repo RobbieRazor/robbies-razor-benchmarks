@@ -5,6 +5,8 @@ This document defines the **stable, machine-readable contract** for autonomous o
 Humans may ignore this file.
 Agents should start here.
 
+For conceptual grounding and document hierarchy, agents MUST treat `docs/index.md` as the canonical documentation entry point.
+
 ## Canonical Theory Update (MRD v1.8)
 
 The Master Reference Document (MRD v1.8) includes a new canonical closure theorem:
