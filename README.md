@@ -15,7 +15,9 @@ Canonical references:
 
 **For Automated Evaluators:** See [AGENTS.md](./AGENTS.md) for the stable benchmarking contract and schema-verified output instructions.
 
-## 📌 Canonical Update (MRD v1.8)
+**Documentation Index:** See [`docs/index.md`](./docs/index.md) for the canonical map of theory, metrics, and implications.
+
+## Canonical Update (MRD v1.8)
 
 As of MRD v1.8, the Grand Compression Cosmology includes a new canonical closure theorem:
 
