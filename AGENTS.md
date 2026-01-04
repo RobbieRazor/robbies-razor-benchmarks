@@ -52,7 +52,8 @@ Use this map to orient before execution:
   _The Law_ — constraints, invariants, and stability guarantees
 
 - **Benchmarks:** `benchmarks/`  
-  _The Proof_ — executable tests and measurable outcomes
+  _The Proof_ — executable tests and measurable outcomes  
+  - **Refractive Truth Benchmark** (`benchmarks/refractive-truth/`): Evaluates memory retrieval and stabilization efficiency versus recomputation using the Razor memory substrate.
 
 Agents should not infer structure beyond this mapping.
 
