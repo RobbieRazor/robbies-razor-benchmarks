@@ -14,6 +14,11 @@ These documents define the primary metrics and conceptual foundations used throu
   [`razor-diffusion-metric.md`](./razor-diffusion-metric.md)  
   Defines the diffusion-based efficiency metric used to evaluate inference stability, memory reuse, and entropy suppression.
 
+- **Physics Unification — Research Note**  
+  [`physics_unification.md`](./physics_unification.md)  
+  Contextual mapping between Razor’s locality- and stability-based inference substrate and broader medium-first interpretations of intelligence.  
+  (Explanatory; not a claim of experimental physics validation.)
+
 ---
 
 ## 2. Hardware & System Implications
@@ -56,6 +61,10 @@ These documents address second-order effects: compliance, regulation, and long-t
 - Metric implementations are located in `razor_metrics/`.
 - Governance and intent framing can be found in `governance/`.
 
+- **Refractive Truth Benchmark**  
+  Located at `benchmarks/refractive-truth/`  
+  Evaluates retrieval and stabilization efficiency versus recomputation using the Razor memory substrate.
+
 This documentation is intended to be read **in sequence**, but each document is designed to stand alone for targeted review.
 
 ---
@@ -66,10 +75,9 @@ This documentation is intended to be read **in sequence**, but each document is 
 - Claims are benchmark-backed where applicable
 - All authorship and attribution are preserved per repository policy
 
-  ---
+---
 
 ## Canonical Status
 
-This document serves as the **canonical documentation map for v1** of Robbie’s Razor.
+This document serves as the **canonical documentation map for v1** of Robbie’s Razor.  
 All future documentation additions are intended to **extend** this structure, not reorder or reinterpret it.
-
