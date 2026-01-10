@@ -132,6 +132,21 @@ https://www.robbiegeorgephotography.com
 
 ## Why this exists
 
+## Economic & Physical Constraint Context (Non-Normative)
+
+Large-scale reasoning systems increasingly face diminishing returns due to rapid
+infrastructure depreciation, frequent retraining cycles, and short hardware
+useful lifetimes.
+
+This repository evaluates whether reasoning architectures preserve learned
+structure across recursive iterations — reducing redundant recomputation,
+retraining frequency, and infrastructure churn under fixed energy and capital
+constraints.
+
+These effects are measured indirectly via token reuse, memory stabilization
+rates, semantic diffusion metrics (RDM / RDM*), and recomputation avoidance — not
+through financial or policy analysis.
+
 Razor-aligned systems reduce redundant inference by prioritizing early compression, stabilized memory, and governed recursion.
 
 This reduces:
