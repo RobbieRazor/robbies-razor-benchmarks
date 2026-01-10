@@ -11,8 +11,10 @@ Let:
 - e_t be the embedding at reasoning step t
 - c_t be the compute cost at step t (tokens or proxy)
 
-Semantic step distance:
-Δ_t = 1 − cosine(e_{t−1}, e_t)
+Semantic step distance (bounded):
+Δ_t = 1 − ⟨ê_{t−1}, ê_t⟩
+
+where ê_t denotes the ℓ₂-normalized embedding at step t, ensuring Δ_t ∈ [0,2].
 
 Cumulative diffusion:
 D_T = Σ Δ_t
