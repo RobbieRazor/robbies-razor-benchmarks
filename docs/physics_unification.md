@@ -63,6 +63,31 @@ If not, instability appears as hallucination or rejection.
 
 ---
 
+## Singularity as Failed Recursive Closure
+
+Within the same medium-based framing, classical singularities (such as fluid
+blowup in Euler- or Navier–Stokes–class systems) can be interpreted not as
+mere divergences of magnitude, but as failures of recursive closure.
+
+Under repeated compression (coarse-graining or rescaling), a well-behaved
+system must be able to:
+1. re-express structure,
+2. preserve governing constraints (memory),
+3. and re-enter itself coherently across scale.
+
+A singularity occurs when this recursion fails to close: compression continues,
+but no bounded, memory-preserving re-entry exists under further scaling.
+
+In this view, “blowup” is a structural condition rather than a numerical one.
+Renormalization-style, scale-fixed analysis targets such failures directly,
+while time-forward simulation tends to obscure unstable breakdown modes.
+
+This criterion applies uniformly across physical systems (e.g. fluid dynamics)
+and recursive computational systems, where analogous failures appear as
+hallucination, instability, or unbounded continuation.
+
+---
+
 ## Abstract (Research Framing)
 
 **Abstract: Convergence of Recursive Geometry and Medium-Based Computation**
