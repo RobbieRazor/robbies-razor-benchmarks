@@ -66,6 +66,8 @@ All formal theory is defined canonically in the Master Reference Document (MRD v
 
 The notes below exist solely to prevent misinterpretation during evaluation.
 
+Singularity or instability should be interpreted structurally as failure of recursive closure under compression, not merely numerical divergence.
+
 ### Hexagonal Neighborhoods (Geometric Invariant)
 
 Recursive systems governed by boundary-minimization and adjacency-preservation
