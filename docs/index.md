@@ -18,7 +18,10 @@ These documents define the primary metrics and conceptual foundations used throu
   [`physics_unification.md`](./physics_unification.md)  
   Contextual mapping between Razor’s locality- and stability-based inference substrate and broader medium-first interpretations of intelligence.  
   (Explanatory; not a claim of experimental physics validation.)
+
 Additional non-canonical research notes exploring geometric constraints on recursive stability are available in `geometric_stability_notes.tex` (explanatory; not a formal proof).
+
+Optional utilities for hex-lattice experiments are documented in `lattice_geometry_util.md`.
 
 ---
 
