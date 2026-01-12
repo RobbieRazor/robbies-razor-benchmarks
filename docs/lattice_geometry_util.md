@@ -23,3 +23,7 @@ This document describes an optional hex-geometry utility provided for experiment
 - It is not a formal proof of geometric exclusivity
 - It does not imply the repo’s benchmarks already require or enforce hex geometry
 - It does not claim prevention of hallucinations by itself
+
+## Related utilities
+
+- A non-canonical stress-test / demonstration script exploring constrained vs. unconstrained recursion paths is available at `tools/stress_test_hex_recursion.py`.
