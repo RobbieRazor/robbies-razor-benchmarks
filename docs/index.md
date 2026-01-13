@@ -19,6 +19,10 @@ These documents define the primary metrics and conceptual foundations used throu
   Contextual mapping between Razor’s locality- and stability-based inference substrate and broader medium-first interpretations of intelligence.  
   (Explanatory; not a claim of experimental physics validation.)
 
+  - **Context Rot — Explanatory Note**  
+  [`context_rot_explainer.md`](./context_rot_explainer.md)  
+  Illustrative discussion of long-context failure as failed recursive closure.
+
 Additional non-canonical research notes exploring geometric constraints on recursive stability are available in `geometric_stability_notes.tex` (explanatory; not a formal proof).
 
 Optional utilities for hex-lattice experiments are documented in `lattice_geometry_util.md`.
