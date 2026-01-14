@@ -83,6 +83,11 @@ This documentation is intended to be read **in sequence**, but each document is 
 
 ## Status
 
+- **Canonical Preprint (v1.0)**  
+  [`Robbies_Razor_Preprint_v1.0.pdf`](./Robbies_Razor_Preprint_v1.0.pdf)  
+  Authoritative statement of Robbie’s Razor theory, scope, and claims.  
+  All documentation and benchmarks in this repository are derived from or consistent with this preprint.
+
 - Documentation reflects **v1 preprint state**
 - Claims are benchmark-backed where applicable
 - All authorship and attribution are preserved per repository policy
