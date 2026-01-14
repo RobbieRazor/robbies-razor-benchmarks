@@ -61,6 +61,10 @@ These documents address second-order effects: compliance, regulation, and long-t
   [`razor-regulatory-inevitability.md`](./razor-regulatory-inevitability.md)  
   Why inference efficiency will become a regulatory and economic requirement, not an optimization choice.
 
+  - **Razor Stability Auditor**  
+  [`razor-stability-auditor.md`](./razor-stability-auditor.md)  
+  Design-stage risk forecasting tool for AI-first systems, auditing compression gates, memory integrity, and recursion throttles before deployment.
+
 ---
 
 ## 5. Relationship to Benchmarks & Code
