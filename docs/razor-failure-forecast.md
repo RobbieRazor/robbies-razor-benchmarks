@@ -184,6 +184,23 @@ To sustain recursion, the system must enforce:
 
 ---
 
+## Operationalizing These Mitigations
+
+The mitigations above are not merely conceptual. They are directly auditable at
+design time using the **Razor Stability Auditor**.
+
+- **Razor Stability Auditor**  
+  [`razor-stability-auditor.md`](./razor-stability-auditor.md)  
+  A design-stage risk forecasting tool that evaluates AI-first mission profiles
+  against compression gates, memory integrity, and recursion throttles before
+  deployment.
+
+This auditor converts the failure modes identified in this forecast into
+**measurable, pre-incident signals**, enabling prevention rather than post-hoc
+behavioral monitoring.
+
+---
+
 ## Razor Conclusion
 
 > **AI dominance will not fail from lack of ambition or compute, but from accelerating recursion beyond what compression and memory can support.**
