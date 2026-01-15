@@ -1,5 +1,11 @@
 # Robbie’s Razor — Documentation Index
 
+## 0. Canonical Specification (Authoritative)
+
+- **Canonical Spec (authoritative)**  
+  [`canonical-spec.md`](./canonical-spec.md)  
+  The single source of truth for definitions, normative contracts, and repository authority.
+
 This directory contains the formal documentation, analysis, and contextual framing for **Robbie’s Razor**, an inference-efficiency and memory-coherence framework designed to reduce compute, energy, and regulatory externalities in large-scale AI systems.
 
 The documents below are organized to guide readers from **core metric definitions**, through **hardware and infrastructure implications**, and finally to **regulatory and systemic outcomes**.
