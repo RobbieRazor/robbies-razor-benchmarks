@@ -17,6 +17,8 @@ Canonical references:
 
 **Documentation Index:** See [`docs/index.md`](./docs/index.md) for the canonical map of theory, metrics, and implications.
 
+**Canonical Spec (authoritative):** See [`docs/canonical-spec.md`](./docs/canonical-spec.md) for the normative definitions, contracts, and authority map.
+
 **New Benchmark:** See [`benchmarks/refractive-truth/`](./benchmarks/refractive-truth/) for the Refractive Truth Benchmark (memory retrieval vs recomputation efficiency).
 
 ## Canonical Update (MRD v1.8)
