@@ -70,29 +70,23 @@ It is designed for:
 
 For teams assessing whether Robbie’s Razor produces **measurable efficiency gains** under constraint:
 
-1. Run:
-   ```bash
-   python benchmarks/benchmark_memory_gate_savings.py
+### 1. Run the benchmark
 
-2. Observe:
+```bash
+python benchmarks/benchmark_memory_gate_savings.py
+```
 
-    - token reuse rate
+### 2. Observe key signals
 
-    - stabilized memory hit ratio
+- Token reuse rate  
+- Stabilized memory hit ratio  
+- Reduction in redundant recomputation  
 
-reduction in redundant recomputation
-
-3. Validate outputs:
-
+### 3. Validate outputs
+   
+```bash
 python benchmarks/evaluator.py --outputs benchmarks/sample_outputs.json
-
-Expected outcome:
-
-- Reduced semantic diffusion per unit compute
-
-- Improved stability without loss of correctness
-
-This path is model-agnostic and suitable for private, internal comparison.
+```
 
 ## Razor Diffusion Metric (RDM)
 
