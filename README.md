@@ -35,6 +35,19 @@ This repository remains an **implementation, benchmarking, and evaluation surfac
 
 ---
 
+### Context and Background
+
+Some aspects of Robbie’s Razor are grounded in geometric and recursion principles
+that extend beyond software implementation. For readers interested in the
+conceptual motivation behind geometry-aware compression and memory preservation,
+see:
+
+- [Projection Artifacts and Curved Geometry](docs/context/geometry-and-projection.md)
+
+This material is explanatory context only and does not affect benchmarks or code.
+
+---
+
 ## Evaluation & Licensing Contact
 
 This repository is intentionally published as an **evaluation artifact** for internal benchmarking by research labs, infrastructure teams, and system designers.
