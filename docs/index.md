@@ -47,6 +47,12 @@ These documents explore how Razor-aligned architectures impact hardware lifespan
   [`razor-hardware-longevity.md`](./razor-hardware-longevity.md)  
   Broader implications across accelerators, memory, and interconnects.
 
+  ### Empirical Context (Non-Canonical)
+
+- **Memory–Compute Allocation Minima**  
+  [`empirical/memory_compute_allocation_minima.md`](./empirical/memory_compute_allocation_minima.md)  
+  External empirical pattern showing a stability minimum under fixed resource budgets, consistent with Razor-governed compression–memory–recursion dynamics. Included as corroborative context only.
+
 ---
 
 ## 3. Infrastructure & Externalities
