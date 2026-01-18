@@ -33,6 +33,8 @@ This theorem formalizes the condition under which recursive systems remain seman
 
 This repository remains an **implementation, benchmarking, and evaluation surface** — not the canonical theory source.
 
+Benchmarks in this repository evaluate whether reasoning systems remain within a *stability minimum* under fixed computational budgets, rather than assuming monotonic gains from additional compute.
+
 ---
 
 ### Context and Background
