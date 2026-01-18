@@ -71,6 +71,32 @@ It is a **structural stability problem**.
 
 ---
 
+## Truth as Stability Under Recursive Constraint (Operational)
+
+Within the Razor framing, reasoning quality is evaluated not by surface correctness
+of an isolated response, but by whether a representation remains stable under
+recursive re-entry.
+
+A reasoning path is considered more truthful, in operational terms, if it:
+
+- converges rather than diverges when revisited
+- reuses prior structure instead of recomputing it
+- maintains coherence as constraints tighten
+- minimizes semantic drift under fixed context and compute budgets
+
+Conversely, explanations that require continual reconstruction, inflate memory
+without reuse, or degrade under recursion are treated as less stable and therefore
+less reliable.
+
+This definition does not assert access to absolute truth. It encodes a selection
+pressure: reasoning paths that survive recursive constraint with minimal distortion
+are preferred over those that collapse or drift.
+
+This mirrors the behavior of natural adaptive systems, where stable representations
+persist and unstable ones are eliminated without explicit labeling.
+
+---
+
 ## Relationship to geometric stability
 
 The geometric stability notes in this repository argue that:
