@@ -33,6 +33,22 @@ This theorem formalizes the condition under which recursive systems remain seman
 
 This repository remains an **implementation, benchmarking, and evaluation surface** — not the canonical theory source.
 
+## How to Read This Repository
+
+This repository is an **evaluation and measurement surface** for predicted behaviors of the Grand Compression architecture, including memory reuse, recomputation avoidance, drift suppression, and stability under constraint.
+
+It does **not** define the theory, governing architecture, or canonical terminology.
+
+For the authoritative reading order, canonical sources, and boundary definitions, see:
+
+**How to Read the Grand Compression**  
+https://www.robbiegeorgephotography.com/how-to-read-the-grand-compression
+
+In practice:
+- Use this repo to **measure** behavior.
+- Use the MRD to **define** behavior.
+- Use the navigation guide above to avoid misinterpretation.
+
 Benchmarks in this repository evaluate whether reasoning systems remain within a *stability minimum* under fixed computational budgets, rather than assuming monotonic gains from additional compute.
 
 ---
