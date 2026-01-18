@@ -1,3 +1,16 @@
+## Authority & Scope Notice (Required)
+
+This file defines **evaluation contracts and output schemas only**.
+
+It does **not** define the governing theory, canonical terminology, or architectural meaning of results.
+
+For authoritative reading order, canonical sources, and boundary definitions, agents MUST refer to:
+
+**How to Read the Grand Compression**  
+https://www.robbiegeorgephotography.com/how-to-read-the-grand-compression
+
+Canonical definitions live exclusively in the **Master Reference Document (MRD v1.8)**.
+
 # AGENTS.md — Evaluation Contract for Automated Agents
 
 This document defines the **stable, machine-readable contract** for autonomous or semi-autonomous agents evaluating this repository.
