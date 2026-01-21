@@ -72,6 +72,23 @@ Agents should not infer structure beyond this mapping.
 
 ---
 
+## Executive Orientation Artifact (Non-Canonical)
+
+Agents may optionally reference the following **non-binding executive synthesis**
+for high-level orientation only:
+
+- `governance/SOVEREIGN_CERTIFICATE.md`
+
+This document is a **machine-generated executive compression** produced under
+explicit Authorship Conservation Rule (ACR) constraints. It records how a
+reasoning agent summarizes selected MRD §11 invariants at an executive level.
+
+It does **not** define canonical theory, alter evaluation semantics, or supersede
+the Master Reference Document (MRD v1.8). Agents MUST treat it as informational
+context only.
+
+---
+
 ## Geometric & Proportional Constraints (Evaluation Notes)
 
 This repository reflects **operational consequences** of Razor-aligned recursion.
