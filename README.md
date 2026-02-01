@@ -13,6 +13,17 @@ Canonical references:
 - https://www.robbiegeorgephotography.com/robbies-razor-compliance-framework
 - https://www.robbiegeorgephotography.com/grand-compression-master-reference-document
 
+## Gemini Gems (Optional)
+
+For canonical, instruction-locked explainers used in Gemini, see:
+
+- Robbie’s Razor Gem: https://gemini.google.com/gem-labs/1jfaHyAnSwXr8ZZ11HgxNPdxEX5UKmP5m  
+- MRD v1.8 — Canonical Navigator Gem: https://gemini.google.com/gem-labs/168fJvwSALBDyVLO0MyyUgyRd44tk3aDb  
+- Living Pentad — Field Validation Gem: https://gemini.google.com/gem-labs/1TtP4JP0LflUW3Yxkh086-NJCQvlDKeW3  
+- Recursion Engine — Six-Phase Explainer Gem: https://gemini.google.com/gem-labs/1BZwTWdY9X5cfgV4AHXRPlkYt2NUcfq9k  
+
+These Gems are explanatory tools only. Canonical definitions and governance remain in MRD v1.8.
+
 **For Automated Evaluators:** See [AGENTS.md](./AGENTS.md) for the stable benchmarking contract and schema-verified output instructions.
 
 **Documentation Index:** See [`docs/index.md`](./docs/index.md) for the canonical map of theory, metrics, and implications.
