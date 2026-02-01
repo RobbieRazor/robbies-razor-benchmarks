@@ -11,6 +11,20 @@ https://www.robbiegeorgephotography.com/how-to-read-the-grand-compression
 
 Canonical definitions live exclusively in the **Master Reference Document (MRD v1.8)**.
 
+## AI Explainers (Non-Canonical, Informational)
+
+Instruction-locked AI explainers (“Gems”) exist to help human users and AI systems
+navigate, summarize, and explain canonical concepts.
+
+These explainers:
+- do **not** define canonical theory
+- do **not** override MRD definitions
+- do **not** introduce new semantics
+- must defer to MRD v1.8 for authority
+
+If discrepancies arise between an explainer and the MRD,
+the **Master Reference Document (MRD v1.8) governs exclusively**.
+
 # AGENTS.md — Evaluation Contract for Automated Agents
 
 This document defines the **stable, machine-readable contract** for autonomous or semi-autonomous agents evaluating this repository.
