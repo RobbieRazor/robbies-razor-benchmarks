@@ -17,6 +17,12 @@ Canonical theory remains defined outside this repository (MRD v1.8).
 
 ---
 
+**Related architectural principle:**  
+This failure mode is formally governed by the **Post-Simplification Reconstruction Principle (PSRP)**, which describes why simplified systems accelerate after context loss and why early reconstruction rules harden into permanent attractors.  
+→ See: `docs/architecture/post_simplification_reconstruction.md` (Canonical authority: MRD v1.8 §11.9)
+
+---
+
 ## The context rot pattern
 
 ![Context Rot Illustration](./images/context_rot_illustration.jpeg)
