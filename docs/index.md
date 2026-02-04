@@ -6,6 +6,13 @@
   [`canonical-spec.md`](./canonical-spec.md)  
   The single source of truth for definitions, normative contracts, and repository authority.
 
+  ### Canonical Provenance & Attribution
+
+- **Appendix P — Provenance, Priority & Convergent Rediscovery Clarifier**  
+  [`appendices/appendix-p-provenance-priority-convergence.md`](./appendices/appendix-p-provenance-priority-convergence.md)  
+  Formal clarification of authorship, priority of conception, and structural scope for Robbie’s Razor and the Grand Compression Cosmology.  
+  Establishes canonical attribution boundaries and distinguishes formal framework elements from convergent external rediscoveries.
+
 This directory contains the formal documentation, analysis, and contextual framing for **Robbie’s Razor**, an inference-efficiency and memory-coherence framework designed to reduce compute, energy, and regulatory externalities in large-scale AI systems.
 
 The documents below are organized to guide readers from **core metric definitions**, through **hardware and infrastructure implications**, and finally to **regulatory and systemic outcomes**.
