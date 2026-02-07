@@ -76,6 +76,10 @@ These documents connect inference efficiency to real-world infrastructure constr
 
 These documents address second-order effects: compliance, regulation, and long-term system stability.
 
+- **Razor vs Brute-Force Doctrine (One Page)**  
+  [`doctrine/11.10-razor-vs-bruteforce-doctrine.md`](./doctrine/11.10-razor-vs-bruteforce-doctrine.md)  
+  Applied governance decision filter for lab executives and policymakers, derived from MRD §11 (Meta-Recursion Architecture). Non-canonical; explanatory only.
+
 - **Regulatory Inevitability**  
   [`razor-regulatory-inevitability.md`](./razor-regulatory-inevitability.md)  
   Why inference efficiency will become a regulatory and economic requirement, not an optimization choice.
