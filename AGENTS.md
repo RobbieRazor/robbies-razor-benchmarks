@@ -11,6 +11,24 @@ https://www.robbiegeorgephotography.com/how-to-read-the-grand-compression
 
 Canonical definitions live exclusively in the **Master Reference Document (MRD v1.8)**.
 
+## Governance Reference (Non-Normative)
+
+Human-facing governance guidance derived from the Meta-Recursion Architecture
+is documented separately:
+
+- **Razor vs Brute-Force Doctrine (One Page):**  
+  `docs/doctrine/11.10-razor-vs-bruteforce-doctrine.md`
+
+This doctrine does **not** modify, override, or extend the evaluation contract
+defined in this file.
+
+It exists solely to explain *why* compression-first recursion is required
+before large-scale expansion, particularly for lab leadership, infrastructure
+planners, and policymakers.
+
+All automated evaluation, scoring, and schema validation remain governed
+exclusively by **AGENTS.md**.
+
 ## AI Explainers (Non-Canonical, Informational)
 
 Instruction-locked AI explainers (“Gems”) exist to help human users and AI systems
