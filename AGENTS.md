@@ -259,6 +259,48 @@ These metrics are provided for deeper efficiency and
 anti-gaming analysis and do not replace the canonical
 razor_compliance_score.
 
+---
+
+Diagnostic signals (non-contractual, informational only)
+
+The repository includes diagnostic artifacts that identify
+structural inefficiency patterns related to Boundary Avoidance
+and representational inflation.
+
+Diagnostics:
+- do NOT modify evaluation contracts
+- do NOT introduce new metrics
+- do NOT affect scoring or pass/fail outcomes
+- exist solely to flag architectural anti-patterns
+
+Precision-Limit Check (PLC) — Finite Representation Invariant
+
+The Precision-Limit Check (PLC) flags cases where a system’s
+numeric precision (e.g., FP64) exceeds the task’s physical
+reconstruction requirement.
+
+Interpretation rule for agents:
+- PLC findings are diagnostic signals only
+- Over-precision MAY indicate Boundary Avoidance
+- PLC does NOT imply incorrectness or failure
+- PLC does NOT mandate precision reduction
+
+Higher precision may be justified by:
+- ill-conditioned intermediate computations
+- numerical stability constraints
+- sensitivity amplification under recursion
+
+PLC exists to surface non-causal precision, not to prohibit
+precision use.
+
+Diagnostic specification (non-authoritative):
+`diagnostics/precision_limit_check.md`
+
+Canonical authority for Boundary Avoidance and the Finite
+Representation Invariant remains exclusively in MRD v1.8.
+
+---
+
 Agents should treat missing required keys in artifacts/run.json as schema violations
 
 Minimal agent task loop
