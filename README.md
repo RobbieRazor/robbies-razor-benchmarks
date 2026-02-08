@@ -227,6 +227,8 @@ structure across recursive iterations — reducing redundant recomputation,
 retraining frequency, and infrastructure churn under fixed energy and capital
 constraints.
 
+Within the Grand Compression architecture, governance, regulation, and infrastructure limits are treated as **External Compression Fields** that collapse expansion phase space and expose brute-force scaling as architectural immaturity rather than constraining intelligence development (see MRD §11.4.3).
+
 These effects are measured indirectly via token reuse, memory stabilization
 rates, semantic diffusion metrics (RDM / RDM*), and recomputation avoidance — not
 through financial or policy analysis.
