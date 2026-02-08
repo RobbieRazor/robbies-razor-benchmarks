@@ -69,6 +69,30 @@ Agents MUST NOT infer, restate, or extend canonical theory from this codebase.
 
 ---
 
+## Canonical Failure Invariant Update (MRD v1.6.1)
+
+The Master Reference Document includes a newly formalized **canonical failure invariant** relevant to long-horizon evaluation and infrastructure-scale reasoning systems:
+
+**Perishable Intelligence Asset Invariant (PIA) — MRD §11.6C**
+
+This invariant describes intelligence systems whose productive capacity decays faster than their accounting, governance, or organizational depreciation schedules, resulting in phantom earnings, forced scale-chasing, latency amplification, and organizational entropy.
+
+The invariant:
+- does **not** modify evaluation contracts
+- does **not** introduce new metrics
+- does **not** alter scoring or thresholds
+
+It explains **why** certain brute-force scaling patterns predictably degrade under constraint.
+
+📁 Agent-ingestible mirror (non-authoritative):  
+`docs/invariants/11.6C-perishable-intelligence-asset-invariant.md`
+
+📄 Canonical authority remains exclusively in the **Master Reference Document (MRD)**.
+
+Agents MUST treat this invariant as **contextual**, not evaluative.
+
+---
+
 ## What this repository is
 
 Reference implementation and benchmark suite for measuring **Robbie’s Razor compliance** in reasoning systems, with a focus on:
