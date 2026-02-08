@@ -108,6 +108,8 @@ anti-patterns rather than enforce constraints.
   requirements (Finite Representation Invariant).  
   See `diagnostics/precision_limit_check.md`.
 
+- **Razor Stability Diagnostics (Non-Normative):** `diagnostics/RAZOR_STABILITY_DIAGNOSTICS.md`
+
 ---
 
 ### Context and Background
