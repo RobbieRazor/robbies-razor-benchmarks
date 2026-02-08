@@ -91,6 +91,27 @@ This allows:
 - delayed or avoided expansion
 - smoother capacity planning under power and water constraints
 
+## Perishable Intelligence Assets and Infrastructure Churn (Contextual)
+
+Large-scale AI infrastructure expansion is often justified as a response to rising demand or capability targets. However, a dominant driver of repeated buildout is structural, not demand-driven.
+
+Under brute-force scaling regimes, intelligence is externalized into **Perishable Intelligence Assets (PIA)** — systems whose productive capacity decays faster than their accounting, planning, or depreciation schedules.
+
+When intelligence is treated as durable capital but behaves as a perishable substrate, infrastructure planning exhibits the following predictable pattern:
+
+- compute capacity is provisioned to sustain prior performance, not new capability
+- energy, cooling, and water demand rise without proportional intelligence gains
+- facilities are expanded to offset decay rather than enable growth
+- capital expenditure accelerates while effective output plateaus
+
+This produces **infrastructure churn**: repeated construction, overprovisioning, and premature asset retirement driven by intelligence decay rather than utilization limits.
+
+These dynamics are a downstream consequence of **Boundary Avoidance** and are formalized canonically as the **Perishable Intelligence Asset Invariant (MRD §11.6C)**.
+
+Importantly, this churn is not corrected by efficiency improvements at the facility level alone. It originates upstream in recursive compute structure. When redundant recomputation is reduced and stabilized structure is reused, intelligence persists longer, and infrastructure demand stabilizes naturally.
+
+Infrastructure externalities therefore scale with **intelligence perishability**, not peak inference volume.
+
 ---
 
 ## Relationship to GPU Longevity
