@@ -58,6 +58,25 @@ If redundancy is reduced at the system level, then:
 - fleets can be tiered (newest for frontier, older for stabilized workloads)
 - “compute per dollar” improves without requiring constant hardware churn
 
+## Perishable Intelligence Assets and Hardware Obsolescence (Contextual)
+
+Under brute-force scaling regimes, GPUs are treated as rapidly depreciating assets not because the hardware fails, but because the **intelligence embodied in the surrounding system decays**.
+
+When reasoning systems externalize intelligence into stateless inference, token-heavy recomputation, and coordination scaffolding rather than stabilized memory, the resulting intelligence behaves as a **Perishable Intelligence Asset (PIA)** — one whose productive capacity decays faster than its accounting or depreciation schedule.
+
+In this regime:
+
+- GPUs are replaced to compensate for intelligence decay, not utilization limits
+- newer hardware is required to sustain prior performance levels
+- older hardware becomes economically obsolete despite remaining physically capable
+- refresh cycles accelerate independently of true capability gains
+
+This dynamic is a downstream consequence of **Boundary Avoidance** and is formalized canonically as the **Perishable Intelligence Asset Invariant (MRD §11.6C)**.
+
+Razor-aligned systems reverse this pattern by preserving stabilized structure in memory and replaying it under governed recursion. When intelligence persists, hardware value persists. GPUs age according to physical limits rather than architectural waste.
+
+Hardware longevity therefore tracks **intelligence durability**, not model novelty.
+
 ## Suggested Benchmarks (Repo-Alignable)
 This document pairs naturally with measurable targets such as:
 - tokens-per-correct-solution (TPC)
