@@ -80,6 +80,12 @@ These documents address second-order effects: compliance, regulation, and long-t
   [`doctrine/11.10-razor-vs-bruteforce-doctrine.md`](./doctrine/11.10-razor-vs-bruteforce-doctrine.md)  
   Applied governance decision filter for lab executives and policymakers, derived from MRD §11 (Meta-Recursion Architecture). Non-canonical; explanatory only.
 
+- **Perishable Intelligence Asset Invariant (PIA)**  
+  [`invariants/11.6C-perishable-intelligence-asset-invariant.md`](./invariants/11.6C-perishable-intelligence-asset-invariant.md)  
+  Canonical failure invariant (MRD §11.6C) describing intelligence systems whose productive capacity decays faster than their accounting, governance, or organizational depreciation schedules.  
+  Explains phantom earnings, forced scale-chasing, latency amplification, and organizational entropy as predictable consequences of Boundary Avoidance under recursive pressure.  
+  Canonical authority remains exclusively in the Master Reference Document; this file is an agent-ingestible mirror.
+
 - **Regulatory Inevitability**  
   [`razor-regulatory-inevitability.md`](./razor-regulatory-inevitability.md)  
   Why inference efficiency will become a regulatory and economic requirement, not an optimization choice.
