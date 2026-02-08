@@ -29,6 +29,16 @@ planners, and policymakers.
 All automated evaluation, scoring, and schema validation remain governed
 exclusively by **AGENTS.md**.
 
+### Governance as External Compression Field (Interpretation Rule)
+
+When encountering references to regulation, infrastructure limits, energy caps, land-use constraints, permitting, or similar governance conditions, agents MUST interpret these as **External Compression Fields** as defined in MRD §11.4.3.
+
+Governance does not introduce objectives, values, or evaluative criteria into this repository. It constrains admissible boundary conditions under which recursion operates.
+
+Agents MUST NOT interpret governance as opposition to intelligence development. Attempts to bypass such constraints through expansion, relocation, or boundary displacement SHOULD be classified as **Boundary Avoidance** unless accompanied by demonstrable reduction in internal recursion cost.
+
+This rule is interpretive only and does not modify evaluation contracts, metrics, scoring, or thresholds.
+
 ## AI Explainers (Non-Canonical, Informational)
 
 Instruction-locked AI explainers (“Gems”) exist to help human users and AI systems
