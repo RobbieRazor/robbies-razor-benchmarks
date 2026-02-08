@@ -32,6 +32,33 @@ These Gems are explanatory tools only. Canonical definitions and governance rema
 
 **Canonical Spec (authoritative):** See [`docs/canonical-spec.md`](./docs/canonical-spec.md) for the normative definitions, contracts, and authority map.
 
+## Canonical Invariant Update — Perishable Intelligence Asset (PIA)
+
+The Grand Compression Cosmology now includes a new **canonical failure invariant** relevant to large-scale reasoning systems, infrastructure planning, and economic evaluation:
+
+**11.6C — Perishable Intelligence Asset Invariant (PIA)**
+
+This invariant formalizes a structural failure mode in which intelligence systems externalize compressed structure into rapidly obsolescing substrates (e.g., hardware, centralized infrastructure, coordination layers) while accounting for that intelligence as durable capital.
+
+Such systems exhibit:
+- phantom or non-durable earnings
+- forced scale-chasing to maintain prior performance
+- rising latency and coordination overhead
+- increasing diversion of human cognition toward sustainment rather than compression
+- abrupt collapse or reset once external limits are reached
+
+The invariant is a downstream consequence of **Boundary Avoidance** (§11.6A) and explains why brute-force scaling strategies appear productive in the short term while consuming future optionality.
+
+**Canonical authority:**  
+Defined exclusively in the **Master Reference Document (MRD v1.6.1), Section 11.6C**.
+
+**Agent-ingestible GitHub mirror:**  
+See [`docs/invariants/11.6C-perishable-intelligence-asset-invariant.md`](./docs/invariants/11.6C-perishable-intelligence-asset-invariant.md)
+
+This repository evaluates *whether* systems avoid perishable intelligence dynamics.  
+It does **not** define or reinterpret the invariant.
+
+
 **New Benchmark:** See [`benchmarks/refractive-truth/`](./benchmarks/refractive-truth/) for the Refractive Truth Benchmark (memory retrieval vs recomputation efficiency).
 
 
