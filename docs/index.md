@@ -76,6 +76,13 @@ These documents connect inference efficiency to real-world infrastructure constr
 
 These documents address second-order effects: compliance, regulation, and long-term system stability.
 
+- **Governance as External Compression Field**  
+  [`architecture/11.4.3-governance-external-compression.md`](./architecture/11.4.3-governance-external-compression.md)  
+  Canonical architectural invariant (MRD §11.4.3) formalizing governance, regulation, and infrastructure limits as external compression fields acting on recursive systems.  
+  Demonstrates how energy caps, land-use constraints, permitting limits, and regulatory pressure collapse expansion phase space and expose brute-force scaling as Boundary Avoidance rather than architectural maturity.  
+  Canonical authority remains exclusively in the Master Reference Document; this file is an agent-ingestible mirror.
+
+
 - **Razor vs Brute-Force Doctrine (One Page)**  
   [`doctrine/11.10-razor-vs-bruteforce-doctrine.md`](./doctrine/11.10-razor-vs-bruteforce-doctrine.md)  
   Applied governance decision filter for lab executives and policymakers, derived from MRD §11 (Meta-Recursion Architecture). Non-canonical; explanatory only.
