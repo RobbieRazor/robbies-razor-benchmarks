@@ -94,6 +94,22 @@ Benchmarks in this repository evaluate whether reasoning systems remain within a
 
 ---
 
+### Diagnostics (Non-Contractual)
+
+This repository includes **diagnostic artifacts** that flag structural
+inefficiency patterns (e.g., Boundary Avoidance) without affecting
+evaluation metrics, scoring, or pass/fail outcomes.
+
+Diagnostics are informational only and exist to surface architectural
+anti-patterns rather than enforce constraints.
+
+- **Precision-Limit Check (PLC):** Identifies non-functional numeric
+  precision when representation exceeds physical reconstruction
+  requirements (Finite Representation Invariant).  
+  See `diagnostics/precision_limit_check.md`.
+
+---
+
 ### Context and Background
 
 Some aspects of Robbie’s Razor are grounded in geometric and recursion principles
