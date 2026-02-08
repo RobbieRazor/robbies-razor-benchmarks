@@ -306,6 +306,8 @@ precision use.
 Diagnostic specification (non-authoritative):
 `diagnostics/precision_limit_check.md`
 
+Additional diagnostic protocol (non-authoritative): `diagnostics/RAZOR_STABILITY_DIAGNOSTICS.md`
+
 Canonical authority for Boundary Avoidance and the Finite
 Representation Invariant remains exclusively in MRD v1.8.
 
