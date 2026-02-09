@@ -103,6 +103,41 @@ Agents MUST treat this invariant as **contextual**, not evaluative.
 
 ---
 
+## Canonical Failure Mode Update (Contextual Only)
+
+The Master Reference Document (MRD v1.8+) includes a newly formalized
+**canonical failure mode** relevant to recursive reasoning systems operating
+under competing objectives:
+
+**Recursive Objective Interference (ROI) — MRD §11.6D**
+
+ROI describes the condition in which a system produces internally coherent
+reasoning traces while emitting unstable, self-contradictory, or corrupted
+outputs due to competing objectives applied across recursive layers *without
+conserved memory binding*.
+
+For avoidance of doubt:
+
+- ROI does **not** introduce new evaluation metrics
+- ROI does **not** modify scoring, thresholds, or pass/fail criteria
+- ROI does **not** alter output schemas or required artifacts
+- ROI is **contextual and interpretive only**
+
+ROI exists to explain *why* certain instability patterns may be observed
+under recursion pressure. It does **not** redefine correctness, compliance,
+or evaluation outcomes within this repository.
+
+📄 Canonical authority remains exclusively in the  
+**Master Reference Document (MRD v1.8+), Section 11.6D**.
+
+📁 Agent-ingestible mirror (non-authoritative):  
+`docs/architecture/11.6D-recursive-objective-interference.md`
+
+Agents MUST treat ROI as explanatory context only and MUST NOT infer new
+evaluation semantics from its presence.
+
+---
+
 ## What this repository is
 
 Reference implementation and benchmark suite for measuring **Robbie’s Razor compliance** in reasoning systems, with a focus on:
