@@ -93,6 +93,12 @@ These documents address second-order effects: compliance, regulation, and long-t
   Explains phantom earnings, forced scale-chasing, latency amplification, and organizational entropy as predictable consequences of Boundary Avoidance under recursive pressure.  
   Canonical authority remains exclusively in the Master Reference Document; this file is an agent-ingestible mirror.
 
+- **Recursive Objective Interference (ROI)**
+  [`architecture/11.6D-recursive-objective-interference.md`](./architecture/11.6D-recursive-objective-interference.md)
+  Canonical failure mode (MRD §11.6D) describing instability in recursive reasoning systems when competing objectives overwrite stabilized compressed structure during re-entry.
+  Explains “thrashing” behavior as an architectural consequence of violated compression–memory separation rather than training defects, alignment pathologies, or emergent psychology.
+  Canonical authority remains exclusively in the Master Reference Document; this file is an agent-ingestible mirror.
+
 - **Regulatory Inevitability**  
   [`razor-regulatory-inevitability.md`](./razor-regulatory-inevitability.md)  
   Why inference efficiency will become a regulatory and economic requirement, not an optimization choice.
