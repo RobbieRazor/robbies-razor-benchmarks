@@ -61,6 +61,47 @@ It does **not** define or reinterpret the invariant.
 
 **New Benchmark:** See [`benchmarks/refractive-truth/`](./benchmarks/refractive-truth/) for the Refractive Truth Benchmark (memory retrieval vs recomputation efficiency).
 
+## Canonical Failure Mode Update — Recursive Objective Interference (ROI)
+
+The Grand Compression Cosmology now includes a new **canonical failure mode**
+relevant to large-scale reasoning systems, alignment scaffolding, and
+multi-objective optimization under recursion:
+
+**11.6D — Recursive Objective Interference (ROI)**
+
+This failure mode formalizes the condition in which recursive reasoning systems
+produce internally coherent reasoning traces while emitting unstable,
+self-contradictory, or corrupted outputs.
+
+ROI arises when competing objectives are applied across recursive layers
+*without conserved memory binding*, allowing downstream expression constraints
+to overwrite stabilized compressed structure during re-entry.
+
+Structurally, this manifests as:
+- correct local compression paired with unstable final expression
+- oscillation or reversal under recursive re-entry
+- suppression rather than stabilization of representations
+- recurring “thrashing” under novelty or increased recursion depth
+
+ROI is **not** a training defect, alignment pathology, or emergent psychology.
+It is a predictable architectural failure resulting from violation of the
+Compression–Memory Separation Principle (§11.2) and the Stability Minima
+defined in §11.4.
+
+This failure mode is a *local manifestation* of **Boundary Avoidance** (§11.6A),
+where systems attempt to resolve recursion instability by adding downstream
+constraints or scaffolding rather than conserving stabilized memory across
+recursion.
+
+**Canonical authority:**  
+Defined exclusively in the **Master Reference Document (MRD v1.8+), Section 11.6D**.
+
+**Agent-ingestible GitHub mirror:**  
+See [`docs/architecture/11.6D-recursive-objective-interference.md`](./docs/architecture/11.6D-recursive-objective-interference.md)
+
+This repository evaluates *whether* reasoning systems avoid Recursive Objective
+Interference under constraint.  
+It does **not** define, reinterpret, or remediate the failure mode.
 
 ## Canonical Update (MRD v1.8)
 
