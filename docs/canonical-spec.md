@@ -161,24 +161,25 @@ Runner:
 
 ## 8. Intended Interpretation (Governance)
 
-This repository is **model-agnostic** and **hardware-agnostic** by design.
+This repository is model-agnostic and hardware-agnostic by design.
 
-- Inference parity means comparable task-level outcomes under constraint,
-  not identical throughput or latency.
-- Efficiency gains are attributed to governed recursion and stabilized memory,
-  not specialized hardware assumptions.
-- Results should be interpreted as **logic density / redundant work reduction**,
-  not as a vendor leaderboard.
+- Inference parity means comparable task-level outcomes under constraint, not identical throughput or latency.
+- Efficiency gains are attributed to governed recursion and stabilized memory, not specialized hardware assumptions.
+- Results should be interpreted as logic density / redundant work reduction, not as a vendor leaderboard.
 
-### 8.1 Economic recursion interpretation boundary (Derived)
+### 8.1 Economic Recursion Interpretation Boundary (Derived)
 
-This repo does not claim or measure macroeconomic viability (capex, debt, profitability) of any lab, vendor, or deployment. However, for readers who wish to apply MRD-consistent economic diagnostics to recursive systems, see the derived barrier test:
+This repository does **not** claim or measure macroeconomic viability (capex, debt, profitability) of any lab, vendor, or deployment.
+
+However, for readers who wish to apply MRD-consistent economic diagnostics to recursive systems, see the derived barrier test:
 
 - `docs/diagnostics/economic-recursion-barrier-diagnostic.md` (derived from MRD §11.11)
 
-This diagnostic is explanatory and interpretive only; it does not modify benchmark scoring, evaluator contracts, or metric definitions.
+This diagnostic is explanatory and interpretive only.  
+It does not modify benchmark scoring, evaluator contracts, or metric definitions.
 
 See:
+
 - `governance/README.md`
 - `governance/INFERENCE_PARITY_*.md`
 - `governance/STRATEGIC_CONTEXT.md`
