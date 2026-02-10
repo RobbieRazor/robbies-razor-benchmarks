@@ -138,6 +138,7 @@ controlled eviction (e.g., LRU), serving as the implementation anchor for
 - `docs/` notes that are explicitly explanatory (externalities, longevity, regulatory inevitability)
 - `notebooks/` (illustrative analysis and plots)
 - Diagrams/images (illustrative, not claims)
+- `docs/diagnostics/economic-recursion-barrier-diagnostic.md` (derived from MRD §11.11; diagnostic only)
 
 ---
 
@@ -169,6 +170,14 @@ This repository is **model-agnostic** and **hardware-agnostic** by design.
 - Results should be interpreted as **logic density / redundant work reduction**,
   not as a vendor leaderboard.
 
+### 8.1 Economic recursion interpretation boundary (Derived)
+
+This repo does not claim or measure macroeconomic viability (capex, debt, profitability) of any lab, vendor, or deployment. However, for readers who wish to apply MRD-consistent economic diagnostics to recursive systems, see the derived barrier test:
+
+- `docs/diagnostics/economic-recursion-barrier-diagnostic.md` (derived from MRD §11.11)
+
+This diagnostic is explanatory and interpretive only; it does not modify benchmark scoring, evaluator contracts, or metric definitions.
+
 See:
 - `governance/README.md`
 - `governance/INFERENCE_PARITY_*.md`
@@ -198,8 +207,9 @@ This repository may evolve, but the canonical intent is preserved via:
 - evaluator contracts (`AGENTS.md`)
 - schema validation paths
 
-**Spec Version:** 1.0  
-**Last updated:** 2026-01-15
+**Spec Version:** 1.1  
+**Last updated:** 2026-02-10  
 
 ### Changelog
+- v1.1 — Added non-normative reference to the Economic Recursion Barrier Diagnostic (derived from MRD §11.11) and clarified interpretation boundaries.
 - v1.0 — Initial canonical specification page added.
