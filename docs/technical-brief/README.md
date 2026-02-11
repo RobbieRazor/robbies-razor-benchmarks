@@ -15,3 +15,4 @@ This document provides a concise, engineering-facing overview of a structural st
 
 ## PDF
 - https://images.discerningassets.com/image/upload/v1770834703/Robbies_Razor_Recursive_Stability_Executive_Technical_Brief_v1.0_b0ooir.pdf
+- Local copy: Robbies_Razor_Recursive_Stability_Executive_Technical_Brief_v1.0.pdf
