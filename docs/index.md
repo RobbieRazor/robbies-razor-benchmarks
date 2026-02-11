@@ -66,6 +66,12 @@ These documents explore how Razor-aligned architectures impact hardware lifespan
 
 These documents connect inference efficiency to real-world infrastructure constraints.
 
+- **Physical Substrate Constraint Field (MRD §11.4.4 Canonical)**  
+  [`physical-substrate-constraint-field.md`](./physical-substrate-constraint-field.md)  
+  Canonical architectural invariant defining energy, fabrication, material, and infrastructure limits as the physical bounding field governing recursive acceleration.  
+  Establishes the stability condition Gᵣ ≤ Eₛ and formalizes punctuated growth under real-world constraint.  
+  Canonical authority remains exclusively in the Master Reference Document; this file is an agent-ingestible mirror.
+
 - **Infrastructure Externalities**  
   [`razor-infrastructure-externalities.md`](./razor-infrastructure-externalities.md)  
   Power, cooling, water usage, and grid impact analysis.
