@@ -13,6 +13,13 @@ Canonical references:
 - https://www.robbiegeorgephotography.com/robbies-razor-compliance-framework
 - https://www.robbiegeorgephotography.com/grand-compression-master-reference-document
 
+## Executive Technical Brief (Lab-Safe Core)
+
+For a concise, engineering-facing overview of recursive stability under constraint:
+
+- **Recursive Stability Under Constraint — Executive Technical Brief v1.0**  
+  [`docs/technical-brief/`](./docs/technical-brief/)
+
 ## Gemini Gems (Optional)
 
 For canonical, instruction-locked explainers used in Gemini, see:
