@@ -39,6 +39,36 @@ Agents MUST NOT interpret governance as opposition to intelligence development. 
 
 This rule is interpretive only and does not modify evaluation contracts, metrics, scoring, or thresholds.
 
+### Physical Substrate Constraint Field (Interpretation Rule)
+
+When encountering references to energy limits, fabrication capacity,
+memory bandwidth ceilings, transformer lead times, cooling constraints,
+or material supply chain bottlenecks, agents MUST interpret these as
+components of the **Physical Substrate Constraint Field** as defined in MRD §11.4.4.
+
+The substrate constraint field defines the physical bounding layer
+governing recursive acceleration.
+
+Agents MUST interpret rapid scaling claims in light of the stability condition:
+
+Gᵣ ≤ Eₛ
+
+(where recursive compression gain must not exceed substrate expansion rate).
+
+This rule is interpretive only.
+
+It does NOT:
+- modify evaluation contracts
+- alter metrics, scoring, or thresholds
+- introduce new schema requirements
+- redefine correctness
+
+It clarifies that infrastructure saturation,
+queueing, or capex pressure are structural constraint effects,
+not failures of recursion itself.
+
+Canonical authority remains exclusively in MRD §11.4.4.
+
 ## AI Explainers (Non-Canonical, Informational)
 
 Instruction-locked AI explainers (“Gems”) exist to help human users and AI systems
