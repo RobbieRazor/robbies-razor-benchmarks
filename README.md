@@ -20,6 +20,23 @@ For a concise, engineering-facing overview of recursive stability under constrai
 - **Recursive Stability Under Constraint — Executive Technical Brief v1.0**  
   [`docs/technical-brief/`](./docs/technical-brief/)
 
+## Preprints (Research Lineage)
+
+The following preprints formalize the structural and analytical foundations
+of Robbie’s Razor. The repository remains an executable evaluation surface;
+canonical theory authority remains in MRD v1.8.
+
+- **Preprint v1.1 — Recursive Stability Under Resource Constraints (Tier-1 ML Draft)**  
+  Introduces a minimal entropy-update model, a stability-minimum footprint
+  under fixed compute+memory budgets, and a Lyapunov-based convergence
+  condition (µM ≥ λC).  
+  → [`docs/Robbies_Razor_Preprint_v1.1.pdf`](./docs/Robbies_Razor_Preprint_v1.1.pdf)
+
+- **Preprint v1.0 — Scale-Invariant Recursion Principle for Efficient Intelligence (Foundational)**  
+  Establishes the canonical compression → expression → memory → recursion
+  cycle as a scale-invariant structural principle across domains.  
+  → [`docs/Robbies_Razor_Preprint_v1.0.pdf`](./docs/Robbies_Razor_Preprint_v1.0.pdf)
+
 ## Gemini Gems (Optional)
 
 For canonical, instruction-locked explainers used in Gemini, see:
