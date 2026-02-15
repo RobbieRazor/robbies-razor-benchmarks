@@ -13,6 +13,9 @@ Canonical references:
 - https://www.robbiegeorgephotography.com/robbies-razor-compliance-framework
 - https://www.robbiegeorgephotography.com/grand-compression-master-reference-document
 
+**New to the repo?** Start here: [`START_HERE.md`](./START_HERE.md)  
+(Engineering-first path: evaluation protocol → compliance → empirical notes → benchmarks.)
+
 ## Executive Technical Brief (Lab-Safe Core)
 
 For a concise, engineering-facing overview of recursive stability under constraint:
