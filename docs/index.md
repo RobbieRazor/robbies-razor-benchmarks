@@ -60,6 +60,12 @@ These documents explore how Razor-aligned architectures impact hardware lifespan
   [`empirical/memory_compute_allocation_minima.md`](./empirical/memory_compute_allocation_minima.md)  
   External empirical pattern showing a stability minimum under fixed resource budgets, consistent with Razor-governed compression–memory–recursion dynamics. Included as corroborative context only.
 
+  - **v1.4 — Depth-8 Refresh Cadence Sweep (Empirical Note)**  
+  [`empirical/v1.4-empirical-note.md`](./empirical/v1.4-empirical-note.md)  
+  Controlled depth-8 recursive compression experiments across compute-heavy, memory-heavy, and balanced refresh regimes.  
+  Demonstrates fixture-dependent retention behavior and non-monotonic cadence effects under constraint-heavy content.  
+  Exploratory and non-canonical.
+
 ---
 
 ## 3. Infrastructure & Externalities
