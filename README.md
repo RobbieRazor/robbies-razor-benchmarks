@@ -41,6 +41,25 @@ This repository remains an executable evaluation surface; canonical theory autho
   Establishes the canonical compression → expression → memory → recursion cycle as a scale-invariant structural principle across domains.  
   → [`docs/Robbies_Razor_Preprint_v1.0.pdf`](./docs/Robbies_Razor_Preprint_v1.0.pdf)
 
+---
+
+## Empirical Notes (Experimental Layer)
+
+The following documents report controlled empirical probes of recursive stability under fixed depth and constrained refresh policies.
+
+These notes are exploratory and non-canonical.  
+They evaluate drift behavior across memory–compute allocation regimes using reproducible harnesses in this repository.
+
+- **v1.4 — Depth-8 Refresh Cadence Sweep (Constraint-Heavy & Collision-Heavy Fixtures)**  
+  Early empirical exploration of recursive stability across compute-heavy, memory-heavy, and balanced refresh regimes.  
+  Demonstrates fixture-dependent retention patterns and non-monotonic cadence effects under constraint-heavy content.  
+  → [`docs/empirical/v1.4-empirical-note.md`](./docs/empirical/v1.4-empirical-note.md)
+
+Canonical authority remains exclusively in MRD v1.8.  
+These notes measure predicted behavior; they do not define theory.
+
+---
+
 ## Gemini Gems (Optional)
 
 For canonical, instruction-locked explainers used in Gemini, see:
