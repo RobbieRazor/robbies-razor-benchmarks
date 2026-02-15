@@ -6,6 +6,19 @@
   [`canonical-spec.md`](./canonical-spec.md)  
   The single source of truth for definitions, normative contracts, and repository authority.
 
+## Recommended Reading Paths
+
+**For labs / engineers (evaluation-first):**
+1. Lab evaluation protocol (website)
+2. Compliance framework (website)
+3. Empirical notes: `empirical/`
+4. Benchmarks: `../benchmarks/`
+
+**For theory / canonical definitions:**
+1. Canonical spec: `canonical-spec.md`
+2. Architecture + invariants: `architecture/`, `invariants/`
+3. MRD (authoritative on website)
+
   ### Canonical Provenance & Attribution
 
 - **Appendix P — Provenance, Priority & Convergent Rediscovery Clarifier**  
