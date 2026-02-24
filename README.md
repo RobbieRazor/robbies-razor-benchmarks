@@ -110,6 +110,36 @@ It does **not** define or reinterpret the invariant.
 
 
 **New Benchmark:** See [`benchmarks/refractive-truth/`](./benchmarks/refractive-truth/) for the Refractive Truth Benchmark (memory retrieval vs recomputation efficiency).
+---
+
+## Question Quality Under Constraint (QQC) Benchmark — v1.2
+
+A structural diagnostic benchmark for evaluating **question framing efficiency**
+under fixed topic context and constrained reasoning budgets.
+
+Location:
+[`benchmarks/qqc_v12/`](./benchmarks/qqc_v12/)
+
+Purpose:
+Measure whether candidate questions:
+
+- Compress hypothesis space efficiently
+- Converge toward stable minima under constraint
+- Maintain boundary integrity
+- Avoid scope explosion
+- Encourage recursion efficiency
+- Align with compression → expression → memory → recursion framing
+
+The QQC benchmark evaluates structural reward relative to an energy proxy
+(token cost per coherence gain) across multi-trial runs.
+
+This benchmark is:
+- Non-normative
+- Diagnostic only
+- Not a licensing authority
+- Not a governance claim
+
+Canonical theory authority remains exclusively in MRD v1.8.
 
 ## Canonical Failure Mode Update — Recursive Objective Interference (ROI)
 
