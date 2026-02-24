@@ -198,6 +198,24 @@ Use this map to orient before execution:
 - **Benchmarks:** `benchmarks/`  
   _The Proof_ — executable tests and measurable outcomes  
   - **Refractive Truth Benchmark** (`benchmarks/refractive-truth/`): Evaluates memory retrieval and stabilization efficiency versus recomputation using the Razor memory substrate.
+  - **Question Quality Under Constraint (QQC) Benchmark — v1.2**
+    (`benchmarks/qqc_v12/`): Evaluates structural efficiency of question framing under fixed topic context using multi-trial scoring across:
+      - Compression Gradient
+      - Stability Convergence
+      - Boundary Integrity
+      - Recursive Depth Efficiency
+      - Coherence Gain
+      - Constraint Adherence
+      - Razor Alignment
+
+    The QQC benchmark compares structural reward relative to an energy proxy
+    (token cost per coherence gain).
+
+    This benchmark is diagnostic only and does NOT:
+      - modify evaluation contracts
+      - introduce new required metrics
+      - alter scoring, thresholds, or pass/fail criteria
+      - supersede canonical MRD authority
 
 Agents should not infer structure beyond this mapping.
 
