@@ -14,3 +14,15 @@ architectural laws without redefining them.
   reconstruction rule becomes a permanent attractor.  
   **Canonical authority:** MRD v1.8 §11.9  
   → `post_simplification_reconstruction.md`
+
+- **Structural Intelligence Engineering (Applied Recursion Layer)**  
+  Defines the applied constraint architecture for stabilizing recursive systems under
+  energy, memory, and competitive pressure. Introduces:
+  - Complexity Threshold Collapse (CTC)
+  - The Governor Principle
+  - Energy–Recursion Coupling
+  - Competitive Acceleration Stress
+  - Constraint Ownership Asymmetry
+  - QQC (Question Quality Under Constraint) instrumentation  
+  **Canonical authority:** MRD v1.9 §12  
+  → `12.0-structural-intelligence-engineering.md`
