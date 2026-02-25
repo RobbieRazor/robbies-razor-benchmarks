@@ -6,6 +6,26 @@ This benchmark compares candidate question framings under a fixed topic context 
 
 ---
 
+## Canonical Reference (MRD Alignment)
+
+This benchmark operationalizes the applied recursion stability layer defined in:
+
+**Master Reference Document (MRD v1.9) — Section 12.8  
+Structural Intelligence Engineering (QQC Instrumentation)**
+
+QQC is an upstream Governor prototype as described in MRD §12. It implements constraint-aware question evaluation to reduce entropy expansion prior to recursive depth execution.
+
+For avoidance of doubt:
+
+- QQC does **not** modify evaluation contracts in AGENTS.md
+- QQC does **not** introduce new required metrics
+- QQC does **not** supersede canonical MRD authority
+- QQC exists as diagnostic instrumentation only
+
+Canonical theory remains exclusively in the MRD.
+
+---
+
 ## Purpose
 
 Large language models make answers abundant.
