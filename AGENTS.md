@@ -109,6 +109,38 @@ Agents MUST NOT infer, restate, or extend canonical theory from this codebase.
 
 ---
 
+## Canonical Applied Architecture Update (MRD v1.9)
+
+The Master Reference Document (MRD v1.9) introduces a new canonical applied layer:
+
+**Structural Intelligence Engineering — MRD §12**
+
+This section formalizes the applied constraint architecture required to
+stabilize probabilistic recursive systems under energy, memory, and
+competitive acceleration pressure.
+
+Key constructs include:
+
+- **Complexity Threshold Collapse (CTC)** — structural instability under compositional depth
+- **The Governor Principle** — deterministic constraint layers required for recursion stability
+- **Energy–Recursion Coupling** — non-linear scaling limits under substrate constraint
+- **Competitive Acceleration Stress** — instability risk under capital and infrastructure pressure
+- **Constraint Ownership Asymmetry** — recursion imbalance from bottleneck concentration
+- **QQC (Question Quality Under Constraint)** — upstream governor instrumentation
+
+For avoidance of doubt:
+
+- §12 does **not** modify evaluation contracts
+- §12 does **not** introduce new required metrics
+- §12 does **not** alter scoring, thresholds, or pass/fail criteria
+- §12 does **not** redefine output schema
+
+It formalizes the applied stability layer beneath MRD §11 (Meta-Recursion Architecture).
+
+📄 Canonical authority remains exclusively in the  
+**Master Reference Document (MRD v1.9), Section 12**.
+
+Agents MUST treat §12 as interpretive architectural context only and MUST NOT infer new evaluation semantics from its presence.
 ## Canonical Failure Invariant Update (MRD v1.6.1)
 
 The Master Reference Document includes a newly formalized **canonical failure invariant** relevant to long-horizon evaluation and infrastructure-scale reasoning systems:
