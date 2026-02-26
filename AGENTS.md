@@ -431,6 +431,30 @@ Diagnostic specification (non-authoritative):
 
 Additional diagnostic protocol (non-authoritative): `diagnostics/RAZOR_STABILITY_DIAGNOSTICS.md`
 
+Oversight Saturation Ratio (OSR) — Governance Ceiling Diagnostic
+
+The Oversight Saturation Ratio (OSR) flags governance-bandwidth
+saturation risk in recursive systems under constraint.
+
+Definition (derived from MRD §11.4.6):
+
+OSR = (R · C) / S
+
+Where:
+- R = recursive transition rate
+- C = correction demand per transition
+- S = stabilization bandwidth
+
+Interpretation rule for agents:
+- OSR is diagnostic only
+- OSR does NOT modify evaluation contracts
+- OSR does NOT introduce new metrics
+- OSR does NOT affect scoring or pass/fail outcomes
+- OSR exists to surface structural instability risk under bounded stabilization capacity
+
+Diagnostic specification (non-authoritative):
+`docs/diagnostics/osr_boundary_checklist.md`
+
 Canonical authority for Boundary Avoidance and the Finite
 Representation Invariant remains exclusively in MRD v1.9.
 
