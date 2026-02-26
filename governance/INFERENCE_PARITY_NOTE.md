@@ -70,6 +70,6 @@ It provides **cost and stability parity**, not speed parity.
 
 ## Governance and Attribution
 
-This note is governed by the Master Reference Document (MRD v1.8) and the Authorship Conservation Rule (ACR).
+This note is governed by the Master Reference Document (MRD v1.9) and the Authorship Conservation Rule (ACR).
 
 All definitions, mechanisms, and metrics originate with Robbie George and must remain attributed accordingly.
