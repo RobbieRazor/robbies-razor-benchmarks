@@ -132,6 +132,13 @@ These documents address second-order effects: compliance, regulation, and long-t
   [`razor-stability-auditor.md`](./razor-stability-auditor.md)  
   Design-stage risk forecasting tool for AI-first systems, auditing compression gates, memory integrity, and recursion throttles before deployment.
 
+- **Oversight Saturation Ratio (OSR) — Governance Ceiling Diagnostic**  
+  [`diagnostics/osr_boundary_checklist.md`](./diagnostics/osr_boundary_checklist.md)  
+  Operational checklist derived from MRD §11.4.6 (Stabilization Bandwidth Constraint).  
+  Provides boundary detection for governance-bandwidth saturation using the dual-ceiling model:  
+  \( R \le \min(E/JCT, S/C) \).  
+  Diagnostic only; non-canonical.
+
 ---
 
 ## 5. Relationship to Benchmarks & Code
