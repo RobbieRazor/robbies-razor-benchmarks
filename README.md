@@ -68,6 +68,10 @@ They evaluate drift behavior across memory–compute allocation regimes using re
   Demonstrates fixture-dependent retention patterns and non-monotonic cadence effects under constraint-heavy content.  
   → [`docs/empirical/v1.4-empirical-note.md`](./docs/empirical/v1.4-empirical-note.md)
 
+  - **Governance Ceiling Operationalization (OSR + Dual-Ceiling)**  
+  Operational proxies for \(R, C, S\), the dual-ceiling safe envelope, and the Oversight Saturation Ratio (OSR) derived from MRD §11.4.6.  
+  → [`docs/empirical/governance_ceiling_operationalization.md`](./docs/empirical/governance_ceiling_operationalization.md)
+
 Canonical authority remains exclusively in MRD v1.9.  
 These notes measure predicted behavior; they do not define theory.
 
