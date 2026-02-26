@@ -1,6 +1,6 @@
 ---
 title: "Economic Recursion Barrier Diagnostic (Derived)"
-mrd_section: "MRD v1.8 §11.11 (Economic Recursion Constraint)"
+mrd_section: "MRD v1.9 §11.11 (Economic Recursion Constraint)"
 status: "Derived / Diagnostic (No new axioms)"
 author: "Robbie George"
 canonical_invariant: "Compression → Expression → Memory → Recursion (Robbie’s Razor)"
