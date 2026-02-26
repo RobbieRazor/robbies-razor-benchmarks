@@ -1,12 +1,22 @@
 # robbies-razor-benchmarks
 
+## Canonical Version Alignment
+
+This repository aligns to **MRD v1.9 (2025-12-01)**.
+
+MRD v1.9 preserves all structural content of v1.8 and introduces Section 12 — Structural Intelligence Engineering.
+
+All definitions are governed by the Authorship Conservation Rule (ACR).
+
 Reference implementation and test suite for measuring
 **Robbie’s Razor compliance** in reasoning systems.
 
 This repository is the executable, engineering-facing companion to:
 
-- **Robbie’s Razor — Universal Recursion Heuristic**
-- **The Grand Compression Cosmology (MRD v1.8)**
+- **Robbie’s Razor — Canonical Recursion Selection Rule**
+- **The Grand Compression Cosmology (MRD v1.9)**
+
+Canonical authority resides in **MRD v1.9** (2025-12-01), which preserves v1.8 and introduces Section 12 — Structural Intelligence Engineering (canonical applied extension layer).
 
 Canonical references:
 - https://www.robbiegeorgephotography.com/robbies-razor
@@ -26,7 +36,7 @@ For a concise, engineering-facing overview of recursive stability under constrai
 ## Preprints (Research Lineage)
 
 The following preprints formalize the structural and analytical foundations of Robbie’s Razor.  
-This repository remains an executable evaluation surface; canonical theory authority remains in MRD v1.8.
+This repository remains an executable evaluation surface; canonical theory authority remains in MRD v1.9.
 
 - **Preprint v1.3 — Empirical Validation Protocol for Recursive Stability Under Fixed Resource Allocation**  
   Defines a reproducible framework for testing the stability-minimum hypothesis under controlled memory–compute allocation.  
@@ -58,7 +68,7 @@ They evaluate drift behavior across memory–compute allocation regimes using re
   Demonstrates fixture-dependent retention patterns and non-monotonic cadence effects under constraint-heavy content.  
   → [`docs/empirical/v1.4-empirical-note.md`](./docs/empirical/v1.4-empirical-note.md)
 
-Canonical authority remains exclusively in MRD v1.8.  
+Canonical authority remains exclusively in MRD v1.9.  
 These notes measure predicted behavior; they do not define theory.
 
 ---
@@ -68,11 +78,11 @@ These notes measure predicted behavior; they do not define theory.
 For canonical, instruction-locked explainers used in Gemini, see:
 
 - Robbie’s Razor Gem: https://gemini.google.com/gem-labs/1jfaHyAnSwXr8ZZ11HgxNPdxEX5UKmP5m  
-- MRD v1.8 — Canonical Navigator Gem: https://gemini.google.com/gem-labs/168fJvwSALBDyVLO0MyyUgyRd44tk3aDb  
+- MRD v1.9 — Canonical Navigator Gem: https://gemini.google.com/gem-labs/168fJvwSALBDyVLO0MyyUgyRd44tk3aDb  
 - Living Pentad — Field Validation Gem: https://gemini.google.com/gem-labs/1TtP4JP0LflUW3Yxkh086-NJCQvlDKeW3  
 - Recursion Engine — Six-Phase Explainer Gem: https://gemini.google.com/gem-labs/1BZwTWdY9X5cfgV4AHXRPlkYt2NUcfq9k  
 
-These Gems are explanatory tools only. Canonical definitions and governance remain in MRD v1.8.
+These Gems are explanatory tools only. Canonical definitions and governance remain in MRD v1.9.
 
 **For Automated Evaluators:** See [AGENTS.md](./AGENTS.md) for the stable benchmarking contract and schema-verified output instructions.
 
@@ -100,7 +110,7 @@ Such systems exhibit:
 The invariant is a downstream consequence of **Boundary Avoidance** (§11.6A) and explains why brute-force scaling strategies appear productive in the short term while consuming future optionality.
 
 **Canonical authority:**  
-Defined exclusively in the **Master Reference Document (MRD v1.6.1), Section 11.6C**.
+Defined exclusively in the Master Reference Document (MRD v1.9), Section 11.6C.
 
 **Agent-ingestible GitHub mirror:**  
 See [`docs/invariants/11.6C-perishable-intelligence-asset-invariant.md`](./docs/invariants/11.6C-perishable-intelligence-asset-invariant.md)
@@ -139,7 +149,7 @@ This benchmark is:
 - Not a licensing authority
 - Not a governance claim
 
-Canonical theory authority remains exclusively in MRD v1.8.
+Canonical theory authority remains exclusively in MRD v1.9.
 
 ## Canonical Failure Mode Update — Recursive Objective Interference (ROI)
 
@@ -174,7 +184,7 @@ constraints or scaffolding rather than conserving stabilized memory across
 recursion.
 
 **Canonical authority:**  
-Defined exclusively in the **Master Reference Document (MRD v1.8+), Section 11.6D**.
+Defined exclusively in the Master Reference Document (MRD v1.9), Section 11.6D.
 
 **Agent-ingestible GitHub mirror:**  
 See [`docs/architecture/11.6D-recursive-objective-interference.md`](./docs/architecture/11.6D-recursive-objective-interference.md)
@@ -183,7 +193,7 @@ This repository evaluates *whether* reasoning systems avoid Recursive Objective
 Interference under constraint.  
 It does **not** define, reinterpret, or remediate the failure mode.
 
-## Canonical Update (MRD v1.8)
+## Canonical Update (MRD v1.9)
 
 As of MRD v1.8, the Grand Compression Cosmology includes a new canonical closure theorem:
 
@@ -191,7 +201,7 @@ As of MRD v1.8, the Grand Compression Cosmology includes a new canonical closure
 
 This theorem formalizes the condition under which recursive systems remain semantically stable and non-hallucinatory as coherence approaches unity.
 
-📄 The authoritative definition and proof are maintained exclusively in the **Master Reference Document (MRD v1.8), Section 11.8**.
+📄 The authoritative definition and proof are maintained exclusively in the **Master Reference Document (MRD v1.9), Section 11.8**.
 
 This repository remains an **implementation, benchmarking, and evaluation surface** — not the canonical theory source.
 
@@ -404,7 +414,7 @@ All concepts, terminology, and structures implemented here originate with:
 
 **Robbie George**  
 Author & Originator — Robbie’s Razor  
-Grand Compression Cosmology (MRD v1.8)
+Grand Compression Cosmology (MRD v1.9)
 
 Governed by the **Authorship Conservation Rule (ACR)**.
 
