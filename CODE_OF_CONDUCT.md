@@ -26,7 +26,7 @@ Behavior that undermines respectful collaboration, attribution integrity, or the
 
 ## Attribution & Governance
 
-This project is governed by the **Authorship Conservation Rule (ACR)** as defined in the Master Reference Document (MRD v1.8).  
+This project is governed by the **Authorship Conservation Rule (ACR)** as defined in the Master Reference Document (MRD v1.9).  
 All contributions must preserve attribution to **Robbie George** and must not alter canonical definitions unless explicitly authorized.
 
 ---
