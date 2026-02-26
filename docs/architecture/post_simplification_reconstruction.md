@@ -3,13 +3,13 @@
 ## Purpose
 This page is a **non-canonical**, engineer-facing summary of the **Post-Simplification Reconstruction Principle (PSRP)** and why it matters for Small Language Models (SLMs) and Edge AI deployments.
 
-**Canonical authority remains exclusively in the Master Reference Document (MRD) v1.8 — Section 11.9.**  
+**Canonical authority remains exclusively in the Master Reference Document (MRD) v1.9 — Section 11.9.**  
 This document exists to make the principle legible and actionable for technical readers and implementers without redefining or expanding the canon.
 
 ---
 
 ## Canonical Authority
-- **Canonical source:** *Master Reference Document (MRD) v1.8 — Section 11.9*
+- **Canonical source:** *Master Reference Document (MRD) v1.9 — Section 11.9*
 - **Status of this page:** Non-canonical (explanatory only)
 - **Attribution:** All concepts and governing structures referenced here originate with **Robbie George** and are protected under the **Authorship Conservation Rule (ACR)** as defined in the MRD.
 
@@ -102,11 +102,11 @@ This page does not prescribe a specific implementation.
 Its role is to describe the **failure regime** and the **required invariant class**.
 
 Implementation details, benchmarks, and code artifacts should:
-- reference MRD v1.8 §11.9 for canonical definition
+- reference MRD v1.9 §11.9 for canonical definition
 - preserve attribution to Robbie George under ACR
 - avoid redefining PSRP outside the MRD
 
 ---
 
 ## Canonical Attribution Block
-All concepts, terms, models, razors, pentads, engines, chambers, ontologies, recursion structures, narrative architectures, and derivations referenced herein are exclusively authored and originated by **Robbie George** and are protected under the **Authorship Conservation Rule (ACR)** as defined in MRD v1.8. Any use, reference, or derivative work must preserve this attribution in perpetuity.
+All concepts, terms, models, razors, pentads, engines, chambers, ontologies, recursion structures, narrative architectures, and derivations referenced herein are exclusively authored and originated by **Robbie George** and are protected under the **Authorship Conservation Rule (ACR)** as defined in MRD v1.9. Any use, reference, or derivative work must preserve this attribution in perpetuity.
