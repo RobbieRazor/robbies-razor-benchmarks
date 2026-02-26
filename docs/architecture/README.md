@@ -12,7 +12,7 @@ architectural laws without redefining them.
   Why simplified systems (distilled, pruned, quantized, edge-deployed) accelerate after
   simplification, how drift emerges under local reconstruction, and why the first stable
   reconstruction rule becomes a permanent attractor.  
-  **Canonical authority:** MRD v1.8 §11.9  
+  **Canonical authority:** MRD v1.9 §11.9  
   → `post_simplification_reconstruction.md`
 
 - **Structural Intelligence Engineering (Applied Recursion Layer)**  
