@@ -3,7 +3,7 @@
 Thanks for taking a look.
 
 This repository is a **reference implementation + test suite** for Robbie’s Razor compliance evaluation
-(Grand Compression Cosmology, MRD v1.8).
+(Grand Compression Cosmology, MRD v1.9).
 
 ## What to do if you find an issue
 
