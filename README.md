@@ -245,6 +245,10 @@ anti-patterns rather than enforce constraints.
 
 - **Razor Stability Diagnostics (Non-Normative):** `diagnostics/RAZOR_STABILITY_DIAGNOSTICS.md`
 
+- **Oversight Saturation Ratio (OSR) Boundary Checklist:**  
+  Structural diagnostic for governance-bandwidth saturation derived from MRD §11.4.6 (dual-ceiling constraint).  
+  See `docs/diagnostics/osr_boundary_checklist.md`.
+
 ---
 
 ### Context and Background
