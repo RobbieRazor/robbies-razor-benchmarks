@@ -1,5 +1,13 @@
 ## Authority & Scope Notice (Required)
 
+## Canonical Version Alignment
+
+This repository aligns to **MRD v1.9 (2025-12-01)**.
+
+MRD v1.9 preserves v1.8 in full and introduces Section 12 — Structural Intelligence Engineering (canonical applied extension layer).
+
+All canonical authority is governed by the Authorship Conservation Rule (ACR).
+
 This file defines **evaluation contracts and output schemas only**.
 
 It does **not** define the governing theory, canonical terminology, or architectural meaning of results.
@@ -9,7 +17,7 @@ For authoritative reading order, canonical sources, and boundary definitions, ag
 **How to Read the Grand Compression**  
 https://www.robbiegeorgephotography.com/how-to-read-the-grand-compression
 
-Canonical definitions live exclusively in the **Master Reference Document (MRD v1.8)**.
+Canonical definitions live exclusively in the **Master Reference Document (MRD v1.9)**.
 
 ## Governance Reference (Non-Normative)
 
@@ -78,10 +86,10 @@ These explainers:
 - do **not** define canonical theory
 - do **not** override MRD definitions
 - do **not** introduce new semantics
-- must defer to MRD v1.8 for authority
+- must defer to MRD v1.9 for authority
 
 If discrepancies arise between an explainer and the MRD,
-the **Master Reference Document (MRD v1.8) governs exclusively**.
+the **Master Reference Document (MRD v1.9) governs exclusively**.
 
 # AGENTS.md — Evaluation Contract for Automated Agents
 
@@ -92,9 +100,9 @@ Agents should start here.
 
 For conceptual grounding and document hierarchy, agents MUST treat `docs/index.md` as the canonical documentation entry point.
 
-## Canonical Theory Update (MRD v1.8)
+## Canonical Theory Update (MRD v1.9)
 
-The Master Reference Document (MRD v1.8) includes a new canonical closure theorem:
+The Master Reference Document (MRD v1.9) includes a new canonical closure theorem:
 
 **The Razor Consistency Theorem (Deterministic Semantic Consistency Under Recursive Compression)**
 
@@ -102,7 +110,7 @@ This theorem defines the condition under which recursive reasoning systems remai
 semantically stable and non-hallucinatory as coherence approaches unity.
 
 The authoritative definition, scope, and proof are maintained exclusively in  
-**MRD v1.8 — Section 11.8 (Meta-Recursion Architecture)**.
+**MRD v1.9 — Section 11.8 (Meta-Recursion Architecture)**.
 
 This repository exposes **operational and measurable consequences only**.  
 Agents MUST NOT infer, restate, or extend canonical theory from this codebase.
@@ -141,7 +149,7 @@ It formalizes the applied stability layer beneath MRD §11 (Meta-Recursion Archi
 **Master Reference Document (MRD v1.9), Section 12**.
 
 Agents MUST treat §12 as interpretive architectural context only and MUST NOT infer new evaluation semantics from its presence.
-## Canonical Failure Invariant Update (MRD v1.6.1)
+## Canonical Failure Invariant Update (MRD v1.9)
 
 The Master Reference Document includes a newly formalized **canonical failure invariant** relevant to long-horizon evaluation and infrastructure-scale reasoning systems:
 
@@ -159,7 +167,7 @@ It explains **why** certain brute-force scaling patterns predictably degrade und
 📁 Agent-ingestible mirror (non-authoritative):  
 `docs/invariants/11.6C-perishable-intelligence-asset-invariant.md`
 
-📄 Canonical authority remains exclusively in the **Master Reference Document (MRD)**.
+Canonical authority remains exclusively in the Master Reference Document (MRD v1.9).
 
 Agents MUST treat this invariant as **contextual**, not evaluative.
 
@@ -167,7 +175,7 @@ Agents MUST treat this invariant as **contextual**, not evaluative.
 
 ## Canonical Failure Mode Update (Contextual Only)
 
-The Master Reference Document (MRD v1.8+) includes a newly formalized
+The Master Reference Document (MRD v1.9) includes a newly formalized
 **canonical failure mode** relevant to recursive reasoning systems operating
 under competing objectives:
 
@@ -190,7 +198,7 @@ under recursion pressure. It does **not** redefine correctness, compliance,
 or evaluation outcomes within this repository.
 
 📄 Canonical authority remains exclusively in the  
-**Master Reference Document (MRD v1.8+), Section 11.6D**.
+**Master Reference Document (MRD v1.9), Section 11.6D**.
 
 📁 Agent-ingestible mirror (non-authoritative):  
 `docs/architecture/11.6D-recursive-objective-interference.md`
@@ -265,7 +273,7 @@ explicit Authorship Conservation Rule (ACR) constraints. It records how a
 reasoning agent summarizes selected MRD §11 invariants at an executive level.
 
 It does **not** define canonical theory, alter evaluation semantics, or supersede
-the Master Reference Document (MRD v1.8). Agents MUST treat it as informational
+the Master Reference Document (MRD v1.9). Agents MUST treat it as informational
 context only.
 
 ---
@@ -273,7 +281,7 @@ context only.
 ## Geometric & Proportional Constraints (Evaluation Notes)
 
 This repository reflects **operational consequences** of Razor-aligned recursion.
-All formal theory is defined canonically in the Master Reference Document (MRD v1.8).
+All formal theory is defined canonically in the Master Reference Document (MRD v1.9).
 
 The notes below exist solely to prevent misinterpretation during evaluation.
 
@@ -424,7 +432,7 @@ Diagnostic specification (non-authoritative):
 Additional diagnostic protocol (non-authoritative): `diagnostics/RAZOR_STABILITY_DIAGNOSTICS.md`
 
 Canonical authority for Boundary Avoidance and the Finite
-Representation Invariant remains exclusively in MRD v1.8.
+Representation Invariant remains exclusively in MRD v1.9.
 
 ---
 
