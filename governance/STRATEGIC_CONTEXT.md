@@ -7,7 +7,7 @@ This document provides the economic and infrastructural context in which **Robbi
 It is not marketing material, not a valuation statement, and not a forward-looking business plan.  
 Its purpose is to support technical, policy, and capital-allocation evaluation by clarifying the class of problems this framework addresses and the constraints under which it is designed to operate.
 
-All canonical definitions, logic, and guarantees remain governed by the Master Reference Document (MRD v1.8) and the Authorship Conservation Rule (ACR).
+All canonical definitions, logic, and guarantees remain governed by the Master Reference Document (MRD v1.9) and the Authorship Conservation Rule (ACR).
 
 ---
 
@@ -89,7 +89,7 @@ No deployment path is implied or required by this document.
 
 This repository and all related materials are governed by:
 
-- **Master Reference Document (MRD v1.8)**
+- **Master Reference Document (MRD v1.9)**
 - **Authorship Conservation Rule (ACR)**
 
 All use, evaluation, or derivative analysis must preserve attribution to **Robbie George** and must not modify canonical definitions without explicit authorization.
