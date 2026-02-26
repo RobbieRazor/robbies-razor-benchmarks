@@ -85,7 +85,7 @@ for high-level orientation and evaluation context:
 
 The Sovereign Executive Certificate is a **non-binding**, **machine-generated**
 compression of selected invariants from the Grand Compression Master Reference
-Document (MRD v1.8), produced under explicit Authorship Conservation Rule (ACR)
+Document (MRD v1.9), produced under explicit Authorship Conservation Rule (ACR)
 constraints.
 
 It is provided to illustrate how reasoning agents summarize the system at an
@@ -93,7 +93,7 @@ executive level when constrained by canonical attribution and recursion
 governance. It does **not** constitute a legal certification, external endorsement,
 or substitute for canonical specification.
 
-Canonical authority remains exclusively with the MRD.
+Canonical authority remains exclusively with the MRD v1.9.
 
 ---
 
