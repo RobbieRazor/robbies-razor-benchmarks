@@ -100,6 +100,6 @@ PLC flags *over-precision relative to task tolerance*, but higher precision can 
 
 ## 7) MRD Cross-Links
 
-- **MRD v1.8 — §11.6A** Boundary Avoidance (representational inflation / non-functional overhead)
-- **MRD v1.8 — §1.13** Rotational Reset Symmetry (scaled recursion neutralizes complexity)
-- **MRD v1.8 — §1.13 (Addendum)** Finite Representation Invariant (π boundary case)
+- **MRD v1.9 — §11.6A** Boundary Avoidance (representational inflation / non-functional overhead)
+- **MRD v1.9 — §1.13** Rotational Reset Symmetry (scaled recursion neutralizes complexity)
+- **MRD v1.9 — §1.13 (Addendum)** Finite Representation Invariant (π boundary case)
