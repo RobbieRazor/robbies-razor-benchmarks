@@ -6,7 +6,7 @@ This document defines **diagnostic signals only**.
 It does **not** certify, license, approve, or guarantee safety.  
 It does **not** modify evaluation contracts, metrics, scoring, or thresholds.
 
-Canonical theory, definitions, and governance remain exclusively in the **Master Reference Document (MRD v1.8)**.
+Canonical theory, definitions, and governance remain exclusively in the **Master Reference Document (MRD v1.9)**.
 
 Where referenced:
 - MRD §11.4 — Stability Minima Under Constraint  
