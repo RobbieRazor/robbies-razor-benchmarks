@@ -57,12 +57,48 @@ Memory Update
 │
 Recompression
 
-
 The loop then repeats.
 
 Prediction appears inside the **recursion stage**, where compressed memory is projected forward into possible future states.
 
 This architecture reduces recomputation, preserves stabilized structure, and increases recursive efficiency under constraint.
+
+## Dual Recursion Ceiling
+
+Recursive intelligence systems operate under two independent constraints described in MRD §11.
+
+Energetic Recursion Ceiling
+
+R ≤ E / JCT
+
+Energy availability limits how many coherent recursive transitions can occur.
+
+Governance Recursion Ceiling
+
+R · C ≤ S
+
+Stabilization capacity limits how quickly recursive decisions can be safely processed.
+
+### Safe Recursion Envelope
+
+Stable systems must satisfy both simultaneously:
+
+R ≤ min(E/JCT , S/C)
+
+Graphically:
+
+Governance Ceiling
+      R ≤ S/C
+         ▲
+         │
+         │
+         │
+Energy Ceiling ──────┼────────► Recursion Velocity
+ R ≤ E/JCT           │
+                     ▼
+            Safe Recursion Envelope
+
+Recursive systems that exceed either ceiling enter structural instability.
 
 ### Recursion Under Constraint
 
