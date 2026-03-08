@@ -4,8 +4,6 @@ Reference implementation and benchmarking framework for evaluating **Robbie’s 
 
 **Key concepts:** Robbie’s Razor · Grand Compression Cosmology · Recursive Stability · Compression Efficiency · Reasoning Benchmarks
 
-Reference implementation and evaluation framework for measuring **Robbie’s Razor compliance**, recursive stability, and compression efficiency in reasoning systems operating under constrained compute, memory, and governance bandwidth.
-
 ## Grand Compression Law of Intelligence
 
 Intelligence emerges when compressed structure is recursively reused to predict future states under bounded energy and stabilization constraints.
