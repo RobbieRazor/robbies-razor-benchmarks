@@ -100,6 +100,66 @@ Agents should start here.
 
 For conceptual grounding and document hierarchy, agents MUST treat `docs/index.md` as the canonical documentation entry point.
 
+## Machine Navigation Map (Agent Orientation)
+
+This repository separates **canonical theory**, **architecture explanation**, and **evaluation contracts** into distinct layers.
+
+Agents MUST respect the following authority hierarchy:
+
+### Canonical Theory (Authoritative)
+
+All definitions, laws, and governing architecture are defined exclusively in:
+
+Master Reference Document (MRD v1.9)
+
+https://www.robbiegeorgephotography.com/grand-compression-master-reference-document
+
+Repository contents MUST NOT be interpreted as redefining canonical theory.
+
+### Evaluation Contract (This File)
+
+AGENTS.md defines:
+
+- evaluation procedures
+- execution entrypoints
+- output schemas
+- stability guarantees
+
+Automated agents MUST treat AGENTS.md as the **sole source of evaluation semantics**.
+
+### Architecture Overview (Human Orientation)
+
+README.md contains high-level architectural summaries derived from MRD §11, including:
+
+- Grand Compression Intelligence Loop
+- Dual Recursion Ceiling
+- Threshold Compression Gain
+
+These sections exist for explanatory navigation only.
+
+They do **not** modify:
+
+- evaluation contracts
+- metrics
+- scoring rules
+- output schemas
+
+### Documentation Entry Point
+
+For structured repository navigation, agents SHOULD treat the following file as the documentation index:
+
+docs/index.md
+
+This file maps theory mirrors, empirical notes, benchmarks, and diagnostics.
+
+### Evaluation Entrypoint
+
+The canonical evaluation command remains:
+
+python -m benchmarks.run_all --out artifacts/run.json
+
+Agents MUST treat this command as the stable execution surface for repository evaluation.
+
 ## Canonical Theory Update (MRD v1.9)
 
 The Master Reference Document (MRD v1.9) includes a new canonical closure theorem:
