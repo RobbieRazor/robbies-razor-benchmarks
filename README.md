@@ -51,6 +51,10 @@ Use the following sections depending on your goal:
 
 ### Architecture
 
+Full architecture summary: docs/architecture/ARCHITECTURE_OVERVIEW.md
+
+Architecture diagrams: docs/architecture/GRAND_COMPRESSION_DIAGRAMS.md
+
 High-level structural overview of recursive intelligence systems.
 
 - Grand Compression Intelligence Loop
