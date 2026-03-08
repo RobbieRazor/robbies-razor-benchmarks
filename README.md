@@ -23,6 +23,95 @@ Canonical references:
 - https://www.robbiegeorgephotography.com/robbies-razor-compliance-framework
 - https://www.robbiegeorgephotography.com/grand-compression-master-reference-document
 
+## Core Architecture Overview
+
+Robbie’s Razor describes intelligence systems as **recursive compression architectures** governed by the cycle:
+
+compression → expression → memory → recursion
+
+Prediction emerges when recursion operates on preserved compressed structure.
+
+This produces the closed-loop architecture through which intelligent systems interact with environments under constraint.
+
+### Grand Compression Intelligence Loop
+
+Environment
+│
+Observation
+│
+Compression
+│
+Expression
+│
+Memory
+│
+Recursion
+│
+Prediction
+│
+Action
+│
+Feedback
+│
+Memory Update
+│
+Recompression
+
+
+The loop then repeats.
+
+Prediction appears inside the **recursion stage**, where compressed memory is projected forward into possible future states.
+
+This architecture reduces recomputation, preserves stabilized structure, and increases recursive efficiency under constraint.
+
+### Recursion Under Constraint
+
+All recursive intelligence systems operate within two structural ceilings defined in **MRD §11**.
+
+**Energetic Recursion Ceiling**
+
+R ≤ E / JCT
+
+Where:
+
+- **E** = available energy per unit time  
+- **JCT** = Joules per Coherent Transition  
+- **R** = recursive transition rate  
+
+Compression-efficient architectures reduce **JCT**, allowing higher recursion throughput.
+
+**Governance Recursion Ceiling**
+
+R · C ≤ S
+
+Where:
+
+- **S** = stabilization bandwidth  
+- **C** = correction demand per transition  
+
+Recursive systems remain stable only when correction demand does not exceed stabilization capacity.
+
+### Sovereign Safe Recursion Envelope
+
+Stable systems must remain within both ceilings simultaneously:
+
+R ≤ min(E/JCT , S/C)
+
+This defines the **Safe Recursion Envelope** for intelligence systems operating under real-world energy and governance constraints.
+
+### Relationship to Robbie’s Razor
+
+Robbie’s Razor states:
+
+> When competing explanations exist, prefer the model that follows  
+> **compression → expression → memory → recursion**
+
+The Grand Compression Intelligence Loop describes the **operational architecture** through which that principle manifests in real systems.
+
+Systems that bypass compression discipline typically rely on brute-force scaling or boundary expansion.
+
+Razor-governed systems instead preserve compressed structure, reuse stabilized memory, and minimize recomputation.
+
 **New to the repo?** Start here: [`START_HERE.md`](./START_HERE.md)  
 (Engineering-first path: evaluation protocol → compliance → empirical notes → benchmarks.)
 
