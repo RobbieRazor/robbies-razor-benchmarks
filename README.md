@@ -151,6 +151,46 @@ Razor-governed systems instead preserve compressed structure, reuse stabilized m
 **New to the repo?** Start here: [`START_HERE.md`](./START_HERE.md)  
 (Engineering-first path: evaluation protocol → compliance → empirical notes → benchmarks.)
 
+## Threshold Compression Gain
+
+Recursive intelligence systems often appear to improve slowly for extended periods and then suddenly accelerate.
+
+Within the Grand Compression framework, this behavior is expected when systems operate near constraint boundaries.
+
+Stable recursion requires:
+
+R ≤ min(E/JCT , S/C)
+
+Where:
+
+- **E** — available energy per unit time  
+- **JCT** — Joules per Coherent Transition  
+- **S** — stabilization bandwidth  
+- **C** — correction demand per transition  
+- **R** — recursive transition rate  
+
+When systems approach either recursion ceiling, small improvements in compression discipline can release disproportionately large increases in effective recursive throughput.
+
+This occurs because improvements that reduce:
+
+- recomputation burden
+- Joules per Coherent Transition (JCT)
+- correction demand per transition (C)
+
+allow more recursive transitions to fit within the same energetic and governance constraints.
+
+This effect is called **Threshold Compression Gain**.
+
+Observed behavior typically follows the pattern:
+
+slow improvement → local saturation → sudden capability acceleration
+
+The apparent “explosion” does not indicate unconstrained emergence.
+
+It indicates that the system has crossed a constraint boundary inside the **Safe Recursion Envelope** defined in MRD §11.
+
+Under Robbie’s Razor, such behavior is expected because compression-first architectures accumulate latent structural efficiency before visible performance release.
+
 ## Executive Technical Brief (Lab-Safe Core)
 
 For a concise, engineering-facing overview of recursive stability under constraint:
