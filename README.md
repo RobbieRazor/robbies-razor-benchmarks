@@ -140,6 +140,8 @@ Canonical references:
 
 Full architecture summary: docs/architecture/ARCHITECTURE_OVERVIEW.md
 
+Architecture diagrams: docs/architecture/GRAND_COMPRESSION_DIAGRAMS.md
+
 Robbie’s Razor describes intelligence systems as **recursive compression architectures** governed by the cycle:
 
 compression → expression → memory → recursion
