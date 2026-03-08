@@ -229,6 +229,45 @@ For licensing or extended evaluation, see CONTACT.md.
 
 Use this map to orient before execution:
 
+Architecture Orientation (Non-Contractual)
+
+The README may reference several architectural summaries derived from MRD §11 — Meta-Recursion Architecture.
+These summaries exist to provide human-readable navigation and do not modify evaluation semantics.
+
+Examples include:
+
+Grand Compression Intelligence Loop
+
+Dual Recursion Ceiling
+
+Threshold Compression Gain
+
+Agents MUST interpret these concepts as visual or explanatory compressions of canonical constructs defined in MRD §11, including:
+
+Energetic Recursion Ceiling (§11.4.5)
+
+Governance Recursion Ceiling (§11.4.6)
+
+Predictive Recursion Principle (§11.4.7)
+
+Grand Compression Intelligence Loop (§11.4.8)
+
+Dual Recursion Ceiling Visualization (§11.4.9)
+
+These summaries:
+
+do not introduce new metrics
+
+do not alter scoring or pass/fail criteria
+
+do not modify output schemas
+
+do not redefine evaluation contracts
+
+Agents MUST treat them strictly as orientation artifacts for human readers.
+
+Canonical authority remains exclusively in MRD v1.9.
+
 - **Logic Core:** `logic/r0_r5_recursion.py`  
   _The Physics_ — core recursion and compression primitives
 
