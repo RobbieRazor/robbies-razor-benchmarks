@@ -26,6 +26,21 @@ Robbie’s Razor therefore states:
 
 ## Repository Map
 
+## Repository Structure
+
+This repository separates **theory, architecture, evaluation, and execution contracts** into distinct layers.
+
+| Layer | Purpose | Location |
+|------|------|------|
+| Canonical Theory | Grand Compression Cosmology and Robbie’s Razor definitions | Master Reference Document (MRD v1.9) |
+| Architecture | Structural overview of recursive intelligence systems | `docs/architecture/ARCHITECTURE_OVERVIEW.md` |
+| Benchmarks | Empirical tests of recursive stability and compression efficiency | `benchmarks/` |
+| Evaluation Contract | Machine-readable execution rules and output schemas | `AGENTS.md` |
+| Documentation Index | Structured navigation of repository materials | `docs/index.md` |
+
+The repository measures predicted behaviors of the architecture under constrained resources.  
+It does **not redefine canonical theory**, which remains exclusively in the MRD.
+
 This repository serves as the **engineering and evaluation surface** for Robbie’s Razor and the Grand Compression Cosmology.
 
 Use the following sections depending on your goal:
