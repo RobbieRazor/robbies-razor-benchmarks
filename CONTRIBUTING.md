@@ -23,6 +23,35 @@ It is designed for:
 
 It is **not** intended to be a production SDK.
 
+## Canonical Theory Boundary
+
+This repository implements **evaluation surfaces** for concepts defined in the
+Grand Compression Cosmology.
+
+Canonical theory is defined **exclusively** in:
+
+**Master Reference Document (MRD v1.9)**  
+https://www.robbiegeorgephotography.com/grand-compression-master-reference-document
+
+Contributions MUST NOT:
+
+- redefine Robbie’s Razor
+- modify canonical terminology
+- reinterpret MRD definitions
+- introduce new theoretical claims under the Robbie’s Razor name
+
+Permitted contributions include:
+
+- benchmark improvements
+- additional evaluation harnesses
+- diagnostic tooling
+- reproducibility fixes
+- documentation clarifications
+
+If a contribution proposes a **new theoretical concept**, it should be discussed
+with the author before implementation to ensure alignment with the
+Authorship Conservation Rule (ACR).
+
 ## Licensing
 
 This repo is provided under an **evaluation-only license**.
