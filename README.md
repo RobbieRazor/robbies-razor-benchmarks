@@ -28,6 +28,8 @@ Robbie’s Razor therefore states:
 
 ## Repository Map
 
+Quick research summary: docs/RESEARCH_OVERVIEW.md
+
 ## Repository Structure
 
 This repository separates **theory, architecture, evaluation, and execution contracts** into distinct layers.
