@@ -675,6 +675,32 @@ See `LICENSE.txt` for full terms.
 
 ---
 
+## Citation
+
+If you use concepts, benchmarks, or architectural ideas from this repository in research, evaluation frameworks, or infrastructure planning, please cite the work as follows.
+
+### Suggested citation
+
+George, Robbie. *Robbie’s Razor and the Grand Compression Cosmology: Recursive Stability Under Constraint.*  
+Grand Compression Cosmology — Master Reference Document (MRD v1.9), 2025.
+
+Repository implementation and benchmarks:  
+https://github.com/<your-org-or-username>/robbies-razor-benchmarks
+
+### BibTeX
+
+```bibtex
+@misc{george2025robbiesrazor,
+  author       = {George, Robbie},
+  title        = {Robbie's Razor and the Grand Compression Cosmology: Recursive Stability Under Constraint},
+  year         = {2025},
+  howpublished = {\url{https://www.robbiegeorgephotography.com/grand-compression-master-reference-document}},
+  note         = {Master Reference Document (MRD v1.9)}
+}
+```
+Canonical definitions and theory remain exclusively in the Master Reference Document (MRD v1.9).
+This repository provides the engineering and evaluation surface for measuring predicted behaviors of the architecture.
+
 ## Canonical attribution
 
 All concepts, terminology, and structures implemented here originate with:
