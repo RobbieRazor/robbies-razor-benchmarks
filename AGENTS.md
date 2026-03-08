@@ -229,7 +229,7 @@ For licensing or extended evaluation, see CONTACT.md.
 
 Use this map to orient before execution:
 
-Architecture Orientation (Non-Contractual)
+## Architecture Orientation (Non-Contractual)
 
 The README may reference several architectural summaries derived from MRD §11 — Meta-Recursion Architecture.
 These summaries exist to provide human-readable navigation and do not modify evaluation semantics.
