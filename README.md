@@ -22,6 +22,76 @@ Robbie’s Razor therefore states:
 > When competing explanations exist, prefer the model that follows  
 > **compression → expression → memory → recursion**.
 
+## Repository Map
+
+This repository serves as the **engineering and evaluation surface** for Robbie’s Razor and the Grand Compression Cosmology.
+
+Use the following sections depending on your goal:
+
+### Architecture
+
+High-level structural overview of recursive intelligence systems.
+
+- Grand Compression Intelligence Loop
+- Dual Recursion Ceiling
+- Threshold Compression Gain
+
+These concepts describe how recursive systems operate and why compression-first architectures outperform brute-force scaling.
+
+### Canonical Theory
+
+The authoritative definitions and governing architecture reside in the **Master Reference Document (MRD v1.9)**.
+
+Canonical sources:
+
+- Robbie’s Razor  
+- Grand Compression Cosmology (MRD)  
+- Razor Compliance Framework
+
+### Benchmarks & Evaluation
+
+Tools for measuring recursive stability, compression efficiency, and recomputation avoidance.
+
+Key components include:
+
+- Razor Diffusion Metric (RDM / RDM*)
+- Question Quality Under Constraint (QQC) Benchmark
+- Memory stabilization and recomputation avoidance tests
+- Recursive stability evaluation harness
+
+### Empirical Notes
+
+Experimental probes testing predicted behaviors of recursion under constraint.
+
+These documents explore:
+
+- memory-compute allocation regimes
+- recursive drift behavior
+- refresh cadence effects
+
+They are exploratory and **non-canonical**.
+
+### Governance & Failure Modes
+
+Structural diagnostics derived from MRD Section 11.
+
+These include:
+
+- Perishable Intelligence Asset (PIA)
+- Recursive Objective Interference (ROI)
+- Oversight Saturation Ratio (OSR)
+- Boundary Avoidance
+
+These concepts describe predictable failure regimes in recursive systems operating under real-world constraints.
+
+### Getting Started
+
+New readers should begin with:
+
+- `START_HERE.md`
+- `docs/technical-brief/`
+- `docs/index.md`
+
 ## Canonical Version Alignment
 
 This repository aligns to **MRD v1.9 (2025-12-01)**.
