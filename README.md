@@ -1,4 +1,6 @@
-# robbies-razor-benchmarks
+# robbies-razor-benchmarks — Recursive Stability and Compression Efficiency Benchmarks for AI Reasoning Systems
+
+Reference implementation and evaluation framework for measuring **Robbie’s Razor compliance**, recursive stability, and compression efficiency in reasoning systems operating under constrained compute, memory, and governance bandwidth.
 
 ## Grand Compression Law of Intelligence
 
