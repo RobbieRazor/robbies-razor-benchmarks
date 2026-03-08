@@ -1,5 +1,27 @@
 # robbies-razor-benchmarks
 
+## Grand Compression Law of Intelligence
+
+Intelligence emerges when compressed structure is recursively reused to predict future states under bounded energy and stabilization constraints.
+
+Within the Grand Compression Cosmology, stable intelligence systems therefore follow the cycle:
+
+compression → expression → memory → recursion
+
+Recursive performance is bounded by two structural ceilings:
+
+- **Energetic Recursion Ceiling** — limited by available energy and Joules per Coherent Transition (JCT)
+- **Governance Recursion Ceiling** — limited by stabilization bandwidth and correction demand per transition
+
+Stable recursive systems operate inside the **Safe Recursion Envelope** defined in MRD §11:
+
+R ≤ min(E/JCT , S/C)
+
+Robbie’s Razor therefore states:
+
+> When competing explanations exist, prefer the model that follows  
+> **compression → expression → memory → recursion**.
+
 ## Canonical Version Alignment
 
 This repository aligns to **MRD v1.9 (2025-12-01)**.
