@@ -314,6 +314,45 @@ Grand Compression Intelligence Loop (§11.4.8)
 
 Dual Recursion Ceiling Visualization (§11.4.9)
 
+### Additional Architectural Constraints (MRD v1.9)
+
+Recent canonical refinements within MRD §11 introduce additional
+architectural constraints relevant to recursion stability.
+
+These include:
+
+Memory–Compute Trade Curve (§11.4.5A)
+
+Optionality Preservation Principle (§11.4.7A)
+
+Recursive Blast Radius Limit (§11.11A)
+
+These constructs describe additional structural boundaries governing
+recursive intelligence systems:
+
+• **Memory–Compute Trade Curve (§11.4.5A)**  
+  describes the stability minimum between recomputation cost and
+  preserved compressed memory.
+
+• **Optionality Preservation Principle (§11.4.7A)**  
+  describes the structural tendency of stable recursive systems to
+  preserve reachable future state space under constraint.
+
+• **Recursive Blast Radius Limit (§11.11A)**  
+  defines the maximum architectural depth that recursive modification
+  may penetrate before systemic instability propagates across layers.
+
+These constructs are **interpretive architectural constraints only**.
+
+They:
+
+- do **not** modify evaluation contracts
+- do **not** introduce new required metrics
+- do **not** alter scoring or pass/fail criteria
+- do **not** modify output schema
+
+Canonical authority remains exclusively in **MRD v1.9**.
+
 These summaries:
 
 do not introduce new metrics
