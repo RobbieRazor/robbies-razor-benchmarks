@@ -460,6 +460,7 @@ For canonical, instruction-locked explainers used in Gemini, see:
 - MRD v1.9 — Canonical Navigator Gem: https://gemini.google.com/gem-labs/168fJvwSALBDyVLO0MyyUgyRd44tk3aDb  
 - Living Pentad — Field Validation Gem: https://gemini.google.com/gem-labs/1TtP4JP0LflUW3Yxkh086-NJCQvlDKeW3  
 - Recursion Engine — Six-Phase Explainer Gem: https://gemini.google.com/gem-labs/1BZwTWdY9X5cfgV4AHXRPlkYt2NUcfq9k  
+- Razor Systems Interpreter — Applied Analysis Gem: https://gemini.google.com/gem-labs/1mc5znfBS7YkKHW5xrme8gcKwXMNhQy56  
 
 These Gems are explanatory tools only. Canonical definitions and governance remain in MRD v1.9.
 
