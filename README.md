@@ -21,6 +21,95 @@ Stable recursive systems operate inside the **Safe Recursion Envelope** defined 
 
 R ≤ min(E/JCT , S/C)
 
+## Robbie’s Razor Architecture
+
+Recursive intelligence systems described by the Grand Compression Cosmology operate as a closed-loop compression architecture.
+
+Environment
+│
+▼
+Observation
+│
+▼
+Compression
+│
+▼
+Expression
+│
+▼
+Memory
+│
+▼
+Recursion
+│
+▼
+Prediction
+│
+▼
+Action
+│
+▼
+Feedback
+│
+▼
+Memory Update
+│
+▼
+Recompression
+
+
+Recursive stability emerges when this loop operates within the **Safe Recursion Envelope**:
+
+R ≤ min(E/JCT , S/C)
+
+
+Where:
+
+- **E** — available energy per unit time  
+- **JCT** — Joules per Coherent Transition  
+- **S** — stabilization bandwidth  
+- **C** — correction demand per transition  
+
+Recent MRD v1.9 updates introduce the **Recursive Stability Attractor** and **Unified Recursion Efficiency Relation**, clarifying how systems converge toward stable compression regimes.
+
+See:  
+`docs/empirical/v1.9-recursive-stability-attractor-update.md`
+
+## Recursive Stability Attractor (MRD v1.9 Update)
+
+Recent MRD v1.9 updates extend the Meta-Recursion Architecture with attractor dynamics describing how recursive systems discover stable compression regimes over time.
+
+Stable systems do not usually begin at the stability minimum.  
+Instead they evolve through alternating phases:
+
+expansion
+→ constraint accumulation
+→ compression innovation
+→ stability restoration
+
+
+Across repeated cycles the system approaches the **Stability Minimum** defined in MRD §11.4.
+
+The update also introduces a unified efficiency formulation:
+
+S_r = I / JCT
+
+Where:
+
+- **S_r** — recursion efficiency  
+- **I** — preserved functional information  
+- **JCT** — Joules per Coherent Transition
+
+This yields the **Unified Recursion Efficiency Relation**:
+
+R ≤ (E · S_r) / I
+
+These additions clarify that long-term capability growth in recursive intelligence systems arises primarily from **compression efficiency improvements**, not from energy expansion alone.
+
+See:
+
+`docs/empirical/v1.9-recursive-stability-attractor-update.md`
+
 Robbie’s Razor therefore states:
 
 > When competing explanations exist, prefer the model that follows  
