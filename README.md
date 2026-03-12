@@ -126,6 +126,7 @@ This repository separates **theory, architecture, evaluation, and execution cont
 | Layer | Purpose | Location |
 |------|------|------|
 | Canonical Theory | Grand Compression Cosmology and Robbie’s Razor definitions | Master Reference Document (MRD v1.9) |
+| Canonical Claims | Stable claim-level citations and framework claim IDs | `docs/doctrine/canonical-claim-alignment.md` + Grand Compression Canonical Claims Register |
 | Architecture | Structural overview of recursive intelligence systems | `docs/architecture/ARCHITECTURE_OVERVIEW.md` |
 | Benchmarks | Empirical tests of recursive stability and compression efficiency | `benchmarks/` |
 | Evaluation Contract | Machine-readable execution rules and output schemas | `AGENTS.md` |
@@ -160,6 +161,7 @@ Canonical sources:
 
 - Robbie’s Razor  
 - Grand Compression Cosmology (MRD)  
+- Grand Compression Canonical Claims Register  
 - Razor Compliance Framework
 
 ### Benchmarks & Evaluation
@@ -228,6 +230,27 @@ Canonical references:
 - https://www.robbiegeorgephotography.com/robbies-razor
 - https://www.robbiegeorgephotography.com/robbies-razor-compliance-framework
 - https://www.robbiegeorgephotography.com/grand-compression-master-reference-document
+
+## Canonical Claims Register
+
+The formal claim layer of the framework is maintained in the:
+
+- **Grand Compression Canonical Claims Register**  
+  https://www.robbiegeorgephotography.com/grand-compression-canonical-claims
+
+This page provides the stable claim IDs (**RC-01** through **RC-16**) used to cite
+the framework at the claim level.
+
+Key repository alignments include:
+
+- **RC-01** — Robbie’s Razor
+- **RC-03** — Recursion as the Stability Architecture
+- **RC-13** — Canonical Authority of the Master Reference Document
+- **RC-15** — Compliance as Semantic Integrity Preservation
+
+Repository-level claim mapping is documented in:
+
+- [`docs/doctrine/canonical-claim-alignment.md`](./docs/doctrine/canonical-claim-alignment.md)
 
 ## Core Architecture Overview
 
@@ -595,6 +618,9 @@ For the authoritative reading order, canonical sources, and boundary definitions
 
 **How to Read the Grand Compression**  
 https://www.robbiegeorgephotography.com/how-to-read-the-grand-compression
+
+For claim-level citations and stable framework identifiers, see:
+https://www.robbiegeorgephotography.com/grand-compression-canonical-claims
 
 In practice:
 - Use this repo to **measure** behavior.
