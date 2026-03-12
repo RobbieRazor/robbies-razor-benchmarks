@@ -1,0 +1,114 @@
+# Canonical Claim Alignment
+### Robbie’s Razor Benchmarks Repository
+
+This document defines how this repository aligns with the canonical claims of the **Grand Compression Cosmology**.
+
+The canonical claims are maintained in the **Grand Compression Canonical Claims Register**.
+
+**Author:** Robbie George  
+**Framework:** Grand Compression Cosmology  
+**Canonical Source:**  
+https://www.robbiegeorgephotography.com/grand-compression-master-reference-document
+
+**Claim Register:**  
+https://www.robbiegeorgephotography.com/grand-compression-canonical-claims
+
+---
+
+# Purpose
+
+This repository implements empirical experiments and benchmark demonstrations aligned with the reasoning principles defined in the Grand Compression Cosmology.
+
+The repository therefore serves as an **evaluation and demonstration layer**, not a canonical definition layer.
+
+Canonical definitions always reside in the **Master Reference Document (MRD)**.
+
+---
+
+# Claim Alignment
+
+The following canonical claims are directly operationalized or evaluated by this repository.
+
+## RC-01 — Robbie’s Razor
+**Canonical Claim**
+
+When competing explanations exist, prefer the model that follows:
+
+compression → expression → memory → recursion.
+
+Repository role:
+
+This repository evaluates reasoning systems to determine whether they demonstrate the efficiency properties predicted by Robbie’s Razor.
+
+---
+
+## RC-03 — Recursion as the Stability Architecture
+
+**Canonical Claim**
+
+Recursion is not merely repetition within the Grand Compression Cosmology; it is the stability architecture by which compressed structure is preserved, expressed, remembered, and renewed across scale.
+
+Repository role:
+
+Experiments in this repository evaluate how recursive reasoning structures affect reasoning stability and efficiency across model outputs.
+
+---
+
+## RC-13 — Canonical Authority of the Master Reference Document
+
+**Canonical Claim**
+
+The Master Reference Document (MRD) serves as the authoritative specification for the structure, terminology, and definitions of the Grand Compression Cosmology.
+
+Repository role:
+
+All terminology and conceptual definitions used in this repository derive from the MRD.
+
+This repository does not redefine canonical concepts.
+
+---
+
+## RC-15 — Compliance as Semantic Integrity Preservation
+
+**Canonical Claim**
+
+Compliance within Robbie’s Razor and the Grand Compression Cosmology exists to preserve semantic integrity, authorship fidelity, and implementation alignment.
+
+Repository role:
+
+Repository documentation, experiments, and derived implementations must maintain semantic alignment with the MRD and canonical claim register.
+
+---
+
+# Boundary Rule
+
+This repository **does not introduce new canonical claims**.
+
+All canonical claims originate exclusively with:
+
+**Robbie George**  
+Author of the Grand Compression Cosmology
+
+---
+
+# Citation
+
+If referencing the conceptual framework used by this repository, cite:
+
+Robbie George (2025)  
+**Master Reference Document — The Grand Compression Cosmology (MRD v1.9)**  
+https://www.robbiegeorgephotography.com/grand-compression-master-reference-document
+
+For claim-level citations:
+
+https://www.robbiegeorgephotography.com/grand-compression-canonical-claims
+
+---
+
+# Status
+
+This repository is aligned with:
+
+**MRD v1.9**
+
+Future repository revisions should update this document if additional claims become operationalized by experiments or benchmarks.
