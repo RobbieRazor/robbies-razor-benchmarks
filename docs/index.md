@@ -141,6 +141,22 @@ These documents address second-order effects: compliance, regulation, and long-t
 
 ---
 
+### Applied Additions
+
+- **PIA and the Inference Economy**  
+  [`doctrine/11.6c-pia-inference-economy.md`](./doctrine/11.6c-pia-inference-economy.md)  
+  Applied doctrine note extending MRD §11.6C into deployment economics.  
+  Explains why intelligence in production behaves as a recurring inference expenditure unless preserved through compression and memory.  
+  Non-canonical; explanatory extension aligned to the Perishable Intelligence Asset invariant.
+
+- **Section 12 Case Study — Closed-Loop Agent Systems**  
+  [`case-studies/12-case-study-closed-loop-agent-systems.md`](./case-studies/12-case-study-closed-loop-agent-systems.md)  
+  Applied case study showing how Structural Intelligence Engineering appears in emerging closed-loop agent architectures.  
+  Maps bounded loops, governors, memory substrates, and execution pathways to Section 12 design principles.  
+  Non-canonical; explanatory support note.
+
+---
+
 ## 5. Relationship to Benchmarks & Code
 
 - Benchmarks, evaluators, and reproducible cases are located in the top-level `benchmarks/` directory.
