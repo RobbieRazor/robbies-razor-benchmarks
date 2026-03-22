@@ -150,6 +150,11 @@ These documents address second-order effects: compliance, regulation, and long-t
   \( R \le \min(E/JCT, S/C) \).  
   Diagnostic only; non-canonical.
 
+  - **Razor Infrastructure Auditor (v1.0)**  
+  [`diagnostics/razor-infrastructure-auditor.md`](./diagnostics/razor-infrastructure-auditor.md)  
+  Operational audit tool evaluating whether AI systems are compression-efficient (Razor-aligned) or brute-force (Boundary Avoidance).  
+  Translates MRD Section 11 into measurable infrastructure, energy, and economic diagnostics.
+
   - **See also:** Inference Economy infrastructure model (Section 3) for upstream constraint drivers.
 
 ---
