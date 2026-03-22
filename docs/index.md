@@ -155,6 +155,11 @@ These documents address second-order effects: compliance, regulation, and long-t
   Operational audit tool evaluating whether AI systems are compression-efficient (Razor-aligned) or brute-force (Boundary Avoidance).  
   Translates MRD Section 11 into measurable infrastructure, energy, and economic diagnostics.
 
+- **DoW Razor Auditor — Certification Framework**  
+  [`governance/dow-razor-auditor-certification.md`](./governance/dow-razor-auditor-certification.md)  
+  Formal compliance and certification system for evaluating AI architectures under energy, infrastructure, and recursion constraints.  
+  Defines scoring, failure conditions, and deployment eligibility based on Robbie’s Razor.
+
   - **See also:** Inference Economy infrastructure model (Section 3) for upstream constraint drivers.
 
 ---
