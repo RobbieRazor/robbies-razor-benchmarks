@@ -85,6 +85,17 @@ These documents explore how Razor-aligned architectures impact hardware lifespan
 
 These documents connect inference efficiency to real-world infrastructure constraints.
 
+---
+
+### New: Inference Economy & Infrastructure Phase Transition
+
+- **Inference Economy: Infrastructure, Energy, and Recursive Stability**  
+  [`doctrine/11.6C-inference-economy-infrastructure.md`](./doctrine/11.6C-inference-economy-infrastructure.md)  
+  Canonical extraction of MRD §11.6C.15–11.6C.17 defining the transition from model-limited to infrastructure-limited intelligence systems.  
+  Formalizes the relationship between continuous inference demand, energy constraints, token economics, and recursive stability boundaries.  
+  Introduces the Infrastructure Phase Transition, Token-Energy Economics (JCT vs tokens), and the Inference vs Memory Collapse Boundary.  
+  Establishes measurement, constraint, and failure conditions governing large-scale AI systems under the Inference Economy.
+
 - **Physical Substrate Constraint Field (MRD §11.4.4 Canonical)**  
   [`physical-substrate-constraint-field.md`](./physical-substrate-constraint-field.md)  
   Canonical architectural invariant defining energy, fabrication, material, and infrastructure limits as the physical bounding field governing recursive acceleration.  
@@ -139,6 +150,7 @@ These documents address second-order effects: compliance, regulation, and long-t
   \( R \le \min(E/JCT, S/C) \).  
   Diagnostic only; non-canonical.
 
+- See also: Inference Economy infrastructure model (Section 3) for upstream constraint drivers.
 ---
 
 ## 5. Relationship to Benchmarks & Code
