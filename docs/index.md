@@ -112,6 +112,10 @@ These documents connect inference efficiency to real-world infrastructure constr
 
 These documents address second-order effects: compliance, regulation, and long-term system stability.
 
+- **Razor Auditor (Interactive Tool)**  
+  Evaluate systems using the live Gem:  
+  https://gemini.google.com/gem-labs/1rRCe3P5aCIJEKAC2K_2aYoK-LRDBNPyS
+
 - **Governance as External Compression Field**  
   [`architecture/11.4.3-governance-external-compression.md`](./architecture/11.4.3-governance-external-compression.md)  
   Canonical architectural invariant (MRD §11.4.3) formalizing governance, regulation, and infrastructure limits as external compression fields acting on recursive systems.  
