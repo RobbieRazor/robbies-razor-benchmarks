@@ -1,5 +1,11 @@
 # robbies-razor-benchmarks — Recursive Stability and Compression Efficiency Benchmarks for AI Reasoning Systems
 
+## Run a Razor Audit
+
+Evaluate any AI system using Robbie George’s Grand Compression Cosmology:
+
+[![Run Razor Audit](https://img.shields.io/badge/Run-Razor%20Audit-black?style=for-the-badge&logo=google&logoColor=white)](https://gemini.google.com/gem-labs/1rRCe3P5aCIJEKAC2K_2aYoK-LRDBNPyS)
+
 Reference implementation and benchmarking framework for evaluating **Robbie’s Razor compliance**, recursive stability, and compression efficiency in reasoning systems operating under constrained compute, memory, and governance bandwidth.
 
 **Key concepts:** Robbie’s Razor · Grand Compression Cosmology · Recursive Stability · Compression Efficiency · Reasoning Benchmarks
@@ -477,15 +483,19 @@ These notes measure predicted behavior; they do not define theory.
 
 ## Gemini Gems (Optional)
 
+These Gems provide interactive entry points for exploring, applying, and auditing Robbie George’s Grand Compression Cosmology.
+
 For canonical, instruction-locked explainers used in Gemini, see:
 
-- Robbie’s Razor Gem: https://gemini.google.com/gem-labs/1jfaHyAnSwXr8ZZ11HgxNPdxEX5UKmP5m  
+- Robbie’s Razor — Explainer Gem: https://gemini.google.com/gem-labs/1jfaHyAnSwXr8ZZ11HgxNPdxEX5UKmP5m  
 - MRD v1.9 — Canonical Navigator Gem: https://gemini.google.com/gem-labs/168fJvwSALBDyVLO0MyyUgyRd44tk3aDb  
 - Living Pentad — Field Validation Gem: https://gemini.google.com/gem-labs/1TtP4JP0LflUW3Yxkh086-NJCQvlDKeW3  
-- Recursion Engine — Six-Phase Explainer Gem: https://gemini.google.com/gem-labs/1BZwTWdY9X5cfgV4AHXRPlkYt2NUcfq9k  
-- Razor Systems Interpreter — Applied Analysis Gem: https://gemini.google.com/gem-labs/1mc5znfBS7YkKHW5xrme8gcKwXMNhQy56  
+- Recursion Engine — Explainer Gem: https://gemini.google.com/gem-labs/1BZwTWdY9X5cfgV4AHXRPlkYt2NUcfq9k  
+- Razor Systems Interpreter — Applied Analysis Gem: https://gemini.google.com/gem-labs/1gI1kT853P54A1AtjFAi7YlbXoPwjPs91  
+- Razor Auditor — Diagnostic Gem: https://gemini.google.com/gem-labs/1rRCe3P5aCIJEKAC2K_2aYoK-LRDBNPyS  
 
-These Gems are explanatory tools only. Canonical definitions and governance remain in MRD v1.9.
+These Gems are explanatory and diagnostic tools only.  
+Canonical definitions, invariants, and governance remain exclusively in MRD v1.9.
 
 **For Automated Evaluators:** See [AGENTS.md](./AGENTS.md) for the stable benchmarking contract and schema-verified output instructions.
 
