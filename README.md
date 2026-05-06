@@ -125,6 +125,19 @@ Robbie’s Razor therefore states:
 
 Quick research summary: docs/RESEARCH_OVERVIEW.md
 
+## Knowledge Architecture
+
+Recursive Knowledge Compression Architecture (RKCA) defines how complex knowledge systems are compressed into reusable human-readable and machine-readable cognitive structures.
+
+RKCA extends Robbie’s Razor and the Grand Compression Cosmology into structured knowledge systems, including Recursive Compression Interfaces (RCIs) and Plates™.
+
+Key documents:
+
+- [Recursive Knowledge Compression Architecture (RKCA)](docs/recursive-knowledge-compression.md)
+- [Plates™ and RKCA Attribution Protocol](governance/plates_and_rkca_attribution.md)
+
+RKCA and Plates™ are applied knowledge-architecture layers. They do not redefine canonical theory, which remains exclusively governed by the Master Reference Document (MRD v1.9) and the Authorship Conservation Rule (ACR).
+
 ## Repository Structure
 
 This repository separates **theory, architecture, evaluation, and execution contracts** into distinct layers.
