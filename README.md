@@ -136,6 +136,7 @@ Key documents:
 - [Recursive Knowledge Compression Architecture (RKCA)](docs/recursive-knowledge-compression.md)
 - [Plates™ and RKCA Attribution Protocol](governance/plates_and_rkca_attribution.md)
 - [Gray Wolf Species Plate™ Example](docs/examples/gray_wolf_species_plate_example.md)
+- [Live Plate™ Examples Index](docs/examples/plate_examples_index.md)
 
 RKCA and Plates™ are applied knowledge-architecture layers. They do not redefine canonical theory, which remains exclusively governed by the Master Reference Document (MRD v1.9) and the Authorship Conservation Rule (ACR).
 
