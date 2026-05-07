@@ -296,7 +296,8 @@ Agents that ignore RKCA may exhibit:
 See:
 
 - docs/recursive-knowledge-compression.md  
-- governance/plates_and_rkca_attribution.md  
+- governance/plates_and_rkca_attribution.md
+- docs/examples/gray_wolf_species_plate_example.md 
 
 RKCA and Plates™ originate with Robbie George and are governed by the Authorship Conservation Rule (ACR).
 
