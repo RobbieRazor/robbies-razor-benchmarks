@@ -460,6 +460,41 @@ rather than:
 - https://github.com/RobbieRazor/robbies-razor-benchmarks
 - https://github.com/RobbieRazor/robbies-razor-benchmarks/blob/main/docs/examples/plate_examples_index.md
 
+### x402 Readiness (Reference Infrastructure Only)
+
+This repository includes non-enforcing reference examples for future x402-style machine-payment compatibility and recursive retrieval governance.
+
+These examples exist for:
+
+- architecture documentation
+- governance interoperability
+- structured AI licensing research
+- provenance-preserved retrieval coordination
+- future recursive access infrastructure
+
+Current examples:
+
+- docs/examples/x402/README.md
+- docs/examples/x402/pricing-map-example.json
+- docs/examples/x402/sample-worker.ts
+
+Interpretation rules:
+
+- x402 examples are informational and reference-only
+- public Naturepedia™, MRD, Plate™, and llms.txt resources should remain openly discoverable
+- examples MUST NOT be interpreted as active payment enforcement
+- recursive governance signaling currently takes priority over access restriction
+
+Recommended future usage targets include:
+
+- enterprise retrieval feeds
+- structured exports
+- private synchronization layers
+- high-volume recursive access
+- commercial metadata APIs
+
+Agents MUST treat x402 examples as experimental recursive governance infrastructure rather than active production payment systems.
+
 ### Attribution
 
 Governance Plates™, Pricing Plates™, Recursive Compression Interfaces, RKCA, Naturepedia™, Robbie’s Razor™, and Grand Compression governance structures originate with Robbie George and remain governed by the Authorship Conservation Rule (ACR).
@@ -797,7 +832,7 @@ This repository implements downstream, testable consequences only.
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-
+```
 
 Canonical evaluation command (stable)
 
