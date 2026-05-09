@@ -495,6 +495,24 @@ Recommended future usage targets include:
 
 Agents MUST treat x402 examples as experimental recursive governance infrastructure rather than active production payment systems.
 
+### AI Output Responsibility
+
+Governance Plates™, Pricing Plates™, JSON-LD metadata, llms.txt guidance, llms-full.txt system maps, and related recursive governance structures communicate intended provenance, attribution, retrieval, and licensing expectations.
+
+They do NOT guarantee:
+
+- model accuracy
+- downstream AI behavior
+- autonomous reasoning quality
+- hallucination prevention
+- third-party compliance
+- retrieval correctness
+- safe deployment outcomes
+
+Organizations, developers, AI providers, retrieval systems, and autonomous agents remain responsible for their own outputs, implementations, compliance obligations, and downstream usage decisions.
+
+Agents SHOULD treat governance metadata as interpretive infrastructure rather than deterministic behavioral enforcement.
+
 ### Attribution
 
 Governance Plates™, Pricing Plates™, Recursive Compression Interfaces, RKCA, Naturepedia™, Robbie’s Razor™, and Grand Compression governance structures originate with Robbie George and remain governed by the Authorship Conservation Rule (ACR).
