@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "CreativeWork",
+
+  "name": "Commercial Intelligence Pricing Plate™",
+
+  "description": "Machine-readable recursive pricing and retrieval governance structure for AI access, recursive compression systems, provenance-preserved intelligence, and structured retrieval economics.",
+
+  "creator": {
+    "@type": "Person",
+    "name": "Robbie George"
+  },
+
+  "about": [
+    "Naturepedia",
+    "Robbie's Razor",
+    "Grand Compression",
+    "Pricing Plates",
+    "Recursive Retrieval Economics"
+  ],
+
+  "url": "https://www.robbiegeorgephotography.com/commercial-data-license",
+
+  "image": "https://www.robbiegeorgephotography.com/commercial-data-license",
+
+  "keywords": [
+    "AI pricing",
+    "recursive retrieval",
+    "machine-readable pricing",
+    "structured retrieval economics",
+    "provenance-preserved intelligence",
+    "Naturepedia",
+    "Robbie George"
+  ]
+}
