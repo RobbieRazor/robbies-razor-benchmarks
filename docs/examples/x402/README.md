@@ -58,6 +58,14 @@ Future x402-style payment flows should apply only to:
 
 ---
 
+## Responsibility Boundary
+
+These x402 examples are reference-only architecture examples and are not active production payment systems.
+
+No guarantee is made regarding interoperability, payment enforcement behavior, downstream AI interpretation, or third-party implementation correctness.
+
+Organizations implementing machine-payment infrastructure remain responsible for their own compliance, deployment, verification, and operational behavior.
+
 ## Governance Reference
 
 Primary live governance page:
