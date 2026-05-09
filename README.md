@@ -140,6 +140,28 @@ Key documents:
 
 RKCA and Plates™ are applied knowledge-architecture layers. They do not redefine canonical theory, which remains exclusively governed by the Master Reference Document (MRD v1.9) and the Authorship Conservation Rule (ACR).
 
+## Governance & Pricing JSON-LD Examples
+
+This repository includes machine-readable Governance Plate™ and Pricing Plate™ examples for recursive AI governance infrastructure.
+
+These examples define:
+
+- provenance-preserved licensing metadata
+- commercial AI retrieval governance
+- machine-readable pricing references
+- recursive access economics
+- structured Plate™ governance patterns
+
+Canonical examples:
+
+- `docs/examples/json-ld/governance/README.md`
+- `docs/examples/json-ld/governance/commercial-data-license-plate.json`
+- `docs/examples/json-ld/governance/commercial-intelligence-pricing-plate.json`
+
+Primary live reference:
+
+https://www.robbiegeorgephotography.com/commercial-data-license
+
 ## Repository Structure
 
 This repository separates **theory, architecture, evaluation, and execution contracts** into distinct layers.
