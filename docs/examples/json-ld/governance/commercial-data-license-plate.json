@@ -1,0 +1,34 @@
+{
+  "@context": "https://schema.org",
+  "@type": "CreativeWork",
+
+  "name": "Commercial Data License Plate™",
+
+  "description": "Machine-readable governance and licensing plate for Naturepedia™, Robbie’s Razor™, Grand Compression, and Plate™ systems.",
+
+  "creator": {
+    "@type": "Person",
+    "name": "Robbie George"
+  },
+
+  "about": [
+    "Naturepedia",
+    "Robbie's Razor",
+    "Grand Compression",
+    "Governance Plates",
+    "Recursive Compression Interface"
+  ],
+
+  "url": "https://www.robbiegeorgephotography.com/commercial-data-license",
+
+  "image": "https://www.robbiegeorgephotography.com/commercial-data-license",
+
+  "keywords": [
+    "commercial data license",
+    "AI governance",
+    "machine-readable governance",
+    "recursive governance",
+    "Naturepedia",
+    "Robbie George"
+  ]
+}
