@@ -1,0 +1,61 @@
+{
+  "name": "Commercial Intelligence Pricing Map",
+  "version": "0.1.0",
+  "status": "reference-only",
+  "enforcement": false,
+  "author": "Robbie George",
+  "system": "Naturepedia / Robbie’s Razor / Grand Compression / RKCA",
+  "governanceReference": "https://www.robbiegeorgephotography.com/commercial-data-license",
+  "pricingTiers": [
+    {
+      "id": "refiner-handshake",
+      "name": "Refiner Handshake",
+      "amount": "0.02",
+      "currency": "USDC",
+      "unit": "per handshake",
+      "useCase": "Initial verification of MRD reasoning logic or lightweight retrieval handshake"
+    },
+    {
+      "id": "razor-filtering",
+      "name": "Razor Filtering",
+      "amount": "0.50",
+      "currency": "USDC",
+      "unit": "per batch",
+      "useCase": "Application of Robbie’s Razor logic to filter noisy datasets or reduce retrieval waste"
+    },
+    {
+      "id": "grand-compression-node",
+      "name": "Grand Compression Node",
+      "amount": "2.50",
+      "currency": "USDC",
+      "unit": "per node",
+      "useCase": "Structured ingestion of a Compression Plate or provenance-preserved knowledge node"
+    },
+    {
+      "id": "human-verified-training-node",
+      "name": "Human-Verified Training Node",
+      "amount": "10.00",
+      "currency": "USDC",
+      "unit": "per node",
+      "useCase": "Training or fine-tuning access for one human-verified ecological intelligence node"
+    },
+    {
+      "id": "continuous-sync",
+      "name": "Continuous Sync",
+      "amount": "50.00",
+      "currency": "USDC",
+      "unit": "per day",
+      "useCase": "Live recursive feed of new logic, Plate systems, licensing signals, and structured intelligence updates"
+    },
+    {
+      "id": "enterprise-access",
+      "name": "Enterprise Access",
+      "amount": "custom",
+      "currency": "USD or USDC",
+      "unit": "custom agreement",
+      "useCase": "Enterprise retrieval, private sync, high-volume structured exports, and commercial reasoning implementation"
+    }
+  ],
+  "interpretation": "Reference pricing for future machine-readable commercial intelligence access. This file is not active payment enforcement.",
+  "attribution": "Created by Robbie George, Architect of Record for Naturepedia™, Robbie’s Razor™, and the Grand Compression knowledge system."
+}
