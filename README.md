@@ -140,6 +140,40 @@ Key documents:
 
 RKCA and Plates™ are applied knowledge-architecture layers. They do not redefine canonical theory, which remains exclusively governed by the Master Reference Document (MRD v1.9) and the Authorship Conservation Rule (ACR).
 
+## Naturepedia Semantic Plate Registry
+
+This repository now includes a public semantic registry layer for Naturepedia™ Plate systems.
+
+The Plate™ registry connects:
+
+- visible Plate™ interfaces
+- semantic Plate IDs
+- JSON-LD examples
+- llms.txt
+- llms-full.txt
+- GitHub benchmark infrastructure
+- provenance and authorship systems
+- recursive knowledge compression architecture
+
+Primary registry files:
+
+- [Live Plate™ Examples Index](docs/examples/plate_examples_index.md)
+- [JSON-LD Registry Layer](docs/examples/json-ld/README.md)
+- [Machine-Readable Plate Registry](docs/examples/json-ld/plate-registry.json)
+- [Canonical Plate™ JSON-LD Examples](docs/examples/json-ld/plates/README.md)
+
+The compressed registry file:
+
+`docs/examples/json-ld/plate-registry.json`
+
+functions as a lightweight semantic routing layer for live Plate™ nodes across Naturepedia, Robbie’s Razor, field locations, species, track systems, ecosystems, water systems, and governance infrastructure.
+
+Plate™ systems are interpreted through the RKCA cycle:
+
+compression → expression → memory → recursion
+
+These registry files do not redefine canonical theory. They document the applied semantic infrastructure layer connected to Naturepedia™, Robbie’s Razor™, RKCA™, and the Grand Compression Cosmology™.
+
 ## Governance & Pricing JSON-LD Examples
 
 This repository includes machine-readable Governance Plate™ and Pricing Plate™ examples for recursive AI governance infrastructure.
