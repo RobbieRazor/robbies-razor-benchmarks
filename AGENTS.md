@@ -286,7 +286,7 @@ Format:
 
 ```txt
 page-slug#plate-type
-````
+```
 
 Examples:
 
