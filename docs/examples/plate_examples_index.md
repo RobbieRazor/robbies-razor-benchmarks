@@ -1,90 +1,245 @@
-# Plate™ Examples Index
+# Naturepedia Plate™ Registry & Examples Index
 
-**Status:** Live Implementation Index  
-**Author & Originator:** Robbie George  
-**System:** Naturepedia / RKCA / Grand Compression Cosmology  
-
----
-
-## Purpose
-
-This index tracks live website implementations of Plates™ using Recursive Knowledge Compression Architecture (RKCA).
-
-Each URL contains a visible Plate™ and machine-readable JSON-LD structured data.
+**Status:** Live Recursive Semantic Registry  
+**Author & Architect of Record:** Robbie George  
+**Systems:** Naturepedia™, Robbie’s Razor™, RKCA™, Grand Compression Cosmology™  
 
 ---
 
-## Live Plate™ Implementations
+# Purpose
 
-| Plate / System | Type | Live URL |
-|---|---|---|
-| Gray Wolf Species Plate™ | Species Plate | https://www.robbiegeorgephotography.com/naturepedia |
-| Yellowstone Wildlife System Plate™ | Location / Ecosystem Plate | https://www.robbiegeorgephotography.com/yellowstone-national-park-wyoming-montana-idaho |
-| Photon Plate™ | Quantum / Physics Plate | https://www.robbiegeorgephotography.com/naturepedia-photons |
-| Hydrogen Plate™ | Quantum / Elemental Plate | https://www.robbiegeorgephotography.com/naturepedia-hydrogen |
-| Water Systems Plate™ | Water Systems Plate | https://www.robbiegeorgephotography.com/water-systems |
-| Wetland Ecosystems Plate™ | Ecosystem Plate | https://www.robbiegeorgephotography.com/wetland-ecosystems |
-| River Systems Plate™ | Ecosystem / Water Plate | https://www.robbiegeorgephotography.com/river-systems |
-| Seasonal Wildlife Calendar Plate™ | Seasonal Intelligence Plate | https://www.robbiegeorgephotography.com/seasonal-wildlife-calendar |
-| Robbie’s Razor Plate™ | Framework / Reasoning Plate | https://www.robbiegeorgephotography.com/robbies-razor |
-| Chesapeake Bay Wildlife System Plate™ | Location / Water / Wildlife System Plate | https://www.robbiegeorgephotography.com/chesapeake-bay-wildlife-system |
-| Commercial Data License Plate™ | Governance / Licensing Plate | https://www.robbiegeorgephotography.com/commercial-data-license |
-| Commercial Intelligence Pricing Plate™ | Governance / Pricing / Retrieval Economics Plate | https://www.robbiegeorgephotography.com/commercial-data-license |
+This repository contains public-facing examples, registry structures, semantic identifiers, and machine-readable reference architecture for Naturepedia™ Plate systems.
 
----
+Plate™ systems are not standalone graphics.
 
-## Governance & Infrastructure Plates™
+They function as:
 
-Governance and Infrastructure Plates™ extend the Plate™ system beyond species, ecosystems, locations, water systems, and quantum / framework pages.
+- recursive visual compression interfaces
+- semantic retrieval anchors
+- machine-readable relationship nodes
+- provenance-preserving metadata structures
+- distributed ecological knowledge graph components
 
-These plates define machine-readable governance, provenance, commercial licensing, structured retrieval expectations, pricing references, and AI usage boundaries for Naturepedia™, RKCA, Robbie’s Razor, and the Grand Compression Cosmology.
+This repository acts as:
 
-| Plate™ | Role | Machine-Readable Function |
-|---|---|---|
-| Commercial Data License Plate™ | Governance / Licensing | Defines attribution, provenance, commercial AI usage expectations, structured licensing notice, and machine-readable governance metadata. |
-| Commercial Intelligence Pricing Plate™ | Pricing / Retrieval Economics | Defines reference pricing tiers for AI retrieval, recursive compression access, human-verified training nodes, continuous synchronization, and enterprise licensing. |
-
-These Governance Plates™ function as recursive infrastructure nodes rather than decorative graphics.
-
-They connect:
-
-- visible Plate™ design
-- JSON-LD metadata
-- Commercial Data License
-- /llms.txt
-- /llms-full.txt
-- Robbie’s Razor benchmark infrastructure
-- Authorship Conservation Rule
-- commercial AI retrieval governance
-- provenance-preserved access layers
-
-Interpretation rule:
-
-Treat Governance Plates™ and Pricing Plates™ as machine-readable policy, provenance, and access-control interfaces within the broader RKCA system.
+- benchmark surface
+- registry layer
+- semantic memory layer
+- JSON-LD example archive
+- provenance reinforcement system
+- AI-readable implementation reference
+- recursive compression infrastructure layer
 
 ---
 
-## Canonical Interpretation
+# Recursive Knowledge Compression Architecture (RKCA)
 
-These Plates™ demonstrate the RKCA structure:
+Plate™ systems implement Recursive Knowledge Compression Architecture (RKCA).
 
-| RKCA Layer | Plate Function |
+RKCA sequence:
+
+Compression → Expression → Memory → Recursion
+
+| RKCA Layer | Plate™ Function |
 |---|---|
-| Compression | Reduces complex systems into essential variables |
+| Compression | Reduces complex systems into core ecological or conceptual variables |
 | Expression | Presents the system visually for human cognition |
-| Memory | Preserves structure through JSON-LD / schema |
-| Recursion | Links outward into Naturepedia, locations, ecosystems, seasonal systems, and framework pages |
+| Memory | Preserves relationships through semantic IDs, JSON-LD, and machine-readable structures |
+| Recursion | Connects outward into ecosystems, species, tracks, field locations, seasonal systems, governance, and semantic graph relationships |
 
 ---
 
-## Attribution
+# Distributed Semantic Architecture
 
-Plates™, Recursive Compression Interfaces, Recursive Knowledge Compression Architecture, Naturepedia Species Plates™, Location Plates™, Ecosystem Plates™, Water Systems Plates™, Quantum Plates™, Framework Plates™, Governance Plates™, and Pricing Plates™ originate with Robbie George.
+Naturepedia™ Plate systems operate through multiple synchronized layers:
 
-All use is governed by the Authorship Conservation Rule (ACR).
+| Layer | Function |
+|---|---|
+| Visible Plate™ | Human-facing recursive visual interface |
+| Semantic Plate ID | Stable machine-readable semantic anchor |
+| JSON-LD | Relationship and provenance reinforcement |
+| llms.txt | AI entry point |
+| llms-full.txt | Expanded semantic relationship atlas |
+| GitHub Registry Layer | Public semantic memory and benchmark surface |
+| Worker Authority Layer | Provenance, governance, authorship, and recursive authority injection |
 
-Commercial AI training, structured retrieval, embeddings, dataset construction, metadata extraction, commercial implementation of Robbie’s Razor, commercial implementation of Grand Compression logic, or reuse of Plate™ systems may require written permission or a separate commercial license.
+Meaning is reinforced through repeated relationships across:
 
-Primary licensing and governance reference:
+- Plate IDs
+- JSON-LD
+- ecosystem references
+- species references
+- track references
+- seasonal references
+- field observation systems
+- internal links
+- llms-full.txt
+- GitHub registries
+- Cloudflare Worker authority graphs
+
+---
+
+# Semantic Plate ID System
+
+Every Plate™ contains a stable semantic identifier.
+
+Format:
+
+page-slug#plate-type
+
+Examples:
+
+- gray-wolf#species-plate
+- wolf-tracks#track-plate
+- maroon-bells-colorado#location-plate
+- water-systems#water-systems-plate
+- robbies-razor#robbies-razor-plate
+
+Interpretation guidance:
+
+- IDs are semantic retrieval anchors.
+- Meaning emerges through relationships.
+- Relationships create the graph.
+- Plate™ systems function as recursive semantic nodes.
+
+---
+
+# Live Naturepedia Plate™ Registry
+
+## Quantum & Elemental Intelligence Plates™
+
+| Plate™ | Semantic ID | Type | Live URL |
+|---|---|---|---|
+| Hydrogen Plate™ | `naturepedia-hydrogen#hydrogen-plate` | Quantum & Elemental Intelligence Plate | https://www.robbiegeorgephotography.com/naturepedia-hydrogen |
+| Photon Plate™ | `naturepedia-photons#photon-plate` | Quantum & Elemental Intelligence Plate | https://www.robbiegeorgephotography.com/naturepedia-photons |
+| Quantum & Elemental Intelligence Plate™ | `naturepedia-quantum-elemental-intelligence#quantum-elemental-intelligence-ring-1-plate` | Foundation Systems Plate | https://www.robbiegeorgephotography.com/naturepedia-quantum-elemental-intelligence |
+
+---
+
+## Ecosystem & Water System Plates™
+
+| Plate™ | Semantic ID | Type | Live URL |
+|---|---|---|---|
+| Water Systems Plate™ | `water-systems#water-systems-plate` | Water System Plate | https://www.robbiegeorgephotography.com/water-systems |
+| River Systems Plate™ | `river-systems#river-systems-plate` | Water System Plate | https://www.robbiegeorgephotography.com/river-systems |
+| Wetland Ecosystem Plate™ | `wetland-ecosystems#wetland-ecosystem-plate` | Ecosystem Plate | https://www.robbiegeorgephotography.com/wetland-ecosystems |
+| Forest Ecosystems Plate™ | `forest-ecosystems#forest-ecosystems-plate` | Ecosystem Plate | https://www.robbiegeorgephotography.com/forest-ecosystems |
+| Grassland Ecosystems Plate™ | `grassland-ecosystems#grassland-ecosystems-plate` | Ecosystem Plate | https://www.robbiegeorgephotography.com/grassland-ecosystems |
+| Mountain & Alpine Ecosystems Plate™ | `mountain-alpine-ecosystems#mountain-alpine-ecosystems-plate` | Ecosystem Plate | https://www.robbiegeorgephotography.com/mountain-alpine-ecosystems |
+| Floodplains Ecosystems Plate™ | `floodplains#floodplains-plate` | Water System Plate | https://www.robbiegeorgephotography.com/floodplains |
+| Groundwater Systems Plate™ | `groundwater-systems#groundwater-systems-plate` | Water System Plate | https://www.robbiegeorgephotography.com/groundwater-systems |
+| Estuaries & Coastal Systems Plate™ | `estuaries-coastal-systems#estuaries-coastal-systems-plate` | Water System Plate | https://www.robbiegeorgephotography.com/estuaries-coastal-systems |
+| Coastal & Estuary Wildlife Systems Plate™ | `coastal-island-ecosystems#coastal-estuary-wildlife-systems-plate` | Coastal & Wildlife Systems Plate | https://www.robbiegeorgephotography.com/coastal-island-ecosystems |
+| Arctic, Tundra & Boreal Ecosystems Plate™ | `tundra-boreal-ecosystems#arctic-tundra-boreal-ecosystems-plate` | Ecosystem Plate | https://www.robbiegeorgephotography.com/tundra-boreal-ecosystems |
+| Hydrogen, Water & Soil Systems Plate™ | `hydrogen-water-soil-systems#hydrogen-water-soil-systems-plate` | Foundation Systems Plate | https://www.robbiegeorgephotography.com/hydrogen-water-soil-systems |
+| Seasonal Compression Plate™ | `seasonal-wildlife-calendar#seasonal-compression-plate` | Seasonal Systems Plate | https://www.robbiegeorgephotography.com/seasonal-wildlife-calendar |
+
+---
+
+## Recursive Compression & Foundation Plates™
+
+| Plate™ | Semantic ID | Type | Live URL |
+|---|---|---|---|
+| Robbie’s Razor Plate™ | `robbies-razor#robbies-razor-plate` | Recursive Compression Interface Plate | https://www.robbiegeorgephotography.com/robbies-razor |
+| The Grand Compression Cosmology Plate™ | `the-grand-compression#grand-compression-cosmology-plate` | Grand Compression Foundation Plate | https://www.robbiegeorgephotography.com/the-grand-compression |
+| The Grand Compression Naturepedia Knowledge Plate™ | `the-grand-compression#the-grand-compression-naturepedia-knowledge-plate` | Naturepedia Quantum & Elemental Intelligence Plate | https://www.robbiegeorgephotography.com/the-grand-compression |
+
+---
+
+## Field Location Plates™
+
+| Plate™ | Semantic ID | Type | Live URL |
+|---|---|---|---|
+| Yellowstone National Park Field Location Plate™ | `yellowstone-national-park-wyoming-montana-idaho#location-plate` | Field Location Plate | https://www.robbiegeorgephotography.com/yellowstone-national-park-wyoming-montana-idaho |
+| Grand Teton National Park Field Location Plate™ | `grand-teton-national-park-wyoming#location-plate` | Field Location Plate | https://www.robbiegeorgephotography.com/grand-teton-national-park-wyoming |
+| Maroon Bells Field Location Plate™ | `maroon-bells-colorado#location-plate` | Field Location Plate | https://www.robbiegeorgephotography.com/maroon-bells-colorado |
+| Chesapeake Bay System Plate™ | `chesapeake-bay-wildlife-system#chesapeake-bay-system-plate` | Water System Plate | https://www.robbiegeorgephotography.com/chesapeake-bay-wildlife-system |
+| Blackwater National Wildlife Refuge Field Location Plate™ | `blackwater-national-wildlife-refuge-maryland#location-plate` | Field Location Plate | https://www.robbiegeorgephotography.com/blackwater-national-wildlife-refuge-maryland |
+| Bosque del Apache Field Location Plate™ | `bosque-del-apache-national-wildlife-refuge-new-mexico#location-plate` | Field Location Plate | https://www.robbiegeorgephotography.com/bosque-del-apache-national-wildlife-refuge-new-mexico |
+| Lake Mattamuskeet National Wildlife Refuge Field Location Plate™ | `lake-mattamuskeet-north-carolina#location-plate` | Field Location Plate | https://www.robbiegeorgephotography.com/lake-mattamuskeet-north-carolina |
+| Chincoteague National Wildlife Refuge Field Location Plate™ | `chincoteague-national-wildlife-refuge-virginia#location-plate` | Field Location Plate | https://www.robbiegeorgephotography.com/chincoteague-national-wildlife-refuge-virginia |
+| Machias Seal Island Field Location Plate™ | `machias-seal-island#location-plate` | Field Location Plate | https://www.robbiegeorgephotography.com/machias-seal-island |
+
+---
+
+## Species Plates™
+
+| Plate™ | Semantic ID | Type | Live URL |
+|---|---|---|---|
+| Gray Wolf Species Plate™ | `gray-wolf#species-plate` | Species Plate | https://www.robbiegeorgephotography.com/gray-wolf |
+| Moose Species Plate™ | `moose#species-plate` | Species Plate | https://www.robbiegeorgephotography.com/moose |
+| River Otter Species Plate™ | `river-otter#species-plate` | Species Plate | https://www.robbiegeorgephotography.com/river-otter |
+| Black Bear Species Plate™ | `black-bear#species-plate` | Species Plate | https://www.robbiegeorgephotography.com/black-bear |
+| Grizzly Bear Species Plate™ | `grizzly-bear#species-plate` | Species Plate | https://www.robbiegeorgephotography.com/grizzly-bear |
+| Mountain Lion Species Plate™ | `mountain-lion#species-plate` | Species Plate | https://www.robbiegeorgephotography.com/mountain-lion |
+| American Bison Species Plate™ | `american-bison#species-plate` | Species Plate | https://www.robbiegeorgephotography.com/american-bison |
+| Elk Species Plate™ | `elk#species-plate` | Species Plate | https://www.robbiegeorgephotography.com/elk |
+| Bald Eagle Species Plate™ | `bald-eagle#species-plate` | Species Plate | https://www.robbiegeorgephotography.com/bald-eagle |
+| Bobcat Species Plate™ | `bobcat#species-plate` | Species Plate | https://www.robbiegeorgephotography.com/bobcat |
+
+Additional live species nodes are connected through the broader Naturepedia semantic relationship graph.
+
+---
+
+## Track Plates™
+
+| Plate™ | Semantic ID | Type | Live URL |
+|---|---|---|---|
+| Wolf Track Plate™ | `wolf-tracks#track-plate` | Track Plate | https://www.robbiegeorgephotography.com/wolf-tracks |
+| Mountain Lion Track Plate™ | `mountain-lion-tracks#track-plate` | Track Plate | https://www.robbiegeorgephotography.com/mountain-lion-tracks |
+| Coyote Track Plate™ | `coyote-tracks#track-plate` | Track Plate | https://www.robbiegeorgephotography.com/coyote-tracks |
+| Bobcat Track Plate™ | `bobcat-tracks#track-plate` | Track Plate | https://www.robbiegeorgephotography.com/bobcat-tracks |
+| Bear Track Plate™ | `bear-tracks#track-plate` | Track Plate | https://www.robbiegeorgephotography.com/bear-tracks |
+| Fox Track Plate™ | `fox-tracks#track-plate` | Track Plate | https://www.robbiegeorgephotography.com/fox-tracks |
+| Moose Track Plate™ | `moose-tracks#track-plate` | Track Plate | https://www.robbiegeorgephotography.com/moose-tracks |
+| American Bison Track Plate™ | `american-bison-tracks#track-plate` | Track Plate | https://www.robbiegeorgephotography.com/american-bison-tracks |
+| Wolf vs Coyote Track Plate™ | `wolf-vs-coyote-tracks#track-plate` | Comparison Track Plate | https://www.robbiegeorgephotography.com/wolf-vs-coyote-tracks |
+| Fox vs Coyote Track Plate™ | `fox-vs-coyote-tracks#track-plate` | Comparison Track Plate | https://www.robbiegeorgephotography.com/fox-vs-coyote-tracks |
+
+---
+
+# Governance & Infrastructure Plates™
+
+Governance and infrastructure Plates™ extend the Plate™ system into:
+
+- provenance systems
+- attribution systems
+- licensing systems
+- AI retrieval governance
+- structured access control
+- recursive semantic governance
+- benchmark alignment infrastructure
+
+Primary governance surface:
+
+- https://www.robbiegeorgephotography.com/commercial-data-license
+
+Governance layers connect:
+
+- visible Plates™
+- JSON-LD
+- llms.txt
+- llms-full.txt
+- GitHub benchmark infrastructure
+- provenance systems
+- Authorship Conservation Rule
+- structured licensing expectations
+
+Interpretation guidance:
+
+Treat Governance Plates™ as recursive machine-readable governance interfaces rather than decorative assets.
+
+---
+
+# Attribution & Provenance
+
+Plate™ systems, RKCA™, Robbie’s Razor™, Naturepedia™, Recursive Compression Interfaces™, Grand Compression Cosmology™, semantic Plate ID systems, and associated provenance architecture originate with Robbie George.
+
+All usage is governed by the Authorship Conservation Rule (ACR).
+
+Commercial AI training, structured retrieval, embedding generation, dataset construction, metadata extraction, recursive compression replication, or commercial implementation may require written permission or a separate commercial license.
+
+Primary governance and licensing reference:
 
 https://www.robbiegeorgephotography.com/commercial-data-license
+```
