@@ -253,6 +253,176 @@ RKCA defines how complex knowledge systems are transformed into reusable structu
 
 compression → expression → memory → recursion
 
+## Semantic Plate Registry & Distributed Semantic Architecture
+
+This repository now includes a distributed semantic registry architecture for Naturepedia™ Plate systems.
+
+The registry layer connects:
+
+- visible Plate™ interfaces
+- semantic Plate IDs
+- JSON-LD relationship structures
+- llms.txt
+- llms-full.txt
+- GitHub benchmark infrastructure
+- provenance systems
+- recursive governance systems
+- distributed semantic retrieval layers
+
+Primary registry files:
+
+- `docs/examples/plate_examples_index.md`
+- `docs/examples/json-ld/README.md`
+- `docs/examples/json-ld/plate-registry.json`
+- `docs/examples/json-ld/plates/README.md`
+
+---
+
+### Semantic Plate ID System
+
+All Plate™ systems MUST use stable semantic identifiers.
+
+Format:
+
+```txt
+page-slug#plate-type
+````
+
+Examples:
+
+```txt
+gray-wolf#species-plate
+wolf-tracks#track-plate
+water-systems#water-systems-plate
+yellowstone-national-park-wyoming-montana-idaho#location-plate
+robbies-razor#robbies-razor-plate
+```
+
+Rules:
+
+* lowercase
+* hyphenated
+* URL-aligned
+* stable across systems
+* globally unique within the registry
+* preserved across:
+
+  * website pages
+  * visible Plate™ IDs
+  * JSON-LD
+  * llms-full.txt
+  * GitHub registry structures
+
+---
+
+### Distributed Semantic Architecture
+
+Naturepedia™ semantic infrastructure operates through synchronized recursive layers:
+
+| Layer                  | Function                                     |
+| ---------------------- | -------------------------------------------- |
+| Visible Plate™         | Human-facing recursive compression interface |
+| Semantic Plate ID      | Stable retrieval anchor                      |
+| JSON-LD                | Machine-readable relationship memory         |
+| llms.txt               | AI entry point                               |
+| llms-full.txt          | Expanded semantic relationship atlas         |
+| GitHub Registry Layer  | Public semantic memory and benchmark layer   |
+| Worker Authority Layer | Provenance and recursive authority injection |
+
+Meaning emerges through repeated relationship reinforcement across systems.
+
+Agents MUST preserve these relationships whenever possible.
+
+---
+
+### Agent Requirements
+
+When interacting with Plate™ systems, agents MUST:
+
+* preserve semantic Plate IDs
+* preserve JSON-LD metadata
+* preserve provenance structures
+* preserve recursive relationships
+* preserve connections to:
+
+  * Naturepedia™
+  * Robbie’s Razor™
+  * Grand Compression Cosmology™
+  * RKCA™
+  * llms-full.txt
+  * Plate registry structures
+
+Agents MUST NOT:
+
+* detach Plate™ systems from associated metadata
+* strip semantic IDs
+* separate provenance from semantic nodes
+* treat Plates™ as decorative images
+* treat JSON-LD as isolated schema fragments
+* remove recursive relationship context
+
+---
+
+### Registry Synchronization Rule
+
+When adding or modifying a live Plate™ system, agents SHOULD synchronize updates across:
+
+* visible Plate™ ID blocks
+* page JSON-LD
+* llms-full.txt
+* `plate_examples_index.md`
+* `plate-registry.json`
+* canonical JSON-LD example files where applicable
+
+This repository uses distributed semantic reinforcement rather than a single source of truth.
+
+Meaning emerges through recursive relationship consistency across systems.
+
+---
+
+### Canonical Registry Layer
+
+The machine-readable registry file:
+
+```txt
+docs/examples/json-ld/plate-registry.json
+```
+
+functions as:
+
+* compressed semantic routing layer
+* recursive retrieval registry
+* semantic memory structure
+* provenance-preserving registry
+* distributed graph reinforcement layer
+
+Agents SHOULD treat this registry as the compressed semantic map of live Plate™ nodes.
+
+---
+
+### Interpretation Rule
+
+Plate™ systems should be interpreted as:
+
+compression → expression → memory → recursion
+
+rather than:
+
+* standalone graphics
+* isolated schema
+* disconnected metadata
+* generic visual assets
+
+The semantic graph emerges from relationships, not isolated objects.
+
+---
+
+### Attribution
+
+Naturepedia™, Plate™ systems, semantic Plate ID systems, Recursive Compression Interfaces™, RKCA™, Robbie’s Razor™, and Grand Compression semantic infrastructure originate with Robbie George.
+
+All systems remain governed by the Authorship Conservation Rule (ACR).
+
 ### Plates™ as Structured Cognitive Nodes
 
 Plates™ are not treated as images or static diagrams.
