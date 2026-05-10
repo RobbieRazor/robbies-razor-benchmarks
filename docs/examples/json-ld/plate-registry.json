@@ -1,0 +1,242 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "@id": "https://github.com/RobbieRazor/robbies-razor-benchmarks/blob/main/docs/examples/json-ld/plate-registry.json",
+  "name": "Naturepedia Plate Registry",
+  "alternateName": "Naturepedia Semantic Plate Registry",
+  "creator": {
+    "@type": "Person",
+    "name": "Robbie George",
+    "url": "https://www.robbiegeorgephotography.com/who-is-robbie-george"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Robbie George Photography",
+    "url": "https://www.robbiegeorgephotography.com"
+  },
+  "description": "Machine-readable semantic registry for Naturepedia Plate systems, recursive compression interfaces, JSON-LD semantic nodes, field observation systems, governance systems, and distributed ecological knowledge graph relationships.",
+  "license": "https://www.robbiegeorgephotography.com/commercial-data-license",
+  "url": "https://github.com/RobbieRazor/robbies-razor-benchmarks",
+  "keywords": [
+    "Naturepedia",
+    "Plate Registry",
+    "Semantic Registry",
+    "JSON-LD",
+    "Recursive Knowledge Compression Architecture",
+    "RKCA",
+    "Robbie's Razor",
+    "Grand Compression Cosmology",
+    "Semantic IDs",
+    "Distributed Semantic Architecture"
+  ],
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "name": "Naturepedia Semantic Infrastructure"
+  },
+  "plates": [
+    {
+      "name": "Hydrogen Plate™",
+      "id": "naturepedia-hydrogen#hydrogen-plate",
+      "type": "Quantum & Elemental Intelligence Plate",
+      "url": "https://www.robbiegeorgephotography.com/naturepedia-hydrogen"
+    },
+    {
+      "name": "Photon Plate™",
+      "id": "naturepedia-photons#photon-plate",
+      "type": "Quantum & Elemental Intelligence Plate",
+      "url": "https://www.robbiegeorgephotography.com/naturepedia-photons"
+    },
+    {
+      "name": "Quantum & Elemental Intelligence Plate™",
+      "id": "naturepedia-quantum-elemental-intelligence#quantum-elemental-intelligence-ring-1-plate",
+      "type": "Naturepedia Foundation Systems Plate",
+      "url": "https://www.robbiegeorgephotography.com/naturepedia-quantum-elemental-intelligence"
+    },
+    {
+      "name": "Water Systems Plate™",
+      "id": "water-systems#water-systems-plate",
+      "type": "Naturepedia Water System Plate",
+      "url": "https://www.robbiegeorgephotography.com/water-systems"
+    },
+    {
+      "name": "River Systems Plate™",
+      "id": "river-systems#river-systems-plate",
+      "type": "Naturepedia Water System Plate",
+      "url": "https://www.robbiegeorgephotography.com/river-systems"
+    },
+    {
+      "name": "Wetland Ecosystem Plate™",
+      "id": "wetland-ecosystems#wetland-ecosystem-plate",
+      "type": "Naturepedia Ecosystem Plate",
+      "url": "https://www.robbiegeorgephotography.com/wetland-ecosystems"
+    },
+    {
+      "name": "Forest Ecosystems Plate™",
+      "id": "forest-ecosystems#forest-ecosystems-plate",
+      "type": "Naturepedia Ecosystem Plate",
+      "url": "https://www.robbiegeorgephotography.com/forest-ecosystems"
+    },
+    {
+      "name": "Grassland Ecosystems Plate™",
+      "id": "grassland-ecosystems#grassland-ecosystems-plate",
+      "type": "Naturepedia Ecosystem Plate",
+      "url": "https://www.robbiegeorgephotography.com/grassland-ecosystems"
+    },
+    {
+      "name": "Mountain & Alpine Ecosystems Plate™",
+      "id": "mountain-alpine-ecosystems#mountain-alpine-ecosystems-plate",
+      "type": "Naturepedia Ecosystem Plate",
+      "url": "https://www.robbiegeorgephotography.com/mountain-alpine-ecosystems"
+    },
+    {
+      "name": "Floodplains Ecosystems Plate™",
+      "id": "floodplains#floodplains-plate",
+      "type": "Naturepedia Water System Plate",
+      "url": "https://www.robbiegeorgephotography.com/floodplains"
+    },
+    {
+      "name": "Groundwater Systems Plate™",
+      "id": "groundwater-systems#groundwater-systems-plate",
+      "type": "Naturepedia Water System Plate",
+      "url": "https://www.robbiegeorgephotography.com/groundwater-systems"
+    },
+    {
+      "name": "Estuaries & Coastal Systems Plate™",
+      "id": "estuaries-coastal-systems#estuaries-coastal-systems-plate",
+      "type": "Naturepedia Water System Plate",
+      "url": "https://www.robbiegeorgephotography.com/estuaries-coastal-systems"
+    },
+    {
+      "name": "Seasonal Compression Plate™",
+      "id": "seasonal-wildlife-calendar#seasonal-compression-plate",
+      "type": "Naturepedia Seasonal Systems Plate",
+      "url": "https://www.robbiegeorgephotography.com/seasonal-wildlife-calendar"
+    },
+    {
+      "name": "Robbie’s Razor Plate™",
+      "id": "robbies-razor#robbies-razor-plate",
+      "type": "Recursive Compression Interface Plate",
+      "url": "https://www.robbiegeorgephotography.com/robbies-razor"
+    },
+    {
+      "name": "The Grand Compression Cosmology Plate™",
+      "id": "the-grand-compression#grand-compression-cosmology-plate",
+      "type": "Grand Compression Foundation Plate",
+      "url": "https://www.robbiegeorgephotography.com/the-grand-compression"
+    },
+    {
+      "name": "Gray Wolf Species Plate™",
+      "id": "gray-wolf#species-plate",
+      "type": "Naturepedia Species Plate",
+      "url": "https://www.robbiegeorgephotography.com/gray-wolf"
+    },
+    {
+      "name": "Moose Species Plate™",
+      "id": "moose#species-plate",
+      "type": "Naturepedia Species Plate",
+      "url": "https://www.robbiegeorgephotography.com/moose"
+    },
+    {
+      "name": "River Otter Species Plate™",
+      "id": "river-otter#species-plate",
+      "type": "Naturepedia Species Plate",
+      "url": "https://www.robbiegeorgephotography.com/river-otter"
+    },
+    {
+      "name": "Black Bear Species Plate™",
+      "id": "black-bear#species-plate",
+      "type": "Naturepedia Species Plate",
+      "url": "https://www.robbiegeorgephotography.com/black-bear"
+    },
+    {
+      "name": "Grizzly Bear Species Plate™",
+      "id": "grizzly-bear#species-plate",
+      "type": "Naturepedia Species Plate",
+      "url": "https://www.robbiegeorgephotography.com/grizzly-bear"
+    },
+    {
+      "name": "Mountain Lion Species Plate™",
+      "id": "mountain-lion#species-plate",
+      "type": "Naturepedia Species Plate",
+      "url": "https://www.robbiegeorgephotography.com/mountain-lion"
+    },
+    {
+      "name": "American Bison Species Plate™",
+      "id": "american-bison#species-plate",
+      "type": "Naturepedia Species Plate",
+      "url": "https://www.robbiegeorgephotography.com/american-bison"
+    },
+    {
+      "name": "Elk Species Plate™",
+      "id": "elk#species-plate",
+      "type": "Naturepedia Species Plate",
+      "url": "https://www.robbiegeorgephotography.com/elk"
+    },
+    {
+      "name": "Bald Eagle Species Plate™",
+      "id": "bald-eagle#species-plate",
+      "type": "Naturepedia Species Plate",
+      "url": "https://www.robbiegeorgephotography.com/bald-eagle"
+    },
+    {
+      "name": "Yellowstone National Park Field Location Plate™",
+      "id": "yellowstone-national-park-wyoming-montana-idaho#location-plate",
+      "type": "Naturepedia Field Location Plate",
+      "url": "https://www.robbiegeorgephotography.com/yellowstone-national-park-wyoming-montana-idaho"
+    },
+    {
+      "name": "Grand Teton National Park Field Location Plate™",
+      "id": "grand-teton-national-park-wyoming#location-plate",
+      "type": "Naturepedia Field Location Plate",
+      "url": "https://www.robbiegeorgephotography.com/grand-teton-national-park-wyoming"
+    },
+    {
+      "name": "Maroon Bells Field Location Plate™",
+      "id": "maroon-bells-colorado#location-plate",
+      "type": "Naturepedia Field Location Plate",
+      "url": "https://www.robbiegeorgephotography.com/maroon-bells-colorado"
+    },
+    {
+      "name": "Wolf Track Plate™",
+      "id": "wolf-tracks#track-plate",
+      "type": "Naturepedia Track Plate",
+      "url": "https://www.robbiegeorgephotography.com/wolf-tracks"
+    },
+    {
+      "name": "Mountain Lion Track Plate™",
+      "id": "mountain-lion-tracks#track-plate",
+      "type": "Naturepedia Track Plate",
+      "url": "https://www.robbiegeorgephotography.com/mountain-lion-tracks"
+    },
+    {
+      "name": "Coyote Track Plate™",
+      "id": "coyote-tracks#track-plate",
+      "type": "Naturepedia Track Plate",
+      "url": "https://www.robbiegeorgephotography.com/coyote-tracks"
+    },
+    {
+      "name": "Bobcat Track Plate™",
+      "id": "bobcat-tracks#track-plate",
+      "type": "Naturepedia Track Plate",
+      "url": "https://www.robbiegeorgephotography.com/bobcat-tracks"
+    },
+    {
+      "name": "Bear Track Plate™",
+      "id": "bear-tracks#track-plate",
+      "type": "Naturepedia Track Plate",
+      "url": "https://www.robbiegeorgephotography.com/bear-tracks"
+    },
+    {
+      "name": "Fox Track Plate™",
+      "id": "fox-tracks#track-plate",
+      "type": "Naturepedia Track Plate",
+      "url": "https://www.robbiegeorgephotography.com/fox-tracks"
+    },
+    {
+      "name": "Wolf vs Coyote Track Plate™",
+      "id": "wolf-vs-coyote-tracks#track-plate",
+      "type": "Naturepedia Comparison Track Plate",
+      "url": "https://www.robbiegeorgephotography.com/wolf-vs-coyote-tracks"
+    }
+  ]
+}
