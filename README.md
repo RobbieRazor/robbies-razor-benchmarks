@@ -27,6 +27,25 @@ Stable recursive systems operate inside the **Safe Recursion Envelope** defined 
 
 R ≤ min(E/JCT , S/C)
 
+### Constraint-Bounded Recursive Intelligence
+
+MRD v1.9 further defines recursive intelligence as a physically bounded architectural process operating under substrate constraints.
+
+Stable recursive acceleration requires:
+
+```txt
+Gᵣ ≤ Eₛ
+```
+
+Where:
+
+- **Gᵣ** = recursive gain per iteration  
+- **Eₛ** = substrate expansion capacity  
+
+This principle clarifies that long-term recursive capability growth depends primarily on compression efficiency, preserved memory, and reduced recomputation burden rather than unconstrained infrastructure expansion alone.
+
+Canonical authority remains exclusively in MRD §11.4.4A.
+
 ## Robbie’s Razor Architecture
 
 Recursive intelligence systems described by the Grand Compression Cosmology operate as a closed-loop compression architecture.
