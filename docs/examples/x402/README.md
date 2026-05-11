@@ -58,6 +58,63 @@ Future x402-style payment flows should apply only to:
 
 ---
 
+## Experimental Live Deployment Status
+
+A live experimental x402-compatible deployment layer now exists on Robbie George Photography through Cloudflare Workers.
+
+Current deployment scope:
+
+- Experimental namespace: `/x402/*`
+- Settlement network: Base
+- Settlement asset: USDC
+- Facilitator model: Coinbase x402 facilitator
+- Governance response header:
+  `X-Robbie-Razor-Governance: Gr <= Es`
+
+Current deployment capabilities include:
+
+- AI-style request detection at edge layer
+- Conditional HTTP 402 challenge responses
+- Base-network USDC settlement routing
+- x402Version challenge payloads
+- governance-aware machine-readable headers
+- human-browser bypass
+- search-engine crawler bypass
+- isolated experimental deployment pathing
+
+Current implementation should be interpreted as:
+
+- infrastructure readiness
+- experimental machine-payment deployment
+- programmable AI retrieval architecture
+- governance-aware payment routing
+
+It should NOT yet be interpreted as:
+
+- finalized universal enforcement
+- a sitewide paywall
+- mandatory payment for public pages
+- production-scale commercial deployment
+- universal crawler compatibility
+
+Current deployment philosophy:
+
+Public discovery remains open.
+
+Experimental payment routing currently exists only inside isolated machine-readable namespaces and future programmable retrieval pathways.
+
+Future intended usage may include:
+
+- premium JSON-LD delivery
+- structured retrieval APIs
+- recursive synchronization services
+- provenance-aware commercial ingestion
+- AI-agent retrieval licensing
+- enterprise machine-readable access
+- recursive compression licensing systems
+
+---
+
 ## Responsibility Boundary
 
 These x402 examples are reference-only architecture examples and are not active production payment systems.
