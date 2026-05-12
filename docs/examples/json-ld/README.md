@@ -94,6 +94,7 @@ wolf-tracks#track-plate
 water-systems#water-systems-plate
 maroon-bells-colorado#location-plate
 robbies-razor#robbies-razor-plate
+robbie-george#robbie-george-biography-plate
 ```
 
 Interpretation guidance:
@@ -186,6 +187,43 @@ Example registry structure:
 ---
 
 # Example JSON-LD — Species Plate™
+
+---
+
+# Example JSON-LD — Biography Plate™
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "@id": "https://www.robbiegeorgephotography.com/who-is-robbie-george#robbie-george-biography-plate",
+  "name": "Robbie George Biography Plate™",
+  "url": "https://www.robbiegeorgephotography.com/who-is-robbie-george",
+  "mainEntity": {
+    "@type": "Person",
+    "name": "Robbie George"
+  },
+  "creator": {
+    "@type": "Person",
+    "name": "Robbie George"
+  },
+  "keywords": [
+    "Robbie George",
+    "Naturepedia",
+    "Biography Plate",
+    "Robbie's Razor",
+    "Grand Compression",
+    "Architect of Record",
+    "Recursive Compression Interface"
+  ],
+  "isPartOf": {
+    "@type": "CreativeWork",
+    "name": "Naturepedia™"
+  }
+}
+```
+
+# Example JSON-LD — Gray Wolf Species Plate™
 
 ```json
 {
