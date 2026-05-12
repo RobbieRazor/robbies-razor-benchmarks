@@ -331,6 +331,80 @@ Example registry structure:
 
 # Future Infrastructure
 
+## Live x402 Semantic Retrieval Infrastructure
+
+Naturepedia™ now includes experimental x402-compatible semantic retrieval infrastructure deployed through Cloudflare Workers under:
+
+```txt
+/x402/*
+```
+
+Current live protected semantic endpoints include:
+
+```txt
+/x402/plate-registry.json
+/x402/identity-graph.json
+/x402/naturepedia-system-map.json
+/x402/plate-registry-expanded.json
+```
+
+These endpoints function as:
+
+- paid machine-readable semantic registries
+- provenance-aware retrieval nodes
+- recursive ontology routing systems
+- structured AI retrieval interfaces
+- compressed semantic synchronization layers
+
+Current architecture separates:
+
+```txt
+public discovery
++
+paid structured retrieval
+```
+
+Public pages remain open for:
+
+- SEO
+- AI indexing
+- provenance visibility
+- public discovery
+- human-readable access
+
+Protected x402 layers are intended for:
+
+- semantic registry retrieval
+- structured ontology exports
+- provenance-aware synchronization
+- recursive semantic routing
+- premium JSON-LD delivery
+- future enterprise AI synchronization
+
+Current x402 infrastructure includes:
+
+- Cloudflare Worker semantic gateway
+- HTTP 402 challenge responses
+- Base network settlement
+- USDC payment routing
+- governance-aware response headers
+- endpoint-specific semantic Dataset payloads
+- human-browser bypass
+- search crawler bypass
+
+Governance header:
+
+```txt
+X-Robbie-Razor-Governance: Gr <= Es
+```
+
+Interpretation guidance:
+
+- Treat x402 endpoints as semantic retrieval infrastructure, not public page replacements.
+- Do not interpret x402 deployment as a sitewide paywall.
+- Public Naturepedia™, Robbie’s Razor™, Grand Compression, and wildlife pages remain publicly accessible.
+- x402 layers are intended for machine-readable structured retrieval and future AI synchronization systems.
+
 Planned expansion layers include:
 
 - expanded semantic registries
