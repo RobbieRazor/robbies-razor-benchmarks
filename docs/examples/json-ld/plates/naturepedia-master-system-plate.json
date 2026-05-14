@@ -1,0 +1,47 @@
+{
+  "@context": "https://schema.org",
+  "@type": "CreativeWork",
+  "@id": "https://www.robbiegeorgephotography.com/naturepedia#master-system-plate",
+  "name": "Naturepedia Master System Plate™",
+  "alternateName": "Naturepedia Root Knowledge System Plate™",
+  "url": "https://www.robbiegeorgephotography.com/naturepedia",
+  "creator": {
+    "@type": "Person",
+    "name": "Robbie George",
+    "url": "https://www.robbiegeorgephotography.com/who-is-robbie-george"
+  },
+  "isPartOf": {
+    "@type": "CreativeWork",
+    "name": "Naturepedia™"
+  },
+  "description": "Root semantic orchestration interface for the Naturepedia distributed ecological knowledge system.",
+  "keywords": [
+    "Naturepedia",
+    "Root Knowledge System",
+    "Recursive Compression Interface",
+    "Semantic Routing",
+    "Distributed Semantic Architecture",
+    "RKCA",
+    "Robbie's Razor",
+    "Wildlife Systems",
+    "Ecological Intelligence"
+  ],
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "Wildlife Ecology"
+    },
+    {
+      "@type": "Thing",
+      "name": "Migration Systems"
+    },
+    {
+      "@type": "Thing",
+      "name": "Habitat Systems"
+    },
+    {
+      "@type": "Thing",
+      "name": "Biodiversity"
+    }
+  ]
+}
