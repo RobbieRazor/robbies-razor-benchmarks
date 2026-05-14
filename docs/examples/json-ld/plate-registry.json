@@ -35,6 +35,60 @@
   },
   "plates": [
     {
+  "name": "Naturepedia Master System Plate™",
+  "id": "naturepedia#master-system-plate",
+  "url": "https://www.robbiegeorgephotography.com/naturepedia",
+  "type": "Naturepedia Root Knowledge System Plate™"
+},
+{
+  "name": "Naturepedia System Navigation Plate™",
+  "id": "start-here-naturepedia#system-navigation-plate",
+  "url": "https://www.robbiegeorgephotography.com/start-here-naturepedia",
+  "type": "Naturepedia System Navigation Plate™"
+},
+{
+  "name": "Wildlife Migration & Seasonal Patterns Plate™",
+  "id": "wildlife-migration-seasonal-patterns-north-america#migration-system-plate",
+  "url": "https://www.robbiegeorgephotography.com/wildlife-migration-seasonal-patterns-north-america",
+  "type": "Naturepedia Migration System Plate™"
+},
+{
+  "name": "Wildlife Behavior & Ecology Plate™",
+  "id": "wildlife-behavior-ecology-north-america#behavior-system-plate",
+  "url": "https://www.robbiegeorgephotography.com/wildlife-behavior-ecology-north-america",
+  "type": "Naturepedia Behavior System Plate™"
+},
+{
+  "name": "Wildlife Habitats & Ecosystem Zones Plate™",
+  "id": "wildlife-habitats-ecosystem-zones-north-america#habitat-system-plate",
+  "url": "https://www.robbiegeorgephotography.com/wildlife-habitats-ecosystem-zones-north-america",
+  "type": "Naturepedia Habitat System Plate™"
+},
+{
+  "name": "Biodiversity & Ecosystem Balance Plate™",
+  "id": "biodiversity-ecosystem-balance#biodiversity-system-plate",
+  "url": "https://www.robbiegeorgephotography.com/biodiversity-ecosystem-balance",
+  "type": "Naturepedia Biodiversity System Plate™"
+},
+{
+  "name": "Wildlife Observation & Field Techniques Plate™",
+  "id": "wildlife-observation-field-techniques#field-techniques-system-plate",
+  "url": "https://www.robbiegeorgephotography.com/wildlife-observation-field-techniques",
+  "type": "Naturepedia Field Techniques System Plate™"
+},
+{
+  "name": "Wildlife Sign & Tracking Plate™",
+  "id": "wildlife-sign-tracking#tracking-system-plate",
+  "url": "https://www.robbiegeorgephotography.com/wildlife-sign-tracking",
+  "type": "Naturepedia Behavior System Plate™"
+},
+{
+  "name": "North American Animal Tracks Plate™",
+  "id": "north-american-animal-tracks#tracking-system-plate",
+  "url": "https://www.robbiegeorgephotography.com/north-american-animal-tracks",
+  "type": "Naturepedia Track System Plate™"
+},
+    {
       "name": "Hydrogen Plate™",
       "id": "naturepedia-hydrogen#hydrogen-plate",
       "type": "Quantum & Elemental Intelligence Plate",
