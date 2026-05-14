@@ -120,7 +120,8 @@ docs/examples/json-ld/
 │   ├── gray-wolf-species-plate.json
 │   ├── wolf-tracks-plate.json
 │   ├── water-systems-plate.json
-│   └── robbies-razor-plate.json
+│   ├── robbies-razor-plate.json
+│   └── naturepedia-master-system-plate.json
 │
 └── plate-registry.json
 ```
