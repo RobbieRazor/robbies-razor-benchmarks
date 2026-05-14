@@ -156,6 +156,58 @@ Governance systems connect:
 
 # Plate Registry Layer
 
+# Naturepedia System & Navigation Plate™ Layer
+
+Naturepedia™ Plates now include high-level recursive system interfaces functioning as:
+
+- semantic routing nodes
+- ecosystem orchestration layers
+- behavioral relationship systems
+- migration and timing systems
+- habitat and biodiversity systems
+- field observation coordination systems
+- recursive navigation interfaces
+
+These Plates extend beyond individual species or ecosystems and operate as higher-order semantic compression layers within the broader distributed Naturepedia™ graph architecture.
+
+Examples include:
+
+- Naturepedia Master System Plate™
+- Naturepedia System Navigation Plate™
+- Wildlife Migration & Seasonal Patterns Plate™
+- Wildlife Behavior & Ecology Plate™
+- Wildlife Habitats & Ecosystem Zones Plate™
+- Biodiversity & Ecosystem Balance Plate™
+- Wildlife Observation & Field Techniques Plate™
+- Wildlife Sign & Tracking Plate™
+- North American Animal Tracks Plate™
+
+These system-level Plates reinforce recursive semantic relationships across:
+
+- visible Plate™ systems
+- semantic Plate IDs
+- JSON-LD
+- llms-full.txt
+- GitHub semantic registries
+- ecosystem relationship layers
+- field observation systems
+- future x402 retrieval infrastructure
+
+They should be interpreted as recursive knowledge orchestration interfaces within the broader Naturepedia™ distributed semantic architecture.
+
+Example system registry structure:
+
+```json
+{
+  "name": "Wildlife Migration & Seasonal Patterns Plate™",
+  "id": "wildlife-migration-seasonal-patterns-north-america#migration-system-plate",
+  "type": "Naturepedia Migration System Plate™",
+  "url": "https://www.robbiegeorgephotography.com/wildlife-migration-seasonal-patterns-north-america"
+}
+```
+
+---
+
 The Plate Registry functions as a compressed machine-readable semantic routing system.
 
 Primary registry file:
