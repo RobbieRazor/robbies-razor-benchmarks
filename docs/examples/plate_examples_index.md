@@ -106,6 +106,22 @@ Interpretation guidance:
 
 # Live Naturepedia Plate™ Registry
 
+## Naturepedia System & Navigation Plates™
+
+| Plate™ | Semantic ID | Type | Live URL |
+|---|---|---|---|
+| Naturepedia Master System Plate™ | `naturepedia#master-system-plate` | Naturepedia Root Knowledge System Plate™ | https://www.robbiegeorgephotography.com/naturepedia |
+| Naturepedia System Navigation Plate™ | `start-here-naturepedia#system-navigation-plate` | Naturepedia System Navigation Plate™ | https://www.robbiegeorgephotography.com/start-here-naturepedia |
+| Wildlife Migration & Seasonal Patterns Plate™ | `wildlife-migration-seasonal-patterns-north-america#migration-system-plate` | Naturepedia Migration System Plate™ | https://www.robbiegeorgephotography.com/wildlife-migration-seasonal-patterns-north-america |
+| Wildlife Behavior & Ecology Plate™ | `wildlife-behavior-ecology-north-america#behavior-system-plate` | Naturepedia Behavior System Plate™ | https://www.robbiegeorgephotography.com/wildlife-behavior-ecology-north-america |
+| Wildlife Habitats & Ecosystem Zones Plate™ | `wildlife-habitats-ecosystem-zones-north-america#habitat-system-plate` | Naturepedia Habitat System Plate™ | https://www.robbiegeorgephotography.com/wildlife-habitats-ecosystem-zones-north-america |
+| Biodiversity & Ecosystem Balance Plate™ | `biodiversity-ecosystem-balance#biodiversity-system-plate` | Naturepedia Biodiversity System Plate™ | https://www.robbiegeorgephotography.com/biodiversity-ecosystem-balance |
+| Wildlife Observation & Field Techniques Plate™ | `wildlife-observation-field-techniques#field-techniques-system-plate` | Naturepedia Field Techniques System Plate™ | https://www.robbiegeorgephotography.com/wildlife-observation-field-techniques |
+| Wildlife Sign & Tracking Plate™ | `wildlife-sign-tracking#tracking-system-plate` | Naturepedia Behavior System Plate™ | https://www.robbiegeorgephotography.com/wildlife-sign-tracking |
+| North American Animal Tracks Plate™ | `north-american-animal-tracks#tracking-system-plate` | Naturepedia Track System Plate™ | https://www.robbiegeorgephotography.com/north-american-animal-tracks |
+
+---
+
 ## Quantum & Elemental Intelligence Plates™
 
 | Plate™ | Semantic ID | Type | Live URL |
