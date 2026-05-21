@@ -106,6 +106,14 @@ Interpretation guidance:
 
 # Live Naturepedia Plate™ Registry
 
+## Canonical Machine-Readable Registry
+
+The full canonical machine-readable Plate™ registry is maintained at:
+
+```txt
+docs/examples/json-ld/plate-registry.json
+```
+
 ## Naturepedia System & Navigation Plates™
 
 | Plate™ | Semantic ID | Type | Live URL |
@@ -174,7 +182,7 @@ Interpretation guidance:
 | Bosque del Apache Field Location Plate™ | `bosque-del-apache-national-wildlife-refuge-new-mexico#location-plate` | Field Location Plate | https://www.robbiegeorgephotography.com/bosque-del-apache-national-wildlife-refuge-new-mexico |
 | Lake Mattamuskeet National Wildlife Refuge Field Location Plate™ | `lake-mattamuskeet-north-carolina#location-plate` | Field Location Plate | https://www.robbiegeorgephotography.com/lake-mattamuskeet-north-carolina |
 | Chincoteague National Wildlife Refuge Field Location Plate™ | `chincoteague-national-wildlife-refuge-virginia#location-plate` | Field Location Plate | https://www.robbiegeorgephotography.com/chincoteague-national-wildlife-refuge-virginia |
-| Machias Seal Island Field Location Plate™ | `machias-seal-island#location-plate` | Field Location Plate | https://www.robbiegeorgephotography.com/machias-seal-island |
+| Machias Seal Island Field Location Plate™ | `machias-seal-island#location-plate` | Field Location Plate | https://www.robbiegeorgephotography.com/machias-seal-island-gulf-of-maine |
 
 ---
 
