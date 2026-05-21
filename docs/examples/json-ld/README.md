@@ -157,6 +157,14 @@ Governance systems connect:
 
 # Plate Registry Layer
 
+## Canonical Plate Registry
+
+The canonical machine-readable index for Naturepedia™ Plate systems is:
+
+```txt
+plate-registry.json
+```
+
 # Naturepedia System & Navigation Plate™ Layer
 
 Naturepedia™ Plates now include high-level recursive system interfaces functioning as:
@@ -504,4 +512,4 @@ Commercial AI training, embeddings, metadata extraction, structured retrieval, s
 Primary governance and licensing reference:
 
 https://www.robbiegeorgephotography.com/commercial-data-license
-````
+```
