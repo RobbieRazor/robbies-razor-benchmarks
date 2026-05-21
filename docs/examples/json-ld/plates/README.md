@@ -71,6 +71,33 @@ Compression → Expression → Memory → Recursion
 
 # Directory Role
 
+## Expanded Canonical Plate™ Coverage
+
+The canonical Plate™ example layer now spans multiple recursive semantic system categories across the broader Naturepedia™ infrastructure.
+
+Current live registry categories include:
+
+- Naturepedia Root & Navigation Plates™
+- Wildlife System Plates™
+- Governance & Pricing Plates™
+- Quantum & Elemental Intelligence Plates™
+- Universal Principle Plates™
+- Soil, Water & Living System Plates™
+- Ecosystem & Wildlife System Plates™
+- Seasonal System Plates™
+- Field Identification Plates™
+- Field Location Plates™
+- Photography Guide Plates™
+- Species Plates™
+- Track Plates™
+- Comparison Track Plates™
+
+The full machine-readable registry for these systems is maintained in:
+
+```txt
+docs/examples/json-ld/plate-registry.json
+```
+
 This folder should contain selected canonical examples only.
 
 Do not duplicate every live Plate™ here.
@@ -632,18 +659,41 @@ example.json
 
 # Canonical Plate™ Types
 
-Naturepedia Species Plate
-Naturepedia Track Plate
-Naturepedia Comparison Track Plate
-Naturepedia Field Location Plate
-Naturepedia Water System Plate
-Naturepedia Ecosystem Plate
-Naturepedia Seasonal Systems Plate
-Naturepedia Foundation Systems Plate
-Naturepedia Recursive Compression Interface Plate
-Grand Compression Foundation Plate
-Governance Plate
-Commercial Intelligence Pricing Plate
+Naturepedia Root Knowledge System Plate™  
+Naturepedia System Navigation Plate™  
+Naturepedia Migration System Plate™  
+Naturepedia Behavior System Plate™  
+Naturepedia Habitat System Plate™  
+Naturepedia Biodiversity System Plate™  
+Naturepedia Wildlife Systems Plate™  
+Naturepedia Conservation System Plate™  
+Naturepedia Survival System Plate™  
+Naturepedia Ecological Energy Flow Plate™  
+Naturepedia Ecosystem Relationship Plate™  
+
+Naturepedia Species Plate™  
+Naturepedia Track Plate™  
+Naturepedia Comparison Track Plate™  
+Naturepedia Field Identification Plate™  
+Naturepedia Field Location Plate™  
+Naturepedia Photography Guide Plate™  
+
+Naturepedia Water System Plate™  
+Naturepedia Coastal Water System Plate™  
+Naturepedia Ecosystem Plate™  
+Naturepedia Seasonal System Plate™  
+Naturepedia Quantum System Plate™  
+Naturepedia Universal Principle Plate™  
+Naturepedia Living System Plate™  
+Naturepedia Living Soil System Plate™  
+Naturepedia Foundation Systems Plate™  
+
+Recursive Compression Interface Plate™  
+Grand Compression Foundation Plate™  
+Naturepedia Knowledge System Plate™  
+
+Governance Plate™  
+Pricing Plate™
 
 # Validation Checklist
 
