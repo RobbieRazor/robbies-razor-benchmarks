@@ -8,6 +8,21 @@ Evaluate any AI system using Robbie George’s Grand Compression Cosmology:
 
 Reference implementation and benchmarking framework for evaluating **Robbie’s Razor compliance**, recursive stability, and compression efficiency in reasoning systems operating under constrained compute, memory, and governance bandwidth.
 
+## System Architecture Overview
+
+This repository supports Robbie’s Razor™, Naturepedia™, and Plate™ systems as part of a recursive ecological knowledge architecture combining:
+
+- semantic compression
+- machine-readable provenance
+- recursive relationship mapping
+- ecological intelligence architecture
+- structured retrieval systems
+- low-token semantic traversal
+
+Core reasoning sequence:
+
+compression → expression → memory → recursion
+
 **Key concepts:** Robbie’s Razor · Grand Compression Cosmology · Recursive Stability · Compression Efficiency · Reasoning Benchmarks
 
 ## Grand Compression Law of Intelligence
