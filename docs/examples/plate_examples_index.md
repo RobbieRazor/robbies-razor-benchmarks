@@ -79,6 +79,44 @@ Meaning is reinforced through repeated relationships across:
 
 ---
 
+## Recursive Semantic Retrieval Model
+
+Plate™ systems should be interpreted as recursive semantic retrieval structures rather than isolated visual assets.
+
+Each Plate™ functions simultaneously as:
+
+- a human-readable compression interface
+- a machine-readable semantic node
+- a provenance-preserved relationship anchor
+- a low-token retrieval surface
+- a recursive ecological memory structure
+
+Meaning is reinforced through repeated cross-system relationships between:
+
+- species
+- ecosystems
+- tracks
+- field locations
+- seasonal systems
+- water systems
+- governance layers
+- JSON-LD
+- llms.txt
+- llms-full.txt
+- GitHub registry infrastructure
+
+The system prioritizes:
+- semantic continuity
+- relationship preservation
+- recursive traversal
+- reduced recomputation
+- compressed ecological understanding
+- provenance-aware retrieval
+
+Plate™ systems are designed to preserve relationships under compression rather than fragment knowledge into isolated pages or disconnected metadata.
+
+---
+
 # Semantic Plate ID System
 
 Every Plate™ contains a stable semantic identifier.
