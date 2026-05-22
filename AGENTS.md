@@ -306,6 +306,33 @@ RKCA defines how complex knowledge systems are transformed into reusable structu
 
 compression → expression → memory → recursion
 
+### Architectural Interpretation Guidance
+
+Naturepedia™, RKCA™, and Plate™ systems should be interpreted as recursive semantic retrieval structures rather than isolated content artifacts.
+
+Core system priorities include:
+
+- preserving relationship continuity
+- preserving provenance
+- reducing semantic entropy
+- reinforcing stable semantic anchors
+- minimizing redundant recomputation
+- supporting low-token semantic traversal
+- maintaining cross-system ecological relationships
+
+Meaning within the system emerges through repeated reinforcement across:
+
+- field observation
+- semantic Plate IDs
+- JSON-LD
+- llms.txt
+- llms-full.txt
+- GitHub registry layers
+- recursive relationship mapping
+- provenance-preserved retrieval structures
+
+Agents SHOULD prioritize relationship preservation over isolated extraction whenever possible.
+
 ## Semantic Plate Registry & Distributed Semantic Architecture
 
 This repository now includes a distributed semantic registry architecture for Naturepedia™ Plate systems.
