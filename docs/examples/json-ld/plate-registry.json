@@ -17,7 +17,7 @@
   "description": "Machine-readable semantic registry for Naturepedia Plate systems, recursive compression interfaces, JSON-LD semantic nodes, field observation systems, governance systems, pricing systems, species plates, track plates, photography guide plates, field location plates, water systems, ecosystem systems, and distributed ecological knowledge graph relationships.",
   "license": "https://www.robbiegeorgephotography.com/commercial-data-license",
   "url": "https://github.com/RobbieRazor/robbies-razor-benchmarks",
-  "dateModified": "2026-05-21",
+  "dateModified": "2026-05-30",
   "keywords": [
     "Naturepedia",
     "Plate Registry",
@@ -490,6 +490,342 @@
         "url": "https://www.robbiegeorgephotography.com/blackwater-wildlife-guide",
         "type": "Naturepedia Photography Guide Plate™"
     },
+    {
+    "category": "Pollinator System Plates™",
+    "name": "Bees of North America System Plate™",
+    "id": "bees-of-north-america#bees-of-north-america-system-plate",
+    "url": "https://www.robbiegeorgephotography.com/bees-of-north-america",
+    "type": "Naturepedia Species System Plate™"
+},
+{
+    "category": "Pollinator System Plates™",
+    "name": "Butterflies of North America System Plate™",
+    "id": "butterflies-of-north-america#butterflies-of-north-america-system-plate",
+    "url": "https://www.robbiegeorgephotography.com/butterflies-of-north-america",
+    "type": "Naturepedia Species System Plate™"
+},
+{
+    "category": "Pollinator System Plates™",
+    "name": "Hummingbirds of North America System Plate™",
+    "id": "hummingbirds-of-north-america#hummingbirds-of-north-america-system-plate",
+    "url": "https://www.robbiegeorgephotography.com/hummingbirds-of-north-america",
+    "type": "Naturepedia Species System Plate™"
+},
+{
+    "category": "Pollinator System Plates™",
+    "name": "Moths of North America System Plate™",
+    "id": "naturepedia-moths#moths-of-north-america-system-plate",
+    "url": "https://www.robbiegeorgephotography.com/naturepedia-moths",
+    "type": "Naturepedia Species System Plate™"
+},
+{
+    "category": "Pollinator System Plates™",
+    "name": "Floral Resource Networks™ System Plate™",
+    "id": "floral-resource-networks#floral-resource-networks-system-plate",
+    "url": "https://www.robbiegeorgephotography.com/floral-resource-networks",
+    "type": "Naturepedia Ecology System Plate™"
+},
+{
+    "category": "Pollinator System Plates™",
+    "name": "Floral Resource Network Architecture Plate™",
+    "id": "floral-resource-networks#network-architecture-plate",
+    "url": "https://www.robbiegeorgephotography.com/floral-resource-networks",
+    "type": "Naturepedia Ecology Infrastructure Plate™"
+},
+{
+    "category": "Pollinator Intelligence Plates™",
+    "name": "Pollination Intelligence Plate™",
+    "id": "pollination-intelligence#pollination-intelligence-plate",
+    "url": "https://www.robbiegeorgephotography.com/bees-of-north-america",
+    "type": "Naturepedia Interpretation Plate™"
+},
+{
+    "category": "Pollinator Intelligence Plates™",
+    "name": "Hive Intelligence Plate™",
+    "id": "hive-intelligence#hive-intelligence-plate",
+    "url": "https://www.robbiegeorgephotography.com/bees-of-north-america",
+    "type": "Naturepedia Intelligence Systems Plate™"
+},
+{
+    "category": "Pollinator Intelligence Plates™",
+    "name": "Waggle Dance Communication Plate™",
+    "id": "waggle-dance#communication-intelligence-plate",
+    "url": "https://www.robbiegeorgephotography.com/bees-of-north-america",
+    "type": "Naturepedia Communication Systems Plate™"
+},
+{
+    "category": "Pollinator Intelligence Plates™",
+    "name": "Ultraviolet Flower Guidance Plate™",
+    "id": "flower-guidance#ultraviolet-flower-guidance-plate",
+    "url": "https://www.robbiegeorgephotography.com/bees-of-north-america",
+    "type": "Naturepedia Navigation Systems Plate™"
+},
+{
+    "category": "Pollinator Intelligence Plates™",
+    "name": "Hummingbird Flight & Energy Plate™",
+    "id": "hummingbirds-of-north-america#hummingbird-flight-energy-plate",
+    "url": "https://www.robbiegeorgephotography.com/hummingbirds-of-north-america",
+    "type": "Naturepedia Flight Systems Plate™"
+},
+{
+    "category": "Pollinator Intelligence Plates™",
+    "name": "Iridescence & Feather Optics Plate™",
+    "id": "hummingbirds-of-north-america#iridescence-feather-optics-plate",
+    "url": "https://www.robbiegeorgephotography.com/hummingbirds-of-north-america",
+    "type": "Naturepedia Optical Biology Plate™"
+},
+{
+    "category": "Pollinator Intelligence Plates™",
+    "name": "Pollination Precision Plate™",
+    "id": "hummingbirds-of-north-america#pollination-precision-plate",
+    "url": "https://www.robbiegeorgephotography.com/hummingbirds-of-north-america",
+    "type": "Naturepedia Pollination Systems Plate™"
+},
+{
+    "category": "Pollinator Intelligence Plates™",
+    "name": "Wing Pattern Intelligence Plate™",
+    "id": "wing-pattern-intelligence#butterfly-wing-pattern-intelligence-plate",
+    "url": "https://www.robbiegeorgephotography.com/butterflies-of-north-america",
+    "type": "Naturepedia Interpretation Plate™"
+},
+{
+    "category": "Pollinator Intelligence Plates™",
+    "name": "Nocturnal Ecology Interpretation Plate™",
+    "id": "naturepedia-moths#nocturnal-ecology-interpretation-plate",
+    "url": "https://www.robbiegeorgephotography.com/naturepedia-moths",
+    "type": "Naturepedia Interpretation Plate™"
+},
+{
+    "category": "Pollinator Intelligence Plates™",
+    "name": "Moth Camouflage & Pattern Intelligence Plate™",
+    "id": "naturepedia-moths#moth-camouflage-pattern-intelligence-plate",
+    "url": "https://www.robbiegeorgephotography.com/naturepedia-moths",
+    "type": "Naturepedia Interpretation Plate™"
+},
+{
+    "category": "Pollinator Intelligence Plates™",
+    "name": "Sphinx & Hovering Pollinator Plate™",
+    "id": "naturepedia-moths#sphinx-hovering-pollinator-plate",
+    "url": "https://www.robbiegeorgephotography.com/naturepedia-moths",
+    "type": "Naturepedia Interpretation Plate™"
+},
+{
+    "category": "Pollinator Intelligence Plates™",
+    "name": "Seasonal Emergence Intelligence Plate™",
+    "id": "naturepedia-moths#seasonal-emergence-intelligence-plate",
+    "url": "https://www.robbiegeorgephotography.com/naturepedia-moths",
+    "type": "Naturepedia Interpretation Plate™"
+},
+{
+    "category": "Pollinator Intelligence Plates™",
+    "name": "Flower Resource Flow Plate™",
+    "id": "floral-resource-networks#flower-resource-flow-plate",
+    "url": "https://www.robbiegeorgephotography.com/floral-resource-networks",
+    "type": "Naturepedia Ecology Flow Plate™"
+},
+{
+    "category": "Pollinator Intelligence Plates™",
+    "name": "Pollinator Layer Plate™",
+    "id": "floral-resource-networks#pollinator-layer-plate",
+    "url": "https://www.robbiegeorgephotography.com/floral-resource-networks",
+    "type": "Naturepedia Pollination Infrastructure Plate™"
+},
+{
+    "category": "Pollinator Intelligence Plates™",
+    "name": "Nectar Corridor Plate™",
+    "id": "floral-resource-networks#nectar-corridor-plate",
+    "url": "https://www.robbiegeorgephotography.com/floral-resource-networks",
+    "type": "Naturepedia Ecological Connectivity Plate™"
+},
+{
+    "category": "Pollinator Intelligence Plates™",
+    "name": "Bloom Timing Intelligence Plate™",
+    "id": "floral-resource-networks#bloom-timing-intelligence-plate",
+    "url": "https://www.robbiegeorgephotography.com/floral-resource-networks",
+    "type": "Naturepedia Seasonal Ecology Plate™"
+},
+{
+    "category": "Pollinator Intelligence Plates™",
+    "name": "Plant Reproduction Plate™",
+    "id": "floral-resource-networks#plant-reproduction-plate",
+    "url": "https://www.robbiegeorgephotography.com/floral-resource-networks",
+    "type": "Naturepedia Plant Reproduction Plate™"
+},
+{
+    "category": "Pollinator Intelligence Plates™",
+    "name": "Biodiversity Production Plate™",
+    "id": "floral-resource-networks#biodiversity-production-plate",
+    "url": "https://www.robbiegeorgephotography.com/floral-resource-networks",
+    "type": "Naturepedia Biodiversity Systems Plate™"
+},
+{
+    "category": "Pollinator Intelligence Plates™",
+    "name": "Underground-To-Flower Plate™",
+    "id": "floral-resource-networks#underground-flower-plate",
+    "url": "https://www.robbiegeorgephotography.com/floral-resource-networks",
+    "type": "Naturepedia Ecological Infrastructure Plate™"
+},
+{
+    "category": "Pollinator Intelligence Plates™",
+    "name": "Pollination Network Plate™",
+    "id": "floral-resource-networks#pollination-network-plate",
+    "url": "https://www.robbiegeorgephotography.com/floral-resource-networks",
+    "type": "Naturepedia Ecological Network Plate™"
+},
+{
+    "category": "Pollinator Intelligence Plates™",
+    "name": "Floral Resource Intelligence Plate™",
+    "id": "floral-resource-networks#network-intelligence-plate",
+    "url": "https://www.robbiegeorgephotography.com/floral-resource-networks",
+    "type": "Naturepedia Ecological Intelligence Plate™"
+},
+{
+    "category": "Pollinator Intelligence Plates™",
+    "name": "Ecological Network Stability Plate™",
+    "id": "floral-resource-networks#network-stability-plate",
+    "url": "https://www.robbiegeorgephotography.com/floral-resource-networks",
+    "type": "Naturepedia Ecosystem Resilience Plate™"
+},
+{
+    "category": "Pollinator Intelligence Plates™",
+    "name": "Coevolution Plate™",
+    "id": "floral-resource-networks#coevolution-plate",
+    "url": "https://www.robbiegeorgephotography.com/floral-resource-networks",
+    "type": "Naturepedia Evolutionary Ecology Plate™"
+},
+{
+    "category": "Pollinator Intelligence Plates™",
+    "name": "Resource Distribution Plate™",
+    "id": "floral-resource-networks#resource-distribution-plate",
+    "url": "https://www.robbiegeorgephotography.com/floral-resource-networks",
+    "type": "Naturepedia Landscape Ecology Plate™"
+},
+{
+    "category": "Pollinator Connector Plates™",
+    "name": "Bee Resource Connector Plate™",
+    "id": "floral-resource-networks#bee-resource-connector-plate",
+    "url": "https://www.robbiegeorgephotography.com/floral-resource-networks",
+    "type": "Naturepedia Pollinator Connector Plate™"
+},
+{
+    "category": "Pollinator Connector Plates™",
+    "name": "Butterfly Resource Connector Plate™",
+    "id": "floral-resource-networks#butterfly-resource-connector-plate",
+    "url": "https://www.robbiegeorgephotography.com/floral-resource-networks",
+    "type": "Naturepedia Pollinator Connector Plate™"
+},
+{
+    "category": "Pollinator Connector Plates™",
+    "name": "Moth Resource Connector Plate™",
+    "id": "floral-resource-networks#moth-resource-connector-plate",
+    "url": "https://www.robbiegeorgephotography.com/floral-resource-networks",
+    "type": "Naturepedia Pollinator Connector Plate™"
+},
+{
+    "category": "Pollinator Connector Plates™",
+    "name": "Hummingbird Resource Connector Plate™",
+    "id": "floral-resource-networks#hummingbird-resource-connector-plate",
+    "url": "https://www.robbiegeorgephotography.com/floral-resource-networks",
+    "type": "Naturepedia Pollinator Connector Plate™"
+},
+{
+    "category": "Pollinator Species Plates™",
+    "name": "Western Honey Bee Species Plate™",
+    "id": "bees-of-north-america#western-honey-bee-species-plate",
+    "url": "https://www.robbiegeorgephotography.com/bees-of-north-america",
+    "type": "Naturepedia Species Plate™"
+},
+{
+    "category": "Pollinator Species Plates™",
+    "name": "American Bumble Bee Species Plate™",
+    "id": "bees-of-north-america#american-bumble-bee-species-plate",
+    "url": "https://www.robbiegeorgephotography.com/bees-of-north-america",
+    "type": "Naturepedia Species Plate™"
+},
+{
+    "category": "Pollinator Species Plates™",
+    "name": "Common Eastern Bumble Bee Species Plate™",
+    "id": "bees-of-north-america#common-eastern-bumble-bee-species-plate",
+    "url": "https://www.robbiegeorgephotography.com/bees-of-north-america",
+    "type": "Naturepedia Species Plate™"
+},
+{
+    "category": "Pollinator Species Plates™",
+    "name": "Rusty Patched Bumble Bee Species Plate™",
+    "id": "bees-of-north-america#rusty-patched-bumble-bee-species-plate",
+    "url": "https://www.robbiegeorgephotography.com/bees-of-north-america",
+    "type": "Naturepedia Species Plate™"
+},
+{
+    "category": "Pollinator Species Plates™",
+    "name": "Mason Bee Species Plate™",
+    "id": "bees-of-north-america#mason-bee-species-plate",
+    "url": "https://www.robbiegeorgephotography.com/bees-of-north-america",
+    "type": "Naturepedia Species Plate™"
+},
+{
+    "category": "Pollinator Species Plates™",
+    "name": "Leafcutter Bee Species Plate™",
+    "id": "bees-of-north-america#leafcutter-bee-species-plate",
+    "url": "https://www.robbiegeorgephotography.com/bees-of-north-america",
+    "type": "Naturepedia Species Plate™"
+},
+{
+    "category": "Pollinator Species Plates™",
+    "name": "Carpenter Bee Species Plate™",
+    "id": "bees-of-north-america#carpenter-bee-species-plate",
+    "url": "https://www.robbiegeorgephotography.com/bees-of-north-america",
+    "type": "Naturepedia Species Plate™"
+},
+{
+    "category": "Pollinator Species Plates™",
+    "name": "Mining Bee Species Plate™",
+    "id": "bees-of-north-america#mining-bee-species-plate",
+    "url": "https://www.robbiegeorgephotography.com/bees-of-north-america",
+    "type": "Naturepedia Species Plate™"
+},
+{
+    "category": "Pollinator Species Plates™",
+    "name": "Blue Orchard Bee Species Plate™",
+    "id": "bees-of-north-america#blue-orchard-bee-species-plate",
+    "url": "https://www.robbiegeorgephotography.com/bees-of-north-america",
+    "type": "Naturepedia Species Plate™"
+},
+{
+    "category": "Pollinator Species Plates™",
+    "name": "Sweat Bee Species Plate™",
+    "id": "bees-of-north-america#sweat-bee-species-plate",
+    "url": "https://www.robbiegeorgephotography.com/bees-of-north-america",
+    "type": "Naturepedia Species Plate™"
+},
+{
+    "category": "Pollinator Species Plates™",
+    "name": "Metallic Green Bee Species Plate™",
+    "id": "bees-of-north-america#metallic-green-bee-species-plate",
+    "url": "https://www.robbiegeorgephotography.com/bees-of-north-america",
+    "type": "Naturepedia Species Plate™"
+},
+{
+    "category": "Pollinator Species Plates™",
+    "name": "Squash Bee Species Plate™",
+    "id": "bees-of-north-america#squash-bee-species-plate",
+    "url": "https://www.robbiegeorgephotography.com/bees-of-north-america",
+    "type": "Naturepedia Species Plate™"
+},
+{
+    "category": "Pollinator Species Plates™",
+    "name": "Wool Carder Bee Species Plate™",
+    "id": "bees-of-north-america#wool-carder-bee-species-plate",
+    "url": "https://www.robbiegeorgephotography.com/bees-of-north-america",
+    "type": "Naturepedia Species Plate™"
+},
+{
+    "category": "Pollinator Species Plates™",
+    "name": "Bee Life Cycle Plate™",
+    "id": "bees-of-north-america#bee-life-cycle-plate",
+    "url": "https://www.robbiegeorgephotography.com/bees-of-north-america",
+    "type": "Naturepedia Life Cycle Plate™"
+},
     {
         "category": "Species Plates™",
         "name": "Gray Wolf Species Plate™",
