@@ -827,6 +827,27 @@
     "type": "Naturepedia Life Cycle Plate™"
 },
     {
+    "category": "Pollinator Life Cycle Plates™",
+    "name": "Bee Life Cycle Plate™",
+    "id": "bees-of-north-america#bee-life-cycle-plate",
+    "url": "https://www.robbiegeorgephotography.com/bees-of-north-america",
+    "type": "Naturepedia Life Cycle Plate™"
+},
+{
+    "category": "Pollinator Life Cycle Plates™",
+    "name": "Butterfly Life Cycle Plate™",
+    "id": "butterflies-of-north-america#butterfly-life-cycle-plate",
+    "url": "https://www.robbiegeorgephotography.com/butterflies-of-north-america",
+    "type": "Naturepedia Life Cycle Plate™"
+},
+{
+    "category": "Pollinator Life Cycle Plates™",
+    "name": "Moth Life Cycle Plate™",
+    "id": "naturepedia-moths#moth-life-cycle-plate",
+    "url": "https://www.robbiegeorgephotography.com/naturepedia-moths",
+    "type": "Naturepedia Life Cycle Plate™"
+},
+    {
     "category": "Pollinator Species Plates™",
     "name": "Monarch Butterfly Plate™",
     "id": "monarch-butterfly#monarch-butterfly-species-plate",
