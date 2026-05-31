@@ -230,6 +230,40 @@ Primary live reference:
 
 https://www.robbiegeorgephotography.com/commercial-data-license
 
+## x402 Agent Access Layer
+
+This repository is aligned with the live Naturepedia™ x402 payment gateway deployed through Cloudflare Workers.
+
+The x402 layer is designed for commercial machine-to-machine retrieval of compressed Naturepedia™, Robbie’s Razor™, Plate™, and governance data while keeping public human-facing pages open for normal browsing and search discovery.
+
+Current live x402 endpoints:
+
+- https://www.robbiegeorgephotography.com/x402/plate-registry.json
+- https://www.robbiegeorgephotography.com/x402/identity-graph.json
+- https://www.robbiegeorgephotography.com/x402/naturepedia-system-map.json
+- https://www.robbiegeorgephotography.com/x402/plate-registry-expanded.json
+
+Network: eip155:8453
+
+Asset: USDC
+
+Primary commercial reference:
+
+https://www.robbiegeorgephotography.com/commercial-data-license
+
+These endpoints are intended for:
+
+- paid semantic retrieval
+- identity and authorship graph access
+- Plate™ registry access
+- Naturepedia™ system-map retrieval
+- commercial AI ingestion workflows
+- provenance-preserved recursive knowledge access
+
+Public pages, public JSON-LD examples, and benchmark materials remain evaluation-facing.
+
+The x402 endpoints provide a separate commercial access layer for machine-readable paid retrieval.
+
 ## Repository Structure
 
 This repository separates **theory, architecture, evaluation, and execution contracts** into distinct layers.
