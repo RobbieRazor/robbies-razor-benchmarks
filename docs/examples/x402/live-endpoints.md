@@ -75,3 +75,34 @@ https://www.robbiegeorgephotography.com/x402/plant-community-system-map.json
 
 Purpose:
 Relationship map connecting plant communities, pollinators, soil microbiomes, mycelial networks, native habitat, ecological succession, and carbon storage.
+
+### Location System Map
+
+Endpoint:
+
+`/x402/location-system-map.json`
+
+Purpose:
+
+Paid compressed relationship map connecting major Naturepedia field locations, wildlife systems, habitats, seasonal timing, water systems, and applied observation guides.
+
+Connects:
+
+- Field Locations
+- Yellowstone Wildlife Guide
+- Grand Teton Wildlife Guide
+- Blackwater Wildlife Guide
+- Chesapeake Bay Wildlife System
+- Lake Mattamuskeet Wildlife System
+- Machias Seal Island
+- Water Systems
+- Seasonal Wildlife Calendar
+- Wildlife Species
+
+Amount:
+
+`75000`
+
+Status:
+
+Live
