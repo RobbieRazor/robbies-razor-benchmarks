@@ -43,3 +43,11 @@ https://www.robbiegeorgephotography.com/x402/plate-registry-expanded.json
 
 Purpose:
 Extended semantic routing and ontology retrieval.
+
+## Pollinator System Map
+
+Endpoint:
+https://www.robbiegeorgephotography.com/x402/pollinator-system-map.json
+
+Purpose:
+Relationship map connecting floral resources, pollinators, plant communities, soil microbiomes, mycelial networks, and seasonal timing.
