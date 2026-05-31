@@ -129,6 +129,12 @@ Primary live governance page:
 
 https://www.robbiegeorgephotography.com/commercial-data-license
 
+See also:
+
+docs/examples/x402/live-endpoints.md
+
+This file documents the current production x402 endpoint catalog, supported payment network, settlement asset, retrieval purposes, and machine-readable access architecture.
+
 ---
 
 ## Attribution
