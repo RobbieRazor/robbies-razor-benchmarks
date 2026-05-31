@@ -59,3 +59,19 @@ https://www.robbiegeorgephotography.com/x402/wildlife-system-map.json
 
 Purpose:
 Relationship map connecting wildlife species, tracks, behavior, habitats, ecosystems, field locations, seasonal timing, and conservation systems.
+
+## Water System Map
+
+Endpoint:
+https://www.robbiegeorgephotography.com/x402/water-system-map.json
+
+Purpose:
+Relationship map connecting water systems, river systems, wetlands, floodplains, groundwater, estuaries, Chesapeake Bay systems, and Yellowstone watersheds.
+
+## Plant Community System Map
+
+Endpoint:
+https://www.robbiegeorgephotography.com/x402/plant-community-system-map.json
+
+Purpose:
+Relationship map connecting plant communities, pollinators, soil microbiomes, mycelial networks, native habitat, ecological succession, and carbon storage.
