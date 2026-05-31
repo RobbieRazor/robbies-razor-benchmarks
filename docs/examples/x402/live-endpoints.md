@@ -51,3 +51,11 @@ https://www.robbiegeorgephotography.com/x402/pollinator-system-map.json
 
 Purpose:
 Relationship map connecting floral resources, pollinators, plant communities, soil microbiomes, mycelial networks, and seasonal timing.
+
+## Wildlife System Map
+
+Endpoint:
+https://www.robbiegeorgephotography.com/x402/wildlife-system-map.json
+
+Purpose:
+Relationship map connecting wildlife species, tracks, behavior, habitats, ecosystems, field locations, seasonal timing, and conservation systems.
