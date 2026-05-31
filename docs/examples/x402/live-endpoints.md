@@ -136,3 +136,33 @@ Amount:
 Status:
 
 Live
+
+### Species Intelligence Map
+
+Endpoint:
+
+`/x402/species-intelligence-map.json`
+
+Purpose:
+
+Paid compressed relationship map connecting wildlife species, Species Plates, tracks, behavior, habitat, field locations, seasonal timing, and conservation context.
+
+Connects:
+
+- Wildlife Species
+- Species Plates
+- North American Animal Tracks
+- Wildlife Behavior & Ecology
+- Wildlife Conservation & Habitat
+- Field Locations
+- Seasonal Wildlife Calendar
+- Ecosystems of North America
+- Wildlife Migration & Seasonal Patterns
+
+Amount:
+
+`75000`
+
+Status:
+
+Live
