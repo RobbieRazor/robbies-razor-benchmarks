@@ -106,3 +106,33 @@ Amount:
 Status:
 
 Live
+
+### Conservation System Map
+
+Endpoint:
+
+`/x402/conservation-system-map.json`
+
+Purpose:
+
+Paid compressed relationship map connecting conservation, habitat protection, biodiversity, water systems, pollinators, plant communities, wildlife movement, and restoration systems.
+
+Connects:
+
+- Wildlife Conservation & Habitat
+- Wildlife Species
+- Ecosystems of North America
+- Water Systems
+- Plant Communities
+- Floral Resource Networks
+- Seasonal Wildlife Calendar
+- Field Locations
+- Wildlife Migration & Seasonal Patterns
+
+Amount:
+
+`75000`
+
+Status:
+
+Live
