@@ -71,6 +71,20 @@ Current deployment scope:
 - Governance response header:
   `X-Robbie-Razor-Governance: Gr <= Es`
 
+Current live protected endpoint catalog:
+
+- `/x402/plate-registry.json` — Paid machine-readable Naturepedia Plate registry sample.
+- `/x402/identity-graph.json` — Identity, authorship, provenance, governance, MRD, and Plate architecture graph.
+- `/x402/naturepedia-system-map.json` — Core Naturepedia relationship map connecting species, ecosystems, tracks, locations, seasons, conservation, and Plate architecture.
+- `/x402/plate-registry-expanded.json` — Expanded Plate registry organized by category, semantic role, URL, ID, and retrieval use.
+- `/x402/pollinator-system-map.json` — Pollinator graph connecting floral resources, bees, butterflies, moths, hummingbirds, plant communities, soil microbiomes, mycelial networks, and seasonal timing.
+- `/x402/wildlife-system-map.json` — Wildlife graph connecting species, tracks, behavior, habitats, ecosystems, field locations, seasonal timing, and conservation systems.
+- `/x402/water-system-map.json` — Water systems graph connecting rivers, wetlands, floodplains, groundwater, estuaries, Chesapeake Bay systems, and Yellowstone watersheds.
+- `/x402/plant-community-system-map.json` — Plant community graph connecting pollinators, soil microbiomes, mycelial networks, native habitat, succession, and carbon storage.
+- `/x402/location-system-map.json` — Location graph connecting major field locations, wildlife systems, habitats, seasonal timing, water systems, and applied observation guides.
+- `/x402/conservation-system-map.json` — Conservation graph connecting habitat protection, biodiversity, water systems, pollinators, plant communities, wildlife movement, and restoration systems.
+- `/x402/species-intelligence-map.json` — Species intelligence graph connecting wildlife species, Species Plates, tracks, behavior, habitat, field locations, seasonal timing, and conservation context.
+
 Current deployment capabilities include:
 
 - AI-style request detection at edge layer
@@ -85,7 +99,7 @@ Current deployment capabilities include:
 Current implementation should be interpreted as:
 
 - infrastructure readiness
-- experimental machine-payment deployment
+- working commercial graph catalog deployment
 - programmable AI retrieval architecture
 - governance-aware payment routing
 
