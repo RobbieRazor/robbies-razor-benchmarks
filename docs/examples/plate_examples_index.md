@@ -171,6 +171,16 @@ docs/examples/json-ld/plate-registry.json
 | Wildlife Observation & Field Techniques Plate™ | `wildlife-observation-field-techniques#field-techniques-system-plate` | Naturepedia Field Techniques System Plate™ | https://www.robbiegeorgephotography.com/wildlife-observation-field-techniques |
 | Wildlife Sign & Tracking Plate™ | `wildlife-sign-tracking#tracking-system-plate` | Naturepedia Behavior System Plate™ | https://www.robbiegeorgephotography.com/wildlife-sign-tracking |
 | North American Animal Tracks Plate™ | `north-american-animal-tracks#tracking-system-plate` | Naturepedia Track System Plate™ | https://www.robbiegeorgephotography.com/north-american-animal-tracks |
+| Animal Scat Identification Plate™ | `animal-scat-identification-guide#scat-identification-plate` | Naturepedia Field Identification Plate™ | https://www.robbiegeorgephotography.com/animal-scat-identification-guide-north-america |
+| Keystone Species & Trophic Cascades Plate™ | `keystone-species-trophic-cascades#ecosystem-relationship-plate` | Naturepedia Ecosystem Relationship Plate™ | https://www.robbiegeorgephotography.com/keystone-species-trophic-cascades |
+| Wildlife Adaptation & Survival Plate™ | `wildlife-adaptation-survival#survival-system-plate` | Naturepedia Survival System Plate™ | https://www.robbiegeorgephotography.com/wildlife-adaptation-survival |
+| Food Webs & Ecological Relationships Plate™ | `food-webs-ecological-relationships#energy-flow-system-plate` | Naturepedia Ecological Energy Flow Plate™ | https://www.robbiegeorgephotography.com/food-webs-ecological-relationships |
+| Field Locations Plate™ | `field-locations#field-location-system-plate` | Naturepedia Field Location System Plate™ | https://www.robbiegeorgephotography.com/field-locations |
+| Wildlife Species Plate™ | `wildlife-species#species-intelligence-system-plate` | Naturepedia Species Intelligence System Plate™ | https://www.robbiegeorgephotography.com/wildlife-species |
+| Birds of Prey Plate™ | `birds-of-prey#raptor-system-plate` | Naturepedia Raptor System Plate™ | https://www.robbiegeorgephotography.com/birds-of-prey |
+| Waterfowl & Wetland Birds Plate™ | `waterfowl-wetland-birds#wetland-bird-system-plate` | Naturepedia Wetland Bird System Plate™ | https://www.robbiegeorgephotography.com/waterfowl-wetland-birds |
+| Songbirds, Seabirds & Other Birds Plate™ | `songbirds-seabirds-other-birds#avian-diversity-system-plate` | Naturepedia Avian Diversity System Plate™ | https://www.robbiegeorgephotography.com/songbirds-seabirds-and-other-birds |
+| Mammals of North America Plate™ | `mammals-of-north-america#mammal-system-plate` | Naturepedia Mammal System Plate™ | https://www.robbiegeorgephotography.com/mammals-of-north-america |
 
 ---
 
@@ -252,6 +262,61 @@ docs/examples/json-ld/plate-registry.json
 
 ---
 
+## Pollinator System Plates™
+
+| Plate™ | Semantic ID | Type | Live URL |
+|---|---|---|---|
+| Bees of North America System Plate™ | `bees-of-north-america#bees-of-north-america-system-plate` | Naturepedia Species System Plate™ | https://www.robbiegeorgephotography.com/bees-of-north-america |
+| Butterflies of North America System Plate™ | `butterflies-of-north-america#butterflies-of-north-america-system-plate` | Naturepedia Species System Plate™ | https://www.robbiegeorgephotography.com/butterflies-of-north-america |
+| Hummingbirds of North America System Plate™ | `hummingbirds-of-north-america#hummingbirds-of-north-america-system-plate` | Naturepedia Species System Plate™ | https://www.robbiegeorgephotography.com/hummingbirds-of-north-america |
+| Moths of North America System Plate™ | `naturepedia-moths#moths-of-north-america-system-plate` | Naturepedia Species System Plate™ | https://www.robbiegeorgephotography.com/naturepedia-moths |
+| Floral Resource Networks™ System Plate™ | `floral-resource-networks#floral-resource-networks-system-plate` | Naturepedia Ecology System Plate™ | https://www.robbiegeorgephotography.com/floral-resource-networks |
+| Floral Resource Network Architecture Plate™ | `floral-resource-networks#network-architecture-plate` | Naturepedia Ecology Infrastructure Plate™ | https://www.robbiegeorgephotography.com/floral-resource-networks |
+
+---
+
+## Pollinator Intelligence Plates™
+
+| Plate™ | Semantic ID | Type | Live URL |
+|---|---|---|---|
+| Pollination Intelligence Plate™ | `pollination-intelligence#pollination-intelligence-plate` | Naturepedia Interpretation Plate™ | https://www.robbiegeorgephotography.com/bees-of-north-america |
+| Hive Intelligence Plate™ | `hive-intelligence#hive-intelligence-plate` | Naturepedia Intelligence Systems Plate™ | https://www.robbiegeorgephotography.com/bees-of-north-america |
+| Waggle Dance Communication Plate™ | `waggle-dance#communication-intelligence-plate` | Naturepedia Communication Systems Plate™ | https://www.robbiegeorgephotography.com/bees-of-north-america |
+| Ultraviolet Flower Guidance Plate™ | `flower-guidance#ultraviolet-flower-guidance-plate` | Naturepedia Navigation Systems Plate™ | https://www.robbiegeorgephotography.com/bees-of-north-america |
+| Hummingbird Flight & Energy Plate™ | `hummingbirds-of-north-america#hummingbird-flight-energy-plate` | Naturepedia Flight Systems Plate™ | https://www.robbiegeorgephotography.com/hummingbirds-of-north-america |
+| Iridescence & Feather Optics Plate™ | `hummingbirds-of-north-america#iridescence-feather-optics-plate` | Naturepedia Optical Biology Plate™ | https://www.robbiegeorgephotography.com/hummingbirds-of-north-america |
+| Pollination Precision Plate™ | `hummingbirds-of-north-america#pollination-precision-plate` | Naturepedia Pollination Systems Plate™ | https://www.robbiegeorgephotography.com/hummingbirds-of-north-america |
+| Wing Pattern Intelligence Plate™ | `wing-pattern-intelligence#butterfly-wing-pattern-intelligence-plate` | Naturepedia Interpretation Plate™ | https://www.robbiegeorgephotography.com/butterflies-of-north-america |
+| Nocturnal Ecology Interpretation Plate™ | `naturepedia-moths#nocturnal-ecology-interpretation-plate` | Naturepedia Interpretation Plate™ | https://www.robbiegeorgephotography.com/naturepedia-moths |
+| Moth Camouflage & Pattern Intelligence Plate™ | `naturepedia-moths#moth-camouflage-pattern-intelligence-plate` | Naturepedia Interpretation Plate™ | https://www.robbiegeorgephotography.com/naturepedia-moths |
+| Sphinx & Hovering Pollinator Plate™ | `naturepedia-moths#sphinx-hovering-pollinator-plate` | Naturepedia Interpretation Plate™ | https://www.robbiegeorgephotography.com/naturepedia-moths |
+| Seasonal Emergence Intelligence Plate™ | `naturepedia-moths#seasonal-emergence-intelligence-plate` | Naturepedia Interpretation Plate™ | https://www.robbiegeorgephotography.com/naturepedia-moths |
+| Flower Resource Flow Plate™ | `floral-resource-networks#flower-resource-flow-plate` | Naturepedia Ecology Flow Plate™ | https://www.robbiegeorgephotography.com/floral-resource-networks |
+| Pollinator Layer Plate™ | `floral-resource-networks#pollinator-layer-plate` | Naturepedia Pollination Infrastructure Plate™ | https://www.robbiegeorgephotography.com/floral-resource-networks |
+| Nectar Corridor Plate™ | `floral-resource-networks#nectar-corridor-plate` | Naturepedia Ecological Connectivity Plate™ | https://www.robbiegeorgephotography.com/floral-resource-networks |
+| Bloom Timing Intelligence Plate™ | `floral-resource-networks#bloom-timing-intelligence-plate` | Naturepedia Seasonal Ecology Plate™ | https://www.robbiegeorgephotography.com/floral-resource-networks |
+| Plant Reproduction Plate™ | `floral-resource-networks#plant-reproduction-plate` | Naturepedia Plant Reproduction Plate™ | https://www.robbiegeorgephotography.com/floral-resource-networks |
+| Biodiversity Production Plate™ | `floral-resource-networks#biodiversity-production-plate` | Naturepedia Biodiversity Systems Plate™ | https://www.robbiegeorgephotography.com/floral-resource-networks |
+| Underground-To-Flower Plate™ | `floral-resource-networks#underground-flower-plate` | Naturepedia Ecological Infrastructure Plate™ | https://www.robbiegeorgephotography.com/floral-resource-networks |
+| Pollination Network Plate™ | `floral-resource-networks#pollination-network-plate` | Naturepedia Ecological Network Plate™ | https://www.robbiegeorgephotography.com/floral-resource-networks |
+| Floral Resource Intelligence Plate™ | `floral-resource-networks#network-intelligence-plate` | Naturepedia Ecological Intelligence Plate™ | https://www.robbiegeorgephotography.com/floral-resource-networks |
+| Ecological Network Stability Plate™ | `floral-resource-networks#network-stability-plate` | Naturepedia Ecosystem Resilience Plate™ | https://www.robbiegeorgephotography.com/floral-resource-networks |
+| Coevolution Plate™ | `floral-resource-networks#coevolution-plate` | Naturepedia Evolutionary Ecology Plate™ | https://www.robbiegeorgephotography.com/floral-resource-networks |
+| Resource Distribution Plate™ | `floral-resource-networks#resource-distribution-plate` | Naturepedia Landscape Ecology Plate™ | https://www.robbiegeorgephotography.com/floral-resource-networks |
+
+---
+
+## Pollinator Connector Plates™
+
+| Plate™ | Semantic ID | Type | Live URL |
+|---|---|---|---|
+| Bee Resource Connector Plate™ | `floral-resource-networks#bee-resource-connector-plate` | Naturepedia Pollinator Connector Plate™ | https://www.robbiegeorgephotography.com/floral-resource-networks |
+| Butterfly Resource Connector Plate™ | `floral-resource-networks#butterfly-resource-connector-plate` | Naturepedia Pollinator Connector Plate™ | https://www.robbiegeorgephotography.com/floral-resource-networks |
+| Moth Resource Connector Plate™ | `floral-resource-networks#moth-resource-connector-plate` | Naturepedia Pollinator Connector Plate™ | https://www.robbiegeorgephotography.com/floral-resource-networks |
+| Hummingbird Resource Connector Plate™ | `floral-resource-networks#hummingbird-resource-connector-plate` | Naturepedia Pollinator Connector Plate™ | https://www.robbiegeorgephotography.com/floral-resource-networks |
+
+---
+
 ## Species Plates™
 
 | Plate™ | Semantic ID | Type | Live URL |
@@ -302,6 +367,8 @@ Additional live species nodes are connected through the broader Naturepedia sema
 | Coyote Track Plate™ | `coyote-tracks#track-plate` | Track Plate | https://www.robbiegeorgephotography.com/coyote-tracks |
 | Bobcat Track Plate™ | `bobcat-tracks#track-plate` | Track Plate | https://www.robbiegeorgephotography.com/bobcat-tracks |
 | Bear Track Plate™ | `bear-tracks#track-plate` | Track Plate | https://www.robbiegeorgephotography.com/bear-tracks |
+| Elk Track Plate™ | `elk-tracks#track-plate` | Track Plate | https://www.robbiegeorgephotography.com/elk-tracks |
+| Deer Track Plate™ | `deer-tracks#track-plate` | Track Plate | https://www.robbiegeorgephotography.com/deer-tracks |
 | Fox Track Plate™ | `fox-tracks#track-plate` | Track Plate | https://www.robbiegeorgephotography.com/fox-tracks |
 | Moose Track Plate™ | `moose-tracks#track-plate` | Track Plate | https://www.robbiegeorgephotography.com/moose-tracks |
 | American Bison Track Plate™ | `american-bison-tracks#track-plate` | Track Plate | https://www.robbiegeorgephotography.com/american-bison-tracks |
