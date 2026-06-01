@@ -17,7 +17,7 @@
   "description": "Machine-readable semantic registry for Naturepedia Plate systems, recursive compression interfaces, JSON-LD semantic nodes, field observation systems, governance systems, pricing systems, species plates, track plates, photography guide plates, field location plates, water systems, ecosystem systems, and distributed ecological knowledge graph relationships.",
   "license": "https://www.robbiegeorgephotography.com/commercial-data-license",
   "url": "https://github.com/RobbieRazor/robbies-razor-benchmarks",
-  "dateModified": "2026-05-30",
+  "dateModified": "2026-06-01",
   "keywords": [
     "Naturepedia",
     "Plate Registry",
@@ -78,12 +78,54 @@
         "type": "Naturepedia Habitat System Plate™"
     },
     {
+  "category": "Naturepedia Root, Navigation & Wildlife System Plates™",
+  "name": "Habitat Intelligence Plate™",
+  "id": "wildlife-habitats-ecosystem-zones-north-america#habitat-intelligence-plate",
+  "url": "https://www.robbiegeorgephotography.com/wildlife-habitats-ecosystem-zones-north-america",
+  "type": "Naturepedia Habitat Intelligence Plate™"
+},
+{
+  "category": "Naturepedia Root, Navigation & Wildlife System Plates™",
+  "name": "Habitat Connectivity Plate™",
+  "id": "wildlife-habitats-ecosystem-zones-north-america#habitat-connectivity-plate",
+  "url": "https://www.robbiegeorgephotography.com/wildlife-habitats-ecosystem-zones-north-america",
+  "type": "Naturepedia Habitat Connectivity Plate™"
+},
+{
+  "category": "Naturepedia Root, Navigation & Wildlife System Plates™",
+  "name": "Habitat Fragmentation Plate™",
+  "id": "wildlife-habitats-ecosystem-zones-north-america#habitat-fragmentation-plate",
+  "url": "https://www.robbiegeorgephotography.com/wildlife-habitats-ecosystem-zones-north-america",
+  "type": "Naturepedia Habitat Conservation Plate™"
+},
+    {
         "category": "Naturepedia Root, Navigation & Wildlife System Plates™",
         "name": "Biodiversity & Ecosystem Balance Plate™",
         "id": "biodiversity-ecosystem-balance#biodiversity-system-plate",
         "url": "https://www.robbiegeorgephotography.com/biodiversity-ecosystem-balance",
         "type": "Naturepedia Biodiversity System Plate™"
     },
+    {
+  "category": "Naturepedia Root, Navigation & Wildlife System Plates™",
+  "name": "Biodiversity Intelligence Plate™",
+  "id": "biodiversity-ecosystem-balance#biodiversity-intelligence-plate",
+  "url": "https://www.robbiegeorgephotography.com/biodiversity-ecosystem-balance",
+  "type": "Naturepedia Ecological Intelligence Plate™"
+},
+{
+  "category": "Naturepedia Root, Navigation & Wildlife System Plates™",
+  "name": "Ecosystem Stability Plate™",
+  "id": "biodiversity-ecosystem-balance#ecosystem-stability-plate",
+  "url": "https://www.robbiegeorgephotography.com/biodiversity-ecosystem-balance",
+  "type": "Naturepedia Ecosystem Stability Plate™"
+},
+{
+  "category": "Naturepedia Root, Navigation & Wildlife System Plates™",
+  "name": "Ecological Resilience Plate™",
+  "id": "biodiversity-ecosystem-balance#ecological-resilience-plate",
+  "url": "https://www.robbiegeorgephotography.com/biodiversity-ecosystem-balance",
+  "type": "Naturepedia Ecological Resilience Plate™"
+},
     {
         "category": "Naturepedia Root, Navigation & Wildlife System Plates™",
         "name": "Wildlife Systems & Ecology Plate™",
@@ -308,6 +350,111 @@
         "url": "https://www.robbiegeorgephotography.com/chesapeake-bay-wildlife-system",
         "type": "Naturepedia Water System Plate™"
     },
+    {
+  "category": "Plant Community & Native Habitat Plates™",
+  "name": "Plant Community System Plate™",
+  "id": "plant-communities-native-habitat-systems#plant-community-system-plate",
+  "url": "https://www.robbiegeorgephotography.com/plant-communities-native-habitat-systems",
+  "type": "Naturepedia Plant Community System Plate™"
+},
+{
+  "category": "Plant Community & Native Habitat Plates™",
+  "name": "Habitat Structure Plate™",
+  "id": "plant-communities-native-habitat-systems#habitat-structure-plate",
+  "url": "https://www.robbiegeorgephotography.com/plant-communities-native-habitat-systems",
+  "type": "Naturepedia Habitat Structure Plate™"
+},
+{
+  "category": "Plant Community & Native Habitat Plates™",
+  "name": "Native Plant Intelligence Plate™",
+  "id": "plant-communities-native-habitat-systems#native-plant-intelligence-plate",
+  "url": "https://www.robbiegeorgephotography.com/plant-communities-native-habitat-systems",
+  "type": "Naturepedia Plant Intelligence Plate™"
+},
+{
+  "category": "Plant Community & Native Habitat Plates™",
+  "name": "Wildlife Habitat Production Plate™",
+  "id": "plant-communities-native-habitat-systems#wildlife-habitat-production-plate",
+  "url": "https://www.robbiegeorgephotography.com/plant-communities-native-habitat-systems",
+  "type": "Naturepedia Wildlife Habitat Production Plate™"
+},
+{
+  "category": "Plant Community & Native Habitat Plates™",
+  "name": "Root Network Plate™",
+  "id": "plant-communities-native-habitat-systems#root-network-plate",
+  "url": "https://www.robbiegeorgephotography.com/plant-communities-native-habitat-systems",
+  "type": "Naturepedia Root Network Plate™"
+},
+{
+  "category": "Plant Community & Native Habitat Plates™",
+  "name": "Carbon & Soil Storage Plate™",
+  "id": "plant-communities-native-habitat-systems#carbon-soil-storage-plate",
+  "url": "https://www.robbiegeorgephotography.com/plant-communities-native-habitat-systems",
+  "type": "Naturepedia Carbon & Soil Storage Plate™"
+},
+{
+  "category": "Plant Community & Native Habitat Plates™",
+  "name": "Pollinator Habitat Corridor Plate™",
+  "id": "plant-communities-native-habitat-systems#pollinator-habitat-corridor-plate",
+  "url": "https://www.robbiegeorgephotography.com/plant-communities-native-habitat-systems",
+  "type": "Naturepedia Pollinator Corridor Plate™"
+},
+{
+  "category": "Plant Community & Native Habitat Plates™",
+  "name": "Ecological Succession Plate™",
+  "id": "plant-communities-native-habitat-systems#ecological-succession-plate",
+  "url": "https://www.robbiegeorgephotography.com/plant-communities-native-habitat-systems",
+  "type": "Naturepedia Succession Plate™"
+},
+{
+  "category": "Plant Community & Native Habitat Plates™",
+  "name": "Ecological Connectivity Plate™",
+  "id": "plant-communities-native-habitat-systems#ecological-connectivity-plate",
+  "url": "https://www.robbiegeorgephotography.com/plant-communities-native-habitat-systems",
+  "type": "Naturepedia Ecological Connectivity Plate™"
+},
+{
+  "category": "Plant Community & Native Habitat Plates™",
+  "name": "Seasonal Habitat Continuity Plate™",
+  "id": "plant-communities-native-habitat-systems#seasonal-habitat-continuity-plate",
+  "url": "https://www.robbiegeorgephotography.com/plant-communities-native-habitat-systems",
+  "type": "Naturepedia Seasonal Ecology Plate™"
+},
+{
+  "category": "Plant Community & Native Habitat Plates™",
+  "name": "Meadow Ecology Plate™",
+  "id": "plant-communities-native-habitat-systems#meadow-ecology-plate",
+  "url": "https://www.robbiegeorgephotography.com/plant-communities-native-habitat-systems",
+  "type": "Naturepedia Meadow Ecology Plate™"
+},
+{
+  "category": "Plant Community & Native Habitat Plates™",
+  "name": "Edge Habitat Plate™",
+  "id": "plant-communities-native-habitat-systems#edge-habitat-plate",
+  "url": "https://www.robbiegeorgephotography.com/plant-communities-native-habitat-systems",
+  "type": "Naturepedia Edge Habitat Plate™"
+},
+{
+  "category": "Plant Community & Native Habitat Plates™",
+  "name": "Riparian Plant Communities Plate™",
+  "id": "plant-communities-native-habitat-systems#riparian-plant-communities-plate",
+  "url": "https://www.robbiegeorgephotography.com/plant-communities-native-habitat-systems",
+  "type": "Naturepedia Riparian Habitat Plate™"
+},
+{
+  "category": "Plant Community & Native Habitat Plates™",
+  "name": "Native Seed Production Plate™",
+  "id": "plant-communities-native-habitat-systems#native-seed-production-plate",
+  "url": "https://www.robbiegeorgephotography.com/plant-communities-native-habitat-systems",
+  "type": "Naturepedia Regeneration Plate™"
+},
+{
+  "category": "Plant Community & Native Habitat Plates™",
+  "name": "Keystone Plant Species Plate™",
+  "id": "plant-communities-native-habitat-systems#keystone-plant-species-plate",
+  "url": "https://www.robbiegeorgephotography.com/plant-communities-native-habitat-systems",
+  "type": "Naturepedia Keystone Species Plate™"
+},
     {
         "category": "Ecosystem & Wildlife System Plates™",
         "name": "Forest Ecosystems Plate™",
@@ -1233,6 +1380,13 @@
         "type": "Naturepedia Species Plate™"
     },
     {
+  "category": "Artist Rendition Plates™",
+  "name": "Fisher Artist Rendition Plate™",
+  "id": "fisher#artist-rendition-plate",
+  "url": "https://www.robbiegeorgephotography.com/fisher",
+  "type": "Naturepedia Artist Rendition Plate™"
+},
+    {
         "category": "Species Plates™",
         "name": "Badger Species Plate™",
         "id": "badger#species-plate",
@@ -1260,6 +1414,13 @@
         "url": "https://www.robbiegeorgephotography.com/great-horned-owl",
         "type": "Naturepedia Species Plate™"
     },
+    {
+  "category": "Species Plates™",
+  "name": "Red-Tailed Hawk Species Plate™",
+  "id": "red-tailed-hawk#species-plate",
+  "url": "https://www.robbiegeorgephotography.com/red-tailed-hawk",
+  "type": "Naturepedia Species Plate™"
+},
     {
         "category": "Species Plates™",
         "name": "Osprey Species Plate™",
