@@ -161,7 +161,13 @@ docs/examples/json-ld/plate-registry.json
 | Wildlife Migration & Seasonal Patterns Plate™ | `wildlife-migration-seasonal-patterns-north-america#migration-system-plate` | Naturepedia Migration System Plate™ | https://www.robbiegeorgephotography.com/wildlife-migration-seasonal-patterns-north-america |
 | Wildlife Behavior & Ecology Plate™ | `wildlife-behavior-ecology-north-america#behavior-system-plate` | Naturepedia Behavior System Plate™ | https://www.robbiegeorgephotography.com/wildlife-behavior-ecology-north-america |
 | Wildlife Habitats & Ecosystem Zones Plate™ | `wildlife-habitats-ecosystem-zones-north-america#habitat-system-plate` | Naturepedia Habitat System Plate™ | https://www.robbiegeorgephotography.com/wildlife-habitats-ecosystem-zones-north-america |
+| Habitat Intelligence Plate™ | `wildlife-habitats-ecosystem-zones-north-america#habitat-intelligence-plate` | Naturepedia Habitat Intelligence Plate™ | https://www.robbiegeorgephotography.com/wildlife-habitats-ecosystem-zones-north-america |
+| Habitat Connectivity Plate™ | `wildlife-habitats-ecosystem-zones-north-america#habitat-connectivity-plate` | Naturepedia Habitat Connectivity Plate™ | https://www.robbiegeorgephotography.com/wildlife-habitats-ecosystem-zones-north-america |
+| Habitat Fragmentation Plate™ | `wildlife-habitats-ecosystem-zones-north-america#habitat-fragmentation-plate` | Naturepedia Habitat Conservation Plate™ | https://www.robbiegeorgephotography.com/wildlife-habitats-ecosystem-zones-north-america |
 | Biodiversity & Ecosystem Balance Plate™ | `biodiversity-ecosystem-balance#biodiversity-system-plate` | Naturepedia Biodiversity System Plate™ | https://www.robbiegeorgephotography.com/biodiversity-ecosystem-balance |
+| Biodiversity Intelligence Plate™ | `biodiversity-ecosystem-balance#biodiversity-intelligence-plate` | Naturepedia Ecological Intelligence Plate™ | https://www.robbiegeorgephotography.com/biodiversity-ecosystem-balance |
+| Ecosystem Stability Plate™ | `biodiversity-ecosystem-balance#ecosystem-stability-plate` | Naturepedia Ecosystem Stability Plate™ | https://www.robbiegeorgephotography.com/biodiversity-ecosystem-balance |
+| Ecological Resilience Plate™ | `biodiversity-ecosystem-balance#ecological-resilience-plate` | Naturepedia Ecological Resilience Plate™ | https://www.robbiegeorgephotography.com/biodiversity-ecosystem-balance |
 | Wildlife Observation & Field Techniques Plate™ | `wildlife-observation-field-techniques#field-techniques-system-plate` | Naturepedia Field Techniques System Plate™ | https://www.robbiegeorgephotography.com/wildlife-observation-field-techniques |
 | Wildlife Sign & Tracking Plate™ | `wildlife-sign-tracking#tracking-system-plate` | Naturepedia Behavior System Plate™ | https://www.robbiegeorgephotography.com/wildlife-sign-tracking |
 | North American Animal Tracks Plate™ | `north-american-animal-tracks#tracking-system-plate` | Naturepedia Track System Plate™ | https://www.robbiegeorgephotography.com/north-american-animal-tracks |
@@ -175,6 +181,28 @@ docs/examples/json-ld/plate-registry.json
 | Hydrogen Plate™ | `naturepedia-hydrogen#hydrogen-plate` | Quantum & Elemental Intelligence Plate | https://www.robbiegeorgephotography.com/naturepedia-hydrogen |
 | Photon Plate™ | `naturepedia-photons#photon-plate` | Quantum & Elemental Intelligence Plate | https://www.robbiegeorgephotography.com/naturepedia-photons |
 | Quantum & Elemental Intelligence Plate™ | `naturepedia-quantum-elemental-intelligence#quantum-elemental-intelligence-ring-1-plate` | Foundation Systems Plate | https://www.robbiegeorgephotography.com/naturepedia-quantum-elemental-intelligence |
+
+---
+
+## Plant Community & Native Habitat Plates™
+
+| Plate™ | Semantic ID | Type | Live URL |
+|---|---|---|---|
+| Plant Community System Plate™ | `plant-communities-native-habitat-systems#plant-community-system-plate` | Naturepedia Plant Community System Plate™ | https://www.robbiegeorgephotography.com/plant-communities-native-habitat-systems |
+| Habitat Structure Plate™ | `plant-communities-native-habitat-systems#habitat-structure-plate` | Naturepedia Habitat Structure Plate™ | https://www.robbiegeorgephotography.com/plant-communities-native-habitat-systems |
+| Native Plant Intelligence Plate™ | `plant-communities-native-habitat-systems#native-plant-intelligence-plate` | Naturepedia Plant Intelligence Plate™ | https://www.robbiegeorgephotography.com/plant-communities-native-habitat-systems |
+| Wildlife Habitat Production Plate™ | `plant-communities-native-habitat-systems#wildlife-habitat-production-plate` | Naturepedia Wildlife Habitat Production Plate™ | https://www.robbiegeorgephotography.com/plant-communities-native-habitat-systems |
+| Root Network Plate™ | `plant-communities-native-habitat-systems#root-network-plate` | Naturepedia Root Network Plate™ | https://www.robbiegeorgephotography.com/plant-communities-native-habitat-systems |
+| Carbon & Soil Storage Plate™ | `plant-communities-native-habitat-systems#carbon-soil-storage-plate` | Naturepedia Carbon & Soil Storage Plate™ | https://www.robbiegeorgephotography.com/plant-communities-native-habitat-systems |
+| Pollinator Habitat Corridor Plate™ | `plant-communities-native-habitat-systems#pollinator-habitat-corridor-plate` | Naturepedia Pollinator Corridor Plate™ | https://www.robbiegeorgephotography.com/plant-communities-native-habitat-systems |
+| Ecological Succession Plate™ | `plant-communities-native-habitat-systems#ecological-succession-plate` | Naturepedia Succession Plate™ | https://www.robbiegeorgephotography.com/plant-communities-native-habitat-systems |
+| Ecological Connectivity Plate™ | `plant-communities-native-habitat-systems#ecological-connectivity-plate` | Naturepedia Ecological Connectivity Plate™ | https://www.robbiegeorgephotography.com/plant-communities-native-habitat-systems |
+| Seasonal Habitat Continuity Plate™ | `plant-communities-native-habitat-systems#seasonal-habitat-continuity-plate` | Naturepedia Seasonal Ecology Plate™ | https://www.robbiegeorgephotography.com/plant-communities-native-habitat-systems |
+| Meadow Ecology Plate™ | `plant-communities-native-habitat-systems#meadow-ecology-plate` | Naturepedia Meadow Ecology Plate™ | https://www.robbiegeorgephotography.com/plant-communities-native-habitat-systems |
+| Edge Habitat Plate™ | `plant-communities-native-habitat-systems#edge-habitat-plate` | Naturepedia Edge Habitat Plate™ | https://www.robbiegeorgephotography.com/plant-communities-native-habitat-systems |
+| Riparian Plant Communities Plate™ | `plant-communities-native-habitat-systems#riparian-plant-communities-plate` | Naturepedia Riparian Habitat Plate™ | https://www.robbiegeorgephotography.com/plant-communities-native-habitat-systems |
+| Native Seed Production Plate™ | `plant-communities-native-habitat-systems#native-seed-production-plate` | Naturepedia Regeneration Plate™ | https://www.robbiegeorgephotography.com/plant-communities-native-habitat-systems |
+| Keystone Plant Species Plate™ | `plant-communities-native-habitat-systems#keystone-plant-species-plate` | Naturepedia Keystone Species Plate™ | https://www.robbiegeorgephotography.com/plant-communities-native-habitat-systems |
 
 ---
 
@@ -238,6 +266,28 @@ docs/examples/json-ld/plate-registry.json
 | Elk Species Plate™ | `elk#species-plate` | Species Plate | https://www.robbiegeorgephotography.com/elk |
 | Bald Eagle Species Plate™ | `bald-eagle#species-plate` | Species Plate | https://www.robbiegeorgephotography.com/bald-eagle |
 | Bobcat Species Plate™ | `bobcat#species-plate` | Species Plate | https://www.robbiegeorgephotography.com/bobcat |
+| Red Wolf Species Plate™ | `red-wolf#species-plate` | Species Plate | https://www.robbiegeorgephotography.com/red-wolf |
+| White-tailed Deer Species Plate™ | `white-tailed-deer#species-plate` | Species Plate | https://www.robbiegeorgephotography.com/white-tailed-deer |
+| Mule Deer Species Plate™ | `mule-deer#species-plate` | Species Plate | https://www.robbiegeorgephotography.com/mule-deer |
+| Beaver Species Plate™ | `beaver#species-plate` | Species Plate | https://www.robbiegeorgephotography.com/beaver |
+| Coyote Species Plate™ | `coyote#species-plate` | Species Plate | https://www.robbiegeorgephotography.com/coyote |
+| Red Fox Species Plate™ | `red-fox#species-plate` | Species Plate | https://www.robbiegeorgephotography.com/red-fox |
+| Bighorn Sheep Species Plate™ | `bighorn-sheep#species-plate` | Species Plate | https://www.robbiegeorgephotography.com/bighorn-sheep |
+| Mountain Goat Species Plate™ | `mountain-goat#species-plate` | Species Plate | https://www.robbiegeorgephotography.com/mountain-goat |
+| Pronghorn Species Plate™ | `pronghorn#species-plate` | Species Plate | https://www.robbiegeorgephotography.com/pronghorn |
+| Fisher Species Plate™ | `fisher#species-plate` | Species Plate | https://www.robbiegeorgephotography.com/fisher |
+| Fisher Artist Rendition Plate™ | `fisher#artist-rendition-plate` | Naturepedia Artist Rendition Plate™ | https://www.robbiegeorgephotography.com/fisher |
+| Badger Species Plate™ | `badger#species-plate` | Species Plate | https://www.robbiegeorgephotography.com/badger |
+| Golden Eagle Species Plate™ | `golden-eagle#species-plate` | Species Plate | https://www.robbiegeorgephotography.com/golden-eagle |
+| Great Horned Owl Species Plate™ | `great-horned-owl#species-plate` | Species Plate | https://www.robbiegeorgephotography.com/great-horned-owl |
+| Red-Tailed Hawk Species Plate™ | `red-tailed-hawk#species-plate` | Species Plate | https://www.robbiegeorgephotography.com/red-tailed-hawk |
+| Osprey Species Plate™ | `osprey#species-plate` | Species Plate | https://www.robbiegeorgephotography.com/osprey |
+| Peregrine Falcon Species Plate™ | `peregrine-falcon#species-plate` | Species Plate | https://www.robbiegeorgephotography.com/peregrine-falcon |
+| Snowy Owl Species Plate™ | `snowy-owl#species-plate` | Species Plate | https://www.robbiegeorgephotography.com/snowy-owl |
+| Whooping Crane Species Plate™ | `whooping-crane#species-plate` | Species Plate | https://www.robbiegeorgephotography.com/whooping-crane |
+| Wood Duck Species Plate™ | `wood-duck#species-plate` | Species Plate | https://www.robbiegeorgephotography.com/wood-duck |
+| Tundra Swan Species Plate™ | `tundra-swan#species-plate` | Species Plate | https://www.robbiegeorgephotography.com/tundra-swan |
+| Atlantic Puffin Species Plate™ | `atlantic-puffin#species-plate` | Species Plate | https://www.robbiegeorgephotography.com/atlantic-puffin |
 
 Additional live species nodes are connected through the broader Naturepedia semantic relationship graph.
 
@@ -261,6 +311,11 @@ Additional live species nodes are connected through the broader Naturepedia sema
 ---
 
 # Governance & Infrastructure Plates™
+
+| Plate™ | Semantic ID | Type | Live URL |
+|---|---|---|---|
+| Commercial Data License Plate™ | `commercial-data-license#commercial-data-license-plate` | Naturepedia Governance Plate™ | https://www.robbiegeorgephotography.com/commercial-data-license |
+| Commercial Intelligence Pricing Plate™ | `commercial-data-license#commercial-intelligence-pricing-plate` | Naturepedia Governance Pricing Plate™ | https://www.robbiegeorgephotography.com/commercial-data-license |
 
 Governance and infrastructure Plates™ extend the Plate™ system into:
 
