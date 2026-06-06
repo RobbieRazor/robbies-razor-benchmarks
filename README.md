@@ -208,6 +208,67 @@ compression → expression → memory → recursion
 
 These registry files do not redefine canonical theory. They document the applied semantic infrastructure layer connected to Naturepedia™, Robbie’s Razor™, RKCA™, and the Grand Compression Cosmology™.
 
+## Framework Architecture Layer
+
+This repository now includes a dedicated Framework Architecture layer for Robbie's Razor™ Framework Licensing.
+
+This layer connects:
+
+- Robbie's Razor™
+- Naturepedia™
+- Plate™ Architecture
+- Graph Registries™
+- Authorship Conservation Rules™ (ACR™)
+- Commercial Data License
+- x402 Infrastructure
+- machine-readable retrieval
+
+Primary framework authority:
+
+https://www.robbiegeorgephotography.com/robbies-razor-framework-licensing
+
+Primary framework documentation:
+
+- [Framework Licensing Overview](docs/examples/framework/framework-license-overview.md)
+- [Framework Stack](docs/examples/framework/framework-stack.md)
+- [Plate™ Architecture](docs/examples/framework/plate-architecture.md)
+- [Graph Registry™ Architecture](docs/examples/framework/graph-registry.md)
+- [ACR™ Governance](docs/examples/framework/acr-governance.md)
+- [x402 Commercial Infrastructure Layer](docs/examples/framework/x402-commercial-layer.md)
+
+Framework hierarchy:
+
+```txt
+MRD
+↓
+Robbie's Razor™
+↓
+Framework Licensing
+↓
+Naturepedia™
+↓
+Plate™ Architecture
+↓
+Graph Registries™
+↓
+Authorship Conservation Rules™ (ACR™)
+↓
+Commercial Data License
+↓
+x402 Infrastructure
+↓
+Machine-Readable Retrieval
+```
+
+Naturepedia™ functions as the primary live reference implementation of this framework.
+
+Framework Architecture Plates™ and related registry entries are documented in:
+
+- [Live Plate™ Examples Index](docs/examples/plate_examples_index.md)
+- [Machine-Readable Plate Registry](docs/examples/json-ld/plate-registry.json)
+
+This layer does not redefine canonical theory. It documents the applied architecture connecting recursive compression, semantic memory, graph retrieval, provenance governance, licensing, and machine-readable commercial infrastructure.
+
 ## Governance & Pricing JSON-LD Examples
 
 This repository includes machine-readable Governance Plate™ and Pricing Plate™ examples for recursive AI governance infrastructure.
