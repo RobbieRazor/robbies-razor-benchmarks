@@ -383,6 +383,16 @@ Additional live species nodes are connected through the broader Naturepedia sema
 |---|---|---|---|
 | Commercial Data License Plate™ | `commercial-data-license#commercial-data-license-plate` | Naturepedia Governance Plate™ | https://www.robbiegeorgephotography.com/commercial-data-license |
 | Commercial Intelligence Pricing Plate™ | `commercial-data-license#commercial-intelligence-pricing-plate` | Naturepedia Governance Pricing Plate™ | https://www.robbiegeorgephotography.com/commercial-data-license |
+| Robbie's Razor™ Framework Licensing Plate™ | `robbies-razor-framework-licensing#framework-licensing-plate` | Framework Architecture Plate™ | https://www.robbiegeorgephotography.com/robbies-razor-framework-licensing |
+| Naturepedia Knowledge Mesh™ Plate™ | `robbies-razor-framework-licensing#knowledge-mesh-plate` | Framework Architecture Plate™ | https://www.robbiegeorgephotography.com/robbies-razor-framework-licensing |
+| Robbie's Razor™ Systems Plate™ | `robbies-razor-framework-licensing#robbies-razor-systems-plate` | Framework Systems Plate™ | https://www.robbiegeorgephotography.com/robbies-razor-framework-licensing |
+| Knowledge Compression Flow Plate™ | `robbies-razor-framework-licensing#knowledge-compression-flow-plate` | Compression Architecture Plate™ | https://www.robbiegeorgephotography.com/robbies-razor-framework-licensing |
+| Plate Architecture™ Plate™ | `robbies-razor-framework-licensing#plate-architecture-plate` | Architecture Plate™ | https://www.robbiegeorgephotography.com/robbies-razor-framework-licensing |
+| Graph Registry™ Plate™ | `robbies-razor-framework-licensing#graph-registry-plate` | Graph Architecture Plate™ | https://www.robbiegeorgephotography.com/robbies-razor-framework-licensing |
+| Authorship Conservation Rules™ Plate™ | `robbies-razor-framework-licensing#acr-plate` | Governance Plate™ | https://www.robbiegeorgephotography.com/robbies-razor-framework-licensing |
+| x402 Commercial Settlement Plate™ | `robbies-razor-framework-licensing#x402-commercial-settlement-plate` | Commercial Infrastructure Plate™ | https://www.robbiegeorgephotography.com/robbies-razor-framework-licensing |
+| Future Knowledge Network Artist Rendition Plate™ | `robbies-razor-framework-licensing#future-knowledge-network` | Artist Rendition Plate™ | https://www.robbiegeorgephotography.com/robbies-razor-framework-licensing |
+| Machine-to-Machine Commerce Artist Rendition Plate™ | `robbies-razor-framework-licensing#machine-commerce` | Artist Rendition Plate™ | https://www.robbiegeorgephotography.com/robbies-razor-framework-licensing |
 
 Governance and infrastructure Plates™ extend the Plate™ system into:
 
@@ -394,8 +404,9 @@ Governance and infrastructure Plates™ extend the Plate™ system into:
 - recursive semantic governance
 - benchmark alignment infrastructure
 
-Primary governance surface:
+Primary governance surfaces:
 
+- https://www.robbiegeorgephotography.com/robbies-razor-framework-licensing
 - https://www.robbiegeorgephotography.com/commercial-data-license
 
 Governance layers connect:
