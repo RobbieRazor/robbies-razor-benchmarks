@@ -79,10 +79,14 @@ Current live registry categories include:
 
 - Naturepedia Root & Navigation Plates™
 - Wildlife System Plates™
+- Tree System Plates™
+- Ecological Restoration Plates™
 - Governance & Pricing Plates™
+- Framework Architecture Plates™
 - Quantum & Elemental Intelligence Plates™
 - Universal Principle Plates™
 - Soil, Water & Living System Plates™
+- Plant Community & Native Habitat Plates™
 - Ecosystem & Wildlife System Plates™
 - Seasonal System Plates™
 - Field Identification Plates™
@@ -114,6 +118,9 @@ gray-wolf-species-plate.json
 wolf-tracks-plate.json
 water-systems-plate.json
 yellowstone-location-plate.json
+trees-of-north-america-system-plate.json
+birch-systems-plate.json
+ecological-restoration-plate.json
 robbies-razor-plate.json
 grand-compression-plate.json
 commercial-data-license-plate.json
@@ -678,7 +685,10 @@ Naturepedia Field Identification Plate™
 Naturepedia Field Location Plate™  
 Naturepedia Photography Guide Plate™  
 
-Naturepedia Water System Plate™  
+Naturepedia Water System Plate™ 
+Naturepedia Tree Family System Plate™
+Naturepedia Tree Family Plate™
+Naturepedia Ecological Restoration Plate™
 Naturepedia Coastal Water System Plate™  
 Naturepedia Ecosystem Plate™  
 Naturepedia Seasonal System Plate™  
