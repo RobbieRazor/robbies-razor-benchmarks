@@ -41,6 +41,13 @@ const PRICING_MAP: Record<string, PricingTier> = {
     currency: "USDC",
     name: "Continuous Sync",
     description: "Twenty-four-hour recursive sync feed for licensed enterprise access."
+  },
+
+  "/x402/tree-system-map.json": {
+    amount: "75000",
+    currency: "USDC",
+    name: "Naturepedia Tree System Map",
+    description: "Paid compressed relationship map connecting trees, tree families, forest communities, mycelial networks, wildlife relationships, carbon storage, watersheds, seasonal ecology, and ecological restoration."
   }
 };
 
@@ -58,34 +65,36 @@ export default {
 
     const tier = PRICING_MAP[activePath];
 
-    /**
-     * Future x402 verification would happen here.
-     *
-     * Pseudocode:
-     *
-     * const payment = await verifyPayment(request, {
-     *   amount: tier.amount,
-     *   currency: tier.currency,
-     *   network: "base",
-     *   recipient: env.MY_WALLET_ADDRESS
-     * });
-     *
-     * if (!payment.valid) {
-     *   return new Response("Payment Required", {
-     *     status: 402,
-     *     headers: {
-     *       "content-type": "application/json",
-     *       "x-payment-required": JSON.stringify({
-     *         name: tier.name,
-     *         amount: tier.amount,
-     *         currency: tier.currency,
-     *         description: tier.description,
-     *         governance: "https://www.robbiegeorgephotography.com/commercial-data-license"
-     *       })
-     *     }
-     *   });
-     * }
-     */
+  /**
+   * Future x402 verification would happen here.
+ *
+ * Pseudocode:
+ *
+ * const payment = await verifyPayment(request, {
+ *   amount: tier.amount,
+ *   currency: tier.currency,
+ *   network: "base",
+ *   recipient: env.MY_WALLET_ADDRESS
+ * });
+ *
+ * if (!payment.valid) {
+ *   return new Response("Payment Required", {
+ *     status: 402,
+ *     headers: {
+ *       "content-type": "application/json",
+ *       "x-payment-required": JSON.stringify({
+ *         name: tier.name,
+ *         amount: tier.amount,
+ *         currency: tier.currency,
+ *         description: tier.description,
+ *         governance: "https://www.robbiegeorgephotography.com/commercial-data-license",
+ *         governanceRule: "Gr <= Es",
+ *         mime: "application/ld+json"
+ *       })
+ *     }
+ *   });
+ * }
+ */
 
     return new Response(
       JSON.stringify({
