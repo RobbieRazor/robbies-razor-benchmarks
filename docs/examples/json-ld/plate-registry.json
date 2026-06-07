@@ -524,6 +524,55 @@
   "type": "Naturepedia Keystone Species Plate™"
 },
     {
+  "category": "Ecological Restoration Plates™",
+  "name": "Ecological Restoration & Habitat Recovery Plate™",
+  "id": "ecological-restoration-habitat-recovery#ecological-restoration-plate",
+  "url": "https://www.robbiegeorgephotography.com/ecological-restoration-habitat-recovery",
+  "type": "Naturepedia Ecological Restoration Plate™"
+},
+    {
+  "category": "Tree System Plates™",
+  "name": "Trees of North America System Plate™",
+  "id": "trees-of-north-america#tree-systems-plate",
+  "url": "https://www.robbiegeorgephotography.com/trees-of-north-america",
+  "type": "Naturepedia Tree Family System Plate™"
+},
+{
+  "category": "Tree System Plates™",
+  "name": "Birches of North America System Plate™",
+  "id": "birches-of-north-america#birch-systems-plate",
+  "url": "https://www.robbiegeorgephotography.com/birches-of-north-america",
+  "type": "Naturepedia Tree Family Plate™"
+},
+{
+  "category": "Tree System Plates™",
+  "name": "Oaks of North America System Plate™",
+  "id": "oaks-of-north-america#oak-systems-plate",
+  "url": "https://www.robbiegeorgephotography.com/oaks-of-north-america",
+  "type": "Naturepedia Tree Family Plate™"
+},
+{
+  "category": "Tree System Plates™",
+  "name": "Maples of North America System Plate™",
+  "id": "maples-of-north-america#maple-systems-plate",
+  "url": "https://www.robbiegeorgephotography.com/maples-of-north-america",
+  "type": "Naturepedia Tree Family Plate™"
+},
+{
+  "category": "Tree System Plates™",
+  "name": "Aspens of North America System Plate™",
+  "id": "aspens-of-north-america#aspen-systems-plate",
+  "url": "https://www.robbiegeorgephotography.com/aspens-of-north-america",
+  "type": "Naturepedia Tree Family Plate™"
+},
+{
+  "category": "Tree System Plates™",
+  "name": "Pines of North America System Plate™",
+  "id": "pines-of-north-america#pine-systems-plate",
+  "url": "https://www.robbiegeorgephotography.com/pines-of-north-america",
+  "type": "Naturepedia Tree Family Plate™"
+},
+    {
         "category": "Ecosystem & Wildlife System Plates™",
         "name": "Forest Ecosystems Plate™",
         "id": "forest-ecosystems#forest-ecosystems-plate",
