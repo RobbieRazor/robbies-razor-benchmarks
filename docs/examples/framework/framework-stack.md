@@ -109,6 +109,26 @@ Purpose:
 
 Naturepedia™ demonstrates how the framework functions in production environments.
 
+### Naturepedia™ System Hierarchy
+
+```text
+Species
+↓
+Tree Families
+↓
+Plant Communities
+↓
+Ecosystems
+↓
+Geography / Locations
+↓
+Time / Migration / Seasons
+↓
+Conservation
+```
+
+This hierarchy reflects the current Naturepedia™ production architecture and the live Naturepedia System Map, including the Tree Systems Layer introduced through Trees of North America™, Birches of North America™, Oaks of North America™, Maples of North America™, Aspens of North America™, and Pines of North America™.
+
 ---
 
 ## Plate™ Architecture
@@ -211,6 +231,11 @@ Current implementations include:
 
 - Naturepedia™
 - Trees of North America™
+- Birches of North America™
+- Oaks of North America™
+- Maples of North America™
+- Aspens of North America™
+- Pines of North America™
 - Floral Resource Networks™
 - Plant Communities & Native Habitat Systems™
 - Soil Microbiome™
