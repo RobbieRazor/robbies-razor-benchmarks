@@ -175,17 +175,25 @@ Graph Registries™ create retrieval pathways.
 Examples:
 
 ```text
-Tree
+Tree Systems
 ↓
-Aspen
+Trees of North America
 ↓
-Quaking Aspen
+Birches / Oaks / Maples / Aspens / Pines
 ↓
-Aspen Clonal Colony
+Tree Family Plates
 ↓
-Aspen Wildlife Relationships
+Forest Communities
 ↓
-Aspen Carbon Storage
+Wildlife Relationships
+↓
+Carbon Storage
+↓
+Watersheds
+↓
+Seasonal Ecology
+↓
+Ecological Restoration
 ```
 
 ```text
@@ -335,6 +343,7 @@ Current registry surfaces include:
 - llms-full.txt
 - GitHub benchmark documentation
 - x402 endpoint maps
+- Naturepedia Tree System Map
 - Naturepedia system pages
 
 ---
