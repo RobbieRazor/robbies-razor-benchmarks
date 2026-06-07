@@ -72,6 +72,12 @@ Examples from Naturepedia™:
 - Soil Microbiome
 - Floral Resource Networks
 - Robbie's Razor™
+- Trees of North America
+- Birches of North America
+- Oaks of North America
+- Maples of North America
+- Aspens of North America
+- Pines of North America
 
 The Entity serves as the root semantic node.
 
@@ -198,6 +204,16 @@ quaking-aspen#species-plate
 floral-resource-networks#network-architecture-plate
 robbies-razor-framework-licensing#graph-registry-plate
 ```
+Examples:
+
+```text
+trees-of-north-america#tree-systems-plate
+birches-of-north-america#birch-systems-plate
+oaks-of-north-america#oak-systems-plate
+maples-of-north-america#maple-systems-plate
+aspens-of-north-america#aspen-systems-plate
+pines-of-north-america#pine-systems-plate
+```
 
 Semantic IDs function as stable retrieval anchors.
 
@@ -256,6 +272,7 @@ Relationships are the memory layer of the system.
 Current categories include:
 
 - Species Plates™
+- Tree Family Plates™
 - Ecosystem Plates™
 - Habitat Plates™
 - Pollinator Plates™
