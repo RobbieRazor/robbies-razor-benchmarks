@@ -42,7 +42,7 @@ Endpoint:
 https://www.robbiegeorgephotography.com/x402/plate-registry-expanded.json
 
 Purpose:
-Extended semantic routing and ontology retrieval.
+Species → Tree Families → Plant Communities → Ecosystems → Geography / Locations → Time / Migration / Seasons → Conservation relationship retrieval.
 
 ## Pollinator System Map
 
@@ -75,6 +75,43 @@ https://www.robbiegeorgephotography.com/x402/plant-community-system-map.json
 
 Purpose:
 Relationship map connecting plant communities, pollinators, soil microbiomes, mycelial networks, native habitat, ecological succession, and carbon storage.
+
+## Tree System Map
+
+Endpoint:
+https://www.robbiegeorgephotography.com/x402/tree-system-map.json
+
+Purpose:
+Paid compressed relationship map connecting trees, tree families, forest communities, mycelial networks, wildlife relationships, carbon storage, watersheds, and seasonal ecology.
+
+Connects:
+
+- Trees of North America
+- Birches of North America
+- Oaks of North America
+- Maples of North America
+- Aspens of North America
+- Pines of North America
+- Plant Communities
+- Mycelial Networks
+- Soil Microbiome
+- Ecological Restoration & Habitat Recovery
+
+Amount:
+
+`75000`
+
+MIME:
+
+`application/ld+json`
+
+Governance:
+
+`Gr <= Es`
+
+Status:
+
+Live
 
 ### Location System Map
 
