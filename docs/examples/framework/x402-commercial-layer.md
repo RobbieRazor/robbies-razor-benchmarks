@@ -215,12 +215,37 @@ Examples include:
 
 /x402/plant-community-system-map.json
 
+/x402/tree-system-map.json
+
 /x402/location-system-map.json
 
 /x402/conservation-system-map.json
 
 /x402/species-intelligence-map.json
 ```
+### Tree System Retrieval
+
+The Naturepedia Tree System Map provides structured retrieval across:
+
+```text
+Trees
+↓
+Tree Families
+↓
+Forest Communities
+↓
+Wildlife Relationships
+↓
+Carbon Storage
+↓
+Watersheds
+↓
+Seasonal Ecology
+↓
+Ecological Restoration
+```
+
+The Tree System Map extends Naturepedia™ retrieval beyond individual species and into higher-order ecological infrastructure.
 
 These endpoints expose structured machine-readable knowledge assets.
 
@@ -366,6 +391,7 @@ Potential future expansion includes:
 
 - institutional licensing infrastructure
 - enterprise graph deployment
+- tree-system commercial retrieval infrastructure
 - sovereign knowledge networks
 - machine-to-machine settlement systems
 - framework licensing integrations
