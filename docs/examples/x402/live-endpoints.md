@@ -1,16 +1,89 @@
 # Naturepedia x402 Live Endpoints
 
-Status:
-Production
+# x402 Live Endpoint Architecture
 
-Network:
-eip155:8453
-
-Asset:
-USDC
+Status: Production 402 challenge verified  
+Settlement status: Pending first live paid transaction  
+Network: Base  
+Network ID: eip155:8453  
+Asset: USDC  
+Governance Header: X-Robbie-Razor-Governance: Gr <= Es  
 
 Commercial License:
 https://www.robbiegeorgephotography.com/commercial-data-license
+
+## Endpoint Families
+
+### Legacy Endpoints
+
+Legacy routes remain active for continuity:
+
+```text
+/x402/*
+```
+
+### Current v1 Endpoint Families
+
+```text
+/v1/taxonomy/*
+/v1/plates/*
+/v1/sovereign/*
+```
+
+The v1 endpoint family maps to existing x402 payloads through Cloudflare Worker alias routing.
+
+Legacy `/x402/*` paths should not be removed until at least one real x402 payment settlement has been completed and verified.
+
+## Pricing Tiers
+
+| Gateway Tier | Path Family | Price | Asset | Use Case |
+|--------------|-------------|------:|-------|----------|
+| taxonomy | `/v1/taxonomy/*` | 1.00 | USDC | Discovery metadata, taxonomy pings, lightweight registry lookup |
+| plates | `/v1/plates/*` | 5.00 | USDC | Compiled Knowledge Plate™ and system-map retrieval |
+| sovereign | `/v1/sovereign/*` | 25.00 | USDC | Enterprise reasoning, licensing, governance, and high-value architecture layers |
+| legacy | `/x402/*` | 5.00 | USDC | Backward-compatible protected machine access |
+
+## Verified Route
+
+```text
+/v1/plates/tree-system-map
+```
+
+Verified behavior:
+
+```text
+Browser / human request:
+200 OK human bypass page
+
+API-style request:
+Accept: application/json
+
+402 Payment Required
+
+X-402-Provider: Base-USDC
+X-402-Amount: 5.00
+X-402-Gateway-Tier: plates
+```
+
+## Active v1 Route Aliases
+
+```text
+/v1/taxonomy/plate-registry -> /x402/plate-registry.json
+/v1/taxonomy/identity-graph -> /x402/identity-graph.json
+/v1/taxonomy/naturepedia-system-map -> /x402/naturepedia-system-map.json
+
+/v1/plates/plate-registry-expanded -> /x402/plate-registry-expanded.json
+/v1/plates/pollinator-system-map -> /x402/pollinator-system-map.json
+/v1/plates/wildlife-system-map -> /x402/wildlife-system-map.json
+/v1/plates/water-system-map -> /x402/water-system-map.json
+/v1/plates/plant-community-system-map -> /x402/plant-community-system-map.json
+/v1/plates/location-system-map -> /x402/location-system-map.json
+/v1/plates/conservation-system-map -> /x402/conservation-system-map.json
+/v1/plates/species-intelligence-map -> /x402/species-intelligence-map.json
+/v1/plates/tree-system-map -> /x402/tree-system-map.json
+```
+
+## Legacy x402 Endpoint Inventory
 
 ## Plate Registry
 
@@ -113,7 +186,7 @@ Status:
 
 Live
 
-### Location System Map
+## Location System Map
 
 Endpoint:
 
@@ -144,7 +217,7 @@ Status:
 
 Live
 
-### Conservation System Map
+## Conservation System Map
 
 Endpoint:
 
@@ -174,7 +247,7 @@ Status:
 
 Live
 
-### Species Intelligence Map
+## Species Intelligence Map
 
 Endpoint:
 
