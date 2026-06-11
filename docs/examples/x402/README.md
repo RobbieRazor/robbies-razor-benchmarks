@@ -8,6 +8,95 @@ They do not currently enforce payments on public Naturepedia™, Robbie’s Razo
 
 ---
 
+## Current Production Status
+
+Production x402 challenge verification is now active.
+
+Current status:
+
+- Production Worker deployed
+- Human browser bypass verified
+- AI/API 402 challenge verified
+- Dynamic pricing variables deployed
+- Base network configured
+- USDC settlement configured
+- First live settlement pending
+
+## Current Endpoint Families
+
+### Legacy Routes
+
+```text
+/x402/*
+```
+
+### v1 Routes
+
+```text
+/v1/taxonomy/*
+/v1/plates/*
+/v1/sovereign/*
+```
+
+The v1 route family is implemented through Cloudflare Worker alias routing while preserving legacy x402 endpoints for backward compatibility.
+
+## Human vs Agent Behavior
+
+Human browser requests may receive a public informational bypass page.
+
+Machine/API requests using:
+
+```http
+Accept: application/json
+```
+
+may receive:
+
+```http
+402 Payment Required
+```
+
+when accessing protected machine-readable resources.
+
+## Verified Example Route
+
+```text
+/v1/plates/tree-system-map
+```
+
+Expected challenge headers:
+
+```http
+HTTP/2 402
+X-402-Provider: Base-USDC
+X-402-Amount: 5.00
+X-402-Gateway-Tier: plates
+X-Robbie-Razor-Governance: Gr <= Es
+```
+
+## Governance
+
+Commercial licensing:
+
+```text
+https://www.robbiegeorgephotography.com/commercial-data-license
+```
+
+Framework licensing:
+
+```text
+https://www.robbiegeorgephotography.com/robbies-razor-framework-licensing
+```
+
+## Settlement Status
+
+```text
+Production x402 challenge verified.
+Payment settlement pending first live transaction.
+```
+
+---
+
 ## Purpose
 
 The purpose of this folder is to document future-ready machine-payment architecture for:
