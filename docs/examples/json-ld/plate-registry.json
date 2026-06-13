@@ -40,12 +40,45 @@
 "Plate Architecture",
 "Graph Registry",
 "Authorship Conservation Rules",
+"x402 Commercial Infrastructure",
+"Recursive Registry Inheritance Principle",
+"RRIP",
+"Knowledge Mesh",
+"Meta-Registry",
+"Recursive Cognitive Infrastructure",
 "x402 Commercial Infrastructure"
   ],
   "includedInDataCatalog": {
     "@type": "DataCatalog",
     "name": "Naturepedia Semantic Infrastructure"
   },
+    "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Recursive Registry Inheritance Principle",
+      "value": "Compressed registries may become the substrate for future compression cycles."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "RRIP Formal Sequence",
+      "value": "Plate™ → Registry → Meta-Registry → Graph Registry™ → Knowledge Mesh"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "RRIP Formal Notation",
+      "value": "Sₙ → Rₙ; Rₙ → Sₙ₊₁"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Relationship to Robbie's Razor",
+      "value": "Compression → Expression → Memory → Recursion"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Registry Interpretation",
+      "value": "Registries function as reusable cognitive infrastructure rather than passive storage."
+    }
+  ],
   "plates": [
     {
         "category": "Naturepedia Root, Navigation & Wildlife System Plates™",
