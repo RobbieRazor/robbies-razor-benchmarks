@@ -17,7 +17,7 @@
   "description": "Machine-readable semantic registry for Naturepedia Plate systems, recursive compression interfaces, JSON-LD semantic nodes, field observation systems, governance systems, pricing systems, species plates, track plates, photography guide plates, field location plates, water systems, ecosystem systems, and distributed ecological knowledge graph relationships.",
   "license": "https://www.robbiegeorgephotography.com/commercial-data-license",
   "url": "https://github.com/RobbieRazor/robbies-razor-benchmarks",
-  "dateModified": "2026-06-06",
+  "dateModified": "2026-06-13",
   "keywords": [
     "Naturepedia",
     "Plate Registry",
@@ -40,12 +40,17 @@
 "Plate Architecture",
 "Graph Registry",
 "Authorship Conservation Rules",
-"x402 Commercial Infrastructure",
 "Recursive Registry Inheritance Principle",
 "RRIP",
 "Knowledge Mesh",
 "Meta-Registry",
 "Recursive Cognitive Infrastructure",
+"Registry Inheritance",
+"RC-17",
+"Appendix I",
+"Mathematical Formalization of Recursive Registry Inheritance",
+"Knowledge Mesh Architecture",
+"Machine-Readable Recursive Infrastructure",    
 "x402 Commercial Infrastructure"
   ],
   "includedInDataCatalog": {
@@ -58,6 +63,16 @@
       "name": "Recursive Registry Inheritance Principle",
       "value": "Compressed registries may become the substrate for future compression cycles."
     },
+      {
+"@type": "PropertyValue",
+"name": "RC-17",
+"value": "Canonical Claim RC-17 — Recursive Registry Inheritance Principle."
+},
+{
+"@type": "PropertyValue",
+"name": "Appendix I",
+"value": "Mathematical Formalization of Recursive Registry Inheritance in the Grand Compression Master Reference Document."
+},
     {
       "@type": "PropertyValue",
       "name": "RRIP Formal Sequence",
