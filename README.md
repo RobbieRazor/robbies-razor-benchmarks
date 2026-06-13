@@ -174,6 +174,71 @@ Key documents:
 
 RKCA and Plates™ are applied knowledge-architecture layers. They do not redefine canonical theory, which remains exclusively governed by the Master Reference Document (MRD v1.9) and the Authorship Conservation Rule (ACR).
 
+## Recursive Registry Inheritance Principle (RRIP)
+
+The Recursive Registry Inheritance Principle (RRIP) extends Robbie's Razor™, Plate™ Architecture, and the Recursive Knowledge Compression Architecture (RKCA).
+
+Core principle:
+
+> Compressed registries may become the substrate for future compression cycles.
+
+RRIP describes how compressed knowledge structures evolve into reusable cognitive infrastructure.
+
+Canonical architecture:
+
+```txt
+Compression
+↓
+Expression
+↓
+Memory
+↓
+Recursion
+↓
+Plate™
+↓
+Registry
+↓
+Meta-Registry
+↓
+Graph Registry™
+↓
+Knowledge Mesh
+```
+
+Formal notation:
+
+```txt
+Sₙ → Rₙ
+
+Rₙ → Sₙ₊₁
+```
+
+Where:
+
+* Sₙ = compression sequence
+* Rₙ = compressed registry
+* Sₙ₊₁ = future compression sequence operating on inherited registry structure
+
+RRIP governs:
+
+* registry inheritance
+* Meta-Registry systems
+* Graph Registries™
+* Knowledge Mesh architecture
+* recursive knowledge infrastructure
+* machine-readable knowledge systems
+* structured retrieval architectures
+
+Primary canonical references:
+
+* RC-17 — Recursive Registry Inheritance Principle
+* Appendix I — Mathematical Formalization of Recursive Registry Inheritance
+* Recursive Knowledge Compression Architecture (RKCA)
+* Grand Compression Master Reference Document (MRD v1.9)
+
+RRIP does not redefine canonical theory. It extends the applied architecture layer connecting Plates™, Registries, Graph Registries™, and Knowledge Mesh systems.
+
 ## Naturepedia Semantic Plate Registry
 
 This repository now includes a public semantic registry layer for Naturepedia™ Plate systems.
@@ -243,13 +308,21 @@ MRD
 ↓
 Robbie's Razor™
 ↓
+RKCA
+↓
+RRIP
+↓
 Framework Licensing
 ↓
 Naturepedia™
 ↓
 Plate™ Architecture
 ↓
+Meta-Registry
+↓
 Graph Registries™
+↓
+Knowledge Mesh
 ↓
 Authorship Conservation Rules™ (ACR™)
 ↓
