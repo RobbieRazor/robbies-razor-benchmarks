@@ -203,6 +203,40 @@ Species Pages
 
 Meaning emerges through recursive inheritance of relationships rather than repeated traversal of original information mass.
 
+## Canonical Alignment
+
+RRIP is formally defined through:
+
+* RC-17 — Recursive Registry Inheritance Principle
+* Appendix I — Mathematical Formalization of Recursive Registry Inheritance
+* Recursive Knowledge Compression Architecture (RKCA)
+* Robbie's Razor™
+* Grand Compression Master Reference Document (MRD v1.9)
+
+Canonical inheritance pathway:
+
+```txt
+MRD
+↓
+Robbie's Razor™
+↓
+RKCA
+↓
+RRIP
+↓
+Plate™
+↓
+Registry
+↓
+Meta-Registry
+↓
+Graph Registry™
+↓
+Knowledge Mesh
+```
+
+RRIP functions as the architectural bridge between compression systems and large-scale recursive knowledge infrastructure.
+
 ## Agent Interpretation Guidance
 
 Agents SHOULD interpret:
