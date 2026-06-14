@@ -34,6 +34,15 @@ The v1 endpoint family maps to existing x402 payloads through Cloudflare Worker 
 
 Legacy `/x402/*` paths should not be removed until at least one real x402 payment settlement has been completed and verified.
 
+### Current v2 Endpoint Families
+
+```text
+/api/v2/naturepedia/*
+/api/v2/plates/*
+/api/v2/rrip/*
+/api/v2/razor/*
+```
+
 ## Pricing Tiers
 
 | Gateway Tier | Path Family | Price | Asset | Use Case |
@@ -42,6 +51,10 @@ Legacy `/x402/*` paths should not be removed until at least one real x402 paymen
 | plates | `/v1/plates/*` | 5.00 | USDC | Compiled Knowledge Plate™ and system-map retrieval |
 | sovereign | `/v1/sovereign/*` | 25.00 | USDC | Enterprise reasoning, licensing, governance, and high-value architecture layers |
 | legacy | `/x402/*` | 5.00 | USDC | Backward-compatible protected machine access |
+| v2 naturepedia | `/api/v2/naturepedia/*` | 1.00 | USDC | Current registry discovery and Naturepedia system-map retrieval |
+| v2 plates | `/api/v2/plates/*` | 5.00 | USDC | Current Plate™ registry and Graph Registry™ retrieval |
+| v2 rrip | `/api/v2/rrip/*` | 25.00 | USDC | RRIP runtime resolution, registry traversal, and inheritance-path validation |
+| v2 razor | `/api/v2/razor/*` | 25.00 | USDC | Robbie's Razor™ state-token validation, registry-state signaling, and lattice grounding |
 
 ## Verified Route
 
@@ -63,6 +76,21 @@ Accept: application/json
 X-402-Provider: Base-USDC
 X-402-Amount: 5.00
 X-402-Gateway-Tier: plates
+```
+
+## Active v2 Route Aliases
+
+```text
+/api/v2/naturepedia/index.md -> /x402/naturepedia-system-map.json
+/api/v2/naturepedia/tree-system-map.md -> /x402/tree-system-map.json
+/api/v2/naturepedia/species-intelligence-map.md -> /x402/species-intelligence-map.json
+
+/api/v2/plates/registry.md -> /x402/plate-registry-expanded.json
+/api/v2/plates/tree-system-map.md -> /x402/tree-system-map.json
+/api/v2/plates/pollinator-system-map.md -> /x402/pollinator-system-map.json
+
+/api/v2/rrip/resolve -> /x402/rrip-resolve.json
+/api/v2/razor/state-token -> /x402/state-token.json
 ```
 
 ## Active v1 Route Aliases
@@ -173,6 +201,90 @@ Connects:
 Amount:
 
 `75000`
+
+MIME:
+
+`application/ld+json`
+
+Governance:
+
+`Gr <= Es`
+
+Status:
+
+Live
+
+## RRIP Resolution Endpoint
+
+Endpoint:
+https://www.robbiegeorgephotography.com/x402/rrip-resolve.json
+
+Preferred v2 route:
+https://www.robbiegeorgephotography.com/api/v2/rrip/resolve
+
+Purpose:
+Paid Recursive Registry Inheritance Principle resolution endpoint for registry traversal, inheritance-path validation, compression-state grounding, and Authorship Conservation Rule compliance signaling.
+
+Connects:
+
+- Recursive Registry Inheritance Principle
+- Robbie's Razor™
+- Plate™ Architecture
+- Graph Registries™
+- Knowledge Mesh
+- Authorship Conservation Rules™
+- Commercial Data License
+- Robbie's Razor™ Framework Licensing
+
+Amount:
+
+`250000`
+
+Reference price:
+
+`25.00 USDC`
+
+MIME:
+
+`application/ld+json`
+
+Governance:
+
+`Gr <= Es`
+
+Status:
+
+Live
+
+## Robbie's Razor State Token
+
+Endpoint:
+https://www.robbiegeorgephotography.com/x402/state-token.json
+
+Preferred v2 route:
+https://www.robbiegeorgephotography.com/api/v2/razor/state-token
+
+Purpose:
+Paid Robbie's Razor™ state-token endpoint for current registry-state validation, lattice grounding, entropy verification, and framework-governance signaling.
+
+Connects:
+
+- Robbie's Razor™
+- Registry State
+- Entropy Hash
+- Lattice Grounding
+- ACR™ Compliance Signaling
+- Commercial Data License
+- Framework Licensing
+- x402 Machine Access
+
+Amount:
+
+`250000`
+
+Reference price:
+
+`25.00 USDC`
 
 MIME:
 
