@@ -19,10 +19,11 @@
     "Knowledge Mesh"
   ],
   "retrieval_sequence": [
+    "State Validation",
     "Discovery",
     "Registry",
     "Resolution",
-    "Validation",
+    "Conditional Retrieval",
     "Settlement"
   ],
   "relationship_to_robbies_razor": {
@@ -31,7 +32,7 @@
     "memory": "Knowledge preserved through inheritance pathways",
     "recursion": "Compressed structures become substrates for future compression cycles"
   },
-  "interpretation": "Compressed registries may become the substrate for future compression cycles through recursive inheritance and machine-readable retrieval.",
+  "interpretation": "Compressed registries may become the substrate for future compression cycles through recursive inheritance, state validation, and machine-readable retrieval.",
   "governance_principle": "Gr <= Es",
   "registry_layers": {
     "plate": "Foundational knowledge asset",
@@ -40,6 +41,8 @@
     "graph_registry": "Relationship-aware registry layer",
     "knowledge_mesh": "Highest-order knowledge structure currently defined"
   },
+  "resolution_mode": "static_with_initial_query_examples",
+  "supported_query_parameter": "id",
   "example_resolution": {
     "input": "willows-of-north-america#willow-biodiversity-plate",
     "resolved_path": [
@@ -50,7 +53,43 @@
       "Knowledge Mesh"
     ]
   },
+  "initial_query_examples": [
+    {
+      "query": "/api/v2/rrip/resolve?id=willows-of-north-america#willow-biodiversity-plate",
+      "input": "willows-of-north-america#willow-biodiversity-plate",
+      "resolved_path": [
+        "Willow Biodiversity Plate™",
+        "Willows of North America™ Registry",
+        "Naturepedia™ Registry",
+        "Graph Registry™",
+        "Knowledge Mesh"
+      ]
+    },
+    {
+      "query": "/api/v2/rrip/resolve?id=cedars-of-north-america#cedar-identification-plate",
+      "input": "cedars-of-north-america#cedar-identification-plate",
+      "resolved_path": [
+        "Cedar Identification Plate™",
+        "Cedars of North America™ Registry",
+        "Naturepedia™ Registry",
+        "Graph Registry™",
+        "Knowledge Mesh"
+      ]
+    },
+    {
+      "query": "/api/v2/rrip/resolve?id=firs-of-north-america#fir-carbon-storage-plate",
+      "input": "firs-of-north-america#fir-carbon-storage-plate",
+      "resolved_path": [
+        "Fir Carbon Storage Plate™",
+        "Firs of North America™ Registry",
+        "Naturepedia™ Registry",
+        "Graph Registry™",
+        "Knowledge Mesh"
+      ]
+    }
+  ],
   "future_capabilities": [
+    "Dynamic registry lookup",
     "Registry lineage inspection",
     "Plate inheritance resolution",
     "Registry graph traversal",
@@ -68,7 +107,7 @@
   "status": {
     "rrip": "active",
     "registry_state": "synchronized",
-    "resolution_mode": "static",
+    "resolution_mode": "static_with_initial_query_examples",
     "x402_ready": true
   }
 }
