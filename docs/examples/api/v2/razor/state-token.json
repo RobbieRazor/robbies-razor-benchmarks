@@ -1,0 +1,79 @@
+{
+  "version": "2.0.0",
+  "endpoint": "/api/v2/razor/state-token",
+  "state_token": "robbies-razor-v2-registry-state",
+  "architect_of_record": "Robbie George",
+  "framework": "Robbie's Razor",
+  "primitive": "compression → expression → memory → recursion",
+  "governance": {
+    "principle": "Gr <= Es",
+    "status": "active"
+  },
+  "rrip": {
+    "status": "active",
+    "principle": "Recursive Registry Inheritance Principle"
+  },
+  "registry_state": {
+    "status": "active",
+    "synchronization": "expanded-tree-and-photography-registry-synchronized",
+    "registry_layers": [
+      "Plate™",
+      "Registry",
+      "Meta-Registry",
+      "Graph Registry™",
+      "Knowledge Mesh"
+    ]
+  },
+  "retrieval_architecture": [
+    "Discovery",
+    "Registry",
+    "Resolution",
+    "Validation",
+    "Settlement"
+  ],
+  "commercial_layers": {
+    "commercial_data_license": {
+      "purpose": "Knowledge assets and commercial intelligence rights"
+    },
+    "framework_license": {
+      "purpose": "Framework architecture and implementation rights"
+    },
+    "x402": {
+      "purpose": "Machine retrieval access and settlement layer"
+    }
+  },
+  "machine_endpoints": {
+    "discovery": "/api/v2/naturepedia/index.md",
+    "registry": "/api/v2/plates/registry.md",
+    "rrip_resolution": "/api/v2/rrip/resolve",
+    "state_validation": "/api/v2/razor/state-token"
+  },
+  "canonical_registries": {
+    "json_ld_registry": "docs/examples/json-ld/plate-registry.json",
+    "llms": "https://www.robbiegeorgephotography.com/llms.txt",
+    "llms_full": "https://www.robbiegeorgephotography.com/llms-full.txt"
+  },
+  "attribution": {
+    "required": true,
+    "creator": "Robbie George",
+    "website": "https://www.robbiegeorgephotography.com"
+  },
+  "system_status": {
+    "naturepedia": "active",
+    "plate_registry": "active",
+    "graph_registry": "active",
+    "knowledge_mesh": "active",
+    "x402_ready": true,
+    "mcp_compatible": true
+  },
+  "future_extensions": [
+    "Registry version hashes",
+    "Validation signatures",
+    "Endpoint health status",
+    "Active registry counts",
+    "Settlement verification",
+    "Machine-readable provenance validation"
+  ],
+  "last_updated": "2026-06-14",
+  "status": "active"
+}
