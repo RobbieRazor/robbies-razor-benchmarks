@@ -255,6 +255,118 @@ It does not automatically grant:
 
 ---
 
+# Relationship to RRIP and Knowledge Mesh Architecture
+
+The Recursive Registry Inheritance Principle (RRIP) defines how compressed structures evolve into larger machine-readable knowledge infrastructure.
+
+RRIP inheritance pathway:
+
+```text
+Plate™
+↓
+Registry
+↓
+Meta-Registry
+↓
+Graph Registry™
+↓
+Knowledge Mesh
+```
+
+The purpose of RRIP is to allow preserved compressed structures to become reusable cognitive infrastructure.
+
+Registries are not merely storage.
+
+Registries function as machine-readable memory structures.
+
+Graph Registries™ are higher-order relationship architectures built from those preserved registries.
+
+Knowledge Meshes emerge from recursively connected Graph Registries™.
+
+## Relationship to x402
+
+x402 should be interpreted as the retrieval and settlement layer operating beneath RRIP-enabled infrastructure.
+
+RRIP determines:
+
+```text
+What relationships exist.
+```
+
+Graph Registries™ determine:
+
+```text
+How those relationships are organized.
+```
+
+Knowledge Meshes determine:
+
+```text
+How large-scale recursive knowledge systems emerge.
+```
+
+x402 determines:
+
+```text
+How protected machine retrieval occurs.
+```
+
+## Registry-Centered Retrieval Model
+
+The v2 architecture is intentionally shifting away from document retrieval and toward registry retrieval.
+
+Traditional model:
+
+```text
+Document
+↓
+Download
+↓
+Consume
+```
+
+Registry model:
+
+```text
+Discovery
+↓
+Registry
+↓
+Resolution
+↓
+Validation
+↓
+Authorized Retrieval
+```
+
+The registry becomes the primary machine-facing substrate.
+
+## Future RRIP Services
+
+Future RRIP-compatible services may expose:
+
+* inheritance-chain retrieval
+* registry traversal
+* graph-state resolution
+* registry-state validation
+* graph inheritance verification
+* Knowledge Mesh discovery
+* recursive registry synchronization
+
+These services are expected to become foundational components of future MCP-compatible agent systems, enterprise retrieval systems, sovereign knowledge systems, and machine-native commercial infrastructure.
+
+## Architectural Interpretation
+
+RRIP provides the inheritance mechanism.
+
+Graph Registries™ provide the relationship architecture.
+
+Knowledge Meshes provide the large-scale intelligence structure.
+
+x402 provides the retrieval and settlement layer.
+
+Together they form the machine-readable infrastructure stack beneath Robbie's Razor™, Naturepedia™, Plate™ Architecture, and future agent-wallet ecosystems.
+
 # Relationship to Graph Registries™
 
 Graph Registries™ determine:
