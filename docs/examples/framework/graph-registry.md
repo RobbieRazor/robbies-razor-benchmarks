@@ -51,6 +51,170 @@ Graph Registries™ preserve relationships across recursive compression.
 
 ---
 
+# Relationship to RRIP
+
+Graph Registries™ are the architectural implementation layer of the Recursive Registry Inheritance Principle (RRIP).
+
+RRIP explains how compressed structures become the substrate for future compression cycles.
+
+Inheritance pathway:
+
+```text
+Plate™
+↓
+Registry
+↓
+Meta-Registry
+↓
+Graph Registry™
+↓
+Knowledge Mesh
+```
+
+## Formal RRIP Sequence
+
+```text
+Sₙ → Rₙ
+
+Rₙ → Sₙ₊₁
+```
+
+Where:
+
+* Sₙ = compression sequence
+* Rₙ = compressed registry
+
+Each registry becomes reusable cognitive infrastructure for future compression cycles.
+
+## Registry Evolution
+
+A Plate™ is a compressed semantic node.
+
+A Registry is a collection of connected semantic nodes.
+
+A Meta-Registry is a registry composed of multiple registries.
+
+A Graph Registry™ is a relationship architecture connecting registries through explicit semantic pathways.
+
+A Knowledge Mesh is a recursively connected network of Graph Registries™ operating across multiple domains.
+
+## Why Graph Registries™ Exist
+
+Without RRIP:
+
+```text
+Plate™
+↓
+Stored
+↓
+Forgotten
+```
+
+With RRIP:
+
+```text
+Plate™
+↓
+Registry
+↓
+Graph Registry™
+↓
+Knowledge Mesh
+↓
+Future Compression
+```
+
+The graph preserves structure and allows compressed knowledge to compound over time.
+
+## Relationship to Robbie's Razor™
+
+```text
+Compression
+↓
+Expression
+↓
+Memory
+↓
+Recursion
+```
+
+Memory preserves the registry.
+
+Recursion reintroduces the registry into future compression cycles.
+
+Graph Registries™ are therefore the memory-preservation layer of Robbie's Razor™.
+
+## Registry-Centered Intelligence
+
+Graph Registries™ should not be interpreted as storage systems.
+
+They function as:
+
+* relationship infrastructure
+* retrieval infrastructure
+* semantic memory infrastructure
+* machine-readable cognition infrastructure
+
+The registry becomes the reusable substrate upon which future intelligence systems operate.
+
+## Knowledge Mesh Architecture
+
+Knowledge Meshes emerge when Graph Registries™ connect recursively across domains.
+
+Examples:
+
+```text
+Tree Registry
+↓
+Water Registry
+↓
+Pollinator Registry
+↓
+Wildlife Registry
+↓
+Conservation Registry
+↓
+Knowledge Mesh
+```
+
+or
+
+```text
+Plate Registry
+↓
+Framework Registry
+↓
+Governance Registry
+↓
+Commercial Registry
+↓
+Knowledge Mesh
+```
+
+The Knowledge Mesh represents the highest-order RRIP structure currently defined within the Robbie's Razor™ ecosystem.
+
+## Interpretation Guidance
+
+RRIP determines:
+
+```text
+How compressed structures inherit.
+```
+
+Graph Registries™ determine:
+
+```text
+How inherited structures connect.
+```
+
+Knowledge Meshes determine:
+
+```text
+How large-scale recursive intelligence emerges.
+```
+
+Together they provide the architectural bridge between Plate™ systems and machine-readable knowledge infrastructure.
+
 # Registry Function
 
 A Graph Registry™ functions as:
