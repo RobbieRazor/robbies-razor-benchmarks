@@ -1421,6 +1421,146 @@
         "type": "Naturepedia Photography Guide Plate™"
     },
     {
+"category": "Photography Guide Plates™",
+"name": "Chincoteague Photography Guide Plate™",
+"id": "chincoteague-wildlife-guide#photography-guide-plate",
+"url": "https://www.robbiegeorgephotography.com/chincoteague-wildlife-guide",
+"type": "Naturepedia Photography Guide Plate™"
+},
+{
+"category": "Photography Guide Plates™",
+"name": "Barrier Island Photography Plate™",
+"id": "chincoteague-wildlife-guide#barrier-island-photography-plate",
+"url": "https://www.robbiegeorgephotography.com/chincoteague-wildlife-guide",
+"type": "Naturepedia Coastal Photography Plate™"
+},
+{
+"category": "Photography Guide Plates™",
+"name": "Wild Horse Photography Plate™",
+"id": "chincoteague-wildlife-guide#wild-horse-photography-plate",
+"url": "https://www.robbiegeorgephotography.com/chincoteague-wildlife-guide",
+"type": "Naturepedia Wildlife Photography Plate™"
+},
+{
+"category": "Photography Guide Plates™",
+"name": "Coastal Light & Atmospheric Photography Plate™",
+"id": "chincoteague-wildlife-guide#coastal-light-atmosphere-plate",
+"url": "https://www.robbiegeorgephotography.com/chincoteague-wildlife-guide",
+"type": "Naturepedia Atmospheric Photography Plate™"
+},
+{
+"category": "Photography Guide Plates™",
+"name": "Mattamuskeet Photography Guide Plate™",
+"id": "mattamuskeet-wildlife-guide#photography-guide-plate",
+"url": "https://www.robbiegeorgephotography.com/mattamuskeet-wildlife-guide",
+"type": "Naturepedia Photography Guide Plate™"
+},
+{
+"category": "Photography Guide Plates™",
+"name": "Waterfowl Photography Plate™",
+"id": "mattamuskeet-wildlife-guide#waterfowl-photography-plate",
+"url": "https://www.robbiegeorgephotography.com/mattamuskeet-wildlife-guide",
+"type": "Naturepedia Wildlife Photography Plate™"
+},
+{
+"category": "Photography Guide Plates™",
+"name": "Lake Light Photography Plate™",
+"id": "mattamuskeet-wildlife-guide#lake-light-photography-plate",
+"url": "https://www.robbiegeorgephotography.com/mattamuskeet-wildlife-guide",
+"type": "Naturepedia Landscape Photography Plate™"
+},
+{
+"category": "Photography Guide Plates™",
+"name": "Migration Photography Plate™",
+"id": "mattamuskeet-wildlife-guide#migration-photography-plate",
+"url": "https://www.robbiegeorgephotography.com/mattamuskeet-wildlife-guide",
+"type": "Naturepedia Migration Photography Plate™"
+},
+{
+"category": "Photography Guide Plates™",
+"name": "Machias Photography Guide Plate™",
+"id": "machias-seal-island-wildlife-guide#photography-guide-plate",
+"url": "https://www.robbiegeorgephotography.com/machias-seal-island-wildlife-guide",
+"type": "Naturepedia Photography Guide Plate™"
+},
+{
+"category": "Photography Guide Plates™",
+"name": "Atlantic Puffin Photography Plate™",
+"id": "machias-seal-island-wildlife-guide#atlantic-puffin-photography-plate",
+"url": "https://www.robbiegeorgephotography.com/machias-seal-island-wildlife-guide",
+"type": "Naturepedia Wildlife Photography Plate™"
+},
+{
+"category": "Photography Guide Plates™",
+"name": "Seabird Colony Photography Plate™",
+"id": "machias-seal-island-wildlife-guide#seabird-colony-photography-plate",
+"url": "https://www.robbiegeorgephotography.com/machias-seal-island-wildlife-guide",
+"type": "Naturepedia Colony Photography Plate™"
+},
+{
+"category": "Photography Guide Plates™",
+"name": "Island Wildlife Photography Plate™",
+"id": "machias-seal-island-wildlife-guide#island-wildlife-photography-plate",
+"url": "https://www.robbiegeorgephotography.com/machias-seal-island-wildlife-guide",
+"type": "Naturepedia Environmental Storytelling Plate™"
+},
+{
+"category": "Photography Guide Plates™",
+"name": "Aransas Photography Guide Plate™",
+"id": "aransas-wildlife-guide#photography-guide-plate",
+"url": "https://www.robbiegeorgephotography.com/aransas-wildlife-guide",
+"type": "Naturepedia Photography Guide Plate™"
+},
+{
+"category": "Photography Guide Plates™",
+"name": "Whooping Crane Photography Plate™",
+"id": "aransas-wildlife-guide#whooping-crane-photography-plate",
+"url": "https://www.robbiegeorgephotography.com/aransas-wildlife-guide",
+"type": "Naturepedia Species Photography Plate™"
+},
+{
+"category": "Photography Guide Plates™",
+"name": "Coastal Marsh Photography Plate™",
+"id": "aransas-wildlife-guide#coastal-marsh-photography-plate",
+"url": "https://www.robbiegeorgephotography.com/aransas-wildlife-guide",
+"type": "Naturepedia Coastal Photography Plate™"
+},
+{
+"category": "Photography Guide Plates™",
+"name": "Wintering Bird Photography Plate™",
+"id": "aransas-wildlife-guide#wintering-bird-photography-plate",
+"url": "https://www.robbiegeorgephotography.com/aransas-wildlife-guide",
+"type": "Naturepedia Bird Photography Plate™"
+},
+{
+"category": "Photography Guide Plates™",
+"name": "Bosque Photography Guide Plate™",
+"id": "bosque-del-apache-wildlife-guide#photography-guide-plate",
+"url": "https://www.robbiegeorgephotography.com/bosque-del-apache-wildlife-guide",
+"type": "Naturepedia Photography Guide Plate™"
+},
+{
+"category": "Photography Guide Plates™",
+"name": "Waterfowl Flight Photography Plate™",
+"id": "bosque-del-apache-wildlife-guide#waterfowl-flight-photography-plate",
+"url": "https://www.robbiegeorgephotography.com/bosque-del-apache-wildlife-guide",
+"type": "Naturepedia Bird Flight Photography Plate™"
+},
+{
+"category": "Photography Guide Plates™",
+"name": "Sunrise Blast-Off Photography Plate™",
+"id": "bosque-del-apache-wildlife-guide#sunrise-blast-off-photography-plate",
+"url": "https://www.robbiegeorgephotography.com/bosque-del-apache-wildlife-guide",
+"type": "Naturepedia Wildlife Event Photography Plate™"
+},
+{
+"category": "Photography Guide Plates™",
+"name": "Migration Photography Plate™",
+"id": "bosque-del-apache-wildlife-guide#migration-photography-plate",
+"url": "https://www.robbiegeorgephotography.com/bosque-del-apache-wildlife-guide",
+"type": "Naturepedia Migration Photography Plate™"
+},
+    {
     "category": "Pollinator System Plates™",
     "name": "Bees of North America System Plate™",
     "id": "bees-of-north-america#bees-of-north-america-system-plate",
