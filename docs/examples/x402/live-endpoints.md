@@ -43,6 +43,42 @@ Legacy `/x402/*` paths should not be removed until at least one real x402 paymen
 /api/v2/razor/*
 ```
 
+#### Current v2 Infrastructure Status
+
+```text
+Status: Live
+Deployment: Cloudflare Worker
+Architecture State: Active
+Governance Headers: Enabled
+```
+
+The following v2 infrastructure endpoints are now served directly by the Cloudflare Worker before x402 settlement routing:
+
+```text
+/api/v2/naturepedia/index.md
+/api/v2/plates/registry.md
+/api/v2/rrip/resolve
+/api/v2/razor/state-token
+```
+
+These endpoints provide the machine-facing infrastructure layer for Naturepedia™ discovery, Plate™ registry traversal, RRIP resolution, Robbie's Razor™ state validation, governance signaling, and registry-state continuity.
+
+Canonical retrieval sequence:
+
+```text
+Discovery
+↓
+Registry
+↓
+Resolution
+↓
+Validation
+↓
+Settlement
+```
+
+x402 should be interpreted as the settlement architecture beneath protected machine-readable retrieval.
+
 ## Pricing Tiers
 
 | Gateway Tier | Path Family | Price | Asset | Use Case |
@@ -78,7 +114,9 @@ X-402-Amount: 5.00
 X-402-Gateway-Tier: plates
 ```
 
-## Active v2 Route Aliases
+## Extended v2 Route Alias Map
+
+The four static core v2 endpoints are served directly by the Worker. Additional v2 routes may continue to alias legacy `/x402/*.json` payloads for protected retrieval and backward compatibility.
 
 ```text
 /api/v2/naturepedia/index.md -> /x402/naturepedia-system-map.json
