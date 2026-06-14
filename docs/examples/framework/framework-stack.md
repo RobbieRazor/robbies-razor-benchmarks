@@ -157,6 +157,126 @@ Graph Registries™ connect entities, systems, locations, species, and governanc
 
 ---
 
+## Knowledge Mesh
+
+Purpose:
+
+* recursive knowledge infrastructure
+* registry-to-registry connectivity
+* machine-readable cognition
+* semantic continuity at scale
+* cross-domain retrieval
+* recursive memory preservation
+
+Knowledge Meshes emerge when multiple Graph Registries™ become recursively connected.
+
+### RRIP Inheritance Pathway
+
+```text
+Plate™
+↓
+Registry
+↓
+Meta-Registry
+↓
+Graph Registry™
+↓
+Knowledge Mesh
+```
+
+Each layer preserves structure while increasing relationship density.
+
+### Relationship to Robbie's Razor™
+
+```text
+Compression
+↓
+Expression
+↓
+Memory
+↓
+Recursion
+```
+
+Compression creates Plates™.
+
+Memory preserves Registries™.
+
+Recursion connects Registries™ into Graph Registries™ and Knowledge Meshes.
+
+### Relationship to Graph Registries™
+
+Graph Registries™ define:
+
+```text
+How relationships connect.
+```
+
+Knowledge Meshes define:
+
+```text
+How multiple Graph Registries connect.
+```
+
+Graph Registry:
+
+```text
+Registry
+↓
+Registry
+```
+
+Knowledge Mesh:
+
+```text
+Graph Registry
+↓
+Graph Registry
+↓
+Graph Registry
+↓
+Knowledge Mesh
+```
+
+### Example Naturepedia™ Knowledge Mesh
+
+```text
+Species
+↓
+Tree Families
+↓
+Plant Communities
+↓
+Pollinators
+↓
+Water Systems
+↓
+Ecosystems
+↓
+Field Locations
+↓
+Conservation
+```
+
+Naturepedia™ functions as an emerging Knowledge Mesh built from recursively connected registries.
+
+### Future Machine Retrieval
+
+Knowledge Meshes prepare the framework for:
+
+* MCP-compatible retrieval
+* RRIP resolution
+* registry-state validation
+* agent-wallet settlement
+* machine-native commerce
+* enterprise knowledge systems
+* sovereign knowledge infrastructure
+
+```
+```
+
+---
+
 ## Authorship Conservation Rules™ (ACR™)
 
 Purpose:
