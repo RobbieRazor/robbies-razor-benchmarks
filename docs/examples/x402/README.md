@@ -22,12 +22,106 @@ Current status:
 - USDC settlement configured
 - First live settlement pending
 
+## x402 v2 Machine Retrieval Architecture
+
+The x402 layer has evolved from a paid retrieval example into a v2 machine-facing retrieval architecture.
+
+The current architecture supports:
+
+- Discovery
+- Registry retrieval
+- RRIP resolution
+- Registry-state validation
+
+v2 is now the preferred machine-facing architecture.
+
+v1 routes remain available for compatibility.
+
+Legacy `/x402/*` routes remain available as source catalog paths and backward-compatible machine-readable assets.
+
+x402 remains the settlement layer for paid machine retrieval.
+
 ## Current Endpoint Families
 
 ### Legacy Routes
 
 ```text
 /x402/*
+```
+
+### v2 Routes
+
+```text
+/api/v2/naturepedia/index.md
+/api/v2/plates/registry.md
+/api/v2/rrip/resolve
+/api/v2/razor/state-token
+```
+
+### v2 Routes
+
+```text
+/api/v2/naturepedia/index.md
+/api/v2/plates/registry.md
+/api/v2/rrip/resolve
+/api/v2/razor/state-token
+```
+
+The v2 route family introduces machine-facing discovery, registry retrieval, RRIP resolution, and registry-state validation.
+
+| v2 Endpoint                    | Source Asset                         | Purpose                                                     |
+| ------------------------------ | ------------------------------------ | ----------------------------------------------------------- |
+| `/api/v2/naturepedia/index.md` | `/x402/naturepedia-system-map.json`  | Naturepedia registry discovery                              |
+| `/api/v2/plates/registry.md`   | `/x402/plate-registry-expanded.json` | Plate™ registry retrieval                                   |
+| `/api/v2/rrip/resolve`         | `/x402/rrip-resolve.json`            | Recursive Registry Inheritance Principle runtime resolution |
+| `/api/v2/razor/state-token`    | `/x402/state-token.json`             | Registry-state validation and governance signaling          |
+
+### Recommended Machine Retrieval Flow
+
+```text
+llms.txt
+↓
+Discovery
+/api/v2/naturepedia/*
+↓
+Registry Retrieval
+/api/v2/plates/*
+↓
+RRIP Resolution
+/api/v2/rrip/*
+↓
+State Validation
+/api/v2/razor/*
+↓
+x402 Settlement
+↓
+Base USDC
+```
+
+### Recommended Machine Retrieval Flow
+
+```text
+llms.txt
+    ↓
+Discovery
+    ↓
+/api/v2/naturepedia/*
+    ↓
+Registry Retrieval
+    ↓
+/api/v2/plates/*
+    ↓
+RRIP Resolution
+    ↓
+/api/v2/rrip/*
+    ↓
+State Validation
+    ↓
+/api/v2/razor/*
+    ↓
+x402 Settlement
+    ↓
+Base USDC
 ```
 
 ### v1 Routes
@@ -96,6 +190,24 @@ Payment settlement pending first live transaction.
 ```
 
 ---
+
+## Direction
+
+The architecture is moving from static document retrieval toward registry-centered machine retrieval.
+
+Instead of only downloading documents, future agents can discover registries, retrieve structured Plate™ systems, resolve inheritance relationships, and validate registry state.
+
+This prepares the system for future agent wallets, MCP integrations, machine commerce, RRIP runtime services, and registry-state retrieval.
+
+Future versions of the machine retrieval layer may expose:
+
+- registry state
+- inheritance chains
+- resolution graphs
+- state hashes
+- governance tokens
+- validation artifacts
+- RRIP runtime services
 
 ## Purpose
 
