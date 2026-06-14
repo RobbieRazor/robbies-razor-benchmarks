@@ -50,7 +50,7 @@ The Worker intercepts:
 
 New `/v1/*` routes are mapped internally to legacy `/x402/*.json` payloads through canonical route aliasing.
 
-## v2 Static Core Infrastructure Endpoints
+## v2 Registry-State Infrastructure Layer
 
 The Worker now directly serves four core v2 infrastructure endpoints before x402 payment-gateway routing.
 
@@ -63,30 +63,98 @@ The Worker now directly serves four core v2 infrastructure endpoints before x402
 
 These routes function as the public machine-facing infrastructure layer for:
 
-- Naturepedia™ discovery
-- Plate™ registry discovery
-- RRIP resolution
-- Robbie's Razor™ state validation
-- governance signaling
-- registry-state continuity
+* Naturepedia™ discovery
+* Plate™ registry retrieval
+* RRIP resolution
+* Robbie's Razor™ registry-state validation
+* governance signaling
+* registry-state continuity
+* cache-aware synchronization
 
 These endpoints return `200 OK` directly from the Worker and include machine-readable governance headers.
 
 They establish the live v2 retrieval sequence:
 
 ```text
+State Validation
+↓
 Discovery
 ↓
 Registry
 ↓
 Resolution
 ↓
-Validation
+Conditional Retrieval
 ↓
 Settlement
 ```
 
 x402 remains the settlement layer for protected machine-readable retrieval beyond the public static core endpoints.
+
+## Registry-State Control Plane
+
+Primary endpoint:
+
+```text
+/api/v2/razor/state-token
+```
+
+Purpose:
+
+* registry version tracking
+* registry hash comparison
+* deterministic state signatures
+* registry count metadata
+* synchronization signaling
+* cache validation
+* machine-readable continuity
+
+The state-token endpoint should be interpreted as the Registry-State Control Plane for Robbie's Razor™ v2 infrastructure.
+
+## Registry Data Plane
+
+Primary endpoint:
+
+```text
+/api/v2/plates/registry.md
+```
+
+Purpose:
+
+* Plate™ registry retrieval
+* Graph Registry™ access
+* registry traversal
+* compressed knowledge routing
+
+## RRIP Resolution Plane
+
+Primary endpoint:
+
+```text
+/api/v2/rrip/resolve
+```
+
+Purpose:
+
+* Recursive Registry Inheritance Principle resolution
+* inheritance-path traversal
+* registry relationship grounding
+* registry-to-registry navigation
+
+## Discovery Plane
+
+Primary endpoint:
+
+```text
+/api/v2/naturepedia/index.md
+```
+
+Purpose:
+
+* Naturepedia™ discovery
+* registry routing
+* machine-access entry point
+* ecosystem traversal
 
 ## v2 Route Alias Map
 
