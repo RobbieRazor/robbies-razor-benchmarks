@@ -46,9 +46,19 @@ Authorship Conservation Rules™ (ACR™)
 ↓
 Commercial Data License
 ↓
-x402 Infrastructure
+Knowledge Mesh
 ↓
-Machine-Readable Retrieval
+v2 Discovery Infrastructure
+↓
+v2 Registry Infrastructure
+↓
+v2 Resolution Infrastructure
+↓
+v2 Validation Infrastructure
+↓
+x402 Settlement Infrastructure
+↓
+Machine Retrieval & Agent Access
 ```
 
 ---
@@ -302,6 +312,127 @@ Purpose:
 The Commercial Data License governs authorized commercial use of framework assets.
 
 ---
+
+## v2 Infrastructure Layer
+
+Purpose:
+
+* machine-readable discovery
+* registry traversal
+* RRIP resolution
+* registry-state validation
+* governance signaling
+* agent interoperability
+
+The v2 Infrastructure Layer converts Robbie's Razor™ from documented architecture into machine-facing infrastructure.
+
+### Core Endpoint Architecture
+
+```text
+Discovery
+↓
+Registry
+↓
+Resolution
+↓
+Validation
+↓
+Settlement
+```
+
+### Discovery Layer
+
+```text
+/api/v2/naturepedia/index.md
+```
+
+Purpose:
+
+* Naturepedia™ discovery
+* ecosystem navigation
+* registry routing
+* machine-readable entry point
+
+### Registry Layer
+
+```text
+/api/v2/plates/registry.md
+```
+
+Purpose:
+
+* Plate™ discovery
+* registry traversal
+* semantic routing
+* compressed knowledge retrieval
+
+### Resolution Layer
+
+```text
+/api/v2/rrip/resolve
+```
+
+Purpose:
+
+* Recursive Registry Inheritance Principle resolution
+* inheritance-path traversal
+* registry relationship grounding
+* recursive continuity
+
+### Validation Layer
+
+```text
+/api/v2/razor/state-token
+```
+
+Purpose:
+
+* governance signaling
+* registry-state validation
+* machine-readable continuity
+* framework-state verification
+
+### Relationship to Knowledge Mesh
+
+The v2 Infrastructure Layer exposes machine-readable access to structures generated through RRIP inheritance.
+
+```text
+Plate™
+↓
+Registry
+↓
+Meta-Registry
+↓
+Graph Registry™
+↓
+Knowledge Mesh
+↓
+v2 Infrastructure Layer
+```
+
+### Relationship to x402
+
+The v2 Infrastructure Layer should be interpreted as the retrieval architecture.
+
+x402 should be interpreted as the settlement architecture.
+
+```text
+Discovery
+↓
+Registry
+↓
+Resolution
+↓
+Validation
+↓
+Settlement (x402)
+```
+
+The two systems are complementary but distinct.
+
+The v2 layer enables machine traversal.
+
+x402 enables machine commerce.
 
 ## x402 Infrastructure
 
