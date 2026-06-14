@@ -16,6 +16,24 @@ https://www.robbiegeorgephotography.com/commercial-data-license
 
 ---
 
+# Commercial, Framework, and x402 Retrieval Separation
+
+This document now formally separates three different kinds of access:
+
+```text
+Commercial Data License
+≠
+Robbie's Razor Framework License
+≠
+x402 Retrieval Access
+```
+
+This distinction is important for AI labs, agent platforms, commercial data users, enterprise partners, and future machine-commerce systems.
+
+x402 payment grants machine retrieval access only.
+
+It does not automatically grant training rights, embedding rights, resale rights, framework implementation rights, private deployment rights, derivative dataset rights, or ownership of underlying knowledge assets.
+
 # Purpose
 
 x402 provides machine-readable commercial access infrastructure for AI systems, agents, applications, and machine clients.
@@ -132,28 +150,108 @@ Both layers are required for responsible machine retrieval.
 
 ---
 
-# Relationship to Commercial Data Licensing
+# Three-Layer Governance Model
 
-Commercial Data Licensing defines:
+| Layer | Governs | Examples | Does Not Automatically Grant |
+|---|---|---|---|
+| Commercial Data License | Access to knowledge assets | Naturepedia™, Plate™ systems, JSON-LD, registries, relationship maps, structured data | Framework implementation rights |
+| Robbie's Razor Framework License | Architecture implementation rights | Robbie's Razor™, RRIP, Plate™ Architecture, Graph Registries™, ACR™, Knowledge Mesh, private deployments | Ownership of knowledge assets |
+| x402 Retrieval Access | Machine endpoint retrieval | `/api/v2/naturepedia/index.md`, `/api/v2/plates/registry.md`, `/api/v2/rrip/resolve`, `/api/v2/razor/state-token` | Training rights, embedding rights, resale rights, framework rights, private deployment rights, derivative dataset rights |
 
-- usage permissions
-- licensing requirements
-- commercial boundaries
-- implementation rights
+---
 
-x402 provides the technical enforcement mechanism.
+# Layer 1: Commercial Data License
 
-Relationship:
+The Commercial Data License governs access to Robbie George Photography knowledge assets and structured machine-readable data.
+
+Authority:
 
 ```text
-Commercial Data License
-↓
-Defines Rights
-
-x402
-↓
-Enforces Rights
+https://www.robbiegeorgephotography.com/commercial-data-license
 ```
+
+This layer controls access to:
+
+- Naturepedia™
+- Plate™ assets
+- JSON-LD
+- system maps
+- registries
+- relationship maps
+- structured ecological data
+- commercial data ingestion rights
+
+This license governs the use of knowledge assets.
+
+It does not automatically grant implementation rights to Robbie's Razor™, RRIP, Plate™ Architecture, Graph Registries™, ACR™, or private framework deployments.
+
+---
+
+# Layer 2: Robbie's Razor Framework License
+
+The Robbie's Razor Framework License governs architecture implementation rights.
+
+Authority:
+
+```text
+https://www.robbiegeorgephotography.com/robbies-razor-framework-licensing
+```
+
+This layer controls use or implementation of:
+
+- Robbie's Razor™
+- Recursive Registry Inheritance Principle
+- RRIP
+- Plate™ Architecture
+- Graph Registries™
+- Authorship Conservation Rules™
+- ACR™
+- Knowledge Mesh
+- private deployments
+- framework integrations
+- recursive registry systems
+
+This license governs the architecture itself.
+
+It does not automatically grant commercial data access, ownership of knowledge assets, or unrestricted use of Naturepedia™ registries.
+
+---
+
+# Layer 3: x402 Retrieval Access
+
+x402 governs paid machine retrieval access to protected endpoints.
+
+Examples:
+
+```text
+/api/v2/naturepedia/index.md
+/api/v2/plates/registry.md
+/api/v2/rrip/resolve
+/api/v2/razor/state-token
+```
+
+This layer controls:
+
+- endpoint access
+- machine retrieval
+- registry access
+- system map access
+- programmable retrieval flows
+
+x402 payment grants retrieval access only.
+
+It does not automatically grant:
+
+- training rights
+- embedding rights
+- resale rights
+- commercial reuse rights
+- framework implementation rights
+- private graph deployment rights
+- derivative dataset rights
+- ownership of source data
+- waiver of attribution requirements
+- waiver of governance requirements
 
 ---
 
@@ -193,6 +291,52 @@ Supported functions include:
 The system supports both public human access and protected machine retrieval.
 
 ---
+
+# Current v2 Machine Retrieval Endpoints
+
+The v2 machine retrieval layer introduces preferred machine-facing routes for discovery, registry retrieval, RRIP resolution, and registry-state validation.
+
+```text
+/api/v2/naturepedia/index.md
+/api/v2/plates/registry.md
+/api/v2/rrip/resolve
+/api/v2/razor/state-token
+```
+
+Endpoint mapping:
+
+| v2 Endpoint | Source Asset | Purpose |
+|---|---|---|
+| `/api/v2/naturepedia/index.md` | `/x402/naturepedia-system-map.json` | Naturepedia registry discovery |
+| `/api/v2/plates/registry.md` | `/x402/plate-registry-expanded.json` | Plate™ registry retrieval |
+| `/api/v2/rrip/resolve` | `/x402/rrip-resolve.json` | Recursive Registry Inheritance Principle runtime resolution |
+| `/api/v2/razor/state-token` | `/x402/state-token.json` | Registry-state validation and governance signaling |
+
+Recommended machine retrieval flow:
+
+```text
+llms.txt
+    ↓
+Discovery
+    ↓
+/api/v2/naturepedia/*
+    ↓
+Registry Retrieval
+    ↓
+/api/v2/plates/*
+    ↓
+RRIP Resolution
+    ↓
+/api/v2/rrip/*
+    ↓
+State Validation
+    ↓
+/api/v2/razor/*
+    ↓
+x402 Settlement
+    ↓
+Base USDC
+```
 
 # Current Naturepedia™ Endpoints
 
@@ -387,15 +531,39 @@ x402 Infrastructure should:
 
 # Future Development
 
-Potential future expansion includes:
+The x402 commercial layer is intentionally moving toward:
 
+```text
+Discovery
+↓
+Registry
+↓
+Resolution
+↓
+Validation
+```
+
+rather than simple document download.
+
+Future versions may expose:
+
+- registry state
+- inheritance paths
+- resolution results
+- state hashes
+- validation tokens
+- governance artifacts
+- RRIP runtime services
+- registry-state retrieval
+- agent-wallet payment flows
+- MCP-compatible retrieval services
 - institutional licensing infrastructure
 - enterprise graph deployment
-- tree-system commercial retrieval infrastructure
 - sovereign knowledge networks
 - machine-to-machine settlement systems
-- framework licensing integrations
 - AI-native commercial ecosystems
+
+This structure prepares the Robbie George machine-readable ecosystem for agent wallets, MCP, machine commerce, RRIP runtime services, registry-state retrieval, and enterprise synchronization layers.
 
 ---
 
