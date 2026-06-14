@@ -69,6 +69,75 @@ Their purpose is to provide:
 
 before commercial settlement occurs through x402.
 
+## Registry-State Synchronization Architecture
+
+The Robbie's Razor™ v2 infrastructure layer now separates:
+
+### Registry-State Control Plane
+
+Primary endpoint:
+
+```text
+/api/v2/razor/state-token
+```
+
+Purpose:
+
+- registry version tracking
+- registry-state validation
+- registry hash comparison
+- synchronization metadata
+- cache validation
+- machine-readable continuity
+
+### Registry Data Plane
+
+Primary endpoint:
+
+```text
+/api/v2/plates/registry.md
+```
+
+Purpose:
+
+- registry retrieval
+- Plate™ discovery
+- registry navigation
+- machine-readable knowledge access
+
+### Synchronization Workflow
+
+Future MCP-compatible agents may validate registry state before retrieval.
+
+Recommended workflow:
+
+```text
+Agent
+↓
+State Validation
+/api/v2/razor/state-token
+↓
+Registry Changed?
+
+No
+↓
+Use Cached Registry
+
+Yes
+↓
+Discovery
+↓
+Registry Retrieval
+↓
+RRIP Resolution
+↓
+x402 Settlement (if required)
+↓
+Fresh Retrieval
+```
+
+This architecture allows agents to determine registry freshness before retrieval occurs and prepares the Robbie's Razor™ ecosystem for cache-aware synchronization, agent wallets, and machine-native commerce.
+
 ## MCP-Compatible Agent Architecture
 
 The v2 retrieval architecture is designed to support future MCP-compatible agents, agent wallets, machine-native commerce, registry traversal, and recursive knowledge infrastructure.
@@ -410,13 +479,16 @@ This prepares the system for future agent wallets, MCP integrations, machine com
 
 Future versions of the machine retrieval layer may expose:
 
-- registry state
+- registry version metadata
+- registry state hashes
+- deterministic state signatures
 - inheritance chains
 - resolution graphs
-- state hashes
 - governance tokens
 - validation artifacts
 - RRIP runtime services
+- registry synchronization services
+- cache-aware agent coordination
 
 ## Purpose
 
