@@ -370,12 +370,23 @@ This repository is aligned with the live Naturepedia™ x402 payment gateway dep
 
 The x402 layer is designed for commercial machine-to-machine retrieval of compressed Naturepedia™, Robbie’s Razor™, Plate™, and governance data while keeping public human-facing pages open for normal browsing and search discovery.
 
-Current live x402 endpoints:
+Current live x402 and v2 machine-retrieval endpoints:
+
+Legacy x402 endpoints:
 
 - https://www.robbiegeorgephotography.com/x402/plate-registry.json
 - https://www.robbiegeorgephotography.com/x402/identity-graph.json
 - https://www.robbiegeorgephotography.com/x402/naturepedia-system-map.json
 - https://www.robbiegeorgephotography.com/x402/plate-registry-expanded.json
+- https://www.robbiegeorgephotography.com/x402/rrip-resolve.json
+- https://www.robbiegeorgephotography.com/x402/state-token.json
+
+Current v2 production endpoints:
+
+- https://www.robbiegeorgephotography.com/api/v2/naturepedia/index.md
+- https://www.robbiegeorgephotography.com/api/v2/plates/registry.md
+- https://www.robbiegeorgephotography.com/api/v2/rrip/resolve
+- https://www.robbiegeorgephotography.com/api/v2/razor/state-token
 
 Network: eip155:8453
 
@@ -386,7 +397,12 @@ Primary commercial reference:
 https://www.robbiegeorgephotography.com/commercial-data-license
 
 These endpoints are intended for:
-
+- v2 paid machine retrieval
+- RRIP runtime resolution
+- Robbie's Razor™ state-token validation
+- registry-state signaling
+- lattice grounding
+- ACR™ compliance signaling
 - paid semantic retrieval
 - identity and authorship graph access
 - Plate™ registry access
@@ -397,6 +413,12 @@ These endpoints are intended for:
 Public pages, public JSON-LD examples, and benchmark materials remain evaluation-facing.
 
 The x402 endpoints provide a separate commercial access layer for machine-readable paid retrieval.
+
+x402 endpoint payment grants endpoint-level retrieval only. It does not grant training rights, embedding rights, bulk ingestion rights, resale rights, derivative dataset construction rights, private dataset construction rights, or Robbie's Razor™ framework implementation rights.
+
+Commercial Data License governs knowledge asset access.
+
+Robbie's Razor™ Framework Licensing governs architecture implementation rights.
 
 ## Repository Structure
 
