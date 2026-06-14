@@ -304,6 +304,101 @@ docs/examples/json-ld/plate-registry.json
 
 ---
 
+## Tree Family Plates™
+
+| Plate™                                | Semantic ID                                                           | Type                                        | Live URL                                                               |
+| ------------------------------------- | --------------------------------------------------------------------- | ------------------------------------------- | ---------------------------------------------------------------------- |
+| Hemlock Systems Plate™                | `hemlocks-of-north-america#hemlock-systems-plate`                     | Naturepedia Tree Family Plate™              | https://www.robbiegeorgephotography.com/hemlocks-of-north-america      |
+| Hemlock Identification Plate™         | `hemlocks-of-north-america#hemlock-identification-plate`              | Naturepedia Tree Identification Plate™      | https://www.robbiegeorgephotography.com/hemlocks-of-north-america      |
+| Hemlock Needle Plate™                 | `hemlocks-of-north-america#hemlock-needle-plate`                      | Naturepedia Tree Identification Plate™      | https://www.robbiegeorgephotography.com/hemlocks-of-north-america      |
+| Hemlock Cone Plate™                   | `hemlocks-of-north-america#hemlock-cone-plate`                        | Naturepedia Tree Identification Plate™      | https://www.robbiegeorgephotography.com/hemlocks-of-north-america      |
+| Hemlock Bark Plate™                   | `hemlocks-of-north-america#hemlock-bark-plate`                        | Naturepedia Bark Identification Plate™      | https://www.robbiegeorgephotography.com/hemlocks-of-north-america      |
+| Eastern Hemlock Plate™                | `hemlocks-of-north-america#eastern-hemlock-plate`                     | Naturepedia Species Plate™                  | https://www.robbiegeorgephotography.com/hemlocks-of-north-america      |
+| Western Hemlock Plate™                | `hemlocks-of-north-america#western-hemlock-plate`                     | Naturepedia Species Plate™                  | https://www.robbiegeorgephotography.com/hemlocks-of-north-america      |
+| Mountain Hemlock Plate™               | `hemlocks-of-north-america#mountain-hemlock-plate`                    | Naturepedia Species Plate™                  | https://www.robbiegeorgephotography.com/hemlocks-of-north-america      |
+| Carolina Hemlock Plate™               | `hemlocks-of-north-america#carolina-hemlock-plate`                    | Naturepedia Species Plate™                  | https://www.robbiegeorgephotography.com/hemlocks-of-north-america      |
+| Hemlock Stream Ecology Plate™         | `hemlocks-of-north-america#hemlock-stream-ecology-plate`              | Naturepedia Watershed Plate™                | https://www.robbiegeorgephotography.com/hemlocks-of-north-america      |
+| Hemlock Wildlife Relationships Plate™ | `hemlocks-of-north-america#hemlock-wildlife-relationships-plate`      | Naturepedia Wildlife Relationship Plate™    | https://www.robbiegeorgephotography.com/hemlocks-of-north-america      |
+| Hemlock Forest Community Plate™       | `hemlocks-of-north-america#hemlock-forest-community-plate`            | Naturepedia Forest Community Plate™         | https://www.robbiegeorgephotography.com/hemlocks-of-north-america      |
+| Hemlock Carbon Storage Plate™         | `hemlocks-of-north-america#hemlock-carbon-storage-plate`              | Naturepedia Carbon Systems Plate™           | https://www.robbiegeorgephotography.com/hemlocks-of-north-america      |
+| Hemlock Conservation Plate™           | `hemlocks-of-north-america#hemlock-conservation-plate`                | Naturepedia Conservation Plate™             | https://www.robbiegeorgephotography.com/hemlocks-of-north-america      |
+| Spruce Systems Plate™                 | `spruces-of-north-america#spruce-systems-plate`                       | Naturepedia Tree Family Plate™              | https://www.robbiegeorgephotography.com/spruces-of-north-america       |
+| Spruce Identification Plate™          | `spruces-of-north-america#spruce-identification-plate`                | Naturepedia Tree Identification Plate™      | https://www.robbiegeorgephotography.com/spruces-of-north-america       |
+| Spruce Needle Plate™                  | `spruces-of-north-america#spruce-needle-plate`                        | Naturepedia Tree Identification Plate™      | https://www.robbiegeorgephotography.com/spruces-of-north-america       |
+| Spruce Cone Plate™                    | `spruces-of-north-america#spruce-cone-plate`                          | Naturepedia Tree Identification Plate™      | https://www.robbiegeorgephotography.com/spruces-of-north-america       |
+| Spruce Bark Plate™                    | `spruces-of-north-america#spruce-bark-plate`                          | Naturepedia Bark Identification Plate™      | https://www.robbiegeorgephotography.com/spruces-of-north-america       |
+| White Spruce Plate™                   | `spruces-of-north-america#white-spruce-plate`                         | Naturepedia Species Plate™                  | https://www.robbiegeorgephotography.com/spruces-of-north-america       |
+| Black Spruce Plate™                   | `spruces-of-north-america#black-spruce-plate`                         | Naturepedia Species Plate™                  | https://www.robbiegeorgephotography.com/spruces-of-north-america       |
+| Red Spruce Plate™                     | `spruces-of-north-america#red-spruce-plate`                           | Naturepedia Species Plate™                  | https://www.robbiegeorgephotography.com/spruces-of-north-america       |
+| Engelmann Spruce Plate™               | `spruces-of-north-america#engelmann-spruce-plate`                     | Naturepedia Species Plate™                  | https://www.robbiegeorgephotography.com/spruces-of-north-america       |
+| Spruce Boreal Forest Plate™           | `spruces-of-north-america#spruce-boreal-forest-plate`                 | Naturepedia Boreal Forest Plate™            | https://www.robbiegeorgephotography.com/spruces-of-north-america       |
+| Spruce Wildlife Relationships Plate™  | `spruces-of-north-america#spruce-wildlife-relationships-plate`        | Naturepedia Wildlife Relationship Plate™    | https://www.robbiegeorgephotography.com/spruces-of-north-america       |
+| Spruce Forest Community Plate™        | `spruces-of-north-america#spruce-forest-community-plate`              | Naturepedia Forest Community Plate™         | https://www.robbiegeorgephotography.com/spruces-of-north-america       |
+| Spruce Carbon Storage Plate™          | `spruces-of-north-america#spruce-carbon-storage-plate`                | Naturepedia Carbon Systems Plate™           | https://www.robbiegeorgephotography.com/spruces-of-north-america       |
+| Spruce Climate Resilience Plate™      | `spruces-of-north-america#spruce-climate-resilience-plate`            | Naturepedia Climate Resilience Plate™       | https://www.robbiegeorgephotography.com/spruces-of-north-america       |
+| Fir Systems Plate™                    | `firs-of-north-america#fir-systems-plate`                             | Naturepedia Tree Family Plate™              | https://www.robbiegeorgephotography.com/firs-of-north-america          |
+| Fir Identification Plate™             | `firs-of-north-america#fir-identification-plate`                      | Naturepedia Tree Identification Plate™      | https://www.robbiegeorgephotography.com/firs-of-north-america          |
+| Fir Needle Plate™                     | `firs-of-north-america#fir-needle-plate`                              | Naturepedia Tree Identification Plate™      | https://www.robbiegeorgephotography.com/firs-of-north-america          |
+| Fir Cone Plate™                       | `firs-of-north-america#fir-cone-plate`                                | Naturepedia Tree Identification Plate™      | https://www.robbiegeorgephotography.com/firs-of-north-america          |
+| Fir Bark Plate™                       | `firs-of-north-america#fir-bark-plate`                                | Naturepedia Bark Identification Plate™      | https://www.robbiegeorgephotography.com/firs-of-north-america          |
+| Balsam Fir Plate™                     | `firs-of-north-america#balsam-fir-plate`                              | Naturepedia Species Plate™                  | https://www.robbiegeorgephotography.com/firs-of-north-america          |
+| Fraser Fir Plate™                     | `firs-of-north-america#fraser-fir-plate`                              | Naturepedia Species Plate™                  | https://www.robbiegeorgephotography.com/firs-of-north-america          |
+| Noble Fir Plate™                      | `firs-of-north-america#noble-fir-plate`                               | Naturepedia Species Plate™                  | https://www.robbiegeorgephotography.com/firs-of-north-america          |
+| Subalpine Fir Plate™                  | `firs-of-north-america#subalpine-fir-plate`                           | Naturepedia Species Plate™                  | https://www.robbiegeorgephotography.com/firs-of-north-america          |
+| Grand Fir Plate™                      | `firs-of-north-america#grand-fir-plate`                               | Naturepedia Species Plate™                  | https://www.robbiegeorgephotography.com/firs-of-north-america          |
+| Fir Mountain Forest Plate™            | `firs-of-north-america#fir-mountain-forest-plate`                     | Naturepedia Mountain Forest Plate™          | https://www.robbiegeorgephotography.com/firs-of-north-america          |
+| Fir Wildlife Relationships Plate™     | `firs-of-north-america#fir-wildlife-relationships-plate`              | Naturepedia Wildlife Relationship Plate™    | https://www.robbiegeorgephotography.com/firs-of-north-america          |
+| Fir Snowpack Ecology Plate™           | `firs-of-north-america#fir-snowpack-ecology-plate`                    | Naturepedia Water & Snowpack Systems Plate™ | https://www.robbiegeorgephotography.com/firs-of-north-america          |
+| Fir Forest Community Plate™           | `firs-of-north-america#fir-forest-community-plate`                    | Naturepedia Forest Community Plate™         | https://www.robbiegeorgephotography.com/firs-of-north-america          |
+| Fir Carbon Storage Plate™             | `firs-of-north-america#fir-carbon-storage-plate`                      | Naturepedia Carbon Systems Plate™           | https://www.robbiegeorgephotography.com/firs-of-north-america          |
+| Fir Climate Resilience Plate™         | `firs-of-north-america#fir-climate-resilience-plate`                  | Naturepedia Climate Resilience Plate™       | https://www.robbiegeorgephotography.com/firs-of-north-america          |
+| Cedar Systems Plate™                  | `cedars-of-north-america#cedar-systems-plate`                         | Naturepedia Tree Family Systems Plate™      | https://www.robbiegeorgephotography.com/cedars-of-north-america        |
+| Cedar Identification Plate™           | `cedars-of-north-america#cedar-identification-plate`                  | Naturepedia Tree Identification Plate™      | https://www.robbiegeorgephotography.com/cedars-of-north-america        |
+| Cedar Leaf Plate™                     | `cedars-of-north-america#cedar-leaf-plate`                            | Naturepedia Tree Identification Plate™      | https://www.robbiegeorgephotography.com/cedars-of-north-america        |
+| Cedar Cone Plate™                     | `cedars-of-north-america#cedar-cone-plate`                            | Naturepedia Tree Identification Plate™      | https://www.robbiegeorgephotography.com/cedars-of-north-america        |
+| Cedar Bark Plate™                     | `cedars-of-north-america#cedar-bark-plate`                            | Naturepedia Tree Identification Plate™      | https://www.robbiegeorgephotography.com/cedars-of-north-america        |
+| Eastern Red Cedar Plate™              | `cedars-of-north-america#eastern-red-cedar-plate`                     | Naturepedia Tree Species Plate™             | https://www.robbiegeorgephotography.com/cedars-of-north-america        |
+| Northern White Cedar Plate™           | `cedars-of-north-america#northern-white-cedar-plate`                  | Naturepedia Tree Species Plate™             | https://www.robbiegeorgephotography.com/cedars-of-north-america        |
+| Western Red Cedar Plate™              | `cedars-of-north-america#western-red-cedar-plate`                     | Naturepedia Tree Species Plate™             | https://www.robbiegeorgephotography.com/cedars-of-north-america        |
+| Incense Cedar Plate™                  | `cedars-of-north-america#incense-cedar-plate`                         | Naturepedia Tree Species Plate™             | https://www.robbiegeorgephotography.com/cedars-of-north-america        |
+| Cedar Swamp Forest Plate™             | `cedars-of-north-america#cedar-swamp-forest-plate`                    | Naturepedia Forest Ecology Plate™           | https://www.robbiegeorgephotography.com/cedars-of-north-america        |
+| Cedar Wildlife Relationships Plate™   | `cedars-of-north-america#cedar-wildlife-relationships-plate`          | Naturepedia Wildlife Relationships Plate™   | https://www.robbiegeorgephotography.com/cedars-of-north-america        |
+| Cedar Forest Community Plate™         | `cedars-of-north-america#cedar-forest-community-plate`                | Naturepedia Forest Community Plate™         | https://www.robbiegeorgephotography.com/cedars-of-north-america        |
+| Cedar Carbon Storage Plate™           | `cedars-of-north-america#cedar-carbon-storage-plate`                  | Naturepedia Carbon Systems Plate™           | https://www.robbiegeorgephotography.com/cedars-of-north-america        |
+| Cedar Climate Resilience Plate™       | `cedars-of-north-america#cedar-climate-resilience-plate`              | Naturepedia Climate Resilience Plate™       | https://www.robbiegeorgephotography.com/cedars-of-north-america        |
+| Cypress Systems Plate™                | `cypress-trees-of-north-america#cypress-systems-plate`                | Naturepedia Tree Family Plate™              | https://www.robbiegeorgephotography.com/cypress-trees-of-north-america |
+| Cypress Identification Plate™         | `cypress-trees-of-north-america#cypress-identification-plate`         | Naturepedia Tree Identification Plate™      | https://www.robbiegeorgephotography.com/cypress-trees-of-north-america |
+| Cypress Leaf Plate™                   | `cypress-trees-of-north-america#cypress-leaf-plate`                   | Naturepedia Tree Identification Plate™      | https://www.robbiegeorgephotography.com/cypress-trees-of-north-america |
+| Cypress Cone Plate™                   | `cypress-trees-of-north-america#cypress-cone-plate`                   | Naturepedia Tree Identification Plate™      | https://www.robbiegeorgephotography.com/cypress-trees-of-north-america |
+| Cypress Bark & Knee Plate™            | `cypress-trees-of-north-america#cypress-bark-knee-plate`              | Naturepedia Bark & Root Adaptation Plate™   | https://www.robbiegeorgephotography.com/cypress-trees-of-north-america |
+| Bald Cypress Plate™                   | `cypress-trees-of-north-america#bald-cypress-plate`                   | Naturepedia Species Plate™                  | https://www.robbiegeorgephotography.com/cypress-trees-of-north-america |
+| Pond Cypress Plate™                   | `cypress-trees-of-north-america#pond-cypress-plate`                   | Naturepedia Species Plate™                  | https://www.robbiegeorgephotography.com/cypress-trees-of-north-america |
+| Monterey Cypress Plate™               | `cypress-trees-of-north-america#monterey-cypress-plate`               | Naturepedia Species Plate™                  | https://www.robbiegeorgephotography.com/cypress-trees-of-north-america |
+| Arizona Cypress Plate™                | `cypress-trees-of-north-america#arizona-cypress-plate`                | Naturepedia Species Plate™                  | https://www.robbiegeorgephotography.com/cypress-trees-of-north-america |
+| Atlantic White Cedar Plate™           | `cypress-trees-of-north-america#atlantic-white-cedar-plate`           | Naturepedia Species Plate™                  | https://www.robbiegeorgephotography.com/cypress-trees-of-north-america |
+| Cypress Swamp Forest Plate™           | `cypress-trees-of-north-america#cypress-swamp-forest-plate`           | Naturepedia Wetland Forest Plate™           | https://www.robbiegeorgephotography.com/cypress-trees-of-north-america |
+| Cypress Wildlife Relationships Plate™ | `cypress-trees-of-north-america#cypress-wildlife-relationships-plate` | Naturepedia Wildlife Relationship Plate™    | https://www.robbiegeorgephotography.com/cypress-trees-of-north-america |
+| Cypress Water Storage Plate™          | `cypress-trees-of-north-america#cypress-water-storage-plate`          | Naturepedia Water Systems Plate™            | https://www.robbiegeorgephotography.com/cypress-trees-of-north-america |
+| Cypress Forest Community Plate™       | `cypress-trees-of-north-america#cypress-forest-community-plate`       | Naturepedia Forest Community Plate™         | https://www.robbiegeorgephotography.com/cypress-trees-of-north-america |
+| Cypress Carbon Storage Plate™         | `cypress-trees-of-north-america#cypress-carbon-storage-plate`         | Naturepedia Carbon Systems Plate™           | https://www.robbiegeorgephotography.com/cypress-trees-of-north-america |
+| Cypress Climate Resilience Plate™     | `cypress-trees-of-north-america#cypress-climate-resilience-plate`     | Naturepedia Climate Resilience Plate™       | https://www.robbiegeorgephotography.com/cypress-trees-of-north-america |
+| Willow Systems Plate™                 | `willows-of-north-america#willow-systems-plate`                       | Naturepedia Tree Family Systems Plate™      | https://www.robbiegeorgephotography.com/willows-of-north-america       |
+| Willow Identification Plate™          | `willows-of-north-america#willow-identification-plate`                | Naturepedia Tree Identification Plate™      | https://www.robbiegeorgephotography.com/willows-of-north-america       |
+| Willow Leaf Plate™                    | `willows-of-north-america#willow-leaf-plate`                          | Naturepedia Leaf Identification Plate™      | https://www.robbiegeorgephotography.com/willows-of-north-america       |
+| Willow Catkin Plate™                  | `willows-of-north-america#willow-catkin-plate`                        | Naturepedia Reproductive Structures Plate™  | https://www.robbiegeorgephotography.com/willows-of-north-america       |
+| Willow Bark Plate™                    | `willows-of-north-america#willow-bark-plate`                          | Naturepedia Bark Identification Plate™      | https://www.robbiegeorgephotography.com/willows-of-north-america       |
+| Black Willow Plate™                   | `willows-of-north-america#black-willow-plate`                         | Naturepedia Species Profile Plate™          | https://www.robbiegeorgephotography.com/willows-of-north-america       |
+| Bebb Willow Plate™                    | `willows-of-north-america#bebb-willow-plate`                          | Naturepedia Species Profile Plate™          | https://www.robbiegeorgephotography.com/willows-of-north-america       |
+| Scouler Willow Plate™                 | `willows-of-north-america#scouler-willow-plate`                       | Naturepedia Species Profile Plate™          | https://www.robbiegeorgephotography.com/willows-of-north-america       |
+| Peachleaf Willow Plate™               | `willows-of-north-america#peachleaf-willow-plate`                     | Naturepedia Species Profile Plate™          | https://www.robbiegeorgephotography.com/willows-of-north-america       |
+| Willow Riparian Systems Plate™        | `willows-of-north-america#willow-riparian-systems-plate`              | Naturepedia Riparian Ecology Plate™         | https://www.robbiegeorgephotography.com/willows-of-north-america       |
+| Willow Wildlife Relationships Plate™  | `willows-of-north-america#willow-wildlife-relationships-plate`        | Naturepedia Wildlife Relationships Plate™   | https://www.robbiegeorgephotography.com/willows-of-north-america       |
+| Willow Beaver Relationships Plate™    | `willows-of-north-america#willow-beaver-relationships-plate`          | Naturepedia Ecological Relationships Plate™ | https://www.robbiegeorgephotography.com/willows-of-north-america       |
+| Willow Ecological Restoration Plate™  | `willows-of-north-america#willow-ecological-restoration-plate`        | Naturepedia Ecological Restoration Plate™   | https://www.robbiegeorgephotography.com/willows-of-north-america       |
+| Willow Biodiversity Plate™            | `willows-of-north-america#willow-biodiversity-plate`                  | Naturepedia Biodiversity Plate™             | https://www.robbiegeorgephotography.com/willows-of-north-america       |
+
+---
+
 ## Plant Community & Native Habitat Plates™
 
 | Plate™ | Semantic ID | Type | Live URL |
@@ -371,6 +466,117 @@ docs/examples/json-ld/plate-registry.json
 | Machias Seal Island Field Location Plate™ | `machias-seal-island#location-plate` | Field Location Plate | https://www.robbiegeorgephotography.com/machias-seal-island-gulf-of-maine |
 
 ---
+
+## Extended Photography Guide Plates™
+
+### Grand Teton Wildlife Guide
+
+| Plate™                               | Semantic ID                                          | Type                                 |
+| ------------------------------------ | ---------------------------------------------------- | ------------------------------------ |
+| Grand Teton Photography Guide Plate™ | `grand-teton-wildlife-guide#photography-guide-plate` | Naturepedia Photography Guide Plate™ |
+
+Guide URL:
+
+https://www.robbiegeorgephotography.com/grand-teton-wildlife-guide
+
+---
+
+### Yellowstone Wildlife Guide
+
+| Plate™                               | Semantic ID                                          | Type                                 |
+| ------------------------------------ | ---------------------------------------------------- | ------------------------------------ |
+| Yellowstone Photography Guide Plate™ | `yellowstone-wildlife-guide#photography-guide-plate` | Naturepedia Photography Guide Plate™ |
+
+Guide URL:
+
+https://www.robbiegeorgephotography.com/yellowstone-wildlife-guide
+
+---
+
+### Blackwater Wildlife Guide
+
+| Plate™                              | Semantic ID                                         | Type                                 |
+| ----------------------------------- | --------------------------------------------------- | ------------------------------------ |
+| Blackwater Photography Guide Plate™ | `blackwater-wildlife-guide#photography-guide-plate` | Naturepedia Photography Guide Plate™ |
+
+Guide URL:
+
+https://www.robbiegeorgephotography.com/blackwater-wildlife-guide
+
+---
+
+### Chincoteague Wildlife Guide
+
+Guide URL:
+
+https://www.robbiegeorgephotography.com/chincoteague-wildlife-guide
+
+| Plate™                                         | Semantic ID                                                    | Type                                       |
+| ---------------------------------------------- | -------------------------------------------------------------- | ------------------------------------------ |
+| Chincoteague Photography Guide Plate™          | `chincoteague-wildlife-guide#photography-guide-plate`          | Naturepedia Photography Guide Plate™       |
+| Barrier Island Photography Plate™              | `chincoteague-wildlife-guide#barrier-island-photography-plate` | Naturepedia Coastal Photography Plate™     |
+| Wild Horse Photography Plate™                  | `chincoteague-wildlife-guide#wild-horse-photography-plate`     | Naturepedia Wildlife Photography Plate™    |
+| Coastal Light & Atmospheric Photography Plate™ | `chincoteague-wildlife-guide#coastal-light-atmosphere-plate`   | Naturepedia Atmospheric Photography Plate™ |
+
+---
+
+### Mattamuskeet Wildlife Guide
+
+Guide URL:
+
+https://www.robbiegeorgephotography.com/mattamuskeet-wildlife-guide
+
+| Plate™                                | Semantic ID                                                | Type                                     |
+| ------------------------------------- | ---------------------------------------------------------- | ---------------------------------------- |
+| Mattamuskeet Photography Guide Plate™ | `mattamuskeet-wildlife-guide#photography-guide-plate`      | Naturepedia Photography Guide Plate™     |
+| Waterfowl Photography Plate™          | `mattamuskeet-wildlife-guide#waterfowl-photography-plate`  | Naturepedia Wildlife Photography Plate™  |
+| Lake Light Photography Plate™         | `mattamuskeet-wildlife-guide#lake-light-photography-plate` | Naturepedia Landscape Photography Plate™ |
+| Migration Photography Plate™          | `mattamuskeet-wildlife-guide#migration-photography-plate`  | Naturepedia Migration Photography Plate™ |
+
+---
+
+### Machias Seal Island Wildlife Guide
+
+Guide URL:
+
+https://www.robbiegeorgephotography.com/machias-seal-island-wildlife-guide
+
+| Plate™                             | Semantic ID                                                            | Type                                          |
+| ---------------------------------- | ---------------------------------------------------------------------- | --------------------------------------------- |
+| Machias Photography Guide Plate™   | `machias-seal-island-wildlife-guide#photography-guide-plate`           | Naturepedia Photography Guide Plate™          |
+| Atlantic Puffin Photography Plate™ | `machias-seal-island-wildlife-guide#atlantic-puffin-photography-plate` | Naturepedia Wildlife Photography Plate™       |
+| Seabird Colony Photography Plate™  | `machias-seal-island-wildlife-guide#seabird-colony-photography-plate`  | Naturepedia Colony Photography Plate™         |
+| Island Wildlife Photography Plate™ | `machias-seal-island-wildlife-guide#island-wildlife-photography-plate` | Naturepedia Environmental Storytelling Plate™ |
+
+---
+
+### Aransas Wildlife Guide
+
+Guide URL:
+
+https://www.robbiegeorgephotography.com/aransas-wildlife-guide
+
+| Plate™                            | Semantic ID                                               | Type                                   |
+| --------------------------------- | --------------------------------------------------------- | -------------------------------------- |
+| Aransas Photography Guide Plate™  | `aransas-wildlife-guide#photography-guide-plate`          | Naturepedia Photography Guide Plate™   |
+| Whooping Crane Photography Plate™ | `aransas-wildlife-guide#whooping-crane-photography-plate` | Naturepedia Species Photography Plate™ |
+| Coastal Marsh Photography Plate™  | `aransas-wildlife-guide#coastal-marsh-photography-plate`  | Naturepedia Coastal Photography Plate™ |
+| Wintering Bird Photography Plate™ | `aransas-wildlife-guide#wintering-bird-photography-plate` | Naturepedia Bird Photography Plate™    |
+
+---
+
+### Bosque del Apache Wildlife Guide
+
+Guide URL:
+
+https://www.robbiegeorgephotography.com/bosque-del-apache-wildlife-guide
+
+| Plate™                               | Semantic ID                                                            | Type                                          |
+| ------------------------------------ | ---------------------------------------------------------------------- | --------------------------------------------- |
+| Bosque Photography Guide Plate™      | `bosque-del-apache-wildlife-guide#photography-guide-plate`             | Naturepedia Photography Guide Plate™          |
+| Waterfowl Flight Photography Plate™  | `bosque-del-apache-wildlife-guide#waterfowl-flight-photography-plate`  | Naturepedia Bird Flight Photography Plate™    |
+| Sunrise Blast-Off Photography Plate™ | `bosque-del-apache-wildlife-guide#sunrise-blast-off-photography-plate` | Naturepedia Wildlife Event Photography Plate™ |
+| Migration Photography Plate™         | `bosque-del-apache-wildlife-guide#migration-photography-plate`         | Naturepedia Migration Photography Plate™      |
 
 ## Pollinator System Plates™
 
