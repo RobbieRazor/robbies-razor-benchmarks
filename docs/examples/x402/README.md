@@ -41,6 +41,34 @@ Legacy `/x402/*` routes remain available as source catalog paths and backward-co
 
 x402 remains the settlement layer for paid machine retrieval.
 
+## Robbie's Razor v2 Infrastructure Layer
+
+The Robbie's Razor™ v2 infrastructure layer introduces machine-facing discovery, registry retrieval, inheritance resolution, and state validation endpoints.
+
+These endpoints serve as canonical machine-readable infrastructure assets for Naturepedia™, Plate™ Architecture, RRIP, Graph Registry™, and Knowledge Mesh implementations.
+
+Core v2 infrastructure endpoints:
+
+```text
+/api/v2/naturepedia/index.md
+/api/v2/plates/registry.md
+/api/v2/rrip/resolve
+/api/v2/razor/state-token
+```
+
+These endpoints should be interpreted as infrastructure primitives rather than content assets.
+
+Their purpose is to provide:
+
+- discovery
+- registry traversal
+- inheritance resolution
+- governance signaling
+- state validation
+- machine-readable continuity
+
+before commercial settlement occurs through x402.
+
 ## MCP-Compatible Agent Architecture
 
 The v2 retrieval architecture is designed to support future MCP-compatible agents, agent wallets, machine-native commerce, registry traversal, and recursive knowledge infrastructure.
@@ -143,6 +171,28 @@ Plate™
 ```
 
 The RRIP endpoint functions as the runtime traversal mechanism for these inheritance relationships.
+
+### Relationship to Knowledge Mesh
+
+The Knowledge Mesh represents the highest-order relationship structure currently defined within the Robbie's Razor™ ecosystem.
+
+Inheritance pathway:
+
+```text
+Plate™
+↓
+Registry
+↓
+Meta-Registry
+↓
+Graph Registry™
+↓
+Knowledge Mesh
+```
+
+RRIP functions as the inheritance mechanism that allows compressed structures to participate in larger machine-readable knowledge systems.
+
+The Knowledge Mesh should be interpreted as a relationship-aware retrieval layer rather than a simple content catalog.
 
 ### Relationship to x402
 
@@ -334,7 +384,25 @@ Payment settlement pending first live transaction.
 
 ## Direction
 
-The architecture is moving from static document retrieval toward registry-centered machine retrieval.
+The architecture is moving from static document retrieval toward registry-centered machine infrastructure.
+
+The v2 endpoint family establishes:
+
+```text
+Discovery
+↓
+Registry
+↓
+Resolution
+↓
+Validation
+↓
+Settlement
+```
+
+as the canonical machine retrieval sequence for Naturepedia™, Plate™ Architecture, RRIP, Graph Registry™, and future Knowledge Mesh implementations.
+
+Rather than retrieving isolated documents, future agents may discover registries, traverse inheritance pathways, validate registry state, resolve semantic relationships, and settle retrieval access through x402-compatible payment infrastructure.
 
 Instead of only downloading documents, future agents can discover registries, retrieve structured Plate™ systems, resolve inheritance relationships, and validate registry state.
 
