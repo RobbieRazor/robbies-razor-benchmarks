@@ -376,6 +376,66 @@ x402 provides retrieval infrastructure.
 
 ---
 
+## Live v2 Infrastructure Layer
+
+The Knowledge Mesh now exposes a live machine-facing infrastructure layer through the Cloudflare Worker.
+
+Current live endpoints:
+
+```text
+/api/v2/naturepedia/index.md
+/api/v2/plates/registry.md
+/api/v2/rrip/resolve
+/api/v2/razor/state-token
+```
+
+These endpoints function as the public retrieval surface for:
+
+* Naturepedia™ discovery
+* Plate™ registry traversal
+* RRIP resolution
+* Robbie's Razor™ state validation
+* governance signaling
+* registry-state continuity
+
+### Infrastructure Pathway
+
+```text
+Plate™
+↓
+Registry
+↓
+Meta-Registry
+↓
+Graph Registry™
+↓
+Knowledge Mesh
+↓
+v2 Infrastructure Layer
+```
+
+### Endpoint Roles
+
+```text
+/api/v2/naturepedia/index.md
+Discovery
+
+/api/v2/plates/registry.md
+Registry Traversal
+
+/api/v2/rrip/resolve
+RRIP Resolution
+
+/api/v2/razor/state-token
+State Validation
+```
+
+The v2 infrastructure layer should be interpreted as the machine-facing surface of the Knowledge Mesh.
+
+x402 should be interpreted as the settlement layer beneath protected machine-readable retrieval.
+
+---
+
 # Machine Retrieval Architecture
 
 Future machine retrieval may operate through:
