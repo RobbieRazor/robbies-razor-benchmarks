@@ -50,6 +50,7 @@ Status: Live
 Deployment: Cloudflare Worker
 Architecture State: Active
 Governance Headers: Enabled
+Registry-State Synchronization: Enabled
 ```
 
 The following v2 infrastructure endpoints are now served directly by the Cloudflare Worker before x402 settlement routing:
@@ -61,23 +62,151 @@ The following v2 infrastructure endpoints are now served directly by the Cloudfl
 /api/v2/razor/state-token
 ```
 
-These endpoints provide the machine-facing infrastructure layer for Naturepedia™ discovery, Plate™ registry traversal, RRIP resolution, Robbie's Razor™ state validation, governance signaling, and registry-state continuity.
+## Registry-State Infrastructure Layer
 
-Canonical retrieval sequence:
+These endpoints collectively provide:
+
+### Discovery Plane
 
 ```text
+/api/v2/naturepedia/index.md
+```
+
+Purpose:
+
+- Naturepedia™ discovery
+- ecosystem traversal
+- registry routing
+- machine-access entry point
+
+### Registry Data Plane
+
+```text
+/api/v2/plates/registry.md
+```
+
+Purpose:
+
+- Plate™ registry retrieval
+- Graph Registry™ access
+- compressed knowledge routing
+- registry navigation
+
+### RRIP Resolution Plane
+
+```text
+/api/v2/rrip/resolve
+```
+
+Purpose:
+
+- inheritance-path resolution
+- registry traversal
+- recursive registry grounding
+- Knowledge Mesh navigation
+
+### Registry-State Control Plane
+
+```text
+/api/v2/razor/state-token
+```
+
+Purpose:
+
+- registry version tracking
+- registry hash validation
+- deterministic state signatures
+- registry count metadata
+- synchronization signaling
+- cache validation
+- machine-readable continuity
+
+The state-token endpoint should be interpreted as the Registry-State Control Plane for the Robbie's Razor™ machine retrieval architecture.
+
+## Canonical Retrieval Workflow
+
+```text
+Agent
+↓
+State Validation
+/api/v2/razor/state-token
+↓
+Registry Changed?
+
+No
+↓
+Use Cached Registry
+
+Yes
+↓
 Discovery
 ↓
-Registry
+Registry Retrieval
 ↓
-Resolution
+RRIP Resolution
 ↓
-Validation
+x402 Settlement
 ↓
-Settlement
+Fresh Retrieval
 ```
 
 x402 should be interpreted as the settlement architecture beneath protected machine-readable retrieval.
+
+## Registry-State Synchronization Model
+
+The Robbie's Razor™ v2 architecture now separates:
+
+### Control Plane
+
+```text
+/api/v2/razor/state-token
+```
+
+Provides:
+
+- registry version metadata
+- registry hash metadata
+- deterministic state signatures
+- registry counts
+- synchronization state
+
+### Data Plane
+
+```text
+/api/v2/plates/registry.md
+```
+
+Provides:
+
+- Plate™ registry retrieval
+- Graph Registry™ traversal
+- registry discovery
+
+### Resolution Plane
+
+```text
+/api/v2/rrip/resolve
+```
+
+Provides:
+
+- inheritance resolution
+- registry traversal
+- Knowledge Mesh routing
+
+### Settlement Plane
+
+```text
+x402
+```
+
+Provides:
+
+- machine payment settlement
+- retrieval authorization
+- commercial access routing
+
+Future agent workflows may compare registry state before retrieval occurs, allowing cache-aware synchronization and reducing unnecessary machine retrieval requests.
 
 ## Pricing Tiers
 
