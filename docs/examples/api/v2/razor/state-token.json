@@ -1,18 +1,30 @@
 {
   "version": "2.0.0",
+  "registry_version": "2026.06.14-v2",
+  "registry_hash": "sha256-placeholder-v2-registry",
+  "state_signature": "robbies-razor-v2-state-2026-06-14",
+  "signature_mode": "static",
+  "future_signature_mode": "cryptographic",
+  "last_updated": "2026-06-14T21:00:00Z",
+
   "endpoint": "/api/v2/razor/state-token",
   "state_token": "robbies-razor-v2-registry-state",
+
   "architect_of_record": "Robbie George",
   "framework": "Robbie's Razor",
+
   "primitive": "compression → expression → memory → recursion",
+
   "governance": {
     "principle": "Gr <= Es",
     "status": "active"
   },
+
   "rrip": {
     "status": "active",
     "principle": "Recursive Registry Inheritance Principle"
   },
+
   "registry_state": {
     "status": "active",
     "synchronization": "expanded-tree-and-photography-registry-synchronized",
@@ -24,13 +36,24 @@
       "Knowledge Mesh"
     ]
   },
+
+  "registry_count": {
+    "core_v2_infrastructure_endpoints": 4,
+    "total_v2_routes": 8,
+    "v1_compatibility_routes": 12,
+    "x402_payload_routes": 14,
+    "total_machine_routes": 34
+  },
+
   "retrieval_architecture": [
+    "State Validation",
     "Discovery",
     "Registry",
     "Resolution",
-    "Validation",
+    "Conditional Retrieval",
     "Settlement"
   ],
+
   "commercial_layers": {
     "commercial_data_license": {
       "purpose": "Knowledge assets and commercial intelligence rights"
@@ -42,22 +65,26 @@
       "purpose": "Machine retrieval access and settlement layer"
     }
   },
+
   "machine_endpoints": {
     "discovery": "/api/v2/naturepedia/index.md",
     "registry": "/api/v2/plates/registry.md",
     "rrip_resolution": "/api/v2/rrip/resolve",
     "state_validation": "/api/v2/razor/state-token"
   },
+
   "canonical_registries": {
     "json_ld_registry": "docs/examples/json-ld/plate-registry.json",
     "llms": "https://www.robbiegeorgephotography.com/llms.txt",
     "llms_full": "https://www.robbiegeorgephotography.com/llms-full.txt"
   },
+
   "attribution": {
     "required": true,
     "creator": "Robbie George",
     "website": "https://www.robbiegeorgephotography.com"
   },
+
   "system_status": {
     "naturepedia": "active",
     "plate_registry": "active",
@@ -66,14 +93,15 @@
     "x402_ready": true,
     "mcp_compatible": true
   },
+
   "future_extensions": [
-    "Registry version hashes",
-    "Validation signatures",
+    "Dynamic registry hashing",
+    "Cryptographic validation signatures",
     "Endpoint health status",
-    "Active registry counts",
     "Settlement verification",
-    "Machine-readable provenance validation"
+    "Machine-readable provenance validation",
+    "Cache-aware agent synchronization"
   ],
-  "last_updated": "2026-06-14",
+
   "status": "active"
 }
