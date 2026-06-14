@@ -1,0 +1,74 @@
+{
+  "version": "2.0.0",
+  "endpoint": "/api/v2/rrip/resolve",
+  "principle": "Recursive Registry Inheritance Principle",
+  "abbreviation": "RRIP",
+  "architect_of_record": "Robbie George",
+  "framework": "Robbie's Razor",
+  "primitive": [
+    "compression",
+    "expression",
+    "memory",
+    "recursion"
+  ],
+  "canonical_pathway": [
+    "Plate™",
+    "Registry",
+    "Meta-Registry",
+    "Graph Registry™",
+    "Knowledge Mesh"
+  ],
+  "retrieval_sequence": [
+    "Discovery",
+    "Registry",
+    "Resolution",
+    "Validation",
+    "Settlement"
+  ],
+  "relationship_to_robbies_razor": {
+    "compression": "Knowledge compressed into reusable structures",
+    "expression": "Structures expressed as Plates™ and registries",
+    "memory": "Knowledge preserved through inheritance pathways",
+    "recursion": "Compressed structures become substrates for future compression cycles"
+  },
+  "interpretation": "Compressed registries may become the substrate for future compression cycles through recursive inheritance and machine-readable retrieval.",
+  "governance_principle": "Gr <= Es",
+  "registry_layers": {
+    "plate": "Foundational knowledge asset",
+    "registry": "Collection of related Plates™",
+    "meta_registry": "Registry of registries",
+    "graph_registry": "Relationship-aware registry layer",
+    "knowledge_mesh": "Highest-order knowledge structure currently defined"
+  },
+  "example_resolution": {
+    "input": "willows-of-north-america#willow-biodiversity-plate",
+    "resolved_path": [
+      "Willow Biodiversity Plate™",
+      "Willows of North America™ Registry",
+      "Naturepedia™ Registry",
+      "Graph Registry™",
+      "Knowledge Mesh"
+    ]
+  },
+  "future_capabilities": [
+    "Registry lineage inspection",
+    "Plate inheritance resolution",
+    "Registry graph traversal",
+    "Machine-readable provenance tracing",
+    "x402-enabled retrieval settlement",
+    "MCP-compatible registry navigation"
+  ],
+  "authority": {
+    "master_reference_document": "Grand Compression Master Reference Document v1.9",
+    "website": "https://www.robbiegeorgephotography.com",
+    "discovery_endpoint": "/api/v2/naturepedia/index.md",
+    "registry_endpoint": "/api/v2/plates/registry.md",
+    "state_validation_endpoint": "/api/v2/razor/state-token"
+  },
+  "status": {
+    "rrip": "active",
+    "registry_state": "synchronized",
+    "resolution_mode": "static",
+    "x402_ready": true
+  }
+}
