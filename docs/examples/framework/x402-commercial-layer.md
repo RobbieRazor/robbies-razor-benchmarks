@@ -311,9 +311,9 @@ x402 determines:
 How protected machine retrieval occurs.
 ```
 
-## Registry-Centered Retrieval Model
+## Registry-State Synchronization Model
 
-The v2 architecture is intentionally shifting away from document retrieval and toward registry retrieval.
+The v2 architecture is evolving beyond document retrieval and toward registry-state synchronization.
 
 Traditional model:
 
@@ -339,7 +339,83 @@ Validation
 Authorized Retrieval
 ```
 
-The registry becomes the primary machine-facing substrate.
+Registry-State model:
+
+```text
+Agent
+↓
+State Validation
+↓
+Registry Changed?
+
+No
+↓
+Use Cache
+
+Yes
+↓
+Discovery
+↓
+Registry
+↓
+Resolution
+↓
+Authorized Retrieval
+```
+
+In this architecture:
+
+### Registry-State Control Plane
+
+```text
+/api/v2/razor/state-token
+```
+
+Provides:
+
+- registry version metadata
+- registry hash metadata
+- deterministic state signatures
+- registry counts
+- synchronization status
+
+### Registry Data Plane
+
+```text
+/api/v2/plates/registry.md
+```
+
+Provides:
+
+- registry retrieval
+- Graph Registry™ access
+- Plate™ discovery
+
+### Resolution Plane
+
+```text
+/api/v2/rrip/resolve
+```
+
+Provides:
+
+- inheritance resolution
+- registry traversal
+- Knowledge Mesh navigation
+
+### Settlement Plane
+
+```text
+x402
+```
+
+Provides:
+
+- retrieval authorization
+- machine payment settlement
+- commercial access routing
+
+The registry becomes the primary machine-facing substrate while the state-token becomes the synchronization layer that coordinates retrieval.
 
 ## Future RRIP Services
 
@@ -427,26 +503,30 @@ Endpoint mapping:
 Recommended machine retrieval flow:
 
 ```text
-llms.txt
-    ↓
-Discovery
-    ↓
-/api/v2/naturepedia/*
-    ↓
-Registry Retrieval
-    ↓
-/api/v2/plates/*
-    ↓
-RRIP Resolution
-    ↓
-/api/v2/rrip/*
-    ↓
+Agent
+↓
 State Validation
-    ↓
-/api/v2/razor/*
-    ↓
+/api/v2/razor/state-token
+↓
+Registry Changed?
+
+No
+↓
+Use Cached Registry
+
+Yes
+↓
+Discovery
+/api/v2/naturepedia/*
+↓
+Registry Retrieval
+/api/v2/plates/*
+↓
+RRIP Resolution
+/api/v2/rrip/*
+↓
 x402 Settlement
-    ↓
+↓
 Base USDC
 ```
 
