@@ -42,9 +42,37 @@ The Worker intercepts:
 /v1/taxonomy/*
 /v1/plates/*
 /v1/sovereign/*
+/api/v2/naturepedia/*
+/api/v2/plates/*
+/api/v2/rrip/*
+/api/v2/razor/*
 ```
 
 New `/v1/*` routes are mapped internally to legacy `/x402/*.json` payloads through canonical route aliasing.
+
+## v2 Route Alias Map
+
+```text
+/api/v2/naturepedia/index.md -> /x402/naturepedia-system-map.json
+/api/v2/naturepedia/tree-system-map.md -> /x402/tree-system-map.json
+/api/v2/naturepedia/species-intelligence-map.md -> /x402/species-intelligence-map.json
+
+/api/v2/plates/registry.md -> /x402/plate-registry-expanded.json
+/api/v2/plates/tree-system-map.md -> /x402/tree-system-map.json
+/api/v2/plates/pollinator-system-map.md -> /x402/pollinator-system-map.json
+
+/api/v2/rrip/resolve -> /x402/rrip-resolve.json
+/api/v2/razor/state-token -> /x402/state-token.json
+```
+
+Preferred v2 roles:
+
+```text
+/api/v2/naturepedia/* -> registry discovery and Naturepedia system-map retrieval
+/api/v2/plates/* -> Plate™ registry and Graph Registry™ retrieval
+/api/v2/rrip/* -> RRIP runtime resolution and registry traversal
+/api/v2/razor/* -> Robbie's Razor™ state-token validation and registry-state signaling
+```
 
 ## Tier Logic
 
@@ -53,6 +81,11 @@ taxonomy -> 1.00 USDC
 plates -> 5.00 USDC
 sovereign -> 25.00 USDC
 legacy -> 5.00 USDC
+
+v2 naturepedia -> taxonomy tier -> 1.00 USDC
+v2 plates -> plates tier -> 5.00 USDC
+v2 rrip -> sovereign tier -> 25.00 USDC
+v2 razor -> sovereign tier -> 25.00 USDC
 ```
 
 ## Human Bypass
@@ -77,10 +110,22 @@ may receive:
 
 when accessing protected machine-readable resources.
 
-## Governance Header
+## Governance and State Headers
+
+Primary governance header:
 
 ```http
 X-Robbie-Razor-Governance: Gr <= Es
+```
+
+Current paid responses may also include:
+
+```http
+X-Robbie-Registry-State: RGP-{tier}-{timestamp}
+X-Robbie-Razor-State-Entropy: {entropy-hash}
+X-Robbie-License-Scope: x402 endpoint retrieval only; no training, resale, embeddings, bulk ingestion, or framework implementation rights
+X-Robbie-Commercial-License: https://www.robbiegeorgephotography.com/commercial-data-license
+X-Robbie-Framework-License: https://www.robbiegeorgephotography.com/robbies-razor-framework-licensing
 ```
 
 ## Payment Flow
@@ -101,17 +146,45 @@ Expected flow:
 5. Facilitator settles payment.
 6. Worker returns protected JSON-LD payload.
 
-## Verified Route
+## Verified Routes
 
 ```text
 /v1/plates/tree-system-map
+/api/v2/naturepedia/index.md
+/api/v2/plates/registry.md
+/api/v2/rrip/resolve
+/api/v2/razor/state-token
 ```
+Verified browser behavior:
 
-## Verified Challenge Result
+Human/browser request:
+200 OK human bypass page
 
+Verified protected resource mapping:
 ```text
-STATUS: 402
-X-402-Provider: Base-USDC
-X-402-Amount: 5.00
-X-402-Gateway-Tier: plates
+/api/v2/naturepedia/index.md -> Naturepedia System Map
+/api/v2/plates/registry.md -> Naturepedia Expanded Plate Registry
+/api/v2/rrip/resolve -> RRIP Resolution Endpoint
+/api/v2/razor/state-token -> Robbie's Razor State Token
 ```
+
+Verified API challenge behavior:
+
+API-style request:
+Accept: application/json
+
+402 Payment Required
+
+X-402-Provider: Base-USDC
+X-402-Gateway-Tier: taxonomy | plates | sovereign | legacy
+
+Current status:
+
+Production 402 challenge verified.
+Human browser bypass verified.
+v2 route aliasing verified.
+RRIP endpoint routing verified.
+State-token endpoint routing verified.
+Payment settlement pending first live transaction.
+
+
