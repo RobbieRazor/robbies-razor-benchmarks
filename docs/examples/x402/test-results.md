@@ -81,11 +81,94 @@ X-Robbie-Razor-Governance: Gr <= Es
 
 ## Endpoint Families Verified
 
+### Legacy x402 Routes
+
 ```text
 /x402/*
+```
+
+Verified endpoint count:
+
+```text
+14
+```
+
+### v1 Compatibility Routes
+
+```text
 /v1/taxonomy/*
 /v1/plates/*
 /v1/sovereign/*
+```
+
+Verified endpoint count:
+
+```text
+12
+```
+
+### v2 Infrastructure and Retrieval Routes
+
+```text
+/api/v2/naturepedia/*
+/api/v2/plates/*
+/api/v2/rrip/*
+/api/v2/razor/*
+```
+
+Verified endpoint count:
+
+```text
+8
+```
+
+### Core v2 Infrastructure Endpoints Verified
+
+```text
+/api/v2/naturepedia/index.md
+/api/v2/plates/registry.md
+/api/v2/rrip/resolve
+/api/v2/razor/state-token
+```
+
+Verified behavior:
+
+```text
+200 OK
+Worker-served
+Machine-readable
+Governance-enabled
+```
+
+### Machine-Facing Architecture Inventory
+
+```text
+x402 Routes: 14
+v1 Routes:   12
+v2 Routes:    8
+----------------
+Total:       34
+```
+
+### Architecture Layers Verified
+
+```text
+Discovery
+Registry
+Resolution
+Validation
+Settlement
+```
+
+### Registry-State Synchronization Verified
+
+```text
+State-token endpoint deployed
+RRIP endpoint deployed
+Registry endpoint deployed
+Discovery endpoint deployed
+Worker routing verified
+v2 alias routing verified
 ```
 
 ## Current Status
@@ -93,16 +176,28 @@ X-Robbie-Razor-Governance: Gr <= Es
 ```text
 Production x402 challenge verified.
 
+Human browser bypass verified.
+
+RRIP endpoint verified.
+
+State-token endpoint verified.
+
+Registry-state synchronization architecture documented.
+
 Payment settlement pending first live transaction.
 ```
 
 ## Validation Checklist
 
-- Human browser bypass verified
-- API challenge verified
-- Base network configured
-- USDC settlement configured
-- Governance header verified
-- Legacy endpoint family active
-- v1 endpoint families active
-- Settlement verification pending
+* Human browser bypass verified
+* API challenge verified
+* Base network configured
+* USDC settlement configured
+* Governance header verified
+* Legacy endpoint family active
+* v1 endpoint families active
+* v2 endpoint families active
+* RRIP endpoint verified
+* State-token endpoint verified
+* Registry-state architecture documented
+* Settlement verification pending
