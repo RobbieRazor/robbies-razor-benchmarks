@@ -50,6 +50,44 @@ The Worker intercepts:
 
 New `/v1/*` routes are mapped internally to legacy `/x402/*.json` payloads through canonical route aliasing.
 
+## v2 Static Core Infrastructure Endpoints
+
+The Worker now directly serves four core v2 infrastructure endpoints before x402 payment-gateway routing.
+
+```text
+/api/v2/naturepedia/index.md
+/api/v2/plates/registry.md
+/api/v2/rrip/resolve
+/api/v2/razor/state-token
+```
+
+These routes function as the public machine-facing infrastructure layer for:
+
+- Naturepedia™ discovery
+- Plate™ registry discovery
+- RRIP resolution
+- Robbie's Razor™ state validation
+- governance signaling
+- registry-state continuity
+
+These endpoints return `200 OK` directly from the Worker and include machine-readable governance headers.
+
+They establish the live v2 retrieval sequence:
+
+```text
+Discovery
+↓
+Registry
+↓
+Resolution
+↓
+Validation
+↓
+Settlement
+```
+
+x402 remains the settlement layer for protected machine-readable retrieval beyond the public static core endpoints.
+
 ## v2 Route Alias Map
 
 ```text
@@ -65,7 +103,7 @@ New `/v1/*` routes are mapped internally to legacy `/x402/*.json` payloads throu
 /api/v2/razor/state-token -> /x402/state-token.json
 ```
 
-Preferred v2 roles:
+Additional protected v2 route roles:
 
 ```text
 /api/v2/naturepedia/* -> registry discovery and Naturepedia system-map retrieval
@@ -155,20 +193,22 @@ Expected flow:
 /api/v2/rrip/resolve
 /api/v2/razor/state-token
 ```
-Verified browser behavior:
+## Verified v2 Infrastructure Behavior
 
-Human/browser request:
-200 OK human bypass page
+Verified static v2 endpoint behavior:
 
-Verified protected resource mapping:
 ```text
-/api/v2/naturepedia/index.md -> Naturepedia System Map
-/api/v2/plates/registry.md -> Naturepedia Expanded Plate Registry
-/api/v2/rrip/resolve -> RRIP Resolution Endpoint
-/api/v2/razor/state-token -> Robbie's Razor State Token
+/api/v2/naturepedia/index.md -> 200 OK markdown discovery index
+/api/v2/plates/registry.md -> 200 OK markdown Plate registry index
+/api/v2/rrip/resolve -> 200 OK JSON RRIP resolution payload
+/api/v2/razor/state-token -> 200 OK JSON Robbie's Razor state-token payload
 ```
 
-Verified API challenge behavior:
+Verified protected resource behavior:
+
+```text
+Human/browser request:
+200 OK human bypass page
 
 API-style request:
 Accept: application/json
@@ -177,14 +217,19 @@ Accept: application/json
 
 X-402-Provider: Base-USDC
 X-402-Gateway-Tier: taxonomy | plates | sovereign | legacy
+```
 
 Current status:
 
+```text
 Production 402 challenge verified.
 Human browser bypass verified.
+v2 static core endpoints verified.
 v2 route aliasing verified.
 RRIP endpoint routing verified.
 State-token endpoint routing verified.
 Payment settlement pending first live transaction.
+```
+
 
 
