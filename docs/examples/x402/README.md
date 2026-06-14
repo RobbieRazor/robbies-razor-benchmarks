@@ -41,6 +41,147 @@ Legacy `/x402/*` routes remain available as source catalog paths and backward-co
 
 x402 remains the settlement layer for paid machine retrieval.
 
+## MCP-Compatible Agent Architecture
+
+The v2 retrieval architecture is designed to support future MCP-compatible agents, agent wallets, machine-native commerce, registry traversal, and recursive knowledge infrastructure.
+
+### Architectural Layers
+
+```text
+Agent
+↓
+Discovery Layer
+/api/v2/naturepedia/index.md
+↓
+Registry Layer
+/api/v2/plates/registry.md
+↓
+Resolution Layer
+/api/v2/rrip/resolve
+↓
+Validation Layer
+/api/v2/razor/state-token
+↓
+x402 Settlement Layer
+↓
+Authorized Retrieval
+```
+
+### Discovery Layer
+
+Primary endpoint:
+
+```text
+/api/v2/naturepedia/index.md
+```
+
+Purpose:
+
+* machine-readable discovery
+* registry routing
+* ecosystem traversal
+* Naturepedia system navigation
+* machine-access entry point
+
+### Registry Layer
+
+Primary endpoint:
+
+```text
+/api/v2/plates/registry.md
+```
+
+Purpose:
+
+* Plate™ discovery
+* semantic registry retrieval
+* compressed knowledge routing
+* Graph Registry™ traversal
+
+### Resolution Layer
+
+Primary endpoint:
+
+```text
+/api/v2/rrip/resolve
+```
+
+Purpose:
+
+* Recursive Registry Inheritance Principle resolution
+* inheritance-path traversal
+* registry relationship grounding
+* registry-to-registry navigation
+* recursive compression state resolution
+
+### Validation Layer
+
+Primary endpoint:
+
+```text
+/api/v2/razor/state-token
+```
+
+Purpose:
+
+* registry-state validation
+* governance signaling
+* entropy-state verification
+* machine-readable state confirmation
+* recursive continuity verification
+
+### Relationship to RRIP
+
+The Recursive Registry Inheritance Principle defines the inheritance pathway:
+
+```text
+Plate™
+→ Registry
+→ Meta-Registry
+→ Graph Registry™
+→ Knowledge Mesh
+```
+
+The RRIP endpoint functions as the runtime traversal mechanism for these inheritance relationships.
+
+### Relationship to x402
+
+x402 remains the commercial settlement layer.
+
+Interpretation guidance:
+
+```text
+Commercial Data License
+≠
+Framework License
+≠
+x402 Retrieval Access
+```
+
+Commercial Data License governs use of knowledge assets.
+
+Framework Licensing governs implementation of Robbie's Razor™, Plate™ Architecture, Graph Registries™, and related infrastructure.
+
+x402 governs machine-readable retrieval access.
+
+These layers should be interpreted as complementary but distinct governance systems.
+
+### Future Agent Capabilities
+
+Future MCP-compatible agents may support:
+
+* registry discovery
+* Graph Registry™ traversal
+* RRIP resolution
+* state-token validation
+* agent-wallet settlement
+* provenance-aware retrieval
+* machine-native commerce
+* recursive synchronization
+* registry-state verification
+
+The v2 architecture is intended to support these future capabilities while preserving attribution, provenance, governance, and recursive continuity.
+
 ## Current Endpoint Families
 
 ### Legacy Routes
