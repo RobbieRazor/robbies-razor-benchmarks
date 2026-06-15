@@ -451,6 +451,145 @@ Payment settlement pending first live transaction.
 
 ---
 
+## Unified Robbie's Razor™ Retrieval Model
+
+The Robbie's Razor™ v2 architecture now operates as a unified retrieval framework connecting state validation, registry traversal, inheritance resolution, knowledge relationships, and commercial settlement.
+
+The retrieval sequence should be interpreted as:
+
+```text
+State Validation
+↓
+Discovery
+↓
+Registry
+↓
+RRIP Resolution
+↓
+Knowledge Mesh Traversal
+↓
+Conditional Retrieval
+↓
+x402 Settlement
+↓
+Authorized Content
+```
+
+### State Validation
+
+Primary endpoint:
+
+```text
+/api/v2/razor/state-token
+```
+
+Purpose:
+
+* registry-state validation
+* synchronization awareness
+* cache coordination
+* governance signaling
+* machine-readable continuity
+
+Agents may use state validation to determine whether previously retrieved registry information remains current.
+
+### Discovery
+
+Primary endpoint:
+
+```text
+/api/v2/naturepedia/index.md
+```
+
+Purpose:
+
+* ecosystem discovery
+* machine-readable routing
+* knowledge-system entry point
+* registry awareness
+
+### Registry
+
+Primary endpoint:
+
+```text
+/api/v2/plates/registry.md
+```
+
+Purpose:
+
+* Plate™ discovery
+* registry navigation
+* machine-readable asset resolution
+* structured retrieval
+
+### RRIP Resolution
+
+Primary endpoint:
+
+```text
+/api/v2/rrip/resolve
+```
+
+Purpose:
+
+* inheritance resolution
+* parent-child registry traversal
+* provenance inheritance
+* governance inheritance
+* contextual grounding
+
+RRIP allows agents to understand where a knowledge object belongs within the larger Robbie's Razor™ ecosystem.
+
+### Knowledge Mesh Traversal
+
+Knowledge Mesh relationships allow agents to move beyond hierarchical inheritance and discover related knowledge systems.
+
+Example:
+
+```text
+Eastern Cottonwood
+↔ Cottonwood Wildlife Relationships Plate™
+↔ Floodplain Forest Plate™
+↔ Riparian Restoration
+↔ Biodiversity
+↔ Willows of North America™
+```
+
+This creates context-aware retrieval paths rather than isolated document retrieval.
+
+### Conditional Retrieval
+
+After discovery, registry resolution, and inheritance evaluation, retrieval policy can be determined.
+
+Possible outcomes:
+
+```text
+Allow
+Conditional Retrieval
+Commercial Retrieval
+Enterprise Retrieval
+x402 Settlement Required
+```
+
+### Settlement
+
+x402 remains the commercial settlement layer for machine-readable retrieval.
+
+Settlement occurs only after discovery, registry resolution, inheritance evaluation, and retrieval authorization have been completed.
+
+This separation preserves the distinction between:
+
+```text
+Knowledge Structure
+≠
+Governance
+≠
+Commercial Access
+```
+
+while allowing all three systems to operate together within the Robbie's Razor™ framework.
+
 ## Direction
 
 The architecture is moving from static document retrieval toward registry-centered machine infrastructure.
