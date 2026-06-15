@@ -54,7 +54,7 @@
     "Settlement"
   ],
 
-  "commercial_layers": {
+    "commercial_layers": {
     "commercial_data_license": {
       "purpose": "Knowledge assets and commercial intelligence rights"
     },
@@ -64,6 +64,18 @@
     "x402": {
       "purpose": "Machine retrieval access and settlement layer"
     }
+  },
+
+  "payment_state": {
+    "currency_mode": "TEST",
+    "payment_protocol": "x402",
+    "settlement_asset": "USDC",
+    "settlement_network": "base-sepolia",
+    "facilitator": "coinbase",
+    "pricing_manifest_version": "2.0.0",
+    "live_settlement_enabled": false,
+    "request_binding_required": true,
+    "replay_protection": true
   },
 
   "machine_endpoints": {
@@ -99,6 +111,7 @@
     "Cryptographic validation signatures",
     "Endpoint health status",
     "Settlement verification",
+    "CurrencyMode TEST/REAL routing",
     "Machine-readable provenance validation",
     "Cache-aware agent synchronization"
   ],
