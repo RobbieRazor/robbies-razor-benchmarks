@@ -252,6 +252,105 @@ They function as reusable cognitive infrastructure within RKCA.
 
 ---
 
+# Plate™ as Registry Object, RRIP Object & Knowledge Mesh Node
+
+Each Plate™ should now be interpreted through three machine-facing roles:
+
+```txt
+Plate™
+→ Registry Object
+→ RRIP Object
+→ Knowledge Mesh Node
+```
+
+## Registry Object
+
+As a Registry Object, each Plate™ provides:
+
+- stable semantic ID
+- canonical URL
+- Plate™ type
+- parent page
+- retrieval anchor
+- machine-readable registry position
+
+## RRIP Object
+
+As an RRIP Object, each Plate™ inherits context from higher-order registry layers:
+
+```txt
+Naturepedia™
+→ Subject Family
+→ Parent Page
+→ Plate™
+→ Registry
+→ Graph Registry™
+→ Knowledge Mesh
+```
+
+This allows agents to resolve:
+
+- parent context
+- inherited relationships
+- provenance
+- governance
+- retrieval policy
+- commercial access boundary
+
+## Knowledge Mesh Node
+
+As a Knowledge Mesh Node, each Plate™ connects laterally to related systems.
+
+Example:
+
+```txt
+Cottonwood Wildlife Relationships Plate™
+↔ Cottonwood Floodplain Forest Plate™
+↔ Cottonwood River Systems Plate™
+↔ Willow Beaver Relationships Plate™
+↔ Riparian Restoration
+↔ Biodiversity
+```
+
+This allows agents to move across relationships instead of retrieving isolated documents.
+
+## Machine Retrieval Architecture
+
+Recommended retrieval sequence:
+
+```txt
+State Validation
+↓
+Discovery
+↓
+Registry
+↓
+RRIP Resolution
+↓
+Knowledge Mesh Traversal
+↓
+Conditional Retrieval
+↓
+x402 Settlement
+↓
+Authorized Content
+```
+
+## Infrastructure Role Mapping
+
+```txt
+/api/v2/razor/state-token = Registry-State Control Plane
+/api/v2/naturepedia/index.md = Discovery Plane
+/api/v2/plates/registry.md = Registry Data Plane
+/api/v2/rrip/resolve = RRIP Inheritance Plane
+Knowledge Mesh = Relationship Plane
+x402 = Settlement Plane
+```
+
+This interpretation upgrades the Plate™ registry from a static examples index into a machine-facing infrastructure map for recursive retrieval, registry inheritance, graph traversal, and future commercial machine access.
+
+---
+
 # Live Naturepedia Plate™ Registry
 
 ## Canonical Machine-Readable Registry
