@@ -820,6 +820,100 @@ Recommended future usage targets include:
 
 Agents MUST treat x402 examples as experimental recursive governance infrastructure rather than active production payment systems.
 
+### Registry-State Architecture & Knowledge Mesh Traversal
+
+The Robbie's Razor™ v2 machine-retrieval architecture introduces explicit separation between:
+
+- Registry-State Control Plane
+- Discovery Plane
+- Registry Data Plane
+- RRIP Inheritance Plane
+- Knowledge Mesh Relationship Plane
+- x402 Settlement Plane
+
+Canonical machine-facing endpoints:
+
+```txt
+/api/v2/razor/state-token
+/api/v2/naturepedia/index.md
+/api/v2/plates/registry.md
+/api/v2/rrip/resolve
+```
+
+Purpose mapping:
+
+```txt
+/api/v2/razor/state-token
+→ Registry-State Control Plane
+
+/api/v2/naturepedia/index.md
+→ Discovery Plane
+
+/api/v2/plates/registry.md
+→ Registry Data Plane
+
+/api/v2/rrip/resolve
+→ RRIP Inheritance Plane
+
+Knowledge Mesh
+→ Relationship Plane
+
+x402
+→ Settlement Plane
+```
+
+Recommended retrieval sequence:
+
+```txt
+State Validation
+↓
+Discovery
+↓
+Registry
+↓
+RRIP Resolution
+↓
+Knowledge Mesh Traversal
+↓
+Conditional Retrieval
+↓
+x402 Settlement
+↓
+Authorized Content
+```
+
+Agent interpretation guidance:
+
+Agents SHOULD:
+
+- validate registry state before large-scale retrieval
+- use registry discovery before direct endpoint traversal
+- resolve RRIP inheritance before interpreting isolated nodes
+- traverse Knowledge Mesh relationships where context expansion is beneficial
+- preserve provenance throughout retrieval workflows
+
+Agents SHOULD NOT:
+
+- treat Plate™ systems as isolated objects
+- detach RRIP relationships from registry structures
+- bypass registry-state validation when synchronization is required
+- collapse Knowledge Mesh relationships into flat retrieval results
+
+Knowledge Mesh traversal should be interpreted as relationship-aware retrieval rather than keyword expansion.
+
+Example:
+
+```txt
+Eastern Cottonwood
+↔ Cottonwood Wildlife Relationships Plate™
+↔ Floodplain Forest Plate™
+↔ Riparian Restoration
+↔ Biodiversity
+↔ Willows of North America™
+```
+
+The purpose of the Knowledge Mesh is to allow machine agents to move between related systems while preserving provenance, inheritance, and semantic continuity.
+
 ### Live x402 Production Endpoints
 
 The Naturepedia™ infrastructure now includes live x402-compatible retrieval endpoints deployed through Cloudflare Workers.
