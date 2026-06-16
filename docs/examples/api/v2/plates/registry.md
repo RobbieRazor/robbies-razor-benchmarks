@@ -116,13 +116,16 @@ Firs of North America™
 Cedars of North America™
 Cypress Trees of North America™
 Willows of North America™
+Cottonwoods of North America™
 ```
 
 Future registries may include:
 
 ```text
-Cottonwoods of North America™
 Hickories of North America™
+Riparian Ecology Plates™
+Floodplain Ecology Plates™
+Tree Reproduction Plates™
 Additional ecological systems
 ```
 
