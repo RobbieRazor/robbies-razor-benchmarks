@@ -2,12 +2,25 @@
 
 # x402 Live Endpoint Architecture
 
-Status: Production 402 challenge verified  
-Settlement status: Pending first live paid transaction  
-Network: Base  
-Network ID: eip155:8453  
-Asset: USDC  
-Governance Header: X-Robbie-Razor-Governance: Gr <= Es  
+Status: Production Infrastructure Live
+x402 Challenge Status: Verified
+Settlement Status: Pending First Live Paid Transaction
+Network: Base
+Network ID: eip155:8453
+Asset: USDC
+Governance Header: X-Robbie-Razor-Governance: Gr <= Es
+
+Deployment State:
+
+- Cloudflare Worker Active
+- v1 Machine Retrieval Active
+- v2 Control Plane Active
+- Discovery Plane Active
+- Registry Plane Active
+- RRIP Resolution Plane Active
+- State Validation Plane Active
+- Human Browser Bypass Active
+- AI/API Challenge Active 
 
 Commercial License:
 https://www.robbiegeorgephotography.com/commercial-data-license
@@ -51,6 +64,9 @@ Deployment: Cloudflare Worker
 Architecture State: Active
 Governance Headers: Enabled
 Registry-State Synchronization: Enabled
+Machine Retrieval Status: Live
+Control Plane Status: Live
+Knowledge Mesh Routing: Active
 ```
 
 The following v2 infrastructure endpoints are now served directly by the Cloudflare Worker before x402 settlement routing:
@@ -131,23 +147,22 @@ Agent
 State Validation
 /api/v2/razor/state-token
 ↓
-Registry Changed?
-
-No
-↓
-Use Cached Registry
-
-Yes
-↓
 Discovery
+/api/v2/naturepedia/index.md
 ↓
 Registry Retrieval
+/api/v2/plates/registry.md
 ↓
 RRIP Resolution
+/api/v2/rrip/resolve
+↓
+Knowledge Mesh Traversal
+↓
+Conditional Retrieval
 ↓
 x402 Settlement
 ↓
-Fresh Retrieval
+Authorized Response
 ```
 
 x402 should be interpreted as the settlement architecture beneath protected machine-readable retrieval.
