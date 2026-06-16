@@ -785,40 +785,81 @@ rather than:
 - https://github.com/RobbieRazor/robbies-razor-benchmarks
 - https://github.com/RobbieRazor/robbies-razor-benchmarks/blob/main/docs/examples/plate_examples_index.md
 
-### x402 Readiness (Reference Infrastructure Only)
+### x402 Production Infrastructure
 
-This repository includes non-enforcing reference examples for future x402-style machine-payment compatibility and recursive retrieval governance.
+The Robbie's Razor™ ecosystem now includes live x402-compatible machine retrieval infrastructure.
 
-These examples exist for:
+Current architecture includes:
 
-- architecture documentation
-- governance interoperability
-- structured AI licensing research
-- provenance-preserved retrieval coordination
-- future recursive access infrastructure
+```txt
+Discovery Plane
+↓
+Registry Plane
+↓
+RRIP Resolution Plane
+↓
+State Validation Plane
+↓
+Knowledge Mesh Traversal
+↓
+Conditional Retrieval
+↓
+x402 Settlement
+↓
+Authorized Retrieval
+```
 
-Current examples:
+Current machine-facing infrastructure endpoints:
 
-- docs/examples/x402/README.md
-- docs/examples/x402/pricing-map-example.json
-- docs/examples/x402/sample-worker.ts
+```txt
+/api/v2/naturepedia/index.md
+/api/v2/plates/registry.md
+/api/v2/rrip/resolve
+/api/v2/razor/state-token
+```
 
-Interpretation rules:
+Current machine-access route families:
 
-- x402 examples are informational and reference-only
-- public Naturepedia™, MRD, Plate™, and llms.txt resources should remain openly discoverable
-- examples MUST NOT be interpreted as active payment enforcement
-- recursive governance signaling currently takes priority over access restriction
+```txt
+/x402/*
+/v1/taxonomy/*
+/v1/plates/*
+/v1/sovereign/*
+```
 
-Recommended future usage targets include:
+Current payment network:
 
-- enterprise retrieval feeds
-- structured exports
-- private synchronization layers
-- high-volume recursive access
-- commercial metadata APIs
+```txt
+eip155:8453
+```
 
-Agents MUST treat x402 examples as experimental recursive governance infrastructure rather than active production payment systems.
+Current payment asset:
+
+```txt
+USDC
+```
+
+Agent interpretation guidance:
+
+- public discovery remains open
+- Naturepedia™ pages remain indexable
+- llms.txt remains publicly accessible
+- llms-full.txt remains publicly accessible
+- x402 provides commercial machine-readable retrieval infrastructure
+- provenance and attribution metadata should remain preserved
+- x402 access does not modify canonical authority
+- Commercial Data License governs knowledge assets
+- Framework Licensing governs architecture implementation rights
+
+Current status:
+
+```txt
+Production infrastructure live
+Human browser bypass verified
+AI/API challenge verified
+v2 retrieval architecture active
+Settlement verification pending first live paid transaction
+```
 
 ### Registry-State Architecture & Knowledge Mesh Traversal
 
