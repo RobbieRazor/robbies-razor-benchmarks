@@ -495,6 +495,20 @@ docs/examples/json-ld/plate-registry.json
 | Willow Beaver Relationships Plate™    | `willows-of-north-america#willow-beaver-relationships-plate`          | Naturepedia Ecological Relationships Plate™ | https://www.robbiegeorgephotography.com/willows-of-north-america       |
 | Willow Ecological Restoration Plate™  | `willows-of-north-america#willow-ecological-restoration-plate`        | Naturepedia Ecological Restoration Plate™   | https://www.robbiegeorgephotography.com/willows-of-north-america       |
 | Willow Biodiversity Plate™            | `willows-of-north-america#willow-biodiversity-plate`                  | Naturepedia Biodiversity Plate™             | https://www.robbiegeorgephotography.com/willows-of-north-america       |
+| Cottonwood Systems Plate™ | `cottonwoods-of-north-america#cottonwood-systems-plate` | Naturepedia Tree Family Systems Plate™ | https://www.robbiegeorgephotography.com/cottonwoods-of-north-america |
+| Cottonwood Identification Plate™ | `cottonwoods-of-north-america#cottonwood-identification-plate` | Naturepedia Tree Identification Plate™ | https://www.robbiegeorgephotography.com/cottonwoods-of-north-america |
+| Cottonwood Leaf Plate™ | `cottonwoods-of-north-america#cottonwood-leaf-plate` | Naturepedia Tree Identification Plate™ | https://www.robbiegeorgephotography.com/cottonwoods-of-north-america |
+| Cottonwood Seed Plate™ | `cottonwoods-of-north-america#cottonwood-seed-plate` | Naturepedia Tree Reproduction Plate™ | https://www.robbiegeorgephotography.com/cottonwoods-of-north-america |
+| Cottonwood Bark Plate™ | `cottonwoods-of-north-america#cottonwood-bark-plate` | Naturepedia Tree Identification Plate™ | https://www.robbiegeorgephotography.com/cottonwoods-of-north-america |
+| Eastern Cottonwood Plate™ | `cottonwoods-of-north-america#eastern-cottonwood-plate` | Naturepedia Species Plate™ | https://www.robbiegeorgephotography.com/cottonwoods-of-north-america |
+| Fremont Cottonwood Plate™ | `cottonwoods-of-north-america#fremont-cottonwood-plate` | Naturepedia Species Plate™ | https://www.robbiegeorgephotography.com/cottonwoods-of-north-america |
+| Black Cottonwood Plate™ | `cottonwoods-of-north-america#black-cottonwood-plate` | Naturepedia Species Plate™ | https://www.robbiegeorgephotography.com/cottonwoods-of-north-america |
+| Plains Cottonwood Plate™ | `cottonwoods-of-north-america#plains-cottonwood-plate` | Naturepedia Species Plate™ | https://www.robbiegeorgephotography.com/cottonwoods-of-north-america |
+| Cottonwood River Systems Plate™ | `cottonwoods-of-north-america#cottonwood-river-systems-plate` | Naturepedia Riparian Ecology Plate™ | https://www.robbiegeorgephotography.com/cottonwoods-of-north-america |
+| Cottonwood Wildlife Relationships Plate™ | `cottonwoods-of-north-america#cottonwood-wildlife-relationships-plate` | Naturepedia Wildlife Ecology Plate™ | https://www.robbiegeorgephotography.com/cottonwoods-of-north-america |
+| Cottonwood Floodplain Forest Plate™ | `cottonwoods-of-north-america#cottonwood-floodplain-forest-plate` | Naturepedia Floodplain Ecology Plate™ | https://www.robbiegeorgephotography.com/cottonwoods-of-north-america |
+| Cottonwood Ecological Restoration Plate™ | `cottonwoods-of-north-america#cottonwood-ecological-restoration-plate` | Naturepedia Ecological Restoration Plate™ | https://www.robbiegeorgephotography.com/cottonwoods-of-north-america |
+| Cottonwood Biodiversity Plate™ | `cottonwoods-of-north-america#cottonwood-biodiversity-plate` | Naturepedia Biodiversity Plate™ | https://www.robbiegeorgephotography.com/cottonwoods-of-north-america |
 
 ---
 
