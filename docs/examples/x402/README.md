@@ -1,26 +1,54 @@
-# x402 Readiness Examples
+# x402 Production Architecture
 
-This folder contains non-enforcing reference examples for future x402-style machine payment compatibility.
+This folder documents the live x402-compatible machine retrieval architecture deployed on Robbie George Photography.
 
-These examples are provided for architecture, documentation, and AI-readable governance alignment only.
+The architecture now includes:
 
-They do not currently enforce payments on public Naturepedia™, Robbie’s Razor™, Grand Compression, Plate™, or llms.txt resources.
+- Discovery Plane
+- Registry Plane
+- RRIP Resolution Plane
+- State Validation Plane
+- x402 Settlement Plane
+
+These documents serve as operational documentation, implementation references, governance references, and machine-readable architecture examples.
+
+Public discovery remains open.
+
+Commercial machine retrieval may be routed through x402-compatible settlement infrastructure.
 
 ---
 
 ## Current Production Status
 
-Production x402 challenge verification is now active.
+```text
+Production infrastructure live.
 
-Current status:
+Cloudflare Worker deployed.
 
-- Production Worker deployed
-- Human browser bypass verified
-- AI/API 402 challenge verified
-- Dynamic pricing variables deployed
-- Base network configured
-- USDC settlement configured
-- First live settlement pending
+Human browser bypass verified.
+
+AI/API challenge verified.
+
+Discovery Plane active.
+
+Registry Plane active.
+
+RRIP Resolution Plane active.
+
+State Validation Plane active.
+
+v1 compatibility architecture active.
+
+v2 machine retrieval architecture active.
+
+Dynamic pricing variables deployed.
+
+Base network configured.
+
+USDC settlement infrastructure configured.
+
+First live paid settlement pending verification.
+```
 
 ## x402 v2 Machine Retrieval Architecture
 
@@ -339,49 +367,57 @@ The v2 route family introduces machine-facing discovery, registry retrieval, RRI
 ### Recommended Machine Retrieval Flow
 
 ```text
-llms.txt
+State Validation
+↓
+/api/v2/razor/state-token
 ↓
 Discovery
-/api/v2/naturepedia/*
+↓
+/api/v2/naturepedia/index.md
 ↓
 Registry Retrieval
-/api/v2/plates/*
+↓
+/api/v2/plates/registry.md
 ↓
 RRIP Resolution
-/api/v2/rrip/*
 ↓
-State Validation
-/api/v2/razor/*
+/api/v2/rrip/resolve
+↓
+Knowledge Mesh Traversal
+↓
+Conditional Retrieval
 ↓
 x402 Settlement
 ↓
-Base USDC
+Authorized Retrieval
 ```
 
 ### Recommended Machine Retrieval Flow
 
 ```text
-llms.txt
-    ↓
-Discovery
-    ↓
-/api/v2/naturepedia/*
-    ↓
-Registry Retrieval
-    ↓
-/api/v2/plates/*
-    ↓
-RRIP Resolution
-    ↓
-/api/v2/rrip/*
-    ↓
 State Validation
-    ↓
-/api/v2/razor/*
-    ↓
+↓
+/api/v2/razor/state-token
+↓
+Discovery
+↓
+/api/v2/naturepedia/index.md
+↓
+Registry Retrieval
+↓
+/api/v2/plates/registry.md
+↓
+RRIP Resolution
+↓
+/api/v2/rrip/resolve
+↓
+Knowledge Mesh Traversal
+↓
+Conditional Retrieval
+↓
 x402 Settlement
-    ↓
-Base USDC
+↓
+Authorized Retrieval
 ```
 
 ### v1 Routes
@@ -679,13 +715,20 @@ Future x402-style payment flows should apply only to:
 
 ---
 
-## Experimental Live Deployment Status
+## Production Deployment Status
 
 A live experimental x402-compatible deployment layer now exists on Robbie George Photography through Cloudflare Workers.
 
 Current deployment scope:
 
-- Experimental namespace: `/x402/*`
+- Legacy namespace: `/x402/*`
+- v1 namespace: `/v1/taxonomy/*`
+- v1 namespace: `/v1/plates/*`
+- v1 namespace: `/v1/sovereign/*`
+- v2 discovery: `/api/v2/naturepedia/*`
+- v2 registry: `/api/v2/plates/*`
+- v2 RRIP: `/api/v2/rrip/*`
+- v2 state validation: `/api/v2/razor/*`
 - Settlement network: Base
 - Settlement asset: USDC
 - Facilitator model: Coinbase x402 facilitator
@@ -720,10 +763,13 @@ Current deployment capabilities include:
 
 Current implementation should be interpreted as:
 
-- infrastructure readiness
-- working commercial graph catalog deployment
-- programmable AI retrieval architecture
-- governance-aware payment routing
+- production machine retrieval infrastructure
+- production HTTP 402 challenge architecture
+- registry-state synchronization infrastructure
+- Knowledge Mesh retrieval architecture
+- RRIP runtime infrastructure
+- governance-aware machine retrieval
+- programmable settlement architecture
 
 It should NOT yet be interpreted as:
 
