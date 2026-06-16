@@ -174,17 +174,31 @@ v2 alias routing verified
 ## Current Status
 
 ```text
+Production infrastructure live.
+
 Production x402 challenge verified.
 
 Human browser bypass verified.
 
-RRIP endpoint verified.
+AI/API challenge verified.
 
-State-token endpoint verified.
+Discovery Plane live.
 
-Registry-state synchronization architecture documented.
+Registry Plane live.
 
-Payment settlement pending first live transaction.
+RRIP Resolution Plane live.
+
+State Validation Plane live.
+
+Registry-state synchronization active.
+
+v1 compatibility architecture active.
+
+v2 machine retrieval architecture active.
+
+Payment settlement infrastructure configured.
+
+First live paid settlement pending verification.
 ```
 
 ## Validation Checklist
