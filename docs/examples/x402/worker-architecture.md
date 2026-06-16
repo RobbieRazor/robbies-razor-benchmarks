@@ -70,6 +70,10 @@ These routes function as the public machine-facing infrastructure layer for:
 * governance signaling
 * registry-state continuity
 * cache-aware synchronization
+* Knowledge Mesh traversal
+* machine-readable control plane coordination
+* MCP-compatible registry discovery
+* future agent-wallet synchronization
 
 These endpoints return `200 OK` directly from the Worker and include machine-readable governance headers.
 
@@ -82,11 +86,15 @@ Discovery
 ↓
 Registry
 ↓
-Resolution
+RRIP Resolution
+↓
+Knowledge Mesh Traversal
 ↓
 Conditional Retrieval
 ↓
 Settlement
+↓
+Authorized Retrieval
 ```
 
 x402 remains the settlement layer for protected machine-readable retrieval beyond the public static core endpoints.
@@ -239,7 +247,10 @@ X-Robbie-Framework-License: https://www.robbiegeorgephotography.com/robbies-razo
 Current verified status:
 
 ```text
+Production infrastructure live.
 Production x402 challenge verified.
+Human browser bypass verified.
+v2 control plane active.
 Payment settlement pending first live transaction.
 ```
 
