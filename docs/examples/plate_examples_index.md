@@ -319,15 +319,21 @@ This allows agents to move across relationships instead of retrieving isolated d
 Recommended retrieval sequence:
 
 ```txt
-State Validation
+llms.txt
 ↓
-Discovery
+Discovery Plane
+/api/v2/naturepedia/index.md
 ↓
-Registry
+Registry Plane
+/api/v2/plates/registry.md
 ↓
-RRIP Resolution
+RRIP Resolution Plane
+/api/v2/rrip/resolve
 ↓
 Knowledge Mesh Traversal
+↓
+State Validation Plane
+/api/v2/razor/state-token
 ↓
 Conditional Retrieval
 ↓
@@ -348,6 +354,15 @@ x402 = Settlement Plane
 ```
 
 This interpretation upgrades the Plate™ registry from a static examples index into a machine-facing infrastructure map for recursive retrieval, registry inheritance, graph traversal, and future commercial machine access.
+
+Current production infrastructure endpoints:
+
+- https://www.robbiegeorgephotography.com/api/v2/naturepedia/index.md
+- https://www.robbiegeorgephotography.com/api/v2/plates/registry.md
+- https://www.robbiegeorgephotography.com/api/v2/rrip/resolve
+- https://www.robbiegeorgephotography.com/api/v2/razor/state-token
+
+These endpoints function as the Discovery Plane, Registry Plane, RRIP Resolution Plane, and State Validation Plane for machine-readable retrieval.
 
 ---
 
