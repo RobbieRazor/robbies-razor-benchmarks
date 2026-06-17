@@ -86,6 +86,17 @@
         "Graph Registry™",
         "Knowledge Mesh"
       ]
+    },
+    {
+      "query": "/api/v2/rrip/resolve?id=hickories-of-north-america#hickory-biodiversity-plate",
+      "input": "hickories-of-north-america#hickory-biodiversity-plate",
+      "resolved_path": [
+        "Hickory Biodiversity Plate™",
+        "Hickories of North America™ Registry",
+        "Naturepedia™ Registry",
+        "Graph Registry™",
+        "Knowledge Mesh"
+      ]
     }
   ],
   "future_capabilities": [
