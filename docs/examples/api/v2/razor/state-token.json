@@ -5,7 +5,7 @@
   "state_signature": "robbies-razor-v2-state-2026-06-14",
   "signature_mode": "static",
   "future_signature_mode": "cryptographic",
-  "last_updated": "2026-06-14T21:00:00Z",
+  "last_updated": "2026-06-17T21:00:00Z",
 
   "endpoint": "/api/v2/razor/state-token",
   "state_token": "robbies-razor-v2-registry-state",
@@ -27,7 +27,7 @@
 
   "registry_state": {
     "status": "active",
-    "synchronization": "expanded-tree-and-photography-registry-synchronized",
+    "synchronization": "expanded-tree-hickory-and-photography-registry-synchronized",
     "registry_layers": [
       "Plate™",
       "Registry",
@@ -102,6 +102,7 @@
     "plate_registry": "active",
     "graph_registry": "active",
     "knowledge_mesh": "active",
+    "hickories_inventory": "active",
     "x402_ready": true,
     "mcp_compatible": true
   },
