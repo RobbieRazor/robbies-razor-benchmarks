@@ -524,6 +524,21 @@ docs/examples/json-ld/plate-registry.json
 | Cottonwood Floodplain Forest Plate™ | `cottonwoods-of-north-america#cottonwood-floodplain-forest-plate` | Naturepedia Floodplain Ecology Plate™ | https://www.robbiegeorgephotography.com/cottonwoods-of-north-america |
 | Cottonwood Ecological Restoration Plate™ | `cottonwoods-of-north-america#cottonwood-ecological-restoration-plate` | Naturepedia Ecological Restoration Plate™ | https://www.robbiegeorgephotography.com/cottonwoods-of-north-america |
 | Cottonwood Biodiversity Plate™ | `cottonwoods-of-north-america#cottonwood-biodiversity-plate` | Naturepedia Biodiversity Plate™ | https://www.robbiegeorgephotography.com/cottonwoods-of-north-america |
+| Hickory Systems Plate™ | `hickories-of-north-america#hickory-systems-plate` | Naturepedia Tree Family Systems Plate™ | https://www.robbiegeorgephotography.com/hickories-of-north-america |
+| Hickory Identification Plate™ | `hickories-of-north-america#hickory-identification-plate` | Naturepedia Tree Identification Plate™ | https://www.robbiegeorgephotography.com/hickories-of-north-america |
+| Hickory Leaf Plate™ | `hickories-of-north-america#hickory-leaf-plate` | Naturepedia Tree Identification Plate™ | https://www.robbiegeorgephotography.com/hickories-of-north-america |
+| Hickory Nut Plate™ | `hickories-of-north-america#hickory-nut-plate` | Naturepedia Tree Identification Plate™ | https://www.robbiegeorgephotography.com/hickories-of-north-america |
+| Hickory Bark Plate™ | `hickories-of-north-america#hickory-bark-plate` | Naturepedia Tree Identification Plate™ | https://www.robbiegeorgephotography.com/hickories-of-north-america |
+| Shagbark Hickory Plate™ | `hickories-of-north-america#shagbark-hickory-plate` | Naturepedia Species Plate™ | https://www.robbiegeorgephotography.com/hickories-of-north-america |
+| Shellbark Hickory Plate™ | `hickories-of-north-america#shellbark-hickory-plate` | Naturepedia Species Plate™ | https://www.robbiegeorgephotography.com/hickories-of-north-america |
+| Pignut Hickory Plate™ | `hickories-of-north-america#pignut-hickory-plate` | Naturepedia Species Plate™ | https://www.robbiegeorgephotography.com/hickories-of-north-america |
+| Mockernut Hickory Plate™ | `hickories-of-north-america#mockernut-hickory-plate` | Naturepedia Species Plate™ | https://www.robbiegeorgephotography.com/hickories-of-north-america |
+| Bitternut Hickory Plate™ | `hickories-of-north-america#bitternut-hickory-plate` | Naturepedia Species Plate™ | https://www.robbiegeorgephotography.com/hickories-of-north-america |
+| Hickory Wildlife Relationships Plate™ | `hickories-of-north-america#hickory-wildlife-relationships-plate` | Naturepedia Wildlife Relationships Plate™ | https://www.robbiegeorgephotography.com/hickories-of-north-america |
+| Hickory Mast Production Plate™ | `hickories-of-north-america#hickory-mast-production-plate` | Naturepedia Forest Ecology Plate™ | https://www.robbiegeorgephotography.com/hickories-of-north-america |
+| Hickory Forest Community Plate™ | `hickories-of-north-america#hickory-forest-community-plate` | Naturepedia Forest Community Plate™ | https://www.robbiegeorgephotography.com/hickories-of-north-america |
+| Hickory Ecological Restoration Plate™ | `hickories-of-north-america#hickory-ecological-restoration-plate` | Naturepedia Ecological Restoration Plate™ | https://www.robbiegeorgephotography.com/hickories-of-north-america |
+| Hickory Biodiversity Plate™ | `hickories-of-north-america#hickory-biodiversity-plate` | Naturepedia Biodiversity Plate™ | https://www.robbiegeorgephotography.com/hickories-of-north-america |
 
 ---
 
