@@ -124,6 +124,7 @@ Naturepedia™ currently includes expanded registry coverage for:
 - Cypress Trees of North America™
 - Willows of North America™
 - Cottonwoods of North America™
+- Hickories of North America™
 
 ### Tree Family Registry URLs
 
@@ -135,6 +136,7 @@ https://www.robbiegeorgephotography.com/cedars-of-north-america
 https://www.robbiegeorgephotography.com/cypress-trees-of-north-america
 https://www.robbiegeorgephotography.com/willows-of-north-america
 https://www.robbiegeorgephotography.com/cottonwoods-of-north-america
+https://www.robbiegeorgephotography.com/hickories-of-north-america
 ```
 
 ### Photography Guide Registries
