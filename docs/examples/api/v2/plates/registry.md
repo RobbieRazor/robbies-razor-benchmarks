@@ -117,16 +117,50 @@ Cedars of North America™
 Cypress Trees of North America™
 Willows of North America™
 Cottonwoods of North America™
+Hickories of North America™
 ```
 
-Future registries may include:
+Active registries include:
 
 ```text
+Hemlocks of North America™
+Spruces of North America™
+Firs of North America™
+Cedars of North America™
+Cypress Trees of North America™
+Willows of North America™
+Cottonwoods of North America™
 Hickories of North America™
-Additional ecological systems
 ```
 
+Additional ecological systems may be added through future inventory expansion.
+
 ---
+
+## Hickories of North America™ Registry
+
+Page URL:
+
+```text
+https://www.robbiegeorgephotography.com/hickories-of-north-america
+```
+Registered Plate IDs:
+
+hickories-of-north-america#hickory-systems-plate
+hickories-of-north-america#hickory-identification-plate
+hickories-of-north-america#hickory-leaf-plate
+hickories-of-north-america#hickory-nut-plate
+hickories-of-north-america#hickory-bark-plate
+hickories-of-north-america#shagbark-hickory-plate
+hickories-of-north-america#shellbark-hickory-plate
+hickories-of-north-america#pignut-hickory-plate
+hickories-of-north-america#mockernut-hickory-plate
+hickories-of-north-america#bitternut-hickory-plate
+hickories-of-north-america#hickory-wildlife-relationships-plate
+hickories-of-north-america#hickory-mast-production-plate
+hickories-of-north-america#hickory-forest-community-plate
+hickories-of-north-america#hickory-ecological-restoration-plate
+hickories-of-north-america#hickory-biodiversity-plate
 
 ## Photography Guide Registries
 
