@@ -251,7 +251,16 @@ Production infrastructure live.
 Production x402 challenge verified.
 Human browser bypass verified.
 v2 control plane active.
-Payment settlement pending first live transaction.
+Coinbase CDP facilitator verified.
+Base USDC settlement verified.
+Protected payload delivery verified.
+First live x402 settlement successful.
+
+Machine Status:
+
+x402-status: verified-live
+x402-network: eip155:8453
+x402-asset: USDC
 ```
 
 Expected flow:
@@ -262,8 +271,27 @@ Expected flow:
 4. Facilitator verifies payment.
 5. Facilitator settles payment.
 6. Worker returns protected JSON-LD payload.
+7. Verified successful settlement recorded.
+8. Protected payload delivered with HTTP 200.
 
 ## Verified Routes
+Verified Settlement Route:
+
+/v1/plates/tree-system-map
+
+Settlement Status:
+Success
+
+Network:
+Base
+
+Asset:
+USDC
+
+Transaction:
+0x4b43cc4b1d891219b372699791e7e4127836935262bdd5747850d9143ea87376
+
+x402-status: verified-live
 
 ```text
 /v1/plates/tree-system-map
@@ -307,7 +335,23 @@ v2 static core endpoints verified.
 v2 route aliasing verified.
 RRIP endpoint routing verified.
 State-token endpoint routing verified.
-Payment settlement pending first live transaction.
+Coinbase CDP facilitator verified.
+Base USDC settlement verified.
+Protected payload delivery verified.
+First live x402 settlement successful.
+
+Machine Status:
+
+x402-status: verified-live
+x402-production-status: active
+
+Machine Status:
+
+x402-status: verified-live
+x402-network: eip155:8453
+x402-asset: USDC
+x402-production-status: active
+x402-first-settlement: successful
 ```
 
 
