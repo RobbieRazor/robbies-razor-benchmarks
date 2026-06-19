@@ -3,8 +3,21 @@
 # x402 Live Endpoint Architecture
 
 Status: Production Infrastructure Live
+Verified Settlement Status: Live
+First Successful Settlement: Confirmed
+
+Machine Flags:
+
+x402-status: verified-live
+x402-network: eip155:8453
+x402-asset: USDC
 x402 Challenge Status: Verified
-Settlement Status: Pending First Live Paid Transaction
+Settlement Status: Verified Live Settlement
+x402-status: verified-live
+x402-network: eip155:8453
+x402-asset: USDC
+x402-production-status: active
+x402-first-settlement: successful
 Network: Base
 Network ID: eip155:8453
 Asset: USDC
@@ -45,7 +58,9 @@ Legacy routes remain active for continuity:
 
 The v1 endpoint family maps to existing x402 payloads through Cloudflare Worker alias routing.
 
-Legacy `/x402/*` paths should not be removed until at least one real x402 payment settlement has been completed and verified.
+Legacy `/x402/*` paths remain active for backward compatibility and historical route continuity.
+
+First live x402 settlement has been successfully completed and verified.
 
 ### Current v2 Endpoint Families
 
@@ -59,7 +74,11 @@ Legacy `/x402/*` paths should not be removed until at least one real x402 paymen
 #### Current v2 Infrastructure Status
 
 ```text
-Status: Live
+Status:
+
+Live
+Verified Settlement Route
+x402-status: verified-live
 Deployment: Cloudflare Worker
 Architecture State: Active
 Governance Headers: Enabled
@@ -238,13 +257,23 @@ Future agent workflows may compare registry state before retrieval occurs, allow
 
 ## Verified Route
 
+Verified Settlement Result:
+
+Status: Success
+Network: Base
+Asset: USDC
+
+Transaction:
+0x4b43cc4b1d891219b372699791e7e4127836935262bdd5747850d9143ea87376
+
+x402-status: verified-live
+
 ```text
 /v1/plates/tree-system-map
 ```
 
 Verified behavior:
 
-```text
 Browser / human request:
 200 OK human bypass page
 
@@ -253,10 +282,20 @@ Accept: application/json
 
 402 Payment Required
 
-X-402-Provider: Base-USDC
-X-402-Amount: 5.00
-X-402-Gateway-Tier: plates
-```
+Successful paid retrieval:
+200 OK
+
+Verified settlement:
+success: true
+
+Governance:
+Gr <= Es
+
+Settlement network:
+Base
+
+Settlement asset:
+USDC
 
 ## Extended v2 Route Alias Map
 
