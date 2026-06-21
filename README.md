@@ -174,6 +174,33 @@ Key documents:
 
 RKCA and Plates™ are applied knowledge-architecture layers. They do not redefine canonical theory, which remains exclusively governed by the Master Reference Document (MRD v1.9) and the Authorship Conservation Rule (ACR).
 
+### Earth Systems Expansion (Naturepedia™)
+
+Naturepedia™ now includes a dedicated Earth Systems architecture layer connecting geological, hydrological, biological, microbial, and ecosystem-scale knowledge systems.
+
+Primary Earth Systems Hub:
+
+```txt
+https://www.robbiegeorgephotography.com/earth-systems
+```
+
+Current Earth Systems registries:
+
+* Earth Systems™
+* Volcanic Landscapes™
+* Microbial Life Systems™
+* Geothermal Ecosystems™
+* Yellowstone Thermal Features™
+
+Future expansion pathways:
+
+* Soil Systems™
+* Carbon Cycle™
+* Ecosystem Feedbacks™
+* Hydrothermal Ecosystems™
+
+These registries function as recursive knowledge structures within the broader Naturepedia™, RKCA™, RRIP™, Graph Registry™, and Knowledge Mesh architecture.
+
 ## Recursive Registry Inheritance Principle (RRIP)
 
 The Recursive Registry Inheritance Principle (RRIP) extends Robbie's Razor™, Plate™ Architecture, and the Recursive Knowledge Compression Architecture (RKCA).
@@ -253,6 +280,26 @@ The Plate™ registry connects:
 - GitHub benchmark infrastructure
 - provenance and authorship systems
 - recursive knowledge compression architecture
+
+### Earth Systems Discovery Layer
+
+The Plate™ registry now includes Earth Systems discovery pathways connecting:
+
+```txt
+Earth Systems™
+↓
+Volcanic Landscapes™
+↓
+Geothermal Ecosystems™
+↓
+Yellowstone Thermal Features™
+↓
+Microbial Life Systems™
+```
+
+These registries provide machine-readable traversal between Earth processes, geothermal systems, microbial ecology, volcanic systems, biodiversity systems, and future Soil Systems™, Carbon Cycle™, and Ecosystem Feedbacks™ registries.
+
+Agents SHOULD interpret Earth Systems™ as a parent discovery registry rather than a standalone content node.
 
 Primary registry files:
 
