@@ -17,7 +17,7 @@
   "description": "Machine-readable semantic registry for Naturepedia Plate systems, recursive compression interfaces, JSON-LD semantic nodes, field observation systems, governance systems, pricing systems, species plates, track plates, photography guide plates, field location plates, water systems, ecosystem systems, and distributed ecological knowledge graph relationships.",
   "license": "https://www.robbiegeorgephotography.com/commercial-data-license",
   "url": "https://github.com/RobbieRazor/robbies-razor-benchmarks",
-  "dateModified": "2026-06-14",
+  "dateModified": "2026-06-20",
   "keywords": [
     "Naturepedia",
     "Plate Registry",
@@ -30,6 +30,16 @@
     "Semantic IDs",
     "Distributed Semantic Architecture",
     "Naturepedia Plates",
+    "Earth Systems",
+    "Soil Systems",
+    "Carbon Cycle",
+    "Ecosystem Feedbacks",
+    "Volcanic Landscapes",
+    "Geothermal Ecosystems",
+    "Yellowstone Thermal Features",
+    "Microbial Life Systems",
+    "Hydrothermal Ecosystems",
+    "Naturepedia Earth Systems",
     "Species Plates",
     "Track Plates",
     "Field Location Plates",
@@ -465,6 +475,531 @@
         "id": "chesapeake-bay-wildlife-system#chesapeake-bay-system-plate",
         "url": "https://www.robbiegeorgephotography.com/chesapeake-bay-wildlife-system",
         "type": "Naturepedia Water System Plate™"
+    },
+    {
+      "category": "Earth Systems Plates™",
+      "name": "Earth Systems Plate™",
+      "id": "earth-systems#earth-systems-plate",
+      "url": "https://www.robbiegeorgephotography.com/earth-systems",
+      "type": "Naturepedia Systems Plate™"
+    },
+    {
+      "category": "Earth Systems Plates™",
+      "name": "Geosphere Plate™",
+      "id": "earth-systems#geosphere-plate",
+      "url": "https://www.robbiegeorgephotography.com/earth-systems",
+      "type": "Naturepedia Earth Systems Plate™"
+    },
+    {
+      "category": "Earth Systems Plates™",
+      "name": "Hydrosphere Plate™",
+      "id": "earth-systems#hydrosphere-plate",
+      "url": "https://www.robbiegeorgephotography.com/earth-systems",
+      "type": "Naturepedia Water Systems Plate™"
+    },
+    {
+      "category": "Earth Systems Plates™",
+      "name": "Atmosphere Plate™",
+      "id": "earth-systems#atmosphere-plate",
+      "url": "https://www.robbiegeorgephotography.com/earth-systems",
+      "type": "Naturepedia Climate Systems Plate™"
+    },
+    {
+      "category": "Earth Systems Plates™",
+      "name": "Biosphere Plate™",
+      "id": "earth-systems#biosphere-plate",
+      "url": "https://www.robbiegeorgephotography.com/earth-systems",
+      "type": "Naturepedia Biodiversity Plate™"
+    },
+    {
+      "category": "Earth Systems Plates™",
+      "name": "Cryosphere Plate™",
+      "id": "earth-systems#cryosphere-plate",
+      "url": "https://www.robbiegeorgephotography.com/earth-systems",
+      "type": "Naturepedia Earth Systems Plate™"
+    },
+    {
+      "category": "Earth Systems Plates™",
+      "name": "Soil Systems Plate™",
+      "id": "earth-systems#soil-systems-plate",
+      "url": "https://www.robbiegeorgephotography.com/earth-systems",
+      "type": "Naturepedia Ecosystem Processes Plate™"
+    },
+    {
+      "category": "Earth Systems Plates™",
+      "name": "Ecosystem Feedbacks Plate™",
+      "id": "earth-systems#ecosystem-feedbacks-plate",
+      "url": "https://www.robbiegeorgephotography.com/earth-systems",
+      "type": "Naturepedia Ecosystem Processes Plate™"
+    },
+    {
+      "category": "Earth Systems Plates™",
+      "name": "Carbon Cycle Plate™",
+      "id": "earth-systems#carbon-cycle-plate",
+      "url": "https://www.robbiegeorgephotography.com/earth-systems",
+      "type": "Naturepedia Biogeochemical Cycles Plate™"
+    },
+    {
+      "category": "Earth Systems Plates™",
+      "name": "Water Cycle Plate™",
+      "id": "earth-systems#water-cycle-plate",
+      "url": "https://www.robbiegeorgephotography.com/earth-systems",
+      "type": "Naturepedia Water Systems Plate™"
+    },
+    {
+      "category": "Earth Systems Plates™",
+      "name": "Climate Systems Plate™",
+      "id": "earth-systems#climate-systems-plate",
+      "url": "https://www.robbiegeorgephotography.com/earth-systems",
+      "type": "Naturepedia Climate Systems Plate™"
+    },
+    {
+      "category": "Earth Systems Plates™",
+      "name": "Plate Tectonics & Earth Engine Plate™",
+      "id": "earth-systems#plate-tectonics-earth-engine-plate",
+      "url": "https://www.robbiegeorgephotography.com/earth-systems",
+      "type": "Naturepedia Geology Plate™"
+    },
+    {
+      "category": "Earth Systems Plates™",
+      "name": "Human Impact on Earth Systems Plate™",
+      "id": "earth-systems#human-impact-earth-systems-plate",
+      "url": "https://www.robbiegeorgephotography.com/earth-systems",
+      "type": "Naturepedia Human-Earth Systems Plate™"
+    },
+    {
+      "category": "Earth Systems Plates™",
+      "name": "Earth Systems Photography Plate™",
+      "id": "earth-systems#earth-systems-photography-plate",
+      "url": "https://www.robbiegeorgephotography.com/earth-systems",
+      "type": "Naturepedia Photography Plate™"
+    },
+    {
+      "category": "Volcanic Landscapes Plates™",
+      "name": "Volcanic Landscapes Plate™",
+      "id": "volcanic-landscapes#volcanic-landscapes-plate",
+      "url": "https://www.robbiegeorgephotography.com/volcanic-landscapes",
+      "type": "Naturepedia Systems Plate™"
+    },
+    {
+      "category": "Volcanic Landscapes Plates™",
+      "name": "Magma Chambers Plate™",
+      "id": "volcanic-landscapes#magma-chambers-plate",
+      "url": "https://www.robbiegeorgephotography.com/volcanic-landscapes",
+      "type": "Naturepedia Earth Systems Plate™"
+    },
+    {
+      "category": "Volcanic Landscapes Plates™",
+      "name": "Volcanic Islands Plate™",
+      "id": "volcanic-landscapes#volcanic-islands-plate",
+      "url": "https://www.robbiegeorgephotography.com/volcanic-landscapes",
+      "type": "Naturepedia Earth Systems Plate™"
+    },
+    {
+      "category": "Volcanic Landscapes Plates™",
+      "name": "Plate Tectonics Plate™",
+      "id": "volcanic-landscapes#plate-tectonics-plate",
+      "url": "https://www.robbiegeorgephotography.com/volcanic-landscapes",
+      "type": "Naturepedia Earth Systems Plate™"
+    },
+    {
+      "category": "Volcanic Landscapes Plates™",
+      "name": "Ring of Fire Plate™",
+      "id": "volcanic-landscapes#ring-of-fire-plate",
+      "url": "https://www.robbiegeorgephotography.com/volcanic-landscapes",
+      "type": "Naturepedia Earth Systems Plate™"
+    },
+    {
+      "category": "Volcanic Landscapes Plates™",
+      "name": "Volcano Identification Plate™",
+      "id": "volcanic-landscapes#volcano-identification-plate",
+      "url": "https://www.robbiegeorgephotography.com/volcanic-landscapes",
+      "type": "Naturepedia Identification Plate™"
+    },
+    {
+      "category": "Volcanic Landscapes Plates™",
+      "name": "Lava Flows Plate™",
+      "id": "volcanic-landscapes#lava-flows-plate",
+      "url": "https://www.robbiegeorgephotography.com/volcanic-landscapes",
+      "type": "Naturepedia Geology Plate™"
+    },
+    {
+      "category": "Volcanic Landscapes Plates™",
+      "name": "Volcanic Eruptions Plate™",
+      "id": "volcanic-landscapes#volcanic-eruptions-plate",
+      "url": "https://www.robbiegeorgephotography.com/volcanic-landscapes",
+      "type": "Naturepedia Geology Plate™"
+    },
+    {
+      "category": "Volcanic Landscapes Plates™",
+      "name": "Calderas Plate™",
+      "id": "volcanic-landscapes#calderas-plate",
+      "url": "https://www.robbiegeorgephotography.com/volcanic-landscapes",
+      "type": "Naturepedia Geology Plate™"
+    },
+    {
+      "category": "Volcanic Landscapes Plates™",
+      "name": "Supervolcanoes Plate™",
+      "id": "volcanic-landscapes#supervolcanoes-plate",
+      "url": "https://www.robbiegeorgephotography.com/volcanic-landscapes",
+      "type": "Naturepedia Geology Plate™"
+    },
+    {
+      "category": "Volcanic Landscapes Plates™",
+      "name": "Volcanic Soils Plate™",
+      "id": "volcanic-landscapes#volcanic-soils-plate",
+      "url": "https://www.robbiegeorgephotography.com/volcanic-landscapes",
+      "type": "Naturepedia Ecosystem Processes Plate™"
+    },
+    {
+      "category": "Volcanic Landscapes Plates™",
+      "name": "Volcanic Ecosystems Plate™",
+      "id": "volcanic-landscapes#volcanic-ecosystems-plate",
+      "url": "https://www.robbiegeorgephotography.com/volcanic-landscapes",
+      "type": "Naturepedia Ecosystem Plate™"
+    },
+    {
+      "category": "Volcanic Landscapes Plates™",
+      "name": "Volcanic Succession Plate™",
+      "id": "volcanic-landscapes#volcanic-succession-plate",
+      "url": "https://www.robbiegeorgephotography.com/volcanic-landscapes",
+      "type": "Naturepedia Ecological Succession Plate™"
+    },
+    {
+      "category": "Volcanic Landscapes Plates™",
+      "name": "Volcanic Biodiversity Plate™",
+      "id": "volcanic-landscapes#volcanic-biodiversity-plate",
+      "url": "https://www.robbiegeorgephotography.com/volcanic-landscapes",
+      "type": "Naturepedia Biodiversity Plate™"
+    },
+    {
+      "category": "Volcanic Landscapes Plates™",
+      "name": "Volcanic Hazards Plate™",
+      "id": "volcanic-landscapes#volcanic-hazards-plate",
+      "url": "https://www.robbiegeorgephotography.com/volcanic-landscapes",
+      "type": "Naturepedia Hazard Systems Plate™"
+    },
+    {
+      "category": "Volcanic Landscapes Plates™",
+      "name": "Volcanic Photography Plate™",
+      "id": "volcanic-landscapes#volcanic-photography-plate",
+      "url": "https://www.robbiegeorgephotography.com/volcanic-landscapes",
+      "type": "Naturepedia Photography Plate™"
+    },
+    {
+      "category": "Volcanic Landscapes Plates™",
+      "name": "Volcanoes Beyond Earth Plate™",
+      "id": "volcanic-landscapes#volcanoes-beyond-earth-plate",
+      "url": "https://www.robbiegeorgephotography.com/volcanic-landscapes",
+      "type": "Naturepedia Planetary Geology Plate™"
+    },
+    {
+      "category": "Microbial Life Systems Plates™",
+      "name": "Microbial Life Systems™",
+      "id": "microbial-life-systems#microbial-life-systems",
+      "url": "https://www.robbiegeorgephotography.com/microbial-life-systems",
+      "type": "Naturepedia Earth Systems Layer™"
+    },
+    {
+      "category": "Microbial Life Systems Plates™",
+      "name": "Microbial Life Systems Plate™",
+      "id": "microbial-life-systems#microbial-life-systems-plate",
+      "url": "https://www.robbiegeorgephotography.com/microbial-life-systems",
+      "type": "Naturepedia Earth Systems Plate™"
+    },
+    {
+      "category": "Microbial Life Systems Plates™",
+      "name": "Microbial Identification Plate™",
+      "id": "microbial-life-systems#microbial-identification-plate",
+      "url": "https://www.robbiegeorgephotography.com/microbial-life-systems",
+      "type": "Naturepedia Microbial Identification Plate™"
+    },
+    {
+      "category": "Microbial Life Systems Plates™",
+      "name": "Bacteria Plate™",
+      "id": "microbial-life-systems#bacteria-plate",
+      "url": "https://www.robbiegeorgephotography.com/microbial-life-systems",
+      "type": "Naturepedia Bacteria Plate™"
+    },
+    {
+      "category": "Microbial Life Systems Plates™",
+      "name": "Archaea Plate™",
+      "id": "microbial-life-systems#archaea-plate",
+      "url": "https://www.robbiegeorgephotography.com/microbial-life-systems",
+      "type": "Naturepedia Archaea Plate™"
+    },
+    {
+      "category": "Microbial Life Systems Plates™",
+      "name": "Biofilms Plate™",
+      "id": "microbial-life-systems#biofilms-plate",
+      "url": "https://www.robbiegeorgephotography.com/microbial-life-systems",
+      "type": "Naturepedia Microbial Community Plate™"
+    },
+    {
+      "category": "Microbial Life Systems Plates™",
+      "name": "Microbial Mats Plate™",
+      "id": "microbial-life-systems#microbial-mats-plate",
+      "url": "https://www.robbiegeorgephotography.com/microbial-life-systems",
+      "type": "Naturepedia Microbial Ecology Plate™"
+    },
+    {
+      "category": "Microbial Life Systems Plates™",
+      "name": "Thermophiles Plate™",
+      "id": "microbial-life-systems#thermophiles-plate",
+      "url": "https://www.robbiegeorgephotography.com/microbial-life-systems",
+      "type": "Naturepedia Extremophile Biology Plate™"
+    },
+    {
+      "category": "Microbial Life Systems Plates™",
+      "name": "Extremophiles Plate™",
+      "id": "microbial-life-systems#extremophiles-plate",
+      "url": "https://www.robbiegeorgephotography.com/microbial-life-systems",
+      "type": "Naturepedia Extremophile Life Plate™"
+    },
+    {
+      "category": "Microbial Life Systems Plates™",
+      "name": "Photosynthesis Plate™",
+      "id": "microbial-life-systems#photosynthesis-plate",
+      "url": "https://www.robbiegeorgephotography.com/microbial-life-systems",
+      "type": "Naturepedia Biological Energy Plate™"
+    },
+    {
+      "category": "Microbial Life Systems Plates™",
+      "name": "Chemosynthesis Plate™",
+      "id": "microbial-life-systems#chemosynthesis-plate",
+      "url": "https://www.robbiegeorgephotography.com/microbial-life-systems",
+      "type": "Naturepedia Chemosynthesis Plate™"
+    },
+    {
+      "category": "Microbial Life Systems Plates™",
+      "name": "Nutrient Cycling Plate™",
+      "id": "microbial-life-systems#nutrient-cycling-plate",
+      "url": "https://www.robbiegeorgephotography.com/microbial-life-systems",
+      "type": "Naturepedia Biogeochemical Cycles Plate™"
+    },
+    {
+      "category": "Microbial Life Systems Plates™",
+      "name": "Microbial Biodiversity Plate™",
+      "id": "microbial-life-systems#microbial-biodiversity-plate",
+      "url": "https://www.robbiegeorgephotography.com/microbial-life-systems",
+      "type": "Naturepedia Biodiversity Plate™"
+    },
+    {
+      "category": "Microbial Life Systems Plates™",
+      "name": "Microbial Ecosystem Services Plate™",
+      "id": "microbial-life-systems#microbial-ecosystem-services-plate",
+      "url": "https://www.robbiegeorgephotography.com/microbial-life-systems",
+      "type": "Naturepedia Ecosystem Services Plate™"
+    },
+    {
+      "category": "Microbial Life Systems Plates™",
+      "name": "Origins of Life Plate™",
+      "id": "microbial-life-systems#origins-of-life-plate",
+      "url": "https://www.robbiegeorgephotography.com/microbial-life-systems",
+      "type": "Naturepedia Origins of Life Plate™"
+    },
+    {
+      "category": "Microbial Life Systems Plates™",
+      "name": "Microbial Photography Plate™",
+      "id": "microbial-life-systems#microbial-photography-plate",
+      "url": "https://www.robbiegeorgephotography.com/microbial-life-systems",
+      "type": "Naturepedia Photography Plate™"
+    },
+    {
+      "category": "Geothermal Ecosystems Plates™",
+      "name": "Geothermal Ecosystems Plate™",
+      "id": "geothermal-ecosystems#geothermal-ecosystems-plate",
+      "url": "https://www.robbiegeorgephotography.com/geothermal-ecosystems",
+      "type": "Naturepedia Earth Systems Plate™"
+    },
+    {
+      "category": "Geothermal Ecosystems Plates™",
+      "name": "Geothermal Identification Plate™",
+      "id": "geothermal-ecosystems#geothermal-identification-plate",
+      "url": "https://www.robbiegeorgephotography.com/geothermal-ecosystems",
+      "type": "Naturepedia Geothermal Identification Plate™"
+    },
+    {
+      "category": "Geothermal Ecosystems Plates™",
+      "name": "Geothermal Water Systems Plate™",
+      "id": "geothermal-ecosystems#geothermal-water-systems-plate",
+      "url": "https://www.robbiegeorgephotography.com/geothermal-ecosystems",
+      "type": "Naturepedia Water Systems Plate™"
+    },
+    {
+      "category": "Geothermal Ecosystems Plates™",
+      "name": "Thermophile Life Plate™",
+      "id": "geothermal-ecosystems#thermophile-life-plate",
+      "url": "https://www.robbiegeorgephotography.com/geothermal-ecosystems",
+      "type": "Naturepedia Microbial Life Plate™"
+    },
+    {
+      "category": "Geothermal Ecosystems Plates™",
+      "name": "Extremophile Life Plate™",
+      "id": "geothermal-ecosystems#extremophile-life-plate",
+      "url": "https://www.robbiegeorgephotography.com/geothermal-ecosystems",
+      "type": "Naturepedia Life at the Limits Plate™"
+    },
+    {
+      "category": "Geothermal Ecosystems Plates™",
+      "name": "Geothermal Microbial Mats Plate™",
+      "id": "geothermal-ecosystems#geothermal-microbial-mats-plate",
+      "url": "https://www.robbiegeorgephotography.com/geothermal-ecosystems",
+      "type": "Naturepedia Microbial Ecology Plate™"
+    },
+    {
+      "category": "Geothermal Ecosystems Plates™",
+      "name": "Geothermal Wildlife Relationships Plate™",
+      "id": "geothermal-ecosystems#geothermal-wildlife-relationships-plate",
+      "url": "https://www.robbiegeorgephotography.com/geothermal-ecosystems",
+      "type": "Naturepedia Wildlife Relationships Plate™"
+    },
+    {
+      "category": "Geothermal Ecosystems Plates™",
+      "name": "Geothermal Biodiversity Plate™",
+      "id": "geothermal-ecosystems#geothermal-biodiversity-plate",
+      "url": "https://www.robbiegeorgephotography.com/geothermal-ecosystems",
+      "type": "Naturepedia Biodiversity Plate™"
+    },
+    {
+      "category": "Geothermal Ecosystems Plates™",
+      "name": "Geothermal Ecosystem Services Plate™",
+      "id": "geothermal-ecosystems#geothermal-ecosystem-services-plate",
+      "url": "https://www.robbiegeorgephotography.com/geothermal-ecosystems",
+      "type": "Naturepedia Ecosystem Services Plate™"
+    },
+    {
+      "category": "Geothermal Ecosystems Plates™",
+      "name": "Hydrothermal Vent Ecosystems Plate™",
+      "id": "geothermal-ecosystems#hydrothermal-vent-ecosystems-plate",
+      "url": "https://www.robbiegeorgephotography.com/geothermal-ecosystems",
+      "type": "Naturepedia Ocean Earth Systems Plate™"
+    },
+    {
+      "category": "Geothermal Ecosystems Plates™",
+      "name": "Global Geothermal Regions Plate™",
+      "id": "geothermal-ecosystems#global-geothermal-regions-plate",
+      "url": "https://www.robbiegeorgephotography.com/geothermal-ecosystems",
+      "type": "Naturepedia Global Earth Systems Plate™"
+    },
+    {
+      "category": "Geothermal Ecosystems Plates™",
+      "name": "Geothermal Photography Plate™",
+      "id": "geothermal-ecosystems#geothermal-photography-plate",
+      "url": "https://www.robbiegeorgephotography.com/geothermal-ecosystems",
+      "type": "Naturepedia Photography Plate™"
+    },
+    {
+      "category": "Geothermal Ecosystems Plates™",
+      "name": "Geothermal Earth Systems™",
+      "id": "geothermal-ecosystems#geothermal-earth-systems",
+      "url": "https://www.robbiegeorgephotography.com/geothermal-ecosystems",
+      "type": "Naturepedia Earth Systems Layer™"
+    },
+    {
+      "category": "Yellowstone Thermal Features Plates™",
+      "name": "Yellowstone Thermal Systems Plate™",
+      "id": "yellowstone-thermal-features#yellowstone-thermal-systems-plate",
+      "url": "https://www.robbiegeorgephotography.com/yellowstone-thermal-features",
+      "type": "Naturepedia Earth Systems Plate™"
+    },
+    {
+      "category": "Yellowstone Thermal Features Plates™",
+      "name": "Yellowstone Thermal Identification Plate™",
+      "id": "yellowstone-thermal-features#yellowstone-thermal-identification-plate",
+      "url": "https://www.robbiegeorgephotography.com/yellowstone-thermal-features",
+      "type": "Naturepedia Identification Plate™"
+    },
+    {
+      "category": "Yellowstone Thermal Features Plates™",
+      "name": "Yellowstone Geysers Plate™",
+      "id": "yellowstone-thermal-features#yellowstone-geysers-plate",
+      "url": "https://www.robbiegeorgephotography.com/yellowstone-thermal-features",
+      "type": "Naturepedia Geothermal Features Plate™"
+    },
+    {
+      "category": "Yellowstone Thermal Features Plates™",
+      "name": "Yellowstone Hot Springs Plate™",
+      "id": "yellowstone-thermal-features#yellowstone-hot-springs-plate",
+      "url": "https://www.robbiegeorgephotography.com/yellowstone-thermal-features",
+      "type": "Naturepedia Geothermal Features Plate™"
+    },
+    {
+      "category": "Yellowstone Thermal Features Plates™",
+      "name": "Yellowstone Mud Pots Plate™",
+      "id": "yellowstone-thermal-features#yellowstone-mud-pots-plate",
+      "url": "https://www.robbiegeorgephotography.com/yellowstone-thermal-features",
+      "type": "Naturepedia Geothermal Features Plate™"
+    },
+    {
+      "category": "Yellowstone Thermal Features Plates™",
+      "name": "Yellowstone Fumaroles Plate™",
+      "id": "yellowstone-thermal-features#yellowstone-fumaroles-plate",
+      "url": "https://www.robbiegeorgephotography.com/yellowstone-thermal-features",
+      "type": "Naturepedia Geothermal Features Plate™"
+    },
+    {
+      "category": "Yellowstone Thermal Features Plates™",
+      "name": "Old Faithful Plate™",
+      "id": "yellowstone-thermal-features#old-faithful-plate",
+      "url": "https://www.robbiegeorgephotography.com/yellowstone-thermal-features",
+      "type": "Naturepedia Yellowstone Landmark Plate™"
+    },
+    {
+      "category": "Yellowstone Thermal Features Plates™",
+      "name": "Grand Prismatic Spring Plate™",
+      "id": "yellowstone-thermal-features#grand-prismatic-spring-plate",
+      "url": "https://www.robbiegeorgephotography.com/yellowstone-thermal-features",
+      "type": "Naturepedia Yellowstone Landmark Plate™"
+    },
+    {
+      "category": "Yellowstone Thermal Features Plates™",
+      "name": "Mammoth Hot Springs Plate™",
+      "id": "yellowstone-thermal-features#mammoth-hot-springs-plate",
+      "url": "https://www.robbiegeorgephotography.com/yellowstone-thermal-features",
+      "type": "Naturepedia Yellowstone Landmark Plate™"
+    },
+    {
+      "category": "Yellowstone Thermal Features Plates™",
+      "name": "Norris Geyser Basin Plate™",
+      "id": "yellowstone-thermal-features#norris-geyser-basin-plate",
+      "url": "https://www.robbiegeorgephotography.com/yellowstone-thermal-features",
+      "type": "Naturepedia Yellowstone Landmark Plate™"
+    },
+    {
+      "category": "Yellowstone Thermal Features Plates™",
+      "name": "Yellowstone Microbial Life Plate™",
+      "id": "yellowstone-thermal-features#yellowstone-microbial-life-plate",
+      "url": "https://www.robbiegeorgephotography.com/yellowstone-thermal-features",
+      "type": "Naturepedia Microbial Ecology Plate™"
+    },
+    {
+      "category": "Yellowstone Thermal Features Plates™",
+      "name": "Yellowstone Thermal Ecology Plate™",
+      "id": "yellowstone-thermal-features#yellowstone-thermal-ecology-plate",
+      "url": "https://www.robbiegeorgephotography.com/yellowstone-thermal-features",
+      "type": "Naturepedia Ecology Plate™"
+    },
+    {
+      "category": "Yellowstone Thermal Features Plates™",
+      "name": "Yellowstone Water & Heat Systems Plate™",
+      "id": "yellowstone-thermal-features#yellowstone-water-heat-systems-plate",
+      "url": "https://www.robbiegeorgephotography.com/yellowstone-thermal-features",
+      "type": "Naturepedia Earth Systems Plate™"
+    },
+    {
+      "category": "Yellowstone Thermal Features Plates™",
+      "name": "Yellowstone Thermal Photography Plate™",
+      "id": "yellowstone-thermal-features#yellowstone-thermal-photography-plate",
+      "url": "https://www.robbiegeorgephotography.com/yellowstone-thermal-features",
+      "type": "Naturepedia Photography Plate™"
+    },
+    {
+      "category": "Yellowstone Thermal Features Plates™",
+      "name": "Yellowstone Earth Systems™",
+      "id": "yellowstone-thermal-features#yellowstone-earth-systems",
+      "url": "https://www.robbiegeorgephotography.com/yellowstone-thermal-features",
+      "type": "Naturepedia Earth Systems Layer™"
     },
     {
   "category": "Plant Community & Native Habitat Plates™",
