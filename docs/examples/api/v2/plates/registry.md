@@ -107,9 +107,29 @@ firs-of-north-america#fir-carbon-storage-plate
 
 ## Registry Families
 
-### Naturepedia Tree Family Registries
+### Naturepedia Earth Systems Registries
 
 ```text
+Earth Systems™
+Volcanic Landscapes™
+Microbial Life Systems™
+Geothermal Ecosystems™
+Yellowstone Thermal Features™
+Hydrothermal Ecosystems™
+Soil Systems™
+Carbon Cycle™
+Ecosystem Feedbacks™
+```
+
+Active Earth Systems registry expansion includes:
+
+```text
+Earth Systems™
+Volcanic Landscapes™
+Microbial Life Systems™
+Geothermal Ecosystems™
+Yellowstone Thermal Features™
+Naturepedia Tree Family Registries
 Hemlocks of North America™
 Spruces of North America™
 Firs of North America™
@@ -120,7 +140,7 @@ Cottonwoods of North America™
 Hickories of North America™
 ```
 
-Active registries include:
+Active tree registries include:
 
 ```text
 Hemlocks of North America™
@@ -284,7 +304,7 @@ Machine settlement via x402
 {
   "version": "2.0.0",
   "registry_type": "plate-discovery",
-  "registry_state": "active",
+  "registry_state": "active-earth-systems-expanded",
   "architect_of_record": "Robbie George"
 }
 ```
