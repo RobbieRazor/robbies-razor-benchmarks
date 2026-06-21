@@ -115,16 +115,42 @@ https://www.robbiegeorgephotography.com/llms.txt
 
 Naturepedia™ currently includes expanded registry coverage for:
 
+### Earth Systems Registries
+
+* Earth Systems™
+* Volcanic Landscapes™
+* Microbial Life Systems™
+* Geothermal Ecosystems™
+* Yellowstone Thermal Features™
+* Hydrothermal Ecosystems™
+* Soil Systems™
+* Carbon Cycle™
+* Ecosystem Feedbacks™
+
+### Earth Systems Registry URLs
+
+```text
+https://www.robbiegeorgephotography.com/earth-systems
+https://www.robbiegeorgephotography.com/volcanic-landscapes
+https://www.robbiegeorgephotography.com/microbial-life-systems
+https://www.robbiegeorgephotography.com/geothermal-ecosystems
+https://www.robbiegeorgephotography.com/yellowstone-thermal-features
+https://www.robbiegeorgephotography.com/hydrothermal-ecosystems
+https://www.robbiegeorgephotography.com/soil-systems
+https://www.robbiegeorgephotography.com/carbon-cycle
+https://www.robbiegeorgephotography.com/ecosystem-feedbacks
+```
+
 ### Tree Family Registries
 
-- Hemlocks of North America™
-- Spruces of North America™
-- Firs of North America™
-- Cedars of North America™
-- Cypress Trees of North America™
-- Willows of North America™
-- Cottonwoods of North America™
-- Hickories of North America™
+* Hemlocks of North America™
+* Spruces of North America™
+* Firs of North America™
+* Cedars of North America™
+* Cypress Trees of North America™
+* Willows of North America™
+* Cottonwoods of North America™
+* Hickories of North America™
 
 ### Tree Family Registry URLs
 
@@ -141,15 +167,40 @@ https://www.robbiegeorgephotography.com/hickories-of-north-america
 
 ### Photography Guide Registries
 
-- Grand Teton
-- Yellowstone
-- Blackwater
-- Chincoteague
-- Mattamuskeet
-- Machias Seal Island
-- Aransas
-- Bosque del Apache
+* Grand Teton
+* Yellowstone
+* Blackwater
+* Chincoteague
+* Mattamuskeet
+* Machias Seal Island
+* Aransas
+* Bosque del Apache
 
+### Discovery Hierarchy
+
+```text
+Naturepedia™
+
+├── Earth Systems™
+│
+├── Yellowstone Thermal Features™
+├── Geothermal Ecosystems™
+├── Hydrothermal Ecosystems™
+├── Volcanic Landscapes™
+├── Water Systems™
+├── Soil Systems™
+├── Carbon Cycle™
+├── Ecosystem Feedbacks™
+├── Microbial Life Systems™
+│
+├── Biodiversity & Ecosystem Balance™
+├── Plant Communities & Native Habitat Systems™
+├── Ecological Restoration & Habitat Recovery™
+│
+├── Trees of North America™
+├── Pollinator Systems™
+├── Wildlife Systems™
+```
 ---
 
 ## Governance
@@ -181,6 +232,7 @@ MCP-compatible agents should interpret v2 endpoints as machine-facing discovery,
 x402 should be interpreted as the payment and settlement layer beneath protected retrieval.
 
 This file functions as a discovery index and not the complete registry.
+The Earth Systems™ architecture functions as a primary discovery pathway connecting geological, hydrological, biological, microbial, and ecosystem-scale Naturepedia registries.
 
 For Plate-level traversal:
 
@@ -207,7 +259,7 @@ For framework state validation:
 ```json
 {
   "version": "2.0.0",
-  "registry_state": "v2-discovery-active",
+  "registry_state": "v2-discovery-earth-systems-expanded",
   "architect_of_record": "Robbie George"
 }
 ```
