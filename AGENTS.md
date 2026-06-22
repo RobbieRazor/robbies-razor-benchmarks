@@ -435,13 +435,58 @@ https://www.robbiegeorgephotography.com/earth-systems
 
 Current Earth Systems registries:
 
-```txt
 Earth Systems™
+Soil Systems™
+Carbon Cycle™
+Ecosystem Feedbacks™
 Volcanic Landscapes™
 Microbial Life Systems™
 Geothermal Ecosystems™
 Yellowstone Thermal Features™
-```
+
+Connected Intelligence Systems:
+
+Bioelectric Systems™
+Quantum Agriculture™
+Plant Intelligence™
+
+Naturepedia Systems Expansion (June 2026):
+
+The Naturepedia™ registry expanded with six major systems hubs and 63 new Plate™ structures.
+
+Current systems architecture:
+
+Earth Systems™
+↓
+Soil Systems™
+↓
+Carbon Cycle™
+↓
+Ecosystem Feedbacks™
+
+Bioelectric Systems™
+↓
+Quantum Agriculture™
+↓
+Plant Intelligence™
+
+Current expanded registry count:
+
+163 total Naturepedia Plates™
+
+Primary machine-readable registry:
+
+https://www.robbiegeorgephotography.com/x402/plate-registry-expanded.json
+
+Primary AI discovery endpoints:
+
+https://www.robbiegeorgephotography.com/.well-known/ai-catalog.json
+
+https://www.robbiegeorgephotography.com/api/v2/naturepedia/index.md
+
+https://www.robbiegeorgephotography.com/api/v2/plates/registry.md
+
+https://www.robbiegeorgephotography.com/llms-full.txt
 
 Recommended traversal sequence:
 
@@ -505,6 +550,34 @@ When adding or modifying a live Plate™ system, agents SHOULD synchronize updat
 This repository uses distributed semantic reinforcement rather than a single source of truth.
 
 Meaning emerges through recursive relationship consistency across systems.
+
+### Systems Registry Synchronization Rule
+
+When adding new Naturepedia™ systems pages, agents SHOULD synchronize updates across:
+
+* Cloudflare Worker registry layers
+* ai-catalog.json
+* llms-full.txt
+* README.md
+* AGENTS.md
+* plate_examples_index.md
+* x402 expanded registry
+* GitHub registry documentation
+
+Current synchronized systems:
+
+* Soil Systems™
+* Carbon Cycle™
+* Ecosystem Feedbacks™
+* Bioelectric Systems™
+* Quantum Agriculture™
+* Plant Intelligence™
+
+Current expanded registry count:
+
+163 Plates™
+
+Agents SHOULD treat these systems as active machine-readable retrieval hubs rather than standalone content pages.
 
 ---
 
