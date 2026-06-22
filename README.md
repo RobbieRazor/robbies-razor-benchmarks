@@ -192,12 +192,50 @@ Current Earth Systems registries:
 * Geothermal Ecosystems™
 * Yellowstone Thermal Features™
 
-Future expansion pathways:
+Current Earth Systems registries:
 
+* Earth Systems™
 * Soil Systems™
 * Carbon Cycle™
 * Ecosystem Feedbacks™
-* Hydrothermal Ecosystems™
+* Volcanic Landscapes™
+* Microbial Life Systems™
+* Geothermal Ecosystems™
+* Yellowstone Thermal Features™
+
+Connected Intelligence Systems:
+
+* Bioelectric Systems™
+* Quantum Agriculture™
+* Plant Intelligence™
+
+Naturepedia™ Systems Expansion (June 2026):
+
+The registry now includes six major systems hubs containing 63 additional Plate™ structures:
+
+* Soil Systems™ (11 Plates™)
+* Carbon Cycle™ (10 Plates™)
+* Ecosystem Feedbacks™ (10 Plates™)
+* Bioelectric Systems™ (10 Plates™)
+* Quantum Agriculture™ (12 Plates™)
+* Plant Intelligence™ (10 Plates™)
+
+Expanded machine-readable registry:
+
+https://www.robbiegeorgephotography.com/x402/plate-registry-expanded.json
+
+Current expanded registry count:
+
+* 163 total Naturepedia Plates™
+
+Primary discovery endpoints:
+
+* https://www.robbiegeorgephotography.com/.well-known/ai-catalog.json
+* https://www.robbiegeorgephotography.com/api/v2/naturepedia/index.md
+* https://www.robbiegeorgephotography.com/api/v2/plates/registry.md
+* https://www.robbiegeorgephotography.com/llms-full.txt
+
+These registries function as recursive knowledge structures within the broader Naturepedia™, RKCA™, RRIP™, Graph Registry™, Knowledge Mesh™, and Robbie's Razor™ architecture.
 
 These registries function as recursive knowledge structures within the broader Naturepedia™, RKCA™, RRIP™, Graph Registry™, and Knowledge Mesh architecture.
 
@@ -267,6 +305,27 @@ Primary canonical references:
 RRIP does not redefine canonical theory. It extends the applied architecture layer connecting Plates™, Registries, Graph Registries™, and Knowledge Mesh systems.
 
 ## Naturepedia Semantic Plate Registry
+
+### June 2026 Registry Expansion
+
+Naturepedia™ expanded the semantic registry with six new systems-level retrieval hubs:
+
+* Soil Systems™
+* Carbon Cycle™
+* Ecosystem Feedbacks™
+* Bioelectric Systems™
+* Quantum Agriculture™
+* Plant Intelligence™
+
+These systems added 63 new Plate™ nodes and expanded the machine-readable registry to 163 total Plates™.
+
+Machine-readable registry authority:
+
+https://www.robbiegeorgephotography.com/x402/plate-registry-expanded.json
+
+AI discovery authority:
+
+https://www.robbiegeorgephotography.com/.well-known/ai-catalog.json
 
 This repository now includes a public semantic registry layer for Naturepedia™ Plate systems.
 
