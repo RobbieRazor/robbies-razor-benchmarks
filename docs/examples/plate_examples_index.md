@@ -584,6 +584,156 @@ docs/examples/json-ld/plate-registry.json
 
 ---
 
+## Naturepedia Systems Expansion Plates™
+
+### Soil Systems™
+
+URL:
+https://www.robbiegeorgephotography.com/soil-systems
+
+Plates:
+
+* Soil Systems Plate™
+* Soil Formation Plate™
+* Soil Horizons Plate™
+* Soil Microbiome Plate™
+* Mycorrhizal Networks Plate™
+* Living Soil Food Web Plate™
+* Nutrient Cycling Plate™
+* Soil Carbon Plate™
+* Soil Biodiversity Plate™
+* Soil Water Systems Plate™
+* Regenerative Soil Systems Plate™
+
+---
+
+### Carbon Cycle™
+
+URL:
+https://www.robbiegeorgephotography.com/carbon-cycle
+
+Plates:
+
+* Carbon Cycle Plate™
+* Photosynthesis Plate™
+* Respiration Plate™
+* Decomposition Plate™
+* Forest Carbon Plate™
+* Soil Carbon Plate™
+* Wetlands & Peat Plate™
+* Ocean Carbon Plate™
+* Carbon Sequestration Plate™
+* Regenerative Carbon Systems Plate™
+
+---
+
+### Ecosystem Feedbacks™
+
+URL:
+https://www.robbiegeorgephotography.com/ecosystem-feedbacks
+
+Plates:
+
+* Ecosystem Feedbacks Plate™
+* Positive Feedback Loops Plate™
+* Negative Feedback Loops Plate™
+* Soil Feedbacks Plate™
+* Forest Feedbacks Plate™
+* Water & Climate Feedbacks Plate™
+* Microbial Feedbacks Plate™
+* Mycelial Feedback Networks Plate™
+* Disturbance & Recovery Plate™
+* Regenerative Feedback Systems Plate™
+
+---
+
+### Bioelectric Systems™
+
+URL:
+https://www.robbiegeorgephotography.com/bioelectric-systems
+
+Plates:
+
+* Bioelectric Systems Plate™
+* Harold Burr's Life Fields Plate™
+* Bioelectric Morphogenesis Plate™
+* Michael Levin Plate™
+* Regeneration & Healing Plate™
+* Plant Electrophysiology Plate™
+* Soil Electrical Networks Plate™
+* Bioelectric Medicine Plate™
+* Electrical Ecology Plate™
+* Bioelectric Photography Plate™
+
+---
+
+### Quantum Agriculture™
+
+URL:
+https://www.robbiegeorgephotography.com/naturepedia-quantum-agriculture
+
+Plates:
+
+* Quantum Agriculture Plate™
+* Living Soil Intelligence Plate™
+* Bioelectric Farming Plate™
+* Light & Photons in Agriculture Plate™
+* Water Intelligence Plate™
+* Plant Communication Plate™
+* Mycorrhizal Partnerships Plate™
+* Nutrient Cycling & Bioavailability Plate™
+* Regenerative Farming Systems Plate™
+* Carbon Farming Plate™
+* Biodiversity & Ecosystem Balance Plate™
+* Future Food Systems Plate™
+
+---
+
+### Plant Intelligence™
+
+URL:
+https://www.robbiegeorgephotography.com/naturepedia-plant-intelligence
+
+Plates:
+
+* Plant Intelligence Plate™
+* Plant Communication Plate™
+* Plant Electrophysiology Plate™
+* Root Intelligence Plate™
+* Plant Memory Plate™
+* Plant Defense Systems Plate™
+* Plant Sensory Biology Plate™
+* Plant Cooperation Plate™
+* Plants & Mycorrhizal Networks Plate™
+* Future Plant Intelligence Plate™
+
+---
+
+### Registry Expansion Summary
+
+Current Naturepedia™ systems expansion:
+
+* Soil Systems™
+* Carbon Cycle™
+* Ecosystem Feedbacks™
+* Bioelectric Systems™
+* Quantum Agriculture™
+* Plant Intelligence™
+
+Total new Plates™ added:
+
+63
+
+Current expanded registry:
+
+163 Naturepedia Plates™
+
+Machine-readable authority:
+
+https://www.robbiegeorgephotography.com/x402/plate-registry-expanded.json
+
+---
+
 ## Recursive Compression & Foundation Plates™
 
 | Plate™ | Semantic ID | Type | Live URL |
