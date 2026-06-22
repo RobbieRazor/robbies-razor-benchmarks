@@ -285,17 +285,220 @@ Current Plates™
 
 ---
 
-### Additional Tree Families
+### Cottonwood Systems™
 
-Present and awaiting census normalization:
+Primary System Plate™
 
+* Cottonwood Systems Plate™
+
+Current Plates™
+
+* Cottonwood Identification Plate™
+* Cottonwood Leaf Plate™
+* Cottonwood Seed Plate™
+* Cottonwood Bark Plate™
+* Cottonwood River Systems Plate™
+* Cottonwood Wildlife Relationships Plate™
+* Cottonwood Floodplain Forest Plate™
+* Cottonwood Ecological Restoration Plate™
+* Cottonwood Biodiversity Plate™
+* Eastern Cottonwood Plate™
+* Fremont Cottonwood Plate™
+* Black Cottonwood Plate™
+* Plains Cottonwood Plate™
+
+---
+
+### Hickory Systems™
+
+Primary System Plate™
+
+* Hickory Systems Plate™
+
+Current Plates™
+
+* Hickory Identification Plate™
+* Hickory Leaf Plate™
+* Hickory Nut Plate™
+* Hickory Bark Plate™
+* Hickory Wildlife Relationships Plate™
+* Hickory Mast Production Plate™
+* Hickory Forest Community Plate™
+* Hickory Ecological Restoration Plate™
+* Hickory Biodiversity Plate™
+* Shagbark Hickory Plate™
+* Shellbark Hickory Plate™
+* Pignut Hickory Plate™
+* Mockernut Hickory Plate™
+* Bitternut Hickory Plate™
+
+---
+
+### Maple Systems™
+
+Primary System Plate™
+
+* Maple Systems Plate™
+
+Current Plates™
+
+* Maple Identification Plate™
+* Maple Leaf Plate™
+* Maple Sap Flow Plate™
+* Maple Autumn Color Plate™
+* Maple Wildlife Relationships Plate™
+* Maple Forest Community Plate™
+* Maple Seed & Samara Plate™
+* Maple Carbon Storage Plate™
+* Sugar Maple Plate™
+* Red Maple Plate™
+* Silver Maple Plate™
+* Bigleaf Maple Plate™
+* Striped Maple Plate™
+
+Associated Artist Renditions™
+
+* Maple Forest Artist Rendition Plate™
+* Maple Sap Flow Artist Rendition Plate™
+* Autumn Maple Canopy Artist Rendition Plate™
+
+---
+
+### Oak Systems™
+
+Primary System Plate™
+
+* Oak Systems Plate™
+
+Current Plates™
+
+* Oak Identification Plate™
+* Oak Leaf & Acorn Plate™
+* Oak Wildlife Relationships Plate™
+* Oak Keystone Species Plate™
+* Oak Pollinator & Insect Plate™
+* Oak Forest Community Plate™
+* Oak Carbon Storage Plate™
+* White Oak Plate™
+* Red Oak Plate™
+* Bur Oak Plate™
+* Live Oak Plate™
+
+Associated Artist Renditions™
+
+* Oak Forest Artist Rendition Plate™
+* Acorn Ecology Artist Rendition Plate™
+
+---
+
+### Pine Systems™
+
+Primary System Plate™
+
+* Pine Systems Plate™
+
+Current Plates™
+
+* Pine Identification Plate™
+* Pine Needle Plate™
+* Pine Cone Plate™
+* Pine Bark Plate™
+* Pine Cone Ecology Plate™
+* Pine Wildlife Relationships Plate™
+* Pine Fire Ecology Plate™
+* Pine Forest Community Plate™
+* Pine Carbon Storage Plate™
+* Eastern White Pine Plate™
+* Ponderosa Pine Plate™
+* Lodgepole Pine Plate™
+* Longleaf Pine Plate™
+
+Associated Artist Renditions™
+
+* Pine Forest Artist Rendition Plate™
+* Pine Cone Artist Rendition Plate™
+* Mountain Pine Forest Artist Rendition Plate™
+
+---
+
+### Spruce Systems™
+
+Primary System Plate™
+
+* Spruce Systems Plate™
+
+Current Plates™
+
+* Spruce Identification Plate™
+* Spruce Needle Plate™
+* Spruce Cone Plate™
+* Spruce Bark Plate™
+* Spruce Boreal Forest Plate™
+* Spruce Wildlife Relationships Plate™
+* Spruce Forest Community Plate™
+* Spruce Carbon Storage Plate™
+* Spruce Climate Resilience Plate™
+* White Spruce Plate™
+* Black Spruce Plate™
+* Red Spruce Plate™
+* Engelmann Spruce Plate™
+
+---
+
+### Willow Systems™
+
+Primary System Plate™
+
+* Willow Systems Plate™
+
+Current Plates™
+
+* Willow Identification Plate™
+* Willow Leaf Plate™
+* Willow Catkin Plate™
+* Willow Bark Plate™
+* Willow Riparian Systems Plate™
+* Willow Wildlife Relationships Plate™
+* Willow Beaver Relationships Plate™
+* Willow Ecological Restoration Plate™
+* Willow Biodiversity Plate™
+* Black Willow Plate™
+* Bebb Willow Plate™
+* Scouler Willow Plate™
+* Peachleaf Willow Plate™
+
+---
+
+### Tree Systems Census Status
+
+Tree Registry Families Completed:
+
+* Trees of North America™
+* Aspens™
+* Birches™
+* Cedars™
 * Cottonwoods™
+* Cypress™
+* Firs™
+* Hemlocks™
 * Hickories™
 * Maples™
 * Oaks™
 * Pines™
 * Spruces™
 * Willows™
+
+Status:
+
+Tree Systems Census Complete
+
+Next Recommended Census Branch:
+
+* Pollinator Systems™
+* Bees™
+* Butterflies™
+* Moths™
+* Hummingbirds™
 
 ### Aspens™
 
