@@ -1930,7 +1930,278 @@ Status:
 
 Volcanic Landscapes Census Complete
 
+## Geothermal Ecosystems™
+
+Status: Census In Progress
+
+Classification:
+KEEP
+DUPLICATE
+DRAFT
+ARTIST-RENDITION
+SUPERSEDED
+
+---
+
 ### Geothermal Ecosystems™
+
+Primary System Plate™
+
+* Geothermal Ecosystems Plate™
+
+Purpose:
+
+Geothermal Ecosystems™ explores biological, geological, hydrological, and ecological systems associated with geothermal activity. These environments serve as important connections between Earth systems, microbial life, extremophile biology, biodiversity, and planetary evolution.
+
+This system functions as a major Naturepedia™ bridge connecting geology, life, heat, water, and ecosystem development.
+
+---
+
+### Geothermal Identification Systems™
+
+KEEP
+
+* Geothermal Identification Plate™
+
+Purpose:
+
+Recognition and interpretation of geothermal features, habitats, water systems, biological communities, and geological processes.
+
+Relationships™
+
+→ Yellowstone Thermal Features™
+→ Geothermal Water Systems™
+→ Earth Systems™
+
+---
+
+### Geothermal Water Systems™
+
+KEEP
+
+* Geothermal Water Systems Plate™
+
+Purpose:
+
+Water-driven geothermal environments where heat, minerals, chemistry, biology, and hydrology interact.
+
+Relationships™
+
+→ Water Systems™
+→ Hydrothermal Ecosystems™
+→ Earth Systems™
+
+---
+
+### Thermophile Life Systems™
+
+KEEP
+
+* Thermophile Life Plate™
+
+Purpose:
+
+Heat-adapted organisms thriving in geothermal environments and contributing to ecosystem processes.
+
+Relationships™
+
+→ Microbial Life Systems™
+→ Extremophiles™
+→ Origins of Life™
+
+---
+
+### Extremophile Systems™
+
+KEEP
+
+* Extremophile Life Plate™
+
+Purpose:
+
+Life adapted to extreme heat, chemistry, acidity, pressure, and environmental conditions.
+
+Relationships™
+
+→ Thermophile Life™
+→ Hydrothermal Ecosystems™
+→ Astrobiology™
+
+---
+
+### Geothermal Microbial Systems™
+
+KEEP
+
+* Geothermal Microbial Mats Plate™
+
+Purpose:
+
+Structured microbial communities supporting nutrient cycling, energy transfer, ecological succession, and biological productivity.
+
+Relationships™
+
+→ Microbial Mats™
+→ Chemosynthesis™
+→ Microbial Life Systems™
+
+---
+
+### Geothermal Wildlife Relationships™
+
+KEEP
+
+* Geothermal Wildlife Relationships Plate™
+
+Purpose:
+
+Wildlife interactions with geothermal landscapes, thermal habitats, water resources, and ecological communities.
+
+Relationships™
+
+→ Biodiversity™
+→ Yellowstone Thermal Features™
+→ Water Systems™
+
+---
+
+### Geothermal Biodiversity™
+
+KEEP
+
+* Geothermal Biodiversity Plate™
+
+Purpose:
+
+Biological diversity supported by geothermal landscapes and specialized environmental conditions.
+
+Relationships™
+
+→ Ecosystems™
+→ Microbial Life Systems™
+→ Earth Systems™
+
+---
+
+### Ecosystem Service Systems™
+
+KEEP
+
+* Geothermal Ecosystem Services Plate™
+
+Purpose:
+
+Ecological functions provided by geothermal systems including habitat creation, nutrient cycling, biodiversity support, and biological productivity.
+
+Relationships™
+
+→ Water Systems™
+→ Biodiversity™
+→ Ecosystem Feedbacks™
+
+---
+
+### Hydrothermal Vent Systems™
+
+KEEP
+
+* Hydrothermal Vent Ecosystems Plate™
+
+Purpose:
+
+Deep-ocean geothermal ecosystems powered by chemosynthesis, mineral-rich waters, and extremophile communities.
+
+Relationships™
+
+→ Hydrothermal Ecosystems™
+→ Chemosynthesis™
+→ Origins of Life™
+
+---
+
+### Global Geothermal Regions™
+
+KEEP
+
+* Global Geothermal Regions Plate™
+
+Purpose:
+
+Worldwide geothermal environments linking geology, biodiversity, volcanism, microbial systems, and ecological adaptation.
+
+Relationships™
+
+→ Volcanic Landscapes™
+→ Earth Systems™
+→ Yellowstone Thermal Features™
+
+---
+
+### Geothermal Photography™
+
+KEEP
+
+* Geothermal Photography Plate™
+
+Purpose:
+
+Visual interpretation of geothermal processes, microbial ecosystems, biological adaptation, and geological relationships.
+
+Relationships™
+
+→ Field Locations™
+→ Yellowstone Thermal Features™
+→ Naturepedia™
+
+---
+
+### Geothermal Ecosystem Relationships™
+
+Geothermal Ecosystems™
+
+→ Volcanic Landscapes™
+
+→ Yellowstone Thermal Features™
+
+→ Hydrothermal Ecosystems™
+
+→ Microbial Life Systems™
+
+→ Water Systems™
+
+→ Earth Systems™
+
+→ Biodiversity™
+
+→ Origins of Life™
+
+→ Extremophile Systems™
+
+→ Astrobiology™
+
+Geothermal ecosystems should be interpreted as relationship architectures connecting geological energy, biological adaptation, microbial systems, water, and ecological complexity.
+
+---
+
+### Geothermal Ecosystems Census Status
+
+Geothermal Registry Families Completed:
+
+* Geothermal Identification Systems™
+* Geothermal Water Systems™
+* Thermophile Life Systems™
+* Extremophile Systems™
+* Geothermal Microbial Systems™
+* Geothermal Wildlife Relationships™
+* Geothermal Biodiversity™
+* Ecosystem Service Systems™
+* Hydrothermal Vent Systems™
+* Global Geothermal Regions™
+* Geothermal Photography™
+
+Status:
+
+Geothermal Ecosystems Census Complete
 
 ## Microbial Life Systems™
 
