@@ -526,7 +526,129 @@ Next Recommended Census Branch:
 
 ### Willows™
 
-### Wildlife Species™
+## Wildlife Species™
+
+Status: Census In Progress
+
+Classification:
+KEEP
+DUPLICATE
+DRAFT
+ARTIST-RENDITION
+SUPERSEDED
+
+---
+
+### Mammals of North America™
+
+Primary System Plate™
+
+* Mammals of North America Plate™
+
+KEEP
+
+* Gray Wolf Species Plate™
+* Red Wolf Species Plate™
+* Black Bear Species Plate™
+* Grizzly Bear Species Plate™
+* Mountain Lion Species Plate™
+* Bobcat Species Plate™
+* Coyote Species Plate™
+* Red Fox Species Plate™
+* Fisher Species Plate™
+* River Otter Species Plate™
+* Beaver Species Plate™
+* Moose Species Plate™
+* Elk Species Plate™
+* American Bison Species Plate™
+* White-tailed Deer Species Plate™
+* Mule Deer Species Plate™
+* Pronghorn Species Plate™
+* Bighorn Sheep Species Plate™
+* Mountain Goat Species Plate™
+* Badger Species Plate™
+* Snowshoe Hare Species Plate™
+
+ARTIST RENDITIONS
+
+* Fisher Artist Rendition Plate™
+
+---
+
+### Raptors & Birds of Prey™
+
+KEEP
+
+* Birds of Prey Plate™
+* Bald Eagle Species Plate™
+* Golden Eagle Species Plate™
+* Great Horned Owl Species Plate™
+* Peregrine Falcon Species Plate™
+* Red-tailed Hawk Species Plate™
+* Osprey Species Plate™
+* Snowy Owl Species Plate™
+
+---
+
+### Waterfowl & Wetland Birds™
+
+KEEP
+
+* Waterfowl & Wetland Birds Plate™
+* Tundra Swan Species Plate™
+* Wood Duck Species Plate™
+* Whooping Crane Species Plate™
+
+---
+
+### Songbirds, Seabirds & Other Birds™
+
+KEEP
+
+* Songbirds, Seabirds & Other Birds Plate™
+* Atlantic Puffin Species Plate™
+
+---
+
+### Wildlife Systems & Ecology™
+
+KEEP
+
+* Wildlife Systems & Ecology Plate™
+* Wildlife Adaptation & Survival Plate™
+* Wildlife Behavior & Ecology Plate™
+* Wildlife Conservation & Habitat Plate™
+* Wildlife Habitats & Ecosystem Zones Plate™
+* Wildlife Migration & Seasonal Patterns Plate™
+* Wildlife Observation & Field Techniques Plate™
+* Wildlife Observation Locations Plate™
+* Wildlife Sign & Tracking Plate™
+
+---
+
+### Keystone Wildlife Relationships™
+
+KEEP
+
+* Keystone Species & Trophic Cascades Plate™
+* Food Webs & Ecological Relationships Plate™
+
+---
+
+### Wildlife Species Census Status
+
+Wildlife Registry Families Completed:
+
+* Mammals of North America™
+* Raptors & Birds of Prey™
+* Waterfowl & Wetland Birds™
+* Songbirds, Seabirds & Other Birds™
+* Wildlife Systems & Ecology™
+* Keystone Wildlife Relationships™
+
+Status:
+
+Wildlife Species Census Complete
 
 ### Animal Tracks™
 
