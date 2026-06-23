@@ -2460,7 +2460,262 @@ Status:
 
 Microbial Life Systems Census Complete
 
+## Yellowstone Thermal Features™
+
+Status: Census In Progress
+
+Classification:
+KEEP
+DUPLICATE
+DRAFT
+ARTIST-RENDITION
+SUPERSEDED
+
+---
+
 ### Yellowstone Thermal Features™
+
+Primary System Plate™
+
+* Yellowstone Thermal Systems Plate™
+
+Purpose:
+
+Yellowstone Thermal Features™ explores the geothermal landscapes, hydrothermal systems, microbial communities, geological processes, and ecological relationships that make Yellowstone one of the most extraordinary Earth-system laboratories on the planet.
+
+This system serves as a major Naturepedia™ bridge connecting geology, geothermal ecosystems, microbial life, biodiversity, water systems, and planetary processes.
+
+---
+
+### Yellowstone Identification Systems™
+
+KEEP
+
+* Yellowstone Thermal Identification Plate™
+
+Purpose:
+
+Recognition and interpretation of Yellowstone's geothermal features, hydrothermal processes, microbial habitats, and geological systems.
+
+Relationships™
+
+→ Geothermal Ecosystems™
+→ Earth Systems™
+→ Yellowstone Thermal Systems™
+
+---
+
+### Geyser Systems™
+
+KEEP
+
+* Yellowstone Geysers Plate™
+* Old Faithful Plate™
+
+Purpose:
+
+Hydrothermal water systems driven by geothermal heat, underground plumbing networks, pressure dynamics, and volcanic geology.
+
+Relationships™
+
+→ Water Systems™
+→ Geothermal Ecosystems™
+→ Earth Systems™
+
+---
+
+### Hot Spring Systems™
+
+KEEP
+
+* Yellowstone Hot Springs Plate™
+* Grand Prismatic Spring Plate™
+* Mammoth Hot Springs Plate™
+
+Purpose:
+
+Geothermal water environments supporting mineral deposition, microbial communities, biodiversity, and ecological adaptation.
+
+Relationships™
+
+→ Microbial Life Systems™
+→ Geothermal Ecosystems™
+→ Water Systems™
+
+---
+
+### Mud Pot Systems™
+
+KEEP
+
+* Yellowstone Mud Pots Plate™
+
+Purpose:
+
+Acidic geothermal environments created through interactions among heat, water, minerals, gases, and microbial activity.
+
+Relationships™
+
+→ Geothermal Ecosystems™
+→ Earth Systems™
+→ Extremophile Systems™
+
+---
+
+### Fumarole Systems™
+
+KEEP
+
+* Yellowstone Fumaroles Plate™
+
+Purpose:
+
+Steam-driven geothermal vents demonstrating volcanic heat transfer, geological activity, and hydrothermal processes.
+
+Relationships™
+
+→ Volcanic Landscapes™
+→ Geothermal Ecosystems™
+→ Earth Systems™
+
+---
+
+### Landmark Geothermal Systems™
+
+KEEP
+
+* Norris Geyser Basin Plate™
+
+Purpose:
+
+One of Yellowstone's most dynamic geothermal regions supporting extreme environmental conditions and unique biological communities.
+
+Relationships™
+
+→ Yellowstone Thermal Systems™
+→ Extremophile Systems™
+→ Geothermal Ecosystems™
+
+---
+
+### Yellowstone Microbial Systems™
+
+KEEP
+
+* Yellowstone Microbial Life Plate™
+
+Purpose:
+
+Microbial communities adapted to Yellowstone's geothermal environments and extreme ecological conditions.
+
+Relationships™
+
+→ Microbial Life Systems™
+→ Thermophiles™
+→ Origins of Life™
+
+---
+
+### Yellowstone Ecology Systems™
+
+KEEP
+
+* Yellowstone Thermal Ecology Plate™
+
+Purpose:
+
+Ecological interactions among geothermal activity, water systems, microbial communities, wildlife, vegetation, and landscape processes.
+
+Relationships™
+
+→ Biodiversity™
+→ Geothermal Ecosystems™
+→ Water Systems™
+
+---
+
+### Water & Heat Systems™
+
+KEEP
+
+* Yellowstone Water & Heat Systems Plate™
+
+Purpose:
+
+Interactions among geothermal heat, groundwater, surface water, hydrology, geology, and ecosystem processes.
+
+Relationships™
+
+→ Water Systems™
+→ Earth Systems™
+→ Geothermal Ecosystems™
+
+---
+
+### Yellowstone Photography™
+
+KEEP
+
+* Yellowstone Thermal Photography Plate™
+
+Purpose:
+
+Visual interpretation of geothermal landscapes, hydrothermal systems, microbial communities, and geological processes.
+
+Relationships™
+
+→ Field Locations™
+→ Photography Guides™
+→ Naturepedia™
+
+---
+
+### Yellowstone Thermal Relationships™
+
+Yellowstone Thermal Features™
+
+→ Geothermal Ecosystems™
+
+→ Volcanic Landscapes™
+
+→ Hydrothermal Ecosystems™
+
+→ Microbial Life Systems™
+
+→ Water Systems™
+
+→ Earth Systems™
+
+→ Biodiversity™
+
+→ Origins of Life™
+
+→ Extremophile Systems™
+
+→ Yellowstone National Park™
+
+Yellowstone thermal systems should be interpreted as a living intersection of geology, water, heat, biology, ecology, and planetary evolution.
+
+---
+
+### Yellowstone Thermal Features Census Status
+
+Yellowstone Registry Families Completed:
+
+* Yellowstone Identification Systems™
+* Geyser Systems™
+* Hot Spring Systems™
+* Mud Pot Systems™
+* Fumarole Systems™
+* Landmark Geothermal Systems™
+* Yellowstone Microbial Systems™
+* Yellowstone Ecology Systems™
+* Water & Heat Systems™
+* Yellowstone Photography™
+
+Status:
+
+Yellowstone Thermal Features Census Complete
 
 ### Trees of North America™
 
