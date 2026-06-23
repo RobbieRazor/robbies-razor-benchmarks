@@ -659,7 +659,240 @@ Status:
 
 Carbon Cycle Census Complete
 
+## Ecosystem Feedbacks™
+
+Status: Census In Progress
+
+Classification:
+KEEP
+DUPLICATE
+DRAFT
+ARTIST-RENDITION
+SUPERSEDED
+
+---
+
 ### Ecosystem Feedbacks™
+
+Primary System Plate™
+
+* Ecosystem Feedbacks Plate™
+
+Purpose:
+
+Ecosystem Feedbacks™ functions as a major Naturepedia™ relationship hub exploring how ecological systems regulate, amplify, stabilize, recover, and adapt through interconnected biological, chemical, climatic, and environmental feedback loops.
+
+Feedback systems connect nearly every major Naturepedia family.
+
+---
+
+### Positive Feedback Systems™
+
+KEEP
+
+* Positive Feedback Loops Plate™
+
+Purpose:
+
+Processes that amplify ecological change through reinforcing cycles.
+
+Relationships™
+
+→ Climate Systems™
+→ Carbon Cycle™
+→ Disturbance Systems™
+
+---
+
+### Negative Feedback Systems™
+
+KEEP
+
+* Negative Feedback Loops Plate™
+
+Purpose:
+
+Processes that stabilize ecological systems through self-regulation and balancing mechanisms.
+
+Relationships™
+
+→ Ecosystem Resilience™
+→ Biodiversity™
+→ Climate Systems™
+
+---
+
+### Soil Feedback Systems™
+
+KEEP
+
+* Soil Feedbacks Plate™
+
+Purpose:
+
+Relationships among soil biology, nutrient cycling, carbon storage, water retention, vegetation, and ecosystem productivity.
+
+Relationships™
+
+→ Soil Systems™
+→ Carbon Cycle™
+→ Plant Intelligence™
+
+---
+
+### Forest Feedback Systems™
+
+KEEP
+
+* Forest Feedbacks Plate™
+
+Purpose:
+
+Interactions among forests, climate, biodiversity, water cycles, carbon storage, and ecological resilience.
+
+Relationships™
+
+→ Forest Systems™
+→ Carbon Cycle™
+→ Water Systems™
+
+---
+
+### Water & Climate Feedback Systems™
+
+KEEP
+
+* Water & Climate Feedbacks Plate™
+
+Purpose:
+
+Hydrologic and atmospheric feedback relationships regulating weather, climate, drought, precipitation, and ecological stability.
+
+Relationships™
+
+→ Water Systems™
+→ Climate Systems™
+→ Earth Systems™
+
+---
+
+### Microbial Feedback Systems™
+
+KEEP
+
+* Microbial Feedbacks Plate™
+
+Purpose:
+
+Feedback relationships driven by microbial communities, decomposition, nutrient cycling, soil health, and ecosystem productivity.
+
+Relationships™
+
+→ Microbial Life Systems™
+→ Soil Systems™
+→ Carbon Cycle™
+
+---
+
+### Mycelial Feedback Networks™
+
+KEEP
+
+* Mycelial Feedback Networks Plate™
+
+Purpose:
+
+Underground ecological feedback systems connecting fungi, plants, nutrient exchange, communication, and ecosystem regulation.
+
+Relationships™
+
+→ Mycorrhizal Networks™
+→ Plant Intelligence™
+→ Information Systems in Nature™
+
+---
+
+### Disturbance & Recovery Systems™
+
+KEEP
+
+* Disturbance & Recovery Plate™
+
+Purpose:
+
+Ecological responses to wildfire, storms, drought, floods, invasive species, and other disturbances.
+
+Relationships™
+
+→ Restoration Systems™
+→ Forest Systems™
+→ Biodiversity™
+
+---
+
+### Regenerative Feedback Systems™
+
+KEEP
+
+* Regenerative Feedback Systems Plate™
+
+Purpose:
+
+Positive ecological recovery cycles that improve soil health, biodiversity, resilience, productivity, and ecosystem stability.
+
+Relationships™
+
+→ Regenerative Agriculture™
+→ Restoration Systems™
+→ Carbon Cycle™
+
+---
+
+### Ecosystem Feedback Relationships™
+
+Ecosystem Feedbacks™
+
+→ Soil Systems™
+
+→ Carbon Cycle™
+
+→ Water Systems™
+
+→ Forest Systems™
+
+→ Microbial Life Systems™
+
+→ Plant Intelligence™
+
+→ Information Systems in Nature™
+
+→ Biodiversity™
+
+→ Climate Systems™
+
+→ Earth Systems™
+
+Feedback systems should be interpreted as dynamic relationship architectures connecting ecological processes across scales.
+
+---
+
+### Ecosystem Feedbacks Census Status
+
+Feedback Registry Families Completed:
+
+* Positive Feedback Systems™
+* Negative Feedback Systems™
+* Soil Feedback Systems™
+* Forest Feedback Systems™
+* Water & Climate Feedback Systems™
+* Microbial Feedback Systems™
+* Mycelial Feedback Networks™
+* Disturbance & Recovery Systems™
+* Regenerative Feedback Systems™
+
+Status:
+
+Ecosystem Feedbacks Census Complete
 
 ### Bioelectric Systems™
 
