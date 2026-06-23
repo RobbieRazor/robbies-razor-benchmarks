@@ -1138,7 +1138,230 @@ Status:
 
 Field Locations Census Complete
 
-### Photography Guides™
+## Photography Guides™
+
+Status: Census In Progress
+
+Classification:
+KEEP
+DUPLICATE
+DRAFT
+ARTIST-RENDITION
+SUPERSEDED
+
+---
+
+### Photography Guide Systems™
+
+Purpose:
+
+Applied field intelligence connecting species, ecosystems, seasonal timing, behavior, weather, light, habitat, conservation, and observation strategy.
+
+Photography Guides function as practical Naturepedia™ deployment systems.
+
+---
+
+### Yellowstone Photography Guide™
+
+Primary System Plate™
+
+* Yellowstone Photography Guide Plate™
+
+Associated Plates™
+
+* Yellowstone Thermal Photography Plate™
+
+Relationships™
+
+→ Wolves
+→ Elk
+→ Bison
+→ Grizzly Bears
+→ Thermal Systems
+→ Rivers
+→ Seasons
+→ Landscape Ecology
+
+---
+
+### Grand Teton Photography Guide™
+
+Primary System Plate™
+
+* Grand Teton Photography Guide Plate™
+
+Relationships™
+
+→ Moose
+→ Elk
+→ Bears
+→ Alpine Systems
+→ Rivers
+→ Seasonal Wildlife
+→ Mountain Landscapes
+
+---
+
+### Blackwater Photography Guide™
+
+Primary System Plate™
+
+* Blackwater Photography Guide Plate™
+
+Relationships™
+
+→ Bald Eagles
+→ River Otters
+→ Wetlands
+→ Waterfowl
+→ Chesapeake Bay Systems
+
+---
+
+### Chincoteague Photography Guide™
+
+Primary System Plate™
+
+* Chincoteague Photography Guide Plate™
+
+Associated Plates™
+
+* Barrier Island Photography Plate™
+* Wild Horse Photography Plate™
+* Coastal Light & Atmospheric Photography Plate™
+
+Relationships™
+
+→ Barrier Islands
+→ Marsh Systems
+→ Shorebirds
+→ Wild Horses
+→ Coastal Ecology
+
+---
+
+### Mattamuskeet Photography Guide™
+
+Primary System Plate™
+
+* Mattamuskeet Photography Guide Plate™
+
+Associated Plates™
+
+* Waterfowl Photography Plate™
+* Lake Light Photography Plate™
+* Migration Photography Plate™
+
+Relationships™
+
+→ Tundra Swans
+→ Snow Geese
+→ Waterfowl Migration
+→ Wetland Ecology
+→ Seasonal Concentrations
+
+---
+
+### Machias Seal Island Photography Guide™
+
+Primary System Plate™
+
+* Machias Photography Guide Plate™
+
+Associated Plates™
+
+* Atlantic Puffin Photography Plate™
+* Seabird Colony Photography Plate™
+* Island Wildlife Photography Plate™
+
+Relationships™
+
+→ Atlantic Puffins
+→ Seabirds
+→ Gulf of Maine
+→ Marine Ecosystems
+
+---
+
+### Aransas Photography Guide™
+
+Primary System Plate™
+
+* Aransas Photography Guide Plate™
+
+Associated Plates™
+
+* Whooping Crane Photography Plate™
+* Coastal Marsh Photography Plate™
+* Wintering Bird Photography Plate™
+
+Relationships™
+
+→ Whooping Cranes
+→ Coastal Marshes
+→ Winter Waterfowl
+→ Gulf Coast Ecology
+
+---
+
+### Bosque del Apache Photography Guide™
+
+Primary System Plate™
+
+* Bosque Photography Guide Plate™
+
+Associated Plates™
+
+* Waterfowl Flight Photography Plate™
+* Sunrise Blast-Off Photography Plate™
+* Migration Photography Plate™
+
+Relationships™
+
+→ Cranes
+→ Snow Geese
+→ Wetlands
+→ Seasonal Wildlife Events
+→ Migration Ecology
+
+---
+
+### Photography Guide Relationships™
+
+Photography Guides™
+
+→ Field Locations™
+
+→ Wildlife Species™
+
+→ Ecosystems™
+
+→ Water Systems™
+
+→ Seasonal Wildlife Calendar™
+
+→ Conservation Systems™
+
+Photography Guides should be interpreted as applied field-observation systems rather than simple travel guides.
+
+---
+
+### Photography Guide Census Status
+
+Photography Guide Registry Families Completed:
+
+* Yellowstone Photography Guide™
+* Grand Teton Photography Guide™
+* Blackwater Photography Guide™
+* Chincoteague Photography Guide™
+* Mattamuskeet Photography Guide™
+* Machias Seal Island Photography Guide™
+* Aransas Photography Guide™
+* Bosque del Apache Photography Guide™
+
+Status:
+
+Photography Guides Census Complete
 
 ### Governance & Framework Infrastructure™
 
