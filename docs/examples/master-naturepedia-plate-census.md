@@ -941,7 +941,202 @@ Pollinator Systems Census Complete
 
 ### Water Systems™
 
-### Field Locations™
+## Field Locations™
+
+Status: Census In Progress
+
+Classification:
+KEEP
+DUPLICATE
+DRAFT
+ARTIST-RENDITION
+SUPERSEDED
+
+---
+
+### Field Locations System™
+
+Primary System Plate™
+
+* Field Locations Plate™
+
+Purpose:
+
+Place-based ecological intelligence connecting wildlife, ecosystems, seasonal timing, conservation, photography, habitat structure, and field observation.
+
+---
+
+### National Park Field Locations™
+
+KEEP
+
+* Yellowstone National Park Field Location Plate™
+* Grand Teton National Park Field Location Plate™
+* Acadia National Park Field Location Plate™
+
+Purpose:
+
+Large-scale ecosystem hubs connecting geology, wildlife, hydrology, seasonal change, and landscape processes.
+
+---
+
+### National Wildlife Refuge Field Locations™
+
+KEEP
+
+* Blackwater National Wildlife Refuge Field Location Plate™
+* Chincoteague National Wildlife Refuge Field Location Plate™
+* Aransas National Wildlife Refuge Field Location Plate™
+* Bosque del Apache National Wildlife Refuge Field Location Plate™
+
+Purpose:
+
+Migration, wetlands, biodiversity, water systems, bird conservation, and wildlife observation.
+
+---
+
+### Coastal & Marine Field Locations™
+
+KEEP
+
+* Machias Seal Island Field Location Plate™
+
+Purpose:
+
+Seabirds, Atlantic Puffins, marine ecosystems, island ecology, and Gulf of Maine biodiversity.
+
+---
+
+### Freshwater & Wetland Field Locations™
+
+KEEP
+
+* Lake Mattamuskeet Field Location Plate™
+
+Purpose:
+
+Waterfowl migration, wetland ecology, seasonal wildlife concentration, and freshwater ecosystem dynamics.
+
+---
+
+### Mountain & Landscape Field Locations™
+
+KEEP
+
+* Maroon Bells Field Location Plate™
+
+Purpose:
+
+Mountain ecosystems, aspen ecology, alpine watersheds, seasonal transitions, and landscape intelligence.
+
+---
+
+### Field Location Relationships™
+
+Field Locations™
+
+→ Wildlife Species™
+
+→ Animal Tracks™
+
+→ Water Systems™
+
+→ Ecosystems™
+
+→ Seasonal Wildlife Calendar™
+
+→ Photography Guides™
+
+→ Conservation Systems™
+
+Field locations should be interpreted as applied Naturepedia hubs where multiple ecological systems intersect in a specific place.
+
+---
+
+### Core Retrieval Pathways™
+
+Yellowstone National Park™
+
+→ Wolves
+→ Elk
+→ Bison
+→ Grizzly Bears
+→ Thermal Systems
+→ Rivers
+→ Seasons
+
+Grand Teton National Park™
+
+→ Moose
+→ Elk
+→ Bears
+→ Alpine Systems
+→ Rivers
+→ Landscape Ecology
+
+Blackwater National Wildlife Refuge™
+
+→ Bald Eagles
+→ Wetlands
+→ Waterfowl
+→ River Otters
+→ Chesapeake Bay
+
+Chincoteague National Wildlife Refuge™
+
+→ Coastal Systems
+→ Wild Horses
+→ Shorebirds
+→ Marsh Ecology
+
+Aransas National Wildlife Refuge™
+
+→ Whooping Cranes
+→ Coastal Marshes
+→ Wintering Birds
+
+Bosque del Apache™
+
+→ Waterfowl Migration
+→ Cranes
+→ Wetland Systems
+→ Seasonal Wildlife Events
+
+Lake Mattamuskeet™
+
+→ Tundra Swans
+→ Snow Geese
+→ Winter Waterfowl
+→ Wetland Ecology
+
+Machias Seal Island™
+
+→ Atlantic Puffins
+→ Seabird Colonies
+→ Marine Systems
+
+Maroon Bells™
+
+→ Aspens
+→ Alpine Watersheds
+→ Mountain Ecology
+→ Seasonal Change
+
+---
+
+### Field Locations Census Status
+
+Field Location Registry Families Completed:
+
+* National Parks™
+* National Wildlife Refuges™
+* Coastal & Marine Locations™
+* Freshwater & Wetland Locations™
+* Mountain Landscapes™
+
+Status:
+
+Field Locations Census Complete
 
 ### Photography Guides™
 
