@@ -474,7 +474,190 @@ Status:
 
 Soil Systems Census Complete
 
+## Carbon Cycle™
+
+Status: Census In Progress
+
+Classification:
+KEEP
+DUPLICATE
+DRAFT
+ARTIST-RENDITION
+SUPERSEDED
+
+---
+
 ### Carbon Cycle™
+
+Primary System Plate™
+
+* Carbon Cycle Plate™
+
+Purpose:
+
+Carbon Cycle™ functions as a major Naturepedia™ relationship hub connecting atmosphere, oceans, forests, soils, microbes, climate, photosynthesis, decomposition, and ecosystem resilience.
+
+Carbon serves as one of the primary organizing currencies of life on Earth.
+
+---
+
+### Biological Carbon Processes™
+
+KEEP
+
+* Photosynthesis Plate™
+* Respiration Plate™
+* Decomposition Plate™
+
+Purpose:
+
+The primary biological pathways moving carbon through living systems.
+
+Relationships™
+
+→ Plants™
+→ Forest Systems™
+→ Soil Systems™
+→ Microbial Life Systems™
+
+---
+
+### Carbon Storage Systems™
+
+KEEP
+
+* Carbon Sequestration Plate™
+* Forest Carbon Plate™
+* Soil Carbon Plate™
+* Ocean Carbon Plate™
+
+Purpose:
+
+Long-term storage and stabilization of carbon within ecosystems.
+
+Relationships™
+
+→ Climate Systems™
+→ Forest Systems™
+→ Water Systems™
+→ Soil Systems™
+
+---
+
+### Carbon & Climate Systems™
+
+KEEP
+
+* Carbon & Climate Plate™
+* Climate Carbon Feedbacks Plate™
+
+Purpose:
+
+Relationships between atmospheric carbon, climate regulation, ecosystem stability, and planetary feedback systems.
+
+Relationships™
+
+→ Climate Systems™
+→ Ecosystem Feedbacks™
+→ Earth Systems™
+
+---
+
+### Carbon & Living Systems™
+
+KEEP
+
+* Carbon & Microbial Life Plate™
+
+Purpose:
+
+Microbial control of carbon processing, decomposition, soil formation, nutrient cycling, and ecosystem productivity.
+
+Relationships™
+
+→ Soil Microbiome™
+→ Microbial Life Systems™
+→ Nutrient Cycling™
+
+---
+
+### Regenerative Carbon Systems™
+
+KEEP
+
+* Regenerative Carbon Systems Plate™
+* Carbon Farming Plate™
+
+Purpose:
+
+Human-managed systems designed to increase carbon storage, soil health, biodiversity, and ecological resilience.
+
+Relationships™
+
+→ Regenerative Agriculture™
+→ Soil Systems™
+→ Quantum Agriculture™
+
+---
+
+### Carbon Through Time™
+
+KEEP
+
+* Carbon Through Time Plate™
+
+Purpose:
+
+Carbon movement through geological history, biological evolution, climate transitions, and ecosystem development.
+
+Relationships™
+
+→ Earth Systems™
+→ Geological Systems™
+→ Evolutionary Systems™
+
+---
+
+### Carbon Cycle Relationships™
+
+Carbon Cycle™
+
+→ Soil Systems™
+
+→ Water Systems™
+
+→ Forest Systems™
+
+→ Microbial Life Systems™
+
+→ Ecosystem Feedbacks™
+
+→ Climate Systems™
+
+→ Quantum Agriculture™
+
+→ Biodiversity™
+
+→ Earth Systems™
+
+Carbon should be interpreted as a planetary-scale relationship layer connecting life, climate, geology, ecology, and environmental change.
+
+---
+
+### Carbon Cycle Census Status
+
+Carbon Registry Families Completed:
+
+* Biological Carbon Processes™
+* Carbon Storage Systems™
+* Carbon & Climate Systems™
+* Carbon & Living Systems™
+* Regenerative Carbon Systems™
+* Carbon Through Time™
+
+Status:
+
+Carbon Cycle Census Complete
 
 ### Ecosystem Feedbacks™
 
