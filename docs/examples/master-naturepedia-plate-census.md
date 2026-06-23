@@ -83,7 +83,195 @@ Examples:
 
 ## Major Registry Families
 
+## Earth Systems™
+
+Status: Census In Progress
+
+Classification:
+KEEP
+DUPLICATE
+DRAFT
+ARTIST-RENDITION
+SUPERSEDED
+
+---
+
 ### Earth Systems™
+
+Primary System Plate™
+
+* Earth Systems Plate™
+
+Purpose:
+
+Earth Systems™ functions as one of the foundational Naturepedia™ relationship hubs connecting atmosphere, water, geology, biodiversity, climate, ecological processes, and human influence.
+
+This system serves as a parent architecture linking many other Naturepedia registry families.
+
+---
+
+### Earth System Spheres™
+
+KEEP
+
+* Geosphere Plate™
+* Hydrosphere Plate™
+* Atmosphere Plate™
+* Biosphere Plate™
+* Cryosphere Plate™
+
+Purpose:
+
+The major interacting Earth system spheres that regulate planetary processes and ecological stability.
+
+Relationships™
+
+→ Climate Systems™
+→ Water Systems™
+→ Biodiversity™
+→ Carbon Cycle™
+
+---
+
+### Ecosystem Process Systems™
+
+KEEP
+
+* Soil Systems Plate™
+* Ecosystem Feedbacks Plate™
+* Carbon Cycle Plate™
+* Water Cycle Plate™
+
+Purpose:
+
+Core Earth processes governing nutrient movement, biological productivity, ecological regulation, and planetary stability.
+
+Relationships™
+
+→ Soil Systems™
+→ Carbon Cycle™
+→ Ecosystem Feedbacks™
+→ Water Systems™
+
+---
+
+### Climate Systems™
+
+KEEP
+
+* Climate Systems Plate™
+
+Purpose:
+
+Atmospheric circulation, temperature regulation, precipitation, seasonal patterns, ecological adaptation, and climate interactions.
+
+Relationships™
+
+→ Atmosphere™
+→ Water Cycle™
+→ Carbon Cycle™
+→ Biodiversity™
+
+---
+
+### Geological Systems™
+
+KEEP
+
+* Plate Tectonics & Earth Engine Plate™
+
+Purpose:
+
+Planetary-scale geological processes shaping continents, mountains, volcanoes, ocean basins, and Earth's long-term evolution.
+
+Relationships™
+
+→ Geosphere™
+→ Volcanic Landscapes™
+→ Geothermal Ecosystems™
+
+---
+
+### Human-Earth Systems™
+
+KEEP
+
+* Human Impact on Earth Systems Plate™
+
+Purpose:
+
+Human influence on climate, biodiversity, water systems, soils, ecological resilience, and planetary processes.
+
+Relationships™
+
+→ Conservation Systems™
+→ Carbon Systems™
+→ Restoration Systems™
+
+---
+
+### Earth Systems Photography™
+
+KEEP
+
+* Earth Systems Photography Plate™
+
+Purpose:
+
+Visual interpretation of planetary processes, ecological relationships, geological systems, climate, and landscape-scale dynamics.
+
+Relationships™
+
+→ Field Locations™
+→ Photography Guides™
+→ Earth Systems™
+
+---
+
+### Earth Systems Relationships™
+
+Earth Systems™
+
+→ Water Systems™
+
+→ Soil Systems™
+
+→ Carbon Cycle™
+
+→ Ecosystem Feedbacks™
+
+→ Biodiversity™
+
+→ Climate Systems™
+
+→ Volcanic Landscapes™
+
+→ Geothermal Ecosystems™
+
+→ Yellowstone Thermal Features™
+
+→ Wildlife Systems™
+
+→ Field Locations™
+
+Earth Systems should be interpreted as a parent relationship architecture connecting biological, geological, atmospheric, hydrological, and ecological processes.
+
+---
+
+### Earth Systems Census Status
+
+Earth Registry Families Completed:
+
+* Earth System Spheres™
+* Ecosystem Process Systems™
+* Climate Systems™
+* Geological Systems™
+* Human-Earth Systems™
+* Earth Systems Photography™
+
+Status:
+
+Earth Systems Census Complete
 
 ### Soil Systems™
 
