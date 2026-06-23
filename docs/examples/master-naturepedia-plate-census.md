@@ -273,7 +273,206 @@ Status:
 
 Earth Systems Census Complete
 
+## Soil Systems™
+
+Status: Census In Progress
+
+Classification:
+KEEP
+DUPLICATE
+DRAFT
+ARTIST-RENDITION
+SUPERSEDED
+
+---
+
 ### Soil Systems™
+
+Primary System Plate™
+
+* Soil Systems Plate™
+
+Purpose:
+
+Soil Systems™ functions as one of the primary Naturepedia™ relationship hubs connecting geology, biology, water, carbon, biodiversity, plant communities, microbial life, and ecosystem resilience.
+
+Soil serves as a foundational infrastructure layer supporting terrestrial life.
+
+---
+
+### Soil Formation & Structure™
+
+KEEP
+
+* Soil Formation Plate™
+* Soil Horizons Plate™
+
+Purpose:
+
+Development of soil profiles through weathering, organic matter accumulation, biological activity, climate, and geological processes.
+
+Relationships™
+
+→ Geosphere™
+→ Water Systems™
+→ Plant Communities™
+
+---
+
+### Soil Biology™
+
+KEEP
+
+* Soil Microbiome Plate™
+* Soil Biodiversity Plate™
+
+Purpose:
+
+Microbial communities, fungi, bacteria, invertebrates, nutrient processing, decomposition, and ecological productivity.
+
+Relationships™
+
+→ Microbial Life Systems™
+→ Plant Intelligence™
+→ Carbon Cycle™
+
+---
+
+### Soil Carbon Systems™
+
+KEEP
+
+* Soil Carbon Plate™
+
+Purpose:
+
+Carbon storage, organic matter accumulation, climate regulation, nutrient retention, and ecosystem resilience.
+
+Relationships™
+
+→ Carbon Cycle™
+→ Climate Systems™
+→ Regenerative Agriculture™
+
+---
+
+### Soil Water Systems™
+
+KEEP
+
+* Soil Water Systems Plate™
+
+Purpose:
+
+Water infiltration, storage, retention, groundwater recharge, drought buffering, and ecosystem stability.
+
+Relationships™
+
+→ Water Systems™
+→ Groundwater Systems™
+→ Plant Communities™
+
+---
+
+### Mycorrhizal & Nutrient Systems™
+
+KEEP
+
+* Mycorrhizal Networks Plate™
+* Nutrient Cycling Plate™
+
+Purpose:
+
+Underground ecological networks supporting nutrient exchange, biological communication, plant health, and ecosystem productivity.
+
+Relationships™
+
+→ Plant Intelligence™
+→ Information Systems in Nature™
+→ Forest Systems™
+
+---
+
+### Living Soil Intelligence™
+
+KEEP
+
+* Living Soil Food Web Plate™
+* Living Soil Intelligence Plate™
+
+Purpose:
+
+Integrated biological systems connecting microbes, fungi, roots, insects, nutrients, water, and ecosystem processes.
+
+Relationships™
+
+→ Quantum Agriculture™
+→ Plant Intelligence™
+→ Ecosystem Feedbacks™
+
+---
+
+### Regenerative Soil Systems™
+
+KEEP
+
+* Regenerative Soil Systems Plate™
+
+Purpose:
+
+Soil restoration, biological recovery, carbon sequestration, biodiversity enhancement, and long-term ecosystem resilience.
+
+Relationships™
+
+→ Regenerative Agriculture™
+→ Carbon Systems™
+→ Restoration Systems™
+
+---
+
+### Soil Systems Relationships™
+
+Soil Systems™
+
+→ Water Systems™
+
+→ Carbon Cycle™
+
+→ Ecosystem Feedbacks™
+
+→ Microbial Life Systems™
+
+→ Plant Intelligence™
+
+→ Quantum Agriculture™
+
+→ Information Systems in Nature™
+
+→ Biodiversity™
+
+→ Forest Systems™
+
+→ Climate Systems™
+
+Soil Systems should be interpreted as a foundational living infrastructure connecting biological, ecological, geological, hydrological, and climatic processes.
+
+---
+
+### Soil Systems Census Status
+
+Soil Registry Families Completed:
+
+* Soil Formation & Structure™
+* Soil Biology™
+* Soil Carbon Systems™
+* Soil Water Systems™
+* Mycorrhizal & Nutrient Systems™
+* Living Soil Intelligence™
+* Regenerative Soil Systems™
+
+Status:
+
+Soil Systems Census Complete
 
 ### Carbon Cycle™
 
