@@ -2717,6 +2717,305 @@ Status:
 
 Yellowstone Thermal Features Census Complete
 
+---
+
+## Hydrothermal Ecosystems™
+
+Status: Census In Progress
+
+Classification:
+KEEP
+DUPLICATE
+DRAFT
+ARTIST-RENDITION
+SUPERSEDED
+
+---
+
+### Hydrothermal Ecosystems™
+
+Primary System Plate™
+
+* Hydrothermal Ecosystems Plate™
+
+Purpose:
+
+Hydrothermal Ecosystems™ explores deep-ocean geothermal systems where heat, minerals, water chemistry, microbial life, biological adaptation, and geological processes combine to create some of the most extraordinary ecosystems on Earth.
+
+This system serves as a major Naturepedia™ bridge connecting geology, microbiology, astrobiology, biodiversity, geothermal systems, and the origins of life.
+
+---
+
+### Hydrothermal Identification Systems™
+
+KEEP
+
+* Hydrothermal Vent Identification Plate™
+
+Purpose:
+
+Recognition and interpretation of hydrothermal vent systems, geological structures, mineral deposits, and biological communities.
+
+Relationships™
+
+→ Hydrothermal Ecosystems™
+→ Geothermal Ecosystems™
+→ Earth Systems™
+
+---
+
+### Hydrothermal Microbial Systems™
+
+KEEP
+
+* Hydrothermal Microbial Life Plate™
+
+Purpose:
+
+Microbial communities thriving in deep-ocean hydrothermal environments through chemosynthesis and extreme adaptation.
+
+Relationships™
+
+→ Microbial Life Systems™
+→ Chemosynthesis™
+→ Origins of Life™
+
+---
+
+### Hydrothermal Mineral Systems™
+
+KEEP
+
+* Hydrothermal Mineral Systems Plate™
+
+Purpose:
+
+Mineral formation, geological deposition, chemical gradients, and resource cycling associated with hydrothermal systems.
+
+Relationships™
+
+→ Earth Systems™
+→ Geothermal Ecosystems™
+→ Hydrothermal Vents™
+
+---
+
+### Astrobiology Systems™
+
+KEEP
+
+* Hydrothermal Astrobiology Plate™
+* Europa & Enceladus Analogs Plate™
+
+Purpose:
+
+Hydrothermal environments as analogs for extraterrestrial life-supporting systems and planetary habitability.
+
+Relationships™
+
+→ Origins of Life™
+→ Planetary Systems™
+→ Extremophile Life™
+
+---
+
+### Origins of Life Systems™
+
+KEEP
+
+* Origins of Life Hydrothermal Plate™
+
+Purpose:
+
+Hydrothermal environments as potential settings for the emergence and early evolution of life.
+
+Relationships™
+
+→ Microbial Life Systems™
+→ Chemosynthesis™
+→ Astrobiology™
+
+---
+
+### Vent Structure Systems™
+
+KEEP
+
+* Black Smokers Plate™
+* White Smokers Plate™
+
+Purpose:
+
+Hydrothermal vent structures formed through geothermal heating, mineral precipitation, and deep-ocean geological processes.
+
+Relationships™
+
+→ Hydrothermal Mineral Systems™
+→ Geothermal Ecosystems™
+
+---
+
+### Vent Wildlife Systems™
+
+KEEP
+
+* Giant Tube Worm Plate™
+* Vent Mussels & Clams Plate™
+* Vent Crabs & Shrimp Plate™
+
+Purpose:
+
+Specialized biological communities adapted to hydrothermal vent environments.
+
+Relationships™
+
+→ Hydrothermal Biodiversity™
+→ Chemosynthetic Food Webs™
+→ Extremophile Systems™
+
+---
+
+### Extremophile Systems™
+
+KEEP
+
+* Vent Extremophiles Plate™
+
+Purpose:
+
+Microorganisms adapted to extreme temperature, chemistry, pressure, and environmental conditions.
+
+Relationships™
+
+→ Microbial Life Systems™
+→ Astrobiology™
+→ Origins of Life™
+
+---
+
+### Chemosynthetic Ecosystems™
+
+KEEP
+
+* Chemosynthetic Food Web Plate™
+
+Purpose:
+
+Food webs powered by chemical energy rather than sunlight, supporting unique biological communities.
+
+Relationships™
+
+→ Chemosynthesis™
+→ Hydrothermal Microbial Life™
+→ Vent Wildlife Systems™
+
+---
+
+### Hydrothermal Biodiversity™
+
+KEEP
+
+* Hydrothermal Vent Biodiversity Plate™
+
+Purpose:
+
+Biological diversity supported by hydrothermal ecosystems and extreme environmental conditions.
+
+Relationships™
+
+→ Biodiversity™
+→ Geothermal Ecosystems™
+→ Deep Ocean Systems™
+
+---
+
+### Exploration Systems™
+
+KEEP
+
+* Deep Ocean Exploration Plate™
+
+Purpose:
+
+Scientific exploration of deep-ocean hydrothermal environments, biological communities, and geological systems.
+
+Relationships™
+
+→ Hydrothermal Ecosystems™
+→ Ocean Systems™
+→ Earth Systems™
+
+---
+
+### Hydrothermal Photography™
+
+KEEP
+
+* Hydrothermal Photography Plate™
+
+Purpose:
+
+Visual interpretation of hydrothermal systems, geological structures, biological adaptation, and deep-ocean exploration.
+
+Relationships™
+
+→ Naturepedia™
+→ Exploration Systems™
+→ Earth Systems™
+
+---
+
+### Hydrothermal Ecosystem Relationships™
+
+Hydrothermal Ecosystems™
+
+→ Geothermal Ecosystems™
+
+→ Volcanic Landscapes™
+
+→ Yellowstone Thermal Features™
+
+→ Microbial Life Systems™
+
+→ Earth Systems™
+
+→ Water Systems™
+
+→ Biodiversity™
+
+→ Origins of Life™
+
+→ Astrobiology™
+
+→ Planetary Systems™
+
+Hydrothermal ecosystems should be interpreted as deep-ocean relationship architectures connecting geology, chemistry, biology, evolution, and planetary habitability.
+
+---
+
+### Hydrothermal Ecosystems Census Status
+
+Hydrothermal Registry Families Completed:
+
+* Hydrothermal Identification Systems™
+* Hydrothermal Microbial Systems™
+* Hydrothermal Mineral Systems™
+* Astrobiology Systems™
+* Origins of Life Systems™
+* Vent Structure Systems™
+* Vent Wildlife Systems™
+* Extremophile Systems™
+* Chemosynthetic Ecosystems™
+* Hydrothermal Biodiversity™
+* Exploration Systems™
+* Hydrothermal Photography™
+
+Status:
+
+Hydrothermal Ecosystems Census Complete
+
+---
+
 ### Trees of North America™
 
 Status: Active Registry Family
