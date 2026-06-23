@@ -650,7 +650,123 @@ Status:
 
 Wildlife Species Census Complete
 
-### Animal Tracks™
+## Animal Tracks™
+
+Status: Census In Progress
+
+Classification:
+KEEP
+DUPLICATE
+DRAFT
+ARTIST-RENDITION
+SUPERSEDED
+
+---
+
+### North American Animal Tracks™
+
+Primary System Plate™
+
+* North American Animal Tracks Plate™
+
+Purpose:
+
+Field identification, movement analysis, wildlife presence detection, gait interpretation, habitat use, and ecological observation.
+
+---
+
+### Predator Track Plates™
+
+KEEP
+
+* Gray Wolf Track Plate™
+* Coyote Track Plate™
+* Red Fox Track Plate™
+* Bobcat Track Plate™
+* Mountain Lion Track Plate™
+* Black Bear Track Plate™
+
+---
+
+### Ungulate Track Plates™
+
+KEEP
+
+* Elk Track Plate™
+* White-tailed Deer Track Plate™
+* Moose Track Plate™
+* American Bison Track Plate™
+
+---
+
+### Small Mammal Track Plates™
+
+KEEP
+
+* Raccoon Track Plate™
+* Snowshoe Hare Track Plate™
+
+---
+
+### Comparison Track Plates™
+
+KEEP
+
+* Wolf vs Coyote Track Plate™
+* Fox vs Coyote Track Plate™
+
+Purpose:
+
+Comparison plates function as higher-order identification tools helping observers distinguish commonly confused species.
+
+---
+
+### Wildlife Sign Systems™
+
+KEEP
+
+* Wildlife Sign & Tracking Plate™
+* Animal Scat Identification Plate™
+
+Purpose:
+
+Field evidence systems connecting tracks, scat, feeding sign, movement corridors, habitat use, and species confirmation.
+
+---
+
+### Track System Relationships™
+
+Animal Tracks™
+
+→ Wildlife Observation & Field Techniques™
+
+→ Wildlife Behavior & Ecology™
+
+→ Wildlife Habitats & Ecosystem Zones™
+
+→ Wildlife Species™
+
+→ Field Locations™
+
+→ Seasonal Wildlife Calendar™
+
+Tracks should be interpreted as field evidence nodes rather than taxonomy nodes.
+
+---
+
+### Animal Tracks Census Status
+
+Animal Track Registry Families Completed:
+
+* Predator Tracks™
+* Ungulate Tracks™
+* Small Mammal Tracks™
+* Comparison Tracks™
+* Wildlife Sign Systems™
+
+Status:
+
+Animal Tracks Census Complete
 
 ## Pollinator Systems™
 
