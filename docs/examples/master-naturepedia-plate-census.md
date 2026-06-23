@@ -530,15 +530,176 @@ Next Recommended Census Branch:
 
 ### Animal Tracks™
 
-### Pollinator Systems™
+## Pollinator Systems™
 
-### Bees™
+Status: Census In Progress
 
-### Butterflies™
+Classification:
+KEEP
+DUPLICATE
+DRAFT
+ARTIST-RENDITION
+SUPERSEDED
 
-### Moths™
+---
 
-### Hummingbirds™
+### Bees of North America™
+
+Primary System Plate™
+
+* Bees of North America System Plate™
+
+KEEP
+
+* Bee Life Cycle Plate™
+* Western Honey Bee Species Plate™
+* American Bumble Bee Species Plate™
+* Common Eastern Bumble Bee Species Plate™
+* Rusty Patched Bumble Bee Species Plate™
+* Mason Bee Species Plate™
+* Leafcutter Bee Species Plate™
+* Carpenter Bee Species Plate™
+* Mining Bee Species Plate™
+* Blue Orchard Bee Species Plate™
+* Sweat Bee Species Plate™
+* Metallic Green Bee Species Plate™
+* Squash Bee Species Plate™
+* Wool Carder Bee Species Plate™
+
+ARTIST RENDITIONS
+
+* Bee Goldenrod Plate™
+* Bee Milkweed Plate™
+* Bee Coneflower Plate™
+* Honeybee Sunflower Plate™
+
+---
+
+### Butterflies of North America™
+
+Primary System Plate™
+
+* Butterflies of North America System Plate™
+
+KEEP
+
+* Butterfly Life Cycle Plate™
+* Monarch Butterfly Plate™
+* Eastern Tiger Swallowtail Plate™
+* Black Swallowtail Plate™
+* Painted Lady Butterfly Plate™
+* Viceroy Butterfly Plate™
+* Glasswing Butterfly Plate™
+* Blue Morpho Butterfly Plate™
+* Zebra Swallowtail Plate™
+* Pipevine Swallowtail Plate™
+* Mourning Cloak Butterfly Plate™
+* Question Mark Butterfly Plate™
+* Buckeye Butterfly Plate™
+* Red-Spotted Purple Plate™
+* Gulf Fritillary Plate™
+* Owl Butterfly Plate™
+
+---
+
+### Hummingbirds of North America™
+
+Primary System Plate™
+
+* Hummingbirds of North America System Plate™
+
+KEEP
+
+* Ruby-throated Hummingbird Plate™
+* Anna's Hummingbird Plate™
+* Rufous Hummingbird Plate™
+* Broad-tailed Hummingbird Plate™
+* Black-chinned Hummingbird Plate™
+* Costa's Hummingbird Plate™
+* Allen's Hummingbird Plate™
+* Calliope Hummingbird Plate™
+* Rivoli's Hummingbird Plate™
+* Blue-throated Mountain-gem Plate™
+* Lucifer Hummingbird Plate™
+* Violet-crowned Hummingbird Plate™
+
+SUPPORT PLATES
+
+* Hummingbird Flight & Energy Plate™
+* Hovering Flight Intelligence Plate™
+* Iridescence & Feather Optics Plate™
+* Pollination Precision Plate™
+
+---
+
+### Moths of North America™
+
+Primary System Plate™
+
+* Moths of North America System Plate™
+
+KEEP
+
+* Moth Life Cycle Plate™
+* Luna Moth Plate™
+* Glovers Silk Moth Plate™
+* Cecropia Moth Plate™
+* Polyphemus Moth Plate™
+* White-lined Sphinx Plate™
+* Hummingbird Clearwing Plate™
+* Giant Leopard Moth Plate™
+* Io Moth Plate™
+* Plume Moth Plate™
+* Atlas Moth Plate™
+
+---
+
+### Floral Resource Networks™
+
+KEEP
+
+* Floral Resource Networks System Plate™
+* Floral Resource Network Architecture Plate™
+* Flower Resource Flow Plate™
+* Pollinator Layer Plate™
+* Nectar Corridor Plate™
+* Bloom Timing Intelligence Plate™
+* Plant Reproduction Plate™
+* Biodiversity Production Plate™
+* Underground-To-Flower Plate™
+* Pollination Network Plate™
+* Floral Resource Intelligence Plate™
+* Ecological Network Stability Plate™
+* Coevolution Plate™
+* Resource Distribution Plate™
+
+---
+
+### Pollinator Intelligence™
+
+KEEP
+
+* Pollination Intelligence Plate™
+* Hive Intelligence Plate™
+* Waggle Dance Communication Plate™
+* Ultraviolet Flower Guidance Plate™
+* Wing Pattern Intelligence Plate™
+* Seasonal Emergence Intelligence Plate™
+
+---
+
+### Pollinator Connector Plates™
+
+KEEP
+
+* Bee Resource Connector Plate™
+* Butterfly Resource Connector Plate™
+* Moth Resource Connector Plate™
+* Hummingbird Resource Connector Plate™
+
+Status:
+
+Pollinator Systems Census Complete
 
 ### Water Systems™
 
