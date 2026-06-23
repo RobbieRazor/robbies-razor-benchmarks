@@ -894,7 +894,220 @@ Status:
 
 Ecosystem Feedbacks Census Complete
 
+## Bioelectric Systems™
+
+Status: Census In Progress
+
+Classification:
+KEEP
+DUPLICATE
+DRAFT
+ARTIST-RENDITION
+SUPERSEDED
+
+---
+
 ### Bioelectric Systems™
+
+Primary System Plate™
+
+* Bioelectric Systems Plate™
+
+Purpose:
+
+Bioelectric Systems™ explores how electrical signaling, membrane voltage, ion gradients, bioelectric fields, and electrical communication influence biological organization, development, healing, adaptation, and ecological relationships.
+
+This system serves as a major bridge between biology, ecology, information systems, and living intelligence.
+
+---
+
+### Foundational Bioelectric Research™
+
+KEEP
+
+* Harold Burr's Life Fields Plate™
+* Michael Levin Plate™
+
+Purpose:
+
+Foundational thinkers and research programs exploring bioelectric patterning, developmental signaling, morphogenesis, and biological organization.
+
+Relationships™
+
+→ Bioelectric Morphogenesis™
+→ Regeneration & Healing™
+→ Information Systems in Nature™
+
+---
+
+### Bioelectric Development Systems™
+
+KEEP
+
+* Bioelectric Morphogenesis Plate™
+
+Purpose:
+
+Electrical pattern formation guiding growth, body plans, regeneration, cellular communication, and biological organization.
+
+Relationships™
+
+→ Plant Intelligence™
+→ Information Systems in Nature™
+→ Regeneration Biology™
+
+---
+
+### Regeneration Systems™
+
+KEEP
+
+* Regeneration & Healing Plate™
+
+Purpose:
+
+Bioelectric signaling involved in tissue repair, regeneration, healing, cellular coordination, and biological recovery.
+
+Relationships™
+
+→ Bioelectric Morphogenesis™
+→ Bioelectric Medicine™
+→ Living Systems™
+
+---
+
+### Plant Bioelectric Systems™
+
+KEEP
+
+* Plant Electrophysiology Plate™
+
+Purpose:
+
+Electrical signaling within plants influencing communication, adaptation, defense, environmental sensing, and physiological regulation.
+
+Relationships™
+
+→ Plant Intelligence™
+→ Plant Communication™
+→ Root Intelligence™
+
+---
+
+### Soil Electrical Systems™
+
+KEEP
+
+* Soil Electrical Networks Plate™
+
+Purpose:
+
+Electrical relationships occurring within soil ecosystems, root zones, microbial communities, water systems, and underground biological networks.
+
+Relationships™
+
+→ Soil Systems™
+→ Mycorrhizal Networks™
+→ Living Soil Intelligence™
+
+---
+
+### Bioelectric Medicine™
+
+KEEP
+
+* Bioelectric Medicine Plate™
+
+Purpose:
+
+Therapeutic applications and biological implications of electrical signaling within living systems.
+
+Relationships™
+
+→ Regeneration & Healing™
+→ Bioelectric Morphogenesis™
+→ Human Biology™
+
+---
+
+### Electrical Ecology™
+
+KEEP
+
+* Electrical Ecology Plate™
+
+Purpose:
+
+Electrical interactions occurring throughout ecosystems, organisms, soils, water systems, and ecological networks.
+
+Relationships™
+
+→ Ecosystem Feedbacks™
+→ Information Systems in Nature™
+→ Soil Systems™
+
+---
+
+### Bioelectric Photography™
+
+KEEP
+
+* Bioelectric Photography Plate™
+
+Purpose:
+
+Visual interpretation and communication of bioelectric concepts, biological signaling, ecological relationships, and living information systems.
+
+Relationships™
+
+→ Naturepedia™
+→ Information Systems in Nature™
+→ Plant Intelligence™
+
+---
+
+### Bioelectric Relationships™
+
+Bioelectric Systems™
+
+→ Information Systems in Nature™
+
+→ Plant Intelligence™
+
+→ Soil Systems™
+
+→ Ecosystem Feedbacks™
+
+→ Quantum Agriculture™
+
+→ Living Soil Intelligence™
+
+→ Mycorrhizal Networks™
+
+→ Electrical Ecology™
+
+→ Regeneration Systems™
+
+Bioelectric systems should be interpreted as information-rich biological signaling architectures connecting organisms, ecosystems, development, communication, and adaptation.
+
+---
+
+### Bioelectric Systems Census Status
+
+Bioelectric Registry Families Completed:
+
+* Foundational Bioelectric Research™
+* Bioelectric Development Systems™
+* Regeneration Systems™
+* Plant Bioelectric Systems™
+* Soil Electrical Systems™
+* Bioelectric Medicine™
+* Electrical Ecology™
+* Bioelectric Photography™
+
+Status:
+
+Bioelectric Systems Census Complete
 
 ### Quantum Agriculture™
 
