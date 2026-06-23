@@ -1617,7 +1617,318 @@ Status:
 
 Plant Intelligence Census Complete
 
+## Volcanic Landscapes™
+
+Status: Census In Progress
+
+Classification:
+KEEP
+DUPLICATE
+DRAFT
+ARTIST-RENDITION
+SUPERSEDED
+
+---
+
 ### Volcanic Landscapes™
+
+Primary System Plate™
+
+* Volcanic Landscapes Plate™
+
+Purpose:
+
+Volcanic Landscapes™ explores the geological, ecological, biological, and planetary processes associated with volcanic activity, landscape formation, ecosystem development, and Earth's internal energy systems.
+
+This system serves as a major Naturepedia™ bridge connecting geology, Earth systems, biodiversity, succession, and planetary evolution.
+
+---
+
+### Magmatic Systems™
+
+KEEP
+
+* Magma Chambers Plate™
+
+Purpose:
+
+Subsurface reservoirs of molten rock driving volcanic activity, geological change, and landscape formation.
+
+Relationships™
+
+→ Plate Tectonics™
+→ Volcanic Eruptions™
+→ Earth Systems™
+
+---
+
+### Volcanic Landform Systems™
+
+KEEP
+
+* Volcanic Islands Plate™
+* Calderas Plate™
+
+Purpose:
+
+Large-scale volcanic landforms shaping ecosystems, biodiversity, hydrology, and geological processes.
+
+Relationships™
+
+→ Volcanic Ecosystems™
+→ Biodiversity™
+→ Earth Systems™
+
+---
+
+### Tectonic Systems™
+
+KEEP
+
+* Plate Tectonics Plate™
+* Ring of Fire Plate™
+
+Purpose:
+
+Global geological systems controlling volcanism, earthquakes, mountain building, and planetary evolution.
+
+Relationships™
+
+→ Geosphere™
+→ Earth Systems™
+→ Magmatic Systems™
+
+---
+
+### Volcano Identification Systems™
+
+KEEP
+
+* Volcano Identification Plate™
+
+Purpose:
+
+Recognition and interpretation of volcanic structures, landforms, eruption types, and geological features.
+
+Relationships™
+
+→ Volcanic Landscapes™
+→ Geological Systems™
+
+---
+
+### Volcanic Process Systems™
+
+KEEP
+
+* Lava Flows Plate™
+* Volcanic Eruptions Plate™
+
+Purpose:
+
+Surface volcanic processes reshaping landscapes, ecosystems, watersheds, and ecological succession.
+
+Relationships™
+
+→ Volcanic Soils™
+→ Volcanic Succession™
+→ Earth Systems™
+
+---
+
+### Supervolcano Systems™
+
+KEEP
+
+* Supervolcanoes Plate™
+
+Purpose:
+
+Large-scale volcanic systems capable of influencing regional ecosystems, climate systems, and geological evolution.
+
+Relationships™
+
+→ Earth Systems™
+→ Climate Systems™
+→ Yellowstone Thermal Features™
+
+---
+
+### Volcanic Soil Systems™
+
+KEEP
+
+* Volcanic Soils Plate™
+
+Purpose:
+
+Highly productive soils formed through volcanic processes supporting biodiversity, agriculture, and ecosystem development.
+
+Relationships™
+
+→ Soil Systems™
+→ Carbon Cycle™
+→ Plant Communities™
+
+---
+
+### Volcanic Ecosystem Systems™
+
+KEEP
+
+* Volcanic Ecosystems Plate™
+
+Purpose:
+
+Biological communities adapted to volcanic landscapes and geological disturbance.
+
+Relationships™
+
+→ Biodiversity™
+→ Ecological Succession™
+→ Volcanic Soils™
+
+---
+
+### Ecological Recovery Systems™
+
+KEEP
+
+* Volcanic Succession Plate™
+
+Purpose:
+
+Biological recovery and ecosystem development following volcanic disturbance.
+
+Relationships™
+
+→ Ecosystem Feedbacks™
+→ Biodiversity™
+→ Restoration Systems™
+
+---
+
+### Volcanic Biodiversity™
+
+KEEP
+
+* Volcanic Biodiversity Plate™
+
+Purpose:
+
+Species diversity and ecological adaptation associated with volcanic landscapes and geological environments.
+
+Relationships™
+
+→ Ecosystems™
+→ Biodiversity™
+→ Earth Systems™
+
+---
+
+### Hazard Systems™
+
+KEEP
+
+* Volcanic Hazards Plate™
+
+Purpose:
+
+Natural hazards associated with eruptions, ashfall, lava flows, gases, and landscape instability.
+
+Relationships™
+
+→ Earth Systems™
+→ Climate Systems™
+→ Human-Earth Systems™
+
+---
+
+### Volcanic Photography™
+
+KEEP
+
+* Volcanic Photography Plate™
+
+Purpose:
+
+Visual interpretation of volcanic geology, landscape evolution, ecological recovery, and planetary processes.
+
+Relationships™
+
+→ Field Locations™
+→ Earth Systems™
+→ Naturepedia™
+
+---
+
+### Planetary Geology Systems™
+
+KEEP
+
+* Volcanoes Beyond Earth Plate™
+
+Purpose:
+
+Volcanic processes occurring across the Solar System and their implications for planetary evolution.
+
+Relationships™
+
+→ Planetary Systems™
+→ Earth Systems™
+→ Geology™
+
+---
+
+### Volcanic Landscape Relationships™
+
+Volcanic Landscapes™
+
+→ Earth Systems™
+
+→ Soil Systems™
+
+→ Carbon Cycle™
+
+→ Biodiversity™
+
+→ Ecosystem Feedbacks™
+
+→ Geothermal Ecosystems™
+
+→ Yellowstone Thermal Features™
+
+→ Hydrothermal Ecosystems™
+
+→ Climate Systems™
+
+→ Planetary Geology™
+
+Volcanic landscapes should be interpreted as dynamic Earth-system architectures connecting geology, ecology, climate, biodiversity, and planetary evolution.
+
+---
+
+### Volcanic Landscapes Census Status
+
+Volcanic Registry Families Completed:
+
+* Magmatic Systems™
+* Volcanic Landform Systems™
+* Tectonic Systems™
+* Volcano Identification Systems™
+* Volcanic Process Systems™
+* Supervolcano Systems™
+* Volcanic Soil Systems™
+* Volcanic Ecosystem Systems™
+* Ecological Recovery Systems™
+* Volcanic Biodiversity™
+* Hazard Systems™
+* Volcanic Photography™
+* Planetary Geology Systems™
+
+Status:
+
+Volcanic Landscapes Census Complete
 
 ### Geothermal Ecosystems™
 
