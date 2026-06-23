@@ -1621,7 +1621,262 @@ Plant Intelligence Census Complete
 
 ### Geothermal Ecosystems™
 
+## Microbial Life Systems™
+
+Status: Census In Progress
+
+Classification:
+KEEP
+DUPLICATE
+DRAFT
+ARTIST-RENDITION
+SUPERSEDED
+
+---
+
 ### Microbial Life Systems™
+
+Primary System Plate™
+
+* Microbial Life Systems Plate™
+
+Purpose:
+
+Microbial Life Systems™ explores the hidden biological foundation of Earth's ecosystems through bacteria, archaea, microbial communities, nutrient cycling, biological energy systems, ecosystem services, and the origins of life.
+
+This system serves as a major Naturepedia™ bridge connecting soils, water, biodiversity, Earth systems, carbon cycling, and ecological resilience.
+
+---
+
+### Microbial Identification Systems™
+
+KEEP
+
+* Microbial Identification Plate™
+
+Purpose:
+
+Identification and classification of microbial life, communities, ecological functions, and biological roles.
+
+Relationships™
+
+→ Microbial Biodiversity™
+→ Ecosystem Services™
+
+---
+
+### Foundational Microbial Life™
+
+KEEP
+
+* Bacteria Plate™
+* Archaea Plate™
+
+Purpose:
+
+The dominant domains of microbial life supporting ecosystem processes, nutrient cycling, biological productivity, and planetary function.
+
+Relationships™
+
+→ Soil Systems™
+→ Water Systems™
+→ Origins of Life™
+
+---
+
+### Microbial Communities™
+
+KEEP
+
+* Biofilms Plate™
+* Microbial Mats Plate™
+
+Purpose:
+
+Organized microbial communities that create structure, process nutrients, exchange information, and shape ecosystems.
+
+Relationships™
+
+→ Geothermal Ecosystems™
+→ Hydrothermal Ecosystems™
+→ Soil Systems™
+
+---
+
+### Extremophile Systems™
+
+KEEP
+
+* Thermophiles Plate™
+* Extremophiles Plate™
+
+Purpose:
+
+Microorganisms adapted to extreme temperatures, chemistry, pressure, and environmental conditions.
+
+Relationships™
+
+→ Geothermal Ecosystems™
+→ Yellowstone Thermal Features™
+→ Origins of Life™
+
+---
+
+### Biological Energy Systems™
+
+KEEP
+
+* Photosynthesis Plate™
+* Chemosynthesis Plate™
+
+Purpose:
+
+Fundamental biological energy pathways supporting life, productivity, ecological relationships, and planetary systems.
+
+Relationships™
+
+→ Carbon Cycle™
+→ Earth Systems™
+→ Hydrothermal Ecosystems™
+
+---
+
+### Nutrient Cycling Systems™
+
+KEEP
+
+* Nutrient Cycling Plate™
+
+Purpose:
+
+Microbial transformation and movement of nutrients through ecosystems, soils, watersheds, and biological communities.
+
+Relationships™
+
+→ Soil Systems™
+→ Carbon Cycle™
+→ Plant Communities™
+
+---
+
+### Microbial Biodiversity™
+
+KEEP
+
+* Microbial Biodiversity Plate™
+
+Purpose:
+
+Microbial diversity supporting ecological resilience, adaptation, biological productivity, and ecosystem stability.
+
+Relationships™
+
+→ Biodiversity™
+→ Ecosystem Feedbacks™
+→ Soil Systems™
+
+---
+
+### Ecosystem Service Systems™
+
+KEEP
+
+* Microbial Ecosystem Services Plate™
+
+Purpose:
+
+Services provided by microbial life including nutrient cycling, decomposition, soil formation, water purification, and ecosystem productivity.
+
+Relationships™
+
+→ Water Systems™
+→ Soil Systems™
+→ Carbon Cycle™
+
+---
+
+### Origins of Life Systems™
+
+KEEP
+
+* Origins of Life Plate™
+
+Purpose:
+
+Microbial evolution, early Earth environments, biological emergence, and foundational life processes.
+
+Relationships™
+
+→ Earth Systems™
+→ Geothermal Ecosystems™
+→ Hydrothermal Ecosystems™
+
+---
+
+### Microbial Photography™
+
+KEEP
+
+* Microbial Photography Plate™
+
+Purpose:
+
+Visual interpretation and communication of microbial ecology, biological relationships, and hidden ecosystem processes.
+
+Relationships™
+
+→ Naturepedia™
+→ Earth Systems™
+→ Microbial Life Systems™
+
+---
+
+### Microbial Life Relationships™
+
+Microbial Life Systems™
+
+→ Soil Systems™
+
+→ Carbon Cycle™
+
+→ Water Systems™
+
+→ Ecosystem Feedbacks™
+
+→ Plant Intelligence™
+
+→ Information Systems in Nature™
+
+→ Geothermal Ecosystems™
+
+→ Yellowstone Thermal Features™
+
+→ Hydrothermal Ecosystems™
+
+→ Earth Systems™
+
+Microbial systems should be interpreted as foundational biological infrastructure supporting nearly all ecological processes.
+
+---
+
+### Microbial Life Systems Census Status
+
+Microbial Registry Families Completed:
+
+* Microbial Identification Systems™
+* Foundational Microbial Life™
+* Microbial Communities™
+* Extremophile Systems™
+* Biological Energy Systems™
+* Nutrient Cycling Systems™
+* Microbial Biodiversity™
+* Ecosystem Service Systems™
+* Origins of Life Systems™
+* Microbial Photography™
+
+Status:
+
+Microbial Life Systems Census Complete
 
 ### Yellowstone Thermal Features™
 
