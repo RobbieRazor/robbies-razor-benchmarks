@@ -161,21 +161,17 @@ Files duplicated by:
 
 These files are NOT counted toward the canonical registry.
 
----
+## Confirmed Duplicate Files
 
-## Known Duplicates
+These files are excluded from the final canonical KEEP count.
 
-* soil-systems-plate_naturepedia-earth-systems_soil-systems_robbie-george copy.png
+- `balsam-fir-plate_naturepedia_firs-of-north-america_robbie-george copy.png`
+- `ecosystem-feedbacks-plate_naturepedia-earth-systems_ecosystem-feedbacks_robbie-george copy.png`
+- `soil-systems-plate_naturepedia-earth-systems_soil-systems_robbie-george copy.png`
+- `soil-systems-plate_naturepedia-earth-systems_soil-systems_robbie-george copy 2.png`
+- `grizzly-bear_species-plate_ursus-arctos-horribilis_north-america_robbie-george.jpg`
 
-* soil-systems-plate_naturepedia-earth-systems_soil-systems_robbie-george copy 2.png
-
-* ecosystem-feedbacks-plate_naturepedia-earth-systems_ecosystem-feedbacks_robbie-george copy.png
-
-* balsam-fir-plate_naturepedia_firs-of-north-america_robbie-george copy.png
-
-* grizzly-bear_species-plate_ursus-arctos-horribilis_north-america_robbie-george.jpg
-
-Additional duplicate discoveries should be appended here.
+Canonical versions remain in KEEP.
 
 ---
 
@@ -189,51 +185,59 @@ Only the newest version remains in KEEP.
 
 Older versions remain archived.
 
----
+## Confirmed Superseded Files
 
-## Known Superseded Plates
+Older versions replaced by newer canonical files.
 
-KEEP VERSION
-
-* commercial-intelligence-pricing-plate_enterprise-recursive-access-governance_robbie-george_v2.png
-
-SUPERSEDED
-
-* commercial-intelligence-pricing-plate_governance-license_naturepedia_robbie-george.png
-
----
+### Commercial Intelligence Pricing Plate™
 
 KEEP VERSION
 
-* fisher_species-plate_pekania-pennanti_naturepedia_robbie-george_v2.png
+- `commercial-intelligence-pricing-plate_enterprise-recursive-access-governance_robbie-george_v2.png`
 
 SUPERSEDED
 
-* fisher_species-plate_pekania-pennanti_north-america_forest-habitat_robbie-george.png
+- `commercial-intelligence-pricing-plate_governance-license_naturepedia_robbie-george.png`
 
 ---
+
+### Fisher Species Plate™
 
 KEEP VERSION
 
-* wool-carder-bee_species-plate_anthidium-manicatum_naturepedia_robbie-george_v2.png
+- `fisher_species-plate_pekania-pennanti_naturepedia_robbie-george_v2.png`
 
 SUPERSEDED
 
-* previous wool-carder-bee version
+- `fisher_species-plate_pekania-pennanti_north-america_forest-habitat_robbie-george.png`
 
 ---
+
+### Plant Communication Plate™
 
 KEEP VERSION
 
-* plant-communication-plate_naturepedia_plant-intelligence_robbie-george_v2.png
+- `plant-communication-plate_naturepedia_plant-intelligence_robbie-george_v2.png`
 
 SUPERSEDED
 
-* plant-communication-plate_naturepedia_plant-intelligence_robbie-george.png
+- `plant-communication-plate_naturepedia_plant-intelligence_robbie-george.png`
+
+NOTE:
+
+- `plant-communication-plate_naturepedia_quantum-agriculture_robbie-george.png` remains a separate Quantum Agriculture™ system-context plate unless intentionally merged later.
 
 ---
 
-Additional v2 replacements should be appended here.
+### Wool Carder Bee Species Plate™
+
+KEEP VERSION
+
+- `wool-carder-bee_species-plate_anthidium-manicatum_naturepedia_robbie-george_v2.png`
+
+SUPERSEDED
+
+- earlier non-v2 Wool Carder Bee export if found in archived inventory.
 
 ---
 
@@ -247,94 +251,98 @@ These plates support interpretation but are not counted as canonical knowledge n
 
 They remain valuable assets but should not contribute to registry totals.
 
----
+## Artist Rendition — Tree Systems
 
-## Tree Artist Renditions
+Conceptual support plates excluded from the final canonical KEEP count unless later promoted.
 
-* Aspen Forest Artist Rendition Plate™
+- `acorn-ecology-artist-rendition-plate_naturepedia_oaks-of-north-america_robbie-george.png`
+- `aspen-forest-artist-rendition-plate_naturepedia_aspens-of-north-america_robbie-george.png`
+- `aspen-root-colony-artist-rendition-plate_naturepedia_aspens-of-north-america_robbie-george.png`
+- `autumn-maple-canopy-artist-rendition-plate_naturepedia_maples-of-north-america_robbie-george.png`
+- `birch-forest-artist-rendition-plate_naturepedia_birches-of-north-america_robbie-george.png`
+- `forest-ecology-artist-rendition-plate_naturepedia_trees-of-north-america_robbie-george.png`
+- `golden-aspen-canopy-artist-rendition-plate_naturepedia_aspens-of-north-america_robbie-george.png`
+- `maple-forest-artist-rendition-plate_naturepedia_maples-of-north-america_robbie-george.png`
+- `maple-sap-flow-artist-rendition-plate_naturepedia_maples-of-north-america_robbie-george.png`
+- `mountain-pine-forest-artist-rendition-plate_naturepedia_pines-of-north-america_robbie-george.png`
+- `oak-forest-artist-rendition-plate_naturepedia_oaks-of-north-america_robbie-george.png`
+- `pine-cone-artist-rendition-plate_naturepedia_pines-of-north-america_robbie-george.png`
+- `pine-forest-artist-rendition-plate_naturepedia_pines-of-north-america_robbie-george.png`
+- `tree-systems-artist-rendition-plate_naturepedia_trees-of-north-america_robbie-george.png`
+- `white-bark-ecology-artist-rendition-plate_naturepedia_birches-of-north-america_robbie-george.png`
+- `wildlife-tree-relationships-artist-rendition-plate_naturepedia_trees-of-north-america_robbie-george.png`
 
-* Aspen Root Colony Artist Rendition Plate™
+## Artist Rendition — Pollinator & Floral Network Systems
 
-* Golden Aspen Canopy Artist Rendition Plate™
+Conceptual support plates excluded from the final canonical KEEP count unless later promoted.
 
-* Birch Forest Artist Rendition Plate™
+- `bee-coneflower_artist-rendition-plate-v2_naturepedia_robbie-george.png`
+- `bee-goldenrod_artist-rendition-plate_naturepedia_robbie-george.png`
+- `bee-milkweed_artist-rendition-plate_naturepedia_robbie-george.png`
+- `bee-resource-connector-plate-naturepedia-artist-rendition.png`
+- `bumblebee-lupine_artist-rendition-plate_naturepedia_robbie-george.png`
+- `butterfly-resource-connector-plate-naturepedia-artist-rendition.png`
+- `coevolution-plate-naturepedia-artist-rendition.png`
+- `floral-resource-intelligence-plate-naturepedia-artist-rendition.png`
+- `floral-resource-network-architecture-plate-naturepedia-artist-rendition.png`
+- `floral-resource-networks-system-plate-naturepedia-artist-rendition.png`
+- `flower-resource-flow-plate-naturepedia-artist-rendition.png`
+- `honeybee-sunflower_artist-rendition-plate_naturepedia_robbie-george.png`
+- `hummingbird-resource-connector-plate-naturepedia-artist-rendition.png`
+- `moth-resource-connector-plate-naturepedia-artist-rendition.png`
+- `nectar-corridor-plate-naturepedia-artist-rendition.png`
+- `plant-reproduction-plate-naturepedia-artist-rendition.png`
+- `pollination-network-plate-naturepedia-artist-rendition.png`
+- `pollinator-layer-plate-naturepedia-artist-rendition.png`
+- `resource-distribution-plate-naturepedia-artist-rendition.png`
+- `underground-to-flower-plate-naturepedia-artist-rendition.png`
 
-* Birch Forest Succession Artist Rendition Plate™
+## Artist Rendition — Habitat, Restoration & Ecological Systems
 
-* White Bark Ecology Artist Rendition Plate™
+Conceptual support plates excluded from the final canonical KEEP count unless later promoted.
 
-* Maple Forest Artist Rendition Plate™
+- `carbon-soil-storage-plate_artist-rendition_naturepedia_robbie-george.png`
+- `ecological-connectivity-plate_artist-rendition_naturepedia_robbie-george.png`
+- `ecological-network-stability-plate-naturepedia-artist-rendition.png`
+- `ecological-succession-plate_artist-rendition_naturepedia_robbie-george.png`
+- `edge-habitat-plate_artist-rendition_naturepedia_robbie-george.png`
+- `habitat-recovery-artist-rendition-plate_restoration-art_naturepedia_robbie-george.png`
+- `habitat-structure-plate_artist-rendition_naturepedia_robbie-george.png`
+- `keystone-plant-species-plate_artist-rendition_naturepedia_robbie-george.png`
+- `meadow-ecology-plate_artist-rendition_naturepedia_robbie-george.png`
+- `native-plant-intelligence-plate_artist-rendition_naturepedia_robbie-george.png`
+- `native-seed-production-plate_artist-rendition_naturepedia_robbie-george.png`
+- `plant-community-diversity-plate_artist-rendition_naturepedia_robbie-george.png`
+- `plant-community-system-plate-v2_artist-rendition_naturepedia_robbie-george.png`
+- `pollinator-habitat-corridor-plate_artist-rendition_naturepedia_robbie-george.png`
+- `pollinator-recovery-artist-rendition-plate_pollinator-restoration-art_naturepedia_robbie-george.png`
+- `riparian-plant-communities-plate_artist-rendition_naturepedia_robbie-george.png`
+- `root-network-plate_artist-rendition_naturepedia_robbie-george.png`
+- `seasonal-habitat-continuity-plate_artist-rendition_naturepedia_robbie-george.png`
+- `soil-regeneration-artist-rendition-plate_soil-ecology-art_naturepedia_robbie-george.png`
+- `wildlife-habitat-production-plate_artist-rendition_naturepedia_robbie-george.png`
 
-* Maple Sap Flow Artist Rendition Plate™
+## Artist Rendition — Governance & Future Infrastructure
 
-* Autumn Maple Canopy Artist Rendition Plate™
+Conceptual support plates excluded from the final canonical KEEP count unless later promoted.
 
-* Oak Forest Artist Rendition Plate™
+- `future-knowledge-network-artist-rendition-plate_framework-licensing_robbie-george.png`
+- `machine-to-machine-commerce-artist-rendition-plate_framework-licensing_robbie-george.png`
 
-* Acorn Ecology Artist Rendition Plate™
+NOTE:
 
-* Pine Forest Artist Rendition Plate™
+These remain important conceptual infrastructure assets but should not be counted as canonical live registry plates unless promoted later.
 
-* Pine Cone Artist Rendition Plate™
+## Interpretation Plates
 
-* Mountain Pine Forest Artist Rendition Plate™
+Interpretation plates are conceptual support plates and are excluded from the final canonical KEEP count unless later promoted.
 
----
-
-## Pollinator Artist Renditions
-
-* Bee Goldenrod Plate™
-
-* Bee Milkweed Plate™
-
-* Bee Coneflower Plate™
-
-* Honeybee Sunflower Plate™
-
-* Pollination Network Plate™
-
-* Nectar Corridor Plate™
-
-* Pollinator Layer Plate™
-
-* Floral Resource Network Architecture Plate™
-
-* Flower Resource Flow Plate™
-
-* Bloom Timing Intelligence Plate™
-
-* Resource Distribution Plate™
-
-* Coevolution Plate™
-
-* Ecological Network Stability Plate™
-
-* Biodiversity Production Plate™
-
-* Underground-To-Flower Plate™
-
----
-
-## Restoration Artist Renditions
-
-* Habitat Recovery Artist Rendition Plate™
-
-* Pollinator Recovery Artist Rendition Plate™
-
-* Soil Regeneration Artist Rendition Plate™
-
-* Wildlife Habitat Production Artist Rendition Plate™
-
-* Native Plant Intelligence Artist Rendition Plate™
-
-* Native Seed Production Artist Rendition Plate™
-
----
-
-## Infrastructure Artist Renditions
-
-* Future Knowledge Network Artist Rendition Plate™
-* Machine-to-Machine Commerce Artist Rendition Plate™
+- `buzz-pollination_interpretation-plate_naturepedia_robbie-george.png`
+- `hive-intelligence_interpretation-plate_naturepedia_robbie-george.png`
+- `native-bee-diversity_interpretation-plate_naturepedia_robbie-george.png`
+- `pollination-intelligence_interpretation-plate_naturepedia_robbie-george.png`
+- `ultraviolet-flower-guidance_interpretation-plate_naturepedia_robbie-george.png`
+- `waggle-dance-communication_interpretation-plate_naturepedia_robbie-george.png`
 
 ---
 
@@ -350,14 +358,14 @@ Temporary design exports and non-canonical development assets.
 
 Draft files are excluded from registry counts.
 
----
+## Confirmed Draft Files
 
-## Draft Files
+Temporary image-generation exports excluded from canonical registry counts.
 
-* ChatGPT Image Apr 24, 2026, 04_04_12 PM.png
-* ChatGPT Image Apr 24, 2026, 06_25_52 AM.png
+- `ChatGPT Image Apr 24, 2026, 04_04_12 PM.png`
+- `ChatGPT Image Apr 24, 2026, 06_25_52 AM.png`
 
-Additional drafts should be appended here.
+These are design/export artifacts, not canonical Naturepedia™ Plates.
 
 ---
 
@@ -365,26 +373,28 @@ Additional drafts should be appended here.
 
 Status:
 
-PENDING RECONCILIATION
+PENDING FINAL RECONCILIATION
 
-Formula:
+Do not update Worker `plateCount` yet.
 
-FINAL COUNT =
-KEEP
-− DUPLICATES
-− SUPERSEDED
-− DRAFTS
-− ARTIST RENDITIONS
+Current Worker Count:
 
----
-
-Current Worker Count
-
+```txt
 163
+```
 
-Status:
+DUPLICATE section started
+SUPERSEDED section started
+ARTIST RENDITION section started
+DRAFT section started
+KEEP section still requires full family-by-family population
 
-Do Not Modify Yet
+FINAL CANONICAL COUNT =
+all KEEP files
+minus DUPLICATE
+minus SUPERSEDED
+minus ARTIST RENDITION
+minus DRAFT
 
 ---
 
