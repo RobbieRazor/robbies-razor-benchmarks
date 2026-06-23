@@ -1363,6 +1363,48 @@ Status:
 
 Photography Guides Census Complete
 
+### Information Systems in Nature™
+
+Status: Census Complete
+
+Primary System Plate™
+
+* Information Systems in Nature Plate™
+
+Current Plates™
+
+* Biological Communication Plate™
+* Signal Propagation Plate™
+* Ecological Networks Plate™
+* Biological Memory Plate™
+* Feedback Loop Architecture Plate™
+* Distributed Intelligence Plate™
+* Ecological Computation Plate™
+* Living Information Fields Plate™
+* Future Information Systems Plate™
+
+System Relationships™
+
+* Bioelectric Systems™
+* Plant Intelligence™
+* Soil Systems™
+* Ecosystem Feedbacks™
+* Pollinator Systems™
+* Mycorrhizal Networks™
+* Biodiversity Systems™
+* Naturepedia™
+* Robbie's Razor™
+
+Purpose:
+
+Information Systems in Nature™ serves as a relationship architecture layer connecting communication, signaling, memory, feedback, intelligence, computation, and ecological networks throughout living systems.
+
+Status:
+
+Information Systems Census Complete
+
+---
+
 ### Governance & Framework Infrastructure™
 
 ### Quantum & Elemental Intelligence™
