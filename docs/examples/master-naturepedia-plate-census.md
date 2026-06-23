@@ -939,7 +939,222 @@ Status:
 
 Pollinator Systems Census Complete
 
+## Water Systems™
+
+Status: Census In Progress
+
+Classification:
+KEEP
+DUPLICATE
+DRAFT
+ARTIST-RENDITION
+SUPERSEDED
+
+---
+
 ### Water Systems™
+
+Primary System Plate™
+
+* Water Systems Plate™
+
+Purpose:
+
+Water Systems™ serves as a major Naturepedia relationship hub connecting rivers, wetlands, floodplains, groundwater, estuaries, climate, biodiversity, migration, and ecological resilience.
+
+Water functions as one of the primary organizing forces across living systems.
+
+---
+
+### Hydrologic Systems™
+
+KEEP
+
+* Water Cycle Plate™
+* Water Systems Plate™
+
+Purpose:
+
+Movement, storage, exchange, and circulation of water through Earth's living systems.
+
+Relationships™
+
+→ Earth Systems™
+→ Climate Systems™
+→ Ecosystem Feedbacks™
+
+---
+
+### River Systems™
+
+KEEP
+
+* River Systems Plate™
+
+Purpose:
+
+Flowing-water systems connecting mountains, forests, wetlands, floodplains, biodiversity, and wildlife movement.
+
+Relationships™
+
+→ Floodplains™
+→ Wetlands™
+→ Water Systems™
+
+---
+
+### Wetland Systems™
+
+KEEP
+
+* Wetland Ecosystem Plate™
+
+Purpose:
+
+Water storage, filtration, biodiversity production, wildlife habitat, carbon storage, and migration support.
+
+Relationships™
+
+→ Biodiversity™
+→ Waterfowl Systems™
+→ Chesapeake Bay™
+
+---
+
+### Floodplain Systems™
+
+KEEP
+
+* Floodplains Plate™
+
+Purpose:
+
+Dynamic ecological transition zones connecting rivers, wetlands, groundwater recharge, wildlife movement, and nutrient cycling.
+
+Relationships™
+
+→ River Systems™
+→ Wetlands™
+→ Cottonwoods™
+
+---
+
+### Groundwater Systems™
+
+KEEP
+
+* Groundwater Systems Plate™
+
+Purpose:
+
+Subsurface water storage, ecological buffering, drought resilience, spring systems, and hydrologic continuity.
+
+Relationships™
+
+→ Forest Systems™
+→ Wetlands™
+→ Water Systems™
+
+---
+
+### Estuarine & Coastal Water Systems™
+
+KEEP
+
+* Estuaries & Coastal Systems Plate™
+
+Purpose:
+
+Freshwater and saltwater interaction zones supporting fisheries, biodiversity, migration, coastal resilience, and ecological productivity.
+
+Relationships™
+
+→ Chesapeake Bay™
+→ Coastal Ecosystems™
+→ Waterfowl Systems™
+
+---
+
+### Chesapeake Bay Systems™
+
+KEEP
+
+* Chesapeake Bay System Plate™
+
+Purpose:
+
+Large-scale estuarine ecosystem connecting rivers, wetlands, fisheries, migration pathways, water quality, and coastal biodiversity.
+
+Relationships™
+
+→ Blackwater National Wildlife Refuge™
+→ Waterfowl Systems™
+→ Coastal Ecology™
+
+---
+
+### Water Intelligence Systems™
+
+KEEP
+
+* Water Memory Plate™
+
+Purpose:
+
+Interpretive Naturepedia plate exploring information, continuity, pattern storage, and ecological connectivity through water systems.
+
+Relationships™
+
+→ Information Systems in Nature™
+→ Quantum Agriculture™
+→ Water Systems™
+
+---
+
+### Water System Relationships™
+
+Water Systems™
+
+→ Earth Systems™
+
+→ Soil Systems™
+
+→ Carbon Cycle™
+
+→ Ecosystem Feedbacks™
+
+→ Forest Systems™
+
+→ Wetland Systems™
+
+→ Biodiversity™
+
+→ Wildlife Migration™
+
+→ Field Locations™
+
+→ Quantum Agriculture™
+
+Water should be interpreted as a unifying ecological flow layer connecting biological, geological, atmospheric, and ecological systems.
+
+---
+
+### Water Systems Census Status
+
+Water Registry Families Completed:
+
+* Hydrologic Systems™
+* River Systems™
+* Wetland Systems™
+* Floodplain Systems™
+* Groundwater Systems™
+* Estuarine & Coastal Water Systems™
+* Chesapeake Bay Systems™
+* Water Intelligence Systems™
+
+Status:
+
+Water Systems Census Complete
 
 ## Field Locations™
 
