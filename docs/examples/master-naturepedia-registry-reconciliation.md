@@ -863,6 +863,256 @@ KEEP
 
 ---
 
+## Earth Systems™
+
+KEEP
+
+* Earth Systems Plate™
+* Geosphere Plate™
+* Hydrosphere Plate™
+* Atmosphere Plate™
+* Biosphere Plate™
+* Cryosphere Plate™
+* Climate Systems Plate™
+* Water Cycle Plate™
+* Plate Tectonics & Earth Engine Plate™
+* Human Impact on Earth Systems Plate™
+* Earth Systems Photography Plate™
+
+---
+
+## Soil Systems™
+
+KEEP
+
+* Soil Systems Plate™
+* Soil Horizons Plate™
+* Soil Microbiome Plate™
+* Soil Biodiversity Plate™
+* Soil Carbon Plate™
+* Soil Water Systems Plate™
+* Mycorrhizal Networks Plate™
+* Nutrient Cycling Plate™
+* Living Soil Food Web Plate™
+* Living Soil Intelligence Plate™
+* Regenerative Soil Systems Plate™
+
+---
+
+## Carbon Cycle™
+
+KEEP
+
+* Carbon Cycle Plate™
+* Photosynthesis Plate™
+* Respiration Plate™
+* Decomposition Plate™
+* Carbon Sequestration Plate™
+* Forest Carbon Plate™
+* Soil Carbon Plate™
+* Ocean Carbon Plate™
+* Carbon & Microbial Life Plate™
+* Regenerative Carbon Systems Plate™
+* Carbon Farming Plate™
+
+---
+
+## Ecosystem Feedbacks™
+
+KEEP
+
+* Ecosystem Feedbacks Plate™
+* Positive Feedback Loops Plate™
+* Negative Feedback Loops Plate™
+* Soil Feedbacks Plate™
+* Forest Feedbacks Plate™
+* Water & Climate Feedbacks Plate™
+* Microbial Feedbacks Plate™
+* Mycelial Feedback Networks Plate™
+* Disturbance & Recovery Plate™
+* Regenerative Feedback Systems Plate™
+
+---
+
+## Bioelectric Systems™
+
+KEEP
+
+* Bioelectric Systems Plate™
+* Harold Burr's Life Fields Plate™
+* Michael Levin Plate™
+* Bioelectric Morphogenesis Plate™
+* Regeneration & Healing Plate™
+* Plant Electrophysiology Plate™
+* Soil Electrical Networks Plate™
+* Bioelectric Medicine Plate™
+* Electrical Ecology Plate™
+* Bioelectric Photography Plate™
+
+---
+
+## Quantum Agriculture™
+
+KEEP
+
+* Quantum Agriculture Plate™
+* Living Soil Intelligence Plate™
+* Bioelectric Farming Plate™
+* Light & Photons in Agriculture Plate™
+* Water Intelligence Plate™
+* Plant Communication Plate™
+* Mycorrhizal Partnerships Plate™
+* Nutrient Cycling & Bioavailability Plate™
+* Regenerative Farming Systems Plate™
+* Carbon Farming Plate™
+* Biodiversity & Ecosystem Balance Plate™
+* Future Food Systems Plate™
+
+---
+
+## Plant Intelligence™
+
+KEEP
+
+* Plant Intelligence Plate™
+* Plant Communication Plate™
+* Plant Electrophysiology Plate™
+* Root Intelligence Plate™
+* Plant Memory Plate™
+* Plant Defense Systems Plate™
+* Plant Sensory Biology Plate™
+* Plant Cooperation Plate™
+* Plants & Mycorrhizal Networks Plate™
+* Future Plant Intelligence Plate™
+
+---
+
+## Water Systems™
+
+KEEP
+
+* Water Systems Plate™
+* Water Cycle Plate™
+* River Systems Plate™
+* Wetland Ecosystem Plate™
+* Floodplains Plate™
+* Groundwater Systems Plate™
+* Estuaries & Coastal Systems Plate™
+* Chesapeake Bay System Plate™
+* Water Memory Plate™
+
+---
+
+## Microbial Life Systems™
+
+KEEP
+
+* Microbial Life Systems Plate™
+* Microbial Identification Plate™
+* Bacteria Plate™
+* Archaea Plate™
+* Biofilms Plate™
+* Microbial Mats Plate™
+* Thermophiles Plate™
+* Extremophiles Plate™
+* Photosynthesis Plate™
+* Chemosynthesis Plate™
+* Nutrient Cycling Plate™
+* Microbial Biodiversity Plate™
+* Microbial Ecosystem Services Plate™
+* Origins of Life Plate™
+* Microbial Photography Plate™
+
+---
+
+## Volcanic Landscapes™
+
+KEEP
+
+* Volcanic Landscapes Plate™
+* Magma Chambers Plate™
+* Volcanic Islands Plate™
+* Calderas Plate™
+* Plate Tectonics Plate™
+* Ring of Fire Plate™
+* Volcano Identification Plate™
+* Lava Flows Plate™
+* Volcanic Eruptions Plate™
+* Supervolcanoes Plate™
+* Volcanic Soils Plate™
+* Volcanic Ecosystems Plate™
+* Volcanic Succession Plate™
+* Volcanic Biodiversity Plate™
+* Volcanic Hazards Plate™
+* Volcanic Photography Plate™
+* Volcanoes Beyond Earth Plate™
+
+---
+
+## Geothermal Ecosystems™
+
+KEEP
+
+* Geothermal Ecosystems Plate™
+* Geothermal Identification Plate™
+* Geothermal Water Systems Plate™
+* Thermophile Life Plate™
+* Extremophile Life Plate™
+* Geothermal Microbial Mats Plate™
+* Geothermal Wildlife Relationships Plate™
+* Geothermal Biodiversity Plate™
+* Geothermal Ecosystem Services Plate™
+* Hydrothermal Vent Ecosystems Plate™
+* Global Geothermal Regions Plate™
+* Geothermal Photography Plate™
+
+---
+
+## Yellowstone Thermal Features™
+
+KEEP
+
+* Yellowstone Thermal Systems Plate™
+* Yellowstone Thermal Identification Plate™
+* Yellowstone Geysers Plate™
+* Old Faithful Plate™
+* Yellowstone Hot Springs Plate™
+* Grand Prismatic Spring Plate™
+* Mammoth Hot Springs Plate™
+* Yellowstone Mud Pots Plate™
+* Yellowstone Fumaroles Plate™
+* Norris Geyser Basin Plate™
+* Yellowstone Microbial Life Plate™
+* Yellowstone Thermal Ecology Plate™
+* Yellowstone Water & Heat Systems Plate™
+* Yellowstone Thermal Photography Plate™
+
+---
+
+## Hydrothermal Ecosystems™
+
+KEEP
+
+* Hydrothermal Ecosystems Plate™
+* Hydrothermal Vent Identification Plate™
+* Hydrothermal Microbial Life Plate™
+* Hydrothermal Mineral Systems Plate™
+* Hydrothermal Astrobiology Plate™
+* Europa & Enceladus Analogs Plate™
+* Origins of Life Hydrothermal Plate™
+* Black Smokers Plate™
+* White Smokers Plate™
+* Giant Tube Worm Plate™
+* Vent Mussels & Clams Plate™
+* Vent Crabs & Shrimp Plate™
+* Vent Extremophiles Plate™
+* Chemosynthetic Food Web Plate™
+* Hydrothermal Vent Biodiversity Plate™
+* Deep Ocean Exploration Plate™
+* Hydrothermal Photography Plate™
+
+---
+
 Continue adding every canonical family from:
 
 * Earth Systems™
