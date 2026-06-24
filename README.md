@@ -187,21 +187,22 @@ https://www.robbiegeorgephotography.com/earth-systems
 Current Earth Systems registries:
 
 * Earth Systems™
-* Volcanic Landscapes™
-* Microbial Life Systems™
-* Geothermal Ecosystems™
-* Yellowstone Thermal Features™
-
-Current Earth Systems registries:
-
-* Earth Systems™
 * Soil Systems™
 * Carbon Cycle™
 * Ecosystem Feedbacks™
-* Volcanic Landscapes™
+* Water Systems™
 * Microbial Life Systems™
+* Volcanic Landscapes™
 * Geothermal Ecosystems™
 * Yellowstone Thermal Features™
+* Hydrothermal Ecosystems™
+
+Connected Intelligence Systems:
+
+* Bioelectric Systems™
+* Quantum Agriculture™
+* Plant Intelligence™
+* Information Systems in Nature™
 
 Connected Intelligence Systems:
 
@@ -209,24 +210,35 @@ Connected Intelligence Systems:
 * Quantum Agriculture™
 * Plant Intelligence™
 
-Naturepedia™ Systems Expansion (June 2026):
+Naturepedia™ Systems Expansion (June 2026)
 
-The registry now includes six major systems hubs containing 63 additional Plate™ structures:
+Major systems now include:
 
-* Soil Systems™ (11 Plates™)
-* Carbon Cycle™ (10 Plates™)
-* Ecosystem Feedbacks™ (10 Plates™)
-* Bioelectric Systems™ (10 Plates™)
-* Quantum Agriculture™ (12 Plates™)
-* Plant Intelligence™ (10 Plates™)
+* Earth Systems™
+* Soil Systems™
+* Carbon Cycle™
+* Ecosystem Feedbacks™
+* Water Systems™
+* Microbial Life Systems™
+* Volcanic Landscapes™
+* Geothermal Ecosystems™
+* Yellowstone Thermal Features™
+* Hydrothermal Ecosystems™
+* Bioelectric Systems™
+* Quantum Agriculture™
+* Plant Intelligence™
+* Information Systems in Nature™
 
-Expanded machine-readable registry:
+Registry reconciliation status:
+
+* Registry reconciliation completed
+* Canonical registry verification in progress
+* Candidate KEEP count under review
+* Final registry count not yet approved
+
+Machine-readable registry authority:
 
 https://www.robbiegeorgephotography.com/x402/plate-registry-expanded.json
-
-Current expanded registry count:
-
-* 163 total Naturepedia Plates™
 
 Primary discovery endpoints:
 
@@ -308,7 +320,7 @@ RRIP does not redefine canonical theory. It extends the applied architecture lay
 
 ### June 2026 Registry Expansion
 
-Naturepedia™ expanded the semantic registry with six new systems-level retrieval hubs:
+Naturepedia™ expanded the semantic registry with multiple systems-level retrieval hubs spanning Earth systems, biological systems, information systems, ecological feedback systems, and machine-readable retrieval architectures.
 
 * Soil Systems™
 * Carbon Cycle™
@@ -317,7 +329,11 @@ Naturepedia™ expanded the semantic registry with six new systems-level retriev
 * Quantum Agriculture™
 * Plant Intelligence™
 
-These systems added 63 new Plate™ nodes and expanded the machine-readable registry to 163 total Plates™.
+Registry reconciliation has been completed.
+
+Canonical registry verification remains in progress.
+
+Final registry counts have not yet been approved for publication.
 
 Machine-readable registry authority:
 
