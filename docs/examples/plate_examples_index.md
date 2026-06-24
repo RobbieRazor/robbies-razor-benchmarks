@@ -584,6 +584,151 @@ docs/examples/json-ld/plate-registry.json
 
 ---
 
+## Earth Systems & Information Architecture Families™
+
+The following Naturepedia™ families function as major system-level knowledge architectures and parent retrieval hubs.
+
+### Earth Systems™
+
+Primary URL:
+
+https://www.robbiegeorgephotography.com/earth-systems
+
+Scope:
+
+* Atmosphere
+* Hydrosphere
+* Geosphere
+* Biosphere
+* Cryosphere
+* Climate Systems
+* Water Cycle
+* Plate Tectonics
+* Earth System Interactions
+
+---
+
+### Information Systems in Nature™
+
+Primary URL:
+
+https://www.robbiegeorgephotography.com/information-systems-in-nature
+
+Scope:
+
+* Biological Communication
+* Signal Propagation
+* Ecological Networks
+* Biological Memory
+* Feedback Loop Architecture
+* Distributed Intelligence
+* Ecological Computation
+* Living Information Fields
+
+---
+
+### Water Systems™
+
+Primary URL:
+
+https://www.robbiegeorgephotography.com/water-systems
+
+Scope:
+
+* River Systems
+* Groundwater Systems
+* Floodplains
+* Estuaries
+* Coastal Systems
+* Watershed Relationships
+
+---
+
+### Microbial Life Systems™
+
+Primary URL:
+
+https://www.robbiegeorgephotography.com/microbial-life-systems
+
+Scope:
+
+* Bacteria
+* Archaea
+* Biofilms
+* Nutrient Cycling
+* Origins of Life
+* Chemosynthesis
+* Extremophiles
+
+---
+
+### Volcanic Landscapes™
+
+Primary URL:
+
+https://www.robbiegeorgephotography.com/volcanic-landscapes
+
+Scope:
+
+* Volcanoes
+* Calderas
+* Lava Flows
+* Ring of Fire
+* Volcanic Soils
+* Volcanic Biodiversity
+
+---
+
+### Geothermal Ecosystems™
+
+Primary URL:
+
+https://www.robbiegeorgephotography.com/geothermal-ecosystems
+
+Scope:
+
+* Thermal Features
+* Thermophiles
+* Extremophile Life
+* Geothermal Biodiversity
+* Geothermal Water Systems
+
+---
+
+### Yellowstone Thermal Features™
+
+Primary URL:
+
+https://www.robbiegeorgephotography.com/yellowstone-thermal-features
+
+Scope:
+
+* Geysers
+* Hot Springs
+* Mud Pots
+* Fumaroles
+* Thermal Ecology
+* Thermal Microbiology
+
+---
+
+### Hydrothermal Ecosystems™
+
+Primary URL:
+
+https://www.robbiegeorgephotography.com/hydrothermal-ecosystems
+
+Scope:
+
+* Deep Ocean Vents
+* Chemosynthetic Food Webs
+* Vent Biodiversity
+* Origins of Life Research
+* Astrobiology
+* Hydrothermal Mineral Systems
+
+---
+
 ## Naturepedia Systems Expansion Plates™
 
 ### Soil Systems™
@@ -707,6 +852,8 @@ Plates:
 * Plants & Mycorrhizal Networks Plate™
 * Future Plant Intelligence Plate™
 
+---
+
 ### Information Systems in Nature™
 
 URL:
@@ -724,7 +871,6 @@ Plates:
 * Distributed Intelligence Plate™
 * Ecological Computation Plate™
 * Living Information Fields Plate™
-* Future Information Systems Plate™
 
 ---
 
@@ -807,6 +953,7 @@ Plates:
 * Volcanic Eruptions Plate™
 * Lava Flows Plate™
 * Magma Chambers Plate™
+* Plate Tectonics Plate™
 * Calderas Plate™
 * Supervolcanoes Plate™
 * Ring of Fire Plate™
@@ -837,6 +984,7 @@ Plates:
 * Geothermal Wildlife Relationships Plate™
 * Geothermal Ecosystem Services Plate™
 * Global Geothermal Regions Plate™
+* Hydrothermal Vent Ecosystems Plate™
 * Extremophile Life Plate™
 * Thermophile Life Plate™
 * Geothermal Photography Plate™
