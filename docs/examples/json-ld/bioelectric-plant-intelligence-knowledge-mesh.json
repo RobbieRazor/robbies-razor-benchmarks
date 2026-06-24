@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "@id": "https://www.robbiegeorgephotography.com/x402/knowledge-mesh/bioelectric-plant-intelligence#bioelectric-plant-intelligence-knowledge-mesh",
+  "name": "Naturepedia Bioelectric Plant Intelligence Knowledge Mesh",
+  "description": "Paid relationship mesh connecting bioelectric systems, plant intelligence, plant electrophysiology, root intelligence, soil electrical networks, electrical ecology, mycorrhizal signaling, and living information fields.",
+  "creator": {
+    "@type": "Person",
+    "name": "Robbie George",
+    "url": "https://www.robbiegeorgephotography.com/who-is-robbie-george"
+  },
+  "license": "https://www.robbiegeorgephotography.com/commercial-data-license",
+  "governance": "Gr <= Es",
+  "meshType": "Naturepedia Knowledge Mesh",
+  "system": "Bioelectric Plant Intelligence Systems™",
+  "visibleId": "bioelectric-plant-intelligence-knowledge-mesh",
+  "canonicalUrl": "https://www.robbiegeorgephotography.com/bioelectric-systems",
+  "architecture": "Bioelectric Systems → Plant Electrophysiology → Plant Intelligence → Root Intelligence → Soil Electrical Networks → Mycorrhizal Networks → Electrical Ecology → Living Information Fields",
+  "relationshipMesh": [
+    {
+      "from": "Bioelectric Systems™",
+      "to": "Plant Electrophysiology",
+      "relationship": "Bioelectric systems connect to plants through membrane voltage, action potentials, wound signaling, growth regulation, and environmental sensing."
+    },
+    {
+      "from": "Plant Electrophysiology",
+      "to": "Plant Intelligence™",
+      "relationship": "Electrical signaling supports sensing, response, adaptation, memory, defense, and coordination throughout the plant."
+    },
+    {
+      "from": "Plant Intelligence™",
+      "to": "Root Intelligence",
+      "relationship": "Roots integrate electrical, chemical, moisture, gravity, microbial, fungal, nutrient, and environmental signals."
+    },
+    {
+      "from": "Root Intelligence",
+      "to": "Soil Electrical Networks",
+      "relationship": "Roots interact with electrically active soils, minerals, microbes, fungi, and moisture gradients."
+    },
+    {
+      "from": "Soil Electrical Networks",
+      "to": "Mycorrhizal Networks",
+      "relationship": "Electrical pathways and fungal networks create underground communication routes for nutrients, warning signals, and resource allocation."
+    },
+    {
+      "from": "Mycorrhizal Networks",
+      "to": "Plant Communication",
+      "relationship": "Plant-fungal systems exchange chemical cues, electrical gradients, defense signals, root exudates, and ecological information."
+    },
+    {
+      "from": "Plant Communication",
+      "to": "Information Systems in Nature™",
+      "relationship": "Plant communication becomes part of broader biological information systems spanning roots, fungi, microbes, soil, water, and ecosystems."
+    },
+    {
+      "from": "Information Systems in Nature™",
+      "to": "Living Information Fields",
+      "relationship": "Distributed biological signaling creates landscape-scale information fields connecting organisms and ecosystems."
+    },
+    {
+      "from": "Electrical Ecology",
+      "to": "Ecosystem Feedbacks™",
+      "relationship": "Electrical signaling contributes to ecosystem feedback, resilience, regeneration, and adaptive environmental responses."
+    }
+  ],
+  "registryLinks": [
+    "/x402/information-systems-registry.json",
+    "/x402/earth-systems-registry.json",
+    "/x402/microbial-life-registry.json"
+  ],
+  "systemMapLinks": [
+    "/x402/bioelectric-systems-map.json",
+    "/x402/plant-intelligence-map.json",
+    "/x402/information-systems-map.json",
+    "/x402/quantum-agriculture-map.json",
+    "/x402/microbial-life-map.json",
+    "/x402/earth-systems-map.json"
+  ],
+  "protectedRetrievalUse": [
+    "bioelectric plant intelligence knowledge mesh retrieval",
+    "plant electrophysiology mapping",
+    "root intelligence routing",
+    "soil electrical network retrieval",
+    "mycorrhizal signaling mapping",
+    "electrical ecology retrieval",
+    "living information fields relationship mapping",
+    "commercial structured ingestion",
+    "enterprise semantic synchronization"
+  ]
+}
