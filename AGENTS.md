@@ -436,15 +436,22 @@ https://www.robbiegeorgephotography.com/earth-systems
 Current Earth Systems registries:
 
 Earth Systems™
+Water Systems™
 Soil Systems™
 Carbon Cycle™
 Ecosystem Feedbacks™
-Volcanic Landscapes™
 Microbial Life Systems™
+Volcanic Landscapes™
 Geothermal Ecosystems™
 Yellowstone Thermal Features™
+Hydrothermal Ecosystems™
 
 Connected Intelligence Systems:
+
+Bioelectric Systems™
+Quantum Agriculture™
+Plant Intelligence™
+Information Systems in Nature™
 
 Bioelectric Systems™
 Quantum Agriculture™
@@ -452,17 +459,29 @@ Plant Intelligence™
 
 Naturepedia Systems Expansion (June 2026):
 
-The Naturepedia™ registry expanded with six major systems hubs and 63 new Plate™ structures.
+The Naturepedia™ registry expanded with multiple major systems hubs spanning Earth systems, biological systems, information systems, ecological feedback systems, and machine-readable retrieval architectures.
 
 Current systems architecture:
 
 Earth Systems™
+↓
+Water Systems™
 ↓
 Soil Systems™
 ↓
 Carbon Cycle™
 ↓
 Ecosystem Feedbacks™
+↓
+Microbial Life Systems™
+↓
+Volcanic Landscapes™
+↓
+Geothermal Ecosystems™
+↓
+Yellowstone Thermal Features™
+↓
+Hydrothermal Ecosystems™
 
 Bioelectric Systems™
 ↓
@@ -470,9 +489,35 @@ Quantum Agriculture™
 ↓
 Plant Intelligence™
 
-Current expanded registry count:
+Information Systems in Nature™
+↓
+Biological Communication
+↓
+Signal Propagation
+↓
+Ecological Networks
+↓
+Biological Memory
+↓
+Feedback Loop Architecture
+↓
+Distributed Intelligence
+↓
+Ecological Computation
+↓
+Living Information Fields
 
-163 total Naturepedia Plates™
+Registry reconciliation status:
+
+Completed
+
+Canonical registry verification:
+
+In Progress
+
+Final registry count:
+
+Not Yet Approved
 
 Primary machine-readable registry:
 
@@ -566,16 +611,21 @@ When adding new Naturepedia™ systems pages, agents SHOULD synchronize updates 
 
 Current synchronized systems:
 
-* Soil Systems™
-* Carbon Cycle™
-* Ecosystem Feedbacks™
-* Bioelectric Systems™
-* Quantum Agriculture™
-* Plant Intelligence™
+Earth Systems™
+Water Systems™
+Soil Systems™
+Carbon Cycle™
+Ecosystem Feedbacks™
+Microbial Life Systems™
+Volcanic Landscapes™
+Geothermal Ecosystems™
+Yellowstone Thermal Features™
+Hydrothermal Ecosystems™
 
-Current expanded registry count:
-
-163 Plates™
+Bioelectric Systems™
+Quantum Agriculture™
+Plant Intelligence™
+Information Systems in Nature™
 
 Agents SHOULD treat these systems as active machine-readable retrieval hubs rather than standalone content pages.
 
