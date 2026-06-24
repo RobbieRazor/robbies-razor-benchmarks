@@ -1134,6 +1134,73 @@ KEEP
 
 ---
 
+## Additional KEEP — Supplemental Ecosystem, Habitat, Restoration & Framework Plates
+
+KEEP
+
+### Additional Tree System Plates™
+
+* Birch Forest Succession Plate™
+* Carbon Storage Tree Plate™
+* Forest Structure Plate™
+* Keystone Tree Species Plate™
+* Riparian Tree Systems Plate™
+* Seasonal Tree Ecology Plate™
+
+---
+
+### Ecosystem & Habitat Systems™
+
+* Arctic Tundra & Boreal Ecosystems Plate™
+* Biodiversity Ecosystem Balance Plate™
+* Biodiversity Intelligence Plate™
+* Coastal Estuary Wildlife Systems Plate™
+* Ecological Resilience Plate™
+* Ecosystem Stability Plate™
+* Forest Ecosystems Plate™
+* Grassland Ecosystems Plate™
+* Habitat Connectivity Plate™
+* Habitat Fragmentation Plate™
+* Habitat Intelligence Plate™
+* Mountain Alpine Ecosystems Plate™
+* Wetlands & Peat Plate™
+
+---
+
+### Restoration & Recovery Systems™
+
+* Ecological Recovery Timeline Plate™
+* Ecological Restoration Plate™
+* Habitat Recovery Plate™
+* Native Species Recovery Plate™
+* Pollinator Recovery Plate™
+* Restoration Intelligence Plate™
+* Soil Regeneration Plate™
+
+---
+
+### Additional Quantum Agriculture Plates™
+
+* Hydrogen Water Soil Systems Plate™
+
+---
+
+### Additional Hydrothermal Plates™
+
+* Seafloor Geology Plate™
+
+---
+
+### Additional Governance & Foundation Plates™
+
+* Grand Compression Cosmology Plate™
+* Naturepedia Knowledge Mesh Framework Hero™
+* Quantum & Elemental Intelligence Ring 1 Plate™
+* Robbie George Biography Plate™
+* The Grand Compression Naturepedia Knowledge Plate™
+
+---
+
 # DUPLICATE
 
 Definition:
