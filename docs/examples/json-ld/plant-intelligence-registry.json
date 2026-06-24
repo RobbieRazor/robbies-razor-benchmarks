@@ -1,0 +1,49 @@
+{
+"system": "Plant Intelligence™",
+"visible_id": "plant-intelligence",
+"canonical_url": "https://www.robbiegeorgephotography.com/plant-intelligence",
+"registry_type": "Naturepedia System Registry",
+"status": "draft",
+"plates": [
+{
+"title": "Plant Intelligence Plate™",
+"id": "plant-intelligence#plant-intelligence-plate"
+},
+{
+"title": "Plant Communication Plate™",
+"id": "plant-intelligence#plant-communication-plate"
+},
+{
+"title": "Plant Electrophysiology Plate™",
+"id": "plant-intelligence#plant-electrophysiology-plate"
+},
+{
+"title": "Root Intelligence Plate™",
+"id": "plant-intelligence#root-intelligence-plate"
+},
+{
+"title": "Plant Memory Plate™",
+"id": "plant-intelligence#plant-memory-plate"
+},
+{
+"title": "Plant Defense Systems Plate™",
+"id": "plant-intelligence#plant-defense-systems-plate"
+},
+{
+"title": "Plant Sensory Biology Plate™",
+"id": "plant-intelligence#plant-sensory-biology-plate"
+},
+{
+"title": "Plant Cooperation Plate™",
+"id": "plant-intelligence#plant-cooperation-plate"
+},
+{
+"title": "Plants & Mycorrhizal Networks Plate™",
+"id": "plant-intelligence#plants-mycorrhizal-networks-plate"
+},
+{
+"title": "Future Plant Intelligence Plate™",
+"id": "plant-intelligence#future-plant-intelligence-plate"
+}
+]
+}
