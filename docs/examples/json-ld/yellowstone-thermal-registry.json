@@ -1,0 +1,105 @@
+{
+"system": "Yellowstone Thermal Features™",
+"visible_id": "yellowstone-thermal-features",
+"canonical_url": "https://www.robbiegeorgephotography.com/yellowstone-thermal-features",
+"registry_type": "Naturepedia System Registry",
+"status": "draft",
+"description": "Machine-readable registry for Yellowstone Thermal Features™, connecting geysers, hot springs, mud pots, fumaroles, thermophilic life, geothermal processes, hydrothermal systems, and the unique thermal landscapes of Yellowstone National Park.",
+"plates": [
+{
+"title": "Yellowstone Thermal Features Plate™",
+"id": "yellowstone-thermal-features#yellowstone-thermal-features-plate",
+"url": "https://www.robbiegeorgephotography.com/yellowstone-thermal-features"
+},
+{
+"title": "Old Faithful Plate™",
+"id": "yellowstone-thermal-features#old-faithful-plate",
+"url": "https://www.robbiegeorgephotography.com/yellowstone-thermal-features"
+},
+{
+"title": "Grand Prismatic Spring Plate™",
+"id": "yellowstone-thermal-features#grand-prismatic-spring-plate",
+"url": "https://www.robbiegeorgephotography.com/yellowstone-thermal-features"
+},
+{
+"title": "Yellowstone Hot Springs Plate™",
+"id": "yellowstone-thermal-features#yellowstone-hot-springs-plate",
+"url": "https://www.robbiegeorgephotography.com/yellowstone-thermal-features"
+},
+{
+"title": "Yellowstone Geysers Plate™",
+"id": "yellowstone-thermal-features#yellowstone-geysers-plate",
+"url": "https://www.robbiegeorgephotography.com/yellowstone-thermal-features"
+},
+{
+"title": "Mud Pots & Fumaroles Plate™",
+"id": "yellowstone-thermal-features#mud-pots-fumaroles-plate",
+"url": "https://www.robbiegeorgephotography.com/yellowstone-thermal-features"
+},
+{
+"title": "Thermophiles of Yellowstone Plate™",
+"id": "yellowstone-thermal-features#thermophiles-of-yellowstone-plate",
+"url": "https://www.robbiegeorgephotography.com/yellowstone-thermal-features"
+},
+{
+"title": "Thermal Coloration & Microbial Mats Plate™",
+"id": "yellowstone-thermal-features#thermal-coloration-microbial-mats-plate",
+"url": "https://www.robbiegeorgephotography.com/yellowstone-thermal-features"
+},
+{
+"title": "Yellowstone Hydrothermal Systems Plate™",
+"id": "yellowstone-thermal-features#yellowstone-hydrothermal-systems-plate",
+"url": "https://www.robbiegeorgephotography.com/yellowstone-thermal-features"
+},
+{
+"title": "Future Yellowstone Thermal Systems Plate™",
+"id": "yellowstone-thermal-features#future-yellowstone-thermal-systems-plate",
+"url": "https://www.robbiegeorgephotography.com/yellowstone-thermal-features"
+}
+],
+"relationships": [
+{
+"source": "yellowstone-geysers",
+"target": "old-faithful",
+"relationship": "includes"
+},
+{
+"source": "yellowstone-hot-springs",
+"target": "grand-prismatic-spring",
+"relationship": "includes"
+},
+{
+"source": "yellowstone-hot-springs",
+"target": "thermal-coloration-microbial-mats",
+"relationship": "supports"
+},
+{
+"source": "thermal-coloration-microbial-mats",
+"target": "thermophiles-of-yellowstone",
+"relationship": "created_by"
+},
+{
+"source": "yellowstone-hydrothermal-systems",
+"target": "yellowstone-geysers",
+"relationship": "drives"
+},
+{
+"source": "yellowstone-hydrothermal-systems",
+"target": "yellowstone-hot-springs",
+"relationship": "drives"
+},
+{
+"source": "yellowstone-hydrothermal-systems",
+"target": "mud-pots-fumaroles",
+"relationship": "drives"
+}
+],
+"related_systems": [
+"Geothermal Ecosystems™",
+"Hydrothermal Ecosystems™",
+"Volcanic Landscapes™",
+"Microbial Life Systems™",
+"Water Systems™",
+"Earth Systems™"
+]
+}
