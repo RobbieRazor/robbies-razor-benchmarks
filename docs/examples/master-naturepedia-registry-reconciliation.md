@@ -1422,6 +1422,183 @@ These are design/export artifacts, not canonical Naturepedia™ Plates.
 
 ---
 
+# Unresolved Classification Review
+
+The following plates require explicit classification decisions before the final canonical Naturepedia™ count is calculated.
+
+These files do not fit cleanly into the current Species™, Track™, System™, Photography Guide™, Field Location™, Governance™, Duplicate™, Superseded™, Draft™, or Artist Rendition categories.
+
+Each plate should ultimately be assigned to:
+
+* KEEP
+* ARTIST RENDITION
+* SUPERSEDED
+* DUPLICATE
+* DRAFT
+
+No plate should remain unresolved before final count calculation.
+
+---
+
+## Ecosystem System Plates™
+
+Recommended Classification:
+
+KEEP
+
+Reason:
+
+These function as ecosystem-level knowledge nodes and relationship hubs.
+
+Files:
+
+* Arctic Tundra & Boreal Ecosystems Plate™
+* Forest Ecosystems Plate™
+* Grassland Ecosystems Plate™
+* Mountain Alpine Ecosystems Plate™
+* Wetland Ecosystem Plate™
+
+Decision:
+
+KEEP
+
+---
+
+## Biodiversity & Ecological Intelligence Plates™
+
+Recommended Classification:
+
+KEEP
+
+Reason:
+
+These operate as ecological relationship architecture plates rather than artist renditions.
+
+Files:
+
+* Biodiversity Intelligence Plate™
+* Ecological Resilience Plate™
+* Ecosystem Stability Plate™
+
+Decision:
+
+KEEP
+
+---
+
+## Habitat Relationship Plates™
+
+Recommended Classification:
+
+KEEP
+
+Reason:
+
+These represent habitat-scale ecological concepts and navigation nodes.
+
+Files:
+
+* Habitat Connectivity Plate™
+* Habitat Fragmentation Plate™
+* Habitat Intelligence Plate™
+
+Decision:
+
+KEEP
+
+---
+
+## Restoration & Recovery Systems™
+
+Recommended Classification:
+
+KEEP
+
+Reason:
+
+These function as restoration system nodes and ecological recovery pathways.
+
+Files:
+
+* Ecological Restoration Plate™
+* Ecological Recovery Timeline Plate™
+* Habitat Recovery Plate™
+* Native Species Recovery Plate™
+* Pollinator Recovery Plate™
+* Restoration Intelligence Plate™
+* Soil Regeneration Plate™
+
+Decision:
+
+KEEP
+
+---
+
+## Foundation & Knowledge Architecture Plates™
+
+Recommended Classification:
+
+KEEP
+
+Reason:
+
+These contribute to Naturepedia™ architecture, knowledge organization, compression systems, and framework development.
+
+Files:
+
+* Grand Compression Cosmology Plate™
+* Quantum Elemental Intelligence Ring 1 Plate™
+* The Grand Compression Naturepedia Knowledge Plate™
+* Naturepedia Knowledge Mesh Framework Hero™
+
+Decision:
+
+KEEP
+
+---
+
+## Review Notes
+
+Current Recommendation:
+
+All unresolved plates listed above should remain in KEEP.
+
+No evidence currently suggests they belong in:
+
+* DUPLICATE
+* SUPERSEDED
+* DRAFT
+
+Several could be interpreted as ARTIST RENDITION plates, but they currently function more like conceptual knowledge nodes and relationship hubs than illustrations.
+
+Until a future registry simplification occurs, KEEP is the recommended classification.
+
+---
+
+## Reconciliation Completion Checklist
+
+Before final count calculation:
+
+☐ Every file classified
+
+☐ No unresolved plates remain
+
+☐ KEEP inventory finalized
+
+☐ DUPLICATE inventory finalized
+
+☐ SUPERSEDED inventory finalized
+
+☐ ARTIST RENDITION inventory finalized
+
+☐ DRAFT inventory finalized
+
+☐ Registry totals balanced
+
+☐ Final canonical count approved
+
+---
+
 # FINAL CANONICAL COUNT
 
 Status:
