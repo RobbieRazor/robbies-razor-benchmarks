@@ -1,0 +1,106 @@
+{
+"system": "Volcanic Landscapes™",
+"visible_id": "volcanic-landscapes",
+"canonical_url": "https://www.robbiegeorgephotography.com/volcanic-landscapes",
+"registry_type": "Naturepedia System Registry",
+"status": "draft",
+"description": "Machine-readable registry for Volcanic Landscapes™, connecting volcanism, magma systems, tectonic processes, lava flows, volcanic landforms, geothermal interactions, ecosystem succession, and Earth's internal energy systems.",
+"plates": [
+{
+"title": "Volcanic Landscapes Plate™",
+"id": "volcanic-landscapes#volcanic-landscapes-plate",
+"url": "https://www.robbiegeorgephotography.com/volcanic-landscapes"
+},
+{
+"title": "Volcano Formation Plate™",
+"id": "volcanic-landscapes#volcano-formation-plate",
+"url": "https://www.robbiegeorgephotography.com/volcanic-landscapes"
+},
+{
+"title": "Magma Systems Plate™",
+"id": "volcanic-landscapes#magma-systems-plate",
+"url": "https://www.robbiegeorgephotography.com/volcanic-landscapes"
+},
+{
+"title": "Lava Flows Plate™",
+"id": "volcanic-landscapes#lava-flows-plate",
+"url": "https://www.robbiegeorgephotography.com/volcanic-landscapes"
+},
+{
+"title": "Volcanic Landforms Plate™",
+"id": "volcanic-landscapes#volcanic-landforms-plate",
+"url": "https://www.robbiegeorgephotography.com/volcanic-landscapes"
+},
+{
+"title": "Plate Tectonics & Volcanism Plate™",
+"id": "volcanic-landscapes#plate-tectonics-volcanism-plate",
+"url": "https://www.robbiegeorgephotography.com/volcanic-landscapes"
+},
+{
+"title": "Volcanic Ecosystem Succession Plate™",
+"id": "volcanic-landscapes#volcanic-ecosystem-succession-plate",
+"url": "https://www.robbiegeorgephotography.com/volcanic-landscapes"
+},
+{
+"title": "Volcanic Soils Plate™",
+"id": "volcanic-landscapes#volcanic-soils-plate",
+"url": "https://www.robbiegeorgephotography.com/volcanic-landscapes"
+},
+{
+"title": "Volcanism & Earth Systems Plate™",
+"id": "volcanic-landscapes#volcanism-earth-systems-plate",
+"url": "https://www.robbiegeorgephotography.com/volcanic-landscapes"
+},
+{
+"title": "Future Volcanic Landscapes Plate™",
+"id": "volcanic-landscapes#future-volcanic-landscapes-plate",
+"url": "https://www.robbiegeorgephotography.com/volcanic-landscapes"
+}
+],
+"relationships": [
+{
+"source": "volcano-formation",
+"target": "magma-systems",
+"relationship": "driven_by"
+},
+{
+"source": "magma-systems",
+"target": "lava-flows",
+"relationship": "produces"
+},
+{
+"source": "lava-flows",
+"target": "volcanic-landforms",
+"relationship": "creates"
+},
+{
+"source": "plate-tectonics-volcanism",
+"target": "volcano-formation",
+"relationship": "controls"
+},
+{
+"source": "volcanic-landforms",
+"target": "volcanic-ecosystem-succession",
+"relationship": "supports"
+},
+{
+"source": "volcanic-soils",
+"target": "plant-intelligence",
+"relationship": "influences"
+},
+{
+"source": "volcanism-earth-systems",
+"target": "earth-systems",
+"relationship": "part_of"
+}
+],
+"related_systems": [
+"Earth Systems™",
+"Geothermal Ecosystems™",
+"Yellowstone Thermal Features™",
+"Hydrothermal Ecosystems™",
+"Soil Systems™",
+"Water Systems™",
+"Microbial Life Systems™"
+]
+}
