@@ -594,7 +594,83 @@ Example:
 
 ## Future Knowledge Mesh Layer
 
-A future retrieval layer may expose cross-system relationships.
+## Knowledge Mesh JSON-LD Examples
+
+Knowledge Mesh files describe relationship-based Naturepedia retrieval products. Unlike registries, which answer what exists, and system maps, which answer how concepts are structured, Knowledge Mesh endpoints answer how systems relate across ecology, energy, water, soil, carbon, microbial life, plant intelligence, and information systems.
+
+Current Knowledge Mesh examples:
+
+- `earth-systems-knowledge-mesh.json`
+- `information-systems-knowledge-mesh.json`
+- `volcanic-geothermal-hydrothermal-knowledge-mesh.json`
+- `plant-soil-microbial-knowledge-mesh.json`
+- `bioelectric-plant-intelligence-knowledge-mesh.json`
+
+Production x402 endpoints:
+
+- `/x402/knowledge-mesh/earth-systems`
+- `/x402/knowledge-mesh/information-systems`
+- `/x402/knowledge-mesh/volcanic-geothermal-hydrothermal`
+- `/x402/knowledge-mesh/plant-soil-microbial`
+- `/x402/knowledge-mesh/bioelectric-plant-intelligence`
+
+Public v1 aliases:
+
+- `/v1/knowledge-mesh/earth-systems`
+- `/v1/knowledge-mesh/information-systems`
+- `/v1/knowledge-mesh/volcanic-geothermal-hydrothermal`
+- `/v1/knowledge-mesh/plant-soil-microbial`
+- `/v1/knowledge-mesh/bioelectric-plant-intelligence`
+
+Naturepedia™ now includes production Knowledge Mesh endpoints that expose cross-system semantic relationships rather than simple inventories or concept maps.
+
+Knowledge Mesh answers:
+
+```txt
+How do systems relate?
+```
+
+Current production Knowledge Mesh endpoints:
+
+```txt
+/x402/knowledge-mesh/earth-systems
+/x402/knowledge-mesh/information-systems
+/x402/knowledge-mesh/volcanic-geothermal-hydrothermal
+/x402/knowledge-mesh/plant-soil-microbial
+/x402/knowledge-mesh/bioelectric-plant-intelligence
+```
+
+Equivalent public aliases:
+
+```txt
+/v1/knowledge-mesh/earth-systems
+/v1/knowledge-mesh/information-systems
+/v1/knowledge-mesh/volcanic-geothermal-hydrothermal
+/v1/knowledge-mesh/plant-soil-microbial
+/v1/knowledge-mesh/bioelectric-plant-intelligence
+```
+
+Supporting JSON-LD examples:
+
+```txt
+earth-systems-knowledge-mesh.json
+information-systems-knowledge-mesh.json
+volcanic-geothermal-hydrothermal-knowledge-mesh.json
+plant-soil-microbial-knowledge-mesh.json
+bioelectric-plant-intelligence-knowledge-mesh.json
+```
+
+Knowledge Mesh extends beyond inventories and system maps by exposing relationship pathways between Plates™, registries, ecosystems, biological systems, and semantic routing layers.
+
+Example:
+
+```json
+{
+  "from": "Plant Intelligence™",
+  "to": "Microbial Life Systems™",
+  "relationship": "Plants exchange nutrients, signaling compounds, defense cues, and ecological information with microbial communities through living soil networks."
+}
+```
 
 Examples:
 
