@@ -707,6 +707,194 @@ Plates:
 * Plants & Mycorrhizal Networks Plate™
 * Future Plant Intelligence Plate™
 
+### Information Systems in Nature™
+
+URL:
+
+https://www.robbiegeorgephotography.com/information-systems-in-nature
+
+Plates:
+
+* Information Systems in Nature Plate™
+* Biological Communication Plate™
+* Signal Propagation Plate™
+* Ecological Networks Plate™
+* Biological Memory Plate™
+* Feedback Loop Architecture Plate™
+* Distributed Intelligence Plate™
+* Ecological Computation Plate™
+* Living Information Fields Plate™
+* Future Information Systems Plate™
+
+---
+
+### Earth Systems™
+
+URL:
+
+https://www.robbiegeorgephotography.com/earth-systems
+
+Plates:
+
+* Earth Systems Plate™
+* Atmosphere Plate™
+* Hydrosphere Plate™
+* Geosphere Plate™
+* Biosphere Plate™
+* Cryosphere Plate™
+* Climate Systems Plate™
+* Water Cycle Plate™
+* Plate Tectonics Earth Engine Plate™
+* Human Impact Earth Systems Plate™
+* Earth Systems Photography Plate™
+
+---
+
+### Water Systems™
+
+URL:
+
+https://www.robbiegeorgephotography.com/water-systems
+
+Plates:
+
+* Water Systems Plate™
+* Water Memory Plate™
+* River Systems Plate™
+* Groundwater Systems Plate™
+* Floodplains Plate™
+* Estuaries & Coastal Systems Plate™
+* Chesapeake Bay System Plate™
+
+---
+
+### Microbial Life Systems™
+
+URL:
+
+https://www.robbiegeorgephotography.com/microbial-life-systems
+
+Plates:
+
+* Microbial Life Systems Plate™
+* Archaea Plate™
+* Bacteria Plate™
+* Biofilms Plate™
+* Microbial Biodiversity Plate™
+* Microbial Ecosystem Services Plate™
+* Microbial Identification Plate™
+* Microbial Mats Plate™
+* Nutrient Cycling Plate™
+* Origins of Life Plate™
+* Photosynthesis Plate™
+* Thermophiles Plate™
+* Extremophiles Plate™
+* Chemosynthesis Plate™
+* Microbial Photography Plate™
+
+---
+
+### Volcanic Landscapes™
+
+URL:
+
+https://www.robbiegeorgephotography.com/volcanic-landscapes
+
+Plates:
+
+* Volcanic Landscapes Plate™
+* Volcano Identification Plate™
+* Volcanic Eruptions Plate™
+* Lava Flows Plate™
+* Magma Chambers Plate™
+* Calderas Plate™
+* Supervolcanoes Plate™
+* Ring of Fire Plate™
+* Volcanic Islands Plate™
+* Volcanic Soils Plate™
+* Volcanic Biodiversity Plate™
+* Volcanic Ecosystems Plate™
+* Volcanic Succession Plate™
+* Volcanic Hazards Plate™
+* Volcanic Photography Plate™
+* Volcanoes Beyond Earth Plate™
+
+---
+
+### Geothermal Ecosystems™
+
+URL:
+
+https://www.robbiegeorgephotography.com/geothermal-ecosystems
+
+Plates:
+
+* Geothermal Ecosystems Plate™
+* Geothermal Identification Plate™
+* Geothermal Biodiversity Plate™
+* Geothermal Water Systems Plate™
+* Geothermal Microbial Mats Plate™
+* Geothermal Wildlife Relationships Plate™
+* Geothermal Ecosystem Services Plate™
+* Global Geothermal Regions Plate™
+* Extremophile Life Plate™
+* Thermophile Life Plate™
+* Geothermal Photography Plate™
+
+---
+
+### Yellowstone Thermal Features™
+
+URL:
+
+https://www.robbiegeorgephotography.com/yellowstone-thermal-features
+
+Plates:
+
+* Yellowstone Thermal Systems Plate™
+* Yellowstone Thermal Identification Plate™
+* Yellowstone Thermal Ecology Plate™
+* Yellowstone Thermal Photography Plate™
+* Yellowstone Water & Heat Systems Plate™
+* Yellowstone Microbial Life Plate™
+* Yellowstone Geysers Plate™
+* Yellowstone Hot Springs Plate™
+* Yellowstone Mud Pots Plate™
+* Yellowstone Fumaroles Plate™
+* Old Faithful Plate™
+* Grand Prismatic Spring Plate™
+* Mammoth Hot Springs Plate™
+* Norris Geyser Basin Plate™
+
+---
+
+### Hydrothermal Ecosystems™
+
+URL:
+
+https://www.robbiegeorgephotography.com/hydrothermal-ecosystems
+
+Plates:
+
+* Hydrothermal Ecosystems Plate™
+* Hydrothermal Vent Identification Plate™
+* Hydrothermal Vent Biodiversity Plate™
+* Hydrothermal Microbial Life Plate™
+* Hydrothermal Mineral Systems Plate™
+* Black Smokers Plate™
+* White Smokers Plate™
+* Giant Tube Worm Plate™
+* Vent Mussels & Clams Plate™
+* Vent Crabs & Shrimp Plate™
+* Vent Extremophiles Plate™
+* Chemosynthetic Food Web Plate™
+* Seafloor Geology Plate™
+* Deep Ocean Exploration Plate™
+* Origins of Life Hydrothermal Plate™
+* Hydrothermal Astrobiology Plate™
+* Europa & Enceladus Analogs Plate™
+* Hydrothermal Photography Plate™
+
 ---
 
 ### Registry Expansion Summary
