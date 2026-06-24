@@ -479,6 +479,183 @@ Planned expansion layers include:
 
 ---
 
+---
+
+# Registry-Based x402 Expansion Layer
+
+## Purpose
+
+As Naturepedia™ expands beyond individual semantic registries, the JSON-LD layer also serves as the source-of-truth architecture for machine-readable x402 retrieval products.
+
+This allows future Cloudflare Worker endpoints to be generated from repository-maintained registries rather than embedded endpoint payloads.
+
+Architecture:
+
+```txt
+GitHub Registry
+        ↓
+Cloudflare Worker
+        ↓
+x402 Endpoint
+        ↓
+AI Retrieval
+```
+
+---
+
+## Current Registry Sources
+
+Examples:
+
+```txt
+bioelectric-systems-registry.json
+quantum-agriculture-registry.json
+plant-intelligence-registry.json
+```
+
+These files function as machine-readable inventories for major Naturepedia™ system families.
+
+Registry files typically contain:
+
+* system name
+* visible ID
+* canonical URL
+* plate inventory
+* registry metadata
+
+---
+
+## Current System Map Sources
+
+Examples:
+
+```txt
+x402-tier-2-system-maps.json
+```
+
+System maps summarize major concepts and relationships inside a Naturepedia™ family.
+
+Examples include:
+
+```txt
+Bioelectric Systems™
+Quantum Agriculture™
+Plant Intelligence™
+Earth Systems™
+Information Systems in Nature™
+```
+
+System maps should be interpreted as:
+
+* conceptual relationship layers
+* semantic overview structures
+* compressed machine-readable navigation systems
+
+rather than complete inventories.
+
+---
+
+## Registry vs System Map
+
+Registry:
+
+```txt
+Inventory-focused
+```
+
+Purpose:
+
+```txt
+"What exists?"
+```
+
+System Map:
+
+```txt
+Relationship-focused
+```
+
+Purpose:
+
+```txt
+"How do concepts connect?"
+```
+
+Future infrastructure may expose both views simultaneously.
+
+Example:
+
+```txt
+/x402/earth-systems-registry.json
+/x402/earth-systems-map.json
+```
+
+---
+
+## Future Knowledge Mesh Layer
+
+A future retrieval layer may expose cross-system relationships.
+
+Examples:
+
+```txt
+/x402/knowledge-mesh/earth-systems
+/x402/knowledge-mesh/information-systems
+/x402/knowledge-mesh/wildlife
+/x402/knowledge-mesh/trees
+```
+
+Knowledge Mesh systems extend beyond inventories and maps by exposing relationship pathways between Plates™, systems, and semantic registries.
+
+Example:
+
+```json
+{
+  "plate": "Forest Carbon Systems",
+  "related": [
+    "Carbon Sequestration",
+    "Soil Carbon Systems",
+    "Plant Intelligence",
+    "Forest Feedbacks"
+  ]
+}
+```
+
+---
+
+## Long-Term Retrieval Architecture
+
+Current infrastructure includes:
+
+```txt
+System Maps
+Semantic Registries
+Identity Graphs
+RRIP Resolution
+State Tokens
+```
+
+Planned infrastructure includes:
+
+```txt
+Knowledge Meshes
+Relationship Graphs
+System Registries
+Plate-Level Retrieval
+Semantic Synchronization Layers
+Distributed Ontology Routing
+```
+
+Projected retrieval inventory:
+
+```txt
+600–1000+ machine-readable retrieval products
+```
+
+as Naturepedia™ continues expanding its semantic graph architecture.
+
+---
+
 # Interpretation Guidance
 
 Treat JSON-LD systems as:
