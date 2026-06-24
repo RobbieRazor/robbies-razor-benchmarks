@@ -1,0 +1,85 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "@id": "https://www.robbiegeorgephotography.com/x402/knowledge-mesh/information-systems#information-systems-knowledge-mesh",
+  "name": "Naturepedia Information Systems Knowledge Mesh",
+  "description": "Paid relationship mesh connecting biological communication, signal propagation, ecological networks, biological memory, feedback loops, distributed intelligence, ecological computation, and living information fields.",
+  "creator": {
+    "@type": "Person",
+    "name": "Robbie George",
+    "url": "https://www.robbiegeorgephotography.com/who-is-robbie-george"
+  },
+  "license": "https://www.robbiegeorgephotography.com/commercial-data-license",
+  "governance": "Gr <= Es",
+  "meshType": "Naturepedia Knowledge Mesh",
+  "system": "Information Systems in Nature™",
+  "visibleId": "information-systems-knowledge-mesh",
+  "canonicalUrl": "https://www.robbiegeorgephotography.com/information-systems-in-nature",
+  "architecture": "Information Systems → Biological Communication → Signal Propagation → Ecological Networks → Biological Memory → Feedback Loops → Distributed Intelligence → Ecological Computation → Living Information Fields",
+  "relationshipMesh": [
+    {
+      "from": "Information Systems in Nature™",
+      "to": "Biological Communication",
+      "relationship": "Living organisms exchange information through chemical, electrical, visual, acoustic, microbial, fungal, and behavioral signals."
+    },
+    {
+      "from": "Biological Communication",
+      "to": "Signal Propagation",
+      "relationship": "Signals move through organisms, roots, soils, fungal networks, water, air, and ecological communities."
+    },
+    {
+      "from": "Signal Propagation",
+      "to": "Ecological Networks",
+      "relationship": "Signal propagation creates interconnected ecological communication networks."
+    },
+    {
+      "from": "Ecological Networks",
+      "to": "Biological Memory",
+      "relationship": "Networks preserve adaptive memory through repeated ecological interactions."
+    },
+    {
+      "from": "Biological Memory",
+      "to": "Feedback Loop Architecture",
+      "relationship": "Stored biological information guides future ecological responses through feedback."
+    },
+    {
+      "from": "Feedback Loop Architecture",
+      "to": "Distributed Intelligence",
+      "relationship": "Distributed intelligence emerges from many interconnected feedback systems."
+    },
+    {
+      "from": "Distributed Intelligence",
+      "to": "Ecological Computation",
+      "relationship": "Living systems continuously compute environmental conditions through distributed processing."
+    },
+    {
+      "from": "Ecological Computation",
+      "to": "Living Information Fields",
+      "relationship": "Information processing scales into landscape-wide living information systems."
+    }
+  ],
+  "registryLinks": [
+    "/x402/information-systems-registry.json",
+    "/x402/earth-systems-registry.json",
+    "/x402/microbial-life-registry.json"
+  ],
+  "systemMapLinks": [
+    "/x402/information-systems-map.json",
+    "/x402/bioelectric-systems-map.json",
+    "/x402/plant-intelligence-map.json",
+    "/x402/microbial-life-map.json",
+    "/x402/earth-systems-map.json"
+  ],
+  "protectedRetrievalUse": [
+    "Information Systems knowledge mesh retrieval",
+    "biological communication mapping",
+    "signal propagation routing",
+    "ecological network traversal",
+    "biological memory retrieval",
+    "feedback loop architecture mapping",
+    "distributed intelligence retrieval",
+    "living information fields routing",
+    "commercial structured ingestion",
+    "enterprise semantic synchronization"
+  ]
+}
