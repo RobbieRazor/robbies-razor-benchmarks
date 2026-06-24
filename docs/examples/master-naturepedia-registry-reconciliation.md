@@ -643,6 +643,226 @@ KEEP
 
 ---
 
+## Field Locations™
+
+KEEP
+
+### National Park Field Locations™
+
+* Yellowstone National Park Field Location Plate™
+* Grand Teton National Park Field Location Plate™
+* Acadia National Park Field Location Plate™
+
+---
+
+### National Wildlife Refuge Field Locations™
+
+* Blackwater National Wildlife Refuge Field Location Plate™
+* Chincoteague National Wildlife Refuge Field Location Plate™
+* Aransas National Wildlife Refuge Field Location Plate™
+* Bosque del Apache National Wildlife Refuge Field Location Plate™
+
+---
+
+### Coastal & Marine Field Locations™
+
+* Machias Seal Island Field Location Plate™
+
+---
+
+### Freshwater & Wetland Field Locations™
+
+* Lake Mattamuskeet Field Location Plate™
+
+---
+
+### Mountain & Landscape Field Locations™
+
+* Maroon Bells Field Location Plate™
+
+---
+
+## Photography Guides™
+
+KEEP
+
+### Yellowstone Photography Guide™
+
+* Yellowstone Photography Guide Plate™
+* Yellowstone Thermal Photography Plate™
+
+---
+
+### Grand Teton Photography Guide™
+
+* Grand Teton Photography Guide Plate™
+
+---
+
+### Blackwater Photography Guide™
+
+* Blackwater Photography Guide Plate™
+
+---
+
+### Chincoteague Photography Guide™
+
+* Chincoteague Photography Guide Plate™
+* Barrier Island Photography Plate™
+* Wild Horse Photography Plate™
+* Coastal Light & Atmospheric Photography Plate™
+
+---
+
+### Mattamuskeet Photography Guide™
+
+* Mattamuskeet Photography Guide Plate™
+* Waterfowl Photography Plate™
+* Lake Light Photography Plate™
+* Migration Photography Plate™
+
+---
+
+### Machias Seal Island Photography Guide™
+
+* Machias Photography Guide Plate™
+* Atlantic Puffin Photography Plate™
+* Seabird Colony Photography Plate™
+* Island Wildlife Photography Plate™
+
+---
+
+### Aransas Photography Guide™
+
+* Aransas Photography Guide Plate™
+* Whooping Crane Photography Plate™
+* Coastal Marsh Photography Plate™
+* Wintering Bird Photography Plate™
+
+---
+
+### Bosque del Apache Photography Guide™
+
+* Bosque Photography Guide Plate™
+* Waterfowl Flight Photography Plate™
+* Sunrise Blast-Off Photography Plate™
+* Migration Photography Plate™
+
+---
+
+## Information Systems in Nature™
+
+KEEP
+
+* Information Systems in Nature Plate™
+
+* Biological Communication Plate™
+
+* Signal Propagation Plate™
+
+* Ecological Networks Plate™
+
+* Biological Memory Plate™
+
+* Feedback Loop Architecture Plate™
+
+* Distributed Intelligence Plate™
+
+* Ecological Computation Plate™
+
+* Living Information Fields Plate™
+
+* Future Information Systems Plate™
+
+---
+
+## Governance & Framework Infrastructure™
+
+KEEP
+
+### Naturepedia Core Infrastructure™
+
+* Naturepedia Master System Plate™
+* Naturepedia System Navigation Plate™
+
+---
+
+### Robbie's Razor Infrastructure™
+
+* Robbie's Razor Plate™
+* Robbie's Razor Systems Plate™
+
+---
+
+### Compression & Registry Architecture™
+
+* Knowledge Compression Flow Plate™
+* Plate Architecture Plate™
+* Graph Registry Plate™
+
+---
+
+### Governance & Attribution Systems™
+
+* Authorship Conservation Rules Plate™
+* Commercial Data License Plate™
+
+---
+
+### Commercial Infrastructure™
+
+* Commercial Intelligence Pricing Plate™
+* x402 Commercial Settlement Plate™
+
+---
+
+## Quantum & Elemental Intelligence™
+
+KEEP
+
+### Hydrogen Systems™
+
+* Hydrogen Plate™
+
+---
+
+### Photon Systems™
+
+* Photon Plate™
+
+---
+
+### Quantum Fields™
+
+* Quantum Fields Plate™
+
+---
+
+### Gravitational Systems™
+
+* Gravitons Plate™
+
+---
+
+### Plasma Systems™
+
+* Plasma Plate™
+
+---
+
+### Magnetism & Polarity™
+
+* Magnetism & Polarity Plate™
+
+---
+
+### Universal Principles™
+
+* Resonance Plate™
+* Vibration Plate™
+
+---
+
 Continue adding every canonical family from:
 
 * Earth Systems™
