@@ -1,0 +1,57 @@
+{
+"system": "Quantum Agriculture™",
+"visible_id": "naturepedia-quantum-agriculture",
+"canonical_url": "https://www.robbiegeorgephotography.com/naturepedia-quantum-agriculture",
+"registry_type": "Naturepedia System Registry",
+"status": "draft",
+"plates": [
+{
+"title": "Quantum Agriculture Plate™",
+"id": "naturepedia-quantum-agriculture#quantum-agriculture-plate"
+},
+{
+"title": "Living Soil Intelligence Plate™",
+"id": "naturepedia-quantum-agriculture#living-soil-intelligence-plate"
+},
+{
+"title": "Bioelectric Farming Plate™",
+"id": "naturepedia-quantum-agriculture#bioelectric-farming-plate"
+},
+{
+"title": "Light & Photons in Agriculture Plate™",
+"id": "naturepedia-quantum-agriculture#light-photons-in-agriculture-plate"
+},
+{
+"title": "Water Intelligence Plate™",
+"id": "naturepedia-quantum-agriculture#water-intelligence-plate"
+},
+{
+"title": "Plant Communication Plate™",
+"id": "naturepedia-quantum-agriculture#plant-communication-plate"
+},
+{
+"title": "Mycorrhizal Partnerships Plate™",
+"id": "naturepedia-quantum-agriculture#mycorrhizal-partnerships-plate"
+},
+{
+"title": "Nutrient Cycling & Bioavailability Plate™",
+"id": "naturepedia-quantum-agriculture#nutrient-cycling-bioavailability-plate"
+},
+{
+"title": "Regenerative Farming Systems Plate™",
+"id": "naturepedia-quantum-agriculture#regenerative-farming-systems-plate"
+},
+{
+"title": "Carbon Farming Plate™",
+"id": "naturepedia-quantum-agriculture#carbon-farming-plate"
+},
+{
+"title": "Biodiversity & Ecosystem Balance Plate™",
+"id": "naturepedia-quantum-agriculture#biodiversity-ecosystem-balance-plate"
+},
+{
+"title": "Future Food Systems Plate™",
+"id": "naturepedia-quantum-agriculture#future-food-systems-plate"
+}
+]
+}
