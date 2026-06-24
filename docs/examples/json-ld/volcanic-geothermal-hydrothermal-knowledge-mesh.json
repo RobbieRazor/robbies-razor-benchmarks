@@ -1,0 +1,93 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "@id": "https://www.robbiegeorgephotography.com/x402/knowledge-mesh/volcanic-geothermal-hydrothermal#volcanic-geothermal-hydrothermal-knowledge-mesh",
+  "name": "Naturepedia Volcanic Geothermal Hydrothermal Knowledge Mesh",
+  "description": "Paid relationship mesh connecting volcanic landscapes, geothermal ecosystems, Yellowstone thermal features, hydrothermal ecosystems, microbial life, water systems, mineral cycling, and Earth systems energy pathways.",
+  "creator": {
+    "@type": "Person",
+    "name": "Robbie George",
+    "url": "https://www.robbiegeorgephotography.com/who-is-robbie-george"
+  },
+  "license": "https://www.robbiegeorgephotography.com/commercial-data-license",
+  "governance": "Gr <= Es",
+  "meshType": "Naturepedia Knowledge Mesh",
+  "system": "Volcanic-Geothermal-Hydrothermal Systems™",
+  "visibleId": "volcanic-geothermal-hydrothermal-knowledge-mesh",
+  "canonicalUrl": "https://www.robbiegeorgephotography.com/volcanic-landscapes",
+  "architecture": "Volcanic Landscapes → Earth's Internal Heat → Geothermal Ecosystems → Yellowstone Thermal Features → Hydrothermal Ecosystems → Microbial Life → Mineral Cycling → Earth Systems",
+  "relationshipMesh": [
+    {
+      "from": "Volcanic Landscapes™",
+      "to": "Geothermal Ecosystems™",
+      "relationship": "Volcanic heat, magma chambers, crustal fractures, and groundwater circulation create geothermal ecosystems."
+    },
+    {
+      "from": "Geothermal Ecosystems™",
+      "to": "Yellowstone Thermal Features™",
+      "relationship": "Geothermal systems surface as geysers, hot springs, mud pots, fumaroles, and microbial mats."
+    },
+    {
+      "from": "Yellowstone Thermal Features™",
+      "to": "Hydrothermal Ecosystems™",
+      "relationship": "Thermal water circulation, dissolved minerals, and microbial communities connect Yellowstone to hydrothermal systems."
+    },
+    {
+      "from": "Hydrothermal Ecosystems™",
+      "to": "Microbial Life Systems™",
+      "relationship": "Hydrothermal systems support thermophiles, extremophiles, microbial mats, and chemosynthetic ecosystems."
+    },
+    {
+      "from": "Microbial Life Systems™",
+      "to": "Mineral Cycling",
+      "relationship": "Microbial communities transform minerals, sulfur, carbon compounds, and chemical energy."
+    },
+    {
+      "from": "Mineral Cycling",
+      "to": "Water Systems™",
+      "relationship": "Heated water transports dissolved minerals, nutrients, and chemical gradients."
+    },
+    {
+      "from": "Water Systems™",
+      "to": "Earth Systems™",
+      "relationship": "Water links volcanic, geothermal, hydrothermal, climate, soil, and biosphere processes."
+    },
+    {
+      "from": "Volcanic Landscapes™",
+      "to": "Soil Systems™",
+      "relationship": "Volcanic ash and lava weathering produce mineral-rich soils that support ecological succession."
+    },
+    {
+      "from": "Geothermal Ecosystems™",
+      "to": "Origins of Life",
+      "relationship": "Heat, minerals, water, and chemical gradients make geothermal environments important origin-of-life systems."
+    }
+  ],
+  "registryLinks": [
+    "/x402/volcanic-systems-registry.json",
+    "/x402/geothermal-systems-registry.json",
+    "/x402/yellowstone-thermal-registry.json",
+    "/x402/hydrothermal-ecosystems-registry.json",
+    "/x402/microbial-life-registry.json",
+    "/x402/earth-systems-registry.json"
+  ],
+  "systemMapLinks": [
+    "/x402/volcanic-systems-map.json",
+    "/x402/yellowstone-thermal-map.json",
+    "/x402/hydrothermal-map.json",
+    "/x402/microbial-life-map.json",
+    "/x402/earth-systems-map.json"
+  ],
+  "protectedRetrievalUse": [
+    "volcanic geothermal hydrothermal knowledge mesh retrieval",
+    "volcanic-to-geothermal routing",
+    "geothermal-to-Yellowstone routing",
+    "hydrothermal ecosystem mapping",
+    "microbial extremophile retrieval",
+    "mineral cycling relationship mapping",
+    "Earth systems energy pathway retrieval",
+    "origin-of-life relationship retrieval",
+    "commercial structured ingestion",
+    "enterprise semantic synchronization"
+  ]
+}
