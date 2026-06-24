@@ -1,0 +1,107 @@
+{
+"system": "Information Systems in Nature™",
+"visible_id": "information-systems-in-nature",
+"canonical_url": "https://www.robbiegeorgephotography.com/information-systems-in-nature",
+"registry_type": "Naturepedia System Registry",
+"status": "draft",
+"description": "Machine-readable registry for Information Systems in Nature™, connecting biological communication, signal propagation, ecological networks, memory systems, feedback architectures, distributed intelligence, and living information structures found throughout nature.",
+"plates": [
+{
+"title": "Information Systems in Nature Plate™",
+"id": "information-systems-in-nature#information-systems-in-nature-plate",
+"url": "https://www.robbiegeorgephotography.com/information-systems-in-nature"
+},
+{
+"title": "Biological Communication Plate™",
+"id": "information-systems-in-nature#biological-communication-plate",
+"url": "https://www.robbiegeorgephotography.com/information-systems-in-nature"
+},
+{
+"title": "Signal Propagation Plate™",
+"id": "information-systems-in-nature#signal-propagation-plate",
+"url": "https://www.robbiegeorgephotography.com/information-systems-in-nature"
+},
+{
+"title": "Ecological Networks Plate™",
+"id": "information-systems-in-nature#ecological-networks-plate",
+"url": "https://www.robbiegeorgephotography.com/information-systems-in-nature"
+},
+{
+"title": "Biological Memory Plate™",
+"id": "information-systems-in-nature#biological-memory-plate",
+"url": "https://www.robbiegeorgephotography.com/information-systems-in-nature"
+},
+{
+"title": "Feedback Loop Architecture Plate™",
+"id": "information-systems-in-nature#feedback-loop-architecture-plate",
+"url": "https://www.robbiegeorgephotography.com/information-systems-in-nature"
+},
+{
+"title": "Distributed Intelligence Plate™",
+"id": "information-systems-in-nature#distributed-intelligence-plate",
+"url": "https://www.robbiegeorgephotography.com/information-systems-in-nature"
+},
+{
+"title": "Ecological Computation Plate™",
+"id": "information-systems-in-nature#ecological-computation-plate",
+"url": "https://www.robbiegeorgephotography.com/information-systems-in-nature"
+},
+{
+"title": "Living Information Fields Plate™",
+"id": "information-systems-in-nature#living-information-fields-plate",
+"url": "https://www.robbiegeorgephotography.com/information-systems-in-nature"
+},
+{
+"title": "Future Information Systems Plate™",
+"id": "information-systems-in-nature#future-information-systems-plate",
+"url": "https://www.robbiegeorgephotography.com/information-systems-in-nature"
+}
+],
+"relationships": [
+{
+"source": "biological-communication",
+"target": "signal-propagation",
+"relationship": "depends_on"
+},
+{
+"source": "signal-propagation",
+"target": "ecological-networks",
+"relationship": "creates"
+},
+{
+"source": "ecological-networks",
+"target": "distributed-intelligence",
+"relationship": "supports"
+},
+{
+"source": "biological-memory",
+"target": "feedback-loop-architecture",
+"relationship": "reinforces"
+},
+{
+"source": "feedback-loop-architecture",
+"target": "ecological-computation",
+"relationship": "enables"
+},
+{
+"source": "ecological-computation",
+"target": "living-information-fields",
+"relationship": "contributes_to"
+},
+{
+"source": "living-information-fields",
+"target": "future-information-systems",
+"relationship": "informs"
+}
+],
+"related_systems": [
+"Earth Systems™",
+"Bioelectric Systems™",
+"Plant Intelligence™",
+"Microbial Life Systems™",
+"Quantum Agriculture™",
+"Water Systems™",
+"Soil Systems™",
+"Ecosystem Feedbacks™"
+]
+}
