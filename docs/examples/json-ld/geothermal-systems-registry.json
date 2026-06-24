@@ -1,0 +1,106 @@
+{
+"system": "Geothermal Ecosystems™",
+"visible_id": "geothermal-ecosystems",
+"canonical_url": "https://www.robbiegeorgephotography.com/geothermal-ecosystems",
+"registry_type": "Naturepedia System Registry",
+"status": "draft",
+"description": "Machine-readable registry for Geothermal Ecosystems™, connecting geothermal energy, hot springs, geysers, hydrothermal systems, thermophilic life, mineral cycling, ecosystem adaptation, and Earth's internal heat processes.",
+"plates": [
+{
+"title": "Geothermal Ecosystems Plate™",
+"id": "geothermal-ecosystems#geothermal-ecosystems-plate",
+"url": "https://www.robbiegeorgephotography.com/geothermal-ecosystems"
+},
+{
+"title": "Earth's Internal Heat Plate™",
+"id": "geothermal-ecosystems#earths-internal-heat-plate",
+"url": "https://www.robbiegeorgephotography.com/geothermal-ecosystems"
+},
+{
+"title": "Geothermal Energy Systems Plate™",
+"id": "geothermal-ecosystems#geothermal-energy-systems-plate",
+"url": "https://www.robbiegeorgephotography.com/geothermal-ecosystems"
+},
+{
+"title": "Hot Springs Plate™",
+"id": "geothermal-ecosystems#hot-springs-plate",
+"url": "https://www.robbiegeorgephotography.com/geothermal-ecosystems"
+},
+{
+"title": "Geyser Systems Plate™",
+"id": "geothermal-ecosystems#geyser-systems-plate",
+"url": "https://www.robbiegeorgephotography.com/geothermal-ecosystems"
+},
+{
+"title": "Thermophiles & Extremophiles Plate™",
+"id": "geothermal-ecosystems#thermophiles-extremophiles-plate",
+"url": "https://www.robbiegeorgephotography.com/geothermal-ecosystems"
+},
+{
+"title": "Geothermal Mineral Cycling Plate™",
+"id": "geothermal-ecosystems#geothermal-mineral-cycling-plate",
+"url": "https://www.robbiegeorgephotography.com/geothermal-ecosystems"
+},
+{
+"title": "Geothermal Ecosystem Adaptations Plate™",
+"id": "geothermal-ecosystems#geothermal-ecosystem-adaptations-plate",
+"url": "https://www.robbiegeorgephotography.com/geothermal-ecosystems"
+},
+{
+"title": "Geothermal & Earth Systems Plate™",
+"id": "geothermal-ecosystems#geothermal-earth-systems-plate",
+"url": "https://www.robbiegeorgephotography.com/geothermal-ecosystems"
+},
+{
+"title": "Future Geothermal Ecosystems Plate™",
+"id": "geothermal-ecosystems#future-geothermal-ecosystems-plate",
+"url": "https://www.robbiegeorgephotography.com/geothermal-ecosystems"
+}
+],
+"relationships": [
+{
+"source": "earths-internal-heat",
+"target": "geothermal-energy-systems",
+"relationship": "drives"
+},
+{
+"source": "geothermal-energy-systems",
+"target": "hot-springs",
+"relationship": "creates"
+},
+{
+"source": "geothermal-energy-systems",
+"target": "geyser-systems",
+"relationship": "creates"
+},
+{
+"source": "hot-springs",
+"target": "thermophiles-extremophiles",
+"relationship": "supports"
+},
+{
+"source": "thermophiles-extremophiles",
+"target": "geothermal-mineral-cycling",
+"relationship": "influences"
+},
+{
+"source": "geothermal-mineral-cycling",
+"target": "geothermal-ecosystem-adaptations",
+"relationship": "supports"
+},
+{
+"source": "geothermal-earth-systems",
+"target": "earth-systems",
+"relationship": "part_of"
+}
+],
+"related_systems": [
+"Volcanic Landscapes™",
+"Yellowstone Thermal Features™",
+"Hydrothermal Ecosystems™",
+"Earth Systems™",
+"Water Systems™",
+"Microbial Life Systems™",
+"Soil Systems™"
+]
+}
