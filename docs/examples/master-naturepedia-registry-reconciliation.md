@@ -179,6 +179,27 @@ KEEP
 * Mountain Hemlock Plate™
 * Carolina Hemlock Plate™
 
+### Fir Systems™
+
+KEEP
+
+* Fir Systems Plate™
+* Fir Identification Plate™
+* Fir Needle Plate™
+* Fir Cone Plate™
+* Fir Bark Plate™
+* Fir Mountain Forest Plate™
+* Fir Wildlife Relationships Plate™
+* Fir Snowpack Ecology Plate™
+* Fir Forest Community Plate™
+* Fir Carbon Storage Plate™
+* Fir Climate Resilience Plate™
+* Balsam Fir Plate™
+* Fraser Fir Plate™
+* Noble Fir Plate™
+* Subalpine Fir Plate™
+* Grand Fir Plate™
+
 ### Cottonwood Systems™
 
 KEEP
@@ -1113,32 +1134,6 @@ KEEP
 
 ---
 
-Continue adding every canonical family from:
-
-* Earth Systems™
-* Soil Systems™
-* Carbon Cycle™
-* Ecosystem Feedbacks™
-* Bioelectric Systems™
-* Quantum Agriculture™
-* Plant Intelligence™
-* Information Systems in Nature™
-* Water Systems™
-* Microbial Life Systems™
-* Volcanic Landscapes™
-* Geothermal Ecosystems™
-* Yellowstone Thermal Features™
-* Hydrothermal Ecosystems™
-* Wildlife Species™
-* Animal Tracks™
-* Pollinator Systems™
-* Field Locations™
-* Photography Guides™
-* Governance & Framework Infrastructure™
-* Quantum & Elemental Intelligence™
-
----
-
 # DUPLICATE
 
 Definition:
@@ -1378,7 +1373,8 @@ DUPLICATE section started
 SUPERSEDED section started
 ARTIST RENDITION section started
 DRAFT section started
-KEEP section still requires full family-by-family population
+KEEP inventory substantially populated.
+Final reconciliation audit still required.
 
 FINAL CANONICAL COUNT =
 all KEEP files
