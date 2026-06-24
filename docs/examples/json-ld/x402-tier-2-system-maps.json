@@ -1,0 +1,48 @@
+{
+"schema_version": "1.0",
+"generated_for": "Naturepedia x402 Expansion Phase 2A",
+"status": "draft-source",
+"updated": "2026-06-24",
+"endpoints": [
+{
+"route": "/x402/bioelectric-systems-map.json",
+"title": "Bioelectric Systems™ Map",
+"family": "Bioelectric Systems™",
+"type": "Naturepedia x402 System Map",
+"description": "Machine-readable paid system map for Bioelectric Systems™, including bioelectricity, morphogenesis, regeneration, plant electrophysiology, soil electrical networks, electrical ecology, and living signal architecture.",
+"canonical_url": "https://www.robbiegeorgephotography.com/bioelectric-systems",
+"visible_id": "bioelectric-systems",
+"status": "ready-for-worker"
+},
+{
+"route": "/x402/quantum-agriculture-map.json",
+"title": "Quantum Agriculture™ Map",
+"family": "Quantum Agriculture™",
+"type": "Naturepedia x402 System Map",
+"description": "Machine-readable paid system map for Quantum Agriculture™, including living soil intelligence, bioelectric farming, structured water, photons, mycorrhizal partnerships, regenerative systems, carbon farming, and future food systems.",
+"canonical_url": "https://www.robbiegeorgephotography.com/naturepedia-quantum-agriculture",
+"visible_id": "naturepedia-quantum-agriculture",
+"status": "ready-for-worker"
+},
+{
+"route": "/x402/plant-intelligence-map.json",
+"title": "Plant Intelligence™ Map",
+"family": "Plant Intelligence™",
+"type": "Naturepedia x402 System Map",
+"description": "Machine-readable paid system map for Plant Intelligence™, including plant communication, electrophysiology, root intelligence, plant memory, sensory biology, defense systems, cooperation, mycorrhizal networks, and adaptive plant behavior.",
+"canonical_url": "https://www.robbiegeorgephotography.com/plant-intelligence",
+"visible_id": "plant-intelligence",
+"status": "ready-for-worker"
+}
+],
+"expected_worker_totals_after_addition": {
+"x402_payload_routes": 23,
+"total_machine_routes": 49
+},
+"notes": [
+"Use these three routes for Phase 2A x402 expansion.",
+"Add each route to routeAliases, paidResources, and the paidPayload switch block in the Cloudflare Worker.",
+"Do not use paidResource.description directly inside payload blocks. Use paidResource?.description || "Paid Naturepedia machine-readable system map."",
+"After deployment, verify state-token counts update to x402_payload_routes = 23 and total_machine_routes = 49."
+]
+}
