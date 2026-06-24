@@ -1,0 +1,49 @@
+{
+"system": "Bioelectric Systems™",
+"visible_id": "bioelectric-systems",
+"canonical_url": "https://www.robbiegeorgephotography.com/bioelectric-systems",
+"registry_type": "Naturepedia System Registry",
+"status": "draft",
+"plates": [
+{
+"title": "Bioelectric Systems Plate™",
+"id": "bioelectric-systems#bioelectric-systems-plate"
+},
+{
+"title": "Harold Burr's Life Fields Plate™",
+"id": "bioelectric-systems#harold-burr-life-fields-plate"
+},
+{
+"title": "Bioelectric Morphogenesis Plate™",
+"id": "bioelectric-systems#bioelectric-morphogenesis-plate"
+},
+{
+"title": "Michael Levin Plate™",
+"id": "bioelectric-systems#michael-levin-plate"
+},
+{
+"title": "Regeneration & Healing Plate™",
+"id": "bioelectric-systems#regeneration-healing-plate"
+},
+{
+"title": "Plant Electrophysiology Plate™",
+"id": "bioelectric-systems#plant-electrophysiology-plate"
+},
+{
+"title": "Soil Electrical Networks Plate™",
+"id": "bioelectric-systems#soil-electrical-networks-plate"
+},
+{
+"title": "Bioelectric Medicine Plate™",
+"id": "bioelectric-systems#bioelectric-medicine-plate"
+},
+{
+"title": "Electrical Ecology Plate™",
+"id": "bioelectric-systems#electrical-ecology-plate"
+},
+{
+"title": "Bioelectric Photography Plate™",
+"id": "bioelectric-systems#bioelectric-photography-plate"
+}
+]
+}
