@@ -1,0 +1,68 @@
+{
+"system": "Microbial Life Systems™",
+"visible_id": "microbial-life-systems",
+"canonical_url": "https://www.robbiegeorgephotography.com/microbial-life-systems",
+"registry_type": "Naturepedia System Registry",
+"status": "draft",
+"description": "Machine-readable registry for Microbial Life Systems™, connecting microbes, soil biology, decomposition, nutrient cycling, symbiosis, microbial communication, biofilms, and ecosystem-scale microbial intelligence.",
+"plates": [
+{
+"title": "Microbial Life Systems Plate™",
+"id": "microbial-life-systems#microbial-life-systems-plate",
+"url": "https://www.robbiegeorgephotography.com/microbial-life-systems"
+},
+{
+"title": "Soil Microbiome Plate™",
+"id": "microbial-life-systems#soil-microbiome-plate",
+"url": "https://www.robbiegeorgephotography.com/microbial-life-systems"
+},
+{
+"title": "Microbial Communication Plate™",
+"id": "microbial-life-systems#microbial-communication-plate",
+"url": "https://www.robbiegeorgephotography.com/microbial-life-systems"
+},
+{
+"title": "Biofilm Systems Plate™",
+"id": "microbial-life-systems#biofilm-systems-plate",
+"url": "https://www.robbiegeorgephotography.com/microbial-life-systems"
+},
+{
+"title": "Decomposition & Nutrient Cycling Plate™",
+"id": "microbial-life-systems#decomposition-nutrient-cycling-plate",
+"url": "https://www.robbiegeorgephotography.com/microbial-life-systems"
+},
+{
+"title": "Microbial Symbiosis Plate™",
+"id": "microbial-life-systems#microbial-symbiosis-plate",
+"url": "https://www.robbiegeorgephotography.com/microbial-life-systems"
+},
+{
+"title": "Microbes & Plant Intelligence Plate™",
+"id": "microbial-life-systems#microbes-plant-intelligence-plate",
+"url": "https://www.robbiegeorgephotography.com/microbial-life-systems"
+},
+{
+"title": "Microbial Ecosystem Feedbacks Plate™",
+"id": "microbial-life-systems#microbial-ecosystem-feedbacks-plate",
+"url": "https://www.robbiegeorgephotography.com/microbial-life-systems"
+},
+{
+"title": "Microbial Carbon Systems Plate™",
+"id": "microbial-life-systems#microbial-carbon-systems-plate",
+"url": "https://www.robbiegeorgephotography.com/microbial-life-systems"
+},
+{
+"title": "Future Microbial Life Systems Plate™",
+"id": "microbial-life-systems#future-microbial-life-systems-plate",
+"url": "https://www.robbiegeorgephotography.com/microbial-life-systems"
+}
+],
+"related_systems": [
+"Soil Systems™",
+"Carbon Cycle™",
+"Plant Intelligence™",
+"Quantum Agriculture™",
+"Ecosystem Feedbacks™",
+"Earth Systems™"
+]
+}
