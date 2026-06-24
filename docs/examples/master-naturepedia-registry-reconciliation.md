@@ -1599,6 +1599,302 @@ Before final count calculation:
 
 ---
 
+# Canonical Count Worksheet
+
+Purpose:
+
+This worksheet serves as the final registry balancing mechanism before any Naturepedia™ counts are updated in:
+
+* cold-bird
+* plate-registry-expanded.json
+* llms.txt
+* llms-full.txt
+* README.md
+* AGENTS.md
+* x402 documentation
+
+Every file from MasterPlateList.txt must be represented exactly once.
+
+---
+
+## Registry Totals
+
+Master Inventory Total:
+
+```txt
+648
+```
+
+Source:
+
+MasterPlateList.txt
+
+---
+
+## KEEP
+
+Definition:
+
+Canonical Naturepedia™ Plates included in the active registry.
+
+Current Count:
+
+```txt
+_____
+```
+
+Status:
+
+PENDING
+
+---
+
+## DUPLICATE
+
+Definition:
+
+Copy files, alternate exports, duplicate formats.
+
+Current Count:
+
+```txt
+_____
+```
+
+Status:
+
+PENDING
+
+Known Examples:
+
+* soil-systems copy
+* soil-systems copy 2
+* ecosystem-feedbacks copy
+* balsam-fir copy
+* grizzly-bear jpg duplicate
+
+---
+
+## SUPERSEDED
+
+Definition:
+
+Older versions replaced by canonical versions.
+
+Current Count:
+
+```txt
+_____
+```
+
+Status:
+
+PENDING
+
+Known Examples:
+
+* commercial-intelligence-pricing original
+* fisher original
+* plant-communication original
+* wool-carder-bee original
+
+---
+
+## ARTIST RENDITION
+
+Definition:
+
+Conceptual support illustrations and interpretation plates.
+
+Current Count:
+
+```txt
+_____
+```
+
+Status:
+
+PENDING
+
+Includes:
+
+* Artist Rendition Plates
+* Interpretation Plates
+* Concept Visualization Plates
+* Pollinator Network Art Plates
+* Restoration Art Plates
+* Future Infrastructure Art Plates
+
+---
+
+## DRAFT
+
+Definition:
+
+Temporary design assets and development exports.
+
+Current Count:
+
+```txt
+2
+```
+
+Status:
+
+WORKING COUNT
+
+Known Files:
+
+* ChatGPT Image Apr 24, 2026, 04_04_12 PM.png
+* ChatGPT Image Apr 24, 2026, 06_25_52 AM.png
+
+---
+
+# Registry Balance Check
+
+Formula:
+
+```txt
+KEEP
++ DUPLICATE
++ SUPERSEDED
++ ARTIST RENDITION
++ DRAFT
+=
+648
+```
+
+Calculation:
+
+```txt
+571 KEEP
+
++ 5 DUPLICATE
+
++ 4 SUPERSEDED
+
++ 66 ARTIST RENDITION
+
++ 2 DRAFT
+
+= 648 TOTAL
+```
+
+Expected Result:
+
+```txt
+648
+```
+
+Status:
+
+☑ PASS
+
+☐ FAIL
+
+---
+
+# Final Canonical Count
+
+Current Working Canonical Naturepedia™ Count:
+
+```txt
+571 (Candidate Count)
+```
+
+This number becomes the official count used by:
+
+* cold-bird
+* ai-catalog.json
+* llms.txt
+* llms-full.txt
+* plate-registry-expanded.json
+* README.md
+* AGENTS.md
+* x402 documentation
+
+After final verification.
+
+---
+
+# Approval Checklist
+
+Before updating infrastructure:
+
+☐ Every file classified
+
+☐ Registry balance independently verified
+
+☑ Duplicate inventory finalized
+
+☑ Superseded inventory finalized
+
+☑ Artist rendition inventory finalized
+
+☑ Draft inventory finalized
+
+☑ Unresolved review completed
+
+☐ Final canonical count approved
+
+---
+
+# Infrastructure Update Authorization
+
+Status:
+
+PENDING FINAL VERIFICATION
+
+Do not update:
+
+* plateCount
+* Worker registry metadata
+* llms files
+* README
+* AGENTS
+* x402 registry
+
+until final count verification is completed.
+
+---
+
+# Canonical Count Approval
+
+Approved Count:
+
+571 (Candidate Count)
+
+Final verification required before publication.
+
+Status:
+
+WORKING COUNT — NOT YET FINAL
+
+Approved By:
+
+Robbie George
+
+Date:
+
+06/24/2026
+
+Verification Note:
+
+The candidate count of 571 was derived through registry reconciliation and category balancing.
+
+A final filename-by-filename verification against MasterPlateList.txt should be completed before propagating this count to:
+
+- cold-bird
+- ai-catalog.json
+- llms.txt
+- llms-full.txt
+- plate-registry-expanded.json
+- README.md
+- AGENTS.md
+- x402 documentation
+
+---
+
 # FINAL CANONICAL COUNT
 
 Status:
