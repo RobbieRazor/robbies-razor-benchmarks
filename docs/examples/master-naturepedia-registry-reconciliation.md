@@ -120,6 +120,197 @@ KEEP
 * River Birch Plate™
 * Yellow Birch Plate™
 
+### Cedar Systems™
+
+KEEP
+
+* Cedar Systems Plate™
+* Cedar Identification Plate™
+* Cedar Leaf Plate™
+* Cedar Cone Plate™
+* Cedar Bark Plate™
+* Cedar Swamp Forest Plate™
+* Cedar Wildlife Relationships Plate™
+* Cedar Forest Community Plate™
+* Cedar Carbon Storage Plate™
+* Cedar Climate Resilience Plate™
+* Eastern Red Cedar Plate™
+* Northern White Cedar Plate™
+* Western Red Cedar Plate™
+* Incense Cedar Plate™
+
+### Cypress Systems™
+
+KEEP
+
+* Cypress Systems Plate™
+* Cypress Identification Plate™
+* Cypress Leaf Plate™
+* Cypress Cone Plate™
+* Cypress Bark & Knee Plate™
+* Cypress Swamp Forest Plate™
+* Cypress Wildlife Relationships Plate™
+* Cypress Forest Community Plate™
+* Cypress Carbon Storage Plate™
+* Cypress Climate Resilience Plate™
+* Cypress Water Storage Plate™
+* Bald Cypress Plate™
+* Pond Cypress Plate™
+* Monterey Cypress Plate™
+* Arizona Cypress Plate™
+* Atlantic White Cedar Plate™
+
+### Hemlock Systems™
+
+KEEP
+
+* Hemlock Systems Plate™
+* Hemlock Identification Plate™
+* Hemlock Needle Plate™
+* Hemlock Cone Plate™
+* Hemlock Bark Plate™
+* Hemlock Stream Ecology Plate™
+* Hemlock Wildlife Relationships Plate™
+* Hemlock Forest Community Plate™
+* Hemlock Carbon Storage Plate™
+* Hemlock Conservation Plate™
+* Eastern Hemlock Plate™
+* Western Hemlock Plate™
+* Mountain Hemlock Plate™
+* Carolina Hemlock Plate™
+
+### Cottonwood Systems™
+
+KEEP
+
+* Cottonwood Systems Plate™
+* Cottonwood Identification Plate™
+* Cottonwood Leaf Plate™
+* Cottonwood Seed Plate™
+* Cottonwood Bark Plate™
+* Cottonwood River Systems Plate™
+* Cottonwood Wildlife Relationships Plate™
+* Cottonwood Floodplain Forest Plate™
+* Cottonwood Ecological Restoration Plate™
+* Cottonwood Biodiversity Plate™
+* Eastern Cottonwood Plate™
+* Fremont Cottonwood Plate™
+* Black Cottonwood Plate™
+* Plains Cottonwood Plate™
+
+### Hickory Systems™
+
+KEEP
+
+* Hickory Systems Plate™
+* Hickory Identification Plate™
+* Hickory Leaf Plate™
+* Hickory Nut Plate™
+* Hickory Bark Plate™
+* Hickory Wildlife Relationships Plate™
+* Hickory Mast Production Plate™
+* Hickory Forest Community Plate™
+* Hickory Ecological Restoration Plate™
+* Hickory Biodiversity Plate™
+* Shagbark Hickory Plate™
+* Shellbark Hickory Plate™
+* Pignut Hickory Plate™
+* Mockernut Hickory Plate™
+* Bitternut Hickory Plate™
+
+### Maple Systems™
+
+KEEP
+
+* Maple Systems Plate™
+* Maple Identification Plate™
+* Maple Leaf Plate™
+* Maple Sap Flow Plate™
+* Maple Autumn Color Plate™
+* Maple Wildlife Relationships Plate™
+* Maple Forest Community Plate™
+* Maple Seed & Samara Plate™
+* Maple Carbon Storage Plate™
+* Sugar Maple Plate™
+* Red Maple Plate™
+* Silver Maple Plate™
+* Bigleaf Maple Plate™
+* Striped Maple Plate™
+
+### Oak Systems™
+
+KEEP
+
+* Oak Systems Plate™
+* Oak Identification Plate™
+* Oak Leaf & Acorn Plate™
+* Oak Wildlife Relationships Plate™
+* Oak Keystone Species Plate™
+* Oak Pollinator & Insect Plate™
+* Oak Forest Community Plate™
+* Oak Carbon Storage Plate™
+* White Oak Plate™
+* Red Oak Plate™
+* Bur Oak Plate™
+* Live Oak Plate™
+
+### Pine Systems™
+
+KEEP
+
+* Pine Systems Plate™
+* Pine Identification Plate™
+* Pine Needle Plate™
+* Pine Cone Plate™
+* Pine Bark Plate™
+* Pine Cone Ecology Plate™
+* Pine Wildlife Relationships Plate™
+* Pine Fire Ecology Plate™
+* Pine Forest Community Plate™
+* Pine Carbon Storage Plate™
+* Eastern White Pine Plate™
+* Ponderosa Pine Plate™
+* Lodgepole Pine Plate™
+* Longleaf Pine Plate™
+
+### Spruce Systems™
+
+KEEP
+
+* Spruce Systems Plate™
+* Spruce Identification Plate™
+* Spruce Needle Plate™
+* Spruce Cone Plate™
+* Spruce Bark Plate™
+* Spruce Boreal Forest Plate™
+* Spruce Wildlife Relationships Plate™
+* Spruce Forest Community Plate™
+* Spruce Carbon Storage Plate™
+* Spruce Climate Resilience Plate™
+* White Spruce Plate™
+* Black Spruce Plate™
+* Red Spruce Plate™
+* Engelmann Spruce Plate™
+
+### Willow Systems™
+
+KEEP
+
+* Willow Systems Plate™
+* Willow Identification Plate™
+* Willow Leaf Plate™
+* Willow Catkin Plate™
+* Willow Bark Plate™
+* Willow Riparian Systems Plate™
+* Willow Wildlife Relationships Plate™
+* Willow Beaver Relationships Plate™
+* Willow Ecological Restoration Plate™
+* Willow Biodiversity Plate™
+* Black Willow Plate™
+* Bebb Willow Plate™
+* Scouler Willow Plate™
+* Peachleaf Willow Plate™
+
 ---
 
 Continue adding every canonical family from:
