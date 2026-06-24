@@ -1,0 +1,112 @@
+{
+"system": "Earth Systems™",
+"visible_id": "earth-systems",
+"canonical_url": "https://www.robbiegeorgephotography.com/earth-systems",
+"registry_type": "Naturepedia System Registry",
+"status": "draft",
+"description": "Machine-readable registry for Earth Systems™, connecting major planetary systems, ecological processes, and Naturepedia system families.",
+"child_systems": [
+{
+"title": "Water Systems™",
+"id": "water-systems",
+"url": "https://www.robbiegeorgephotography.com/water-systems"
+},
+{
+"title": "Soil Systems™",
+"id": "soil-systems",
+"url": "https://www.robbiegeorgephotography.com/soil-systems"
+},
+{
+"title": "Carbon Cycle™",
+"id": "carbon-cycle",
+"url": "https://www.robbiegeorgephotography.com/carbon-cycle"
+},
+{
+"title": "Ecosystem Feedbacks™",
+"id": "ecosystem-feedbacks",
+"url": "https://www.robbiegeorgephotography.com/ecosystem-feedbacks"
+},
+{
+"title": "Plant Intelligence™",
+"id": "plant-intelligence",
+"url": "https://www.robbiegeorgephotography.com/plant-intelligence"
+},
+{
+"title": "Microbial Life Systems™",
+"id": "microbial-life-systems",
+"url": "https://www.robbiegeorgephotography.com/microbial-life-systems"
+},
+{
+"title": "Volcanic Landscapes™",
+"id": "volcanic-landscapes",
+"url": "https://www.robbiegeorgephotography.com/volcanic-landscapes"
+},
+{
+"title": "Geothermal Ecosystems™",
+"id": "geothermal-ecosystems",
+"url": "https://www.robbiegeorgephotography.com/geothermal-ecosystems"
+},
+{
+"title": "Yellowstone Thermal Features™",
+"id": "yellowstone-thermal-features",
+"url": "https://www.robbiegeorgephotography.com/yellowstone-thermal-features"
+},
+{
+"title": "Hydrothermal Ecosystems™",
+"id": "hydrothermal-ecosystems",
+"url": "https://www.robbiegeorgephotography.com/hydrothermal-ecosystems"
+}
+],
+"relationships": [
+{
+"source": "earth-systems",
+"target": "water-systems",
+"relationship": "contains"
+},
+{
+"source": "earth-systems",
+"target": "soil-systems",
+"relationship": "contains"
+},
+{
+"source": "earth-systems",
+"target": "carbon-cycle",
+"relationship": "contains"
+},
+{
+"source": "earth-systems",
+"target": "ecosystem-feedbacks",
+"relationship": "contains"
+},
+{
+"source": "earth-systems",
+"target": "plant-intelligence",
+"relationship": "contains"
+},
+{
+"source": "earth-systems",
+"target": "microbial-life-systems",
+"relationship": "contains"
+},
+{
+"source": "earth-systems",
+"target": "volcanic-landscapes",
+"relationship": "contains"
+},
+{
+"source": "earth-systems",
+"target": "geothermal-ecosystems",
+"relationship": "contains"
+},
+{
+"source": "earth-systems",
+"target": "yellowstone-thermal-features",
+"relationship": "contains"
+},
+{
+"source": "earth-systems",
+"target": "hydrothermal-ecosystems",
+"relationship": "contains"
+}
+]
+}
