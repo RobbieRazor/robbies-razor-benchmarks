@@ -1,0 +1,89 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "@id": "https://www.robbiegeorgephotography.com/x402/knowledge-mesh/earth-systems#earth-systems-knowledge-mesh",
+  "name": "Naturepedia Earth Systems Knowledge Mesh",
+  "description": "Paid relationship mesh connecting Earth Systems child systems, feedback pathways, registry families, and cross-system retrieval routes.",
+  "creator": {
+    "@type": "Person",
+    "name": "Robbie George",
+    "url": "https://www.robbiegeorgephotography.com/who-is-robbie-george"
+  },
+  "license": "https://www.robbiegeorgephotography.com/commercial-data-license",
+  "governance": "Gr <= Es",
+  "meshType": "Naturepedia Knowledge Mesh",
+  "system": "Earth Systems™",
+  "visibleId": "earth-systems-knowledge-mesh",
+  "canonicalUrl": "https://www.robbiegeorgephotography.com/earth-systems",
+  "architecture": "Earth Systems → Water → Soil → Carbon → Feedbacks → Plants → Microbes → Volcanic → Geothermal → Yellowstone Thermal → Hydrothermal",
+  "relationshipMesh": [
+    {
+      "from": "Earth Systems™",
+      "to": "Water Systems™",
+      "relationship": "Planetary water movement and hydrologic regulation."
+    },
+    {
+      "from": "Water Systems™",
+      "to": "Soil Systems™",
+      "relationship": "Water regulates soil formation, infiltration, nutrient movement, and biological activity."
+    },
+    {
+      "from": "Soil Systems™",
+      "to": "Carbon Cycle™",
+      "relationship": "Soils store, transform, and stabilize carbon."
+    },
+    {
+      "from": "Carbon Cycle™",
+      "to": "Ecosystem Feedbacks™",
+      "relationship": "Carbon movement drives ecosystem feedback loops."
+    },
+    {
+      "from": "Ecosystem Feedbacks™",
+      "to": "Plant Intelligence™",
+      "relationship": "Plants respond to changing environmental feedback conditions."
+    },
+    {
+      "from": "Plant Intelligence™",
+      "to": "Microbial Life Systems™",
+      "relationship": "Plants exchange nutrients and signals with microbial communities."
+    },
+    {
+      "from": "Microbial Life Systems™",
+      "to": "Geothermal Ecosystems™",
+      "relationship": "Thermophiles and extremophiles connect microbial life to geothermal environments."
+    },
+    {
+      "from": "Volcanic Landscapes™",
+      "to": "Geothermal Ecosystems™",
+      "relationship": "Volcanic heat drives geothermal systems."
+    },
+    {
+      "from": "Geothermal Ecosystems™",
+      "to": "Yellowstone Thermal Features™",
+      "relationship": "Yellowstone is a living expression of geothermal activity."
+    },
+    {
+      "from": "Yellowstone Thermal Features™",
+      "to": "Hydrothermal Ecosystems™",
+      "relationship": "Thermal waters, mineral deposition, and microbial life connect Yellowstone to hydrothermal systems."
+    }
+  ],
+  "registryLinks": [
+    "/x402/earth-systems-registry.json",
+    "/x402/microbial-life-registry.json",
+    "/x402/volcanic-systems-registry.json",
+    "/x402/geothermal-systems-registry.json",
+    "/x402/yellowstone-thermal-registry.json",
+    "/x402/hydrothermal-ecosystems-registry.json"
+  ],
+  "systemMapLinks": [
+    "/x402/earth-systems-map.json",
+    "/x402/microbial-life-map.json",
+    "/x402/volcanic-systems-map.json",
+    "/x402/yellowstone-thermal-map.json",
+    "/x402/hydrothermal-map.json",
+    "/x402/plant-intelligence-map.json",
+    "/x402/quantum-agriculture-map.json",
+    "/x402/bioelectric-systems-map.json"
+  ]
+}
