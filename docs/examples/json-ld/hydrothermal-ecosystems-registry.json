@@ -1,0 +1,106 @@
+{
+"system": "Hydrothermal Ecosystems™",
+"visible_id": "hydrothermal-ecosystems",
+"canonical_url": "https://www.robbiegeorgephotography.com/hydrothermal-ecosystems",
+"registry_type": "Naturepedia System Registry",
+"status": "draft",
+"description": "Machine-readable registry for Hydrothermal Ecosystems™, connecting hydrothermal activity, mineral-rich waters, extremophile communities, microbial ecosystems, geothermal circulation, ecosystem succession, and the relationship between heat, water, geology, and life.",
+"plates": [
+{
+"title": "Hydrothermal Ecosystems Plate™",
+"id": "hydrothermal-ecosystems#hydrothermal-ecosystems-plate",
+"url": "https://www.robbiegeorgephotography.com/hydrothermal-ecosystems"
+},
+{
+"title": "Hydrothermal Systems Plate™",
+"id": "hydrothermal-ecosystems#hydrothermal-systems-plate",
+"url": "https://www.robbiegeorgephotography.com/hydrothermal-ecosystems"
+},
+{
+"title": "Hydrothermal Water Circulation Plate™",
+"id": "hydrothermal-ecosystems#hydrothermal-water-circulation-plate",
+"url": "https://www.robbiegeorgephotography.com/hydrothermal-ecosystems"
+},
+{
+"title": "Mineral-Rich Waters Plate™",
+"id": "hydrothermal-ecosystems#mineral-rich-waters-plate",
+"url": "https://www.robbiegeorgephotography.com/hydrothermal-ecosystems"
+},
+{
+"title": "Hydrothermal Microbial Communities Plate™",
+"id": "hydrothermal-ecosystems#hydrothermal-microbial-communities-plate",
+"url": "https://www.robbiegeorgephotography.com/hydrothermal-ecosystems"
+},
+{
+"title": "Extremophile Ecosystems Plate™",
+"id": "hydrothermal-ecosystems#extremophile-ecosystems-plate",
+"url": "https://www.robbiegeorgephotography.com/hydrothermal-ecosystems"
+},
+{
+"title": "Hydrothermal Mineral Deposition Plate™",
+"id": "hydrothermal-ecosystems#hydrothermal-mineral-deposition-plate",
+"url": "https://www.robbiegeorgephotography.com/hydrothermal-ecosystems"
+},
+{
+"title": "Hydrothermal Ecosystem Succession Plate™",
+"id": "hydrothermal-ecosystems#hydrothermal-ecosystem-succession-plate",
+"url": "https://www.robbiegeorgephotography.com/hydrothermal-ecosystems"
+},
+{
+"title": "Hydrothermal Networks & Earth Systems Plate™",
+"id": "hydrothermal-ecosystems#hydrothermal-networks-earth-systems-plate",
+"url": "https://www.robbiegeorgephotography.com/hydrothermal-ecosystems"
+},
+{
+"title": "Future Hydrothermal Ecosystems Plate™",
+"id": "hydrothermal-ecosystems#future-hydrothermal-ecosystems-plate",
+"url": "https://www.robbiegeorgephotography.com/hydrothermal-ecosystems"
+}
+],
+"relationships": [
+{
+"source": "hydrothermal-systems",
+"target": "hydrothermal-water-circulation",
+"relationship": "drives"
+},
+{
+"source": "hydrothermal-water-circulation",
+"target": "mineral-rich-waters",
+"relationship": "creates"
+},
+{
+"source": "mineral-rich-waters",
+"target": "hydrothermal-microbial-communities",
+"relationship": "supports"
+},
+{
+"source": "hydrothermal-microbial-communities",
+"target": "extremophile-ecosystems",
+"relationship": "includes"
+},
+{
+"source": "extremophile-ecosystems",
+"target": "hydrothermal-mineral-deposition",
+"relationship": "influences"
+},
+{
+"source": "hydrothermal-mineral-deposition",
+"target": "hydrothermal-ecosystem-succession",
+"relationship": "supports"
+},
+{
+"source": "hydrothermal-networks-earth-systems",
+"target": "earth-systems",
+"relationship": "part_of"
+}
+],
+"related_systems": [
+"Earth Systems™",
+"Geothermal Ecosystems™",
+"Yellowstone Thermal Features™",
+"Volcanic Landscapes™",
+"Water Systems™",
+"Microbial Life Systems™",
+"Soil Systems™"
+]
+}
