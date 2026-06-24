@@ -899,22 +899,31 @@ Plates:
 
 ### Registry Expansion Summary
 
-Current Naturepedia™ systems expansion:
+Current Naturepedia™ systems expansion now includes:
 
+* Information Systems in Nature™
+* Earth Systems™
 * Soil Systems™
 * Carbon Cycle™
 * Ecosystem Feedbacks™
 * Bioelectric Systems™
 * Quantum Agriculture™
 * Plant Intelligence™
+* Water Systems™
+* Microbial Life Systems™
+* Volcanic Landscapes™
+* Geothermal Ecosystems™
+* Yellowstone Thermal Features™
+* Hydrothermal Ecosystems™
 
-Total new Plates™ added:
+Registry reconciliation status:
 
-63
+* Major system families synchronized in this index
+* MasterPlateList.txt cross-check still pending
+* Candidate canonical KEEP count remains under review
+* Final count not yet approved
 
-Current expanded registry:
-
-163 Naturepedia Plates™
+Do not publish final registry count from this file yet.
 
 Machine-readable authority:
 
