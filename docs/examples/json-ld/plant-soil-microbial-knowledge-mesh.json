@@ -1,0 +1,91 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "@id": "https://www.robbiegeorgephotography.com/x402/knowledge-mesh/plant-soil-microbial#plant-soil-microbial-knowledge-mesh",
+  "name": "Naturepedia Plant Soil Microbial Knowledge Mesh",
+  "description": "Paid relationship mesh connecting plant intelligence, soil systems, microbial life, mycorrhizal networks, nutrient cycling, carbon storage, water movement, and regenerative feedback pathways.",
+  "creator": {
+    "@type": "Person",
+    "name": "Robbie George",
+    "url": "https://www.robbiegeorgephotography.com/who-is-robbie-george"
+  },
+  "license": "https://www.robbiegeorgephotography.com/commercial-data-license",
+  "governance": "Gr <= Es",
+  "meshType": "Naturepedia Knowledge Mesh",
+  "system": "Plant-Soil-Microbial Systems™",
+  "visibleId": "plant-soil-microbial-knowledge-mesh",
+  "canonicalUrl": "https://www.robbiegeorgephotography.com/naturepedia-plant-intelligence",
+  "architecture": "Plant Intelligence → Roots → Soil Systems → Soil Microbiome → Mycorrhizal Networks → Microbial Life → Nutrient Cycling → Carbon Storage → Water Systems → Regenerative Feedbacks",
+  "relationshipMesh": [
+    {
+      "from": "Plant Intelligence™",
+      "to": "Root Intelligence",
+      "relationship": "Plants sense water, nutrients, gravity, touch, light, microbes, fungi, stress, and neighboring plants through root systems."
+    },
+    {
+      "from": "Root Intelligence",
+      "to": "Soil Systems™",
+      "relationship": "Roots structure soil, feed microbial life, stabilize aggregates, move carbon belowground, and create exchange interfaces."
+    },
+    {
+      "from": "Soil Systems™",
+      "to": "Microbial Life Systems™",
+      "relationship": "Soil systems host bacteria, archaea, fungi, biofilms, decomposers, nutrient cyclers, and living food-web communities."
+    },
+    {
+      "from": "Microbial Life Systems™",
+      "to": "Mycorrhizal Networks",
+      "relationship": "Microbes and fungi form underground exchange networks connecting roots, minerals, water, carbon compounds, and ecological memory."
+    },
+    {
+      "from": "Mycorrhizal Networks",
+      "to": "Plant Communication",
+      "relationship": "Mycorrhizal networks support chemical signaling, resource sharing, warning cues, and soil-network feedback."
+    },
+    {
+      "from": "Microbial Life Systems™",
+      "to": "Nutrient Cycling",
+      "relationship": "Microbes transform organic matter, minerals, nitrogen, phosphorus, carbon compounds, and chemical energy into plant-available pathways."
+    },
+    {
+      "from": "Nutrient Cycling",
+      "to": "Carbon Cycle™",
+      "relationship": "Nutrient cycling regulates decomposition, photosynthesis, root exudates, microbial biomass, soil organic matter, and carbon storage."
+    },
+    {
+      "from": "Water Systems™",
+      "to": "Soil Systems™",
+      "relationship": "Water infiltration, retention, groundwater recharge, drought buffering, and soil structure determine biological activity."
+    },
+    {
+      "from": "Regenerative Soil Systems",
+      "to": "Ecosystem Feedbacks™",
+      "relationship": "Regenerative soil pathways strengthen feedback among plants, microbes, fungi, water, carbon, biodiversity, and resilience."
+    }
+  ],
+  "registryLinks": [
+    "/x402/earth-systems-registry.json",
+    "/x402/microbial-life-registry.json",
+    "/x402/information-systems-registry.json"
+  ],
+  "systemMapLinks": [
+    "/x402/plant-intelligence-map.json",
+    "/x402/quantum-agriculture-map.json",
+    "/x402/bioelectric-systems-map.json",
+    "/x402/microbial-life-map.json",
+    "/x402/earth-systems-map.json",
+    "/x402/water-system-map.json"
+  ],
+  "protectedRetrievalUse": [
+    "plant soil microbial knowledge mesh retrieval",
+    "plant intelligence to soil routing",
+    "root intelligence relationship mapping",
+    "microbial life retrieval",
+    "mycorrhizal network mapping",
+    "nutrient cycling retrieval",
+    "soil carbon routing",
+    "regenerative feedback mapping",
+    "commercial structured ingestion",
+    "enterprise semantic synchronization"
+  ]
+}
