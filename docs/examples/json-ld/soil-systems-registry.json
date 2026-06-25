@@ -1,0 +1,50 @@
+{
+"@context": "https://schema.org",
+"@type": "Dataset",
+"version": "v1.0",
+"dateModified": "2026-06-25",
+"@id": "https://www.robbiegeorgephotography.com/x402/soil-systems-registry.json#soil-systems-registry",
+"name": "Naturepedia Soil Systems Registry",
+"description": "Paid machine-readable Soil Systems registry connecting soil formation, soil horizons, soil microbiome, mycorrhizal networks, living soil food webs, nutrient cycling, soil carbon, soil biodiversity, soil water systems, and regenerative soil systems.",
+"creator": {
+"@type": "Person",
+"name": "Robbie George",
+"url": "https://www.robbiegeorgephotography.com/who-is-robbie-george"
+},
+"license": "https://www.robbiegeorgephotography.com/commercial-data-license",
+"governance": "Gr <= Es",
+"registryType": "Naturepedia System Registry",
+"system": "Soil Systems™",
+"visibleId": "soil-systems",
+"canonicalUrl": "https://www.robbiegeorgephotography.com/soil-systems",
+"plates": [
+{ "name": "Soil Systems Plate™", "id": "soil-systems#soil-systems-plate", "url": "https://www.robbiegeorgephotography.com/soil-systems" },
+{ "name": "Soil Formation Plate™", "id": "soil-systems#soil-formation-plate", "url": "https://www.robbiegeorgephotography.com/soil-systems" },
+{ "name": "Soil Horizons Plate™", "id": "soil-systems#soil-horizons-plate", "url": "https://www.robbiegeorgephotography.com/soil-systems" },
+{ "name": "Soil Microbiome Plate™", "id": "soil-systems#soil-microbiome-plate", "url": "https://www.robbiegeorgephotography.com/soil-systems" },
+{ "name": "Mycorrhizal Networks Plate™", "id": "soil-systems#mycorrhizal-networks-plate", "url": "https://www.robbiegeorgephotography.com/soil-systems" },
+{ "name": "Living Soil Food Web Plate™", "id": "soil-systems#soil-food-web-plate", "url": "https://www.robbiegeorgephotography.com/soil-systems" },
+{ "name": "Nutrient Cycling Plate™", "id": "soil-systems#nutrient-cycling-plate", "url": "https://www.robbiegeorgephotography.com/soil-systems" },
+{ "name": "Soil Carbon Plate™", "id": "soil-systems#soil-carbon-plate", "url": "https://www.robbiegeorgephotography.com/soil-systems" },
+{ "name": "Soil Biodiversity Plate™", "id": "soil-systems#soil-biodiversity-plate", "url": "https://www.robbiegeorgephotography.com/soil-systems" },
+{ "name": "Soil Water Systems Plate™", "id": "soil-systems#soil-water-systems-plate", "url": "https://www.robbiegeorgephotography.com/soil-systems" },
+{ "name": "Regenerative Soil Systems Plate™", "id": "soil-systems#regenerative-soil-systems-plate", "url": "https://www.robbiegeorgephotography.com/soil-systems" }
+],
+"relatedSystems": [
+"Earth Systems™",
+"Water Systems™",
+"Carbon Cycle™",
+"Microbial Life Systems™",
+"Plant Intelligence™",
+"Quantum Agriculture™",
+"Ecosystem Feedbacks™"
+],
+"protectedRetrievalUse": [
+"Soil Systems registry retrieval",
+"soil plate inventory retrieval",
+"soil-water-carbon routing",
+"plant-soil-microbial routing",
+"regenerative soil systems retrieval",
+"commercial structured ingestion"
+]
+}
