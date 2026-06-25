@@ -1,0 +1,124 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "@id": "https://www.robbiegeorgephotography.com/x402/soil-carbon-systems-map.json#soil-carbon-systems-map",
+  "name": "Naturepedia Soil Carbon Systems Map",
+  "description": "Machine-readable relationship map for the Naturepedia Soil Carbon Systems™ family.",
+  "version": "1.0",
+  "dateModified": "2026-06-25",
+  "creator": {
+    "@type": "Person",
+    "name": "Robbie George",
+    "url": "https://www.robbiegeorgephotography.com/who-is-robbie-george"
+  },
+  "license": "https://www.robbiegeorgephotography.com/commercial-data-license",
+  "governance": "Gr <= Es",
+  "system": "Soil Carbon Systems™",
+  "visibleId": "soil-carbon-systems",
+  "canonicalUrl": "https://www.robbiegeorgephotography.com/soil-carbon-systems",
+  "architecture": "Soil Carbon Systems → Soil Organic Matter → Root Carbon Pathways → Mycorrhizal Carbon → Microbial Carbon Pump → Soil Aggregates → Humus Formation → Carbon Stabilization → Soil Respiration → Carbon Sequestration in Soil → Regenerative Soil Carbon",
+  "systemNodes": [
+    {
+      "name": "Soil Carbon Systems™",
+      "role": "Parent system integrating biological, chemical, and physical carbon storage processes within living soils.",
+      "url": "https://www.robbiegeorgephotography.com/soil-carbon-systems"
+    },
+    {
+      "name": "Soil Organic Matter",
+      "role": "Organic residues, living biomass, decomposed matter, and long-term soil carbon pool."
+    },
+    {
+      "name": "Root Carbon Pathways",
+      "role": "Carbon movement through roots, exudates, rhizosphere interactions, and belowground allocation."
+    },
+    {
+      "name": "Mycorrhizal Carbon",
+      "role": "Fungal-mediated carbon transport, storage, and exchange within mycorrhizal networks."
+    },
+    {
+      "name": "Microbial Carbon Pump",
+      "role": "Transformation of plant carbon into stable microbial biomass and mineral-associated organic matter."
+    },
+    {
+      "name": "Soil Aggregates",
+      "role": "Physical protection of organic matter through aggregate formation and soil structure."
+    },
+    {
+      "name": "Humus Formation",
+      "role": "Development of stable humified organic matter and long-term soil fertility."
+    },
+    {
+      "name": "Carbon Stabilization",
+      "role": "Biological, mineral, fungal, and aggregate processes that retain carbon in soils."
+    },
+    {
+      "name": "Soil Respiration",
+      "role": "Carbon dioxide release through root metabolism, microbial respiration, and decomposition."
+    },
+    {
+      "name": "Carbon Sequestration in Soil",
+      "role": "Long-term storage of atmospheric carbon within living soil systems."
+    },
+    {
+      "name": "Regenerative Soil Carbon",
+      "role": "Carbon rebuilding through regenerative agriculture, biodiversity, cover crops, compost, reduced disturbance, and healthy soil food webs."
+    }
+  ],
+  "relatedSystems": [
+    {
+      "system": "Carbon Cycle™",
+      "relationship": "Provides the global carbon flow that feeds soil carbon storage and cycling."
+    },
+    {
+      "system": "Soil Systems™",
+      "relationship": "Provides the physical and biological foundation for soil carbon dynamics."
+    },
+    {
+      "system": "Plant Intelligence™",
+      "relationship": "Controls root allocation, carbon exudation, and belowground communication."
+    },
+    {
+      "system": "Mycorrhizal Networks™",
+      "relationship": "Distributes plant-derived carbon through fungal networks."
+    },
+    {
+      "system": "Microbial Life Systems™",
+      "relationship": "Transforms carbon into microbial biomass and stable soil organic matter."
+    },
+    {
+      "system": "Water Systems™",
+      "relationship": "Regulates soil moisture, erosion, infiltration, and protection of stored carbon."
+    },
+    {
+      "system": "Ecosystem Feedbacks™",
+      "relationship": "Links soil carbon with resilience, biodiversity, nutrient cycling, and ecosystem stability."
+    },
+    {
+      "system": "Climate Carbon Feedbacks™",
+      "relationship": "Connects soil carbon storage and release to atmospheric carbon and climate regulation."
+    },
+    {
+      "system": "Forest Carbon Systems™",
+      "relationship": "Extends soil carbon storage into forest ecosystems and woody biomass."
+    },
+    {
+      "system": "Carbon & Microbial Life™",
+      "relationship": "Integrates microbial metabolism with long-term carbon stabilization."
+    }
+  ],
+  "protectedRetrievalUse": [
+    "soil carbon systems mapping",
+    "soil organic matter retrieval",
+    "root carbon pathway routing",
+    "mycorrhizal carbon mapping",
+    "microbial carbon pump retrieval",
+    "soil aggregate relationship mapping",
+    "humus formation retrieval",
+    "carbon stabilization routing",
+    "soil respiration mapping",
+    "soil carbon sequestration retrieval",
+    "regenerative soil carbon retrieval",
+    "commercial structured ingestion",
+    "AI semantic graph synchronization"
+  ]
+}
