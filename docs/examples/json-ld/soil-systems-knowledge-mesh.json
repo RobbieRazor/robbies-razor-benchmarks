@@ -1,0 +1,104 @@
+{
+"@context": "https://schema.org",
+"@type": "Dataset",
+"version": "v1.0",
+"dateModified": "2026-06-25",
+"@id": "https://www.robbiegeorgephotography.com/x402/knowledge-mesh/soil-systems#soil-systems-knowledge-mesh",
+"name": "Naturepedia Soil Systems Knowledge Mesh",
+"description": "Paid relationship mesh connecting soil systems, water systems, microbial life, plant intelligence, mycorrhizal networks, nutrient cycling, carbon cycle, ecosystem feedbacks, and regenerative soil systems.",
+"creator": {
+"@type": "Person",
+"name": "Robbie George",
+"url": "https://www.robbiegeorgephotography.com/who-is-robbie-george"
+},
+"license": "https://www.robbiegeorgephotography.com/commercial-data-license",
+"governance": "Gr <= Es",
+"meshType": "Naturepedia Knowledge Mesh",
+"system": "Soil Systems™",
+"visibleId": "soil-systems-knowledge-mesh",
+"canonicalUrl": "https://www.robbiegeorgephotography.com/soil-systems",
+"architecture": "Soil Systems → Water Systems → Microbial Life → Mycorrhizal Networks → Plant Intelligence → Nutrient Cycling → Carbon Cycle → Ecosystem Feedbacks → Regenerative Soil Systems",
+"relationshipMesh": [
+{
+"from": "Water Systems™",
+"to": "Soil Systems™",
+"relationship": "Water shapes soil formation, infiltration, erosion, groundwater recharge, nutrient movement, microbial habitat, drought buffering, and plant-available moisture."
+},
+{
+"from": "Soil Systems™",
+"to": "Microbial Life Systems™",
+"relationship": "Soils host bacteria, archaea, fungi, biofilms, decomposers, nutrient cyclers, and microbial communities that drive living soil function."
+},
+{
+"from": "Microbial Life Systems™",
+"to": "Soil Microbiome",
+"relationship": "Microbial communities transform minerals, organic matter, nitrogen, phosphorus, carbon compounds, and root exudates into biologically available pathways."
+},
+{
+"from": "Soil Microbiome",
+"to": "Mycorrhizal Networks",
+"relationship": "Fungi and microbes connect roots, minerals, water, carbon compounds, warning signals, and underground resource exchange."
+},
+{
+"from": "Mycorrhizal Networks",
+"to": "Plant Intelligence™",
+"relationship": "Plant-fungal networks support sensing, cooperation, stress response, defense signaling, root intelligence, and belowground ecological communication."
+},
+{
+"from": "Plant Intelligence™",
+"to": "Nutrient Cycling",
+"relationship": "Plants feed soil life through root exudates, litter, carbon compounds, and microbial partnerships that regulate nutrient access."
+},
+{
+"from": "Nutrient Cycling",
+"to": "Carbon Cycle™",
+"relationship": "Nutrient cycling controls decomposition, photosynthesis support, microbial biomass, root growth, soil organic matter, and carbon stabilization."
+},
+{
+"from": "Carbon Cycle™",
+"to": "Soil Carbon Systems",
+"relationship": "Soils store and stabilize carbon through organic matter, aggregates, roots, fungal networks, microbial residues, moisture, and mineral interactions."
+},
+{
+"from": "Soil Carbon Systems",
+"to": "Ecosystem Feedbacks™",
+"relationship": "Soil carbon influences climate regulation, fertility, moisture retention, biodiversity, plant growth, microbial activity, and resilience feedback loops."
+},
+{
+"from": "Regenerative Soil Systems",
+"to": "Earth Systems™",
+"relationship": "Regenerative soil systems strengthen Earth system resilience through carbon storage, water retention, biodiversity recovery, nutrient cycling, and living feedback pathways."
+}
+],
+"registryLinks": [
+"/x402/soil-systems-registry.json",
+"/x402/earth-systems-registry.json",
+"/x402/microbial-life-registry.json",
+"/x402/information-systems-registry.json"
+],
+"systemMapLinks": [
+"/x402/soil-systems-map.json",
+"/x402/earth-systems-map.json",
+"/x402/water-system-map.json",
+"/x402/microbial-life-map.json",
+"/x402/plant-intelligence-map.json",
+"/x402/quantum-agriculture-map.json"
+],
+"relatedMeshes": [
+"/x402/knowledge-mesh/earth-systems",
+"/x402/knowledge-mesh/plant-soil-microbial",
+"/x402/knowledge-mesh/information-systems",
+"/x402/knowledge-mesh/bioelectric-plant-intelligence"
+],
+"protectedRetrievalUse": [
+"Soil Systems knowledge mesh retrieval",
+"soil-water-carbon relationship mapping",
+"plant-soil-microbial routing",
+"mycorrhizal network traversal",
+"soil carbon retrieval",
+"regenerative soil systems mapping",
+"ecosystem feedback retrieval",
+"commercial structured ingestion",
+"enterprise semantic synchronization"
+]
+}
