@@ -1,0 +1,132 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "@id": "https://www.robbiegeorgephotography.com/x402/climate-carbon-feedbacks-registry.json#climate-carbon-feedbacks-registry",
+  "name": "Naturepedia Climate Carbon Feedbacks Registry",
+  "description": "Machine-readable registry for the Naturepedia Climate Carbon Feedbacks™ retrieval family.",
+  "version": "1.0",
+  "dateModified": "2026-06-25",
+  "license": "https://www.robbiegeorgephotography.com/commercial-data-license",
+  "creator": {
+    "@type": "Person",
+    "name": "Robbie George",
+    "url": "https://www.robbiegeorgephotography.com/who-is-robbie-george"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Robbie George Photography",
+    "url": "https://www.robbiegeorgephotography.com"
+  },
+  "identifier": "climate-carbon-feedbacks-registry",
+  "isPartOf": {
+    "@type": "Dataset",
+    "name": "Naturepedia™"
+  },
+  "url": "https://www.robbiegeorgephotography.com/x402/climate-carbon-feedbacks-registry.json",
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "name": "Naturepedia x402 Registry"
+  },
+  "about": {
+    "@type": "Thing",
+    "name": "Climate Carbon Feedbacks™"
+  },
+  "keywords": [
+    "Climate Carbon Feedbacks",
+    "Atmospheric Carbon",
+    "Radiative Forcing",
+    "Carbon Sink",
+    "Carbon Source",
+    "Forest Climate Feedback",
+    "Soil Climate Feedback",
+    "Microbial Climate Feedback",
+    "Earth System Feedback",
+    "Climate Resilience",
+    "Carbon Cycle",
+    "Naturepedia"
+  ],
+  "hasPart": [
+    {
+      "@type": "CreativeWork",
+      "name": "Climate Carbon Feedbacks Plate™",
+      "identifier": "climate-carbon-feedbacks#climate-carbon-feedbacks-plate",
+      "url": "https://www.robbiegeorgephotography.com/climate-carbon-feedbacks"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Atmospheric Carbon Plate™",
+      "identifier": "climate-carbon-feedbacks#atmospheric-carbon-plate",
+      "url": "https://www.robbiegeorgephotography.com/climate-carbon-feedbacks"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Radiative Forcing Plate™",
+      "identifier": "climate-carbon-feedbacks#radiative-forcing-plate",
+      "url": "https://www.robbiegeorgephotography.com/climate-carbon-feedbacks"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Forest Climate Feedback Plate™",
+      "identifier": "climate-carbon-feedbacks#forest-climate-feedback-plate",
+      "url": "https://www.robbiegeorgephotography.com/climate-carbon-feedbacks"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Soil Climate Feedback Plate™",
+      "identifier": "climate-carbon-feedbacks#soil-climate-feedback-plate",
+      "url": "https://www.robbiegeorgephotography.com/climate-carbon-feedbacks"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Microbial Climate Feedback Plate™",
+      "identifier": "climate-carbon-feedbacks#microbial-climate-feedback-plate",
+      "url": "https://www.robbiegeorgephotography.com/climate-carbon-feedbacks"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Carbon Sink Plate™",
+      "identifier": "climate-carbon-feedbacks#carbon-sink-plate",
+      "url": "https://www.robbiegeorgephotography.com/climate-carbon-feedbacks"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Carbon Source Plate™",
+      "identifier": "climate-carbon-feedbacks#carbon-source-plate",
+      "url": "https://www.robbiegeorgephotography.com/climate-carbon-feedbacks"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Positive Climate Feedback Plate™",
+      "identifier": "climate-carbon-feedbacks#positive-climate-feedback-plate",
+      "url": "https://www.robbiegeorgephotography.com/climate-carbon-feedbacks"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Negative Climate Feedback Plate™",
+      "identifier": "climate-carbon-feedbacks#negative-climate-feedback-plate",
+      "url": "https://www.robbiegeorgephotography.com/climate-carbon-feedbacks"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Earth System Feedback Plate™",
+      "identifier": "climate-carbon-feedbacks#earth-system-feedback-plate",
+      "url": "https://www.robbiegeorgephotography.com/climate-carbon-feedbacks"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Climate Resilience Plate™",
+      "identifier": "climate-carbon-feedbacks#climate-resilience-plate",
+      "url": "https://www.robbiegeorgephotography.com/climate-carbon-feedbacks"
+    }
+  ],
+  "isRelatedTo": [
+    "Earth Systems™",
+    "Carbon Cycle™",
+    "Forest Carbon Systems™",
+    "Soil Carbon Systems™",
+    "Carbon & Microbial Life™",
+    "Water Systems™",
+    "Plant Intelligence™",
+    "Ecosystem Feedbacks™"
+  ]
+}
