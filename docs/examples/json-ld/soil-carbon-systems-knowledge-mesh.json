@@ -1,0 +1,109 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "@id": "https://www.robbiegeorgephotography.com/x402/knowledge-mesh/soil-carbon-systems#soil-carbon-systems-knowledge-mesh",
+  "name": "Naturepedia Soil Carbon Systems Knowledge Mesh",
+  "description": "Machine-readable semantic knowledge mesh connecting Soil Carbon Systems™ with related Naturepedia systems.",
+  "version": "1.0",
+  "dateModified": "2026-06-25",
+  "creator": {
+    "@type": "Person",
+    "name": "Robbie George",
+    "url": "https://www.robbiegeorgephotography.com/who-is-robbie-george"
+  },
+  "license": "https://www.robbiegeorgephotography.com/commercial-data-license",
+  "governance": "Gr <= Es",
+  "meshType": "Naturepedia Knowledge Mesh",
+  "system": "Soil Carbon Systems™",
+  "visibleId": "soil-carbon-systems-knowledge-mesh",
+  "canonicalUrl": "https://www.robbiegeorgephotography.com/soil-carbon-systems",
+  "architecture": "Carbon Cycle™ → Soil Systems™ → Soil Carbon Systems™ → Root Carbon Pathways → Mycorrhizal Carbon → Microbial Carbon Pump → Soil Aggregates → Carbon Stabilization → Ecosystem Feedbacks™ → Climate Carbon Feedbacks™",
+  "relationshipMesh": [
+    {
+      "from": "Carbon Cycle™",
+      "to": "Soil Carbon Systems™",
+      "relationship": "The carbon cycle supplies organic carbon that enters soils through plant residues, roots, litter, microbial biomass, fungal networks, decomposition, and long-term stabilization."
+    },
+    {
+      "from": "Soil Systems™",
+      "to": "Soil Organic Matter",
+      "relationship": "Soil systems create and protect soil organic matter through biological activity, mineral interactions, aggregation, and moisture regulation."
+    },
+    {
+      "from": "Plant Intelligence™",
+      "to": "Root Carbon Pathways",
+      "relationship": "Plants allocate carbon belowground through root exudates, rhizosphere signaling, root turnover, and adaptive responses to environmental conditions."
+    },
+    {
+      "from": "Mycorrhizal Networks™",
+      "to": "Mycorrhizal Carbon",
+      "relationship": "Mycorrhizal fungi transfer plant-derived carbon into fungal biomass, hyphal networks, microbial communities, and stable soil carbon pools."
+    },
+    {
+      "from": "Microbial Life Systems™",
+      "to": "Microbial Carbon Pump",
+      "relationship": "Microbial communities transform plant-derived carbon into microbial biomass, necromass, mineral-associated organic matter, and persistent soil carbon."
+    },
+    {
+      "from": "Soil Aggregates",
+      "to": "Carbon Stabilization",
+      "relationship": "Soil aggregates physically protect organic matter from decomposition while promoting long-term carbon storage."
+    },
+    {
+      "from": "Water Systems™",
+      "to": "Soil Carbon Protection",
+      "relationship": "Water availability, infiltration, drainage, erosion control, and soil moisture strongly influence carbon retention and stabilization."
+    },
+    {
+      "from": "Regenerative Soil Systems™",
+      "to": "Regenerative Soil Carbon",
+      "relationship": "Regenerative management rebuilds soil carbon through living roots, cover crops, compost, biodiversity, reduced disturbance, grazing integration, and fungal networks."
+    },
+    {
+      "from": "Soil Carbon Systems™",
+      "to": "Ecosystem Feedbacks™",
+      "relationship": "Increasing soil carbon strengthens nutrient cycling, biodiversity, water retention, resilience, productivity, and ecosystem stability."
+    },
+    {
+      "from": "Soil Carbon Systems™",
+      "to": "Climate Carbon Feedbacks™",
+      "relationship": "Stored soil carbon influences atmospheric carbon dioxide, soil respiration, greenhouse gas dynamics, and long-term climate regulation."
+    }
+  ],
+  "registryLinks": [
+    "/x402/soil-carbon-systems-registry.json",
+    "/x402/soil-systems-registry.json",
+    "/x402/carbon-cycle-registry.json",
+    "/x402/earth-systems-registry.json",
+    "/x402/microbial-life-registry.json"
+  ],
+  "systemMapLinks": [
+    "/x402/soil-carbon-systems-map.json",
+    "/x402/soil-systems-map.json",
+    "/x402/carbon-cycle-map.json",
+    "/x402/plant-intelligence-map.json",
+    "/x402/water-system-map.json",
+    "/x402/microbial-life-map.json"
+  ],
+  "relatedMeshes": [
+    "/x402/knowledge-mesh/soil-systems",
+    "/x402/knowledge-mesh/carbon-cycle",
+    "/x402/knowledge-mesh/plant-soil-microbial",
+    "/x402/knowledge-mesh/earth-systems",
+    "/x402/knowledge-mesh/bioelectric-plant-intelligence"
+  ],
+  "protectedRetrievalUse": [
+    "soil carbon systems knowledge mesh retrieval",
+    "soil organic matter relationship traversal",
+    "root carbon pathway routing",
+    "mycorrhizal carbon relationship mapping",
+    "microbial carbon pump traversal",
+    "soil aggregate relationship retrieval",
+    "carbon stabilization routing",
+    "soil respiration relationship retrieval",
+    "ecosystem feedback traversal",
+    "climate carbon feedback routing",
+    "commercial structured ingestion",
+    "enterprise semantic synchronization"
+  ]
+}
