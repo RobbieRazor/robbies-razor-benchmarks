@@ -608,12 +608,14 @@ Current Knowledge Mesh examples:
 * `soil-systems-knowledge-mesh.json`
 * `carbon-cycle-knowledge-mesh.json`
 * `soil-carbon-systems-knowledge-mesh.json`
+* `carbon-microbial-life-knowledge-mesh.json`
 
 Current Registry examples:
 
 ```txt
 carbon-cycle-registry.json
 soil-carbon-systems-registry.json
+carbon-microbial-life-registry.json
 ```
 
 Current System Map examples:
@@ -636,6 +638,7 @@ hydrothermal-ecosystems-registry.json
 soil-systems-registry.json
 carbon-cycle-registry.json
 soil-carbon-systems-registry.json
+carbon-microbial-life-registry.json
 ```
 
 Current System Map examples:
@@ -653,6 +656,7 @@ plant-intelligence-map.json
 soil-systems-map.json
 carbon-cycle-map.json
 soil-carbon-systems-map.json
+carbon-microbial-life-map.json
 ```
 
 Production x402 endpoints:
@@ -665,6 +669,7 @@ Production x402 endpoints:
 * `/x402/knowledge-mesh/soil-systems`
 * `/x402/knowledge-mesh/carbon-cycle`
 * `/x402/knowledge-mesh/soil-carbon-systems`
+* `/x402/knowledge-mesh/carbon-microbial-life`
 
   
 Public v1 aliases:
@@ -674,6 +679,10 @@ Public v1 aliases:
 - `/v1/knowledge-mesh/volcanic-geothermal-hydrothermal`
 - `/v1/knowledge-mesh/plant-soil-microbial`
 - `/v1/knowledge-mesh/bioelectric-plant-intelligence`
+- `/v1/knowledge-mesh/soil-systems`
+- `/v1/knowledge-mesh/carbon-cycle`
+- `/v1/knowledge-mesh/soil-carbon-systems`
+- `/v1/knowledge-mesh/carbon-microbial-life`
 
 Naturepedia™ now includes production Knowledge Mesh endpoints that expose cross-system semantic relationships rather than simple inventories or concept maps.
 
@@ -691,6 +700,10 @@ Current production Knowledge Mesh endpoints:
 /x402/knowledge-mesh/volcanic-geothermal-hydrothermal
 /x402/knowledge-mesh/plant-soil-microbial
 /x402/knowledge-mesh/bioelectric-plant-intelligence
+/x402/knowledge-mesh/soil-systems
+/x402/knowledge-mesh/carbon-cycle
+/x402/knowledge-mesh/soil-carbon-systems
+/x402/knowledge-mesh/carbon-microbial-life
 ```
 
 Equivalent public aliases:
@@ -717,6 +730,7 @@ bioelectric-plant-intelligence-knowledge-mesh.json
 soil-systems-knowledge-mesh.json
 carbon-cycle-knowledge-mesh.json
 soil-carbon-systems-knowledge-mesh.json
+carbon-microbial-life-knowledge-mesh.json
 ```
 
 Knowledge Mesh extends beyond inventories and system maps by exposing relationship pathways between Plates™, registries, ecosystems, biological systems, and semantic routing layers.
