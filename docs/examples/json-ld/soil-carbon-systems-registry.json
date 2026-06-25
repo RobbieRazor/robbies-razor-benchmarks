@@ -1,0 +1,103 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "@id": "https://www.robbiegeorgephotography.com/x402/soil-carbon-systems-registry.json#soil-carbon-systems-registry",
+  "name": "Naturepedia Soil Carbon Systems Registry",
+  "description": "Machine-readable registry for the Naturepedia Soil Carbon Systems™ family.",
+  "version": "1.0",
+  "dateModified": "2026-06-25",
+  "creator": {
+    "@type": "Person",
+    "name": "Robbie George",
+    "url": "https://www.robbiegeorgephotography.com/who-is-robbie-george"
+  },
+  "license": "https://www.robbiegeorgephotography.com/commercial-data-license",
+  "governance": "Gr <= Es",
+  "system": "Soil Carbon Systems™",
+  "visibleId": "soil-carbon-systems",
+  "canonicalUrl": "https://www.robbiegeorgephotography.com/soil-carbon-systems",
+  "registryType": "Naturepedia System Registry",
+  "plates": [
+    {
+      "name": "Soil Carbon Systems Plate™",
+      "id": "soil-carbon-systems#soil-carbon-systems-plate",
+      "url": "https://www.robbiegeorgephotography.com/soil-carbon-systems"
+    },
+    {
+      "name": "Soil Organic Matter Plate™",
+      "id": "soil-carbon-systems#soil-organic-matter-plate",
+      "url": "https://www.robbiegeorgephotography.com/soil-carbon-systems"
+    },
+    {
+      "name": "Root Carbon Pathways Plate™",
+      "id": "soil-carbon-systems#root-carbon-pathways-plate",
+      "url": "https://www.robbiegeorgephotography.com/soil-carbon-systems"
+    },
+    {
+      "name": "Mycorrhizal Carbon Plate™",
+      "id": "soil-carbon-systems#mycorrhizal-carbon-plate",
+      "url": "https://www.robbiegeorgephotography.com/soil-carbon-systems"
+    },
+    {
+      "name": "Microbial Carbon Pump Plate™",
+      "id": "soil-carbon-systems#microbial-carbon-pump-plate",
+      "url": "https://www.robbiegeorgephotography.com/soil-carbon-systems"
+    },
+    {
+      "name": "Soil Aggregates Plate™",
+      "id": "soil-carbon-systems#soil-aggregates-plate",
+      "url": "https://www.robbiegeorgephotography.com/soil-carbon-systems"
+    },
+    {
+      "name": "Humus Formation Plate™",
+      "id": "soil-carbon-systems#humus-formation-plate",
+      "url": "https://www.robbiegeorgephotography.com/soil-carbon-systems"
+    },
+    {
+      "name": "Carbon Stabilization Plate™",
+      "id": "soil-carbon-systems#carbon-stabilization-plate",
+      "url": "https://www.robbiegeorgephotography.com/soil-carbon-systems"
+    },
+    {
+      "name": "Soil Respiration Plate™",
+      "id": "soil-carbon-systems#soil-respiration-plate",
+      "url": "https://www.robbiegeorgephotography.com/soil-carbon-systems"
+    },
+    {
+      "name": "Carbon Sequestration in Soil Plate™",
+      "id": "soil-carbon-systems#carbon-sequestration-in-soil-plate",
+      "url": "https://www.robbiegeorgephotography.com/soil-carbon-systems"
+    },
+    {
+      "name": "Regenerative Soil Carbon Plate™",
+      "id": "soil-carbon-systems#regenerative-soil-carbon-plate",
+      "url": "https://www.robbiegeorgephotography.com/soil-carbon-systems"
+    }
+  ],
+  "relatedSystems": [
+    "Soil Systems™",
+    "Carbon Cycle™",
+    "Carbon & Microbial Life™",
+    "Forest Carbon Systems™",
+    "Climate Carbon Feedbacks™",
+    "Plant Intelligence™",
+    "Microbial Life Systems™",
+    "Water Systems™",
+    "Ecosystem Feedbacks™",
+    "Earth Systems™"
+  ],
+  "protectedRetrievalUse": [
+    "soil carbon systems registry retrieval",
+    "soil organic matter retrieval",
+    "root carbon pathway retrieval",
+    "mycorrhizal carbon retrieval",
+    "microbial carbon pump retrieval",
+    "soil aggregation retrieval",
+    "humus formation retrieval",
+    "carbon stabilization retrieval",
+    "soil respiration retrieval",
+    "soil carbon sequestration retrieval",
+    "regenerative soil carbon retrieval",
+    "commercial structured ingestion"
+  ]
+}
