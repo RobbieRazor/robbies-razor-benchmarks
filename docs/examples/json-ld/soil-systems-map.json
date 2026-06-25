@@ -1,0 +1,39 @@
+{
+"@context": "https://schema.org",
+"@type": "Dataset",
+"version": "v1.0",
+"dateModified": "2026-06-25",
+"@id": "https://www.robbiegeorgephotography.com/x402/soil-systems-map.json#soil-systems-map",
+"name": "Naturepedia Soil Systems Map",
+"description": "Paid compressed relationship map connecting soil formation, soil horizons, soil microbiome, mycorrhizal networks, living soil food webs, nutrient cycling, soil carbon, soil biodiversity, soil water systems, regenerative soil systems, plants, microbes, carbon, and water.",
+"creator": {
+"@type": "Person",
+"name": "Robbie George",
+"url": "https://www.robbiegeorgephotography.com/who-is-robbie-george"
+},
+"license": "https://www.robbiegeorgephotography.com/commercial-data-license",
+"governance": "Gr <= Es",
+"architecture": "Soil Systems → Soil Formation → Soil Horizons → Soil Microbiome → Mycorrhizal Networks → Soil Food Web → Nutrient Cycling → Soil Carbon → Soil Water → Regenerative Soil Systems",
+"systemNodes": [
+{ "name": "Soil Systems", "url": "https://www.robbiegeorgephotography.com/soil-systems", "role": "Parent soil systems layer" },
+{ "name": "Soil Formation", "role": "Weathering, organic matter, mineral development, and landscape formation layer" },
+{ "name": "Soil Horizons", "role": "Vertical soil profile and identification layer" },
+{ "name": "Soil Microbiome", "role": "Microbial life, decomposition, nutrient transformation, and soil intelligence layer" },
+{ "name": "Mycorrhizal Networks", "role": "Fungal-root exchange, resource sharing, and belowground communication layer" },
+{ "name": "Living Soil Food Web", "role": "Organism interaction layer linking microbes, fungi, roots, insects, and decomposers" },
+{ "name": "Nutrient Cycling", "role": "Transformation and movement of nutrients through living soil" },
+{ "name": "Soil Carbon", "role": "Carbon storage, stabilization, decomposition, roots, fungi, and organic matter layer" },
+{ "name": "Soil Water Systems", "role": "Infiltration, retention, groundwater recharge, drought buffering, and plant-available moisture layer" },
+{ "name": "Regenerative Soil Systems", "role": "Applied restoration, farming, biodiversity, and resilience layer" }
+],
+"protectedRetrievalUse": [
+"soil systems retrieval",
+"soil formation mapping",
+"soil microbiome routing",
+"mycorrhizal network retrieval",
+"soil carbon relationship mapping",
+"soil water systems retrieval",
+"regenerative soil systems routing",
+"commercial structured ingestion"
+]
+}
