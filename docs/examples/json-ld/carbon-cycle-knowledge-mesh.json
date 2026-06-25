@@ -1,0 +1,111 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "version": "v1.0",
+  "dateModified": "2026-06-25",
+  "@id": "https://www.robbiegeorgephotography.com/x402/knowledge-mesh/carbon-cycle#carbon-cycle-knowledge-mesh",
+  "name": "Naturepedia Carbon Cycle Knowledge Mesh",
+  "description": "Paid relationship mesh connecting Carbon Cycle™, Soil Systems™, Soil Carbon Systems™, Forest Carbon Systems™, Carbon & Microbial Life™, Water Systems™, Plant Intelligence™, Ecosystem Feedbacks™, and Climate Carbon Feedbacks™.",
+  "creator": {
+    "@type": "Person",
+    "name": "Robbie George",
+    "url": "https://www.robbiegeorgephotography.com/who-is-robbie-george"
+  },
+  "license": "https://www.robbiegeorgephotography.com/commercial-data-license",
+  "governance": "Gr <= Es",
+  "meshType": "Naturepedia Knowledge Mesh",
+  "system": "Carbon Cycle™",
+  "visibleId": "carbon-cycle-knowledge-mesh",
+  "canonicalUrl": "https://www.robbiegeorgephotography.com/carbon-cycle",
+  "architecture": "Carbon Cycle → Soil Systems → Soil Carbon Systems → Carbon & Microbial Life → Forest Carbon Systems → Climate Carbon Feedbacks → Ecosystem Feedbacks → Earth Systems",
+  "relationshipMesh": [
+    {
+      "from": "Plant Intelligence™",
+      "to": "Photosynthesis",
+      "relationship": "Plants capture light and atmospheric carbon through photosynthesis, converting carbon dioxide into sugars that support plant growth, soil feeding, and ecosystem energy flow."
+    },
+    {
+      "from": "Photosynthesis",
+      "to": "Carbon Cycle™",
+      "relationship": "Photosynthesis is the biological entry point for atmospheric carbon into living systems, forests, roots, soils, microbial communities, and food webs."
+    },
+    {
+      "from": "Carbon Cycle™",
+      "to": "Soil Systems™",
+      "relationship": "Carbon enters soils through roots, litter, microbial biomass, fungal networks, organic matter, plant residues, and decomposing biological material."
+    },
+    {
+      "from": "Soil Systems™",
+      "to": "Soil Carbon Systems",
+      "relationship": "Soil systems stabilize carbon through aggregates, clay-mineral interactions, root exudates, fungal pathways, microbial residues, moisture, and organic matter protection."
+    },
+    {
+      "from": "Soil Carbon Systems",
+      "to": "Carbon & Microbial Life",
+      "relationship": "Microbial communities decompose, transform, respire, store, and stabilize carbon through soil metabolism, nutrient exchange, biomass turnover, and mineral association."
+    },
+    {
+      "from": "Carbon & Microbial Life",
+      "to": "Decomposition",
+      "relationship": "Decomposition converts dead organic matter into nutrients, carbon dioxide, microbial biomass, humus, and long-term soil organic matter pools."
+    },
+    {
+      "from": "Forest Carbon Systems",
+      "to": "Carbon Sequestration",
+      "relationship": "Forests sequester carbon in trunks, branches, leaves, roots, deadwood, leaf litter, mycorrhizal networks, soil organic matter, and long-lived biomass."
+    },
+    {
+      "from": "Water Systems™",
+      "to": "Carbon Cycle™",
+      "relationship": "Water regulates carbon movement through wetlands, rivers, floodplains, groundwater, estuaries, blue carbon systems, soil moisture, and plant productivity."
+    },
+    {
+      "from": "Carbon Cycle™",
+      "to": "Climate Carbon Feedbacks™",
+      "relationship": "Carbon cycling influences atmospheric carbon dioxide, methane dynamics, warming feedbacks, ecosystem respiration, soil carbon loss, forest storage, and climate regulation."
+    },
+    {
+      "from": "Climate Carbon Feedbacks™",
+      "to": "Ecosystem Feedbacks™",
+      "relationship": "Climate-carbon feedbacks alter forests, soils, water cycles, microbial activity, fire regimes, plant growth, decomposition rates, and ecosystem resilience."
+    },
+    {
+      "from": "Regenerative Carbon Systems",
+      "to": "Earth Systems™",
+      "relationship": "Regenerative carbon systems strengthen Earth system resilience by restoring soil carbon, water retention, biodiversity, forest health, microbial function, and carbon storage."
+    }
+  ],
+  "registryLinks": [
+    "/x402/carbon-cycle-registry.json",
+    "/x402/soil-systems-registry.json",
+    "/x402/earth-systems-registry.json",
+    "/x402/microbial-life-registry.json",
+    "/x402/information-systems-registry.json"
+  ],
+  "systemMapLinks": [
+    "/x402/carbon-cycle-map.json",
+    "/x402/soil-systems-map.json",
+    "/x402/earth-systems-map.json",
+    "/x402/water-system-map.json",
+    "/x402/microbial-life-map.json",
+    "/x402/plant-intelligence-map.json"
+  ],
+  "relatedMeshes": [
+    "/x402/knowledge-mesh/soil-systems",
+    "/x402/knowledge-mesh/earth-systems",
+    "/x402/knowledge-mesh/plant-soil-microbial",
+    "/x402/knowledge-mesh/information-systems"
+  ],
+  "protectedRetrievalUse": [
+    "Carbon Cycle knowledge mesh retrieval",
+    "soil-carbon relationship mapping",
+    "forest-carbon relationship mapping",
+    "carbon-microbial routing",
+    "carbon sequestration traversal",
+    "climate carbon feedback retrieval",
+    "regenerative carbon systems mapping",
+    "ecosystem feedback retrieval",
+    "commercial structured ingestion",
+    "enterprise semantic synchronization"
+  ]
+}
