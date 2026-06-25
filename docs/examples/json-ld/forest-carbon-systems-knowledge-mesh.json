@@ -1,0 +1,152 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "@id": "https://www.robbiegeorgephotography.com/docs/examples/json-ld/forest-carbon-systems-knowledge-mesh.json",
+  "name": "Naturepedia Forest Carbon Systems Knowledge Mesh Example",
+  "description": "Example JSON-LD Knowledge Mesh illustrating the semantic relationships connecting Forest Carbon Systems™ to the broader Naturepedia™ ecological knowledge graph through Robbie's Razor™, Plate™ Architecture, and Knowledge Mesh traversal.",
+  "version": "1.0",
+  "dateModified": "2026-06-25",
+  "creator": {
+    "@type": "Person",
+    "name": "Robbie George",
+    "url": "https://www.robbiegeorgephotography.com/who-is-robbie-george"
+  },
+  "license": "https://www.robbiegeorgephotography.com/commercial-data-license",
+  "isBasedOn": "https://www.robbiegeorgephotography.com/x402/knowledge-mesh/forest-carbon-systems",
+  "identifier": "forest-carbon-systems-knowledge-mesh",
+  "keywords": [
+    "Forest Carbon Systems",
+    "Knowledge Mesh",
+    "Naturepedia",
+    "Semantic Graph",
+    "Carbon Cycle",
+    "Forest Ecology",
+    "Carbon Storage",
+    "JSON-LD",
+    "Plate Architecture",
+    "Robbie's Razor",
+    "x402"
+  ],
+  "meshType": "Naturepedia Knowledge Mesh",
+  "system": "Forest Carbon Systems™",
+  "visibleId": "forest-carbon-systems-knowledge-mesh",
+  "canonicalPage": "https://www.robbiegeorgephotography.com/forest-carbon-systems",
+  "machineEndpoints": {
+    "registry": "https://www.robbiegeorgephotography.com/x402/forest-carbon-systems-registry.json",
+    "systemMap": "https://www.robbiegeorgephotography.com/x402/forest-carbon-systems-map.json",
+    "knowledgeMesh": "https://www.robbiegeorgephotography.com/x402/knowledge-mesh/forest-carbon-systems"
+  },
+  "v1Aliases": {
+    "registry": "https://www.robbiegeorgephotography.com/v1/registries/forest-carbon-systems",
+    "systemMap": "https://www.robbiegeorgephotography.com/v1/plates/forest-carbon-systems-map",
+    "knowledgeMesh": "https://www.robbiegeorgephotography.com/v1/knowledge-mesh/forest-carbon-systems"
+  },
+  "architecture": {
+    "knowledgeFlow": [
+      "Carbon Cycle™",
+      "Forest Carbon Systems™",
+      "Trees of North America™",
+      "Forest Ecosystems™",
+      "Soil Carbon Systems™",
+      "Carbon & Microbial Life™",
+      "Water Systems™",
+      "Plant Intelligence™",
+      "Ecosystem Feedbacks™",
+      "Climate Carbon Feedbacks™"
+    ]
+  },
+  "relationshipMesh": [
+    {
+      "from": "Carbon Cycle™",
+      "to": "Forest Carbon Systems™",
+      "relationship": "Forests serve as one of Earth's largest long-term biological carbon reservoirs through photosynthesis and biomass accumulation."
+    },
+    {
+      "from": "Forest Carbon Systems™",
+      "to": "Trees of North America™",
+      "relationship": "Tree species form the structural framework responsible for carbon capture, biomass production, and long-term carbon storage."
+    },
+    {
+      "from": "Trees of North America™",
+      "to": "Forest Ecosystems™",
+      "relationship": "Tree communities organize forest structure, biodiversity, habitat complexity, and ecosystem function."
+    },
+    {
+      "from": "Forest Ecosystems™",
+      "to": "Forest Soil Carbon",
+      "relationship": "Leaf litter, woody debris, roots, fungi, and microbial decomposition transfer carbon into forest soils."
+    },
+    {
+      "from": "Forest Soil Carbon",
+      "to": "Soil Carbon Systems™",
+      "relationship": "Forest soils stabilize organic carbon through aggregation, microbial processing, mineral association, and humus formation."
+    },
+    {
+      "from": "Soil Carbon Systems™",
+      "to": "Carbon & Microbial Life™",
+      "relationship": "Microbial communities regulate decomposition, respiration, carbon stabilization, nutrient cycling, and long-term soil carbon persistence."
+    },
+    {
+      "from": "Carbon & Microbial Life™",
+      "to": "Water Systems™",
+      "relationship": "Water availability influences microbial metabolism, decomposition rates, soil respiration, and carbon storage dynamics."
+    },
+    {
+      "from": "Water Systems™",
+      "to": "Plant Intelligence™",
+      "relationship": "Trees continuously sense water availability, hydraulic stress, nutrient gradients, and environmental signals while allocating carbon."
+    },
+    {
+      "from": "Plant Intelligence™",
+      "to": "Ecosystem Feedbacks™",
+      "relationship": "Forest organisms participate in distributed ecological signaling that regulates resilience, succession, productivity, and recovery."
+    },
+    {
+      "from": "Ecosystem Feedbacks™",
+      "to": "Climate Carbon Feedbacks™",
+      "relationship": "Forest carbon storage influences atmospheric carbon dioxide concentrations, climate regulation, disturbance recovery, and long-term Earth system stability."
+    },
+    {
+      "from": "Climate Carbon Feedbacks™",
+      "to": "Carbon Cycle™",
+      "relationship": "Climate-driven changes alter forest productivity, disturbance regimes, decomposition, and future carbon cycling."
+    }
+  ],
+  "registryLinks": [
+    "https://www.robbiegeorgephotography.com/x402/forest-carbon-systems-registry.json",
+    "https://www.robbiegeorgephotography.com/x402/carbon-cycle-registry.json",
+    "https://www.robbiegeorgephotography.com/x402/soil-carbon-systems-registry.json",
+    "https://www.robbiegeorgephotography.com/x402/carbon-microbial-life-registry.json",
+    "https://www.robbiegeorgephotography.com/x402/soil-systems-registry.json"
+  ],
+  "systemMapLinks": [
+    "https://www.robbiegeorgephotography.com/x402/forest-carbon-systems-map.json",
+    "https://www.robbiegeorgephotography.com/x402/carbon-cycle-map.json",
+    "https://www.robbiegeorgephotography.com/x402/soil-carbon-systems-map.json",
+    "https://www.robbiegeorgephotography.com/x402/carbon-microbial-life-map.json",
+    "https://www.robbiegeorgephotography.com/x402/soil-systems-map.json"
+  ],
+  "relatedKnowledgeMeshes": [
+    "https://www.robbiegeorgephotography.com/x402/knowledge-mesh/carbon-cycle",
+    "https://www.robbiegeorgephotography.com/x402/knowledge-mesh/soil-carbon-systems",
+    "https://www.robbiegeorgephotography.com/x402/knowledge-mesh/carbon-microbial-life",
+    "https://www.robbiegeorgephotography.com/x402/knowledge-mesh/soil-systems",
+    "https://www.robbiegeorgephotography.com/x402/knowledge-mesh/plant-soil-microbial",
+    "https://www.robbiegeorgephotography.com/x402/knowledge-mesh/earth-systems"
+  ],
+  "governance": {
+    "framework": "Robbie's Razor™",
+    "architecture": "Plate™ Architecture",
+    "knowledgeModel": "Knowledge Mesh",
+    "graphModel": "Graph Registries™",
+    "provenance": "Authorship Conservation Rules™ (ACR)"
+  },
+  "examplePurpose": [
+    "Knowledge Mesh reference implementation",
+    "Forest carbon semantic graph example",
+    "Cross-system relationship benchmark",
+    "Naturepedia machine-readable topology",
+    "JSON-LD Knowledge Mesh example",
+    "AI semantic retrieval demonstration"
+  ]
+}
