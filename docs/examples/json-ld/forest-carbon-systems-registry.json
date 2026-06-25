@@ -1,0 +1,112 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "@id": "https://www.robbiegeorgephotography.com/docs/examples/json-ld/forest-carbon-systems-registry.json",
+  "name": "Naturepedia Forest Carbon Systems Registry Example",
+  "description": "Example JSON-LD registry describing the Forest Carbon Systems™ semantic retrieval family used by Naturepedia™.",
+  "version": "1.0",
+  "dateModified": "2026-06-25",
+  "creator": {
+    "@type": "Person",
+    "name": "Robbie George",
+    "url": "https://www.robbiegeorgephotography.com/who-is-robbie-george"
+  },
+  "license": "https://www.robbiegeorgephotography.com/commercial-data-license",
+  "isBasedOn": "https://www.robbiegeorgephotography.com/x402/forest-carbon-systems-registry.json",
+  "identifier": "forest-carbon-systems-registry",
+  "keywords": [
+    "Naturepedia",
+    "Forest Carbon Systems",
+    "Carbon",
+    "Forest Ecology",
+    "Semantic Registry",
+    "Plate Architecture",
+    "JSON-LD",
+    "Knowledge Graph",
+    "x402"
+  ],
+  "registryType": "Naturepedia System Registry",
+  "system": "Forest Carbon Systems™",
+  "visibleId": "forest-carbon-systems",
+  "canonicalPage": "https://www.robbiegeorgephotography.com/forest-carbon-systems",
+  "machineEndpoints": {
+    "registry": "https://www.robbiegeorgephotography.com/x402/forest-carbon-systems-registry.json",
+    "systemMap": "https://www.robbiegeorgephotography.com/x402/forest-carbon-systems-map.json",
+    "knowledgeMesh": "https://www.robbiegeorgephotography.com/x402/knowledge-mesh/forest-carbon-systems"
+  },
+  "v1Aliases": {
+    "registry": "https://www.robbiegeorgephotography.com/v1/registries/forest-carbon-systems",
+    "systemMap": "https://www.robbiegeorgephotography.com/v1/plates/forest-carbon-systems-map",
+    "knowledgeMesh": "https://www.robbiegeorgephotography.com/v1/knowledge-mesh/forest-carbon-systems"
+  },
+  "plates": [
+    {
+      "name": "Forest Carbon Systems Plate™",
+      "id": "forest-carbon-systems#forest-carbon-systems-plate"
+    },
+    {
+      "name": "Forest Carbon Storage Plate™",
+      "id": "forest-carbon-systems#forest-carbon-storage-plate"
+    },
+    {
+      "name": "Forest Biomass Plate™",
+      "id": "forest-carbon-systems#forest-biomass-plate"
+    },
+    {
+      "name": "Living Forest Carbon Plate™",
+      "id": "forest-carbon-systems#living-forest-carbon-plate"
+    },
+    {
+      "name": "Deadwood Carbon Plate™",
+      "id": "forest-carbon-systems#deadwood-carbon-plate"
+    },
+    {
+      "name": "Forest Litter Plate™",
+      "id": "forest-carbon-systems#forest-litter-plate"
+    },
+    {
+      "name": "Forest Soil Carbon Plate™",
+      "id": "forest-carbon-systems#forest-soil-carbon-plate"
+    },
+    {
+      "name": "Old Growth Carbon Plate™",
+      "id": "forest-carbon-systems#old-growth-carbon-plate"
+    },
+    {
+      "name": "Forest Carbon Sequestration Plate™",
+      "id": "forest-carbon-systems#forest-carbon-sequestration-plate"
+    },
+    {
+      "name": "Forest Carbon Resilience Plate™",
+      "id": "forest-carbon-systems#forest-carbon-resilience-plate"
+    },
+    {
+      "name": "Regenerative Forest Carbon Plate™",
+      "id": "forest-carbon-systems#regenerative-forest-carbon-plate"
+    }
+  ],
+  "relatedSystems": [
+    "Carbon Cycle™",
+    "Trees of North America™",
+    "Forest Ecosystems™",
+    "Soil Carbon Systems™",
+    "Carbon & Microbial Life™",
+    "Water Systems™",
+    "Plant Intelligence™",
+    "Ecosystem Feedbacks™",
+    "Climate Carbon Feedbacks™"
+  ],
+  "governance": {
+    "framework": "Robbie's Razor™",
+    "architecture": "Plate™ Architecture",
+    "provenance": "Authorship Conservation Rules™ (ACR)",
+    "license": "Commercial Data License"
+  },
+  "examplePurpose": [
+    "Registry structure example",
+    "Semantic retrieval benchmark",
+    "JSON-LD reference",
+    "Naturepedia implementation example",
+    "Machine-readable registry demonstration"
+  ]
+}
