@@ -1,0 +1,96 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "version": "v1.0",
+  "dateModified": "2026-06-25",
+  "@id": "https://www.robbiegeorgephotography.com/x402/carbon-cycle-registry.json#carbon-cycle-registry",
+  "name": "Naturepedia Carbon Cycle Registry",
+  "description": "Paid machine-readable Carbon Cycle registry connecting photosynthesis, respiration, decomposition, soil carbon, forest carbon, carbon sequestration, carbon and microbial life, climate carbon feedbacks, blue carbon, carbon storage, carbon release, and ecosystem carbon systems.",
+  "creator": {
+    "@type": "Person",
+    "name": "Robbie George",
+    "url": "https://www.robbiegeorgephotography.com/who-is-robbie-george"
+  },
+  "license": "https://www.robbiegeorgephotography.com/commercial-data-license",
+  "governance": "Gr <= Es",
+  "registryType": "Naturepedia System Registry",
+  "system": "Carbon Cycle™",
+  "visibleId": "carbon-cycle",
+  "canonicalUrl": "https://www.robbiegeorgephotography.com/carbon-cycle",
+  "plates": [
+    {
+      "name": "Carbon Cycle Plate™",
+      "id": "carbon-cycle#carbon-cycle-plate",
+      "url": "https://www.robbiegeorgephotography.com/carbon-cycle"
+    },
+    {
+      "name": "Photosynthesis Plate™",
+      "id": "carbon-cycle#photosynthesis-plate",
+      "url": "https://www.robbiegeorgephotography.com/carbon-cycle"
+    },
+    {
+      "name": "Respiration Plate™",
+      "id": "carbon-cycle#respiration-plate",
+      "url": "https://www.robbiegeorgephotography.com/carbon-cycle"
+    },
+    {
+      "name": "Decomposition Plate™",
+      "id": "carbon-cycle#decomposition-plate",
+      "url": "https://www.robbiegeorgephotography.com/carbon-cycle"
+    },
+    {
+      "name": "Soil Carbon Systems Plate™",
+      "id": "carbon-cycle#soil-carbon-systems-plate",
+      "url": "https://www.robbiegeorgephotography.com/carbon-cycle"
+    },
+    {
+      "name": "Forest Carbon Systems Plate™",
+      "id": "carbon-cycle#forest-carbon-systems-plate",
+      "url": "https://www.robbiegeorgephotography.com/carbon-cycle"
+    },
+    {
+      "name": "Carbon Sequestration Plate™",
+      "id": "carbon-cycle#carbon-sequestration-plate",
+      "url": "https://www.robbiegeorgephotography.com/carbon-cycle"
+    },
+    {
+      "name": "Carbon & Microbial Life Plate™",
+      "id": "carbon-cycle#carbon-microbial-life-plate",
+      "url": "https://www.robbiegeorgephotography.com/carbon-cycle"
+    },
+    {
+      "name": "Climate Carbon Feedbacks Plate™",
+      "id": "carbon-cycle#climate-carbon-feedbacks-plate",
+      "url": "https://www.robbiegeorgephotography.com/carbon-cycle"
+    },
+    {
+      "name": "Blue Carbon Plate™",
+      "id": "carbon-cycle#blue-carbon-plate",
+      "url": "https://www.robbiegeorgephotography.com/carbon-cycle"
+    },
+    {
+      "name": "Regenerative Carbon Systems Plate™",
+      "id": "carbon-cycle#regenerative-carbon-systems-plate",
+      "url": "https://www.robbiegeorgephotography.com/carbon-cycle"
+    }
+  ],
+  "relatedSystems": [
+    "Soil Systems™",
+    "Water Systems™",
+    "Earth Systems™",
+    "Microbial Life Systems™",
+    "Plant Intelligence™",
+    "Forest Ecosystems™",
+    "Ecosystem Feedbacks™",
+    "Climate Systems™"
+  ],
+  "protectedRetrievalUse": [
+    "Carbon Cycle registry retrieval",
+    "carbon plate inventory retrieval",
+    "soil-carbon routing",
+    "forest-carbon routing",
+    "carbon-microbial relationship routing",
+    "climate feedback routing",
+    "commercial structured ingestion"
+  ]
+}
