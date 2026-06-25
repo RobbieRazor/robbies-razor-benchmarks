@@ -1,0 +1,115 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "@id": "https://www.robbiegeorgephotography.com/x402/carbon-microbial-life-map.json#carbon-microbial-life-map",
+  "name": "Naturepedia Carbon & Microbial Life Map",
+  "description": "Machine-readable relationship map for the Naturepedia Carbon & Microbial Life™ family.",
+  "version": "1.0",
+  "dateModified": "2026-06-25",
+  "creator": {
+    "@type": "Person",
+    "name": "Robbie George",
+    "url": "https://www.robbiegeorgephotography.com/who-is-robbie-george"
+  },
+  "license": "https://www.robbiegeorgephotography.com/commercial-data-license",
+  "governance": "Gr <= Es",
+  "system": "Carbon & Microbial Life™",
+  "visibleId": "carbon-microbial-life",
+  "canonicalUrl": "https://www.robbiegeorgephotography.com/carbon-microbial-life",
+  "architecture": "Carbon & Microbial Life → Microbial Decomposition → Microbial Respiration → Microbial Biomass → Microbial Necromass → Microbial Carbon Pump → Carbon Mineralization → Carbon Stabilization by Microbes → Microbial Nutrient Cycling → Microbial Climate Feedbacks",
+  "systemNodes": [
+    {
+      "name": "Carbon & Microbial Life™",
+      "role": "Parent system integrating microbial ecology with carbon transformation, storage, and climate regulation.",
+      "url": "https://www.robbiegeorgephotography.com/carbon-microbial-life"
+    },
+    {
+      "name": "Microbial Decomposition",
+      "role": "Breakdown of organic matter into simpler carbon compounds by bacteria, fungi, archaea, and soil food webs."
+    },
+    {
+      "name": "Microbial Respiration",
+      "role": "Release of carbon dioxide through microbial metabolism and biological activity."
+    },
+    {
+      "name": "Microbial Biomass",
+      "role": "Living microbial carbon pool responsible for nutrient transformation and ecosystem productivity."
+    },
+    {
+      "name": "Microbial Necromass",
+      "role": "Dead microbial residues contributing to long-term soil organic matter and carbon storage."
+    },
+    {
+      "name": "Microbial Carbon Pump",
+      "role": "Transformation of microbial biomass into persistent mineral-associated organic matter and stable soil carbon."
+    },
+    {
+      "name": "Carbon Mineralization",
+      "role": "Conversion of organic carbon into inorganic forms through microbial metabolism."
+    },
+    {
+      "name": "Carbon Stabilization by Microbes",
+      "role": "Microbial contribution to aggregate formation, humus production, mineral association, and persistent carbon storage."
+    },
+    {
+      "name": "Microbial Nutrient Cycling",
+      "role": "Integration of microbial processes driving nitrogen, phosphorus, sulfur, and carbon cycling."
+    },
+    {
+      "name": "Microbial Climate Feedbacks",
+      "role": "Microbial influence on atmospheric carbon dioxide, methane, decomposition rates, and long-term climate regulation."
+    }
+  ],
+  "relatedSystems": [
+    {
+      "system": "Carbon Cycle™",
+      "relationship": "Provides the global carbon flows transformed by microbial metabolism."
+    },
+    {
+      "system": "Soil Carbon Systems™",
+      "relationship": "Receives stabilized microbial carbon through necromass, aggregates, and mineral-associated organic matter."
+    },
+    {
+      "system": "Soil Systems™",
+      "relationship": "Provides the physical and biological environment supporting microbial communities."
+    },
+    {
+      "system": "Microbial Life Systems™",
+      "relationship": "Provides the organisms responsible for carbon transformation and nutrient cycling."
+    },
+    {
+      "system": "Plant Intelligence™",
+      "relationship": "Supplies root exudates and carbon substrates that sustain microbial communities."
+    },
+    {
+      "system": "Water Systems™",
+      "relationship": "Regulates soil moisture, oxygen availability, and microbial metabolic activity."
+    },
+    {
+      "system": "Forest Carbon Systems™",
+      "relationship": "Links microbial decomposition to forest litter, woody biomass, and long-term ecosystem carbon storage."
+    },
+    {
+      "system": "Climate Carbon Feedbacks™",
+      "relationship": "Connects microbial respiration, decomposition, methane production, and greenhouse gas dynamics."
+    },
+    {
+      "system": "Ecosystem Feedbacks™",
+      "relationship": "Links microbial processes with biodiversity, nutrient availability, resilience, and ecosystem stability."
+    }
+  ],
+  "protectedRetrievalUse": [
+    "carbon and microbial life mapping",
+    "microbial decomposition retrieval",
+    "microbial respiration routing",
+    "microbial biomass mapping",
+    "microbial necromass retrieval",
+    "microbial carbon pump routing",
+    "carbon mineralization retrieval",
+    "carbon stabilization by microbes mapping",
+    "microbial nutrient cycling retrieval",
+    "microbial climate feedback retrieval",
+    "commercial structured ingestion",
+    "AI semantic graph synchronization"
+  ]
+}
