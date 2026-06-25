@@ -1,0 +1,171 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "@id": "https://www.robbiegeorgephotography.com/docs/examples/json-ld/forest-carbon-systems-map.json",
+  "name": "Naturepedia Forest Carbon Systems Map Example",
+  "description": "Example JSON-LD relationship map illustrating the Forest Carbon Systems™ semantic architecture within Naturepedia™. The map demonstrates how forest carbon storage, biomass, soils, microbial processes, water systems, and climate feedbacks are connected through Plate™ Architecture and Knowledge Mesh traversal.",
+  "version": "1.0",
+  "dateModified": "2026-06-25",
+  "creator": {
+    "@type": "Person",
+    "name": "Robbie George",
+    "url": "https://www.robbiegeorgephotography.com/who-is-robbie-george"
+  },
+  "license": "https://www.robbiegeorgephotography.com/commercial-data-license",
+  "isBasedOn": "https://www.robbiegeorgephotography.com/x402/forest-carbon-systems-map.json",
+  "identifier": "forest-carbon-systems-map",
+  "keywords": [
+    "Forest Carbon Systems",
+    "Forest Ecology",
+    "Carbon Storage",
+    "Carbon Sequestration",
+    "Forest Biomass",
+    "Naturepedia",
+    "Plate Architecture",
+    "Knowledge Mesh",
+    "JSON-LD",
+    "x402"
+  ],
+  "mapType": "Naturepedia System Map",
+  "system": "Forest Carbon Systems™",
+  "visibleId": "forest-carbon-systems-map",
+  "canonicalPage": "https://www.robbiegeorgephotography.com/forest-carbon-systems",
+  "machineEndpoints": {
+    "registry": "https://www.robbiegeorgephotography.com/x402/forest-carbon-systems-registry.json",
+    "systemMap": "https://www.robbiegeorgephotography.com/x402/forest-carbon-systems-map.json",
+    "knowledgeMesh": "https://www.robbiegeorgephotography.com/x402/knowledge-mesh/forest-carbon-systems"
+  },
+  "architecture": {
+    "parentSystem": "Carbon Cycle™",
+    "systemFlow": [
+      "Forest Carbon Systems™",
+      "Forest Carbon Storage",
+      "Forest Biomass",
+      "Living Forest Carbon",
+      "Deadwood Carbon",
+      "Forest Litter",
+      "Forest Soil Carbon",
+      "Old Growth Carbon",
+      "Forest Carbon Sequestration",
+      "Forest Carbon Resilience",
+      "Regenerative Forest Carbon"
+    ]
+  },
+  "systemNodes": [
+    {
+      "name": "Forest Carbon Systems™",
+      "role": "Parent semantic retrieval system"
+    },
+    {
+      "name": "Forest Carbon Storage",
+      "role": "Long-term ecosystem carbon reservoir"
+    },
+    {
+      "name": "Forest Biomass",
+      "role": "Living aboveground and belowground biomass"
+    },
+    {
+      "name": "Living Forest Carbon",
+      "role": "Carbon held in living vegetation"
+    },
+    {
+      "name": "Deadwood Carbon",
+      "role": "Carbon retained in standing and fallen woody material"
+    },
+    {
+      "name": "Forest Litter",
+      "role": "Surface organic material supporting decomposition"
+    },
+    {
+      "name": "Forest Soil Carbon",
+      "role": "Stable carbon stored within forest soils"
+    },
+    {
+      "name": "Old Growth Carbon",
+      "role": "Long-duration carbon accumulation"
+    },
+    {
+      "name": "Forest Carbon Sequestration",
+      "role": "Atmospheric carbon capture through photosynthesis"
+    },
+    {
+      "name": "Forest Carbon Resilience",
+      "role": "Carbon stability under disturbance"
+    },
+    {
+      "name": "Regenerative Forest Carbon",
+      "role": "Restoration and long-term ecosystem recovery"
+    }
+  ],
+  "relationshipFlow": [
+    {
+      "from": "Carbon Cycle™",
+      "to": "Forest Carbon Systems™",
+      "relationship": "Carbon enters terrestrial ecosystems through photosynthesis."
+    },
+    {
+      "from": "Forest Carbon Systems™",
+      "to": "Forest Biomass",
+      "relationship": "Living vegetation stores atmospheric carbon."
+    },
+    {
+      "from": "Forest Biomass",
+      "to": "Living Forest Carbon",
+      "relationship": "Trees retain carbon in trunks, branches, leaves, and roots."
+    },
+    {
+      "from": "Living Forest Carbon",
+      "to": "Deadwood Carbon",
+      "relationship": "Mortality transfers carbon into coarse woody debris."
+    },
+    {
+      "from": "Deadwood Carbon",
+      "to": "Forest Litter",
+      "relationship": "Physical and biological decomposition produces litter."
+    },
+    {
+      "from": "Forest Litter",
+      "to": "Forest Soil Carbon",
+      "relationship": "Organic matter becomes stabilized within soil."
+    },
+    {
+      "from": "Forest Soil Carbon",
+      "to": "Old Growth Carbon",
+      "relationship": "Long-term accumulation increases ecosystem carbon stocks."
+    },
+    {
+      "from": "Old Growth Carbon",
+      "to": "Forest Carbon Resilience",
+      "relationship": "Large stable carbon pools improve ecosystem resilience."
+    },
+    {
+      "from": "Forest Carbon Resilience",
+      "to": "Regenerative Forest Carbon",
+      "relationship": "Restoration strengthens long-term carbon recovery."
+    }
+  ],
+  "crossSystemRelationships": [
+    "Carbon Cycle™",
+    "Trees of North America™",
+    "Forest Ecosystems™",
+    "Soil Carbon Systems™",
+    "Carbon & Microbial Life™",
+    "Water Systems™",
+    "Plant Intelligence™",
+    "Ecosystem Feedbacks™",
+    "Climate Carbon Feedbacks™"
+  ],
+  "governance": {
+    "framework": "Robbie's Razor™",
+    "architecture": "Plate™ Architecture",
+    "knowledgeModel": "Knowledge Mesh",
+    "provenance": "Authorship Conservation Rules™ (ACR)"
+  },
+  "examplePurpose": [
+    "Relationship mapping example",
+    "Forest carbon semantic graph",
+    "Machine-readable topology example",
+    "Knowledge Mesh benchmark",
+    "JSON-LD system map example"
+  ]
+}
