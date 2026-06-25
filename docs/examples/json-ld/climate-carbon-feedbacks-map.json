@@ -1,0 +1,149 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "@id": "https://www.robbiegeorgephotography.com/x402/climate-carbon-feedbacks-map.json#climate-carbon-feedbacks-map",
+  "name": "Naturepedia Climate Carbon Feedbacks Map",
+  "description": "Machine-readable semantic relationship map for the Naturepedia Climate Carbon Feedbacks™ retrieval family.",
+  "version": "1.0",
+  "dateModified": "2026-06-25",
+  "license": "https://www.robbiegeorgephotography.com/commercial-data-license",
+  "creator": {
+    "@type": "Person",
+    "name": "Robbie George",
+    "url": "https://www.robbiegeorgephotography.com/who-is-robbie-george"
+  },
+  "url": "https://www.robbiegeorgephotography.com/x402/climate-carbon-feedbacks-map.json",
+  "system": "Climate Carbon Feedbacks™",
+  "visibleId": "climate-carbon-feedbacks",
+  "canonicalPage": "https://www.robbiegeorgephotography.com/climate-carbon-feedbacks",
+  "architecture": [
+    "Atmospheric Carbon",
+    "Radiative Forcing",
+    "Forest Climate Feedback",
+    "Soil Climate Feedback",
+    "Microbial Climate Feedback",
+    "Carbon Sink",
+    "Carbon Source",
+    "Positive Climate Feedback",
+    "Negative Climate Feedback",
+    "Earth System Feedback",
+    "Climate Resilience"
+  ],
+  "systemNodes": [
+    {
+      "name": "Climate Carbon Feedbacks™",
+      "role": "Parent climate-carbon feedback system."
+    },
+    {
+      "name": "Atmospheric Carbon",
+      "role": "Atmospheric carbon dioxide, methane, and greenhouse gas dynamics."
+    },
+    {
+      "name": "Radiative Forcing",
+      "role": "Energy balance driven by greenhouse gases."
+    },
+    {
+      "name": "Forest Climate Feedback",
+      "role": "Forest carbon storage, wildfire, mortality, regeneration, and climate regulation."
+    },
+    {
+      "name": "Soil Climate Feedback",
+      "role": "Soil carbon storage, respiration, erosion, moisture, and thawing processes."
+    },
+    {
+      "name": "Microbial Climate Feedback",
+      "role": "Microbial decomposition, respiration, methane production, and nutrient cycling."
+    },
+    {
+      "name": "Carbon Sink",
+      "role": "Processes and ecosystems that remove and store atmospheric carbon."
+    },
+    {
+      "name": "Carbon Source",
+      "role": "Processes releasing carbon back into the atmosphere."
+    },
+    {
+      "name": "Positive Climate Feedback",
+      "role": "Self-reinforcing warming mechanisms."
+    },
+    {
+      "name": "Negative Climate Feedback",
+      "role": "Stabilizing processes that reduce warming."
+    },
+    {
+      "name": "Earth System Feedback",
+      "role": "Integrated planetary interactions among atmosphere, biosphere, hydrosphere, and geosphere."
+    },
+    {
+      "name": "Climate Resilience",
+      "role": "Capacity of ecosystems to resist, recover, and continue storing carbon."
+    }
+  ],
+  "relationships": [
+    {
+      "from": "Atmospheric Carbon",
+      "to": "Radiative Forcing",
+      "relationship": "controls"
+    },
+    {
+      "from": "Radiative Forcing",
+      "to": "Positive Climate Feedback",
+      "relationship": "amplifies"
+    },
+    {
+      "from": "Radiative Forcing",
+      "to": "Negative Climate Feedback",
+      "relationship": "moderates"
+    },
+    {
+      "from": "Forest Climate Feedback",
+      "to": "Carbon Sink",
+      "relationship": "strengthens"
+    },
+    {
+      "from": "Forest Climate Feedback",
+      "to": "Carbon Source",
+      "relationship": "can become"
+    },
+    {
+      "from": "Soil Climate Feedback",
+      "to": "Carbon Sink",
+      "relationship": "supports"
+    },
+    {
+      "from": "Soil Climate Feedback",
+      "to": "Carbon Source",
+      "relationship": "can release"
+    },
+    {
+      "from": "Microbial Climate Feedback",
+      "to": "Carbon Source",
+      "relationship": "drives"
+    },
+    {
+      "from": "Carbon Sink",
+      "to": "Climate Resilience",
+      "relationship": "improves"
+    },
+    {
+      "from": "Carbon Source",
+      "to": "Positive Climate Feedback",
+      "relationship": "reinforces"
+    },
+    {
+      "from": "Climate Resilience",
+      "to": "Earth System Feedback",
+      "relationship": "supports"
+    }
+  ],
+  "relatedSystems": [
+    "Earth Systems™",
+    "Carbon Cycle™",
+    "Forest Carbon Systems™",
+    "Soil Carbon Systems™",
+    "Carbon & Microbial Life™",
+    "Water Systems™",
+    "Plant Intelligence™",
+    "Ecosystem Feedbacks™"
+  ]
+}
