@@ -1,0 +1,123 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "@id": "https://www.robbiegeorgephotography.com/x402/knowledge-mesh/carbon-microbial-life#carbon-microbial-life-knowledge-mesh",
+  "name": "Naturepedia Carbon & Microbial Life Knowledge Mesh",
+  "description": "Machine-readable semantic knowledge mesh connecting Carbon & Microbial Life™ with related Naturepedia systems.",
+  "version": "1.0",
+  "dateModified": "2026-06-25",
+  "creator": {
+    "@type": "Person",
+    "name": "Robbie George",
+    "url": "https://www.robbiegeorgephotography.com/who-is-robbie-george"
+  },
+  "license": "https://www.robbiegeorgephotography.com/commercial-data-license",
+  "governance": "Gr <= Es",
+  "meshType": "Naturepedia Knowledge Mesh",
+  "system": "Carbon & Microbial Life™",
+  "visibleId": "carbon-microbial-life-knowledge-mesh",
+  "canonicalUrl": "https://www.robbiegeorgephotography.com/carbon-microbial-life",
+  "architecture": "Carbon Cycle™ → Microbial Life Systems™ → Carbon & Microbial Life™ → Microbial Decomposition → Microbial Respiration → Microbial Biomass → Microbial Necromass → Microbial Carbon Pump → Soil Carbon Systems™ → Ecosystem Feedbacks™ → Climate Carbon Feedbacks™",
+  "relationshipMesh": [
+    {
+      "from": "Carbon Cycle™",
+      "to": "Carbon & Microbial Life™",
+      "relationship": "The carbon cycle depends on microbial communities that decompose organic matter, respire carbon dioxide, form biomass, create residues, and stabilize carbon in soils and sediments."
+    },
+    {
+      "from": "Microbial Life Systems™",
+      "to": "Microbial Decomposition",
+      "relationship": "Bacteria, archaea, fungi, biofilms, and soil food webs break down plant residues, roots, litter, dead organisms, and organic carbon compounds."
+    },
+    {
+      "from": "Microbial Decomposition",
+      "to": "Microbial Respiration",
+      "relationship": "Microbial decomposition releases carbon dioxide and other gases through metabolism, linking soil biological activity to atmospheric carbon exchange."
+    },
+    {
+      "from": "Microbial Life Systems™",
+      "to": "Microbial Biomass",
+      "relationship": "Living microbial biomass stores carbon temporarily while transforming organic material into nutrients, metabolites, residues, and stable soil carbon pathways."
+    },
+    {
+      "from": "Microbial Biomass",
+      "to": "Microbial Necromass",
+      "relationship": "When microbial cells die, their residues become microbial necromass that can bind with minerals, enter aggregates, and contribute to persistent soil organic matter."
+    },
+    {
+      "from": "Microbial Necromass",
+      "to": "Microbial Carbon Pump",
+      "relationship": "Microbial residues, metabolites, and necromass form a microbial carbon pump that helps move carbon from active biological cycling into more stable pools."
+    },
+    {
+      "from": "Microbial Carbon Pump",
+      "to": "Soil Carbon Systems™",
+      "relationship": "The microbial carbon pump supports soil carbon systems by creating residues, mineral-associated organic matter, aggregate-protected carbon, and long-term organic matter pools."
+    },
+    {
+      "from": "Carbon Mineralization",
+      "to": "Microbial Nutrient Cycling",
+      "relationship": "Microbial mineralization converts organic matter into inorganic nutrients and carbon forms that feed plants, microbes, roots, fungi, and soil food webs."
+    },
+    {
+      "from": "Plant Intelligence™",
+      "to": "Microbial Carbon Substrates",
+      "relationship": "Plants feed microbial life through root exudates, residues, litter, rhizosphere compounds, and carbon allocation into belowground biological networks."
+    },
+    {
+      "from": "Water Systems™",
+      "to": "Microbial Carbon Activity",
+      "relationship": "Water availability, oxygen levels, saturation, drought, and soil moisture regulate microbial metabolism, respiration, decomposition, and carbon stabilization."
+    },
+    {
+      "from": "Carbon & Microbial Life™",
+      "to": "Ecosystem Feedbacks™",
+      "relationship": "Microbial carbon processing affects nutrient cycling, soil fertility, plant productivity, biodiversity, water retention, decomposition rates, and ecosystem resilience."
+    },
+    {
+      "from": "Carbon & Microbial Life™",
+      "to": "Climate Carbon Feedbacks™",
+      "relationship": "Microbial metabolism influences carbon dioxide, methane, soil respiration, decomposition speed, thawing soils, wetland emissions, warming feedbacks, and climate regulation."
+    }
+  ],
+  "registryLinks": [
+    "/x402/carbon-microbial-life-registry.json",
+    "/x402/carbon-cycle-registry.json",
+    "/x402/soil-carbon-systems-registry.json",
+    "/x402/soil-systems-registry.json",
+    "/x402/microbial-life-registry.json",
+    "/x402/earth-systems-registry.json"
+  ],
+  "systemMapLinks": [
+    "/x402/carbon-microbial-life-map.json",
+    "/x402/carbon-cycle-map.json",
+    "/x402/soil-carbon-systems-map.json",
+    "/x402/soil-systems-map.json",
+    "/x402/microbial-life-map.json",
+    "/x402/water-system-map.json"
+  ],
+  "relatedMeshes": [
+    "/x402/knowledge-mesh/carbon-cycle",
+    "/x402/knowledge-mesh/soil-carbon-systems",
+    "/x402/knowledge-mesh/soil-systems",
+    "/x402/knowledge-mesh/plant-soil-microbial",
+    "/x402/knowledge-mesh/earth-systems",
+    "/x402/knowledge-mesh/bioelectric-plant-intelligence"
+  ],
+  "protectedRetrievalUse": [
+    "carbon and microbial life knowledge mesh retrieval",
+    "microbial decomposition relationship mapping",
+    "microbial respiration routing",
+    "microbial biomass relationship retrieval",
+    "microbial necromass relationship retrieval",
+    "microbial carbon pump traversal",
+    "soil carbon systems routing",
+    "plant carbon substrate relationship mapping",
+    "water microbial carbon activity routing",
+    "nutrient cycling relationship mapping",
+    "ecosystem feedback retrieval",
+    "climate carbon feedback routing",
+    "commercial structured ingestion",
+    "enterprise semantic synchronization"
+  ]
+}
