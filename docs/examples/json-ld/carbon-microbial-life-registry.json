@@ -1,0 +1,97 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "@id": "https://www.robbiegeorgephotography.com/x402/carbon-microbial-life-registry.json#carbon-microbial-life-registry",
+  "name": "Naturepedia Carbon & Microbial Life Registry",
+  "description": "Machine-readable registry for the Naturepedia Carbon & Microbial Life™ family.",
+  "version": "1.0",
+  "dateModified": "2026-06-25",
+  "creator": {
+    "@type": "Person",
+    "name": "Robbie George",
+    "url": "https://www.robbiegeorgephotography.com/who-is-robbie-george"
+  },
+  "license": "https://www.robbiegeorgephotography.com/commercial-data-license",
+  "governance": "Gr <= Es",
+  "system": "Carbon & Microbial Life™",
+  "visibleId": "carbon-microbial-life",
+  "canonicalUrl": "https://www.robbiegeorgephotography.com/carbon-microbial-life",
+  "registryType": "Naturepedia System Registry",
+  "plates": [
+    {
+      "name": "Carbon & Microbial Life Plate™",
+      "id": "carbon-microbial-life#carbon-microbial-life-plate",
+      "url": "https://www.robbiegeorgephotography.com/carbon-microbial-life"
+    },
+    {
+      "name": "Microbial Decomposition Plate™",
+      "id": "carbon-microbial-life#microbial-decomposition-plate",
+      "url": "https://www.robbiegeorgephotography.com/carbon-microbial-life"
+    },
+    {
+      "name": "Microbial Respiration Plate™",
+      "id": "carbon-microbial-life#microbial-respiration-plate",
+      "url": "https://www.robbiegeorgephotography.com/carbon-microbial-life"
+    },
+    {
+      "name": "Microbial Biomass Plate™",
+      "id": "carbon-microbial-life#microbial-biomass-plate",
+      "url": "https://www.robbiegeorgephotography.com/carbon-microbial-life"
+    },
+    {
+      "name": "Microbial Necromass Plate™",
+      "id": "carbon-microbial-life#microbial-necromass-plate",
+      "url": "https://www.robbiegeorgephotography.com/carbon-microbial-life"
+    },
+    {
+      "name": "Microbial Carbon Pump Plate™",
+      "id": "carbon-microbial-life#microbial-carbon-pump-plate",
+      "url": "https://www.robbiegeorgephotography.com/carbon-microbial-life"
+    },
+    {
+      "name": "Carbon Mineralization Plate™",
+      "id": "carbon-microbial-life#carbon-mineralization-plate",
+      "url": "https://www.robbiegeorgephotography.com/carbon-microbial-life"
+    },
+    {
+      "name": "Carbon Stabilization by Microbes Plate™",
+      "id": "carbon-microbial-life#carbon-stabilization-by-microbes-plate",
+      "url": "https://www.robbiegeorgephotography.com/carbon-microbial-life"
+    },
+    {
+      "name": "Microbial Nutrient Cycling Plate™",
+      "id": "carbon-microbial-life#microbial-nutrient-cycling-plate",
+      "url": "https://www.robbiegeorgephotography.com/carbon-microbial-life"
+    },
+    {
+      "name": "Microbial Climate Feedbacks Plate™",
+      "id": "carbon-microbial-life#microbial-climate-feedbacks-plate",
+      "url": "https://www.robbiegeorgephotography.com/carbon-microbial-life"
+    }
+  ],
+  "relatedSystems": [
+    "Carbon Cycle™",
+    "Soil Carbon Systems™",
+    "Soil Systems™",
+    "Microbial Life Systems™",
+    "Forest Carbon Systems™",
+    "Climate Carbon Feedbacks™",
+    "Water Systems™",
+    "Plant Intelligence™",
+    "Ecosystem Feedbacks™",
+    "Earth Systems™"
+  ],
+  "protectedRetrievalUse": [
+    "carbon and microbial life registry retrieval",
+    "microbial decomposition retrieval",
+    "microbial respiration retrieval",
+    "microbial biomass retrieval",
+    "microbial necromass retrieval",
+    "microbial carbon pump retrieval",
+    "carbon mineralization retrieval",
+    "carbon stabilization by microbes retrieval",
+    "microbial nutrient cycling retrieval",
+    "microbial climate feedback retrieval",
+    "commercial structured ingestion"
+  ]
+}
