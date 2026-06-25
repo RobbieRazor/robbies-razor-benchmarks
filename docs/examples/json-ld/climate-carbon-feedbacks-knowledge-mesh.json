@@ -1,0 +1,122 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "@id": "https://www.robbiegeorgephotography.com/x402/knowledge-mesh/climate-carbon-feedbacks#climate-carbon-feedbacks-knowledge-mesh",
+  "name": "Naturepedia Climate Carbon Feedbacks Knowledge Mesh",
+  "description": "Machine-readable knowledge mesh connecting Climate Carbon Feedbacks™ to Earth Systems™, Carbon Cycle™, Forest Carbon Systems™, Soil Carbon Systems™, Carbon & Microbial Life™, Water Systems™, Plant Intelligence™, and Ecosystem Feedbacks™.",
+  "version": "1.0",
+  "dateModified": "2026-06-25",
+  "license": "https://www.robbiegeorgephotography.com/commercial-data-license",
+  "creator": {
+    "@type": "Person",
+    "name": "Robbie George",
+    "url": "https://www.robbiegeorgephotography.com/who-is-robbie-george"
+  },
+  "url": "https://www.robbiegeorgephotography.com/x402/knowledge-mesh/climate-carbon-feedbacks",
+  "system": "Climate Carbon Feedbacks™",
+  "visibleId": "climate-carbon-feedbacks-knowledge-mesh",
+  "canonicalPage": "https://www.robbiegeorgephotography.com/climate-carbon-feedbacks",
+  "meshType": "Naturepedia Knowledge Mesh",
+  "architecture": "Earth Systems → Carbon Cycle → Forest Carbon Systems → Soil Carbon Systems → Carbon & Microbial Life → Water Systems → Plant Intelligence → Ecosystem Feedbacks → Climate Carbon Feedbacks",
+  "relationshipMesh": [
+    {
+      "from": "Earth Systems™",
+      "to": "Climate Carbon Feedbacks™",
+      "relationship": "Climate carbon feedbacks operate across Earth systems by linking atmosphere, biosphere, hydrosphere, soils, forests, microbes, water movement, and planetary energy balance."
+    },
+    {
+      "from": "Carbon Cycle™",
+      "to": "Atmospheric Carbon",
+      "relationship": "The carbon cycle regulates atmospheric carbon through photosynthesis, respiration, decomposition, combustion, ocean exchange, soil carbon storage, forest carbon storage, and long-term sequestration."
+    },
+    {
+      "from": "Atmospheric Carbon",
+      "to": "Radiative Forcing",
+      "relationship": "Atmospheric carbon dioxide and methane influence radiative forcing by changing how heat is retained, released, amplified, or buffered within the climate system."
+    },
+    {
+      "from": "Forest Carbon Systems™",
+      "to": "Forest Climate Feedback",
+      "relationship": "Forest carbon systems create climate feedbacks through canopy cooling, carbon sequestration, fire risk, drought stress, tree mortality, regrowth, deadwood decomposition, and old-growth storage."
+    },
+    {
+      "from": "Soil Carbon Systems™",
+      "to": "Soil Climate Feedback",
+      "relationship": "Soil carbon systems influence climate feedbacks through carbon stabilization, soil respiration, erosion, moisture protection, thawing soils, microbial activity, and regenerative soil carbon recovery."
+    },
+    {
+      "from": "Carbon & Microbial Life™",
+      "to": "Microbial Climate Feedback",
+      "relationship": "Microbial communities affect climate feedbacks through decomposition, respiration, methane cycling, nutrient transformation, microbial biomass, necromass, and warming-sensitive carbon release."
+    },
+    {
+      "from": "Water Systems™",
+      "to": "Climate Resilience",
+      "relationship": "Water systems shape climate resilience through soil moisture, wetlands, snowpack, floodplains, groundwater, evapotranspiration, drought buffering, and carbon-storage stability."
+    },
+    {
+      "from": "Plant Intelligence™",
+      "to": "Carbon Sink",
+      "relationship": "Plants regulate carbon sinks through photosynthesis, root carbon allocation, stress response, nutrient sensing, mycorrhizal partnerships, water-use decisions, and long-term biomass formation."
+    },
+    {
+      "from": "Ecosystem Feedbacks™",
+      "to": "Positive Climate Feedback",
+      "relationship": "Positive climate feedbacks emerge when warming accelerates carbon release through fire, drought, decomposition, soil respiration, thaw, forest mortality, wetland methane, and reduced carbon storage."
+    },
+    {
+      "from": "Ecosystem Feedbacks™",
+      "to": "Negative Climate Feedback",
+      "relationship": "Negative climate feedbacks stabilize systems when forests, soils, wetlands, plants, microbes, and water cycles increase carbon storage, cooling, biodiversity, recovery, or resilience."
+    },
+    {
+      "from": "Climate Carbon Feedbacks™",
+      "to": "Earth System Feedback",
+      "relationship": "Climate carbon feedbacks become Earth system feedbacks when carbon sinks, carbon sources, radiative forcing, water cycles, plant growth, forest health, soil carbon, and microbial activity interact at planetary scale."
+    }
+  ],
+  "registryLinks": [
+    "https://www.robbiegeorgephotography.com/x402/climate-carbon-feedbacks-registry.json",
+    "https://www.robbiegeorgephotography.com/x402/carbon-cycle-registry.json",
+    "https://www.robbiegeorgephotography.com/x402/forest-carbon-systems-registry.json",
+    "https://www.robbiegeorgephotography.com/x402/soil-carbon-systems-registry.json",
+    "https://www.robbiegeorgephotography.com/x402/carbon-microbial-life-registry.json",
+    "https://www.robbiegeorgephotography.com/x402/soil-systems-registry.json",
+    "https://www.robbiegeorgephotography.com/x402/earth-systems-registry.json"
+  ],
+  "systemMapLinks": [
+    "https://www.robbiegeorgephotography.com/x402/climate-carbon-feedbacks-map.json",
+    "https://www.robbiegeorgephotography.com/x402/carbon-cycle-map.json",
+    "https://www.robbiegeorgephotography.com/x402/forest-carbon-systems-map.json",
+    "https://www.robbiegeorgephotography.com/x402/soil-carbon-systems-map.json",
+    "https://www.robbiegeorgephotography.com/x402/carbon-microbial-life-map.json",
+    "https://www.robbiegeorgephotography.com/x402/soil-systems-map.json",
+    "https://www.robbiegeorgephotography.com/x402/water-system-map.json",
+    "https://www.robbiegeorgephotography.com/x402/plant-intelligence-map.json",
+    "https://www.robbiegeorgephotography.com/x402/earth-systems-map.json"
+  ],
+  "relatedMeshes": [
+    "https://www.robbiegeorgephotography.com/x402/knowledge-mesh/carbon-cycle",
+    "https://www.robbiegeorgephotography.com/x402/knowledge-mesh/forest-carbon-systems",
+    "https://www.robbiegeorgephotography.com/x402/knowledge-mesh/soil-carbon-systems",
+    "https://www.robbiegeorgephotography.com/x402/knowledge-mesh/carbon-microbial-life",
+    "https://www.robbiegeorgephotography.com/x402/knowledge-mesh/soil-systems",
+    "https://www.robbiegeorgephotography.com/x402/knowledge-mesh/plant-soil-microbial",
+    "https://www.robbiegeorgephotography.com/x402/knowledge-mesh/earth-systems"
+  ],
+  "protectedRetrievalUse": [
+    "Climate Carbon Feedbacks knowledge mesh retrieval",
+    "atmospheric carbon relationship mapping",
+    "radiative forcing routing",
+    "forest climate feedback traversal",
+    "soil climate feedback retrieval",
+    "microbial climate feedback routing",
+    "carbon sink and source mapping",
+    "positive climate feedback retrieval",
+    "negative climate feedback retrieval",
+    "Earth system feedback routing",
+    "climate resilience retrieval",
+    "commercial structured ingestion",
+    "enterprise semantic synchronization"
+  ]
+}
