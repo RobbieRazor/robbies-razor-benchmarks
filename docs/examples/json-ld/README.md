@@ -600,20 +600,50 @@ Knowledge Mesh files describe relationship-based Naturepedia retrieval products.
 
 Current Knowledge Mesh examples:
 
-- `earth-systems-knowledge-mesh.json`
-- `information-systems-knowledge-mesh.json`
-- `volcanic-geothermal-hydrothermal-knowledge-mesh.json`
-- `plant-soil-microbial-knowledge-mesh.json`
-- `bioelectric-plant-intelligence-knowledge-mesh.json`
+* `earth-systems-knowledge-mesh.json`
+* `information-systems-knowledge-mesh.json`
+* `volcanic-geothermal-hydrothermal-knowledge-mesh.json`
+* `plant-soil-microbial-knowledge-mesh.json`
+* `bioelectric-plant-intelligence-knowledge-mesh.json`
+* `soil-systems-knowledge-mesh.json`
+
+Current Registry examples:
+
+```txt
+earth-systems-registry.json
+information-systems-registry.json
+microbial-life-registry.json
+volcanic-systems-registry.json
+geothermal-systems-registry.json
+yellowstone-thermal-registry.json
+hydrothermal-ecosystems-registry.json
+soil-systems-registry.json
+```
+
+Current System Map examples:
+
+```txt
+earth-systems-map.json
+information-systems-map.json
+microbial-life-map.json
+volcanic-systems-map.json
+yellowstone-thermal-map.json
+hydrothermal-map.json
+bioelectric-systems-map.json
+quantum-agriculture-map.json
+plant-intelligence-map.json
+soil-systems-map.json
+```
 
 Production x402 endpoints:
 
-- `/x402/knowledge-mesh/earth-systems`
-- `/x402/knowledge-mesh/information-systems`
-- `/x402/knowledge-mesh/volcanic-geothermal-hydrothermal`
-- `/x402/knowledge-mesh/plant-soil-microbial`
-- `/x402/knowledge-mesh/bioelectric-plant-intelligence`
-
+* `/x402/knowledge-mesh/earth-systems`
+* `/x402/knowledge-mesh/information-systems`
+* `/x402/knowledge-mesh/volcanic-geothermal-hydrothermal`
+* `/x402/knowledge-mesh/plant-soil-microbial`
+* `/x402/knowledge-mesh/bioelectric-plant-intelligence`
+* `/x402/knowledge-mesh/soil-systems`
+  
 Public v1 aliases:
 
 - `/v1/knowledge-mesh/earth-systems`
