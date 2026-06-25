@@ -606,6 +606,19 @@ Current Knowledge Mesh examples:
 * `plant-soil-microbial-knowledge-mesh.json`
 * `bioelectric-plant-intelligence-knowledge-mesh.json`
 * `soil-systems-knowledge-mesh.json`
+* `carbon-cycle-knowledge-mesh.json`
+
+Current Registry examples:
+
+```txt
+carbon-cycle-registry.json
+```
+
+Current System Map examples:
+
+```txt
+carbon-cycle-map.json
+```
 
 Current Registry examples:
 
@@ -643,6 +656,7 @@ Production x402 endpoints:
 * `/x402/knowledge-mesh/plant-soil-microbial`
 * `/x402/knowledge-mesh/bioelectric-plant-intelligence`
 * `/x402/knowledge-mesh/soil-systems`
+* `/x402/knowledge-mesh/carbon-cycle`
   
 Public v1 aliases:
 
@@ -678,6 +692,8 @@ Equivalent public aliases:
 /v1/knowledge-mesh/volcanic-geothermal-hydrothermal
 /v1/knowledge-mesh/plant-soil-microbial
 /v1/knowledge-mesh/bioelectric-plant-intelligence
+/v1/knowledge-mesh/soil-systems
+/v1/knowledge-mesh/carbon-cycle
 ```
 
 Supporting JSON-LD examples:
