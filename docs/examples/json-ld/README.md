@@ -610,6 +610,7 @@ Current Knowledge Mesh examples:
 * `soil-carbon-systems-knowledge-mesh.json`
 * `carbon-microbial-life-knowledge-mesh.json`
 * `forest-carbon-systems-knowledge-mesh.json`
+* `climate-carbon-feedbacks-knowledge-mesh.json`
 
 Current Registry examples:
 
@@ -618,6 +619,7 @@ carbon-cycle-registry.json
 soil-carbon-systems-registry.json
 carbon-microbial-life-registry.json
 forest-carbon-systems-registry.json
+climate-carbon-feedbacks-registry.json
 ```
 
 Current System Map examples:
@@ -660,6 +662,7 @@ carbon-cycle-map.json
 soil-carbon-systems-map.json
 carbon-microbial-life-map.json
 forest-carbon-systems-map.json
+climate-carbon-feedbacks-map.json
 ```
 
 Production x402 endpoints:
@@ -674,6 +677,7 @@ Production x402 endpoints:
 * `/x402/knowledge-mesh/soil-carbon-systems`
 * `/x402/knowledge-mesh/carbon-microbial-life`
 * `/x402/knowledge-mesh/forest-carbon-systems`
+* `/x402/knowledge-mesh/climate-carbon-feedbacks`
 
   
 Public v1 aliases:
@@ -688,6 +692,7 @@ Public v1 aliases:
 - `/v1/knowledge-mesh/soil-carbon-systems`
 - `/v1/knowledge-mesh/carbon-microbial-life`
 - `/v1/knowledge-mesh/forest-carbon-systems`
+- `/v1/knowledge-mesh/climate-carbon-feedbacks`
 
 Naturepedia™ now includes production Knowledge Mesh endpoints that expose cross-system semantic relationships rather than simple inventories or concept maps.
 
@@ -738,6 +743,8 @@ soil-systems-knowledge-mesh.json
 carbon-cycle-knowledge-mesh.json
 soil-carbon-systems-knowledge-mesh.json
 carbon-microbial-life-knowledge-mesh.json
+forest-carbon-systems-knowledge-mesh.json
+climate-carbon-feedbacks-knowledge-mesh.json
 ```
 
 Knowledge Mesh extends beyond inventories and system maps by exposing relationship pathways between Plates™, registries, ecosystems, biological systems, and semantic routing layers.
