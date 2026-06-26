@@ -3588,12 +3588,14 @@
       "url": "https://www.robbiegeorgephotography.com/wildlife-adaptation-survival",
       "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/wildlife-adaptation-survival",
       "plates": [
-        {
+                {
           "name": "Wildlife Adaptation & Survival Plate™",
           "id": "wildlife-adaptation-survival#survival-system-plate",
           "type": "Naturepedia Survival System Plate™"
-        },
-        {
+        }
+      ]
+    },
+    {
       "name": "Birds of Prey Plates",
       "slug": "birds-of-prey",
       "url": "https://www.robbiegeorgephotography.com/birds-of-prey",
@@ -3684,7 +3686,7 @@
         }
       ]
     },
-        {
+    {
       "name": "Robbie George Biography Plates",
       "slug": "robbie-george",
       "url": "https://www.robbiegeorgephotography.com/who-is-robbie-george",
