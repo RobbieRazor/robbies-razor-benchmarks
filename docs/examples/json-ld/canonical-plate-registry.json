@@ -357,7 +357,7 @@
       "name": "Earth Systems Plates",
       "slug": "earth-systems",
       "url": "https://www.robbiegeorgephotography.com/earth-systems",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/registries/earth-systems",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/earth-systems",
       "plates": [
         {
           "name": "Earth Systems Plate™",
@@ -435,7 +435,7 @@
       "name": "Soil Systems Plates",
       "slug": "soil-systems",
       "url": "https://www.robbiegeorgephotography.com/soil-systems",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/registries/soil-systems",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/soil-systems",
       "plates": [
         {
           "name": "Soil Systems Plate™",
@@ -498,7 +498,7 @@
       "name": "Information Systems in Nature Plates",
       "slug": "information-systems-in-nature",
       "url": "https://www.robbiegeorgephotography.com/information-systems-in-nature",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/registries/information-systems",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/information-systems-in-nature",
       "plates": [
         {
           "name": "Information Systems in Nature Plate™",
@@ -556,7 +556,7 @@
       "name": "Bioelectric Systems Plates",
       "slug": "bioelectric-systems",
       "url": "https://www.robbiegeorgephotography.com/bioelectric-systems",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/bioelectric-systems-map",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/bioelectric-systems",
       "plates": [
         {
           "name": "Bioelectric Systems Plate™",
@@ -614,7 +614,7 @@
       "name": "Quantum Agriculture Plates",
       "slug": "quantum-agriculture",
       "url": "https://www.robbiegeorgephotography.com/naturepedia-quantum-agriculture",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/quantum-agriculture-map",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/quantum-agriculture",
       "plates": [
         {
           "name": "Quantum Agriculture Plate™",
@@ -2043,7 +2043,7 @@
       "name": "Plant Intelligence Plates",
       "slug": "plant-intelligence",
       "url": "https://www.robbiegeorgephotography.com/naturepedia-plant-intelligence",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/plant-intelligence-map",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/plant-intelligence",
       "plates": [
         {
           "name": "Plant Intelligence Plate™",
