@@ -905,6 +905,179 @@
         }
       ]
     },
+        {
+      "name": "Wildlife Species Plates",
+      "slug": "wildlife-species",
+      "url": "https://www.robbiegeorgephotography.com/wildlife-species",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/wildlife-species",
+      "plates": [
+        {
+          "name": "Wildlife Species Plate™",
+          "id": "wildlife-species#species-intelligence-system-plate",
+          "type": "Naturepedia Species Intelligence System Plate™"
+        },
+        {
+          "name": "Moose Species Plate™",
+          "id": "moose#species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Gray Wolf Species Plate™",
+          "id": "gray-wolf#species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Red Wolf Species Plate™",
+          "id": "red-wolf#species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Black Bear Species Plate™",
+          "id": "black-bear#species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Grizzly Bear Species Plate™",
+          "id": "grizzly-bear#species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Mountain Lion Species Plate™",
+          "id": "mountain-lion#species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "American Bison Species Plate™",
+          "id": "american-bison#species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Elk Species Plate™",
+          "id": "elk#species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "White-tailed Deer Species Plate™",
+          "id": "white-tailed-deer#species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Mule Deer Species Plate™",
+          "id": "mule-deer#species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Beaver Species Plate™",
+          "id": "beaver#species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Coyote Species Plate™",
+          "id": "coyote#species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Red Fox Species Plate™",
+          "id": "red-fox#species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Bobcat Species Plate™",
+          "id": "bobcat#species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Bighorn Sheep Species Plate™",
+          "id": "bighorn-sheep#species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Mountain Goat Species Plate™",
+          "id": "mountain-goat#species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "River Otter Species Plate™",
+          "id": "river-otter#species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Pronghorn Species Plate™",
+          "id": "pronghorn#species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Fisher Species Plate™",
+          "id": "fisher#species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Badger Species Plate™",
+          "id": "badger#species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Bald Eagle Species Plate™",
+          "id": "bald-eagle#species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Golden Eagle Species Plate™",
+          "id": "golden-eagle#species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Great Horned Owl Species Plate™",
+          "id": "great-horned-owl#species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Red-Tailed Hawk Species Plate™",
+          "id": "red-tailed-hawk#species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Osprey Species Plate™",
+          "id": "osprey#species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Peregrine Falcon Species Plate™",
+          "id": "peregrine-falcon#species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Snowy Owl Species Plate™",
+          "id": "snowy-owl#species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Whooping Crane Species Plate™",
+          "id": "whooping-crane#species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Wood Duck Species Plate™",
+          "id": "wood-duck#species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Tundra Swan Species Plate™",
+          "id": "tundra-swan#species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Atlantic Puffin Species Plate™",
+          "id": "atlantic-puffin#species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Fisher Artist Rendition Plate™",
+          "id": "fisher#artist-rendition-plate",
+          "type": "Naturepedia Artist Rendition Plate™"
+        }
+      ]
+    },
     {
       "name": "Plant Intelligence Plates",
       "slug": "plant-intelligence",
