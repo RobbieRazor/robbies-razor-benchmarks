@@ -809,6 +809,74 @@
         }
       ]
     },
+        {
+      "name": "Maples of North America Plates",
+      "slug": "maples-of-north-america",
+      "url": "https://www.robbiegeorgephotography.com/maples-of-north-america",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/maples-of-north-america",
+      "plates": [
+        {
+          "name": "Maple Identification Plate™",
+          "id": "maples-of-north-america#maple-identification-plate",
+          "type": "Naturepedia Tree Identification Plate™"
+        },
+        {
+          "name": "Sugar Maple Plate™",
+          "id": "maples-of-north-america#sugar-maple-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Red Maple Plate™",
+          "id": "maples-of-north-america#red-maple-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Silver Maple Plate™",
+          "id": "maples-of-north-america#silver-maple-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Bigleaf Maple Plate™",
+          "id": "maples-of-north-america#bigleaf-maple-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Boxelder Plate™",
+          "id": "maples-of-north-america#boxelder-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Maple Autumn Color Plate™",
+          "id": "maples-of-north-america#maple-autumn-color-plate",
+          "type": "Naturepedia Seasonal Ecology Plate™"
+        },
+        {
+          "name": "Maple Wildlife Relationships Plate™",
+          "id": "maples-of-north-america#maple-wildlife-relationships-plate",
+          "type": "Naturepedia Wildlife Relationship Plate™"
+        },
+        {
+          "name": "Maple Seed Dispersal Plate™",
+          "id": "maples-of-north-america#maple-seed-dispersal-plate",
+          "type": "Naturepedia Plant Reproduction Plate™"
+        },
+        {
+          "name": "Maple–Mycelial Network Plate™",
+          "id": "maples-of-north-america#maple-mycelial-network-plate",
+          "type": "Naturepedia Mycorrhizal Ecology Plate™"
+        },
+        {
+          "name": "Maple Bark & Leaf Plate™",
+          "id": "maples-of-north-america#maple-bark-leaf-plate",
+          "type": "Naturepedia Tree Identification Plate™"
+        },
+        {
+          "name": "Maple Forest Artist Rendition Plate™",
+          "id": "maples-of-north-america#maple-forest-artist-rendition-plate",
+          "type": "Naturepedia Artist Rendition Plate™"
+        }
+      ]
+    },
     {
       "name": "Plant Intelligence Plates",
       "slug": "plant-intelligence",
