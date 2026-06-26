@@ -3543,6 +3543,56 @@
           "name": "Wildlife Sign & Tracking Plate™",
           "id": "wildlife-sign-tracking#tracking-system-plate",
           "type": "Naturepedia Behavior System Plate™"
+        },
+        {
+      "name": "Animal Scat Identification Plates",
+      "slug": "animal-scat-identification-guide",
+      "url": "https://www.robbiegeorgephotography.com/animal-scat-identification-guide-north-america",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/animal-scat-identification-guide",
+      "plates": [
+        {
+          "name": "Animal Scat Identification Plate™",
+          "id": "animal-scat-identification-guide#scat-identification-plate",
+          "type": "Naturepedia Field Identification Plate™"
+        }
+      ]
+    },
+    {
+      "name": "Keystone Species & Trophic Cascades Plates",
+      "slug": "keystone-species-trophic-cascades",
+      "url": "https://www.robbiegeorgephotography.com/keystone-species-trophic-cascades",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/keystone-species-trophic-cascades",
+      "plates": [
+        {
+          "name": "Keystone Species & Trophic Cascades Plate™",
+          "id": "keystone-species-trophic-cascades#ecosystem-relationship-plate",
+          "type": "Naturepedia Ecosystem Relationship Plate™"
+        }
+      ]
+    },
+    {
+      "name": "Food Webs & Ecological Relationships Plates",
+      "slug": "food-webs-ecological-relationships",
+      "url": "https://www.robbiegeorgephotography.com/food-webs-ecological-relationships",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/food-webs-ecological-relationships",
+      "plates": [
+        {
+          "name": "Food Webs & Ecological Relationships Plate™",
+          "id": "food-webs-ecological-relationships#energy-flow-system-plate",
+          "type": "Naturepedia Ecological Energy Flow Plate™"
+        }
+      ]
+    },
+    {
+      "name": "Wildlife Adaptation & Survival Plates",
+      "slug": "wildlife-adaptation-survival",
+      "url": "https://www.robbiegeorgephotography.com/wildlife-adaptation-survival",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/wildlife-adaptation-survival",
+      "plates": [
+        {
+          "name": "Wildlife Adaptation & Survival Plate™",
+          "id": "wildlife-adaptation-survival#survival-system-plate",
+          "type": "Naturepedia Survival System Plate™"
         }
       ]
     }
