@@ -746,6 +746,69 @@
         }
       ]
     },
+        {
+      "name": "Oaks of North America Plates",
+      "slug": "oaks-of-north-america",
+      "url": "https://www.robbiegeorgephotography.com/oaks-of-north-america",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/oaks-of-north-america",
+      "plates": [
+        {
+          "name": "Oak Identification Plate™",
+          "id": "oaks-of-north-america#oak-identification-plate",
+          "type": "Naturepedia Tree Identification Plate™"
+        },
+        {
+          "name": "White Oak Plate™",
+          "id": "oaks-of-north-america#white-oak-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Red Oak Plate™",
+          "id": "oaks-of-north-america#red-oak-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Live Oak Plate™",
+          "id": "oaks-of-north-america#live-oak-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Bur Oak Plate™",
+          "id": "oaks-of-north-america#bur-oak-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Oak Wildlife Relationships Plate™",
+          "id": "oaks-of-north-america#oak-wildlife-relationships-plate",
+          "type": "Naturepedia Wildlife Relationship Plate™"
+        },
+        {
+          "name": "Oak Mast & Acorn Ecology Plate™",
+          "id": "oaks-of-north-america#oak-mast-acorn-ecology-plate",
+          "type": "Naturepedia Forest Ecology Plate™"
+        },
+        {
+          "name": "Oak Forest Succession Plate™",
+          "id": "oaks-of-north-america#oak-forest-succession-plate",
+          "type": "Naturepedia Forest Succession Plate™"
+        },
+        {
+          "name": "Oak–Mycelial Network Plate™",
+          "id": "oaks-of-north-america#oak-mycelial-network-plate",
+          "type": "Naturepedia Mycorrhizal Ecology Plate™"
+        },
+        {
+          "name": "Oak Bark & Leaf Plate™",
+          "id": "oaks-of-north-america#oak-bark-leaf-plate",
+          "type": "Naturepedia Tree Identification Plate™"
+        },
+        {
+          "name": "Oak Forest Artist Rendition Plate™",
+          "id": "oaks-of-north-america#oak-forest-artist-rendition-plate",
+          "type": "Naturepedia Artist Rendition Plate™"
+        }
+      ]
+    },
     {
       "name": "Plant Intelligence Plates",
       "slug": "plant-intelligence",
