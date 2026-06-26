@@ -1784,7 +1784,80 @@
       "type": "Naturepedia Earth Systems Layer™"
     }
   ]
-},  
+},
+  {
+  "name": "Geothermal Ecosystems Plates",
+  "slug": "geothermal-ecosystems",
+  "url": "https://www.robbiegeorgephotography.com/geothermal-ecosystems",
+  "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/geothermal-ecosystems",
+  "plates": [
+    {
+      "name": "Geothermal Ecosystems Plate™",
+      "id": "geothermal-ecosystems#geothermal-ecosystems-plate",
+      "type": "Naturepedia Earth Systems Plate™"
+    },
+    {
+      "name": "Geothermal Identification Plate™",
+      "id": "geothermal-ecosystems#geothermal-identification-plate",
+      "type": "Naturepedia Geothermal Identification Plate™"
+    },
+    {
+      "name": "Geothermal Water Systems Plate™",
+      "id": "geothermal-ecosystems#geothermal-water-systems-plate",
+      "type": "Naturepedia Water Systems Plate™"
+    },
+    {
+      "name": "Thermophile Life Plate™",
+      "id": "geothermal-ecosystems#thermophile-life-plate",
+      "type": "Naturepedia Microbial Life Plate™"
+    },
+    {
+      "name": "Extremophile Life Plate™",
+      "id": "geothermal-ecosystems#extremophile-life-plate",
+      "type": "Naturepedia Life at the Limits Plate™"
+    },
+    {
+      "name": "Geothermal Microbial Mats Plate™",
+      "id": "geothermal-ecosystems#geothermal-microbial-mats-plate",
+      "type": "Naturepedia Microbial Ecology Plate™"
+    },
+    {
+      "name": "Geothermal Wildlife Relationships Plate™",
+      "id": "geothermal-ecosystems#geothermal-wildlife-relationships-plate",
+      "type": "Naturepedia Wildlife Relationships Plate™"
+    },
+    {
+      "name": "Geothermal Biodiversity Plate™",
+      "id": "geothermal-ecosystems#geothermal-biodiversity-plate",
+      "type": "Naturepedia Biodiversity Plate™"
+    },
+    {
+      "name": "Geothermal Ecosystem Services Plate™",
+      "id": "geothermal-ecosystems#geothermal-ecosystem-services-plate",
+      "type": "Naturepedia Ecosystem Services Plate™"
+    },
+    {
+      "name": "Hydrothermal Vent Ecosystems Plate™",
+      "id": "geothermal-ecosystems#hydrothermal-vent-ecosystems-plate",
+      "type": "Naturepedia Ocean Earth Systems Plate™"
+    },
+    {
+      "name": "Global Geothermal Regions Plate™",
+      "id": "geothermal-ecosystems#global-geothermal-regions-plate",
+      "type": "Naturepedia Global Earth Systems Plate™"
+    },
+    {
+      "name": "Geothermal Photography Plate™",
+      "id": "geothermal-ecosystems#geothermal-photography-plate",
+      "type": "Naturepedia Photography Plate™"
+    },
+    {
+      "name": "Geothermal Earth Systems™",
+      "id": "geothermal-ecosystems#geothermal-earth-systems",
+      "type": "Naturepedia Earth Systems Layer™"
+    }
+  ]
+},
   {
       "name": "Plant Intelligence Plates",
       "slug": "plant-intelligence",
