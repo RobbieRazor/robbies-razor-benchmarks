@@ -3408,6 +3408,17 @@
           "name": "Resonance Plate™",
           "id": "naturepedia-resonance#resonance-plate",
           "type": "Naturepedia Universal Principle Plate™"
+        },
+        {
+      "name": "Vibration Plates",
+      "slug": "naturepedia-vibration",
+      "url": "https://www.robbiegeorgephotography.com/naturepedia-vibration",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/naturepedia-vibration",
+      "plates": [
+        {
+          "name": "Vibration Plate™",
+          "id": "naturepedia-vibration#vibration-plate",
+          "type": "Naturepedia Universal Principle Plate™"
         }
       ]
     }
