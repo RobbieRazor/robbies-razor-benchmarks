@@ -1859,6 +1859,94 @@
   ]
 },
   {
+  "name": "Microbial Life Systems Plates",
+  "slug": "microbial-life-systems",
+  "url": "https://www.robbiegeorgephotography.com/microbial-life-systems",
+  "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/microbial-life-systems",
+  "plates": [
+    {
+      "name": "Microbial Life Systems Plate™",
+      "id": "microbial-life-systems#microbial-life-systems-plate",
+      "type": "Naturepedia Earth Systems Plate™"
+    },
+    {
+      "name": "Microbial Identification Plate™",
+      "id": "microbial-life-systems#microbial-identification-plate",
+      "type": "Naturepedia Microbial Identification Plate™"
+    },
+    {
+      "name": "Bacteria Plate™",
+      "id": "microbial-life-systems#bacteria-plate",
+      "type": "Naturepedia Bacteria Plate™"
+    },
+    {
+      "name": "Archaea Plate™",
+      "id": "microbial-life-systems#archaea-plate",
+      "type": "Naturepedia Archaea Plate™"
+    },
+    {
+      "name": "Biofilms Plate™",
+      "id": "microbial-life-systems#biofilms-plate",
+      "type": "Naturepedia Microbial Community Plate™"
+    },
+    {
+      "name": "Microbial Mats Plate™",
+      "id": "microbial-life-systems#microbial-mats-plate",
+      "type": "Naturepedia Microbial Ecology Plate™"
+    },
+    {
+      "name": "Thermophiles Plate™",
+      "id": "microbial-life-systems#thermophiles-plate",
+      "type": "Naturepedia Extremophile Biology Plate™"
+    },
+    {
+      "name": "Extremophiles Plate™",
+      "id": "microbial-life-systems#extremophiles-plate",
+      "type": "Naturepedia Extremophile Life Plate™"
+    },
+    {
+      "name": "Photosynthesis Plate™",
+      "id": "microbial-life-systems#photosynthesis-plate",
+      "type": "Naturepedia Biological Energy Plate™"
+    },
+    {
+      "name": "Chemosynthesis Plate™",
+      "id": "microbial-life-systems#chemosynthesis-plate",
+      "type": "Naturepedia Chemosynthesis Plate™"
+    },
+    {
+      "name": "Nutrient Cycling Plate™",
+      "id": "microbial-life-systems#nutrient-cycling-plate",
+      "type": "Naturepedia Biogeochemical Cycles Plate™"
+    },
+    {
+      "name": "Microbial Biodiversity Plate™",
+      "id": "microbial-life-systems#microbial-biodiversity-plate",
+      "type": "Naturepedia Biodiversity Plate™"
+    },
+    {
+      "name": "Microbial Ecosystem Services Plate™",
+      "id": "microbial-life-systems#microbial-ecosystem-services-plate",
+      "type": "Naturepedia Ecosystem Services Plate™"
+    },
+    {
+      "name": "Origins of Life Plate™",
+      "id": "microbial-life-systems#origins-of-life-plate",
+      "type": "Naturepedia Origins of Life Plate™"
+    },
+    {
+      "name": "Microbial Photography Plate™",
+      "id": "microbial-life-systems#microbial-photography-plate",
+      "type": "Naturepedia Photography Plate™"
+    },
+    {
+      "name": "Microbial Life Systems™",
+      "id": "microbial-life-systems#microbial-life-systems",
+      "type": "Naturepedia Earth Systems Layer™"
+    }
+  ]
+},
+  {
       "name": "Plant Intelligence Plates",
       "slug": "plant-intelligence",
       "url": "https://www.robbiegeorgephotography.com/naturepedia-plant-intelligence",
