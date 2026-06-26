@@ -106,7 +106,63 @@
       "slug": "soil-carbon-systems",
       "url": "https://www.robbiegeorgephotography.com/soil-carbon-systems",
       "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/soil-carbon-systems",
-      "plates": []
+            "plates": [
+        {
+          "name": "Soil Carbon Systems Plate™",
+          "id": "soil-carbon-systems#soil-carbon-systems-plate",
+          "type": "Naturepedia Soil Carbon Systems Plate™"
+        },
+        {
+          "name": "Soil Organic Matter Plate™",
+          "id": "soil-carbon-systems#soil-organic-matter-plate",
+          "type": "Naturepedia Soil Organic Matter Plate™"
+        },
+        {
+          "name": "Root Carbon Pathways Plate™",
+          "id": "soil-carbon-systems#root-carbon-pathways-plate",
+          "type": "Naturepedia Root Carbon Pathways Plate™"
+        },
+        {
+          "name": "Mycorrhizal Carbon Plate™",
+          "id": "soil-carbon-systems#mycorrhizal-carbon-plate",
+          "type": "Naturepedia Mycorrhizal Carbon Plate™"
+        },
+        {
+          "name": "Microbial Carbon Pump Plate™",
+          "id": "soil-carbon-systems#microbial-carbon-pump-plate",
+          "type": "Naturepedia Microbial Carbon Pump Plate™"
+        },
+        {
+          "name": "Soil Aggregates Plate™",
+          "id": "soil-carbon-systems#soil-aggregates-plate",
+          "type": "Naturepedia Soil Aggregates Plate™"
+        },
+        {
+          "name": "Humus Formation Plate™",
+          "id": "soil-carbon-systems#humus-formation-plate",
+          "type": "Naturepedia Humus Formation Plate™"
+        },
+        {
+          "name": "Carbon Stabilization Plate™",
+          "id": "soil-carbon-systems#carbon-stabilization-plate",
+          "type": "Naturepedia Carbon Stabilization Plate™"
+        },
+        {
+          "name": "Soil Respiration Plate™",
+          "id": "soil-carbon-systems#soil-respiration-plate",
+          "type": "Naturepedia Soil Respiration Plate™"
+        },
+        {
+          "name": "Carbon Sequestration in Soil Plate™",
+          "id": "soil-carbon-systems#carbon-sequestration-in-soil-plate",
+          "type": "Naturepedia Carbon Sequestration in Soil Plate™"
+        },
+        {
+          "name": "Regenerative Soil Carbon Plate™",
+          "id": "soil-carbon-systems#regenerative-soil-carbon-plate",
+          "type": "Naturepedia Regenerative Soil Carbon Plate™"
+        }
+      ]
     },
     {
       "name": "Carbon & Microbial Life Plates",
