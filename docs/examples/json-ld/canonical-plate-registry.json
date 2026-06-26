@@ -1209,6 +1209,39 @@
         }
       ]
     },
+        {
+      "name": "Pollinator Systems Plates",
+      "slug": "pollinator-systems",
+      "url": "https://www.robbiegeorgephotography.com/floral-resource-networks",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/pollinator-systems",
+      "plates": [
+        {
+          "name": "Floral Resource Networks™ System Plate™",
+          "id": "floral-resource-networks#floral-resource-networks-system-plate",
+          "type": "Naturepedia Ecology System Plate™"
+        },
+        {
+          "name": "Bees of North America System Plate™",
+          "id": "bees-of-north-america#bees-of-north-america-system-plate",
+          "type": "Naturepedia Species System Plate™"
+        },
+        {
+          "name": "Butterflies of North America System Plate™",
+          "id": "butterflies-of-north-america#butterflies-of-north-america-system-plate",
+          "type": "Naturepedia Species System Plate™"
+        },
+        {
+          "name": "Moths of North America System Plate™",
+          "id": "naturepedia-moths#moths-of-north-america-system-plate",
+          "type": "Naturepedia Species System Plate™"
+        },
+        {
+          "name": "Hummingbirds of North America System Plate™",
+          "id": "hummingbirds-of-north-america#hummingbirds-of-north-america-system-plate",
+          "type": "Naturepedia Species System Plate™"
+        }
+      ]
+    },
     {
       "name": "Plant Intelligence Plates",
       "slug": "plant-intelligence",
