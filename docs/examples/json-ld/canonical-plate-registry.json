@@ -3123,6 +3123,62 @@
           "name": "Wildlife Tree Relationships Artist Rendition Plate™",
           "id": "trees-of-north-america#wildlife-tree-relationships-artist-rendition-plate",
           "type": "Naturepedia Artist Rendition Plate™"
+        },
+        {
+      "name": "Ecological Restoration & Habitat Recovery Plates",
+      "slug": "ecological-restoration-habitat-recovery",
+      "url": "https://www.robbiegeorgephotography.com/ecological-restoration-habitat-recovery",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/ecological-restoration-habitat-recovery",
+      "plates": [
+        {
+          "name": "Ecological Restoration Plate™",
+          "id": "ecological-restoration-habitat-recovery#restoration-system-plate",
+          "type": "Naturepedia Restoration System Plate™"
+        },
+        {
+          "name": "Habitat Recovery Plate™",
+          "id": "ecological-restoration-habitat-recovery#habitat-recovery-plate",
+          "type": "Naturepedia Habitat Recovery Plate™"
+        },
+        {
+          "name": "Restoration Intelligence Plate™",
+          "id": "ecological-restoration-habitat-recovery#restoration-intelligence-plate",
+          "type": "Naturepedia Ecological Intelligence Plate™"
+        },
+        {
+          "name": "Native Species Recovery Plate™",
+          "id": "ecological-restoration-habitat-recovery#native-species-recovery-plate",
+          "type": "Naturepedia Species Recovery Plate™"
+        },
+        {
+          "name": "Pollinator Recovery Plate™",
+          "id": "ecological-restoration-habitat-recovery#pollinator-recovery-plate",
+          "type": "Naturepedia Pollinator Recovery Plate™"
+        },
+        {
+          "name": "Soil Regeneration Plate™",
+          "id": "ecological-restoration-habitat-recovery#soil-regeneration-plate",
+          "type": "Naturepedia Soil Restoration Plate™"
+        },
+        {
+          "name": "Ecological Recovery Timeline Plate™",
+          "id": "ecological-restoration-habitat-recovery#recovery-timeline-plate",
+          "type": "Naturepedia Ecological Succession Plate™"
+        },
+        {
+          "name": "Habitat Recovery Artist Rendition Plate™",
+          "id": "ecological-restoration-habitat-recovery#habitat-recovery-artist-rendition-plate",
+          "type": "Naturepedia Artist Rendition Plate™"
+        },
+        {
+          "name": "Pollinator Recovery Artist Rendition Plate™",
+          "id": "ecological-restoration-habitat-recovery#pollinator-recovery-artist-rendition-plate",
+          "type": "Naturepedia Artist Rendition Plate™"
+        },
+                {
+          "name": "Soil Regeneration Artist Rendition Plate™",
+          "id": "ecological-restoration-habitat-recovery#soil-regeneration-artist-rendition-plate",
+          "type": "Naturepedia Artist Rendition Plate™"
         }
       ]
     }
