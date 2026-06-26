@@ -1161,6 +1161,54 @@
         }
       ]
     },
+        {
+      "name": "Photography Guide Plates",
+      "slug": "photography-guides",
+      "url": "https://www.robbiegeorgephotography.com",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/photography-guides",
+      "plates": [
+        {
+          "name": "Grand Teton Photography Guide Plate™",
+          "id": "grand-teton-wildlife-guide#photography-guide-plate",
+          "type": "Naturepedia Photography Guide Plate™"
+        },
+        {
+          "name": "Yellowstone Photography Guide Plate™",
+          "id": "yellowstone-wildlife-guide#photography-guide-plate",
+          "type": "Naturepedia Photography Guide Plate™"
+        },
+        {
+          "name": "Blackwater Photography Guide Plate™",
+          "id": "blackwater-wildlife-guide#photography-guide-plate",
+          "type": "Naturepedia Photography Guide Plate™"
+        },
+        {
+          "name": "Chincoteague Photography Guide Plate™",
+          "id": "chincoteague-wildlife-guide#photography-guide-plate",
+          "type": "Naturepedia Photography Guide Plate™"
+        },
+        {
+          "name": "Mattamuskeet Photography Guide Plate™",
+          "id": "mattamuskeet-wildlife-guide#photography-guide-plate",
+          "type": "Naturepedia Photography Guide Plate™"
+        },
+        {
+          "name": "Machias Photography Guide Plate™",
+          "id": "machias-seal-island-wildlife-guide#photography-guide-plate",
+          "type": "Naturepedia Photography Guide Plate™"
+        },
+        {
+          "name": "Aransas Photography Guide Plate™",
+          "id": "aransas-wildlife-guide#photography-guide-plate",
+          "type": "Naturepedia Photography Guide Plate™"
+        },
+        {
+          "name": "Bosque Photography Guide Plate™",
+          "id": "bosque-del-apache-wildlife-guide#photography-guide-plate",
+          "type": "Naturepedia Photography Guide Plate™"
+        }
+      ]
+    },
     {
       "name": "Plant Intelligence Plates",
       "slug": "plant-intelligence",
