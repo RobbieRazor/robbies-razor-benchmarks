@@ -3493,6 +3493,56 @@
           "name": "Wildlife Conservation & Habitat Plate™",
           "id": "wildlife-conservation-habitat#wildlife-conservation-habitat-plate",
           "type": "Naturepedia Conservation System Plate™"
+        },
+        {
+      "name": "Wildlife Migration & Seasonal Patterns Plates",
+      "slug": "wildlife-migration-seasonal-patterns-north-america",
+      "url": "https://www.robbiegeorgephotography.com/wildlife-migration-seasonal-patterns-north-america",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/wildlife-migration-seasonal-patterns-north-america",
+      "plates": [
+        {
+          "name": "Wildlife Migration & Seasonal Patterns Plate™",
+          "id": "wildlife-migration-seasonal-patterns-north-america#migration-system-plate",
+          "type": "Naturepedia Migration System Plate™"
+        }
+      ]
+    },
+    {
+      "name": "Wildlife Behavior & Ecology Plates",
+      "slug": "wildlife-behavior-ecology-north-america",
+      "url": "https://www.robbiegeorgephotography.com/wildlife-behavior-ecology-north-america",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/wildlife-behavior-ecology-north-america",
+      "plates": [
+        {
+          "name": "Wildlife Behavior & Ecology Plate™",
+          "id": "wildlife-behavior-ecology-north-america#behavior-system-plate",
+          "type": "Naturepedia Behavior System Plate™"
+        }
+      ]
+    },
+    {
+      "name": "Wildlife Observation & Field Techniques Plates",
+      "slug": "wildlife-observation-field-techniques",
+      "url": "https://www.robbiegeorgephotography.com/wildlife-observation-field-techniques",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/wildlife-observation-field-techniques",
+      "plates": [
+        {
+          "name": "Wildlife Observation & Field Techniques Plate™",
+          "id": "wildlife-observation-field-techniques#field-techniques-system-plate",
+          "type": "Naturepedia Field Techniques System Plate™"
+        }
+      ]
+    },
+    {
+      "name": "Wildlife Sign & Tracking Plates",
+      "slug": "wildlife-sign-tracking",
+      "url": "https://www.robbiegeorgephotography.com/wildlife-sign-tracking",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/wildlife-sign-tracking",
+      "plates": [
+        {
+          "name": "Wildlife Sign & Tracking Plate™",
+          "id": "wildlife-sign-tracking#tracking-system-plate",
+          "type": "Naturepedia Behavior System Plate™"
         }
       ]
     }
