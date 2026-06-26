@@ -1731,6 +1731,99 @@
         }
       ]
     },
+        {
+      "name": "Trees of North America Plates",
+      "slug": "trees-of-north-america",
+      "url": "https://www.robbiegeorgephotography.com/trees-of-north-america",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/trees-of-north-america",
+      "plates": [
+        {
+          "name": "Tree Systems Plate™",
+          "id": "trees-of-north-america#tree-systems-plate",
+          "type": "Naturepedia Tree System Plate™"
+        },
+        {
+          "name": "Tree Intelligence Plate™",
+          "id": "trees-of-north-america#tree-intelligence-plate",
+          "type": "Naturepedia Ecological Intelligence Plate™"
+        },
+        {
+          "name": "Tree Communities Plate™",
+          "id": "trees-of-north-america#tree-communities-plate",
+          "type": "Naturepedia Plant Community Plate™"
+        },
+        {
+          "name": "Forest Structure Plate™",
+          "id": "trees-of-north-america#forest-structure-plate",
+          "type": "Naturepedia Forest Ecology Plate™"
+        },
+        {
+          "name": "Wildlife Tree Relationships Plate™",
+          "id": "trees-of-north-america#wildlife-tree-relationships-plate",
+          "type": "Naturepedia Wildlife Habitat Plate™"
+        },
+        {
+          "name": "Carbon Storage Tree Plate™",
+          "id": "trees-of-north-america#carbon-storage-tree-plate",
+          "type": "Naturepedia Carbon Ecology Plate™"
+        },
+        {
+          "name": "Riparian Tree Systems Plate™",
+          "id": "trees-of-north-america#riparian-tree-systems-plate",
+          "type": "Naturepedia Riparian Ecology Plate™"
+        },
+        {
+          "name": "Keystone Tree Species Plate™",
+          "id": "trees-of-north-america#keystone-tree-species-plate",
+          "type": "Naturepedia Keystone Species Plate™"
+        },
+        {
+          "name": "Seasonal Tree Ecology Plate™",
+          "id": "trees-of-north-america#seasonal-tree-ecology-plate",
+          "type": "Naturepedia Seasonal Ecology Plate™"
+        },
+        {
+          "name": "Tree Life Cycle Plate™",
+          "id": "trees-of-north-america#tree-life-cycle-plate",
+          "type": "Naturepedia Life Cycle Plate™"
+        },
+        {
+          "name": "Tree–Mycelial Network Plate™",
+          "id": "trees-of-north-america#tree-mycelial-network-plate",
+          "type": "Naturepedia Mycorrhizal Ecology Plate™"
+        },
+        {
+          "name": "Tree–Pollinator Relationship Plate™",
+          "id": "trees-of-north-america#tree-pollinator-relationship-plate",
+          "type": "Naturepedia Pollinator Ecology Plate™"
+        },
+        {
+          "name": "Tree–Watershed Connection Plate™",
+          "id": "trees-of-north-america#tree-watershed-connection-plate",
+          "type": "Naturepedia Watershed Ecology Plate™"
+        },
+        {
+          "name": "Tree–Wildlife Shelter Plate™",
+          "id": "trees-of-north-america#tree-wildlife-shelter-plate",
+          "type": "Naturepedia Wildlife Habitat Plate™"
+        },
+        {
+          "name": "Tree Systems Artist Rendition Plate™",
+          "id": "trees-of-north-america#tree-systems-artist-rendition-plate",
+          "type": "Naturepedia Artist Rendition Plate™"
+        },
+        {
+          "name": "Forest Ecology Artist Rendition Plate™",
+          "id": "trees-of-north-america#forest-ecology-artist-rendition-plate",
+          "type": "Naturepedia Artist Rendition Plate™"
+        },
+        {
+          "name": "Wildlife Tree Relationships Artist Rendition Plate™",
+          "id": "trees-of-north-america#wildlife-tree-relationships-artist-rendition-plate",
+          "type": "Naturepedia Artist Rendition Plate™"
+        }
+      ]
+    },
     {
       "name": "Plant Intelligence Plates",
       "slug": "plant-intelligence",
