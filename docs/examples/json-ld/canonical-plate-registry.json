@@ -1464,6 +1464,84 @@
   ]
 },
   {
+  "name": "Willows of North America Plates",
+  "slug": "willows-of-north-america",
+  "url": "https://www.robbiegeorgephotography.com/willows-of-north-america",
+  "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/willows-of-north-america",
+  "plates": [
+    {
+      "name": "Willow Systems Plate™",
+      "id": "willows-of-north-america#willow-systems-plate",
+      "type": "Naturepedia Tree Family Systems Plate™"
+    },
+    {
+      "name": "Willow Identification Plate™",
+      "id": "willows-of-north-america#willow-identification-plate",
+      "type": "Naturepedia Tree Identification Plate™"
+    },
+    {
+      "name": "Willow Leaf Plate™",
+      "id": "willows-of-north-america#willow-leaf-plate",
+      "type": "Naturepedia Leaf Identification Plate™"
+    },
+    {
+      "name": "Willow Catkin Plate™",
+      "id": "willows-of-north-america#willow-catkin-plate",
+      "type": "Naturepedia Reproductive Structures Plate™"
+    },
+    {
+      "name": "Willow Bark Plate™",
+      "id": "willows-of-north-america#willow-bark-plate",
+      "type": "Naturepedia Bark Identification Plate™"
+    },
+    {
+      "name": "Black Willow Plate™",
+      "id": "willows-of-north-america#black-willow-plate",
+      "type": "Naturepedia Species Profile Plate™"
+    },
+    {
+      "name": "Bebb Willow Plate™",
+      "id": "willows-of-north-america#bebb-willow-plate",
+      "type": "Naturepedia Species Profile Plate™"
+    },
+    {
+      "name": "Scouler Willow Plate™",
+      "id": "willows-of-north-america#scouler-willow-plate",
+      "type": "Naturepedia Species Profile Plate™"
+    },
+    {
+      "name": "Peachleaf Willow Plate™",
+      "id": "willows-of-north-america#peachleaf-willow-plate",
+      "type": "Naturepedia Species Profile Plate™"
+    },
+    {
+      "name": "Willow Riparian Systems Plate™",
+      "id": "willows-of-north-america#willow-riparian-systems-plate",
+      "type": "Naturepedia Riparian Ecology Plate™"
+    },
+    {
+      "name": "Willow Wildlife Relationships Plate™",
+      "id": "willows-of-north-america#willow-wildlife-relationships-plate",
+      "type": "Naturepedia Wildlife Relationships Plate™"
+    },
+    {
+      "name": "Willow Beaver Relationships Plate™",
+      "id": "willows-of-north-america#willow-beaver-relationships-plate",
+      "type": "Naturepedia Ecological Relationships Plate™"
+    },
+    {
+      "name": "Willow Ecological Restoration Plate™",
+      "id": "willows-of-north-america#willow-ecological-restoration-plate",
+      "type": "Naturepedia Ecological Restoration Plate™"
+    },
+    {
+      "name": "Willow Biodiversity Plate™",
+      "id": "willows-of-north-america#willow-biodiversity-plate",
+      "type": "Naturepedia Biodiversity Plate™"
+    }
+  ]
+},
+  {
       "name": "Plant Intelligence Plates",
       "slug": "plant-intelligence",
       "url": "https://www.robbiegeorgephotography.com/naturepedia-plant-intelligence",
