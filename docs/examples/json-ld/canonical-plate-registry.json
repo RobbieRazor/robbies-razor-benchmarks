@@ -1542,6 +1542,84 @@
   ]
 },
   {
+  "name": "Cottonwoods of North America Plates",
+  "slug": "cottonwoods-of-north-america",
+  "url": "https://www.robbiegeorgephotography.com/cottonwoods-of-north-america",
+  "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/cottonwoods-of-north-america",
+  "plates": [
+    {
+      "name": "Cottonwood Systems Plate™",
+      "id": "cottonwoods-of-north-america#cottonwood-systems-plate",
+      "type": "Naturepedia Tree Family Systems Plate™"
+    },
+    {
+      "name": "Cottonwood Identification Plate™",
+      "id": "cottonwoods-of-north-america#cottonwood-identification-plate",
+      "type": "Naturepedia Tree Identification Plate™"
+    },
+    {
+      "name": "Cottonwood Leaf Plate™",
+      "id": "cottonwoods-of-north-america#cottonwood-leaf-plate",
+      "type": "Naturepedia Tree Identification Plate™"
+    },
+    {
+      "name": "Cottonwood Seed Plate™",
+      "id": "cottonwoods-of-north-america#cottonwood-seed-plate",
+      "type": "Naturepedia Tree Reproduction Plate™"
+    },
+    {
+      "name": "Cottonwood Bark Plate™",
+      "id": "cottonwoods-of-north-america#cottonwood-bark-plate",
+      "type": "Naturepedia Tree Identification Plate™"
+    },
+    {
+      "name": "Eastern Cottonwood Plate™",
+      "id": "cottonwoods-of-north-america#eastern-cottonwood-plate",
+      "type": "Naturepedia Species Plate™"
+    },
+    {
+      "name": "Fremont Cottonwood Plate™",
+      "id": "cottonwoods-of-north-america#fremont-cottonwood-plate",
+      "type": "Naturepedia Species Plate™"
+    },
+    {
+      "name": "Black Cottonwood Plate™",
+      "id": "cottonwoods-of-north-america#black-cottonwood-plate",
+      "type": "Naturepedia Species Plate™"
+    },
+    {
+      "name": "Plains Cottonwood Plate™",
+      "id": "cottonwoods-of-north-america#plains-cottonwood-plate",
+      "type": "Naturepedia Species Plate™"
+    },
+    {
+      "name": "Cottonwood River Systems Plate™",
+      "id": "cottonwoods-of-north-america#cottonwood-river-systems-plate",
+      "type": "Naturepedia Riparian Ecology Plate™"
+    },
+    {
+      "name": "Cottonwood Wildlife Relationships Plate™",
+      "id": "cottonwoods-of-north-america#cottonwood-wildlife-relationships-plate",
+      "type": "Naturepedia Wildlife Ecology Plate™"
+    },
+    {
+      "name": "Cottonwood Floodplain Forest Plate™",
+      "id": "cottonwoods-of-north-america#cottonwood-floodplain-forest-plate",
+      "type": "Naturepedia Floodplain Ecology Plate™"
+    },
+    {
+      "name": "Cottonwood Ecological Restoration Plate™",
+      "id": "cottonwoods-of-north-america#cottonwood-ecological-restoration-plate",
+      "type": "Naturepedia Ecological Restoration Plate™"
+    },
+    {
+      "name": "Cottonwood Biodiversity Plate™",
+      "id": "cottonwoods-of-north-america#cottonwood-biodiversity-plate",
+      "type": "Naturepedia Biodiversity Plate™"
+    }
+  ]
+},
+  {
       "name": "Plant Intelligence Plates",
       "slug": "plant-intelligence",
       "url": "https://www.robbiegeorgephotography.com/naturepedia-plant-intelligence",
