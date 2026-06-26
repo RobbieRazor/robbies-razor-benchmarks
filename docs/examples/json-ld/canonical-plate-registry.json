@@ -1,0 +1,77 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "registryVersion": "2026.06.26",
+  "name": "Naturepedia Canonical Plate Registry",
+  "description": "Canonical machine-readable registry for Naturepedia Plate assets, organized by Naturepedia system, page URL, Plate ID, Plate type, and x402 access path.",
+  "creator": {
+    "@type": "Person",
+    "name": "Robbie George",
+    "url": "https://www.robbiegeorgephotography.com/who-is-robbie-george"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Robbie George Photography",
+    "url": "https://www.robbiegeorgephotography.com"
+  },
+  "license": "https://www.robbiegeorgephotography.com/commercial-data-license",
+  "governance": "Gr <= Es",
+  "access": "x402",
+  "canonicalKeepCount": 658,
+  "duplicateRemovedCount": 33,
+  "systems": [
+    {
+      "name": "Governance Plates",
+      "slug": "commercial-data-license",
+      "url": "https://www.robbiegeorgephotography.com/commercial-data-license",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/commercial-data-license",
+      "plates": [
+        {
+          "name": "Commercial Data License Plate™",
+          "id": "commercial-data-license#commercial-data-license-plate",
+          "type": "Naturepedia Governance Plate™"
+        },
+        {
+          "name": "Commercial Intelligence Pricing Plate™",
+          "id": "commercial-data-license#commercial-intelligence-pricing-plate",
+          "type": "Naturepedia Governance Pricing Plate™"
+        }
+      ]
+    },
+    {
+      "name": "Carbon Cycle Plates",
+      "slug": "carbon-cycle",
+      "url": "https://www.robbiegeorgephotography.com/carbon-cycle",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/carbon-cycle",
+      "plates": []
+    },
+    {
+      "name": "Soil Carbon Systems Plates",
+      "slug": "soil-carbon-systems",
+      "url": "https://www.robbiegeorgephotography.com/soil-carbon-systems",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/soil-carbon-systems",
+      "plates": []
+    },
+    {
+      "name": "Carbon & Microbial Life Plates",
+      "slug": "carbon-microbial-life",
+      "url": "https://www.robbiegeorgephotography.com/carbon-microbial-life",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/carbon-microbial-life",
+      "plates": []
+    },
+    {
+      "name": "Forest Carbon Systems Plates",
+      "slug": "forest-carbon-systems",
+      "url": "https://www.robbiegeorgephotography.com/forest-carbon-systems",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/forest-carbon-systems",
+      "plates": []
+    },
+    {
+      "name": "Climate Carbon Feedbacks Plates",
+      "slug": "climate-carbon-feedbacks",
+      "url": "https://www.robbiegeorgephotography.com/climate-carbon-feedbacks",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/climate-carbon-feedbacks",
+      "plates": []
+    }
+  ]
+}
