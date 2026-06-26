@@ -43,7 +43,7 @@
       "slug": "carbon-cycle",
       "url": "https://www.robbiegeorgephotography.com/carbon-cycle",
       "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/carbon-cycle",
-            "plates": [
+      "plates": [
         {
           "name": "Carbon Cycle Plate™",
           "id": "carbon-cycle#carbon-cycle-plate",
@@ -106,7 +106,7 @@
       "slug": "soil-carbon-systems",
       "url": "https://www.robbiegeorgephotography.com/soil-carbon-systems",
       "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/soil-carbon-systems",
-            "plates": [
+      "plates": [
         {
           "name": "Soil Carbon Systems Plate™",
           "id": "soil-carbon-systems#soil-carbon-systems-plate",
@@ -169,7 +169,7 @@
       "slug": "carbon-microbial-life",
       "url": "https://www.robbiegeorgephotography.com/carbon-microbial-life",
       "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/carbon-microbial-life",
-            "plates": [
+      "plates": [
         {
           "name": "Carbon & Microbial Life Plate™",
           "id": "carbon-microbial-life#carbon-microbial-life-plate",
@@ -232,7 +232,7 @@
       "slug": "forest-carbon-systems",
       "url": "https://www.robbiegeorgephotography.com/forest-carbon-systems",
       "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/forest-carbon-systems",
-            "plates": [
+      "plates": [
         {
           "name": "Forest Carbon Systems Plate™",
           "id": "forest-carbon-systems#forest-carbon-systems-plate",
@@ -295,7 +295,7 @@
       "slug": "climate-carbon-feedbacks",
       "url": "https://www.robbiegeorgephotography.com/climate-carbon-feedbacks",
       "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/climate-carbon-feedbacks",
-            "plates": [
+      "plates": [
         {
           "name": "Climate Carbon Feedbacks Plate™",
           "id": "climate-carbon-feedbacks#climate-carbon-feedbacks-plate",
@@ -351,7 +351,7 @@
           "id": "climate-carbon-feedbacks#planetary-carbon-balance-plate",
           "type": "Naturepedia Planetary Carbon Balance Plate™"
         }
-          ]
+      ]
     },
     {
       "name": "Earth Systems Plates",
@@ -429,7 +429,7 @@
           "id": "earth-systems#earth-systems-photography-plate",
           "type": "Naturepedia Photography Plate™"
         }
-         ]
+      ]
     },
     {
       "name": "Soil Systems Plates",
@@ -492,7 +492,7 @@
           "id": "soil-systems#regenerative-soil-systems-plate",
           "type": "Naturepedia Human-Earth Systems Plate™"
         }
-           ]
+      ]
     },
     {
       "name": "Information Systems in Nature Plates",
@@ -550,7 +550,7 @@
           "id": "information-systems-in-nature#future-information-systems-plate",
           "type": "Naturepedia Future Systems Plate™"
         }
-           ]
+      ]
     },
     {
       "name": "Bioelectric Systems Plates",
@@ -608,7 +608,7 @@
           "id": "bioelectric-systems#bioelectric-photography-plate",
           "type": "Naturepedia Photography Plate™"
         }
-         ]
+      ]
     },
     {
       "name": "Quantum Agriculture Plates",
@@ -671,14 +671,14 @@
           "id": "quantum-agriculture#biodiversity-and-ecosystem-balance-plate",
           "type": "Naturepedia Quantum Agriculture Biodiversity Systems Plate™"
         },
-               {
+        {
           "name": "Future Food Systems Plate™",
           "id": "quantum-agriculture#future-food-systems-plate",
           "type": "Naturepedia Quantum Agriculture Future Systems Plate™"
         }
-           ]
+      ]
     },
-        {
+    {
       "name": "Birches of North America Plates",
       "slug": "birches-of-north-america",
       "url": "https://www.robbiegeorgephotography.com/birches-of-north-america",
@@ -746,7 +746,7 @@
         }
       ]
     },
-        {
+    {
       "name": "Oaks of North America Plates",
       "slug": "oaks-of-north-america",
       "url": "https://www.robbiegeorgephotography.com/oaks-of-north-america",
@@ -809,7 +809,7 @@
         }
       ]
     },
-        {
+    {
       "name": "Maples of North America Plates",
       "slug": "maples-of-north-america",
       "url": "https://www.robbiegeorgephotography.com/maples-of-north-america",
@@ -877,1169 +877,1169 @@
         }
       ]
     },
-{
-  "name": "Aspens of North America Plates",
-  "slug": "aspens-of-north-america",
-  "url": "https://www.robbiegeorgephotography.com/aspens-of-north-america",
-  "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/aspens-of-north-america",
-  "plates": [
     {
-      "name": "Aspen Systems Plate™",
-      "id": "aspens-of-north-america#aspen-systems-plate",
-      "type": "Naturepedia Tree Systems Plate™"
+      "name": "Aspens of North America Plates",
+      "slug": "aspens-of-north-america",
+      "url": "https://www.robbiegeorgephotography.com/aspens-of-north-america",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/aspens-of-north-america",
+      "plates": [
+        {
+          "name": "Aspen Systems Plate™",
+          "id": "aspens-of-north-america#aspen-systems-plate",
+          "type": "Naturepedia Tree Systems Plate™"
+        },
+        {
+          "name": "Aspen Identification Plate™",
+          "id": "aspens-of-north-america#aspen-identification-plate",
+          "type": "Naturepedia Tree Identification Plate™"
+        },
+        {
+          "name": "Aspen Leaf Plate™",
+          "id": "aspens-of-north-america#aspen-leaf-plate",
+          "type": "Naturepedia Leaf Identification Plate™"
+        },
+        {
+          "name": "Aspen Bark Plate™",
+          "id": "aspens-of-north-america#aspen-bark-plate",
+          "type": "Naturepedia Bark Identification Plate™"
+        },
+        {
+          "name": "Quaking Aspen Plate™",
+          "id": "aspens-of-north-america#quaking-aspen-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Bigtooth Aspen Plate™",
+          "id": "aspens-of-north-america#bigtooth-aspen-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Aspen Clonal Colony Plate™",
+          "id": "aspens-of-north-america#aspen-clonal-colony-plate",
+          "type": "Naturepedia Ecological Systems Plate™"
+        },
+        {
+          "name": "Aspen Wildlife Relationships Plate™",
+          "id": "aspens-of-north-america#aspen-wildlife-relationships-plate",
+          "type": "Naturepedia Wildlife Relationships Plate™"
+        },
+        {
+          "name": "Aspen Forest Succession Plate™",
+          "id": "aspens-of-north-america#aspen-forest-succession-plate",
+          "type": "Naturepedia Forest Succession Plate™"
+        },
+        {
+          "name": "Aspen Wildfire Recovery Plate™",
+          "id": "aspens-of-north-america#aspen-wildfire-recovery-plate",
+          "type": "Naturepedia Ecological Recovery Plate™"
+        },
+        {
+          "name": "Aspen Biodiversity Plate™",
+          "id": "aspens-of-north-america#aspen-biodiversity-plate",
+          "type": "Naturepedia Biodiversity Plate™"
+        },
+        {
+          "name": "Aspen Carbon Storage Plate™",
+          "id": "aspens-of-north-america#aspen-carbon-storage-plate",
+          "type": "Naturepedia Carbon Systems Plate™"
+        },
+        {
+          "name": "Aspen Forest Artist Rendition Plate™",
+          "id": "aspens-of-north-america#aspen-forest-artist-rendition-plate",
+          "type": "Naturepedia Artist Rendition Plate™"
+        },
+        {
+          "name": "Aspen Root Colony Artist Rendition Plate™",
+          "id": "aspens-of-north-america#aspen-root-colony-artist-rendition-plate",
+          "type": "Naturepedia Artist Rendition Plate™"
+        },
+        {
+          "name": "Golden Aspen Canopy Artist Rendition Plate™",
+          "id": "aspens-of-north-america#golden-aspen-canopy-artist-rendition-plate",
+          "type": "Naturepedia Artist Rendition Plate™"
+        }
+      ]
+    },
+    {
+      "name": "Pines of North America Plates",
+      "slug": "pines-of-north-america",
+      "url": "https://www.robbiegeorgephotography.com/pines-of-north-america",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/pines-of-north-america",
+      "plates": [
+        {
+          "name": "Pine Systems Plate™",
+          "id": "pines-of-north-america#pine-systems-plate",
+          "type": "Naturepedia Tree Family Systems Plate™"
+        },
+        {
+          "name": "Pine Identification Plate™",
+          "id": "pines-of-north-america#pine-identification-plate",
+          "type": "Naturepedia Tree Identification Plate™"
+        },
+        {
+          "name": "Pine Needle Plate™",
+          "id": "pines-of-north-america#pine-needle-plate",
+          "type": "Naturepedia Tree Identification Plate™"
+        },
+        {
+          "name": "Pine Cone Plate™",
+          "id": "pines-of-north-america#pine-cone-plate",
+          "type": "Naturepedia Tree Reproduction & Identification Plate™"
+        },
+        {
+          "name": "Pine Bark Plate™",
+          "id": "pines-of-north-america#pine-bark-plate",
+          "type": "Naturepedia Tree Identification & Adaptation Plate™"
+        },
+        {
+          "name": "Eastern White Pine Plate™",
+          "id": "pines-of-north-america#eastern-white-pine-plate",
+          "type": "Naturepedia Tree Species Plate™"
+        },
+        {
+          "name": "Ponderosa Pine Plate™",
+          "id": "pines-of-north-america#ponderosa-pine-plate",
+          "type": "Naturepedia Tree Species Plate™"
+        },
+        {
+          "name": "Lodgepole Pine Plate™",
+          "id": "pines-of-north-america#lodgepole-pine-plate",
+          "type": "Naturepedia Tree Species Plate™"
+        },
+        {
+          "name": "Longleaf Pine Plate™",
+          "id": "pines-of-north-america#longleaf-pine-plate",
+          "type": "Naturepedia Tree Species Plate™"
+        },
+        {
+          "name": "Pine Cone Ecology Plate™",
+          "id": "pines-of-north-america#pine-cone-ecology-plate",
+          "type": "Naturepedia Tree Reproduction & Ecology Plate™"
+        },
+        {
+          "name": "Pine Wildlife Relationships Plate™",
+          "id": "pines-of-north-america#pine-wildlife-relationships-plate",
+          "type": "Naturepedia Wildlife Relationships Plate™"
+        },
+        {
+          "name": "Pine Fire Ecology Plate™",
+          "id": "pines-of-north-america#pine-fire-ecology-plate",
+          "type": "Naturepedia Forest Fire Ecology Plate™"
+        },
+        {
+          "name": "Pine Forest Community Plate™",
+          "id": "pines-of-north-america#pine-forest-community-plate",
+          "type": "Naturepedia Forest Community Plate™"
+        },
+        {
+          "name": "Pine Carbon Storage Plate™",
+          "id": "pines-of-north-america#pine-carbon-storage-plate",
+          "type": "Naturepedia Climate & Carbon Plate™"
+        },
+        {
+          "name": "Pine Forest Artist Rendition Plate™",
+          "id": "pines-of-north-america#pine-forest-artist-rendition-plate",
+          "type": "Naturepedia Artist Rendition Plate™"
+        },
+        {
+          "name": "Pine Cone Artist Rendition Plate™",
+          "id": "pines-of-north-america#pine-cone-artist-rendition-plate",
+          "type": "Naturepedia Artist Rendition Plate™"
+        },
+        {
+          "name": "Mountain Pine Forest Artist Rendition Plate™",
+          "id": "pines-of-north-america#mountain-pine-forest-artist-rendition-plate",
+          "type": "Naturepedia Artist Rendition Plate™"
+        }
+      ]
+    },
+    {
+      "name": "Spruces of North America Plates",
+      "slug": "spruces-of-north-america",
+      "url": "https://www.robbiegeorgephotography.com/spruces-of-north-america",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/spruces-of-north-america",
+      "plates": [
+        {
+          "name": "Spruce Systems Plate™",
+          "id": "spruces-of-north-america#spruce-systems-plate",
+          "type": "Naturepedia Tree Family Plate™"
+        },
+        {
+          "name": "Spruce Identification Plate™",
+          "id": "spruces-of-north-america#spruce-identification-plate",
+          "type": "Naturepedia Tree Identification Plate™"
+        },
+        {
+          "name": "Spruce Needle Plate™",
+          "id": "spruces-of-north-america#spruce-needle-plate",
+          "type": "Naturepedia Tree Identification Plate™"
+        },
+        {
+          "name": "Spruce Cone Plate™",
+          "id": "spruces-of-north-america#spruce-cone-plate",
+          "type": "Naturepedia Tree Identification Plate™"
+        },
+        {
+          "name": "Spruce Bark Plate™",
+          "id": "spruces-of-north-america#spruce-bark-plate",
+          "type": "Naturepedia Bark Identification Plate™"
+        },
+        {
+          "name": "White Spruce Plate™",
+          "id": "spruces-of-north-america#white-spruce-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Black Spruce Plate™",
+          "id": "spruces-of-north-america#black-spruce-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Red Spruce Plate™",
+          "id": "spruces-of-north-america#red-spruce-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Engelmann Spruce Plate™",
+          "id": "spruces-of-north-america#engelmann-spruce-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Spruce Boreal Forest Plate™",
+          "id": "spruces-of-north-america#spruce-boreal-forest-plate",
+          "type": "Naturepedia Boreal Forest Plate™"
+        },
+        {
+          "name": "Spruce Wildlife Relationships Plate™",
+          "id": "spruces-of-north-america#spruce-wildlife-relationships-plate",
+          "type": "Naturepedia Wildlife Relationship Plate™"
+        },
+        {
+          "name": "Spruce Forest Community Plate™",
+          "id": "spruces-of-north-america#spruce-forest-community-plate",
+          "type": "Naturepedia Forest Community Plate™"
+        },
+        {
+          "name": "Spruce Carbon Storage Plate™",
+          "id": "spruces-of-north-america#spruce-carbon-storage-plate",
+          "type": "Naturepedia Carbon Systems Plate™"
+        },
+        {
+          "name": "Spruce Climate Resilience Plate™",
+          "id": "spruces-of-north-america#spruce-climate-resilience-plate",
+          "type": "Naturepedia Climate Resilience Plate™"
+        }
+      ]
+    },
+    {
+      "name": "Firs of North America Plates",
+      "slug": "firs-of-north-america",
+      "url": "https://www.robbiegeorgephotography.com/firs-of-north-america",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/firs-of-north-america",
+      "plates": [
+        {
+          "name": "Fir Systems Plate™",
+          "id": "firs-of-north-america#fir-systems-plate",
+          "type": "Naturepedia Tree Family Plate™"
+        },
+        {
+          "name": "Fir Identification Plate™",
+          "id": "firs-of-north-america#fir-identification-plate",
+          "type": "Naturepedia Tree Identification Plate™"
+        },
+        {
+          "name": "Fir Needle Plate™",
+          "id": "firs-of-north-america#fir-needle-plate",
+          "type": "Naturepedia Tree Identification Plate™"
+        },
+        {
+          "name": "Fir Cone Plate™",
+          "id": "firs-of-north-america#fir-cone-plate",
+          "type": "Naturepedia Tree Identification Plate™"
+        },
+        {
+          "name": "Fir Bark Plate™",
+          "id": "firs-of-north-america#fir-bark-plate",
+          "type": "Naturepedia Bark Identification Plate™"
+        },
+        {
+          "name": "Balsam Fir Plate™",
+          "id": "firs-of-north-america#balsam-fir-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Fraser Fir Plate™",
+          "id": "firs-of-north-america#fraser-fir-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Noble Fir Plate™",
+          "id": "firs-of-north-america#noble-fir-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Subalpine Fir Plate™",
+          "id": "firs-of-north-america#subalpine-fir-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Grand Fir Plate™",
+          "id": "firs-of-north-america#grand-fir-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Fir Mountain Forest Plate™",
+          "id": "firs-of-north-america#fir-mountain-forest-plate",
+          "type": "Naturepedia Mountain Forest Plate™"
+        },
+        {
+          "name": "Fir Wildlife Relationships Plate™",
+          "id": "firs-of-north-america#fir-wildlife-relationships-plate",
+          "type": "Naturepedia Wildlife Relationship Plate™"
+        },
+        {
+          "name": "Fir Snowpack Ecology Plate™",
+          "id": "firs-of-north-america#fir-snowpack-ecology-plate",
+          "type": "Naturepedia Water & Snowpack Systems Plate™"
+        },
+        {
+          "name": "Fir Forest Community Plate™",
+          "id": "firs-of-north-america#fir-forest-community-plate",
+          "type": "Naturepedia Forest Community Plate™"
+        },
+        {
+          "name": "Fir Carbon Storage Plate™",
+          "id": "firs-of-north-america#fir-carbon-storage-plate",
+          "type": "Naturepedia Carbon Systems Plate™"
+        },
+        {
+          "name": "Fir Climate Resilience Plate™",
+          "id": "firs-of-north-america#fir-climate-resilience-plate",
+          "type": "Naturepedia Climate Resilience Plate™"
+        }
+      ]
+    },
+    {
+      "name": "Hemlocks of North America Plates",
+      "slug": "hemlocks-of-north-america",
+      "url": "https://www.robbiegeorgephotography.com/hemlocks-of-north-america",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/hemlocks-of-north-america",
+      "plates": [
+        {
+          "name": "Hemlock Systems Plate™",
+          "id": "hemlocks-of-north-america#hemlock-systems-plate",
+          "type": "Naturepedia Tree Family Plate™"
+        },
+        {
+          "name": "Hemlock Identification Plate™",
+          "id": "hemlocks-of-north-america#hemlock-identification-plate",
+          "type": "Naturepedia Tree Identification Plate™"
+        },
+        {
+          "name": "Hemlock Needle Plate™",
+          "id": "hemlocks-of-north-america#hemlock-needle-plate",
+          "type": "Naturepedia Tree Identification Plate™"
+        },
+        {
+          "name": "Hemlock Cone Plate™",
+          "id": "hemlocks-of-north-america#hemlock-cone-plate",
+          "type": "Naturepedia Tree Identification Plate™"
+        },
+        {
+          "name": "Hemlock Bark Plate™",
+          "id": "hemlocks-of-north-america#hemlock-bark-plate",
+          "type": "Naturepedia Bark Identification Plate™"
+        },
+        {
+          "name": "Eastern Hemlock Plate™",
+          "id": "hemlocks-of-north-america#eastern-hemlock-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Western Hemlock Plate™",
+          "id": "hemlocks-of-north-america#western-hemlock-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Mountain Hemlock Plate™",
+          "id": "hemlocks-of-north-america#mountain-hemlock-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Carolina Hemlock Plate™",
+          "id": "hemlocks-of-north-america#carolina-hemlock-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Hemlock Stream Ecology Plate™",
+          "id": "hemlocks-of-north-america#hemlock-stream-ecology-plate",
+          "type": "Naturepedia Watershed Plate™"
+        },
+        {
+          "name": "Hemlock Wildlife Relationships Plate™",
+          "id": "hemlocks-of-north-america#hemlock-wildlife-relationships-plate",
+          "type": "Naturepedia Wildlife Relationship Plate™"
+        },
+        {
+          "name": "Hemlock Forest Community Plate™",
+          "id": "hemlocks-of-north-america#hemlock-forest-community-plate",
+          "type": "Naturepedia Forest Community Plate™"
+        },
+        {
+          "name": "Hemlock Carbon Storage Plate™",
+          "id": "hemlocks-of-north-america#hemlock-carbon-storage-plate",
+          "type": "Naturepedia Carbon Systems Plate™"
+        },
+        {
+          "name": "Hemlock Conservation Plate™",
+          "id": "hemlocks-of-north-america#hemlock-conservation-plate",
+          "type": "Naturepedia Conservation Plate™"
+        }
+      ]
+    },
+    {
+      "name": "Cedars of North America Plates",
+      "slug": "cedars-of-north-america",
+      "url": "https://www.robbiegeorgephotography.com/cedars-of-north-america",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/cedars-of-north-america",
+      "plates": [
+        {
+          "name": "Cedar Systems Plate™",
+          "id": "cedars-of-north-america#cedar-systems-plate",
+          "type": "Naturepedia Tree Family Systems Plate™"
+        },
+        {
+          "name": "Cedar Identification Plate™",
+          "id": "cedars-of-north-america#cedar-identification-plate",
+          "type": "Naturepedia Tree Identification Plate™"
+        },
+        {
+          "name": "Cedar Leaf Plate™",
+          "id": "cedars-of-north-america#cedar-leaf-plate",
+          "type": "Naturepedia Tree Identification Plate™"
+        },
+        {
+          "name": "Cedar Cone Plate™",
+          "id": "cedars-of-north-america#cedar-cone-plate",
+          "type": "Naturepedia Tree Identification Plate™"
+        },
+        {
+          "name": "Cedar Bark Plate™",
+          "id": "cedars-of-north-america#cedar-bark-plate",
+          "type": "Naturepedia Tree Identification Plate™"
+        },
+        {
+          "name": "Eastern Red Cedar Plate™",
+          "id": "cedars-of-north-america#eastern-red-cedar-plate",
+          "type": "Naturepedia Tree Species Plate™"
+        },
+        {
+          "name": "Northern White Cedar Plate™",
+          "id": "cedars-of-north-america#northern-white-cedar-plate",
+          "type": "Naturepedia Tree Species Plate™"
+        },
+        {
+          "name": "Western Red Cedar Plate™",
+          "id": "cedars-of-north-america#western-red-cedar-plate",
+          "type": "Naturepedia Tree Species Plate™"
+        },
+        {
+          "name": "Incense Cedar Plate™",
+          "id": "cedars-of-north-america#incense-cedar-plate",
+          "type": "Naturepedia Tree Species Plate™"
+        },
+        {
+          "name": "Cedar Swamp Forest Plate™",
+          "id": "cedars-of-north-america#cedar-swamp-forest-plate",
+          "type": "Naturepedia Forest Ecology Plate™"
+        },
+        {
+          "name": "Cedar Wildlife Relationships Plate™",
+          "id": "cedars-of-north-america#cedar-wildlife-relationships-plate",
+          "type": "Naturepedia Wildlife Relationships Plate™"
+        },
+        {
+          "name": "Cedar Forest Community Plate™",
+          "id": "cedars-of-north-america#cedar-forest-community-plate",
+          "type": "Naturepedia Forest Community Plate™"
+        },
+        {
+          "name": "Cedar Carbon Storage Plate™",
+          "id": "cedars-of-north-america#cedar-carbon-storage-plate",
+          "type": "Naturepedia Carbon Systems Plate™"
+        },
+        {
+          "name": "Cedar Climate Resilience Plate™",
+          "id": "cedars-of-north-america#cedar-climate-resilience-plate",
+          "type": "Naturepedia Climate Resilience Plate™"
+        }
+      ]
+    },
+    {
+      "name": "Cypress Trees of North America Plates",
+      "slug": "cypress-trees-of-north-america",
+      "url": "https://www.robbiegeorgephotography.com/cypress-trees-of-north-america",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/cypress-trees-of-north-america",
+      "plates": [
+        {
+          "name": "Cypress Systems Plate™",
+          "id": "cypress-trees-of-north-america#cypress-systems-plate",
+          "type": "Naturepedia Tree Family Plate™"
+        },
+        {
+          "name": "Cypress Identification Plate™",
+          "id": "cypress-trees-of-north-america#cypress-identification-plate",
+          "type": "Naturepedia Tree Identification Plate™"
+        },
+        {
+          "name": "Cypress Leaf Plate™",
+          "id": "cypress-trees-of-north-america#cypress-leaf-plate",
+          "type": "Naturepedia Tree Identification Plate™"
+        },
+        {
+          "name": "Cypress Cone Plate™",
+          "id": "cypress-trees-of-north-america#cypress-cone-plate",
+          "type": "Naturepedia Tree Identification Plate™"
+        },
+        {
+          "name": "Cypress Bark & Knee Plate™",
+          "id": "cypress-trees-of-north-america#cypress-bark-knee-plate",
+          "type": "Naturepedia Bark & Root Adaptation Plate™"
+        },
+        {
+          "name": "Bald Cypress Plate™",
+          "id": "cypress-trees-of-north-america#bald-cypress-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Pond Cypress Plate™",
+          "id": "cypress-trees-of-north-america#pond-cypress-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Monterey Cypress Plate™",
+          "id": "cypress-trees-of-north-america#monterey-cypress-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Arizona Cypress Plate™",
+          "id": "cypress-trees-of-north-america#arizona-cypress-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Atlantic White Cedar Plate™",
+          "id": "cypress-trees-of-north-america#atlantic-white-cedar-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Cypress Swamp Forest Plate™",
+          "id": "cypress-trees-of-north-america#cypress-swamp-forest-plate",
+          "type": "Naturepedia Wetland Forest Plate™"
+        },
+        {
+          "name": "Cypress Wildlife Relationships Plate™",
+          "id": "cypress-trees-of-north-america#cypress-wildlife-relationships-plate",
+          "type": "Naturepedia Wildlife Relationship Plate™"
+        },
+        {
+          "name": "Cypress Water Storage Plate™",
+          "id": "cypress-trees-of-north-america#cypress-water-storage-plate",
+          "type": "Naturepedia Water Systems Plate™"
+        },
+        {
+          "name": "Cypress Forest Community Plate™",
+          "id": "cypress-trees-of-north-america#cypress-forest-community-plate",
+          "type": "Naturepedia Forest Community Plate™"
+        },
+        {
+          "name": "Cypress Carbon Storage Plate™",
+          "id": "cypress-trees-of-north-america#cypress-carbon-storage-plate",
+          "type": "Naturepedia Carbon Systems Plate™"
+        },
+        {
+          "name": "Cypress Climate Resilience Plate™",
+          "id": "cypress-trees-of-north-america#cypress-climate-resilience-plate",
+          "type": "Naturepedia Climate Resilience Plate™"
+        }
+      ]
+    },
+    {
+      "name": "Willows of North America Plates",
+      "slug": "willows-of-north-america",
+      "url": "https://www.robbiegeorgephotography.com/willows-of-north-america",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/willows-of-north-america",
+      "plates": [
+        {
+          "name": "Willow Systems Plate™",
+          "id": "willows-of-north-america#willow-systems-plate",
+          "type": "Naturepedia Tree Family Systems Plate™"
+        },
+        {
+          "name": "Willow Identification Plate™",
+          "id": "willows-of-north-america#willow-identification-plate",
+          "type": "Naturepedia Tree Identification Plate™"
+        },
+        {
+          "name": "Willow Leaf Plate™",
+          "id": "willows-of-north-america#willow-leaf-plate",
+          "type": "Naturepedia Leaf Identification Plate™"
+        },
+        {
+          "name": "Willow Catkin Plate™",
+          "id": "willows-of-north-america#willow-catkin-plate",
+          "type": "Naturepedia Reproductive Structures Plate™"
+        },
+        {
+          "name": "Willow Bark Plate™",
+          "id": "willows-of-north-america#willow-bark-plate",
+          "type": "Naturepedia Bark Identification Plate™"
+        },
+        {
+          "name": "Black Willow Plate™",
+          "id": "willows-of-north-america#black-willow-plate",
+          "type": "Naturepedia Species Profile Plate™"
+        },
+        {
+          "name": "Bebb Willow Plate™",
+          "id": "willows-of-north-america#bebb-willow-plate",
+          "type": "Naturepedia Species Profile Plate™"
+        },
+        {
+          "name": "Scouler Willow Plate™",
+          "id": "willows-of-north-america#scouler-willow-plate",
+          "type": "Naturepedia Species Profile Plate™"
+        },
+        {
+          "name": "Peachleaf Willow Plate™",
+          "id": "willows-of-north-america#peachleaf-willow-plate",
+          "type": "Naturepedia Species Profile Plate™"
+        },
+        {
+          "name": "Willow Riparian Systems Plate™",
+          "id": "willows-of-north-america#willow-riparian-systems-plate",
+          "type": "Naturepedia Riparian Ecology Plate™"
+        },
+        {
+          "name": "Willow Wildlife Relationships Plate™",
+          "id": "willows-of-north-america#willow-wildlife-relationships-plate",
+          "type": "Naturepedia Wildlife Relationships Plate™"
+        },
+        {
+          "name": "Willow Beaver Relationships Plate™",
+          "id": "willows-of-north-america#willow-beaver-relationships-plate",
+          "type": "Naturepedia Ecological Relationships Plate™"
+        },
+        {
+          "name": "Willow Ecological Restoration Plate™",
+          "id": "willows-of-north-america#willow-ecological-restoration-plate",
+          "type": "Naturepedia Ecological Restoration Plate™"
+        },
+        {
+          "name": "Willow Biodiversity Plate™",
+          "id": "willows-of-north-america#willow-biodiversity-plate",
+          "type": "Naturepedia Biodiversity Plate™"
+        }
+      ]
+    },
+    {
+      "name": "Cottonwoods of North America Plates",
+      "slug": "cottonwoods-of-north-america",
+      "url": "https://www.robbiegeorgephotography.com/cottonwoods-of-north-america",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/cottonwoods-of-north-america",
+      "plates": [
+        {
+          "name": "Cottonwood Systems Plate™",
+          "id": "cottonwoods-of-north-america#cottonwood-systems-plate",
+          "type": "Naturepedia Tree Family Systems Plate™"
+        },
+        {
+          "name": "Cottonwood Identification Plate™",
+          "id": "cottonwoods-of-north-america#cottonwood-identification-plate",
+          "type": "Naturepedia Tree Identification Plate™"
+        },
+        {
+          "name": "Cottonwood Leaf Plate™",
+          "id": "cottonwoods-of-north-america#cottonwood-leaf-plate",
+          "type": "Naturepedia Tree Identification Plate™"
+        },
+        {
+          "name": "Cottonwood Seed Plate™",
+          "id": "cottonwoods-of-north-america#cottonwood-seed-plate",
+          "type": "Naturepedia Tree Reproduction Plate™"
+        },
+        {
+          "name": "Cottonwood Bark Plate™",
+          "id": "cottonwoods-of-north-america#cottonwood-bark-plate",
+          "type": "Naturepedia Tree Identification Plate™"
+        },
+        {
+          "name": "Eastern Cottonwood Plate™",
+          "id": "cottonwoods-of-north-america#eastern-cottonwood-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Fremont Cottonwood Plate™",
+          "id": "cottonwoods-of-north-america#fremont-cottonwood-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Black Cottonwood Plate™",
+          "id": "cottonwoods-of-north-america#black-cottonwood-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Plains Cottonwood Plate™",
+          "id": "cottonwoods-of-north-america#plains-cottonwood-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Cottonwood River Systems Plate™",
+          "id": "cottonwoods-of-north-america#cottonwood-river-systems-plate",
+          "type": "Naturepedia Riparian Ecology Plate™"
+        },
+        {
+          "name": "Cottonwood Wildlife Relationships Plate™",
+          "id": "cottonwoods-of-north-america#cottonwood-wildlife-relationships-plate",
+          "type": "Naturepedia Wildlife Ecology Plate™"
+        },
+        {
+          "name": "Cottonwood Floodplain Forest Plate™",
+          "id": "cottonwoods-of-north-america#cottonwood-floodplain-forest-plate",
+          "type": "Naturepedia Floodplain Ecology Plate™"
+        },
+        {
+          "name": "Cottonwood Ecological Restoration Plate™",
+          "id": "cottonwoods-of-north-america#cottonwood-ecological-restoration-plate",
+          "type": "Naturepedia Ecological Restoration Plate™"
+        },
+        {
+          "name": "Cottonwood Biodiversity Plate™",
+          "id": "cottonwoods-of-north-america#cottonwood-biodiversity-plate",
+          "type": "Naturepedia Biodiversity Plate™"
+        }
+      ]
+    },
+    {
+      "name": "Hickories of North America Plates",
+      "slug": "hickories-of-north-america",
+      "url": "https://www.robbiegeorgephotography.com/hickories-of-north-america",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/hickories-of-north-america",
+      "plates": [
+        {
+          "name": "Hickory Systems Plate™",
+          "id": "hickories-of-north-america#hickory-systems-plate",
+          "type": "Naturepedia Tree Family Systems Plate™"
+        },
+        {
+          "name": "Hickory Identification Plate™",
+          "id": "hickories-of-north-america#hickory-identification-plate",
+          "type": "Naturepedia Tree Identification Plate™"
+        },
+        {
+          "name": "Hickory Leaf Plate™",
+          "id": "hickories-of-north-america#hickory-leaf-plate",
+          "type": "Naturepedia Tree Identification Plate™"
+        },
+        {
+          "name": "Hickory Nut Plate™",
+          "id": "hickories-of-north-america#hickory-nut-plate",
+          "type": "Naturepedia Tree Identification Plate™"
+        },
+        {
+          "name": "Hickory Bark Plate™",
+          "id": "hickories-of-north-america#hickory-bark-plate",
+          "type": "Naturepedia Tree Identification Plate™"
+        },
+        {
+          "name": "Shagbark Hickory Plate™",
+          "id": "hickories-of-north-america#shagbark-hickory-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Shellbark Hickory Plate™",
+          "id": "hickories-of-north-america#shellbark-hickory-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Pignut Hickory Plate™",
+          "id": "hickories-of-north-america#pignut-hickory-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Mockernut Hickory Plate™",
+          "id": "hickories-of-north-america#mockernut-hickory-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Bitternut Hickory Plate™",
+          "id": "hickories-of-north-america#bitternut-hickory-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Hickory Wildlife Relationships Plate™",
+          "id": "hickories-of-north-america#hickory-wildlife-relationships-plate",
+          "type": "Naturepedia Wildlife Relationships Plate™"
+        },
+        {
+          "name": "Hickory Mast Production Plate™",
+          "id": "hickories-of-north-america#hickory-mast-production-plate",
+          "type": "Naturepedia Forest Ecology Plate™"
+        },
+        {
+          "name": "Hickory Forest Community Plate™",
+          "id": "hickories-of-north-america#hickory-forest-community-plate",
+          "type": "Naturepedia Forest Community Plate™"
+        },
+        {
+          "name": "Hickory Ecological Restoration Plate™",
+          "id": "hickories-of-north-america#hickory-ecological-restoration-plate",
+          "type": "Naturepedia Ecological Restoration Plate™"
+        },
+        {
+          "name": "Hickory Biodiversity Plate™",
+          "id": "hickories-of-north-america#hickory-biodiversity-plate",
+          "type": "Naturepedia Biodiversity Plate™"
+        }
+      ]
+    },
+    {
+      "name": "Yellowstone Thermal Features Plates",
+      "slug": "yellowstone-thermal-features",
+      "url": "https://www.robbiegeorgephotography.com/yellowstone-thermal-features",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/yellowstone-thermal-features",
+      "plates": [
+        {
+          "name": "Yellowstone Thermal Systems Plate™",
+          "id": "yellowstone-thermal-features#yellowstone-thermal-systems-plate",
+          "type": "Naturepedia Earth Systems Plate™"
+        },
+        {
+          "name": "Yellowstone Thermal Identification Plate™",
+          "id": "yellowstone-thermal-features#yellowstone-thermal-identification-plate",
+          "type": "Naturepedia Identification Plate™"
+        },
+        {
+          "name": "Yellowstone Geysers Plate™",
+          "id": "yellowstone-thermal-features#yellowstone-geysers-plate",
+          "type": "Naturepedia Geothermal Features Plate™"
+        },
+        {
+          "name": "Yellowstone Hot Springs Plate™",
+          "id": "yellowstone-thermal-features#yellowstone-hot-springs-plate",
+          "type": "Naturepedia Geothermal Features Plate™"
+        },
+        {
+          "name": "Yellowstone Mud Pots Plate™",
+          "id": "yellowstone-thermal-features#yellowstone-mud-pots-plate",
+          "type": "Naturepedia Geothermal Features Plate™"
+        },
+        {
+          "name": "Yellowstone Fumaroles Plate™",
+          "id": "yellowstone-thermal-features#yellowstone-fumaroles-plate",
+          "type": "Naturepedia Geothermal Features Plate™"
+        },
+        {
+          "name": "Old Faithful Plate™",
+          "id": "yellowstone-thermal-features#old-faithful-plate",
+          "type": "Naturepedia Yellowstone Landmark Plate™"
+        },
+        {
+          "name": "Grand Prismatic Spring Plate™",
+          "id": "yellowstone-thermal-features#grand-prismatic-spring-plate",
+          "type": "Naturepedia Yellowstone Landmark Plate™"
+        },
+        {
+          "name": "Mammoth Hot Springs Plate™",
+          "id": "yellowstone-thermal-features#mammoth-hot-springs-plate",
+          "type": "Naturepedia Yellowstone Landmark Plate™"
+        },
+        {
+          "name": "Norris Geyser Basin Plate™",
+          "id": "yellowstone-thermal-features#norris-geyser-basin-plate",
+          "type": "Naturepedia Yellowstone Landmark Plate™"
+        },
+        {
+          "name": "Yellowstone Microbial Life Plate™",
+          "id": "yellowstone-thermal-features#yellowstone-microbial-life-plate",
+          "type": "Naturepedia Microbial Ecology Plate™"
+        },
+        {
+          "name": "Yellowstone Thermal Ecology Plate™",
+          "id": "yellowstone-thermal-features#yellowstone-thermal-ecology-plate",
+          "type": "Naturepedia Ecology Plate™"
+        },
+        {
+          "name": "Yellowstone Water & Heat Systems Plate™",
+          "id": "yellowstone-thermal-features#yellowstone-water-heat-systems-plate",
+          "type": "Naturepedia Earth Systems Plate™"
+        },
+        {
+          "name": "Yellowstone Thermal Photography Plate™",
+          "id": "yellowstone-thermal-features#yellowstone-thermal-photography-plate",
+          "type": "Naturepedia Photography Plate™"
+        },
+        {
+          "name": "Yellowstone Earth Systems™",
+          "id": "yellowstone-thermal-features#yellowstone-earth-systems",
+          "type": "Naturepedia Earth Systems Layer™"
+        }
+      ]
+    },
+    {
+      "name": "Geothermal Ecosystems Plates",
+      "slug": "geothermal-ecosystems",
+      "url": "https://www.robbiegeorgephotography.com/geothermal-ecosystems",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/geothermal-ecosystems",
+      "plates": [
+        {
+          "name": "Geothermal Ecosystems Plate™",
+          "id": "geothermal-ecosystems#geothermal-ecosystems-plate",
+          "type": "Naturepedia Earth Systems Plate™"
+        },
+        {
+          "name": "Geothermal Identification Plate™",
+          "id": "geothermal-ecosystems#geothermal-identification-plate",
+          "type": "Naturepedia Geothermal Identification Plate™"
+        },
+        {
+          "name": "Geothermal Water Systems Plate™",
+          "id": "geothermal-ecosystems#geothermal-water-systems-plate",
+          "type": "Naturepedia Water Systems Plate™"
+        },
+        {
+          "name": "Thermophile Life Plate™",
+          "id": "geothermal-ecosystems#thermophile-life-plate",
+          "type": "Naturepedia Microbial Life Plate™"
+        },
+        {
+          "name": "Extremophile Life Plate™",
+          "id": "geothermal-ecosystems#extremophile-life-plate",
+          "type": "Naturepedia Life at the Limits Plate™"
+        },
+        {
+          "name": "Geothermal Microbial Mats Plate™",
+          "id": "geothermal-ecosystems#geothermal-microbial-mats-plate",
+          "type": "Naturepedia Microbial Ecology Plate™"
+        },
+        {
+          "name": "Geothermal Wildlife Relationships Plate™",
+          "id": "geothermal-ecosystems#geothermal-wildlife-relationships-plate",
+          "type": "Naturepedia Wildlife Relationships Plate™"
+        },
+        {
+          "name": "Geothermal Biodiversity Plate™",
+          "id": "geothermal-ecosystems#geothermal-biodiversity-plate",
+          "type": "Naturepedia Biodiversity Plate™"
+        },
+        {
+          "name": "Geothermal Ecosystem Services Plate™",
+          "id": "geothermal-ecosystems#geothermal-ecosystem-services-plate",
+          "type": "Naturepedia Ecosystem Services Plate™"
+        },
+        {
+          "name": "Hydrothermal Vent Ecosystems Plate™",
+          "id": "geothermal-ecosystems#hydrothermal-vent-ecosystems-plate",
+          "type": "Naturepedia Ocean Earth Systems Plate™"
+        },
+        {
+          "name": "Global Geothermal Regions Plate™",
+          "id": "geothermal-ecosystems#global-geothermal-regions-plate",
+          "type": "Naturepedia Global Earth Systems Plate™"
+        },
+        {
+          "name": "Geothermal Photography Plate™",
+          "id": "geothermal-ecosystems#geothermal-photography-plate",
+          "type": "Naturepedia Photography Plate™"
+        },
+        {
+          "name": "Geothermal Earth Systems™",
+          "id": "geothermal-ecosystems#geothermal-earth-systems",
+          "type": "Naturepedia Earth Systems Layer™"
+        }
+      ]
+    },
+    {
+      "name": "Microbial Life Systems Plates",
+      "slug": "microbial-life-systems",
+      "url": "https://www.robbiegeorgephotography.com/microbial-life-systems",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/microbial-life-systems",
+      "plates": [
+        {
+          "name": "Microbial Life Systems Plate™",
+          "id": "microbial-life-systems#microbial-life-systems-plate",
+          "type": "Naturepedia Earth Systems Plate™"
+        },
+        {
+          "name": "Microbial Identification Plate™",
+          "id": "microbial-life-systems#microbial-identification-plate",
+          "type": "Naturepedia Microbial Identification Plate™"
+        },
+        {
+          "name": "Bacteria Plate™",
+          "id": "microbial-life-systems#bacteria-plate",
+          "type": "Naturepedia Bacteria Plate™"
+        },
+        {
+          "name": "Archaea Plate™",
+          "id": "microbial-life-systems#archaea-plate",
+          "type": "Naturepedia Archaea Plate™"
+        },
+        {
+          "name": "Biofilms Plate™",
+          "id": "microbial-life-systems#biofilms-plate",
+          "type": "Naturepedia Microbial Community Plate™"
+        },
+        {
+          "name": "Microbial Mats Plate™",
+          "id": "microbial-life-systems#microbial-mats-plate",
+          "type": "Naturepedia Microbial Ecology Plate™"
+        },
+        {
+          "name": "Thermophiles Plate™",
+          "id": "microbial-life-systems#thermophiles-plate",
+          "type": "Naturepedia Extremophile Biology Plate™"
+        },
+        {
+          "name": "Extremophiles Plate™",
+          "id": "microbial-life-systems#extremophiles-plate",
+          "type": "Naturepedia Extremophile Life Plate™"
+        },
+        {
+          "name": "Photosynthesis Plate™",
+          "id": "microbial-life-systems#photosynthesis-plate",
+          "type": "Naturepedia Biological Energy Plate™"
+        },
+        {
+          "name": "Chemosynthesis Plate™",
+          "id": "microbial-life-systems#chemosynthesis-plate",
+          "type": "Naturepedia Chemosynthesis Plate™"
+        },
+        {
+          "name": "Nutrient Cycling Plate™",
+          "id": "microbial-life-systems#nutrient-cycling-plate",
+          "type": "Naturepedia Biogeochemical Cycles Plate™"
+        },
+        {
+          "name": "Microbial Biodiversity Plate™",
+          "id": "microbial-life-systems#microbial-biodiversity-plate",
+          "type": "Naturepedia Biodiversity Plate™"
+        },
+        {
+          "name": "Microbial Ecosystem Services Plate™",
+          "id": "microbial-life-systems#microbial-ecosystem-services-plate",
+          "type": "Naturepedia Ecosystem Services Plate™"
+        },
+        {
+          "name": "Origins of Life Plate™",
+          "id": "microbial-life-systems#origins-of-life-plate",
+          "type": "Naturepedia Origins of Life Plate™"
+        },
+        {
+          "name": "Microbial Photography Plate™",
+          "id": "microbial-life-systems#microbial-photography-plate",
+          "type": "Naturepedia Photography Plate™"
+        },
+        {
+          "name": "Microbial Life Systems™",
+          "id": "microbial-life-systems#microbial-life-systems",
+          "type": "Naturepedia Earth Systems Layer™"
+        }
+      ]
+    },
+    {
+      "name": "Volcanic Landscapes Plates",
+      "slug": "volcanic-landscapes",
+      "url": "https://www.robbiegeorgephotography.com/volcanic-landscapes",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/volcanic-landscapes",
+      "plates": [
+        {
+          "name": "Volcanic Landscapes Plate™",
+          "id": "volcanic-landscapes#volcanic-landscapes-plate",
+          "type": "Naturepedia Systems Plate™"
+        },
+        {
+          "name": "Magma Chambers Plate™",
+          "id": "volcanic-landscapes#magma-chambers-plate",
+          "type": "Naturepedia Earth Systems Plate™"
+        },
+        {
+          "name": "Volcanic Islands Plate™",
+          "id": "volcanic-landscapes#volcanic-islands-plate",
+          "type": "Naturepedia Earth Systems Plate™"
+        },
+        {
+          "name": "Plate Tectonics Plate™",
+          "id": "volcanic-landscapes#plate-tectonics-plate",
+          "type": "Naturepedia Earth Systems Plate™"
+        },
+        {
+          "name": "Ring of Fire Plate™",
+          "id": "volcanic-landscapes#ring-of-fire-plate",
+          "type": "Naturepedia Earth Systems Plate™"
+        },
+        {
+          "name": "Volcano Identification Plate™",
+          "id": "volcanic-landscapes#volcano-identification-plate",
+          "type": "Naturepedia Identification Plate™"
+        },
+        {
+          "name": "Lava Flows Plate™",
+          "id": "volcanic-landscapes#lava-flows-plate",
+          "type": "Naturepedia Geology Plate™"
+        },
+        {
+          "name": "Volcanic Eruptions Plate™",
+          "id": "volcanic-landscapes#volcanic-eruptions-plate",
+          "type": "Naturepedia Geology Plate™"
+        },
+        {
+          "name": "Calderas Plate™",
+          "id": "volcanic-landscapes#calderas-plate",
+          "type": "Naturepedia Geology Plate™"
+        },
+        {
+          "name": "Supervolcanoes Plate™",
+          "id": "volcanic-landscapes#supervolcanoes-plate",
+          "type": "Naturepedia Geology Plate™"
+        },
+        {
+          "name": "Volcanic Soils Plate™",
+          "id": "volcanic-landscapes#volcanic-soils-plate",
+          "type": "Naturepedia Ecosystem Processes Plate™"
+        },
+        {
+          "name": "Volcanic Ecosystems Plate™",
+          "id": "volcanic-landscapes#volcanic-ecosystems-plate",
+          "type": "Naturepedia Ecosystem Plate™"
+        },
+        {
+          "name": "Volcanic Succession Plate™",
+          "id": "volcanic-landscapes#volcanic-succession-plate",
+          "type": "Naturepedia Ecological Succession Plate™"
+        },
+        {
+          "name": "Volcanic Biodiversity Plate™",
+          "id": "volcanic-landscapes#volcanic-biodiversity-plate",
+          "type": "Naturepedia Biodiversity Plate™"
+        },
+        {
+          "name": "Volcanic Hazards Plate™",
+          "id": "volcanic-landscapes#volcanic-hazards-plate",
+          "type": "Naturepedia Hazard Systems Plate™"
+        },
+        {
+          "name": "Volcanic Photography Plate™",
+          "id": "volcanic-landscapes#volcanic-photography-plate",
+          "type": "Naturepedia Photography Plate™"
+        },
+        {
+          "name": "Volcanoes Beyond Earth Plate™",
+          "id": "volcanic-landscapes#volcanoes-beyond-earth-plate",
+          "type": "Naturepedia Planetary Geology Plate™"
+        }
+      ]
     },
     {
-      "name": "Aspen Identification Plate™",
-      "id": "aspens-of-north-america#aspen-identification-plate",
-      "type": "Naturepedia Tree Identification Plate™"
-    },
-    {
-      "name": "Aspen Leaf Plate™",
-      "id": "aspens-of-north-america#aspen-leaf-plate",
-      "type": "Naturepedia Leaf Identification Plate™"
-    },
-    {
-      "name": "Aspen Bark Plate™",
-      "id": "aspens-of-north-america#aspen-bark-plate",
-      "type": "Naturepedia Bark Identification Plate™"
-    },
-    {
-      "name": "Quaking Aspen Plate™",
-      "id": "aspens-of-north-america#quaking-aspen-plate",
-      "type": "Naturepedia Species Plate™"
-    },
-    {
-      "name": "Bigtooth Aspen Plate™",
-      "id": "aspens-of-north-america#bigtooth-aspen-plate",
-      "type": "Naturepedia Species Plate™"
-    },
-    {
-      "name": "Aspen Clonal Colony Plate™",
-      "id": "aspens-of-north-america#aspen-clonal-colony-plate",
-      "type": "Naturepedia Ecological Systems Plate™"
-    },
-    {
-      "name": "Aspen Wildlife Relationships Plate™",
-      "id": "aspens-of-north-america#aspen-wildlife-relationships-plate",
-      "type": "Naturepedia Wildlife Relationships Plate™"
-    },
-    {
-      "name": "Aspen Forest Succession Plate™",
-      "id": "aspens-of-north-america#aspen-forest-succession-plate",
-      "type": "Naturepedia Forest Succession Plate™"
-    },
-    {
-      "name": "Aspen Wildfire Recovery Plate™",
-      "id": "aspens-of-north-america#aspen-wildfire-recovery-plate",
-      "type": "Naturepedia Ecological Recovery Plate™"
-    },
-    {
-      "name": "Aspen Biodiversity Plate™",
-      "id": "aspens-of-north-america#aspen-biodiversity-plate",
-      "type": "Naturepedia Biodiversity Plate™"
-    },
-    {
-      "name": "Aspen Carbon Storage Plate™",
-      "id": "aspens-of-north-america#aspen-carbon-storage-plate",
-      "type": "Naturepedia Carbon Systems Plate™"
-    },
-    {
-      "name": "Aspen Forest Artist Rendition Plate™",
-      "id": "aspens-of-north-america#aspen-forest-artist-rendition-plate",
-      "type": "Naturepedia Artist Rendition Plate™"
-    },
-    {
-      "name": "Aspen Root Colony Artist Rendition Plate™",
-      "id": "aspens-of-north-america#aspen-root-colony-artist-rendition-plate",
-      "type": "Naturepedia Artist Rendition Plate™"
-    },
-    {
-      "name": "Golden Aspen Canopy Artist Rendition Plate™",
-      "id": "aspens-of-north-america#golden-aspen-canopy-artist-rendition-plate",
-      "type": "Naturepedia Artist Rendition Plate™"
-    }
-  ]
-  },
-  {
-  "name": "Pines of North America Plates",
-  "slug": "pines-of-north-america",
-  "url": "https://www.robbiegeorgephotography.com/pines-of-north-america",
-  "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/pines-of-north-america",
-  "plates": [
-    {
-      "name": "Pine Systems Plate™",
-      "id": "pines-of-north-america#pine-systems-plate",
-      "type": "Naturepedia Tree Family Systems Plate™"
-    },
-    {
-      "name": "Pine Identification Plate™",
-      "id": "pines-of-north-america#pine-identification-plate",
-      "type": "Naturepedia Tree Identification Plate™"
-    },
-    {
-      "name": "Pine Needle Plate™",
-      "id": "pines-of-north-america#pine-needle-plate",
-      "type": "Naturepedia Tree Identification Plate™"
-    },
-    {
-      "name": "Pine Cone Plate™",
-      "id": "pines-of-north-america#pine-cone-plate",
-      "type": "Naturepedia Tree Reproduction & Identification Plate™"
-    },
-    {
-      "name": "Pine Bark Plate™",
-      "id": "pines-of-north-america#pine-bark-plate",
-      "type": "Naturepedia Tree Identification & Adaptation Plate™"
-    },
-    {
-      "name": "Eastern White Pine Plate™",
-      "id": "pines-of-north-america#eastern-white-pine-plate",
-      "type": "Naturepedia Tree Species Plate™"
-    },
-    {
-      "name": "Ponderosa Pine Plate™",
-      "id": "pines-of-north-america#ponderosa-pine-plate",
-      "type": "Naturepedia Tree Species Plate™"
-    },
-    {
-      "name": "Lodgepole Pine Plate™",
-      "id": "pines-of-north-america#lodgepole-pine-plate",
-      "type": "Naturepedia Tree Species Plate™"
-    },
-    {
-      "name": "Longleaf Pine Plate™",
-      "id": "pines-of-north-america#longleaf-pine-plate",
-      "type": "Naturepedia Tree Species Plate™"
-    },
-    {
-      "name": "Pine Cone Ecology Plate™",
-      "id": "pines-of-north-america#pine-cone-ecology-plate",
-      "type": "Naturepedia Tree Reproduction & Ecology Plate™"
-    },
-    {
-      "name": "Pine Wildlife Relationships Plate™",
-      "id": "pines-of-north-america#pine-wildlife-relationships-plate",
-      "type": "Naturepedia Wildlife Relationships Plate™"
-    },
-    {
-      "name": "Pine Fire Ecology Plate™",
-      "id": "pines-of-north-america#pine-fire-ecology-plate",
-      "type": "Naturepedia Forest Fire Ecology Plate™"
-    },
-    {
-      "name": "Pine Forest Community Plate™",
-      "id": "pines-of-north-america#pine-forest-community-plate",
-      "type": "Naturepedia Forest Community Plate™"
-    },
-    {
-      "name": "Pine Carbon Storage Plate™",
-      "id": "pines-of-north-america#pine-carbon-storage-plate",
-      "type": "Naturepedia Climate & Carbon Plate™"
-    },
-    {
-      "name": "Pine Forest Artist Rendition Plate™",
-      "id": "pines-of-north-america#pine-forest-artist-rendition-plate",
-      "type": "Naturepedia Artist Rendition Plate™"
-    },
-    {
-      "name": "Pine Cone Artist Rendition Plate™",
-      "id": "pines-of-north-america#pine-cone-artist-rendition-plate",
-      "type": "Naturepedia Artist Rendition Plate™"
-    },
-    {
-      "name": "Mountain Pine Forest Artist Rendition Plate™",
-      "id": "pines-of-north-america#mountain-pine-forest-artist-rendition-plate",
-      "type": "Naturepedia Artist Rendition Plate™"
-    }
-  ]
-},
-  {
-  "name": "Spruces of North America Plates",
-  "slug": "spruces-of-north-america",
-  "url": "https://www.robbiegeorgephotography.com/spruces-of-north-america",
-  "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/spruces-of-north-america",
-  "plates": [
-    {
-      "name": "Spruce Systems Plate™",
-      "id": "spruces-of-north-america#spruce-systems-plate",
-      "type": "Naturepedia Tree Family Plate™"
-    },
-    {
-      "name": "Spruce Identification Plate™",
-      "id": "spruces-of-north-america#spruce-identification-plate",
-      "type": "Naturepedia Tree Identification Plate™"
-    },
-    {
-      "name": "Spruce Needle Plate™",
-      "id": "spruces-of-north-america#spruce-needle-plate",
-      "type": "Naturepedia Tree Identification Plate™"
-    },
-    {
-      "name": "Spruce Cone Plate™",
-      "id": "spruces-of-north-america#spruce-cone-plate",
-      "type": "Naturepedia Tree Identification Plate™"
-    },
-    {
-      "name": "Spruce Bark Plate™",
-      "id": "spruces-of-north-america#spruce-bark-plate",
-      "type": "Naturepedia Bark Identification Plate™"
-    },
-    {
-      "name": "White Spruce Plate™",
-      "id": "spruces-of-north-america#white-spruce-plate",
-      "type": "Naturepedia Species Plate™"
-    },
-    {
-      "name": "Black Spruce Plate™",
-      "id": "spruces-of-north-america#black-spruce-plate",
-      "type": "Naturepedia Species Plate™"
-    },
-    {
-      "name": "Red Spruce Plate™",
-      "id": "spruces-of-north-america#red-spruce-plate",
-      "type": "Naturepedia Species Plate™"
-    },
-    {
-      "name": "Engelmann Spruce Plate™",
-      "id": "spruces-of-north-america#engelmann-spruce-plate",
-      "type": "Naturepedia Species Plate™"
-    },
-    {
-      "name": "Spruce Boreal Forest Plate™",
-      "id": "spruces-of-north-america#spruce-boreal-forest-plate",
-      "type": "Naturepedia Boreal Forest Plate™"
-    },
-    {
-      "name": "Spruce Wildlife Relationships Plate™",
-      "id": "spruces-of-north-america#spruce-wildlife-relationships-plate",
-      "type": "Naturepedia Wildlife Relationship Plate™"
-    },
-    {
-      "name": "Spruce Forest Community Plate™",
-      "id": "spruces-of-north-america#spruce-forest-community-plate",
-      "type": "Naturepedia Forest Community Plate™"
-    },
-    {
-      "name": "Spruce Carbon Storage Plate™",
-      "id": "spruces-of-north-america#spruce-carbon-storage-plate",
-      "type": "Naturepedia Carbon Systems Plate™"
-    },
-    {
-      "name": "Spruce Climate Resilience Plate™",
-      "id": "spruces-of-north-america#spruce-climate-resilience-plate",
-      "type": "Naturepedia Climate Resilience Plate™"
-    }
-  ]
-},
-  {
-  "name": "Firs of North America Plates",
-  "slug": "firs-of-north-america",
-  "url": "https://www.robbiegeorgephotography.com/firs-of-north-america",
-  "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/firs-of-north-america",
-  "plates": [
-    {
-      "name": "Fir Systems Plate™",
-      "id": "firs-of-north-america#fir-systems-plate",
-      "type": "Naturepedia Tree Family Plate™"
-    },
-    {
-      "name": "Fir Identification Plate™",
-      "id": "firs-of-north-america#fir-identification-plate",
-      "type": "Naturepedia Tree Identification Plate™"
-    },
-    {
-      "name": "Fir Needle Plate™",
-      "id": "firs-of-north-america#fir-needle-plate",
-      "type": "Naturepedia Tree Identification Plate™"
-    },
-    {
-      "name": "Fir Cone Plate™",
-      "id": "firs-of-north-america#fir-cone-plate",
-      "type": "Naturepedia Tree Identification Plate™"
-    },
-    {
-      "name": "Fir Bark Plate™",
-      "id": "firs-of-north-america#fir-bark-plate",
-      "type": "Naturepedia Bark Identification Plate™"
-    },
-    {
-      "name": "Balsam Fir Plate™",
-      "id": "firs-of-north-america#balsam-fir-plate",
-      "type": "Naturepedia Species Plate™"
-    },
-    {
-      "name": "Fraser Fir Plate™",
-      "id": "firs-of-north-america#fraser-fir-plate",
-      "type": "Naturepedia Species Plate™"
-    },
-    {
-      "name": "Noble Fir Plate™",
-      "id": "firs-of-north-america#noble-fir-plate",
-      "type": "Naturepedia Species Plate™"
-    },
-    {
-      "name": "Subalpine Fir Plate™",
-      "id": "firs-of-north-america#subalpine-fir-plate",
-      "type": "Naturepedia Species Plate™"
-    },
-    {
-      "name": "Grand Fir Plate™",
-      "id": "firs-of-north-america#grand-fir-plate",
-      "type": "Naturepedia Species Plate™"
-    },
-    {
-      "name": "Fir Mountain Forest Plate™",
-      "id": "firs-of-north-america#fir-mountain-forest-plate",
-      "type": "Naturepedia Mountain Forest Plate™"
-    },
-    {
-      "name": "Fir Wildlife Relationships Plate™",
-      "id": "firs-of-north-america#fir-wildlife-relationships-plate",
-      "type": "Naturepedia Wildlife Relationship Plate™"
-    },
-    {
-      "name": "Fir Snowpack Ecology Plate™",
-      "id": "firs-of-north-america#fir-snowpack-ecology-plate",
-      "type": "Naturepedia Water & Snowpack Systems Plate™"
-    },
-    {
-      "name": "Fir Forest Community Plate™",
-      "id": "firs-of-north-america#fir-forest-community-plate",
-      "type": "Naturepedia Forest Community Plate™"
-    },
-    {
-      "name": "Fir Carbon Storage Plate™",
-      "id": "firs-of-north-america#fir-carbon-storage-plate",
-      "type": "Naturepedia Carbon Systems Plate™"
-    },
-    {
-      "name": "Fir Climate Resilience Plate™",
-      "id": "firs-of-north-america#fir-climate-resilience-plate",
-      "type": "Naturepedia Climate Resilience Plate™"
-    }
-  ]
-},
-  {
-  "name": "Hemlocks of North America Plates",
-  "slug": "hemlocks-of-north-america",
-  "url": "https://www.robbiegeorgephotography.com/hemlocks-of-north-america",
-  "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/hemlocks-of-north-america",
-  "plates": [
-    {
-      "name": "Hemlock Systems Plate™",
-      "id": "hemlocks-of-north-america#hemlock-systems-plate",
-      "type": "Naturepedia Tree Family Plate™"
-    },
-    {
-      "name": "Hemlock Identification Plate™",
-      "id": "hemlocks-of-north-america#hemlock-identification-plate",
-      "type": "Naturepedia Tree Identification Plate™"
-    },
-    {
-      "name": "Hemlock Needle Plate™",
-      "id": "hemlocks-of-north-america#hemlock-needle-plate",
-      "type": "Naturepedia Tree Identification Plate™"
-    },
-    {
-      "name": "Hemlock Cone Plate™",
-      "id": "hemlocks-of-north-america#hemlock-cone-plate",
-      "type": "Naturepedia Tree Identification Plate™"
-    },
-    {
-      "name": "Hemlock Bark Plate™",
-      "id": "hemlocks-of-north-america#hemlock-bark-plate",
-      "type": "Naturepedia Bark Identification Plate™"
-    },
-    {
-      "name": "Eastern Hemlock Plate™",
-      "id": "hemlocks-of-north-america#eastern-hemlock-plate",
-      "type": "Naturepedia Species Plate™"
-    },
-    {
-      "name": "Western Hemlock Plate™",
-      "id": "hemlocks-of-north-america#western-hemlock-plate",
-      "type": "Naturepedia Species Plate™"
-    },
-    {
-      "name": "Mountain Hemlock Plate™",
-      "id": "hemlocks-of-north-america#mountain-hemlock-plate",
-      "type": "Naturepedia Species Plate™"
-    },
-    {
-      "name": "Carolina Hemlock Plate™",
-      "id": "hemlocks-of-north-america#carolina-hemlock-plate",
-      "type": "Naturepedia Species Plate™"
-    },
-    {
-      "name": "Hemlock Stream Ecology Plate™",
-      "id": "hemlocks-of-north-america#hemlock-stream-ecology-plate",
-      "type": "Naturepedia Watershed Plate™"
-    },
-    {
-      "name": "Hemlock Wildlife Relationships Plate™",
-      "id": "hemlocks-of-north-america#hemlock-wildlife-relationships-plate",
-      "type": "Naturepedia Wildlife Relationship Plate™"
-    },
-    {
-      "name": "Hemlock Forest Community Plate™",
-      "id": "hemlocks-of-north-america#hemlock-forest-community-plate",
-      "type": "Naturepedia Forest Community Plate™"
-    },
-    {
-      "name": "Hemlock Carbon Storage Plate™",
-      "id": "hemlocks-of-north-america#hemlock-carbon-storage-plate",
-      "type": "Naturepedia Carbon Systems Plate™"
-    },
-    {
-      "name": "Hemlock Conservation Plate™",
-      "id": "hemlocks-of-north-america#hemlock-conservation-plate",
-      "type": "Naturepedia Conservation Plate™"
-    }
-  ]
-},
-  {
-  "name": "Cedars of North America Plates",
-  "slug": "cedars-of-north-america",
-  "url": "https://www.robbiegeorgephotography.com/cedars-of-north-america",
-  "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/cedars-of-north-america",
-  "plates": [
-    {
-      "name": "Cedar Systems Plate™",
-      "id": "cedars-of-north-america#cedar-systems-plate",
-      "type": "Naturepedia Tree Family Systems Plate™"
-    },
-    {
-      "name": "Cedar Identification Plate™",
-      "id": "cedars-of-north-america#cedar-identification-plate",
-      "type": "Naturepedia Tree Identification Plate™"
-    },
-    {
-      "name": "Cedar Leaf Plate™",
-      "id": "cedars-of-north-america#cedar-leaf-plate",
-      "type": "Naturepedia Tree Identification Plate™"
-    },
-    {
-      "name": "Cedar Cone Plate™",
-      "id": "cedars-of-north-america#cedar-cone-plate",
-      "type": "Naturepedia Tree Identification Plate™"
-    },
-    {
-      "name": "Cedar Bark Plate™",
-      "id": "cedars-of-north-america#cedar-bark-plate",
-      "type": "Naturepedia Tree Identification Plate™"
-    },
-    {
-      "name": "Eastern Red Cedar Plate™",
-      "id": "cedars-of-north-america#eastern-red-cedar-plate",
-      "type": "Naturepedia Tree Species Plate™"
-    },
-    {
-      "name": "Northern White Cedar Plate™",
-      "id": "cedars-of-north-america#northern-white-cedar-plate",
-      "type": "Naturepedia Tree Species Plate™"
-    },
-    {
-      "name": "Western Red Cedar Plate™",
-      "id": "cedars-of-north-america#western-red-cedar-plate",
-      "type": "Naturepedia Tree Species Plate™"
-    },
-    {
-      "name": "Incense Cedar Plate™",
-      "id": "cedars-of-north-america#incense-cedar-plate",
-      "type": "Naturepedia Tree Species Plate™"
-    },
-    {
-      "name": "Cedar Swamp Forest Plate™",
-      "id": "cedars-of-north-america#cedar-swamp-forest-plate",
-      "type": "Naturepedia Forest Ecology Plate™"
-    },
-    {
-      "name": "Cedar Wildlife Relationships Plate™",
-      "id": "cedars-of-north-america#cedar-wildlife-relationships-plate",
-      "type": "Naturepedia Wildlife Relationships Plate™"
-    },
-    {
-      "name": "Cedar Forest Community Plate™",
-      "id": "cedars-of-north-america#cedar-forest-community-plate",
-      "type": "Naturepedia Forest Community Plate™"
-    },
-    {
-      "name": "Cedar Carbon Storage Plate™",
-      "id": "cedars-of-north-america#cedar-carbon-storage-plate",
-      "type": "Naturepedia Carbon Systems Plate™"
-    },
-    {
-      "name": "Cedar Climate Resilience Plate™",
-      "id": "cedars-of-north-america#cedar-climate-resilience-plate",
-      "type": "Naturepedia Climate Resilience Plate™"
-    }
-  ]
-},
-  {
-  "name": "Cypress Trees of North America Plates",
-  "slug": "cypress-trees-of-north-america",
-  "url": "https://www.robbiegeorgephotography.com/cypress-trees-of-north-america",
-  "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/cypress-trees-of-north-america",
-  "plates": [
-    {
-      "name": "Cypress Systems Plate™",
-      "id": "cypress-trees-of-north-america#cypress-systems-plate",
-      "type": "Naturepedia Tree Family Plate™"
-    },
-    {
-      "name": "Cypress Identification Plate™",
-      "id": "cypress-trees-of-north-america#cypress-identification-plate",
-      "type": "Naturepedia Tree Identification Plate™"
-    },
-    {
-      "name": "Cypress Leaf Plate™",
-      "id": "cypress-trees-of-north-america#cypress-leaf-plate",
-      "type": "Naturepedia Tree Identification Plate™"
-    },
-    {
-      "name": "Cypress Cone Plate™",
-      "id": "cypress-trees-of-north-america#cypress-cone-plate",
-      "type": "Naturepedia Tree Identification Plate™"
-    },
-    {
-      "name": "Cypress Bark & Knee Plate™",
-      "id": "cypress-trees-of-north-america#cypress-bark-knee-plate",
-      "type": "Naturepedia Bark & Root Adaptation Plate™"
-    },
-    {
-      "name": "Bald Cypress Plate™",
-      "id": "cypress-trees-of-north-america#bald-cypress-plate",
-      "type": "Naturepedia Species Plate™"
-    },
-    {
-      "name": "Pond Cypress Plate™",
-      "id": "cypress-trees-of-north-america#pond-cypress-plate",
-      "type": "Naturepedia Species Plate™"
-    },
-    {
-      "name": "Monterey Cypress Plate™",
-      "id": "cypress-trees-of-north-america#monterey-cypress-plate",
-      "type": "Naturepedia Species Plate™"
-    },
-    {
-      "name": "Arizona Cypress Plate™",
-      "id": "cypress-trees-of-north-america#arizona-cypress-plate",
-      "type": "Naturepedia Species Plate™"
-    },
-    {
-      "name": "Atlantic White Cedar Plate™",
-      "id": "cypress-trees-of-north-america#atlantic-white-cedar-plate",
-      "type": "Naturepedia Species Plate™"
-    },
-    {
-      "name": "Cypress Swamp Forest Plate™",
-      "id": "cypress-trees-of-north-america#cypress-swamp-forest-plate",
-      "type": "Naturepedia Wetland Forest Plate™"
-    },
-    {
-      "name": "Cypress Wildlife Relationships Plate™",
-      "id": "cypress-trees-of-north-america#cypress-wildlife-relationships-plate",
-      "type": "Naturepedia Wildlife Relationship Plate™"
-    },
-    {
-      "name": "Cypress Water Storage Plate™",
-      "id": "cypress-trees-of-north-america#cypress-water-storage-plate",
-      "type": "Naturepedia Water Systems Plate™"
-    },
-    {
-      "name": "Cypress Forest Community Plate™",
-      "id": "cypress-trees-of-north-america#cypress-forest-community-plate",
-      "type": "Naturepedia Forest Community Plate™"
-    },
-    {
-      "name": "Cypress Carbon Storage Plate™",
-      "id": "cypress-trees-of-north-america#cypress-carbon-storage-plate",
-      "type": "Naturepedia Carbon Systems Plate™"
-    },
-    {
-      "name": "Cypress Climate Resilience Plate™",
-      "id": "cypress-trees-of-north-america#cypress-climate-resilience-plate",
-      "type": "Naturepedia Climate Resilience Plate™"
-    }
-  ]
-},
-  {
-  "name": "Willows of North America Plates",
-  "slug": "willows-of-north-america",
-  "url": "https://www.robbiegeorgephotography.com/willows-of-north-america",
-  "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/willows-of-north-america",
-  "plates": [
-    {
-      "name": "Willow Systems Plate™",
-      "id": "willows-of-north-america#willow-systems-plate",
-      "type": "Naturepedia Tree Family Systems Plate™"
-    },
-    {
-      "name": "Willow Identification Plate™",
-      "id": "willows-of-north-america#willow-identification-plate",
-      "type": "Naturepedia Tree Identification Plate™"
-    },
-    {
-      "name": "Willow Leaf Plate™",
-      "id": "willows-of-north-america#willow-leaf-plate",
-      "type": "Naturepedia Leaf Identification Plate™"
-    },
-    {
-      "name": "Willow Catkin Plate™",
-      "id": "willows-of-north-america#willow-catkin-plate",
-      "type": "Naturepedia Reproductive Structures Plate™"
-    },
-    {
-      "name": "Willow Bark Plate™",
-      "id": "willows-of-north-america#willow-bark-plate",
-      "type": "Naturepedia Bark Identification Plate™"
-    },
-    {
-      "name": "Black Willow Plate™",
-      "id": "willows-of-north-america#black-willow-plate",
-      "type": "Naturepedia Species Profile Plate™"
-    },
-    {
-      "name": "Bebb Willow Plate™",
-      "id": "willows-of-north-america#bebb-willow-plate",
-      "type": "Naturepedia Species Profile Plate™"
-    },
-    {
-      "name": "Scouler Willow Plate™",
-      "id": "willows-of-north-america#scouler-willow-plate",
-      "type": "Naturepedia Species Profile Plate™"
-    },
-    {
-      "name": "Peachleaf Willow Plate™",
-      "id": "willows-of-north-america#peachleaf-willow-plate",
-      "type": "Naturepedia Species Profile Plate™"
-    },
-    {
-      "name": "Willow Riparian Systems Plate™",
-      "id": "willows-of-north-america#willow-riparian-systems-plate",
-      "type": "Naturepedia Riparian Ecology Plate™"
-    },
-    {
-      "name": "Willow Wildlife Relationships Plate™",
-      "id": "willows-of-north-america#willow-wildlife-relationships-plate",
-      "type": "Naturepedia Wildlife Relationships Plate™"
-    },
-    {
-      "name": "Willow Beaver Relationships Plate™",
-      "id": "willows-of-north-america#willow-beaver-relationships-plate",
-      "type": "Naturepedia Ecological Relationships Plate™"
-    },
-    {
-      "name": "Willow Ecological Restoration Plate™",
-      "id": "willows-of-north-america#willow-ecological-restoration-plate",
-      "type": "Naturepedia Ecological Restoration Plate™"
-    },
-    {
-      "name": "Willow Biodiversity Plate™",
-      "id": "willows-of-north-america#willow-biodiversity-plate",
-      "type": "Naturepedia Biodiversity Plate™"
-    }
-  ]
-},
-  {
-  "name": "Cottonwoods of North America Plates",
-  "slug": "cottonwoods-of-north-america",
-  "url": "https://www.robbiegeorgephotography.com/cottonwoods-of-north-america",
-  "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/cottonwoods-of-north-america",
-  "plates": [
-    {
-      "name": "Cottonwood Systems Plate™",
-      "id": "cottonwoods-of-north-america#cottonwood-systems-plate",
-      "type": "Naturepedia Tree Family Systems Plate™"
-    },
-    {
-      "name": "Cottonwood Identification Plate™",
-      "id": "cottonwoods-of-north-america#cottonwood-identification-plate",
-      "type": "Naturepedia Tree Identification Plate™"
-    },
-    {
-      "name": "Cottonwood Leaf Plate™",
-      "id": "cottonwoods-of-north-america#cottonwood-leaf-plate",
-      "type": "Naturepedia Tree Identification Plate™"
-    },
-    {
-      "name": "Cottonwood Seed Plate™",
-      "id": "cottonwoods-of-north-america#cottonwood-seed-plate",
-      "type": "Naturepedia Tree Reproduction Plate™"
-    },
-    {
-      "name": "Cottonwood Bark Plate™",
-      "id": "cottonwoods-of-north-america#cottonwood-bark-plate",
-      "type": "Naturepedia Tree Identification Plate™"
-    },
-    {
-      "name": "Eastern Cottonwood Plate™",
-      "id": "cottonwoods-of-north-america#eastern-cottonwood-plate",
-      "type": "Naturepedia Species Plate™"
-    },
-    {
-      "name": "Fremont Cottonwood Plate™",
-      "id": "cottonwoods-of-north-america#fremont-cottonwood-plate",
-      "type": "Naturepedia Species Plate™"
-    },
-    {
-      "name": "Black Cottonwood Plate™",
-      "id": "cottonwoods-of-north-america#black-cottonwood-plate",
-      "type": "Naturepedia Species Plate™"
-    },
-    {
-      "name": "Plains Cottonwood Plate™",
-      "id": "cottonwoods-of-north-america#plains-cottonwood-plate",
-      "type": "Naturepedia Species Plate™"
-    },
-    {
-      "name": "Cottonwood River Systems Plate™",
-      "id": "cottonwoods-of-north-america#cottonwood-river-systems-plate",
-      "type": "Naturepedia Riparian Ecology Plate™"
-    },
-    {
-      "name": "Cottonwood Wildlife Relationships Plate™",
-      "id": "cottonwoods-of-north-america#cottonwood-wildlife-relationships-plate",
-      "type": "Naturepedia Wildlife Ecology Plate™"
-    },
-    {
-      "name": "Cottonwood Floodplain Forest Plate™",
-      "id": "cottonwoods-of-north-america#cottonwood-floodplain-forest-plate",
-      "type": "Naturepedia Floodplain Ecology Plate™"
-    },
-    {
-      "name": "Cottonwood Ecological Restoration Plate™",
-      "id": "cottonwoods-of-north-america#cottonwood-ecological-restoration-plate",
-      "type": "Naturepedia Ecological Restoration Plate™"
-    },
-    {
-      "name": "Cottonwood Biodiversity Plate™",
-      "id": "cottonwoods-of-north-america#cottonwood-biodiversity-plate",
-      "type": "Naturepedia Biodiversity Plate™"
-    }
-  ]
-},
-  {
-  "name": "Hickories of North America Plates",
-  "slug": "hickories-of-north-america",
-  "url": "https://www.robbiegeorgephotography.com/hickories-of-north-america",
-  "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/hickories-of-north-america",
-  "plates": [
-    {
-      "name": "Hickory Systems Plate™",
-      "id": "hickories-of-north-america#hickory-systems-plate",
-      "type": "Naturepedia Tree Family Systems Plate™"
-    },
-    {
-      "name": "Hickory Identification Plate™",
-      "id": "hickories-of-north-america#hickory-identification-plate",
-      "type": "Naturepedia Tree Identification Plate™"
-    },
-    {
-      "name": "Hickory Leaf Plate™",
-      "id": "hickories-of-north-america#hickory-leaf-plate",
-      "type": "Naturepedia Tree Identification Plate™"
-    },
-    {
-      "name": "Hickory Nut Plate™",
-      "id": "hickories-of-north-america#hickory-nut-plate",
-      "type": "Naturepedia Tree Identification Plate™"
-    },
-    {
-      "name": "Hickory Bark Plate™",
-      "id": "hickories-of-north-america#hickory-bark-plate",
-      "type": "Naturepedia Tree Identification Plate™"
-    },
-    {
-      "name": "Shagbark Hickory Plate™",
-      "id": "hickories-of-north-america#shagbark-hickory-plate",
-      "type": "Naturepedia Species Plate™"
-    },
-    {
-      "name": "Shellbark Hickory Plate™",
-      "id": "hickories-of-north-america#shellbark-hickory-plate",
-      "type": "Naturepedia Species Plate™"
-    },
-    {
-      "name": "Pignut Hickory Plate™",
-      "id": "hickories-of-north-america#pignut-hickory-plate",
-      "type": "Naturepedia Species Plate™"
-    },
-    {
-      "name": "Mockernut Hickory Plate™",
-      "id": "hickories-of-north-america#mockernut-hickory-plate",
-      "type": "Naturepedia Species Plate™"
-    },
-    {
-      "name": "Bitternut Hickory Plate™",
-      "id": "hickories-of-north-america#bitternut-hickory-plate",
-      "type": "Naturepedia Species Plate™"
-    },
-    {
-      "name": "Hickory Wildlife Relationships Plate™",
-      "id": "hickories-of-north-america#hickory-wildlife-relationships-plate",
-      "type": "Naturepedia Wildlife Relationships Plate™"
-    },
-    {
-      "name": "Hickory Mast Production Plate™",
-      "id": "hickories-of-north-america#hickory-mast-production-plate",
-      "type": "Naturepedia Forest Ecology Plate™"
-    },
-    {
-      "name": "Hickory Forest Community Plate™",
-      "id": "hickories-of-north-america#hickory-forest-community-plate",
-      "type": "Naturepedia Forest Community Plate™"
-    },
-    {
-      "name": "Hickory Ecological Restoration Plate™",
-      "id": "hickories-of-north-america#hickory-ecological-restoration-plate",
-      "type": "Naturepedia Ecological Restoration Plate™"
-    },
-    {
-      "name": "Hickory Biodiversity Plate™",
-      "id": "hickories-of-north-america#hickory-biodiversity-plate",
-      "type": "Naturepedia Biodiversity Plate™"
-    }
-  ]
-},
-  {
-  "name": "Yellowstone Thermal Features Plates",
-  "slug": "yellowstone-thermal-features",
-  "url": "https://www.robbiegeorgephotography.com/yellowstone-thermal-features",
-  "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/yellowstone-thermal-features",
-  "plates": [
-    {
-      "name": "Yellowstone Thermal Systems Plate™",
-      "id": "yellowstone-thermal-features#yellowstone-thermal-systems-plate",
-      "type": "Naturepedia Earth Systems Plate™"
-    },
-    {
-      "name": "Yellowstone Thermal Identification Plate™",
-      "id": "yellowstone-thermal-features#yellowstone-thermal-identification-plate",
-      "type": "Naturepedia Identification Plate™"
-    },
-    {
-      "name": "Yellowstone Geysers Plate™",
-      "id": "yellowstone-thermal-features#yellowstone-geysers-plate",
-      "type": "Naturepedia Geothermal Features Plate™"
-    },
-    {
-      "name": "Yellowstone Hot Springs Plate™",
-      "id": "yellowstone-thermal-features#yellowstone-hot-springs-plate",
-      "type": "Naturepedia Geothermal Features Plate™"
-    },
-    {
-      "name": "Yellowstone Mud Pots Plate™",
-      "id": "yellowstone-thermal-features#yellowstone-mud-pots-plate",
-      "type": "Naturepedia Geothermal Features Plate™"
-    },
-    {
-      "name": "Yellowstone Fumaroles Plate™",
-      "id": "yellowstone-thermal-features#yellowstone-fumaroles-plate",
-      "type": "Naturepedia Geothermal Features Plate™"
-    },
-    {
-      "name": "Old Faithful Plate™",
-      "id": "yellowstone-thermal-features#old-faithful-plate",
-      "type": "Naturepedia Yellowstone Landmark Plate™"
-    },
-    {
-      "name": "Grand Prismatic Spring Plate™",
-      "id": "yellowstone-thermal-features#grand-prismatic-spring-plate",
-      "type": "Naturepedia Yellowstone Landmark Plate™"
-    },
-    {
-      "name": "Mammoth Hot Springs Plate™",
-      "id": "yellowstone-thermal-features#mammoth-hot-springs-plate",
-      "type": "Naturepedia Yellowstone Landmark Plate™"
-    },
-    {
-      "name": "Norris Geyser Basin Plate™",
-      "id": "yellowstone-thermal-features#norris-geyser-basin-plate",
-      "type": "Naturepedia Yellowstone Landmark Plate™"
-    },
-    {
-      "name": "Yellowstone Microbial Life Plate™",
-      "id": "yellowstone-thermal-features#yellowstone-microbial-life-plate",
-      "type": "Naturepedia Microbial Ecology Plate™"
-    },
-    {
-      "name": "Yellowstone Thermal Ecology Plate™",
-      "id": "yellowstone-thermal-features#yellowstone-thermal-ecology-plate",
-      "type": "Naturepedia Ecology Plate™"
-    },
-    {
-      "name": "Yellowstone Water & Heat Systems Plate™",
-      "id": "yellowstone-thermal-features#yellowstone-water-heat-systems-plate",
-      "type": "Naturepedia Earth Systems Plate™"
-    },
-    {
-      "name": "Yellowstone Thermal Photography Plate™",
-      "id": "yellowstone-thermal-features#yellowstone-thermal-photography-plate",
-      "type": "Naturepedia Photography Plate™"
-    },
-    {
-      "name": "Yellowstone Earth Systems™",
-      "id": "yellowstone-thermal-features#yellowstone-earth-systems",
-      "type": "Naturepedia Earth Systems Layer™"
-    }
-  ]
-},
-  {
-  "name": "Geothermal Ecosystems Plates",
-  "slug": "geothermal-ecosystems",
-  "url": "https://www.robbiegeorgephotography.com/geothermal-ecosystems",
-  "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/geothermal-ecosystems",
-  "plates": [
-    {
-      "name": "Geothermal Ecosystems Plate™",
-      "id": "geothermal-ecosystems#geothermal-ecosystems-plate",
-      "type": "Naturepedia Earth Systems Plate™"
-    },
-    {
-      "name": "Geothermal Identification Plate™",
-      "id": "geothermal-ecosystems#geothermal-identification-plate",
-      "type": "Naturepedia Geothermal Identification Plate™"
-    },
-    {
-      "name": "Geothermal Water Systems Plate™",
-      "id": "geothermal-ecosystems#geothermal-water-systems-plate",
-      "type": "Naturepedia Water Systems Plate™"
-    },
-    {
-      "name": "Thermophile Life Plate™",
-      "id": "geothermal-ecosystems#thermophile-life-plate",
-      "type": "Naturepedia Microbial Life Plate™"
-    },
-    {
-      "name": "Extremophile Life Plate™",
-      "id": "geothermal-ecosystems#extremophile-life-plate",
-      "type": "Naturepedia Life at the Limits Plate™"
-    },
-    {
-      "name": "Geothermal Microbial Mats Plate™",
-      "id": "geothermal-ecosystems#geothermal-microbial-mats-plate",
-      "type": "Naturepedia Microbial Ecology Plate™"
-    },
-    {
-      "name": "Geothermal Wildlife Relationships Plate™",
-      "id": "geothermal-ecosystems#geothermal-wildlife-relationships-plate",
-      "type": "Naturepedia Wildlife Relationships Plate™"
-    },
-    {
-      "name": "Geothermal Biodiversity Plate™",
-      "id": "geothermal-ecosystems#geothermal-biodiversity-plate",
-      "type": "Naturepedia Biodiversity Plate™"
-    },
-    {
-      "name": "Geothermal Ecosystem Services Plate™",
-      "id": "geothermal-ecosystems#geothermal-ecosystem-services-plate",
-      "type": "Naturepedia Ecosystem Services Plate™"
-    },
-    {
-      "name": "Hydrothermal Vent Ecosystems Plate™",
-      "id": "geothermal-ecosystems#hydrothermal-vent-ecosystems-plate",
-      "type": "Naturepedia Ocean Earth Systems Plate™"
-    },
-    {
-      "name": "Global Geothermal Regions Plate™",
-      "id": "geothermal-ecosystems#global-geothermal-regions-plate",
-      "type": "Naturepedia Global Earth Systems Plate™"
-    },
-    {
-      "name": "Geothermal Photography Plate™",
-      "id": "geothermal-ecosystems#geothermal-photography-plate",
-      "type": "Naturepedia Photography Plate™"
-    },
-    {
-      "name": "Geothermal Earth Systems™",
-      "id": "geothermal-ecosystems#geothermal-earth-systems",
-      "type": "Naturepedia Earth Systems Layer™"
-    }
-  ]
-},
-  {
-  "name": "Microbial Life Systems Plates",
-  "slug": "microbial-life-systems",
-  "url": "https://www.robbiegeorgephotography.com/microbial-life-systems",
-  "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/microbial-life-systems",
-  "plates": [
-    {
-      "name": "Microbial Life Systems Plate™",
-      "id": "microbial-life-systems#microbial-life-systems-plate",
-      "type": "Naturepedia Earth Systems Plate™"
-    },
-    {
-      "name": "Microbial Identification Plate™",
-      "id": "microbial-life-systems#microbial-identification-plate",
-      "type": "Naturepedia Microbial Identification Plate™"
-    },
-    {
-      "name": "Bacteria Plate™",
-      "id": "microbial-life-systems#bacteria-plate",
-      "type": "Naturepedia Bacteria Plate™"
-    },
-    {
-      "name": "Archaea Plate™",
-      "id": "microbial-life-systems#archaea-plate",
-      "type": "Naturepedia Archaea Plate™"
-    },
-    {
-      "name": "Biofilms Plate™",
-      "id": "microbial-life-systems#biofilms-plate",
-      "type": "Naturepedia Microbial Community Plate™"
-    },
-    {
-      "name": "Microbial Mats Plate™",
-      "id": "microbial-life-systems#microbial-mats-plate",
-      "type": "Naturepedia Microbial Ecology Plate™"
-    },
-    {
-      "name": "Thermophiles Plate™",
-      "id": "microbial-life-systems#thermophiles-plate",
-      "type": "Naturepedia Extremophile Biology Plate™"
-    },
-    {
-      "name": "Extremophiles Plate™",
-      "id": "microbial-life-systems#extremophiles-plate",
-      "type": "Naturepedia Extremophile Life Plate™"
-    },
-    {
-      "name": "Photosynthesis Plate™",
-      "id": "microbial-life-systems#photosynthesis-plate",
-      "type": "Naturepedia Biological Energy Plate™"
-    },
-    {
-      "name": "Chemosynthesis Plate™",
-      "id": "microbial-life-systems#chemosynthesis-plate",
-      "type": "Naturepedia Chemosynthesis Plate™"
-    },
-    {
-      "name": "Nutrient Cycling Plate™",
-      "id": "microbial-life-systems#nutrient-cycling-plate",
-      "type": "Naturepedia Biogeochemical Cycles Plate™"
-    },
-    {
-      "name": "Microbial Biodiversity Plate™",
-      "id": "microbial-life-systems#microbial-biodiversity-plate",
-      "type": "Naturepedia Biodiversity Plate™"
-    },
-    {
-      "name": "Microbial Ecosystem Services Plate™",
-      "id": "microbial-life-systems#microbial-ecosystem-services-plate",
-      "type": "Naturepedia Ecosystem Services Plate™"
-    },
-    {
-      "name": "Origins of Life Plate™",
-      "id": "microbial-life-systems#origins-of-life-plate",
-      "type": "Naturepedia Origins of Life Plate™"
-    },
-    {
-      "name": "Microbial Photography Plate™",
-      "id": "microbial-life-systems#microbial-photography-plate",
-      "type": "Naturepedia Photography Plate™"
-    },
-    {
-      "name": "Microbial Life Systems™",
-      "id": "microbial-life-systems#microbial-life-systems",
-      "type": "Naturepedia Earth Systems Layer™"
-    }
-  ]
-},
-  {
-  "name": "Volcanic Landscapes Plates",
-  "slug": "volcanic-landscapes",
-  "url": "https://www.robbiegeorgephotography.com/volcanic-landscapes",
-  "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/volcanic-landscapes",
-  "plates": [
-    {
-      "name": "Volcanic Landscapes Plate™",
-      "id": "volcanic-landscapes#volcanic-landscapes-plate",
-      "type": "Naturepedia Systems Plate™"
-    },
-    {
-      "name": "Magma Chambers Plate™",
-      "id": "volcanic-landscapes#magma-chambers-plate",
-      "type": "Naturepedia Earth Systems Plate™"
-    },
-    {
-      "name": "Volcanic Islands Plate™",
-      "id": "volcanic-landscapes#volcanic-islands-plate",
-      "type": "Naturepedia Earth Systems Plate™"
-    },
-    {
-      "name": "Plate Tectonics Plate™",
-      "id": "volcanic-landscapes#plate-tectonics-plate",
-      "type": "Naturepedia Earth Systems Plate™"
-    },
-    {
-      "name": "Ring of Fire Plate™",
-      "id": "volcanic-landscapes#ring-of-fire-plate",
-      "type": "Naturepedia Earth Systems Plate™"
-    },
-    {
-      "name": "Volcano Identification Plate™",
-      "id": "volcanic-landscapes#volcano-identification-plate",
-      "type": "Naturepedia Identification Plate™"
-    },
-    {
-      "name": "Lava Flows Plate™",
-      "id": "volcanic-landscapes#lava-flows-plate",
-      "type": "Naturepedia Geology Plate™"
-    },
-    {
-      "name": "Volcanic Eruptions Plate™",
-      "id": "volcanic-landscapes#volcanic-eruptions-plate",
-      "type": "Naturepedia Geology Plate™"
-    },
-    {
-      "name": "Calderas Plate™",
-      "id": "volcanic-landscapes#calderas-plate",
-      "type": "Naturepedia Geology Plate™"
-    },
-    {
-      "name": "Supervolcanoes Plate™",
-      "id": "volcanic-landscapes#supervolcanoes-plate",
-      "type": "Naturepedia Geology Plate™"
-    },
-    {
-      "name": "Volcanic Soils Plate™",
-      "id": "volcanic-landscapes#volcanic-soils-plate",
-      "type": "Naturepedia Ecosystem Processes Plate™"
-    },
-    {
-      "name": "Volcanic Ecosystems Plate™",
-      "id": "volcanic-landscapes#volcanic-ecosystems-plate",
-      "type": "Naturepedia Ecosystem Plate™"
-    },
-    {
-      "name": "Volcanic Succession Plate™",
-      "id": "volcanic-landscapes#volcanic-succession-plate",
-      "type": "Naturepedia Ecological Succession Plate™"
-    },
-    {
-      "name": "Volcanic Biodiversity Plate™",
-      "id": "volcanic-landscapes#volcanic-biodiversity-plate",
-      "type": "Naturepedia Biodiversity Plate™"
-    },
-    {
-      "name": "Volcanic Hazards Plate™",
-      "id": "volcanic-landscapes#volcanic-hazards-plate",
-      "type": "Naturepedia Hazard Systems Plate™"
-    },
-    {
-      "name": "Volcanic Photography Plate™",
-      "id": "volcanic-landscapes#volcanic-photography-plate",
-      "type": "Naturepedia Photography Plate™"
-    },
-    {
-      "name": "Volcanoes Beyond Earth Plate™",
-      "id": "volcanic-landscapes#volcanoes-beyond-earth-plate",
-      "type": "Naturepedia Planetary Geology Plate™"
-    }
-  ]
-},  
-  {
       "name": "Plant Intelligence Plates",
       "slug": "plant-intelligence",
       "url": "https://www.robbiegeorgephotography.com/naturepedia-plant-intelligence",
@@ -2266,7 +2266,7 @@
         }
       ]
     },
-         {
+    {
       "name": "Field Location Plates",
       "slug": "field-locations",
       "url": "https://www.robbiegeorgephotography.com/field-locations",
@@ -2319,7 +2319,7 @@
         }
       ]
     },
-        {
+    {
       "name": "Wildlife Species Plates",
       "slug": "wildlife-species",
       "url": "https://www.robbiegeorgephotography.com/wildlife-species",
@@ -2492,7 +2492,7 @@
         }
       ]
     },
-        {
+    {
       "name": "Track Plates",
       "slug": "north-american-animal-tracks",
       "url": "https://www.robbiegeorgephotography.com/north-american-animal-tracks",
@@ -2575,7 +2575,7 @@
         }
       ]
     },
-        {
+    {
       "name": "Photography Guide Plates",
       "slug": "photography-guides",
       "url": "https://www.robbiegeorgephotography.com",
@@ -2759,7 +2759,7 @@
         }
       ]
     },
-        {
+    {
       "name": "Butterflies of North America Plates",
       "slug": "butterflies-of-north-america",
       "url": "https://www.robbiegeorgephotography.com/butterflies-of-north-america",
@@ -2857,7 +2857,7 @@
         }
       ]
     },
-        {
+    {
       "name": "Moths of North America Plates",
       "slug": "naturepedia-moths",
       "url": "https://www.robbiegeorgephotography.com/naturepedia-moths",
@@ -2945,7 +2945,7 @@
         }
       ]
     },
-        {
+    {
       "name": "Hummingbirds of North America Plates",
       "slug": "hummingbirds-of-north-america",
       "url": "https://www.robbiegeorgephotography.com/hummingbirds-of-north-america",
@@ -3033,7 +3033,7 @@
         }
       ]
     },
-        {
+    {
       "name": "Trees of North America Plates",
       "slug": "trees-of-north-america",
       "url": "https://www.robbiegeorgephotography.com/trees-of-north-america",
@@ -3177,12 +3177,14 @@
           "id": "ecological-restoration-habitat-recovery#pollinator-recovery-artist-rendition-plate",
           "type": "Naturepedia Artist Rendition Plate™"
         },
-                {
+        {
           "name": "Soil Regeneration Artist Rendition Plate™",
           "id": "ecological-restoration-habitat-recovery#soil-regeneration-artist-rendition-plate",
           "type": "Naturepedia Artist Rendition Plate™"
-        },
-        {
+        }
+      ]
+    },
+    {
       "name": "Plant Communities / Native Habitat Systems Plates",
       "slug": "plant-communities-native-habitat-systems",
       "url": "https://www.robbiegeorgephotography.com/plant-communities-native-habitat-systems",
@@ -3258,12 +3260,14 @@
           "id": "plant-communities-native-habitat-systems#native-seed-production-plate",
           "type": "Naturepedia Regeneration Plate™"
         },
-                {
+        {
           "name": "Keystone Plant Species Plate™",
           "id": "plant-communities-native-habitat-systems#keystone-plant-species-plate",
           "type": "Naturepedia Keystone Species Plate™"
-        },
-        {
+        }
+      ]
+    },
+    {
       "name": "Biodiversity & Ecosystem Balance Plates",
       "slug": "biodiversity-ecosystem-balance",
       "url": "https://www.robbiegeorgephotography.com/biodiversity-ecosystem-balance",
@@ -3288,8 +3292,10 @@
           "name": "Ecological Resilience Plate™",
           "id": "biodiversity-ecosystem-balance#ecological-resilience-plate",
           "type": "Naturepedia Ecological Resilience Plate™"
-        },
-        {
+        }
+      ]
+    },
+    {
       "name": "Wildlife Habitats & Ecosystem Zones Plates",
       "slug": "wildlife-habitats-ecosystem-zones-north-america",
       "url": "https://www.robbiegeorgephotography.com/wildlife-habitats-ecosystem-zones-north-america",
@@ -3314,8 +3320,10 @@
           "name": "Habitat Fragmentation Plate™",
           "id": "wildlife-habitats-ecosystem-zones-north-america#habitat-fragmentation-plate",
           "type": "Naturepedia Habitat Conservation Plate™"
-        },
-        {
+        }
+      ]
+    },
+    {
       "name": "Robbie's Razor™ Framework Licensing Plates",
       "slug": "robbies-razor-framework-licensing",
       "url": "https://www.robbiegeorgephotography.com/robbies-razor-framework-licensing",
@@ -3360,7 +3368,9 @@
           "name": "Machine-to-Machine Commerce Artist Rendition Plate™",
           "id": "robbies-razor-framework-licensing#machine-to-machine-commerce-artist-rendition-plate",
           "type": "Naturepedia Artist Rendition Plate™"
-        },
+        }
+      ]
+    },
     {
       "name": "Naturepedia Master System Plates",
       "slug": "naturepedia",
@@ -3376,8 +3386,10 @@
           "name": "Naturepedia System Navigation Plate™",
           "id": "start-here-naturepedia#system-navigation-plate",
           "type": "Naturepedia System Navigation Plate™"
-        },
-        {
+        }
+      ]
+    },
+    {
       "name": "Hydrogen Plates",
       "slug": "naturepedia-hydrogen",
       "url": "https://www.robbiegeorgephotography.com/naturepedia-hydrogen",
@@ -3387,8 +3399,10 @@
           "name": "Hydrogen Plate™",
           "id": "naturepedia-hydrogen#hydrogen-plate",
           "type": "Quantum & Elemental Intelligence Plate"
-        },
-        {
+        }
+      ]
+    },
+    {
       "name": "Photon Plates",
       "slug": "naturepedia-photons",
       "url": "https://www.robbiegeorgephotography.com/naturepedia-photons",
@@ -3398,8 +3412,10 @@
           "name": "Photon Plate™",
           "id": "naturepedia-photons#photon-plate",
           "type": "Quantum & Elemental Intelligence Plate"
-        },
-        {
+        }
+      ]
+    },
+    {
       "name": "Resonance Plates",
       "slug": "naturepedia-resonance",
       "url": "https://www.robbiegeorgephotography.com/naturepedia-resonance",
@@ -3409,8 +3425,10 @@
           "name": "Resonance Plate™",
           "id": "naturepedia-resonance#resonance-plate",
           "type": "Naturepedia Universal Principle Plate™"
-        },
-        {
+        }
+      ]
+    },
+    {
       "name": "Vibration Plates",
       "slug": "naturepedia-vibration",
       "url": "https://www.robbiegeorgephotography.com/naturepedia-vibration",
@@ -3420,8 +3438,10 @@
           "name": "Vibration Plate™",
           "id": "naturepedia-vibration#vibration-plate",
           "type": "Naturepedia Universal Principle Plate™"
-        },
-        {
+        }
+      ]
+    },
+    {
       "name": "Quantum Fields Plates",
       "slug": "naturepedia-quantum-fields",
       "url": "https://www.robbiegeorgephotography.com/naturepedia-quantum-fields",
@@ -3470,8 +3490,10 @@
           "name": "Gravitons Plate™",
           "id": "naturepedia-gravitons#gravitons-plate",
           "type": "Naturepedia Universal Principle Plate™"
-        },
-        {
+        }
+      ]
+    },
+    {
       "name": "Wildlife Systems & Ecology Plates",
       "slug": "wildlife-systems-ecology",
       "url": "https://www.robbiegeorgephotography.com/wildlife-systems-ecology-north-america",
@@ -3494,8 +3516,10 @@
           "name": "Wildlife Conservation & Habitat Plate™",
           "id": "wildlife-conservation-habitat#wildlife-conservation-habitat-plate",
           "type": "Naturepedia Conservation System Plate™"
-        },
-        {
+        }
+      ]
+    },
+    {
       "name": "Wildlife Migration & Seasonal Patterns Plates",
       "slug": "wildlife-migration-seasonal-patterns-north-america",
       "url": "https://www.robbiegeorgephotography.com/wildlife-migration-seasonal-patterns-north-america",
@@ -3544,8 +3568,10 @@
           "name": "Wildlife Sign & Tracking Plate™",
           "id": "wildlife-sign-tracking#tracking-system-plate",
           "type": "Naturepedia Behavior System Plate™"
-        },
-        {
+        }
+      ]
+    },
+    {
       "name": "Animal Scat Identification Plates",
       "slug": "animal-scat-identification-guide",
       "url": "https://www.robbiegeorgephotography.com/animal-scat-identification-guide-north-america",
@@ -3590,7 +3616,7 @@
       "url": "https://www.robbiegeorgephotography.com/wildlife-adaptation-survival",
       "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/wildlife-adaptation-survival",
       "plates": [
-                {
+        {
           "name": "Wildlife Adaptation & Survival Plate™",
           "id": "wildlife-adaptation-survival#survival-system-plate",
           "type": "Naturepedia Survival System Plate™"
@@ -3694,7 +3720,7 @@
       "url": "https://www.robbiegeorgephotography.com/who-is-robbie-george",
       "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/robbie-george",
       "plates": [
-                {
+        {
           "name": "Robbie George Biography Plate™",
           "id": "robbie-george#robbie-george-biography-plate",
           "type": "Naturepedia Biography Plate™"
