@@ -3286,6 +3286,32 @@
           "name": "Ecological Resilience Plate™",
           "id": "biodiversity-ecosystem-balance#ecological-resilience-plate",
           "type": "Naturepedia Ecological Resilience Plate™"
+        },
+        {
+      "name": "Wildlife Habitats & Ecosystem Zones Plates",
+      "slug": "wildlife-habitats-ecosystem-zones-north-america",
+      "url": "https://www.robbiegeorgephotography.com/wildlife-habitats-ecosystem-zones-north-america",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/wildlife-habitats-ecosystem-zones-north-america",
+      "plates": [
+        {
+          "name": "Wildlife Habitats & Ecosystem Zones Plate™",
+          "id": "wildlife-habitats-ecosystem-zones-north-america#habitat-system-plate",
+          "type": "Naturepedia Habitat System Plate™"
+        },
+        {
+          "name": "Habitat Intelligence Plate™",
+          "id": "wildlife-habitats-ecosystem-zones-north-america#habitat-intelligence-plate",
+          "type": "Naturepedia Habitat Intelligence Plate™"
+        },
+        {
+          "name": "Habitat Connectivity Plate™",
+          "id": "wildlife-habitats-ecosystem-zones-north-america#habitat-connectivity-plate",
+          "type": "Naturepedia Habitat Connectivity Plate™"
+        },
+        {
+          "name": "Habitat Fragmentation Plate™",
+          "id": "wildlife-habitats-ecosystem-zones-north-america#habitat-fragmentation-plate",
+          "type": "Naturepedia Habitat Conservation Plate™"
         }
       ]
     }
