@@ -1054,6 +1054,84 @@
   ]
 },
   {
+  "name": "Spruces of North America Plates",
+  "slug": "spruces-of-north-america",
+  "url": "https://www.robbiegeorgephotography.com/spruces-of-north-america",
+  "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/spruces-of-north-america",
+  "plates": [
+    {
+      "name": "Spruce Systems Plate™",
+      "id": "spruces-of-north-america#spruce-systems-plate",
+      "type": "Naturepedia Tree Family Plate™"
+    },
+    {
+      "name": "Spruce Identification Plate™",
+      "id": "spruces-of-north-america#spruce-identification-plate",
+      "type": "Naturepedia Tree Identification Plate™"
+    },
+    {
+      "name": "Spruce Needle Plate™",
+      "id": "spruces-of-north-america#spruce-needle-plate",
+      "type": "Naturepedia Tree Identification Plate™"
+    },
+    {
+      "name": "Spruce Cone Plate™",
+      "id": "spruces-of-north-america#spruce-cone-plate",
+      "type": "Naturepedia Tree Identification Plate™"
+    },
+    {
+      "name": "Spruce Bark Plate™",
+      "id": "spruces-of-north-america#spruce-bark-plate",
+      "type": "Naturepedia Bark Identification Plate™"
+    },
+    {
+      "name": "White Spruce Plate™",
+      "id": "spruces-of-north-america#white-spruce-plate",
+      "type": "Naturepedia Species Plate™"
+    },
+    {
+      "name": "Black Spruce Plate™",
+      "id": "spruces-of-north-america#black-spruce-plate",
+      "type": "Naturepedia Species Plate™"
+    },
+    {
+      "name": "Red Spruce Plate™",
+      "id": "spruces-of-north-america#red-spruce-plate",
+      "type": "Naturepedia Species Plate™"
+    },
+    {
+      "name": "Engelmann Spruce Plate™",
+      "id": "spruces-of-north-america#engelmann-spruce-plate",
+      "type": "Naturepedia Species Plate™"
+    },
+    {
+      "name": "Spruce Boreal Forest Plate™",
+      "id": "spruces-of-north-america#spruce-boreal-forest-plate",
+      "type": "Naturepedia Boreal Forest Plate™"
+    },
+    {
+      "name": "Spruce Wildlife Relationships Plate™",
+      "id": "spruces-of-north-america#spruce-wildlife-relationships-plate",
+      "type": "Naturepedia Wildlife Relationship Plate™"
+    },
+    {
+      "name": "Spruce Forest Community Plate™",
+      "id": "spruces-of-north-america#spruce-forest-community-plate",
+      "type": "Naturepedia Forest Community Plate™"
+    },
+    {
+      "name": "Spruce Carbon Storage Plate™",
+      "id": "spruces-of-north-america#spruce-carbon-storage-plate",
+      "type": "Naturepedia Carbon Systems Plate™"
+    },
+    {
+      "name": "Spruce Climate Resilience Plate™",
+      "id": "spruces-of-north-america#spruce-climate-resilience-plate",
+      "type": "Naturepedia Climate Resilience Plate™"
+    }
+  ]
+},
+  {
       "name": "Plant Intelligence Plates",
       "slug": "plant-intelligence",
       "url": "https://www.robbiegeorgephotography.com/naturepedia-plant-intelligence",
