@@ -678,6 +678,7 @@
         }
            ]
     },
+    
     {
       "name": "Plant Intelligence Plates",
       "slug": "plant-intelligence",
@@ -905,7 +906,7 @@
         }
       ]
     },
-           {
+         {
       "name": "Field Location Plates",
       "slug": "field-locations",
       "url": "https://www.robbiegeorgephotography.com/field-locations",
@@ -930,11 +931,6 @@
           "name": "Yellowstone National Park Field Location Plate™",
           "id": "yellowstone-national-park-wyoming-montana-idaho#location-plate",
           "type": "Naturepedia Field Location Plate™"
-        },
-        {
-          "name": "Chesapeake Bay System Plate™",
-          "id": "chesapeake-bay-wildlife-system#chesapeake-bay-system-plate",
-          "type": "Naturepedia Water System Plate™"
         },
         {
           "name": "Blackwater National Wildlife Refuge Field Location Plate™",
@@ -1267,7 +1263,7 @@
         }
       ]
     },
-            {
+    {
       "name": "Pollinator Systems Plates",
       "slug": "pollinator-systems",
       "url": "https://www.robbiegeorgephotography.com/floral-resource-networks",
@@ -1279,91 +1275,6 @@
           "type": "Naturepedia Ecology System Plate™"
         },
         {
-          "name": "Floral Resource Network Architecture Plate™",
-          "id": "floral-resource-networks#network-architecture-plate",
-          "type": "Naturepedia Ecology Infrastructure Plate™"
-        },
-        {
-          "name": "Flower Resource Flow Plate™",
-          "id": "floral-resource-networks#flower-resource-flow-plate",
-          "type": "Naturepedia Ecology Flow Plate™"
-        },
-        {
-          "name": "Pollinator Layer Plate™",
-          "id": "floral-resource-networks#pollinator-layer-plate",
-          "type": "Naturepedia Pollination Infrastructure Plate™"
-        },
-        {
-          "name": "Nectar Corridor Plate™",
-          "id": "floral-resource-networks#nectar-corridor-plate",
-          "type": "Naturepedia Ecological Connectivity Plate™"
-        },
-        {
-          "name": "Bloom Timing Intelligence Plate™",
-          "id": "floral-resource-networks#bloom-timing-intelligence-plate",
-          "type": "Naturepedia Seasonal Ecology Plate™"
-        },
-        {
-          "name": "Plant Reproduction Plate™",
-          "id": "floral-resource-networks#plant-reproduction-plate",
-          "type": "Naturepedia Plant Reproduction Plate™"
-        },
-        {
-          "name": "Biodiversity Production Plate™",
-          "id": "floral-resource-networks#biodiversity-production-plate",
-          "type": "Naturepedia Biodiversity Systems Plate™"
-        },
-        {
-          "name": "Underground-To-Flower Plate™",
-          "id": "floral-resource-networks#underground-flower-plate",
-          "type": "Naturepedia Ecological Infrastructure Plate™"
-        },
-        {
-          "name": "Pollination Network Plate™",
-          "id": "floral-resource-networks#pollination-network-plate",
-          "type": "Naturepedia Ecological Network Plate™"
-        },
-        {
-          "name": "Floral Resource Intelligence Plate™",
-          "id": "floral-resource-networks#network-intelligence-plate",
-          "type": "Naturepedia Ecological Intelligence Plate™"
-        },
-        {
-          "name": "Ecological Network Stability Plate™",
-          "id": "floral-resource-networks#network-stability-plate",
-          "type": "Naturepedia Ecosystem Resilience Plate™"
-        },
-        {
-          "name": "Coevolution Plate™",
-          "id": "floral-resource-networks#coevolution-plate",
-          "type": "Naturepedia Evolutionary Ecology Plate™"
-        },
-        {
-          "name": "Resource Distribution Plate™",
-          "id": "floral-resource-networks#resource-distribution-plate",
-          "type": "Naturepedia Landscape Ecology Plate™"
-        },
-        {
-          "name": "Bee Resource Connector Plate™",
-          "id": "floral-resource-networks#bee-resource-connector-plate",
-          "type": "Naturepedia Pollinator Connector Plate™"
-        },
-        {
-          "name": "Butterfly Resource Connector Plate™",
-          "id": "floral-resource-networks#butterfly-resource-connector-plate",
-          "type": "Naturepedia Pollinator Connector Plate™"
-        },
-        {
-          "name": "Moth Resource Connector Plate™",
-          "id": "floral-resource-networks#moth-resource-connector-plate",
-          "type": "Naturepedia Pollinator Connector Plate™"
-        },
-        {
-          "name": "Hummingbird Resource Connector Plate™",
-          "id": "floral-resource-networks#hummingbird-resource-connector-plate",
-          "type": "Naturepedia Pollinator Connector Plate™"
-        },
-        {
           "name": "Bees of North America System Plate™",
           "id": "bees-of-north-america#bees-of-north-america-system-plate",
           "type": "Naturepedia Species System Plate™"
@@ -1385,34 +1296,7 @@
         }
       ]
     },
-        {
-          "name": "Floral Resource Networks™ System Plate™",
-          "id": "floral-resource-networks#floral-resource-networks-system-plate",
-          "type": "Naturepedia Ecology System Plate™"
-        },
-        {
-          "name": "Bees of North America System Plate™",
-          "id": "bees-of-north-america#bees-of-north-america-system-plate",
-          "type": "Naturepedia Species System Plate™"
-        },
-        {
-          "name": "Butterflies of North America System Plate™",
-          "id": "butterflies-of-north-america#butterflies-of-north-america-system-plate",
-          "type": "Naturepedia Species System Plate™"
-        },
-        {
-          "name": "Moths of North America System Plate™",
-          "id": "naturepedia-moths#moths-of-north-america-system-plate",
-          "type": "Naturepedia Species System Plate™"
-        },
-        {
-          "name": "Hummingbirds of North America System Plate™",
-          "id": "hummingbirds-of-north-america#hummingbirds-of-north-america-system-plate",
-          "type": "Naturepedia Species System Plate™"
-        }
-      ]
-    },
-        {
+    {
       "name": "Bees of North America Plates",
       "slug": "bees-of-north-america",
       "url": "https://www.robbiegeorgephotography.com/bees-of-north-america",
