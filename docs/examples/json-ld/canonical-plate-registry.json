@@ -1220,6 +1220,84 @@
   ]
 },
   {
+  "name": "Hemlocks of North America Plates",
+  "slug": "hemlocks-of-north-america",
+  "url": "https://www.robbiegeorgephotography.com/hemlocks-of-north-america",
+  "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/hemlocks-of-north-america",
+  "plates": [
+    {
+      "name": "Hemlock Systems Plate™",
+      "id": "hemlocks-of-north-america#hemlock-systems-plate",
+      "type": "Naturepedia Tree Family Plate™"
+    },
+    {
+      "name": "Hemlock Identification Plate™",
+      "id": "hemlocks-of-north-america#hemlock-identification-plate",
+      "type": "Naturepedia Tree Identification Plate™"
+    },
+    {
+      "name": "Hemlock Needle Plate™",
+      "id": "hemlocks-of-north-america#hemlock-needle-plate",
+      "type": "Naturepedia Tree Identification Plate™"
+    },
+    {
+      "name": "Hemlock Cone Plate™",
+      "id": "hemlocks-of-north-america#hemlock-cone-plate",
+      "type": "Naturepedia Tree Identification Plate™"
+    },
+    {
+      "name": "Hemlock Bark Plate™",
+      "id": "hemlocks-of-north-america#hemlock-bark-plate",
+      "type": "Naturepedia Bark Identification Plate™"
+    },
+    {
+      "name": "Eastern Hemlock Plate™",
+      "id": "hemlocks-of-north-america#eastern-hemlock-plate",
+      "type": "Naturepedia Species Plate™"
+    },
+    {
+      "name": "Western Hemlock Plate™",
+      "id": "hemlocks-of-north-america#western-hemlock-plate",
+      "type": "Naturepedia Species Plate™"
+    },
+    {
+      "name": "Mountain Hemlock Plate™",
+      "id": "hemlocks-of-north-america#mountain-hemlock-plate",
+      "type": "Naturepedia Species Plate™"
+    },
+    {
+      "name": "Carolina Hemlock Plate™",
+      "id": "hemlocks-of-north-america#carolina-hemlock-plate",
+      "type": "Naturepedia Species Plate™"
+    },
+    {
+      "name": "Hemlock Stream Ecology Plate™",
+      "id": "hemlocks-of-north-america#hemlock-stream-ecology-plate",
+      "type": "Naturepedia Watershed Plate™"
+    },
+    {
+      "name": "Hemlock Wildlife Relationships Plate™",
+      "id": "hemlocks-of-north-america#hemlock-wildlife-relationships-plate",
+      "type": "Naturepedia Wildlife Relationship Plate™"
+    },
+    {
+      "name": "Hemlock Forest Community Plate™",
+      "id": "hemlocks-of-north-america#hemlock-forest-community-plate",
+      "type": "Naturepedia Forest Community Plate™"
+    },
+    {
+      "name": "Hemlock Carbon Storage Plate™",
+      "id": "hemlocks-of-north-america#hemlock-carbon-storage-plate",
+      "type": "Naturepedia Carbon Systems Plate™"
+    },
+    {
+      "name": "Hemlock Conservation Plate™",
+      "id": "hemlocks-of-north-america#hemlock-conservation-plate",
+      "type": "Naturepedia Conservation Plate™"
+    }
+  ]
+},
+  {
       "name": "Plant Intelligence Plates",
       "slug": "plant-intelligence",
       "url": "https://www.robbiegeorgephotography.com/naturepedia-plant-intelligence",
