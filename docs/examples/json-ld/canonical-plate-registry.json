@@ -295,7 +295,63 @@
       "slug": "climate-carbon-feedbacks",
       "url": "https://www.robbiegeorgephotography.com/climate-carbon-feedbacks",
       "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/climate-carbon-feedbacks",
-      "plates": []
+            "plates": [
+        {
+          "name": "Climate Carbon Feedbacks Plate™",
+          "id": "climate-carbon-feedbacks#climate-carbon-feedbacks-plate",
+          "type": "Naturepedia Climate Carbon Feedbacks Plate™"
+        },
+        {
+          "name": "Carbon Sink Plate™",
+          "id": "climate-carbon-feedbacks#carbon-sink-plate",
+          "type": "Naturepedia Carbon Sink Plate™"
+        },
+        {
+          "name": "Carbon Source Plate™",
+          "id": "climate-carbon-feedbacks#carbon-source-plate",
+          "type": "Naturepedia Carbon Source Plate™"
+        },
+        {
+          "name": "Positive Climate Feedback Plate™",
+          "id": "climate-carbon-feedbacks#positive-climate-feedback-plate",
+          "type": "Naturepedia Positive Climate Feedback Plate™"
+        },
+        {
+          "name": "Negative Climate Feedback Plate™",
+          "id": "climate-carbon-feedbacks#negative-climate-feedback-plate",
+          "type": "Naturepedia Negative Climate Feedback Plate™"
+        },
+        {
+          "name": "Forest Climate Feedback Plate™",
+          "id": "climate-carbon-feedbacks#forest-climate-feedback-plate",
+          "type": "Naturepedia Forest Climate Feedback Plate™"
+        },
+        {
+          "name": "Soil Climate Feedback Plate™",
+          "id": "climate-carbon-feedbacks#soil-climate-feedback-plate",
+          "type": "Naturepedia Soil Climate Feedback Plate™"
+        },
+        {
+          "name": "Water Climate Feedback Plate™",
+          "id": "climate-carbon-feedbacks#water-climate-feedback-plate",
+          "type": "Naturepedia Water Climate Feedback Plate™"
+        },
+        {
+          "name": "Biodiversity Climate Feedback Plate™",
+          "id": "climate-carbon-feedbacks#biodiversity-climate-feedback-plate",
+          "type": "Naturepedia Biodiversity Climate Feedback Plate™"
+        },
+        {
+          "name": "Regenerative Climate Solutions Plate™",
+          "id": "climate-carbon-feedbacks#regenerative-climate-solutions-plate",
+          "type": "Naturepedia Regenerative Climate Solutions Plate™"
+        },
+        {
+          "name": "Planetary Carbon Balance Plate™",
+          "id": "climate-carbon-feedbacks#planetary-carbon-balance-plate",
+          "type": "Naturepedia Planetary Carbon Balance Plate™"
+        }
+      ]
     }
   ]
 }
