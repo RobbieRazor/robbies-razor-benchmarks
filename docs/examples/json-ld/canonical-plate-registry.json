@@ -3358,6 +3358,23 @@
           "name": "Machine-to-Machine Commerce Artist Rendition Plate™",
           "id": "robbies-razor-framework-licensing#machine-to-machine-commerce-artist-rendition-plate",
           "type": "Naturepedia Artist Rendition Plate™"
+        },
+        ,
+    {
+      "name": "Naturepedia Master System Plates",
+      "slug": "naturepedia",
+      "url": "https://www.robbiegeorgephotography.com/naturepedia",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/naturepedia",
+      "plates": [
+        {
+          "name": "Naturepedia Master System Plate™",
+          "id": "naturepedia#master-system-plate",
+          "type": "Naturepedia Root Knowledge System Plate™"
+        },
+        {
+          "name": "Naturepedia System Navigation Plate™",
+          "id": "start-here-naturepedia#system-navigation-plate",
+          "type": "Naturepedia System Navigation Plate™"
         }
       ]
     }
