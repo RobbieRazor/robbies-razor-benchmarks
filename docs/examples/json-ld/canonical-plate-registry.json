@@ -1701,6 +1701,89 @@
       "type": "Naturepedia Biodiversity Plate™"
     }
   ]
+},
+  {
+  "name": "Yellowstone Thermal Features Plates",
+  "slug": "yellowstone-thermal-features",
+  "url": "https://www.robbiegeorgephotography.com/yellowstone-thermal-features",
+  "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/yellowstone-thermal-features",
+  "plates": [
+    {
+      "name": "Yellowstone Thermal Systems Plate™",
+      "id": "yellowstone-thermal-features#yellowstone-thermal-systems-plate",
+      "type": "Naturepedia Earth Systems Plate™"
+    },
+    {
+      "name": "Yellowstone Thermal Identification Plate™",
+      "id": "yellowstone-thermal-features#yellowstone-thermal-identification-plate",
+      "type": "Naturepedia Identification Plate™"
+    },
+    {
+      "name": "Yellowstone Geysers Plate™",
+      "id": "yellowstone-thermal-features#yellowstone-geysers-plate",
+      "type": "Naturepedia Geothermal Features Plate™"
+    },
+    {
+      "name": "Yellowstone Hot Springs Plate™",
+      "id": "yellowstone-thermal-features#yellowstone-hot-springs-plate",
+      "type": "Naturepedia Geothermal Features Plate™"
+    },
+    {
+      "name": "Yellowstone Mud Pots Plate™",
+      "id": "yellowstone-thermal-features#yellowstone-mud-pots-plate",
+      "type": "Naturepedia Geothermal Features Plate™"
+    },
+    {
+      "name": "Yellowstone Fumaroles Plate™",
+      "id": "yellowstone-thermal-features#yellowstone-fumaroles-plate",
+      "type": "Naturepedia Geothermal Features Plate™"
+    },
+    {
+      "name": "Old Faithful Plate™",
+      "id": "yellowstone-thermal-features#old-faithful-plate",
+      "type": "Naturepedia Yellowstone Landmark Plate™"
+    },
+    {
+      "name": "Grand Prismatic Spring Plate™",
+      "id": "yellowstone-thermal-features#grand-prismatic-spring-plate",
+      "type": "Naturepedia Yellowstone Landmark Plate™"
+    },
+    {
+      "name": "Mammoth Hot Springs Plate™",
+      "id": "yellowstone-thermal-features#mammoth-hot-springs-plate",
+      "type": "Naturepedia Yellowstone Landmark Plate™"
+    },
+    {
+      "name": "Norris Geyser Basin Plate™",
+      "id": "yellowstone-thermal-features#norris-geyser-basin-plate",
+      "type": "Naturepedia Yellowstone Landmark Plate™"
+    },
+    {
+      "name": "Yellowstone Microbial Life Plate™",
+      "id": "yellowstone-thermal-features#yellowstone-microbial-life-plate",
+      "type": "Naturepedia Microbial Ecology Plate™"
+    },
+    {
+      "name": "Yellowstone Thermal Ecology Plate™",
+      "id": "yellowstone-thermal-features#yellowstone-thermal-ecology-plate",
+      "type": "Naturepedia Ecology Plate™"
+    },
+    {
+      "name": "Yellowstone Water & Heat Systems Plate™",
+      "id": "yellowstone-thermal-features#yellowstone-water-heat-systems-plate",
+      "type": "Naturepedia Earth Systems Plate™"
+    },
+    {
+      "name": "Yellowstone Thermal Photography Plate™",
+      "id": "yellowstone-thermal-features#yellowstone-thermal-photography-plate",
+      "type": "Naturepedia Photography Plate™"
+    },
+    {
+      "name": "Yellowstone Earth Systems™",
+      "id": "yellowstone-thermal-features#yellowstone-earth-systems",
+      "type": "Naturepedia Earth Systems Layer™"
+    }
+  ]
 },  
   {
       "name": "Plant Intelligence Plates",
