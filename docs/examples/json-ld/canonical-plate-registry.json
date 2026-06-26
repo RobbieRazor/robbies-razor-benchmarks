@@ -3125,64 +3125,6 @@
           "type": "Naturepedia Artist Rendition Plate™"
         }
       ]
-    },
-    {
-      "name": "Plant Intelligence Plates",
-      "slug": "plant-intelligence",
-      "url": "https://www.robbiegeorgephotography.com/naturepedia-plant-intelligence",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/plant-intelligence-map",
-      "plates": [
-        {
-          "name": "Plant Intelligence Plate™",
-          "id": "plant-intelligence#plant-intelligence-plate",
-          "type": "Naturepedia Systems Plate™"
-        },
-        {
-          "name": "Plant Communication Plate™",
-          "id": "plant-intelligence#plant-communication-plate",
-          "type": "Naturepedia Communication Plate™"
-        },
-        {
-          "name": "Plant Electrophysiology Plate™",
-          "id": "plant-intelligence#plant-electrophysiology-plate",
-          "type": "Naturepedia Bioelectric Systems Plate™"
-        },
-        {
-          "name": "Root Intelligence Plate™",
-          "id": "plant-intelligence#root-intelligence-plate",
-          "type": "Naturepedia Root Systems Plate™"
-        },
-        {
-          "name": "Plant Memory Plate™",
-          "id": "plant-intelligence#plant-memory-plate",
-          "type": "Naturepedia Adaptation Plate™"
-        },
-        {
-          "name": "Plant Defense Systems Plate™",
-          "id": "plant-intelligence#plant-defense-systems-plate",
-          "type": "Naturepedia Defense Systems Plate™"
-        },
-        {
-          "name": "Plant Sensory Biology Plate™",
-          "id": "plant-intelligence#plant-sensory-biology-plate",
-          "type": "Naturepedia Sensory Biology Plate™"
-        },
-        {
-          "name": "Plant Cooperation Plate™",
-          "id": "plant-intelligence#plant-cooperation-plate",
-          "type": "Naturepedia Ecological Cooperation Plate™"
-        },
-        {
-          "name": "Plants & Mycorrhizal Networks Plate™",
-          "id": "plant-intelligence#plants-mycorrhizal-networks-plate",
-          "type": "Naturepedia Network Ecology Plate™"
-        },
-        {
-          "name": "Future Plant Intelligence Plate™",
-          "id": "plant-intelligence#future-plant-intelligence-plate",
-          "type": "Naturepedia Future Systems Plate™"
-        }
-      ]
     }
   ]
 }
