@@ -3593,6 +3593,108 @@
           "name": "Wildlife Adaptation & Survival Plate™",
           "id": "wildlife-adaptation-survival#survival-system-plate",
           "type": "Naturepedia Survival System Plate™"
+        },
+        {
+      "name": "Birds of Prey Plates",
+      "slug": "birds-of-prey",
+      "url": "https://www.robbiegeorgephotography.com/birds-of-prey",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/birds-of-prey",
+      "plates": [
+        {
+          "name": "Birds of Prey Plate™",
+          "id": "birds-of-prey#raptor-system-plate",
+          "type": "Naturepedia Raptor System Plate™"
+        }
+      ]
+    },
+    {
+      "name": "Waterfowl & Wetland Birds Plates",
+      "slug": "waterfowl-wetland-birds",
+      "url": "https://www.robbiegeorgephotography.com/waterfowl-wetland-birds",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/waterfowl-wetland-birds",
+      "plates": [
+        {
+          "name": "Waterfowl & Wetland Birds Plate™",
+          "id": "waterfowl-wetland-birds#wetland-bird-system-plate",
+          "type": "Naturepedia Wetland Bird System Plate™"
+        }
+      ]
+    },
+    {
+      "name": "Songbirds, Seabirds & Other Birds Plates",
+      "slug": "songbirds-seabirds-other-birds",
+      "url": "https://www.robbiegeorgephotography.com/songbirds-seabirds-and-other-birds",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/songbirds-seabirds-other-birds",
+      "plates": [
+        {
+          "name": "Songbirds, Seabirds & Other Birds Plate™",
+          "id": "songbirds-seabirds-other-birds#avian-diversity-system-plate",
+          "type": "Naturepedia Avian Diversity System Plate™"
+        }
+      ]
+    },
+    {
+      "name": "Mammals of North America Plates",
+      "slug": "mammals-of-north-america",
+      "url": "https://www.robbiegeorgephotography.com/mammals-of-north-america",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/mammals-of-north-america",
+      "plates": [
+        {
+          "name": "Mammals of North America Plate™",
+          "id": "mammals-of-north-america#mammal-system-plate",
+          "type": "Naturepedia Mammal System Plate™"
+        }
+      ]
+    },
+    {
+      "name": "Water Memory Plates",
+      "slug": "water-memory",
+      "url": "https://www.robbiegeorgephotography.com/water-memory",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/water-memory",
+      "plates": [
+        {
+          "name": "Water Memory Plate™",
+          "id": "water-memory#water-memory-plate",
+          "type": "Naturepedia Water System Plate™"
+        }
+      ]
+    },
+    {
+      "name": "Seasonal Wildlife Calendar Plates",
+      "slug": "seasonal-wildlife-calendar",
+      "url": "https://www.robbiegeorgephotography.com/seasonal-wildlife-calendar",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/seasonal-wildlife-calendar",
+      "plates": [
+        {
+          "name": "Seasonal Compression Plate™",
+          "id": "seasonal-wildlife-calendar#seasonal-compression-plate",
+          "type": "Naturepedia Seasonal Systems Plate™"
+        }
+      ]
+    },
+    {
+      "name": "Chesapeake Bay Wildlife System Plates",
+      "slug": "chesapeake-bay-wildlife-system",
+      "url": "https://www.robbiegeorgephotography.com/chesapeake-bay-wildlife-system",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/chesapeake-bay-wildlife-system",
+      "plates": [
+        {
+          "name": "Chesapeake Bay System Plate™",
+          "id": "chesapeake-bay-wildlife-system#chesapeake-bay-system-plate",
+          "type": "Naturepedia Water System Plate™"
+        }
+      ]
+    },
+    {
+      "name": "Robbie George Biography Plates",
+      "slug": "robbie-george",
+      "url": "https://www.robbiegeorgephotography.com/who-is-robbie-george",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/robbie-george",
+      "plates": [
+        {
+          "name": "Robbie George Biography Plate™",
+          "id": "robbie-george#robbie-george-biography-plate",
+          "type": "Naturepedia Biography Plate™"
         }
       ]
     }
