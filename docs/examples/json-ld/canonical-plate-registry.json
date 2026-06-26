@@ -3375,6 +3375,17 @@
           "name": "Naturepedia System Navigation Plate™",
           "id": "start-here-naturepedia#system-navigation-plate",
           "type": "Naturepedia System Navigation Plate™"
+        },
+        {
+      "name": "Hydrogen Plates",
+      "slug": "naturepedia-hydrogen",
+      "url": "https://www.robbiegeorgephotography.com/naturepedia-hydrogen",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/naturepedia-hydrogen",
+      "plates": [
+        {
+          "name": "Hydrogen Plate™",
+          "id": "naturepedia-hydrogen#hydrogen-plate",
+          "type": "Quantum & Elemental Intelligence Plate"
         }
       ]
     }
