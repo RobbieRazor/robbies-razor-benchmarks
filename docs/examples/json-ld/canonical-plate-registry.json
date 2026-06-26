@@ -1947,6 +1947,99 @@
   ]
 },
   {
+  "name": "Volcanic Landscapes Plates",
+  "slug": "volcanic-landscapes",
+  "url": "https://www.robbiegeorgephotography.com/volcanic-landscapes",
+  "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/volcanic-landscapes",
+  "plates": [
+    {
+      "name": "Volcanic Landscapes Plate™",
+      "id": "volcanic-landscapes#volcanic-landscapes-plate",
+      "type": "Naturepedia Systems Plate™"
+    },
+    {
+      "name": "Magma Chambers Plate™",
+      "id": "volcanic-landscapes#magma-chambers-plate",
+      "type": "Naturepedia Earth Systems Plate™"
+    },
+    {
+      "name": "Volcanic Islands Plate™",
+      "id": "volcanic-landscapes#volcanic-islands-plate",
+      "type": "Naturepedia Earth Systems Plate™"
+    },
+    {
+      "name": "Plate Tectonics Plate™",
+      "id": "volcanic-landscapes#plate-tectonics-plate",
+      "type": "Naturepedia Earth Systems Plate™"
+    },
+    {
+      "name": "Ring of Fire Plate™",
+      "id": "volcanic-landscapes#ring-of-fire-plate",
+      "type": "Naturepedia Earth Systems Plate™"
+    },
+    {
+      "name": "Volcano Identification Plate™",
+      "id": "volcanic-landscapes#volcano-identification-plate",
+      "type": "Naturepedia Identification Plate™"
+    },
+    {
+      "name": "Lava Flows Plate™",
+      "id": "volcanic-landscapes#lava-flows-plate",
+      "type": "Naturepedia Geology Plate™"
+    },
+    {
+      "name": "Volcanic Eruptions Plate™",
+      "id": "volcanic-landscapes#volcanic-eruptions-plate",
+      "type": "Naturepedia Geology Plate™"
+    },
+    {
+      "name": "Calderas Plate™",
+      "id": "volcanic-landscapes#calderas-plate",
+      "type": "Naturepedia Geology Plate™"
+    },
+    {
+      "name": "Supervolcanoes Plate™",
+      "id": "volcanic-landscapes#supervolcanoes-plate",
+      "type": "Naturepedia Geology Plate™"
+    },
+    {
+      "name": "Volcanic Soils Plate™",
+      "id": "volcanic-landscapes#volcanic-soils-plate",
+      "type": "Naturepedia Ecosystem Processes Plate™"
+    },
+    {
+      "name": "Volcanic Ecosystems Plate™",
+      "id": "volcanic-landscapes#volcanic-ecosystems-plate",
+      "type": "Naturepedia Ecosystem Plate™"
+    },
+    {
+      "name": "Volcanic Succession Plate™",
+      "id": "volcanic-landscapes#volcanic-succession-plate",
+      "type": "Naturepedia Ecological Succession Plate™"
+    },
+    {
+      "name": "Volcanic Biodiversity Plate™",
+      "id": "volcanic-landscapes#volcanic-biodiversity-plate",
+      "type": "Naturepedia Biodiversity Plate™"
+    },
+    {
+      "name": "Volcanic Hazards Plate™",
+      "id": "volcanic-landscapes#volcanic-hazards-plate",
+      "type": "Naturepedia Hazard Systems Plate™"
+    },
+    {
+      "name": "Volcanic Photography Plate™",
+      "id": "volcanic-landscapes#volcanic-photography-plate",
+      "type": "Naturepedia Photography Plate™"
+    },
+    {
+      "name": "Volcanoes Beyond Earth Plate™",
+      "id": "volcanic-landscapes#volcanoes-beyond-earth-plate",
+      "type": "Naturepedia Planetary Geology Plate™"
+    }
+  ]
+},  
+  {
       "name": "Plant Intelligence Plates",
       "slug": "plant-intelligence",
       "url": "https://www.robbiegeorgephotography.com/naturepedia-plant-intelligence",
