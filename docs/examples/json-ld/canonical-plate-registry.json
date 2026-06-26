@@ -232,7 +232,63 @@
       "slug": "forest-carbon-systems",
       "url": "https://www.robbiegeorgephotography.com/forest-carbon-systems",
       "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/forest-carbon-systems",
-      "plates": []
+            "plates": [
+        {
+          "name": "Forest Carbon Systems Plate™",
+          "id": "forest-carbon-systems#forest-carbon-systems-plate",
+          "type": "Naturepedia Forest Carbon Systems Plate™"
+        },
+        {
+          "name": "Forest Carbon Storage Plate™",
+          "id": "forest-carbon-systems#forest-carbon-storage-plate",
+          "type": "Naturepedia Forest Carbon Storage Plate™"
+        },
+        {
+          "name": "Forest Biomass Plate™",
+          "id": "forest-carbon-systems#forest-biomass-plate",
+          "type": "Naturepedia Forest Biomass Plate™"
+        },
+        {
+          "name": "Living Forest Carbon Plate™",
+          "id": "forest-carbon-systems#living-forest-carbon-plate",
+          "type": "Naturepedia Living Forest Carbon Plate™"
+        },
+        {
+          "name": "Deadwood Carbon Plate™",
+          "id": "forest-carbon-systems#deadwood-carbon-plate",
+          "type": "Naturepedia Deadwood Carbon Plate™"
+        },
+        {
+          "name": "Forest Litter Plate™",
+          "id": "forest-carbon-systems#forest-litter-plate",
+          "type": "Naturepedia Forest Litter Plate™"
+        },
+        {
+          "name": "Forest Soil Carbon Plate™",
+          "id": "forest-carbon-systems#forest-soil-carbon-plate",
+          "type": "Naturepedia Forest Soil Carbon Plate™"
+        },
+        {
+          "name": "Old-Growth Carbon Plate™",
+          "id": "forest-carbon-systems#old-growth-carbon-plate",
+          "type": "Naturepedia Old-Growth Carbon Plate™"
+        },
+        {
+          "name": "Forest Carbon Sequestration Plate™",
+          "id": "forest-carbon-systems#forest-carbon-sequestration-plate",
+          "type": "Naturepedia Forest Carbon Sequestration Plate™"
+        },
+        {
+          "name": "Forest Carbon Resilience Plate™",
+          "id": "forest-carbon-systems#forest-carbon-resilience-plate",
+          "type": "Naturepedia Forest Carbon Resilience Plate™"
+        },
+        {
+          "name": "Regenerative Forest Carbon Plate™",
+          "id": "forest-carbon-systems#regenerative-forest-carbon-plate",
+          "type": "Naturepedia Regenerative Forest Carbon Plate™"
+        }
+      ]
     },
     {
       "name": "Climate Carbon Feedbacks Plates",
