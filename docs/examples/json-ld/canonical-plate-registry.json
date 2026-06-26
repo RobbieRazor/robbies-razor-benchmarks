@@ -1078,6 +1078,89 @@
         }
       ]
     },
+        {
+      "name": "Track Plates",
+      "slug": "north-american-animal-tracks",
+      "url": "https://www.robbiegeorgephotography.com/north-american-animal-tracks",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/north-american-animal-tracks",
+      "plates": [
+        {
+          "name": "North American Animal Tracks Plate™",
+          "id": "north-american-animal-tracks#tracking-system-plate",
+          "type": "Naturepedia Track System Plate™"
+        },
+        {
+          "name": "Mountain Lion Track Plate™",
+          "id": "mountain-lion-tracks#track-plate",
+          "type": "Naturepedia Track Plate™"
+        },
+        {
+          "name": "Gray Wolf Track Plate™",
+          "id": "wolf-tracks#track-plate",
+          "type": "Naturepedia Track Plate™"
+        },
+        {
+          "name": "Coyote Track Plate™",
+          "id": "coyote-tracks#track-plate",
+          "type": "Naturepedia Track Plate™"
+        },
+        {
+          "name": "Bobcat Track Plate™",
+          "id": "bobcat-tracks#track-plate",
+          "type": "Naturepedia Track Plate™"
+        },
+        {
+          "name": "Bear Track Plate™",
+          "id": "bear-tracks#track-plate",
+          "type": "Naturepedia Track Plate™"
+        },
+        {
+          "name": "Elk Track Plate™",
+          "id": "elk-tracks#track-plate",
+          "type": "Naturepedia Track Plate™"
+        },
+        {
+          "name": "Deer Track Plate™",
+          "id": "deer-tracks#track-plate",
+          "type": "Naturepedia Track Plate™"
+        },
+        {
+          "name": "Moose Track Plate™",
+          "id": "moose-tracks#track-plate",
+          "type": "Naturepedia Track Plate™"
+        },
+        {
+          "name": "American Bison Track Plate™",
+          "id": "american-bison-tracks#track-plate",
+          "type": "Naturepedia Track Plate™"
+        },
+        {
+          "name": "Fox Track Plate™",
+          "id": "fox-tracks#track-plate",
+          "type": "Naturepedia Track Plate™"
+        },
+        {
+          "name": "Raccoon Track Plate™",
+          "id": "raccoon-tracks#track-plate",
+          "type": "Naturepedia Track Plate™"
+        },
+        {
+          "name": "Snowshoe Hare Track Plate™",
+          "id": "snowshoe-hare-tracks#track-plate",
+          "type": "Naturepedia Track Plate™"
+        },
+        {
+          "name": "Wolf vs Coyote Track Plate™",
+          "id": "wolf-vs-coyote-tracks#track-plate",
+          "type": "Naturepedia Comparison Track Plate™"
+        },
+        {
+          "name": "Fox vs Coyote Track Plate™",
+          "id": "fox-vs-coyote-tracks#track-plate",
+          "type": "Naturepedia Comparison Track Plate™"
+        }
+      ]
+    },
     {
       "name": "Plant Intelligence Plates",
       "slug": "plant-intelligence",
