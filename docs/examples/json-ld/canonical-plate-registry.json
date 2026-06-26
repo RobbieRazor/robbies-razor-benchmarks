@@ -1132,6 +1132,94 @@
   ]
 },
   {
+  "name": "Firs of North America Plates",
+  "slug": "firs-of-north-america",
+  "url": "https://www.robbiegeorgephotography.com/firs-of-north-america",
+  "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/firs-of-north-america",
+  "plates": [
+    {
+      "name": "Fir Systems Plate™",
+      "id": "firs-of-north-america#fir-systems-plate",
+      "type": "Naturepedia Tree Family Plate™"
+    },
+    {
+      "name": "Fir Identification Plate™",
+      "id": "firs-of-north-america#fir-identification-plate",
+      "type": "Naturepedia Tree Identification Plate™"
+    },
+    {
+      "name": "Fir Needle Plate™",
+      "id": "firs-of-north-america#fir-needle-plate",
+      "type": "Naturepedia Tree Identification Plate™"
+    },
+    {
+      "name": "Fir Cone Plate™",
+      "id": "firs-of-north-america#fir-cone-plate",
+      "type": "Naturepedia Tree Identification Plate™"
+    },
+    {
+      "name": "Fir Bark Plate™",
+      "id": "firs-of-north-america#fir-bark-plate",
+      "type": "Naturepedia Bark Identification Plate™"
+    },
+    {
+      "name": "Balsam Fir Plate™",
+      "id": "firs-of-north-america#balsam-fir-plate",
+      "type": "Naturepedia Species Plate™"
+    },
+    {
+      "name": "Fraser Fir Plate™",
+      "id": "firs-of-north-america#fraser-fir-plate",
+      "type": "Naturepedia Species Plate™"
+    },
+    {
+      "name": "Noble Fir Plate™",
+      "id": "firs-of-north-america#noble-fir-plate",
+      "type": "Naturepedia Species Plate™"
+    },
+    {
+      "name": "Subalpine Fir Plate™",
+      "id": "firs-of-north-america#subalpine-fir-plate",
+      "type": "Naturepedia Species Plate™"
+    },
+    {
+      "name": "Grand Fir Plate™",
+      "id": "firs-of-north-america#grand-fir-plate",
+      "type": "Naturepedia Species Plate™"
+    },
+    {
+      "name": "Fir Mountain Forest Plate™",
+      "id": "firs-of-north-america#fir-mountain-forest-plate",
+      "type": "Naturepedia Mountain Forest Plate™"
+    },
+    {
+      "name": "Fir Wildlife Relationships Plate™",
+      "id": "firs-of-north-america#fir-wildlife-relationships-plate",
+      "type": "Naturepedia Wildlife Relationship Plate™"
+    },
+    {
+      "name": "Fir Snowpack Ecology Plate™",
+      "id": "firs-of-north-america#fir-snowpack-ecology-plate",
+      "type": "Naturepedia Water & Snowpack Systems Plate™"
+    },
+    {
+      "name": "Fir Forest Community Plate™",
+      "id": "firs-of-north-america#fir-forest-community-plate",
+      "type": "Naturepedia Forest Community Plate™"
+    },
+    {
+      "name": "Fir Carbon Storage Plate™",
+      "id": "firs-of-north-america#fir-carbon-storage-plate",
+      "type": "Naturepedia Carbon Systems Plate™"
+    },
+    {
+      "name": "Fir Climate Resilience Plate™",
+      "id": "firs-of-north-america#fir-climate-resilience-plate",
+      "type": "Naturepedia Climate Resilience Plate™"
+    }
+  ]
+},
+  {
       "name": "Plant Intelligence Plates",
       "slug": "plant-intelligence",
       "url": "https://www.robbiegeorgephotography.com/naturepedia-plant-intelligence",
