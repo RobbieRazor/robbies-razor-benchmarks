@@ -847,6 +847,19 @@
         }
       ]
     },
+        {
+      "name": "Field Location Plates",
+      "slug": "field-locations",
+      "url": "https://www.robbiegeorgephotography.com/field-locations",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/field-locations",
+      "plates": [
+        {
+          "name": "Field Locations Plate™",
+          "id": "field-locations#field-location-system-plate",
+          "type": "Naturepedia Field Location System Plate™"
+        }
+      ]
+    },
     {
       "name": "Plant Intelligence Plates",
       "slug": "plant-intelligence",
