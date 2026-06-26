@@ -1457,6 +1457,104 @@
         }
       ]
     },
+        {
+      "name": "Butterflies of North America Plates",
+      "slug": "butterflies-of-north-america",
+      "url": "https://www.robbiegeorgephotography.com/butterflies-of-north-america",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/butterflies-of-north-america",
+      "plates": [
+        {
+          "name": "Butterflies of North America System Plate™",
+          "id": "butterflies-of-north-america#butterflies-of-north-america-system-plate",
+          "type": "Naturepedia Species System Plate™"
+        },
+        {
+          "name": "Butterfly Life Cycle Plate™",
+          "id": "butterflies-of-north-america#butterfly-life-cycle-plate",
+          "type": "Naturepedia Life Cycle Plate™"
+        },
+        {
+          "name": "Wing Pattern Intelligence Plate™",
+          "id": "wing-pattern-intelligence#butterfly-wing-pattern-intelligence-plate",
+          "type": "Naturepedia Interpretation Plate™"
+        },
+        {
+          "name": "Monarch Butterfly Plate™",
+          "id": "monarch-butterfly#monarch-butterfly-species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Eastern Tiger Swallowtail Plate™",
+          "id": "eastern-tiger-swallowtail#eastern-tiger-swallowtail-species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Black Swallowtail Plate™",
+          "id": "black-swallowtail#black-swallowtail-species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Painted Lady Butterfly Plate™",
+          "id": "painted-lady-butterfly#painted-lady-species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Viceroy Butterfly Plate™",
+          "id": "viceroy-butterfly#viceroy-butterfly-species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Glasswing Butterfly Plate™",
+          "id": "glasswing-butterfly#glasswing-butterfly-species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Blue Morpho Butterfly Plate™",
+          "id": "blue-morpho-butterfly#blue-morpho-species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Zebra Swallowtail Plate™",
+          "id": "zebra-swallowtail#zebra-swallowtail-species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Pipevine Swallowtail Plate™",
+          "id": "pipevine-swallowtail#pipevine-swallowtail-species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Mourning Cloak Butterfly Plate™",
+          "id": "mourning-cloak-butterfly#mourning-cloak-species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Question Mark Butterfly Plate™",
+          "id": "question-mark-butterfly#question-mark-butterfly-species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Buckeye Butterfly Plate™",
+          "id": "buckeye-butterfly#buckeye-butterfly-species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Red-Spotted Purple Plate™",
+          "id": "red-spotted-purple#red-spotted-purple-species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Gulf Fritillary Plate™",
+          "id": "gulf-fritillary#gulf-fritillary-species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Owl Butterfly Plate™",
+          "id": "owl-butterfly#owl-butterfly-species-plate",
+          "type": "Naturepedia Species Plate™"
+        }
+      ]
+    },
     {
       "name": "Plant Intelligence Plates",
       "slug": "plant-intelligence",
