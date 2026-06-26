@@ -3386,6 +3386,17 @@
           "name": "Hydrogen Plate™",
           "id": "naturepedia-hydrogen#hydrogen-plate",
           "type": "Quantum & Elemental Intelligence Plate"
+        },
+        {
+      "name": "Photon Plates",
+      "slug": "naturepedia-photons",
+      "url": "https://www.robbiegeorgephotography.com/naturepedia-photons",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/naturepedia-photons",
+      "plates": [
+        {
+          "name": "Photon Plate™",
+          "id": "naturepedia-photons#photon-plate",
+          "type": "Quantum & Elemental Intelligence Plate"
         }
       ]
     }
