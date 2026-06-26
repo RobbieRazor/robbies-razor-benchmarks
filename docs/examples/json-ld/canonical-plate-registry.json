@@ -1643,6 +1643,94 @@
         }
       ]
     },
+        {
+      "name": "Hummingbirds of North America Plates",
+      "slug": "hummingbirds-of-north-america",
+      "url": "https://www.robbiegeorgephotography.com/hummingbirds-of-north-america",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/hummingbirds-of-north-america",
+      "plates": [
+        {
+          "name": "Hummingbirds of North America System Plate™",
+          "id": "hummingbirds-of-north-america#hummingbirds-of-north-america-system-plate",
+          "type": "Naturepedia Species System Plate™"
+        },
+        {
+          "name": "Hummingbird Flight & Energy Plate™",
+          "id": "hummingbirds-of-north-america#hummingbird-flight-energy-plate",
+          "type": "Naturepedia Flight Systems Plate™"
+        },
+        {
+          "name": "Iridescence & Feather Optics Plate™",
+          "id": "hummingbirds-of-north-america#iridescence-feather-optics-plate",
+          "type": "Naturepedia Optical Biology Plate™"
+        },
+        {
+          "name": "Pollination Precision Plate™",
+          "id": "hummingbirds-of-north-america#pollination-precision-plate",
+          "type": "Naturepedia Pollination Systems Plate™"
+        },
+        {
+          "name": "Ruby-throated Hummingbird Species Plate™",
+          "id": "hummingbirds-of-north-america#ruby-throated-hummingbird-species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Anna's Hummingbird Species Plate™",
+          "id": "hummingbirds-of-north-america#annas-hummingbird-species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Rufous Hummingbird Species Plate™",
+          "id": "hummingbirds-of-north-america#rufous-hummingbird-species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Broad-tailed Hummingbird Species Plate™",
+          "id": "hummingbirds-of-north-america#broad-tailed-hummingbird-species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Black-chinned Hummingbird Species Plate™",
+          "id": "hummingbirds-of-north-america#black-chinned-hummingbird-species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Costa's Hummingbird Species Plate™",
+          "id": "hummingbirds-of-north-america#costas-hummingbird-species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Allen's Hummingbird Species Plate™",
+          "id": "hummingbirds-of-north-america#allens-hummingbird-species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Calliope Hummingbird Species Plate™",
+          "id": "hummingbirds-of-north-america#calliope-hummingbird-species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Rivoli's Hummingbird Species Plate™",
+          "id": "hummingbirds-of-north-america#rivolis-hummingbird-species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Blue-throated Mountain-gem Species Plate™",
+          "id": "hummingbirds-of-north-america#blue-throated-mountain-gem-species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Lucifer Hummingbird Species Plate™",
+          "id": "hummingbirds-of-north-america#lucifer-hummingbird-species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Violet-crowned Hummingbird Species Plate™",
+          "id": "hummingbirds-of-north-america#violet-crowned-hummingbird-species-plate",
+          "type": "Naturepedia Species Plate™"
+        }
+      ]
+    },
     {
       "name": "Plant Intelligence Plates",
       "slug": "plant-intelligence",
