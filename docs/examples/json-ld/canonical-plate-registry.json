@@ -1555,6 +1555,94 @@
         }
       ]
     },
+        {
+      "name": "Moths of North America Plates",
+      "slug": "naturepedia-moths",
+      "url": "https://www.robbiegeorgephotography.com/naturepedia-moths",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/naturepedia-moths",
+      "plates": [
+        {
+          "name": "Moths of North America System Plate™",
+          "id": "naturepedia-moths#moths-of-north-america-system-plate",
+          "type": "Naturepedia Species System Plate™"
+        },
+        {
+          "name": "Moth Life Cycle Plate™",
+          "id": "naturepedia-moths#moth-life-cycle-plate",
+          "type": "Naturepedia Life Cycle Plate™"
+        },
+        {
+          "name": "Luna Moth Species Plate™",
+          "id": "naturepedia-moths#luna-moth-species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Glovers Silk Moth Species Plate™",
+          "id": "naturepedia-moths#glovers-silk-moth-species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Cecropia Moth Species Plate™",
+          "id": "naturepedia-moths#cecropia-moth-species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Polyphemus Moth Species Plate™",
+          "id": "naturepedia-moths#polyphemus-moth-species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "White-lined Sphinx Species Plate™",
+          "id": "naturepedia-moths#white-lined-sphinx-species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Hummingbird Clearwing Species Plate™",
+          "id": "naturepedia-moths#hummingbird-clearwing-species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Giant Leopard Moth Species Plate™",
+          "id": "naturepedia-moths#giant-leopard-moth-species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Io Moth Species Plate™",
+          "id": "naturepedia-moths#io-moth-species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Plume Moth Species Plate™",
+          "id": "naturepedia-moths#plume-moth-species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Atlas Moth Species Plate™",
+          "id": "naturepedia-moths#atlas-moth-species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Nocturnal Ecology Interpretation Plate™",
+          "id": "naturepedia-moths#nocturnal-ecology-interpretation-plate",
+          "type": "Naturepedia Interpretation Plate™"
+        },
+        {
+          "name": "Moth Camouflage & Pattern Intelligence Plate™",
+          "id": "naturepedia-moths#moth-camouflage-pattern-intelligence-plate",
+          "type": "Naturepedia Interpretation Plate™"
+        },
+        {
+          "name": "Sphinx & Hovering Pollinator Plate™",
+          "id": "naturepedia-moths#sphinx-hovering-pollinator-plate",
+          "type": "Naturepedia Interpretation Plate™"
+        },
+        {
+          "name": "Seasonal Emergence Intelligence Plate™",
+          "id": "naturepedia-moths#seasonal-emergence-intelligence-plate",
+          "type": "Naturepedia Interpretation Plate™"
+        }
+      ]
+    },
     {
       "name": "Plant Intelligence Plates",
       "slug": "plant-intelligence",
