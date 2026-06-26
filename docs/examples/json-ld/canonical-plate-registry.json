@@ -550,6 +550,64 @@
           "id": "information-systems-in-nature#future-information-systems-plate",
           "type": "Naturepedia Future Systems Plate™"
         }
+           ]
+    },
+    {
+      "name": "Bioelectric Systems Plates",
+      "slug": "bioelectric-systems",
+      "url": "https://www.robbiegeorgephotography.com/bioelectric-systems",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/bioelectric-systems-map",
+      "plates": [
+        {
+          "name": "Bioelectric Systems Plate™",
+          "id": "bioelectric-systems#bioelectric-systems-plate",
+          "type": "Naturepedia Systems Plate™"
+        },
+        {
+          "name": "Harold Burr's Life Fields Plate™",
+          "id": "bioelectric-systems#harold-burr-life-fields-plate",
+          "type": "Naturepedia Scientific History Plate™"
+        },
+        {
+          "name": "Bioelectric Morphogenesis Plate™",
+          "id": "bioelectric-systems#bioelectric-morphogenesis-plate",
+          "type": "Naturepedia Developmental Biology Plate™"
+        },
+        {
+          "name": "Michael Levin Plate™",
+          "id": "bioelectric-systems#michael-levin-plate",
+          "type": "Naturepedia Modern Science Plate™"
+        },
+        {
+          "name": "Regeneration & Healing Plate™",
+          "id": "bioelectric-systems#regeneration-healing-plate",
+          "type": "Naturepedia Regeneration Plate™"
+        },
+        {
+          "name": "Plant Electrophysiology Plate™",
+          "id": "bioelectric-systems#plant-electrophysiology-plate",
+          "type": "Naturepedia Plant Systems Plate™"
+        },
+        {
+          "name": "Soil Electrical Networks Plate™",
+          "id": "bioelectric-systems#soil-electrical-networks-plate",
+          "type": "Naturepedia Soil Systems Plate™"
+        },
+        {
+          "name": "Bioelectric Medicine Plate™",
+          "id": "bioelectric-systems#bioelectric-medicine-plate",
+          "type": "Naturepedia Human Systems Plate™"
+        },
+        {
+          "name": "Electrical Ecology Plate™",
+          "id": "bioelectric-systems#electrical-ecology-plate",
+          "type": "Naturepedia Ecology Plate™"
+        },
+        {
+          "name": "Bioelectric Photography Plate™",
+          "id": "bioelectric-systems#bioelectric-photography-plate",
+          "type": "Naturepedia Photography Plate™"
+        }
       ]
     }
   ]
