@@ -3260,6 +3260,32 @@
           "name": "Keystone Plant Species Plate™",
           "id": "plant-communities-native-habitat-systems#keystone-plant-species-plate",
           "type": "Naturepedia Keystone Species Plate™"
+        },
+        {
+      "name": "Biodiversity & Ecosystem Balance Plates",
+      "slug": "biodiversity-ecosystem-balance",
+      "url": "https://www.robbiegeorgephotography.com/biodiversity-ecosystem-balance",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/biodiversity-ecosystem-balance",
+      "plates": [
+        {
+          "name": "Biodiversity & Ecosystem Balance Plate™",
+          "id": "biodiversity-ecosystem-balance#biodiversity-system-plate",
+          "type": "Naturepedia Biodiversity System Plate™"
+        },
+        {
+          "name": "Biodiversity Intelligence Plate™",
+          "id": "biodiversity-ecosystem-balance#biodiversity-intelligence-plate",
+          "type": "Naturepedia Ecological Intelligence Plate™"
+        },
+        {
+          "name": "Ecosystem Stability Plate™",
+          "id": "biodiversity-ecosystem-balance#ecosystem-stability-plate",
+          "type": "Naturepedia Ecosystem Stability Plate™"
+        },
+        {
+          "name": "Ecological Resilience Plate™",
+          "id": "biodiversity-ecosystem-balance#ecological-resilience-plate",
+          "type": "Naturepedia Ecological Resilience Plate™"
         }
       ]
     }
