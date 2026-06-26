@@ -1354,6 +1354,109 @@
         }
       ]
     },
+        {
+      "name": "Bees of North America Plates",
+      "slug": "bees-of-north-america",
+      "url": "https://www.robbiegeorgephotography.com/bees-of-north-america",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/bees-of-north-america",
+      "plates": [
+        {
+          "name": "Bees of North America System Plate™",
+          "id": "bees-of-north-america#bees-of-north-america-system-plate",
+          "type": "Naturepedia Species System Plate™"
+        },
+        {
+          "name": "Pollination Intelligence Plate™",
+          "id": "pollination-intelligence#pollination-intelligence-plate",
+          "type": "Naturepedia Interpretation Plate™"
+        },
+        {
+          "name": "Hive Intelligence Plate™",
+          "id": "hive-intelligence#hive-intelligence-plate",
+          "type": "Naturepedia Intelligence Systems Plate™"
+        },
+        {
+          "name": "Waggle Dance Communication Plate™",
+          "id": "waggle-dance#communication-intelligence-plate",
+          "type": "Naturepedia Communication Systems Plate™"
+        },
+        {
+          "name": "Ultraviolet Flower Guidance Plate™",
+          "id": "flower-guidance#ultraviolet-flower-guidance-plate",
+          "type": "Naturepedia Navigation Systems Plate™"
+        },
+        {
+          "name": "Mason Bee Species Plate™",
+          "id": "bees-of-north-america#mason-bee-species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "American Bumble Bee Species Plate™",
+          "id": "bees-of-north-america#american-bumble-bee-species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Common Eastern Bumble Bee Species Plate™",
+          "id": "bees-of-north-america#common-eastern-bumble-bee-species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Rusty Patched Bumble Bee Species Plate™",
+          "id": "bees-of-north-america#rusty-patched-bumble-bee-species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Western Honey Bee Species Plate™",
+          "id": "bees-of-north-america#western-honey-bee-species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Leafcutter Bee Species Plate™",
+          "id": "bees-of-north-america#leafcutter-bee-species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Carpenter Bee Species Plate™",
+          "id": "bees-of-north-america#carpenter-bee-species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Mining Bee Species Plate™",
+          "id": "bees-of-north-america#mining-bee-species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Blue Orchard Bee Species Plate™",
+          "id": "bees-of-north-america#blue-orchard-bee-species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Sweat Bee Species Plate™",
+          "id": "bees-of-north-america#sweat-bee-species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Metallic Green Bee Species Plate™",
+          "id": "bees-of-north-america#metallic-green-bee-species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Squash Bee Species Plate™",
+          "id": "bees-of-north-america#squash-bee-species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Wool Carder Bee Species Plate™",
+          "id": "bees-of-north-america#wool-carder-bee-species-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Bee Life Cycle Plate™",
+          "id": "bees-of-north-america#bee-life-cycle-plate",
+          "type": "Naturepedia Life Cycle Plate™"
+        }
+      ]
+    },
     {
       "name": "Plant Intelligence Plates",
       "slug": "plant-intelligence",
