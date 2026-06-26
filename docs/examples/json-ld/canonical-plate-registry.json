@@ -1620,6 +1620,89 @@
   ]
 },
   {
+  "name": "Hickories of North America Plates",
+  "slug": "hickories-of-north-america",
+  "url": "https://www.robbiegeorgephotography.com/hickories-of-north-america",
+  "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/hickories-of-north-america",
+  "plates": [
+    {
+      "name": "Hickory Systems Plate™",
+      "id": "hickories-of-north-america#hickory-systems-plate",
+      "type": "Naturepedia Tree Family Systems Plate™"
+    },
+    {
+      "name": "Hickory Identification Plate™",
+      "id": "hickories-of-north-america#hickory-identification-plate",
+      "type": "Naturepedia Tree Identification Plate™"
+    },
+    {
+      "name": "Hickory Leaf Plate™",
+      "id": "hickories-of-north-america#hickory-leaf-plate",
+      "type": "Naturepedia Tree Identification Plate™"
+    },
+    {
+      "name": "Hickory Nut Plate™",
+      "id": "hickories-of-north-america#hickory-nut-plate",
+      "type": "Naturepedia Tree Identification Plate™"
+    },
+    {
+      "name": "Hickory Bark Plate™",
+      "id": "hickories-of-north-america#hickory-bark-plate",
+      "type": "Naturepedia Tree Identification Plate™"
+    },
+    {
+      "name": "Shagbark Hickory Plate™",
+      "id": "hickories-of-north-america#shagbark-hickory-plate",
+      "type": "Naturepedia Species Plate™"
+    },
+    {
+      "name": "Shellbark Hickory Plate™",
+      "id": "hickories-of-north-america#shellbark-hickory-plate",
+      "type": "Naturepedia Species Plate™"
+    },
+    {
+      "name": "Pignut Hickory Plate™",
+      "id": "hickories-of-north-america#pignut-hickory-plate",
+      "type": "Naturepedia Species Plate™"
+    },
+    {
+      "name": "Mockernut Hickory Plate™",
+      "id": "hickories-of-north-america#mockernut-hickory-plate",
+      "type": "Naturepedia Species Plate™"
+    },
+    {
+      "name": "Bitternut Hickory Plate™",
+      "id": "hickories-of-north-america#bitternut-hickory-plate",
+      "type": "Naturepedia Species Plate™"
+    },
+    {
+      "name": "Hickory Wildlife Relationships Plate™",
+      "id": "hickories-of-north-america#hickory-wildlife-relationships-plate",
+      "type": "Naturepedia Wildlife Relationships Plate™"
+    },
+    {
+      "name": "Hickory Mast Production Plate™",
+      "id": "hickories-of-north-america#hickory-mast-production-plate",
+      "type": "Naturepedia Forest Ecology Plate™"
+    },
+    {
+      "name": "Hickory Forest Community Plate™",
+      "id": "hickories-of-north-america#hickory-forest-community-plate",
+      "type": "Naturepedia Forest Community Plate™"
+    },
+    {
+      "name": "Hickory Ecological Restoration Plate™",
+      "id": "hickories-of-north-america#hickory-ecological-restoration-plate",
+      "type": "Naturepedia Ecological Restoration Plate™"
+    },
+    {
+      "name": "Hickory Biodiversity Plate™",
+      "id": "hickories-of-north-america#hickory-biodiversity-plate",
+      "type": "Naturepedia Biodiversity Plate™"
+    }
+  ]
+},  
+  {
       "name": "Plant Intelligence Plates",
       "slug": "plant-intelligence",
       "url": "https://www.robbiegeorgephotography.com/naturepedia-plant-intelligence",
