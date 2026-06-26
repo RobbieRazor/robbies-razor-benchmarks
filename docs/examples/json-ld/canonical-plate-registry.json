@@ -877,7 +877,90 @@
         }
       ]
     },
+{
+  "name": "Aspens of North America Plates",
+  "slug": "aspens-of-north-america",
+  "url": "https://www.robbiegeorgephotography.com/aspens-of-north-america",
+  "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/aspens-of-north-america",
+  "plates": [
     {
+      "name": "Aspen Systems Plate™",
+      "id": "aspens-of-north-america#aspen-systems-plate",
+      "type": "Naturepedia Tree Systems Plate™"
+    },
+    {
+      "name": "Aspen Identification Plate™",
+      "id": "aspens-of-north-america#aspen-identification-plate",
+      "type": "Naturepedia Tree Identification Plate™"
+    },
+    {
+      "name": "Aspen Leaf Plate™",
+      "id": "aspens-of-north-america#aspen-leaf-plate",
+      "type": "Naturepedia Leaf Identification Plate™"
+    },
+    {
+      "name": "Aspen Bark Plate™",
+      "id": "aspens-of-north-america#aspen-bark-plate",
+      "type": "Naturepedia Bark Identification Plate™"
+    },
+    {
+      "name": "Quaking Aspen Plate™",
+      "id": "aspens-of-north-america#quaking-aspen-plate",
+      "type": "Naturepedia Species Plate™"
+    },
+    {
+      "name": "Bigtooth Aspen Plate™",
+      "id": "aspens-of-north-america#bigtooth-aspen-plate",
+      "type": "Naturepedia Species Plate™"
+    },
+    {
+      "name": "Aspen Clonal Colony Plate™",
+      "id": "aspens-of-north-america#aspen-clonal-colony-plate",
+      "type": "Naturepedia Ecological Systems Plate™"
+    },
+    {
+      "name": "Aspen Wildlife Relationships Plate™",
+      "id": "aspens-of-north-america#aspen-wildlife-relationships-plate",
+      "type": "Naturepedia Wildlife Relationships Plate™"
+    },
+    {
+      "name": "Aspen Forest Succession Plate™",
+      "id": "aspens-of-north-america#aspen-forest-succession-plate",
+      "type": "Naturepedia Forest Succession Plate™"
+    },
+    {
+      "name": "Aspen Wildfire Recovery Plate™",
+      "id": "aspens-of-north-america#aspen-wildfire-recovery-plate",
+      "type": "Naturepedia Ecological Recovery Plate™"
+    },
+    {
+      "name": "Aspen Biodiversity Plate™",
+      "id": "aspens-of-north-america#aspen-biodiversity-plate",
+      "type": "Naturepedia Biodiversity Plate™"
+    },
+    {
+      "name": "Aspen Carbon Storage Plate™",
+      "id": "aspens-of-north-america#aspen-carbon-storage-plate",
+      "type": "Naturepedia Carbon Systems Plate™"
+    },
+    {
+      "name": "Aspen Forest Artist Rendition Plate™",
+      "id": "aspens-of-north-america#aspen-forest-artist-rendition-plate",
+      "type": "Naturepedia Artist Rendition Plate™"
+    },
+    {
+      "name": "Aspen Root Colony Artist Rendition Plate™",
+      "id": "aspens-of-north-america#aspen-root-colony-artist-rendition-plate",
+      "type": "Naturepedia Artist Rendition Plate™"
+    },
+    {
+      "name": "Golden Aspen Canopy Artist Rendition Plate™",
+      "id": "aspens-of-north-america#golden-aspen-canopy-artist-rendition-plate",
+      "type": "Naturepedia Artist Rendition Plate™"
+    }
+  ]
+  },
+  {
       "name": "Plant Intelligence Plates",
       "slug": "plant-intelligence",
       "url": "https://www.robbiegeorgephotography.com/naturepedia-plant-intelligence",
