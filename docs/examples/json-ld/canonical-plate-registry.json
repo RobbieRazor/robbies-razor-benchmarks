@@ -3694,12 +3694,14 @@
       "url": "https://www.robbiegeorgephotography.com/who-is-robbie-george",
       "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/robbie-george",
       "plates": [
-        {
+                {
           "name": "Robbie George Biography Plate™",
           "id": "robbie-george#robbie-george-biography-plate",
           "type": "Naturepedia Biography Plate™"
-        },
-        {
+        }
+      ]
+    },
+    {
       "name": "Ecosystem Feedbacks Plates",
       "slug": "ecosystem-feedbacks",
       "url": "https://www.robbiegeorgephotography.com/ecosystem-feedbacks",
