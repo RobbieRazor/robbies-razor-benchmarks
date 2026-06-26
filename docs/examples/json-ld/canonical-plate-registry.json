@@ -961,6 +961,99 @@
   ]
   },
   {
+  "name": "Pines of North America Plates",
+  "slug": "pines-of-north-america",
+  "url": "https://www.robbiegeorgephotography.com/pines-of-north-america",
+  "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/pines-of-north-america",
+  "plates": [
+    {
+      "name": "Pine Systems Plate™",
+      "id": "pines-of-north-america#pine-systems-plate",
+      "type": "Naturepedia Tree Family Systems Plate™"
+    },
+    {
+      "name": "Pine Identification Plate™",
+      "id": "pines-of-north-america#pine-identification-plate",
+      "type": "Naturepedia Tree Identification Plate™"
+    },
+    {
+      "name": "Pine Needle Plate™",
+      "id": "pines-of-north-america#pine-needle-plate",
+      "type": "Naturepedia Tree Identification Plate™"
+    },
+    {
+      "name": "Pine Cone Plate™",
+      "id": "pines-of-north-america#pine-cone-plate",
+      "type": "Naturepedia Tree Reproduction & Identification Plate™"
+    },
+    {
+      "name": "Pine Bark Plate™",
+      "id": "pines-of-north-america#pine-bark-plate",
+      "type": "Naturepedia Tree Identification & Adaptation Plate™"
+    },
+    {
+      "name": "Eastern White Pine Plate™",
+      "id": "pines-of-north-america#eastern-white-pine-plate",
+      "type": "Naturepedia Tree Species Plate™"
+    },
+    {
+      "name": "Ponderosa Pine Plate™",
+      "id": "pines-of-north-america#ponderosa-pine-plate",
+      "type": "Naturepedia Tree Species Plate™"
+    },
+    {
+      "name": "Lodgepole Pine Plate™",
+      "id": "pines-of-north-america#lodgepole-pine-plate",
+      "type": "Naturepedia Tree Species Plate™"
+    },
+    {
+      "name": "Longleaf Pine Plate™",
+      "id": "pines-of-north-america#longleaf-pine-plate",
+      "type": "Naturepedia Tree Species Plate™"
+    },
+    {
+      "name": "Pine Cone Ecology Plate™",
+      "id": "pines-of-north-america#pine-cone-ecology-plate",
+      "type": "Naturepedia Tree Reproduction & Ecology Plate™"
+    },
+    {
+      "name": "Pine Wildlife Relationships Plate™",
+      "id": "pines-of-north-america#pine-wildlife-relationships-plate",
+      "type": "Naturepedia Wildlife Relationships Plate™"
+    },
+    {
+      "name": "Pine Fire Ecology Plate™",
+      "id": "pines-of-north-america#pine-fire-ecology-plate",
+      "type": "Naturepedia Forest Fire Ecology Plate™"
+    },
+    {
+      "name": "Pine Forest Community Plate™",
+      "id": "pines-of-north-america#pine-forest-community-plate",
+      "type": "Naturepedia Forest Community Plate™"
+    },
+    {
+      "name": "Pine Carbon Storage Plate™",
+      "id": "pines-of-north-america#pine-carbon-storage-plate",
+      "type": "Naturepedia Climate & Carbon Plate™"
+    },
+    {
+      "name": "Pine Forest Artist Rendition Plate™",
+      "id": "pines-of-north-america#pine-forest-artist-rendition-plate",
+      "type": "Naturepedia Artist Rendition Plate™"
+    },
+    {
+      "name": "Pine Cone Artist Rendition Plate™",
+      "id": "pines-of-north-america#pine-cone-artist-rendition-plate",
+      "type": "Naturepedia Artist Rendition Plate™"
+    },
+    {
+      "name": "Mountain Pine Forest Artist Rendition Plate™",
+      "id": "pines-of-north-america#mountain-pine-forest-artist-rendition-plate",
+      "type": "Naturepedia Artist Rendition Plate™"
+    }
+  ]
+},
+  {
       "name": "Plant Intelligence Plates",
       "slug": "plant-intelligence",
       "url": "https://www.robbiegeorgephotography.com/naturepedia-plant-intelligence",
