@@ -3469,6 +3469,30 @@
           "name": "Gravitons Plate™",
           "id": "naturepedia-gravitons#gravitons-plate",
           "type": "Naturepedia Universal Principle Plate™"
+        },
+        {
+      "name": "Wildlife Systems & Ecology Plates",
+      "slug": "wildlife-systems-ecology",
+      "url": "https://www.robbiegeorgephotography.com/wildlife-systems-ecology-north-america",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/wildlife-systems-ecology",
+      "plates": [
+        {
+          "name": "Wildlife Systems & Ecology Plate™",
+          "id": "wildlife-systems-ecology#wildlife-systems-ecology-plate",
+          "type": "Naturepedia Wildlife Systems Plate™"
+        }
+      ]
+    },
+    {
+      "name": "Wildlife Conservation & Habitat Plates",
+      "slug": "wildlife-conservation-habitat",
+      "url": "https://www.robbiegeorgephotography.com/wildlife-conservation-habitat",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/wildlife-conservation-habitat",
+      "plates": [
+        {
+          "name": "Wildlife Conservation & Habitat Plate™",
+          "id": "wildlife-conservation-habitat#wildlife-conservation-habitat-plate",
+          "type": "Naturepedia Conservation System Plate™"
         }
       ]
     }
