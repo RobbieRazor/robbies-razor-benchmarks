@@ -1298,6 +1298,84 @@
   ]
 },
   {
+  "name": "Cedars of North America Plates",
+  "slug": "cedars-of-north-america",
+  "url": "https://www.robbiegeorgephotography.com/cedars-of-north-america",
+  "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/cedars-of-north-america",
+  "plates": [
+    {
+      "name": "Cedar Systems Plate™",
+      "id": "cedars-of-north-america#cedar-systems-plate",
+      "type": "Naturepedia Tree Family Systems Plate™"
+    },
+    {
+      "name": "Cedar Identification Plate™",
+      "id": "cedars-of-north-america#cedar-identification-plate",
+      "type": "Naturepedia Tree Identification Plate™"
+    },
+    {
+      "name": "Cedar Leaf Plate™",
+      "id": "cedars-of-north-america#cedar-leaf-plate",
+      "type": "Naturepedia Tree Identification Plate™"
+    },
+    {
+      "name": "Cedar Cone Plate™",
+      "id": "cedars-of-north-america#cedar-cone-plate",
+      "type": "Naturepedia Tree Identification Plate™"
+    },
+    {
+      "name": "Cedar Bark Plate™",
+      "id": "cedars-of-north-america#cedar-bark-plate",
+      "type": "Naturepedia Tree Identification Plate™"
+    },
+    {
+      "name": "Eastern Red Cedar Plate™",
+      "id": "cedars-of-north-america#eastern-red-cedar-plate",
+      "type": "Naturepedia Tree Species Plate™"
+    },
+    {
+      "name": "Northern White Cedar Plate™",
+      "id": "cedars-of-north-america#northern-white-cedar-plate",
+      "type": "Naturepedia Tree Species Plate™"
+    },
+    {
+      "name": "Western Red Cedar Plate™",
+      "id": "cedars-of-north-america#western-red-cedar-plate",
+      "type": "Naturepedia Tree Species Plate™"
+    },
+    {
+      "name": "Incense Cedar Plate™",
+      "id": "cedars-of-north-america#incense-cedar-plate",
+      "type": "Naturepedia Tree Species Plate™"
+    },
+    {
+      "name": "Cedar Swamp Forest Plate™",
+      "id": "cedars-of-north-america#cedar-swamp-forest-plate",
+      "type": "Naturepedia Forest Ecology Plate™"
+    },
+    {
+      "name": "Cedar Wildlife Relationships Plate™",
+      "id": "cedars-of-north-america#cedar-wildlife-relationships-plate",
+      "type": "Naturepedia Wildlife Relationships Plate™"
+    },
+    {
+      "name": "Cedar Forest Community Plate™",
+      "id": "cedars-of-north-america#cedar-forest-community-plate",
+      "type": "Naturepedia Forest Community Plate™"
+    },
+    {
+      "name": "Cedar Carbon Storage Plate™",
+      "id": "cedars-of-north-america#cedar-carbon-storage-plate",
+      "type": "Naturepedia Carbon Systems Plate™"
+    },
+    {
+      "name": "Cedar Climate Resilience Plate™",
+      "id": "cedars-of-north-america#cedar-climate-resilience-plate",
+      "type": "Naturepedia Climate Resilience Plate™"
+    }
+  ]
+},
+  {
       "name": "Plant Intelligence Plates",
       "slug": "plant-intelligence",
       "url": "https://www.robbiegeorgephotography.com/naturepedia-plant-intelligence",
