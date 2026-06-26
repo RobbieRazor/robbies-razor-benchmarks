@@ -43,7 +43,63 @@
       "slug": "carbon-cycle",
       "url": "https://www.robbiegeorgephotography.com/carbon-cycle",
       "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/carbon-cycle",
-      "plates": []
+            "plates": [
+        {
+          "name": "Carbon Cycle Plate™",
+          "id": "carbon-cycle#carbon-cycle-plate",
+          "type": "Naturepedia Carbon Cycle Plate™"
+        },
+        {
+          "name": "Photosynthesis Plate™",
+          "id": "carbon-cycle#photosynthesis-plate",
+          "type": "Naturepedia Photosynthesis Plate™"
+        },
+        {
+          "name": "Respiration Plate™",
+          "id": "carbon-cycle#respiration-plate",
+          "type": "Naturepedia Respiration Plate™"
+        },
+        {
+          "name": "Decomposition Plate™",
+          "id": "carbon-cycle#decomposition-plate",
+          "type": "Naturepedia Decomposition Plate™"
+        },
+        {
+          "name": "Soil Carbon Systems Plate™",
+          "id": "carbon-cycle#soil-carbon-systems-plate",
+          "type": "Naturepedia Soil Carbon Systems Plate™"
+        },
+        {
+          "name": "Forest Carbon Systems Plate™",
+          "id": "carbon-cycle#forest-carbon-systems-plate",
+          "type": "Naturepedia Forest Carbon Systems Plate™"
+        },
+        {
+          "name": "Carbon Sequestration Plate™",
+          "id": "carbon-cycle#carbon-sequestration-plate",
+          "type": "Naturepedia Carbon Sequestration Plate™"
+        },
+        {
+          "name": "Carbon & Microbial Life Plate™",
+          "id": "carbon-cycle#carbon-microbial-life-plate",
+          "type": "Naturepedia Carbon & Microbial Life Plate™"
+        },
+        {
+          "name": "Climate Carbon Feedbacks Plate™",
+          "id": "carbon-cycle#climate-carbon-feedbacks-plate",
+          "type": "Naturepedia Climate Carbon Feedbacks Plate™"
+        },
+        {
+          "name": "Blue Carbon Plate™",
+          "id": "carbon-cycle#blue-carbon-plate",
+          "type": "Naturepedia Blue Carbon Plate™"
+        },
+        {
+          "name": "Regenerative Carbon Systems Plate™",
+          "id": "carbon-cycle#regenerative-carbon-systems-plate",
+          "type": "Naturepedia Regenerative Carbon Systems Plate™"
+        }
+      ]
     },
     {
       "name": "Soil Carbon Systems Plates",
