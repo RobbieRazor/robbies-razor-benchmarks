@@ -492,6 +492,64 @@
           "id": "soil-systems#regenerative-soil-systems-plate",
           "type": "Naturepedia Human-Earth Systems Plate™"
         }
+            ]
+    },
+    {
+      "name": "Information Systems in Nature Plates",
+      "slug": "information-systems-in-nature",
+      "url": "https://www.robbiegeorgephotography.com/information-systems-in-nature",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/registries/information-systems",
+      "plates": [
+        {
+          "name": "Information Systems in Nature Plate™",
+          "id": "information-systems-in-nature#information-systems-in-nature-plate",
+          "type": "Naturepedia Systems Plate™"
+        },
+        {
+          "name": "Biological Communication Plate™",
+          "id": "information-systems-in-nature#biological-communication-plate",
+          "type": "Naturepedia Communication Plate™"
+        },
+        {
+          "name": "Signal Propagation Plate™",
+          "id": "information-systems-in-nature#signal-propagation-plate",
+          "type": "Naturepedia Signal Systems Plate™"
+        },
+        {
+          "name": "Ecological Networks Plate™",
+          "id": "information-systems-in-nature#ecological-networks-plate",
+          "type": "Naturepedia Ecological Networks Plate™"
+        },
+        {
+          "name": "Biological Memory Plate™",
+          "id": "information-systems-in-nature#biological-memory-plate",
+          "type": "Naturepedia Biological Memory Plate™"
+        },
+        {
+          "name": "Feedback Loop Architecture Plate™",
+          "id": "information-systems-in-nature#feedback-loop-architecture-plate",
+          "type": "Naturepedia Feedback Systems Plate™"
+        },
+        {
+          "name": "Distributed Intelligence Plate™",
+          "id": "information-systems-in-nature#distributed-intelligence-plate",
+          "type": "Naturepedia Distributed Intelligence Plate™"
+        },
+        {
+          "name": "Ecological Computation Plate™",
+          "id": "information-systems-in-nature#ecological-computation-plate",
+          "type": "Naturepedia Ecological Computation Plate™"
+        },
+        {
+          "name": "Living Information Fields Plate™",
+          "id": "information-systems-in-nature#living-information-fields-plate",
+          "type": "Naturepedia Living Information Fields Plate™"
+        },
+        {
+          "name": "Future Information Systems Plate™",
+          "id": "information-systems-in-nature#future-information-systems-plate",
+          "type": "Naturepedia Future Systems Plate™"
+        }
       ]
     }
   ]
