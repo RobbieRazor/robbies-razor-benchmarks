@@ -3696,6 +3696,93 @@
           "name": "Robbie George Biography Plate™",
           "id": "robbie-george#robbie-george-biography-plate",
           "type": "Naturepedia Biography Plate™"
+        },
+        {
+      "name": "Ecosystem Feedbacks Plates",
+      "slug": "ecosystem-feedbacks",
+      "url": "https://www.robbiegeorgephotography.com/ecosystem-feedbacks",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/ecosystem-feedbacks",
+      "plates": [
+        {
+          "name": "Ecosystem Feedbacks Plate™",
+          "id": "ecosystem-feedbacks#ecosystem-feedbacks-plate",
+          "type": "Naturepedia Systems Plate™"
+        },
+        {
+          "name": "Positive Feedback Loops Plate™",
+          "id": "ecosystem-feedbacks#positive-feedback-loops-plate",
+          "type": "Naturepedia Ecosystem Dynamics Plate™"
+        },
+        {
+          "name": "Negative Feedback Loops Plate™",
+          "id": "ecosystem-feedbacks#negative-feedback-loops-plate",
+          "type": "Naturepedia Ecosystem Dynamics Plate™"
+        },
+        {
+          "name": "Soil Feedbacks Plate™",
+          "id": "ecosystem-feedbacks#soil-feedbacks-plate",
+          "type": "Naturepedia Soil Systems Plate™"
+        },
+        {
+          "name": "Forest Feedbacks Plate™",
+          "id": "ecosystem-feedbacks#forest-feedbacks-plate",
+          "type": "Naturepedia Forest Systems Plate™"
+        },
+        {
+          "name": "Water & Climate Feedbacks Plate™",
+          "id": "ecosystem-feedbacks#water-climate-feedbacks-plate",
+          "type": "Naturepedia Climate Systems Plate™"
+        },
+        {
+          "name": "Microbial Feedbacks Plate™",
+          "id": "ecosystem-feedbacks#microbial-feedbacks-plate",
+          "type": "Naturepedia Microbial Life Systems Plate™"
+        },
+        {
+          "name": "Mycelial Feedback Networks Plate™",
+          "id": "ecosystem-feedbacks#mycelial-feedback-networks-plate",
+          "type": "Naturepedia Network Ecology Plate™"
+        },
+        {
+          "name": "Disturbance & Recovery Plate™",
+          "id": "ecosystem-feedbacks#disturbance-recovery-plate",
+          "type": "Naturepedia Resilience & Succession Plate™"
+        },
+        {
+          "name": "Regenerative Feedback Systems Plate™",
+          "id": "ecosystem-feedbacks#regenerative-feedback-systems-plate",
+          "type": "Naturepedia Regenerative Systems Plate™"
+        }
+      ]
+    },
+    {
+      "name": "Robbie's Razor Plates",
+      "slug": "robbies-razor",
+      "url": "https://www.robbiegeorgephotography.com/robbies-razor",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/robbies-razor",
+      "plates": [
+        {
+          "name": "Robbie’s Razor Plate™",
+          "id": "robbies-razor#robbies-razor-plate",
+          "type": "Naturepedia Recursive Compression Interface Plate"
+        }
+      ]
+    },
+    {
+      "name": "Grand Compression Plates",
+      "slug": "the-grand-compression",
+      "url": "https://www.robbiegeorgephotography.com/the-grand-compression",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/the-grand-compression",
+      "plates": [
+        {
+          "name": "The Grand Compression Cosmology Plate™",
+          "id": "the-grand-compression#grand-compression-cosmology-plate",
+          "type": "Grand Compression Foundation Plate"
+        },
+        {
+          "name": "The Grand Compression Naturepedia Knowledge Plate™",
+          "id": "the-grand-compression#the-grand-compression-naturepedia-knowledge-plate",
+          "type": "Naturepedia Quantum & Elemental Intelligence Plate"
         }
       ]
     }
