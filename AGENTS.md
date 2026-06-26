@@ -596,6 +596,36 @@ This repository uses distributed semantic reinforcement rather than a single sou
 
 Meaning emerges through recursive relationship consistency across systems.
 
+### Canonical Registry Authority (June 2026)
+
+Naturepedia™ now maintains a single canonical machine-readable registry that functions as the authoritative source for all live Plate™ systems.
+
+Canonical registry:
+
+https://www.robbiegeorgephotography.com/x402/canonical-plate-registry.json
+
+The canonical registry is generated from the GitHub registry source and powers:
+
+* `/v1/plates/canonical`
+* `/v1/plates/{slug}`
+* `/x402/canonical-plate-registry.json`
+* `llms-full.txt`
+
+When adding new Naturepedia™ systems or Plate™ families, agents SHOULD update the GitHub canonical registry first.
+
+The Cloudflare Worker is a retrieval layer and SHOULD NOT become a second source of truth.
+
+Recommended synchronization order:
+
+1. Publish or update the Naturepedia™ page.
+2. Create or update Plate™ IDs.
+3. Update the GitHub canonical registry.
+4. Verify `/v1/plates/{slug}` resolves correctly.
+5. Verify `/v1/plates/canonical` reflects the update.
+6. Confirm the x402 canonical registry serves the updated registry.
+
+Agents SHOULD preserve canonical Plate IDs, provenance metadata, JSON-LD relationships, and registry synchronization across all retrieval layers.
+
 ### Systems Registry Synchronization Rule
 
 When adding new Naturepedia™ systems pages, agents SHOULD synchronize updates across:
