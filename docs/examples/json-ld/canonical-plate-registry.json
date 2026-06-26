@@ -671,10 +671,179 @@
           "id": "quantum-agriculture#biodiversity-and-ecosystem-balance-plate",
           "type": "Naturepedia Quantum Agriculture Biodiversity Systems Plate™"
         },
-        {
+               {
           "name": "Future Food Systems Plate™",
           "id": "quantum-agriculture#future-food-systems-plate",
           "type": "Naturepedia Quantum Agriculture Future Systems Plate™"
+        }
+      ]
+    },
+    {
+      "name": "Water Systems Plates",
+      "slug": "water-systems",
+      "url": "https://www.robbiegeorgephotography.com/water-systems",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/water-systems",
+      "plates": [
+        {
+          "name": "Water Systems Plate™",
+          "id": "water-systems#water-systems-plate",
+          "type": "Naturepedia Water System Plate"
+        }
+      ]
+    },
+    {
+      "name": "River Systems Plates",
+      "slug": "river-systems",
+      "url": "https://www.robbiegeorgephotography.com/river-systems",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/river-systems",
+      "plates": [
+        {
+          "name": "River Systems Plate™",
+          "id": "river-systems#river-systems-plate",
+          "type": "Naturepedia Water System Plate"
+        }
+      ]
+    },
+    {
+      "name": "Wetland Ecosystems Plates",
+      "slug": "wetland-ecosystems",
+      "url": "https://www.robbiegeorgephotography.com/wetland-ecosystems",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/wetland-ecosystems",
+      "plates": [
+        {
+          "name": "Wetland Ecosystem Plate™",
+          "id": "wetland-ecosystems#wetland-ecosystem-plate",
+          "type": "Naturepedia Ecosystem Plate"
+        }
+      ]
+    },
+    {
+      "name": "Forest Ecosystems Plates",
+      "slug": "forest-ecosystems",
+      "url": "https://www.robbiegeorgephotography.com/forest-ecosystems",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/forest-ecosystems",
+      "plates": [
+        {
+          "name": "Forest Ecosystems Plate™",
+          "id": "forest-ecosystems#forest-ecosystems-plate",
+          "type": "Naturepedia Ecosystem Plate"
+        }
+      ]
+    },
+    {
+      "name": "Grassland Ecosystems Plates",
+      "slug": "grassland-ecosystems",
+      "url": "https://www.robbiegeorgephotography.com/grassland-ecosystems",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/grassland-ecosystems",
+      "plates": [
+        {
+          "name": "Grassland Ecosystems Plate™",
+          "id": "grassland-ecosystems#grassland-ecosystems-plate",
+          "type": "Naturepedia Ecosystem Plate"
+        }
+      ]
+    },
+    {
+      "name": "Mountain & Alpine Ecosystems Plates",
+      "slug": "mountain-alpine-ecosystems",
+      "url": "https://www.robbiegeorgephotography.com/mountain-alpine-ecosystems",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/mountain-alpine-ecosystems",
+      "plates": [
+        {
+          "name": "Mountain & Alpine Ecosystems Plate™",
+          "id": "mountain-alpine-ecosystems#mountain-alpine-ecosystems-plate",
+          "type": "Naturepedia Ecosystem Plate"
+        }
+      ]
+    },
+    {
+      "name": "Floodplains Plates",
+      "slug": "floodplains",
+      "url": "https://www.robbiegeorgephotography.com/floodplains",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/floodplains",
+      "plates": [
+        {
+          "name": "Floodplains Ecosystems Plate™",
+          "id": "floodplains#floodplains-plate",
+          "type": "Naturepedia Water System Plate"
+        }
+      ]
+    },
+    {
+      "name": "Groundwater Systems Plates",
+      "slug": "groundwater-systems",
+      "url": "https://www.robbiegeorgephotography.com/groundwater-systems",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/groundwater-systems",
+      "plates": [
+        {
+          "name": "Groundwater Systems Plate™",
+          "id": "groundwater-systems#groundwater-systems-plate",
+          "type": "Naturepedia Water System Plate"
+        }
+      ]
+    },
+    {
+      "name": "Estuaries & Coastal Systems Plates",
+      "slug": "estuaries-coastal-systems",
+      "url": "https://www.robbiegeorgephotography.com/estuaries-coastal-systems",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/estuaries-coastal-systems",
+      "plates": [
+        {
+          "name": "Estuaries & Coastal Systems Plate™",
+          "id": "estuaries-coastal-systems#estuaries-coastal-systems-plate",
+          "type": "Naturepedia Water System Plate"
+        }
+      ]
+    },
+    {
+      "name": "Coastal & Estuary Wildlife Systems Plates",
+      "slug": "coastal-island-ecosystems",
+      "url": "https://www.robbiegeorgephotography.com/coastal-island-ecosystems",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/coastal-island-ecosystems",
+      "plates": [
+        {
+          "name": "Coastal & Estuary Wildlife Systems Plate™",
+          "id": "coastal-island-ecosystems#coastal-estuary-wildlife-systems-plate",
+          "type": "Naturepedia Coastal & Wildlife Systems Plate"
+        }
+      ]
+    },
+    {
+      "name": "Arctic, Tundra & Boreal Ecosystems Plates",
+      "slug": "tundra-boreal-ecosystems",
+      "url": "https://www.robbiegeorgephotography.com/tundra-boreal-ecosystems",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/tundra-boreal-ecosystems",
+      "plates": [
+        {
+          "name": "Arctic, Tundra & Boreal Ecosystems Plate™",
+          "id": "tundra-boreal-ecosystems#arctic-tundra-boreal-ecosystems-plate",
+          "type": "Naturepedia Ecosystem Plate"
+        }
+      ]
+    },
+    {
+      "name": "Hydrogen, Water & Soil Systems Plates",
+      "slug": "hydrogen-water-soil-systems",
+      "url": "https://www.robbiegeorgephotography.com/hydrogen-water-soil-systems",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/hydrogen-water-soil-systems",
+      "plates": [
+        {
+          "name": "Hydrogen, Water & Soil Systems Plate™",
+          "id": "hydrogen-water-soil-systems#hydrogen-water-soil-systems-plate",
+          "type": "Naturepedia Foundation Systems Plate"
+        }
+      ]
+    },
+    {
+      "name": "Quantum & Elemental Intelligence Plates",
+      "slug": "naturepedia-quantum-elemental-intelligence",
+      "url": "https://www.robbiegeorgephotography.com/naturepedia-quantum-elemental-intelligence",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/naturepedia-quantum-elemental-intelligence",
+      "plates": [
+        {
+          "name": "Quantum & Elemental Intelligence Plate™",
+          "id": "naturepedia-quantum-elemental-intelligence#quantum-elemental-intelligence-ring-1-plate",
+          "type": "Naturepedia Foundation Systems Plate"
         }
       ]
     },
