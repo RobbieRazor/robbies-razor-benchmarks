@@ -3419,6 +3419,56 @@
           "name": "Vibration Plate™",
           "id": "naturepedia-vibration#vibration-plate",
           "type": "Naturepedia Universal Principle Plate™"
+        },
+        {
+      "name": "Quantum Fields Plates",
+      "slug": "naturepedia-quantum-fields",
+      "url": "https://www.robbiegeorgephotography.com/naturepedia-quantum-fields",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/naturepedia-quantum-fields",
+      "plates": [
+        {
+          "name": "Quantum Fields Plate™",
+          "id": "naturepedia-quantum-fields#quantum-fields-plate",
+          "type": "Naturepedia Universal Principle Plate™"
+        }
+      ]
+    },
+    {
+      "name": "Magnetism & Polarity Plates",
+      "slug": "naturepedia-magnetism-polarity",
+      "url": "https://www.robbiegeorgephotography.com/naturepedia-magnetism-polarity",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/naturepedia-magnetism-polarity",
+      "plates": [
+        {
+          "name": "Magnetism & Polarity Plate™",
+          "id": "naturepedia-magnetism-polarity#magnetism-polarity-plate",
+          "type": "Naturepedia Universal Principle Plate™"
+        }
+      ]
+    },
+    {
+      "name": "Plasma Plates",
+      "slug": "naturepedia-plasma",
+      "url": "https://www.robbiegeorgephotography.com/naturepedia-plasma",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/naturepedia-plasma",
+      "plates": [
+        {
+          "name": "Plasma Plate™",
+          "id": "naturepedia-plasma#plasma-plate",
+          "type": "Naturepedia Universal Principle Plate™"
+        }
+      ]
+    },
+    {
+      "name": "Gravitons Plates",
+      "slug": "naturepedia-gravitons",
+      "url": "https://www.robbiegeorgephotography.com/naturepedia-gravitons",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/naturepedia-gravitons",
+      "plates": [
+        {
+          "name": "Gravitons Plate™",
+          "id": "naturepedia-gravitons#gravitons-plate",
+          "type": "Naturepedia Universal Principle Plate™"
         }
       ]
     }
