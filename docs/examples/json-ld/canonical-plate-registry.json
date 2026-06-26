@@ -429,6 +429,69 @@
           "id": "earth-systems#earth-systems-photography-plate",
           "type": "Naturepedia Photography Plate™"
         }
+         ]
+    },
+    {
+      "name": "Soil Systems Plates",
+      "slug": "soil-systems",
+      "url": "https://www.robbiegeorgephotography.com/soil-systems",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/registries/soil-systems",
+      "plates": [
+        {
+          "name": "Soil Systems Plate™",
+          "id": "soil-systems#soil-systems-plate",
+          "type": "Naturepedia Systems Plate™"
+        },
+        {
+          "name": "Soil Formation Plate™",
+          "id": "soil-systems#soil-formation-plate",
+          "type": "Naturepedia Geology Plate™"
+        },
+        {
+          "name": "Soil Horizons Plate™",
+          "id": "soil-systems#soil-horizons-plate",
+          "type": "Naturepedia Identification Plate™"
+        },
+        {
+          "name": "Soil Microbiome Plate™",
+          "id": "soil-systems#soil-microbiome-plate",
+          "type": "Naturepedia Microbial Plate™"
+        },
+        {
+          "name": "Mycorrhizal Networks Plate™",
+          "id": "soil-systems#mycorrhizal-networks-plate",
+          "type": "Naturepedia Ecosystem Processes Plate™"
+        },
+        {
+          "name": "Living Soil Food Web Plate™",
+          "id": "soil-systems#soil-food-web-plate",
+          "type": "Naturepedia Ecosystem Processes Plate™"
+        },
+        {
+          "name": "Nutrient Cycling Plate™",
+          "id": "soil-systems#nutrient-cycling-plate",
+          "type": "Naturepedia Biogeochemical Cycles Plate™"
+        },
+        {
+          "name": "Soil Carbon Plate™",
+          "id": "soil-systems#soil-carbon-plate",
+          "type": "Naturepedia Carbon Cycle Plate™"
+        },
+        {
+          "name": "Soil Biodiversity Plate™",
+          "id": "soil-systems#soil-biodiversity-plate",
+          "type": "Naturepedia Biodiversity Plate™"
+        },
+        {
+          "name": "Soil Water Systems Plate™",
+          "id": "soil-systems#soil-water-systems-plate",
+          "type": "Naturepedia Water Systems Plate™"
+        },
+        {
+          "name": "Regenerative Soil Systems Plate™",
+          "id": "soil-systems#regenerative-soil-systems-plate",
+          "type": "Naturepedia Human-Earth Systems Plate™"
+        }
       ]
     }
   ]
