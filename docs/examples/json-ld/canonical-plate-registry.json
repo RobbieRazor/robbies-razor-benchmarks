@@ -847,7 +847,7 @@
         }
       ]
     },
-        {
+           {
       "name": "Field Location Plates",
       "slug": "field-locations",
       "url": "https://www.robbiegeorgephotography.com/field-locations",
@@ -857,6 +857,51 @@
           "name": "Field Locations Plate™",
           "id": "field-locations#field-location-system-plate",
           "type": "Naturepedia Field Location System Plate™"
+        },
+        {
+          "name": "Maroon Bells Field Location Plate™",
+          "id": "maroon-bells-colorado#location-plate",
+          "type": "Naturepedia Field Location Plate™"
+        },
+        {
+          "name": "Grand Teton National Park Field Location Plate™",
+          "id": "grand-teton-national-park-wyoming#location-plate",
+          "type": "Naturepedia Field Location Plate™"
+        },
+        {
+          "name": "Yellowstone National Park Field Location Plate™",
+          "id": "yellowstone-national-park-wyoming-montana-idaho#location-plate",
+          "type": "Naturepedia Field Location Plate™"
+        },
+        {
+          "name": "Chesapeake Bay System Plate™",
+          "id": "chesapeake-bay-wildlife-system#chesapeake-bay-system-plate",
+          "type": "Naturepedia Water System Plate™"
+        },
+        {
+          "name": "Blackwater National Wildlife Refuge Field Location Plate™",
+          "id": "blackwater-national-wildlife-refuge-maryland#location-plate",
+          "type": "Naturepedia Field Location Plate™"
+        },
+        {
+          "name": "Bosque del Apache Field Location Plate™",
+          "id": "bosque-del-apache-national-wildlife-refuge-new-mexico#location-plate",
+          "type": "Naturepedia Field Location Plate™"
+        },
+        {
+          "name": "Lake Mattamuskeet National Wildlife Refuge Field Location Plate™",
+          "id": "lake-mattamuskeet-north-carolina#location-plate",
+          "type": "Naturepedia Field Location Plate™"
+        },
+        {
+          "name": "Chincoteague National Wildlife Refuge Field Location Plate™",
+          "id": "chincoteague-national-wildlife-refuge-virginia#location-plate",
+          "type": "Naturepedia Field Location Plate™"
+        },
+        {
+          "name": "Machias Seal Island Field Location Plate™",
+          "id": "machias-seal-island#location-plate",
+          "type": "Naturepedia Field Location Plate™"
         }
       ]
     },
