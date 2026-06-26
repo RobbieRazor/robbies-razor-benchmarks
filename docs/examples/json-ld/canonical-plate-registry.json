@@ -351,6 +351,84 @@
           "id": "climate-carbon-feedbacks#planetary-carbon-balance-plate",
           "type": "Naturepedia Planetary Carbon Balance Plate™"
         }
+          ]
+    },
+    {
+      "name": "Earth Systems Plates",
+      "slug": "earth-systems",
+      "url": "https://www.robbiegeorgephotography.com/earth-systems",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/registries/earth-systems",
+      "plates": [
+        {
+          "name": "Earth Systems Plate™",
+          "id": "earth-systems#earth-systems-plate",
+          "type": "Naturepedia Systems Plate™"
+        },
+        {
+          "name": "Geosphere Plate™",
+          "id": "earth-systems#geosphere-plate",
+          "type": "Naturepedia Earth Systems Plate™"
+        },
+        {
+          "name": "Hydrosphere Plate™",
+          "id": "earth-systems#hydrosphere-plate",
+          "type": "Naturepedia Water Systems Plate™"
+        },
+        {
+          "name": "Atmosphere Plate™",
+          "id": "earth-systems#atmosphere-plate",
+          "type": "Naturepedia Climate Systems Plate™"
+        },
+        {
+          "name": "Biosphere Plate™",
+          "id": "earth-systems#biosphere-plate",
+          "type": "Naturepedia Biodiversity Plate™"
+        },
+        {
+          "name": "Cryosphere Plate™",
+          "id": "earth-systems#cryosphere-plate",
+          "type": "Naturepedia Earth Systems Plate™"
+        },
+        {
+          "name": "Soil Systems Plate™",
+          "id": "earth-systems#soil-systems-plate",
+          "type": "Naturepedia Ecosystem Processes Plate™"
+        },
+        {
+          "name": "Ecosystem Feedbacks Plate™",
+          "id": "earth-systems#ecosystem-feedbacks-plate",
+          "type": "Naturepedia Ecosystem Processes Plate™"
+        },
+        {
+          "name": "Carbon Cycle Plate™",
+          "id": "earth-systems#carbon-cycle-plate",
+          "type": "Naturepedia Biogeochemical Cycles Plate™"
+        },
+        {
+          "name": "Water Cycle Plate™",
+          "id": "earth-systems#water-cycle-plate",
+          "type": "Naturepedia Water Systems Plate™"
+        },
+        {
+          "name": "Climate Systems Plate™",
+          "id": "earth-systems#climate-systems-plate",
+          "type": "Naturepedia Climate Systems Plate™"
+        },
+        {
+          "name": "Plate Tectonics & Earth Engine Plate™",
+          "id": "earth-systems#plate-tectonics-earth-engine-plate",
+          "type": "Naturepedia Geology Plate™"
+        },
+        {
+          "name": "Human Impact on Earth Systems Plate™",
+          "id": "earth-systems#human-impact-earth-systems-plate",
+          "type": "Naturepedia Human-Earth Systems Plate™"
+        },
+        {
+          "name": "Earth Systems Photography Plate™",
+          "id": "earth-systems#earth-systems-photography-plate",
+          "type": "Naturepedia Photography Plate™"
+        }
       ]
     }
   ]
