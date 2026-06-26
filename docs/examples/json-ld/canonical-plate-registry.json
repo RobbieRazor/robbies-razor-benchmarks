@@ -3312,6 +3312,52 @@
           "name": "Habitat Fragmentation Plate™",
           "id": "wildlife-habitats-ecosystem-zones-north-america#habitat-fragmentation-plate",
           "type": "Naturepedia Habitat Conservation Plate™"
+        },
+        {
+      "name": "Robbie's Razor™ Framework Licensing Plates",
+      "slug": "robbies-razor-framework-licensing",
+      "url": "https://www.robbiegeorgephotography.com/robbies-razor-framework-licensing",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/robbies-razor-framework-licensing",
+      "plates": [
+        {
+          "name": "Robbie's Razor™ Systems Plate™",
+          "id": "robbies-razor-framework-licensing#robbies-razor-systems-plate",
+          "type": "Naturepedia Framework Systems Plate™"
+        },
+        {
+          "name": "Knowledge Compression Flow Plate™",
+          "id": "robbies-razor-framework-licensing#knowledge-compression-flow-plate",
+          "type": "Naturepedia Compression Plate™"
+        },
+        {
+          "name": "Plate Architecture™ Plate™",
+          "id": "robbies-razor-framework-licensing#plate-architecture-plate",
+          "type": "Naturepedia Architecture Plate™"
+        },
+        {
+          "name": "Authorship Conservation Rules™ Plate™",
+          "id": "robbies-razor-framework-licensing#authorship-conservation-rules-plate",
+          "type": "Naturepedia Governance Plate™"
+        },
+        {
+          "name": "Graph Registry™ Plate™",
+          "id": "robbies-razor-framework-licensing#graph-registry-plate",
+          "type": "Naturepedia Graph Architecture Plate™"
+        },
+        {
+          "name": "x402 Commercial Settlement Plate™",
+          "id": "robbies-razor-framework-licensing#x402-commercial-settlement-plate",
+          "type": "Naturepedia Commercial Infrastructure Plate™"
+        },
+        {
+          "name": "Future Knowledge Network Artist Rendition Plate™",
+          "id": "robbies-razor-framework-licensing#future-knowledge-network-artist-rendition-plate",
+          "type": "Naturepedia Artist Rendition Plate™"
+        },
+        {
+          "name": "Machine-to-Machine Commerce Artist Rendition Plate™",
+          "id": "robbies-razor-framework-licensing#machine-to-machine-commerce-artist-rendition-plate",
+          "type": "Naturepedia Artist Rendition Plate™"
         }
       ]
     }
