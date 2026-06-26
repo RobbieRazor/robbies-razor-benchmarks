@@ -678,7 +678,74 @@
         }
            ]
     },
-    
+        {
+      "name": "Birches of North America Plates",
+      "slug": "birches-of-north-america",
+      "url": "https://www.robbiegeorgephotography.com/birches-of-north-america",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/birches-of-north-america",
+      "plates": [
+        {
+          "name": "Birch Identification Plate™",
+          "id": "birches-of-north-america#birch-identification-plate",
+          "type": "Naturepedia Tree Identification Plate™"
+        },
+        {
+          "name": "Paper Birch Plate™",
+          "id": "birches-of-north-america#paper-birch-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Yellow Birch Plate™",
+          "id": "birches-of-north-america#yellow-birch-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "River Birch Plate™",
+          "id": "birches-of-north-america#river-birch-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Birch Wildlife Relationships Plate™",
+          "id": "birches-of-north-america#birch-wildlife-relationships-plate",
+          "type": "Naturepedia Wildlife Relationship Plate™"
+        },
+        {
+          "name": "Birch Wetland Edge Plate™",
+          "id": "birches-of-north-america#birch-wetland-edge-plate",
+          "type": "Naturepedia Wetland Ecology Plate™"
+        },
+        {
+          "name": "Birch Seasonal Ecology Plate™",
+          "id": "birches-of-north-america#birch-seasonal-ecology-plate",
+          "type": "Naturepedia Seasonal Ecology Plate™"
+        },
+        {
+          "name": "Birch Forest Succession Plate™",
+          "id": "birches-of-north-america#birch-forest-succession-plate",
+          "type": "Naturepedia Forest Succession Plate™"
+        },
+        {
+          "name": "Birch–Mycelial Network Plate™",
+          "id": "birches-of-north-america#birch-mycelial-network-plate",
+          "type": "Naturepedia Mycorrhizal Ecology Plate™"
+        },
+        {
+          "name": "Birch Bark & Leaf Plate™",
+          "id": "birches-of-north-america#birch-bark-leaf-plate",
+          "type": "Naturepedia Tree Identification Plate™"
+        },
+        {
+          "name": "Birch Forest Artist Rendition Plate™",
+          "id": "birches-of-north-america#birch-forest-artist-rendition-plate",
+          "type": "Naturepedia Artist Rendition Plate™"
+        },
+        {
+          "name": "White Bark Ecology Artist Rendition Plate™",
+          "id": "birches-of-north-america#white-bark-ecology-artist-rendition-plate",
+          "type": "Naturepedia Artist Rendition Plate™"
+        }
+      ]
+    },
     {
       "name": "Plant Intelligence Plates",
       "slug": "plant-intelligence",
