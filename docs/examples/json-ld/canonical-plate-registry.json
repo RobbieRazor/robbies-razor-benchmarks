@@ -169,7 +169,63 @@
       "slug": "carbon-microbial-life",
       "url": "https://www.robbiegeorgephotography.com/carbon-microbial-life",
       "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/carbon-microbial-life",
-      "plates": []
+            "plates": [
+        {
+          "name": "Carbon & Microbial Life Plate™",
+          "id": "carbon-microbial-life#carbon-microbial-life-plate",
+          "type": "Naturepedia Carbon & Microbial Life Plate™"
+        },
+        {
+          "name": "Microbial Decomposition Plate™",
+          "id": "carbon-microbial-life#microbial-decomposition-plate",
+          "type": "Naturepedia Microbial Decomposition Plate™"
+        },
+        {
+          "name": "Microbial Respiration Plate™",
+          "id": "carbon-microbial-life#microbial-respiration-plate",
+          "type": "Naturepedia Microbial Respiration Plate™"
+        },
+        {
+          "name": "Microbial Biomass Plate™",
+          "id": "carbon-microbial-life#microbial-biomass-plate",
+          "type": "Naturepedia Microbial Biomass Plate™"
+        },
+        {
+          "name": "Microbial Necromass Plate™",
+          "id": "carbon-microbial-life#microbial-necromass-plate",
+          "type": "Naturepedia Microbial Necromass Plate™"
+        },
+        {
+          "name": "Microbial Carbon Pump Plate™",
+          "id": "carbon-microbial-life#microbial-carbon-pump-plate",
+          "type": "Naturepedia Microbial Carbon Pump Plate™"
+        },
+        {
+          "name": "Carbon Mineralization Plate™",
+          "id": "carbon-microbial-life#carbon-mineralization-plate",
+          "type": "Naturepedia Carbon Mineralization Plate™"
+        },
+        {
+          "name": "Microbial Carbon Stabilization Plate™",
+          "id": "carbon-microbial-life#microbial-carbon-stabilization-plate",
+          "type": "Naturepedia Microbial Carbon Stabilization Plate™"
+        },
+        {
+          "name": "Microbial Nutrient Cycling Plate™",
+          "id": "carbon-microbial-life#microbial-nutrient-cycling-plate",
+          "type": "Naturepedia Microbial Nutrient Cycling Plate™"
+        },
+        {
+          "name": "Microbial Climate Feedbacks Plate™",
+          "id": "carbon-microbial-life#microbial-climate-feedbacks-plate",
+          "type": "Naturepedia Microbial Climate Feedbacks Plate™"
+        },
+        {
+          "name": "Regenerative Soil Microbiology Plate™",
+          "id": "carbon-microbial-life#regenerative-soil-microbiology-plate",
+          "type": "Naturepedia Regenerative Soil Microbiology Plate™"
+        }
+      ]
     },
     {
       "name": "Forest Carbon Systems Plates",
