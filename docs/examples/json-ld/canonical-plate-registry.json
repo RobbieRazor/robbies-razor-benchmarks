@@ -3179,6 +3179,87 @@
           "name": "Soil Regeneration Artist Rendition Plate™",
           "id": "ecological-restoration-habitat-recovery#soil-regeneration-artist-rendition-plate",
           "type": "Naturepedia Artist Rendition Plate™"
+        },
+        {
+      "name": "Plant Communities / Native Habitat Systems Plates",
+      "slug": "plant-communities-native-habitat-systems",
+      "url": "https://www.robbiegeorgephotography.com/plant-communities-native-habitat-systems",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/plant-communities-native-habitat-systems",
+      "plates": [
+        {
+          "name": "Plant Community System Plate™",
+          "id": "plant-communities-native-habitat-systems#plant-community-system-plate",
+          "type": "Naturepedia Plant Community System Plate™"
+        },
+        {
+          "name": "Habitat Structure Plate™",
+          "id": "plant-communities-native-habitat-systems#habitat-structure-plate",
+          "type": "Naturepedia Habitat Structure Plate™"
+        },
+        {
+          "name": "Native Plant Intelligence Plate™",
+          "id": "plant-communities-native-habitat-systems#native-plant-intelligence-plate",
+          "type": "Naturepedia Plant Intelligence Plate™"
+        },
+        {
+          "name": "Wildlife Habitat Production Plate™",
+          "id": "plant-communities-native-habitat-systems#wildlife-habitat-production-plate",
+          "type": "Naturepedia Wildlife Habitat Production Plate™"
+        },
+        {
+          "name": "Root Network Plate™",
+          "id": "plant-communities-native-habitat-systems#root-network-plate",
+          "type": "Naturepedia Root Network Plate™"
+        },
+        {
+          "name": "Carbon & Soil Storage Plate™",
+          "id": "plant-communities-native-habitat-systems#carbon-soil-storage-plate",
+          "type": "Naturepedia Carbon & Soil Storage Plate™"
+        },
+        {
+          "name": "Pollinator Habitat Corridor Plate™",
+          "id": "plant-communities-native-habitat-systems#pollinator-habitat-corridor-plate",
+          "type": "Naturepedia Pollinator Corridor Plate™"
+        },
+        {
+          "name": "Ecological Succession Plate™",
+          "id": "plant-communities-native-habitat-systems#ecological-succession-plate",
+          "type": "Naturepedia Succession Plate™"
+        },
+        {
+          "name": "Ecological Connectivity Plate™",
+          "id": "plant-communities-native-habitat-systems#ecological-connectivity-plate",
+          "type": "Naturepedia Ecological Connectivity Plate™"
+        },
+        {
+          "name": "Seasonal Habitat Continuity Plate™",
+          "id": "plant-communities-native-habitat-systems#seasonal-habitat-continuity-plate",
+          "type": "Naturepedia Seasonal Ecology Plate™"
+        },
+        {
+          "name": "Meadow Ecology Plate™",
+          "id": "plant-communities-native-habitat-systems#meadow-ecology-plate",
+          "type": "Naturepedia Meadow Ecology Plate™"
+        },
+        {
+          "name": "Edge Habitat Plate™",
+          "id": "plant-communities-native-habitat-systems#edge-habitat-plate",
+          "type": "Naturepedia Edge Habitat Plate™"
+        },
+        {
+          "name": "Riparian Plant Communities Plate™",
+          "id": "plant-communities-native-habitat-systems#riparian-plant-communities-plate",
+          "type": "Naturepedia Riparian Habitat Plate™"
+        },
+        {
+          "name": "Native Seed Production Plate™",
+          "id": "plant-communities-native-habitat-systems#native-seed-production-plate",
+          "type": "Naturepedia Regeneration Plate™"
+        },
+                {
+          "name": "Keystone Plant Species Plate™",
+          "id": "plant-communities-native-habitat-systems#keystone-plant-species-plate",
+          "type": "Naturepedia Keystone Species Plate™"
         }
       ]
     }
