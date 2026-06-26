@@ -1376,6 +1376,94 @@
   ]
 },
   {
+  "name": "Cypress Trees of North America Plates",
+  "slug": "cypress-trees-of-north-america",
+  "url": "https://www.robbiegeorgephotography.com/cypress-trees-of-north-america",
+  "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/cypress-trees-of-north-america",
+  "plates": [
+    {
+      "name": "Cypress Systems Plate™",
+      "id": "cypress-trees-of-north-america#cypress-systems-plate",
+      "type": "Naturepedia Tree Family Plate™"
+    },
+    {
+      "name": "Cypress Identification Plate™",
+      "id": "cypress-trees-of-north-america#cypress-identification-plate",
+      "type": "Naturepedia Tree Identification Plate™"
+    },
+    {
+      "name": "Cypress Leaf Plate™",
+      "id": "cypress-trees-of-north-america#cypress-leaf-plate",
+      "type": "Naturepedia Tree Identification Plate™"
+    },
+    {
+      "name": "Cypress Cone Plate™",
+      "id": "cypress-trees-of-north-america#cypress-cone-plate",
+      "type": "Naturepedia Tree Identification Plate™"
+    },
+    {
+      "name": "Cypress Bark & Knee Plate™",
+      "id": "cypress-trees-of-north-america#cypress-bark-knee-plate",
+      "type": "Naturepedia Bark & Root Adaptation Plate™"
+    },
+    {
+      "name": "Bald Cypress Plate™",
+      "id": "cypress-trees-of-north-america#bald-cypress-plate",
+      "type": "Naturepedia Species Plate™"
+    },
+    {
+      "name": "Pond Cypress Plate™",
+      "id": "cypress-trees-of-north-america#pond-cypress-plate",
+      "type": "Naturepedia Species Plate™"
+    },
+    {
+      "name": "Monterey Cypress Plate™",
+      "id": "cypress-trees-of-north-america#monterey-cypress-plate",
+      "type": "Naturepedia Species Plate™"
+    },
+    {
+      "name": "Arizona Cypress Plate™",
+      "id": "cypress-trees-of-north-america#arizona-cypress-plate",
+      "type": "Naturepedia Species Plate™"
+    },
+    {
+      "name": "Atlantic White Cedar Plate™",
+      "id": "cypress-trees-of-north-america#atlantic-white-cedar-plate",
+      "type": "Naturepedia Species Plate™"
+    },
+    {
+      "name": "Cypress Swamp Forest Plate™",
+      "id": "cypress-trees-of-north-america#cypress-swamp-forest-plate",
+      "type": "Naturepedia Wetland Forest Plate™"
+    },
+    {
+      "name": "Cypress Wildlife Relationships Plate™",
+      "id": "cypress-trees-of-north-america#cypress-wildlife-relationships-plate",
+      "type": "Naturepedia Wildlife Relationship Plate™"
+    },
+    {
+      "name": "Cypress Water Storage Plate™",
+      "id": "cypress-trees-of-north-america#cypress-water-storage-plate",
+      "type": "Naturepedia Water Systems Plate™"
+    },
+    {
+      "name": "Cypress Forest Community Plate™",
+      "id": "cypress-trees-of-north-america#cypress-forest-community-plate",
+      "type": "Naturepedia Forest Community Plate™"
+    },
+    {
+      "name": "Cypress Carbon Storage Plate™",
+      "id": "cypress-trees-of-north-america#cypress-carbon-storage-plate",
+      "type": "Naturepedia Carbon Systems Plate™"
+    },
+    {
+      "name": "Cypress Climate Resilience Plate™",
+      "id": "cypress-trees-of-north-america#cypress-climate-resilience-plate",
+      "type": "Naturepedia Climate Resilience Plate™"
+    }
+  ]
+},
+  {
       "name": "Plant Intelligence Plates",
       "slug": "plant-intelligence",
       "url": "https://www.robbiegeorgephotography.com/naturepedia-plant-intelligence",
