@@ -2132,6 +2132,64 @@
         }
       ]
     },
+        {
+      "name": "Plant Communication Plates",
+      "slug": "plant-communication",
+      "url": "https://www.robbiegeorgephotography.com/plant-communication",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/plant-communication",
+      "plates": [
+        {
+          "name": "Plant Communication Plate™",
+          "id": "plant-communication#plant-communication-plate",
+          "type": "Naturepedia™ Plant Communication Plate™"
+        },
+        {
+          "name": "Chemical Signaling Plate™",
+          "id": "plant-communication#chemical-signaling-plate",
+          "type": "Naturepedia™ Chemical Signaling Plate™"
+        },
+        {
+          "name": "Volatile Organic Compounds Plate™",
+          "id": "plant-communication#volatile-organic-compounds-plate",
+          "type": "Naturepedia™ Volatile Organic Compounds Plate™"
+        },
+        {
+          "name": "Root Communication Plate™",
+          "id": "plant-communication#root-communication-plate",
+          "type": "Naturepedia™ Root Communication Plate™"
+        },
+        {
+          "name": "Warning Signal Plate™",
+          "id": "plant-communication#warning-signal-plate",
+          "type": "Naturepedia™ Warning Signal Plate™"
+        },
+        {
+          "name": "Plant Cooperation Plate™",
+          "id": "plant-communication#plant-cooperation-plate",
+          "type": "Naturepedia™ Plant Cooperation Plate™"
+        },
+        {
+          "name": "Defense Signaling Plate™",
+          "id": "plant-communication#defense-signaling-plate",
+          "type": "Naturepedia™ Defense Signaling Plate™"
+        },
+        {
+          "name": "Communication Network Plate™",
+          "id": "plant-communication#communication-network-plate",
+          "type": "Naturepedia™ Communication Network Plate™"
+        },
+        {
+          "name": "Plant Messaging Plate™",
+          "id": "plant-communication#plant-messaging-plate",
+          "type": "Naturepedia™ Plant Messaging Plate™"
+        },
+        {
+          "name": "Future Plant Communication Plate™",
+          "id": "plant-communication#future-plant-communication-plate",
+          "type": "Naturepedia™ Future Plant Communication Plate™"
+        }
+      ]
+    },
     {
       "name": "Water Systems Plates",
       "slug": "water-systems",
