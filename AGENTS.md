@@ -451,12 +451,18 @@ Connected Intelligence Systems:
 Bioelectric Systems™
 Quantum Agriculture™
 Plant Intelligence™
+Plant Communication™
+Plant Electrophysiology™
 Information Systems in Nature™
+
+Connected Intelligence Systems:
 
 Bioelectric Systems™
 Quantum Agriculture™
 Plant Intelligence™
-
+Plant Communication™
+Plant Electrophysiology™
+Information Systems in Nature™
 Naturepedia Systems Expansion (June 2026):
 
 The Naturepedia™ registry expanded with multiple major systems hubs spanning Earth systems, biological systems, information systems, ecological feedback systems, and machine-readable retrieval architectures.
@@ -488,6 +494,18 @@ Bioelectric Systems™
 Quantum Agriculture™
 ↓
 Plant Intelligence™
+↓
+Plant Communication™
+↓
+Plant Electrophysiology™
+↓
+Mycorrhizal Networks™
+↓
+Electrical Ecology™
+↓
+Bioelectric Ecology™
+↓
+Electro-Ecology Mesh
 
 Information Systems in Nature™
 ↓
@@ -630,14 +648,20 @@ Agents SHOULD preserve canonical Plate IDs, provenance metadata, JSON-LD relatio
 
 When adding new Naturepedia™ systems pages, agents SHOULD synchronize updates across:
 
-* Cloudflare Worker registry layers
-* ai-catalog.json
+* Cloudflare Worker
+* Production x402 endpoints
+* v1 aliases
+* GitHub canonical registry
+* GitHub JSON-LD examples
+* docs/examples/json-ld/README.md
+* llms.txt
 * llms-full.txt
+* Website JSON-LD
+* Naturepedia page
+* Plate inventory
+* ai-catalog.json
 * README.md
 * AGENTS.md
-* plate_examples_index.md
-* x402 expanded registry
-* GitHub registry documentation
 
 Current synchronized systems:
 
@@ -655,6 +679,8 @@ Hydrothermal Ecosystems™
 Bioelectric Systems™
 Quantum Agriculture™
 Plant Intelligence™
+Plant Communication™
+Plant Electrophysiology™
 Information Systems in Nature™
 
 Agents SHOULD treat these systems as active machine-readable retrieval hubs rather than standalone content pages.
