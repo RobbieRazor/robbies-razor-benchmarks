@@ -2249,6 +2249,64 @@
   ]
 },
     {
+  "name": "Mycorrhizal Networks Plates",
+  "slug": "mycorrhizal-networks",
+  "url": "https://www.robbiegeorgephotography.com/mycorrhizal-networks",
+  "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/mycorrhizal-networks",
+  "plates": [
+    {
+      "name": "Mycorrhizal Networks Plate™",
+      "id": "mycorrhizal-networks#mycorrhizal-networks-plate",
+      "type": "Naturepedia™ Mycorrhizal Networks Plate™"
+    },
+    {
+      "name": "Common Mycorrhizal Network Plate™",
+      "id": "mycorrhizal-networks#common-mycorrhizal-network-plate",
+      "type": "Naturepedia™ Common Mycorrhizal Network Plate™"
+    },
+    {
+      "name": "Carbon Exchange Plate™",
+      "id": "mycorrhizal-networks#carbon-exchange-plate",
+      "type": "Naturepedia™ Carbon Exchange Plate™"
+    },
+    {
+      "name": "Nutrient Exchange Plate™",
+      "id": "mycorrhizal-networks#nutrient-exchange-plate",
+      "type": "Naturepedia™ Nutrient Exchange Plate™"
+    },
+    {
+      "name": "Fungal Signaling Plate™",
+      "id": "mycorrhizal-networks#fungal-signaling-plate",
+      "type": "Naturepedia™ Fungal Signaling Plate™"
+    },
+    {
+      "name": "Wood Wide Web Plate™",
+      "id": "mycorrhizal-networks#wood-wide-web-plate",
+      "type": "Naturepedia™ Wood Wide Web Plate™"
+    },
+    {
+      "name": "Forest Communication Plate™",
+      "id": "mycorrhizal-networks#forest-communication-plate",
+      "type": "Naturepedia™ Forest Communication Plate™"
+    },
+    {
+      "name": "Root-Fungi Symbiosis Plate™",
+      "id": "mycorrhizal-networks#root-fungi-symbiosis-plate",
+      "type": "Naturepedia™ Root-Fungi Symbiosis Plate™"
+    },
+    {
+      "name": "Underground Intelligence Plate™",
+      "id": "mycorrhizal-networks#underground-intelligence-plate",
+      "type": "Naturepedia™ Underground Intelligence Plate™"
+    },
+    {
+      "name": "Future Mycorrhizal Networks Plate™",
+      "id": "mycorrhizal-networks#future-mycorrhizal-networks-plate",
+      "type": "Naturepedia™ Future Mycorrhizal Networks Plate™"
+    }
+  ]
+},
+    {
       "name": "Water Systems Plates",
       "slug": "water-systems",
       "url": "https://www.robbiegeorgephotography.com/water-systems",
