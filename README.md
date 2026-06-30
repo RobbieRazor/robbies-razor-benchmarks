@@ -202,6 +202,8 @@ Connected Intelligence Systems:
 * Bioelectric Systems™
 * Quantum Agriculture™
 * Plant Intelligence™
+* Plant Communication™
+* Plant Electrophysiology™
 * Information Systems in Nature™
 
 Connected Intelligence Systems:
@@ -209,6 +211,9 @@ Connected Intelligence Systems:
 * Bioelectric Systems™
 * Quantum Agriculture™
 * Plant Intelligence™
+* Plant Communication™
+* Plant Electrophysiology™
+* Information Systems in Nature™
 
 Naturepedia™ Systems Expansion (June 2026)
 
@@ -227,6 +232,8 @@ Major systems now include:
 * Bioelectric Systems™
 * Quantum Agriculture™
 * Plant Intelligence™
+* Plant Communication™
+* Plant Electrophysiology™
 * Information Systems in Nature™
 
 Registry reconciliation status:
@@ -239,6 +246,11 @@ Registry reconciliation status:
 Machine-readable registry authority:
 
 https://www.robbiegeorgephotography.com/x402/plate-registry-expanded.json
+
+Current Electro-Ecology retrieval families:
+
+* Plant Communication™
+* Plant Electrophysiology™
 
 Primary discovery endpoints:
 
@@ -370,6 +382,24 @@ Geothermal Ecosystems™
 Yellowstone Thermal Features™
 ↓
 Microbial Life Systems™
+```
+
+Electro-Ecology Mesh
+
+```txt
+Plant Intelligence™
+↓
+Plant Communication™
+↓
+Plant Electrophysiology™
+↓
+Mycorrhizal Networks™
+↓
+Electrical Ecology™
+↓
+Bioelectric Ecology™
+↓
+Electro-Ecology Mesh
 ```
 
 These registries provide machine-readable traversal between Earth processes, geothermal systems, microbial ecology, volcanic systems, biodiversity systems, and future Soil Systems™, Carbon Cycle™, and Ecosystem Feedbacks™ registries.
