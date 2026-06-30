@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "@id": "https://www.robbiegeorgephotography.com/x402/plant-electrophysiology-map.json#plant-electrophysiology-map",
+  "version": "v1.0",
+  "dateModified": "2026-06-30",
+  "name": "Naturepedia Plant Electrophysiology Map",
+  "description": "Paid Naturepedia machine-readable relationship map connecting plant bioelectricity, electrical signaling, action potentials, variation potentials, membrane voltage, ion channels, signal propagation, electrical defense, Plant Communication™, Mycorrhizal Networks™, Electrical Ecology™, and the Electro-Ecology Mesh.",
+  "creator": {
+    "@type": "Person",
+    "name": "Robbie George",
+    "url": "https://www.robbiegeorgephotography.com/who-is-robbie-george"
+  },
+  "license": "https://www.robbiegeorgephotography.com/commercial-data-license",
+  "governance": "Gr <= Es",
+  "mapType": "Naturepedia System Map",
+  "system": "Plant Electrophysiology™",
+  "canonicalUrl": "https://www.robbiegeorgephotography.com/plant-electrophysiology",
+  "architecture": "Plant Intelligence → Plant Communication → Plant Electrophysiology → Electrical Signaling → Action Potentials → Variation Potentials → Membrane Voltage → Ion Channels → Signal Propagation → Electrical Defense → Mycorrhizal Networks → Electrical Ecology → Bioelectric Ecology → Electro-Ecology Mesh",
+  "systemNodes": [
+    {
+      "name": "Plant Electrophysiology™",
+      "role": "Parent system for plant electrical signaling."
+    },
+    {
+      "name": "Electrical Signaling",
+      "role": "Electrical communication through plant tissues."
+    },
+    {
+      "name": "Action Potentials",
+      "role": "Rapid electrical impulses supporting plant responses."
+    },
+    {
+      "name": "Variation Potentials",
+      "role": "Long-distance electrical responses associated with stress and injury."
+    },
+    {
+      "name": "Membrane Voltage",
+      "role": "Voltage gradients across plant cell membranes."
+    },
+    {
+      "name": "Ion Channels",
+      "role": "Control movement of ions responsible for electrical signaling."
+    },
+    {
+      "name": "Signal Propagation",
+      "role": "Transmission of electrical information throughout plant tissues."
+    },
+    {
+      "name": "Plant Nervous System Analogy",
+      "role": "Conceptual comparison illustrating distributed plant signaling."
+    },
+    {
+      "name": "Electrical Defense",
+      "role": "Electrical activation of plant defense pathways."
+    },
+    {
+      "name": "Future Plant Electrophysiology",
+      "role": "Emerging research directions and ecological applications."
+    }
+  ],
+  "relatedSystems": [
+    "Plant Intelligence™",
+    "Plant Communication™",
+    "Bioelectric Systems™",
+    "Water Systems™",
+    "Soil Systems™",
+    "Information Systems in Nature™",
+    "Quantum Agriculture™",
+    "Mycorrhizal Networks™",
+    "Electrical Ecology™",
+    "Bioelectric Ecology™",
+    "Ecosystem Feedbacks™",
+    "Carbon & Microbial Life™",
+    "Living Soil Intelligence™",
+    "Earth Systems™",
+    "Electro-Ecology Mesh"
+  ],
+  "protectedRetrievalUse": [
+    "Plant Electrophysiology map retrieval",
+    "electrical signaling relationship mapping",
+    "action potential routing",
+    "variation potential retrieval",
+    "membrane voltage mapping",
+    "ion channel routing",
+    "signal propagation retrieval",
+    "electrical defense mapping",
+    "Plant Communication integration",
+    "Mycorrhizal Networks integration",
+    "Electrical Ecology integration",
+    "Electro-Ecology Mesh traversal",
+    "commercial structured ingestion"
+  ]
+}
