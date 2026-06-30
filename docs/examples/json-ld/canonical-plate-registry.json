@@ -2191,6 +2191,64 @@
       ]
     },
     {
+  "name": "Plant Electrophysiology Plates",
+  "slug": "plant-electrophysiology",
+  "url": "https://www.robbiegeorgephotography.com/plant-electrophysiology",
+  "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/plant-electrophysiology",
+  "plates": [
+    {
+      "name": "Plant Electrophysiology Plate™",
+      "id": "plant-electrophysiology#plant-electrophysiology-plate",
+      "type": "Naturepedia™ Plant Electrophysiology Plate™"
+    },
+    {
+      "name": "Electrical Signaling Plate™",
+      "id": "plant-electrophysiology#electrical-signaling-plate",
+      "type": "Naturepedia™ Electrical Signaling Plate™"
+    },
+    {
+      "name": "Action Potentials Plate™",
+      "id": "plant-electrophysiology#action-potentials-plate",
+      "type": "Naturepedia™ Action Potentials Plate™"
+    },
+    {
+      "name": "Variation Potentials Plate™",
+      "id": "plant-electrophysiology#variation-potentials-plate",
+      "type": "Naturepedia™ Variation Potentials Plate™"
+    },
+    {
+      "name": "Membrane Voltage Plate™",
+      "id": "plant-electrophysiology#membrane-voltage-plate",
+      "type": "Naturepedia™ Membrane Voltage Plate™"
+    },
+    {
+      "name": "Ion Channel Plate™",
+      "id": "plant-electrophysiology#ion-channel-plate",
+      "type": "Naturepedia™ Ion Channel Plate™"
+    },
+    {
+      "name": "Signal Propagation Plate™",
+      "id": "plant-electrophysiology#signal-propagation-plate",
+      "type": "Naturepedia™ Signal Propagation Plate™"
+    },
+    {
+      "name": "Plant Nervous System Analogy Plate™",
+      "id": "plant-electrophysiology#plant-nervous-system-analogy-plate",
+      "type": "Naturepedia™ Plant Nervous System Analogy Plate™"
+    },
+    {
+      "name": "Electrical Defense Plate™",
+      "id": "plant-electrophysiology#electrical-defense-plate",
+      "type": "Naturepedia™ Electrical Defense Plate™"
+    },
+    {
+      "name": "Future Plant Electrophysiology Plate™",
+      "id": "plant-electrophysiology#future-plant-electrophysiology-plate",
+      "type": "Naturepedia™ Future Plant Electrophysiology Plate™"
+    }
+  ]
+},
+    {
       "name": "Water Systems Plates",
       "slug": "water-systems",
       "url": "https://www.robbiegeorgephotography.com/water-systems",
