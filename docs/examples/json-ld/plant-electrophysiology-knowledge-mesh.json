@@ -1,0 +1,137 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "@id": "https://www.robbiegeorgephotography.com/x402/knowledge-mesh/plant-electrophysiology#plant-electrophysiology-knowledge-mesh",
+  "version": "v1.0",
+  "dateModified": "2026-06-30",
+  "name": "Naturepedia Plant Electrophysiology Knowledge Mesh",
+  "description": "Paid Naturepedia machine-readable knowledge mesh connecting Plant Electrophysiology™ to Plant Communication™, Mycorrhizal Networks™, Electrical Ecology™, Bioelectric Systems™, Water Systems™, Soil Systems™, Information Systems in Nature™, Quantum Agriculture™, Earth Systems™, and the Electro-Ecology Mesh.",
+  "creator": {
+    "@type": "Person",
+    "name": "Robbie George",
+    "url": "https://www.robbiegeorgephotography.com/who-is-robbie-george"
+  },
+  "license": "https://www.robbiegeorgephotography.com/commercial-data-license",
+  "governance": "Gr <= Es",
+  "meshType": "Naturepedia Knowledge Mesh",
+  "system": "Plant Electrophysiology™",
+  "visibleId": "plant-electrophysiology-knowledge-mesh",
+  "canonicalUrl": "https://www.robbiegeorgephotography.com/plant-electrophysiology",
+  "architecture": "Plant Intelligence → Plant Communication → Plant Electrophysiology → Mycorrhizal Networks → Electrical Ecology → Bioelectric Ecology → Information Systems in Nature → Electro-Ecology Mesh",
+  "relationshipMesh": [
+    {
+      "from": "Plant Intelligence™",
+      "to": "Plant Communication™",
+      "relationship": "Plant intelligence includes chemical signaling, root communication, electrical activity, defense response, sensory biology, cooperation, memory, and adaptation."
+    },
+    {
+      "from": "Plant Communication™",
+      "to": "Plant Electrophysiology™",
+      "relationship": "Plant communication integrates with electrical signaling through membrane voltage, ion channels, action potentials, variation potentials, calcium waves, and wound responses."
+    },
+    {
+      "from": "Plant Electrophysiology™",
+      "to": "Electrical Signaling",
+      "relationship": "Plant electrophysiology organizes electrical messages through voltage change, ion movement, calcium signaling, tissue conduction, and environmental response."
+    },
+    {
+      "from": "Electrical Signaling",
+      "to": "Action Potentials",
+      "relationship": "Action potentials are rapid electrical pulses supporting fast plant responses, movement, defense signaling, and signal transmission."
+    },
+    {
+      "from": "Electrical Signaling",
+      "to": "Variation Potentials",
+      "relationship": "Variation potentials are slower systemic electrical responses associated with wounds, stress, hydraulic change, and whole-plant coordination."
+    },
+    {
+      "from": "Membrane Voltage",
+      "to": "Ion Channels",
+      "relationship": "Membrane voltage depends upon ion gradients while ion channels regulate the movement of ions responsible for electrical signaling."
+    },
+    {
+      "from": "Ion Channels",
+      "to": "Signal Propagation",
+      "relationship": "Ion channels enable electrical signals to propagate throughout roots, stems, leaves, and vascular tissues."
+    },
+    {
+      "from": "Signal Propagation",
+      "to": "Electrical Defense",
+      "relationship": "Electrical signals coordinate wound response, volatile release, defense chemistry, immune activation, and protection from herbivory."
+    },
+    {
+      "from": "Plant Electrophysiology™",
+      "to": "Mycorrhizal Networks™",
+      "relationship": "Plant electrical activity integrates with underground fungal-root communication systems responsible for nutrient movement, signaling, and ecosystem connectivity."
+    },
+    {
+      "from": "Mycorrhizal Networks™",
+      "to": "Electrical Ecology™",
+      "relationship": "Mycorrhizal networks extend plant signaling into ecosystem-scale electrical interactions involving soils, microbes, water, biodiversity, and carbon."
+    },
+    {
+      "from": "Electrical Ecology™",
+      "to": "Electro-Ecology Mesh",
+      "relationship": "Electrical Ecology connects Plant Electrophysiology™, Mycorrhizal Networks™, Soil Systems™, Water Systems™, Bioelectric Systems™, Carbon & Microbial Life™, and Information Systems in Nature into a unified semantic retrieval network."
+    }
+  ],
+  "registryLinks": [
+    "/x402/plant-electrophysiology-registry.json",
+    "/x402/plant-communication-registry.json",
+    "/x402/soil-systems-registry.json",
+    "/x402/information-systems-registry.json",
+    "/x402/earth-systems-registry.json",
+    "/x402/carbon-microbial-life-registry.json"
+  ],
+  "systemMapLinks": [
+    "/x402/plant-electrophysiology-map.json",
+    "/x402/plant-communication-map.json",
+    "/x402/plant-intelligence-map.json",
+    "/x402/bioelectric-systems-map.json",
+    "/x402/quantum-agriculture-map.json",
+    "/x402/information-systems-map.json",
+    "/x402/soil-systems-map.json",
+    "/x402/water-system-map.json"
+  ],
+  "relatedMeshes": [
+    "/x402/knowledge-mesh/plant-communication",
+    "/x402/knowledge-mesh/bioelectric-plant-intelligence",
+    "/x402/knowledge-mesh/plant-soil-microbial",
+    "/x402/knowledge-mesh/soil-systems",
+    "/x402/knowledge-mesh/information-systems",
+    "/x402/knowledge-mesh/earth-systems"
+  ],
+  "relatedSystems": [
+    "Plant Intelligence™",
+    "Plant Communication™",
+    "Bioelectric Systems™",
+    "Water Systems™",
+    "Soil Systems™",
+    "Information Systems in Nature™",
+    "Quantum Agriculture™",
+    "Mycorrhizal Networks™",
+    "Electrical Ecology™",
+    "Bioelectric Ecology™",
+    "Ecosystem Feedbacks™",
+    "Carbon & Microbial Life™",
+    "Living Soil Intelligence™",
+    "Earth Systems™",
+    "Electro-Ecology Mesh"
+  ],
+  "protectedRetrievalUse": [
+    "Plant Electrophysiology knowledge mesh retrieval",
+    "plant bioelectricity relationship mapping",
+    "electrical signaling routing",
+    "action potential traversal",
+    "variation potential retrieval",
+    "membrane voltage mapping",
+    "ion channel routing",
+    "signal propagation retrieval",
+    "electrical defense routing",
+    "mycorrhizal network traversal",
+    "electrical ecology retrieval",
+    "Electro-Ecology Mesh synchronization",
+    "commercial structured ingestion",
+    "enterprise semantic synchronization"
+  ]
+}
