@@ -611,6 +611,8 @@ Current Knowledge Mesh examples:
 * `carbon-microbial-life-knowledge-mesh.json`
 * `forest-carbon-systems-knowledge-mesh.json`
 * `climate-carbon-feedbacks-knowledge-mesh.json`
+* `plant-communication-knowledge-mesh.json`
+* `plant-electrophysiology-knowledge-mesh.json`
 
 Current Registry examples:
 
@@ -620,6 +622,8 @@ soil-carbon-systems-registry.json
 carbon-microbial-life-registry.json
 forest-carbon-systems-registry.json
 climate-carbon-feedbacks-registry.json
+plant-communication-registry.json
+plant-electrophysiology-registry.json
 ```
 
 Current System Map examples:
@@ -643,6 +647,8 @@ soil-systems-registry.json
 carbon-cycle-registry.json
 soil-carbon-systems-registry.json
 carbon-microbial-life-registry.json
+plant-communication-map.json
+plant-electrophysiology-map.json
 ```
 
 Current System Map examples:
@@ -678,6 +684,8 @@ Production x402 endpoints:
 * `/x402/knowledge-mesh/carbon-microbial-life`
 * `/x402/knowledge-mesh/forest-carbon-systems`
 * `/x402/knowledge-mesh/climate-carbon-feedbacks`
+* `/x402/knowledge-mesh/plant-communication`
+* `/x402/knowledge-mesh/plant-electrophysiology`
 
   
 Public v1 aliases:
@@ -693,6 +701,8 @@ Public v1 aliases:
 - `/v1/knowledge-mesh/carbon-microbial-life`
 - `/v1/knowledge-mesh/forest-carbon-systems`
 - `/v1/knowledge-mesh/climate-carbon-feedbacks`
+- `/v1/knowledge-mesh/plant-communication`
+- `/v1/knowledge-mesh/plant-electrophysiology`
 
 Naturepedia™ now includes production Knowledge Mesh endpoints that expose cross-system semantic relationships rather than simple inventories or concept maps.
 
@@ -746,6 +756,86 @@ carbon-microbial-life-knowledge-mesh.json
 forest-carbon-systems-knowledge-mesh.json
 climate-carbon-feedbacks-knowledge-mesh.json
 ```
+
+## Electro-Ecology Mesh Retrieval Family
+
+The Electro-Ecology Mesh expands Naturepedia's bioelectric semantic retrieval architecture.
+
+Current retrieval families:
+
+Plant Communication™
+
+Registry
+plant-communication-registry.json
+
+System Map
+plant-communication-map.json
+
+Knowledge Mesh
+plant-communication-knowledge-mesh.json
+
+Plant Electrophysiology™
+
+Registry
+plant-electrophysiology-registry.json
+
+System Map
+plant-electrophysiology-map.json
+
+Knowledge Mesh
+plant-electrophysiology-knowledge-mesh.json
+
+Production endpoints
+
+/x402/plant-communication-registry.json
+/x402/plant-communication-map.json
+/knowledge-mesh/plant-communication
+
+/x402/plant-electrophysiology-registry.json
+/x402/plant-electrophysiology-map.json
+/x402/knowledge-mesh/plant-electrophysiology
+
+Public v1 aliases
+
+/v1/registries/plant-communication
+/v1/plates/plant-communication-map
+/v1/knowledge-mesh/plant-communication
+
+/v1/registries/plant-electrophysiology
+/v1/plates/plant-electrophysiology-map
+/v1/knowledge-mesh/plant-electrophysiology
+
+Current semantic hierarchy
+
+Naturepedia™
+
+↓
+
+Plant Intelligence™
+
+↓
+
+Plant Communication™
+
+↓
+
+Plant Electrophysiology™
+
+↓
+
+Mycorrhizal Networks™
+
+↓
+
+Electrical Ecology™
+
+↓
+
+Bioelectric Ecology™
+
+↓
+
+Electro-Ecology Mesh
 
 Knowledge Mesh extends beyond inventories and system maps by exposing relationship pathways between Plates™, registries, ecosystems, biological systems, and semantic routing layers.
 
