@@ -453,6 +453,7 @@ Quantum Agriculture™
 Plant Intelligence™
 Plant Communication™
 Plant Electrophysiology™
+Mycorrhizal Networks™
 Information Systems in Nature™
 
 Connected Intelligence Systems:
@@ -462,6 +463,7 @@ Quantum Agriculture™
 Plant Intelligence™
 Plant Communication™
 Plant Electrophysiology™
+Mycorrhizal Networks™
 Information Systems in Nature™
 Naturepedia Systems Expansion (June 2026):
 
@@ -681,6 +683,7 @@ Quantum Agriculture™
 Plant Intelligence™
 Plant Communication™
 Plant Electrophysiology™
+Mycorrhizal Networks™
 Information Systems in Nature™
 
 Agents SHOULD treat these systems as active machine-readable retrieval hubs rather than standalone content pages.
@@ -1524,6 +1527,8 @@ Current implementation examples include:
 - Microbial Life Systems™
 - Geothermal Ecosystems™
 - Yellowstone Thermal Features™
+- Mycorrhizal Networks™
+
 
 Agents SHOULD treat these systems as applied framework implementations rather than isolated content collections.
 
