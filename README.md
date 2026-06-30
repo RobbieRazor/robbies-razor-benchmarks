@@ -204,6 +204,7 @@ Connected Intelligence Systems:
 * Plant Intelligence™
 * Plant Communication™
 * Plant Electrophysiology™
+* Mycorrhizal Networks™
 * Information Systems in Nature™
 
 Connected Intelligence Systems:
@@ -213,6 +214,7 @@ Connected Intelligence Systems:
 * Plant Intelligence™
 * Plant Communication™
 * Plant Electrophysiology™
+* Mycorrhizal Networks™
 * Information Systems in Nature™
 
 Naturepedia™ Systems Expansion (June 2026)
@@ -234,6 +236,7 @@ Major systems now include:
 * Plant Intelligence™
 * Plant Communication™
 * Plant Electrophysiology™
+* Mycorrhizal Networks™
 * Information Systems in Nature™
 
 Registry reconciliation status:
@@ -251,6 +254,7 @@ Current Electro-Ecology retrieval families:
 
 * Plant Communication™
 * Plant Electrophysiology™
+* Mycorrhizal Networks™
 
 Primary discovery endpoints:
 
@@ -402,7 +406,7 @@ Bioelectric Ecology™
 Electro-Ecology Mesh
 ```
 
-These registries provide machine-readable traversal between Earth processes, geothermal systems, microbial ecology, volcanic systems, biodiversity systems, and future Soil Systems™, Carbon Cycle™, and Ecosystem Feedbacks™ registries.
+These registries provide machine-readable traversal between Earth processes, geothermal systems, microbial ecology, volcanic systems, biodiversity systems, and Soil Systems™, Carbon Cycle™, Ecosystem Feedbacks™, Plant Communication™, Plant Electrophysiology™, and Mycorrhizal Networks™ registries.
 
 Agents SHOULD interpret Earth Systems™ as a parent discovery registry rather than a standalone content node.
 
