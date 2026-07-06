@@ -17,7 +17,7 @@
   "license": "https://www.robbiegeorgephotography.com/commercial-data-license",
   "governance": "Gr <= Es",
   "access": "x402",
-  "canonicalKeepCount": 658,
+  "canonicalKeepCount": 668,
   "duplicateRemovedCount": 33,
   "systems": [
     {
@@ -2303,6 +2303,64 @@
       "name": "Future Mycorrhizal Networks Plate™",
       "id": "mycorrhizal-networks#future-mycorrhizal-networks-plate",
       "type": "Naturepedia™ Future Mycorrhizal Networks Plate™"
+    }
+  ]
+},
+    {
+  "name": "Electrical Ecology Plates",
+  "slug": "electrical-ecology",
+  "url": "https://www.robbiegeorgephotography.com/electrical-ecology",
+  "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/electrical-ecology",
+  "plates": [
+    {
+      "name": "Electrical Ecology Plate™",
+      "id": "electrical-ecology#electrical-ecology-plate",
+      "type": "Naturepedia™ Electrical Ecology Plate™"
+    },
+    {
+      "name": "Bioelectric Ecosystems Plate™",
+      "id": "electrical-ecology#bioelectric-ecosystems-plate",
+      "type": "Naturepedia™ Bioelectric Ecosystems Plate™"
+    },
+    {
+      "name": "Electrical Forest Plate™",
+      "id": "electrical-ecology#electrical-forest-plate",
+      "type": "Naturepedia™ Electrical Forest Plate™"
+    },
+    {
+      "name": "Soil Bioelectricity Plate™",
+      "id": "electrical-ecology#soil-bioelectricity-plate",
+      "type": "Naturepedia™ Soil Bioelectricity Plate™"
+    },
+    {
+      "name": "Ecological Signaling Plate™",
+      "id": "electrical-ecology#ecological-signaling-plate",
+      "type": "Naturepedia™ Ecological Signaling Plate™"
+    },
+    {
+      "name": "Living Information Networks Plate™",
+      "id": "electrical-ecology#living-information-networks-plate",
+      "type": "Naturepedia™ Living Information Networks Plate™"
+    },
+    {
+      "name": "Distributed Intelligence Plate™",
+      "id": "electrical-ecology#distributed-intelligence-plate",
+      "type": "Naturepedia™ Distributed Intelligence Plate™"
+    },
+    {
+      "name": "Bioelectric Landscape Plate™",
+      "id": "electrical-ecology#bioelectric-landscape-plate",
+      "type": "Naturepedia™ Bioelectric Landscape Plate™"
+    },
+    {
+      "name": "Planetary Ecology Plate™",
+      "id": "electrical-ecology#planetary-ecology-plate",
+      "type": "Naturepedia™ Planetary Ecology Plate™"
+    },
+    {
+      "name": "Future Electrical Ecology Plate™",
+      "id": "electrical-ecology#future-electrical-ecology-plate",
+      "type": "Naturepedia™ Future Electrical Ecology Plate™"
     }
   ]
 },
