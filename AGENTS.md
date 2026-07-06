@@ -454,6 +454,7 @@ Plant Intelligence™
 Plant Communication™
 Plant Electrophysiology™
 Mycorrhizal Networks™
+Electrical Ecology™
 Information Systems in Nature™
 
 Connected Intelligence Systems:
@@ -464,7 +465,9 @@ Plant Intelligence™
 Plant Communication™
 Plant Electrophysiology™
 Mycorrhizal Networks™
+Electrical Ecology™
 Information Systems in Nature™
+
 Naturepedia Systems Expansion (June 2026):
 
 The Naturepedia™ registry expanded with multiple major systems hubs spanning Earth systems, biological systems, information systems, ecological feedback systems, and machine-readable retrieval architectures.
@@ -495,8 +498,6 @@ Bioelectric Systems™
 ↓
 Quantum Agriculture™
 ↓
-Plant Intelligence™
-↓
 Plant Communication™
 ↓
 Plant Electrophysiology™
@@ -505,7 +506,7 @@ Mycorrhizal Networks™
 ↓
 Electrical Ecology™
 ↓
-Bioelectric Ecology™
+Plant Intelligence™
 ↓
 Electro-Ecology Mesh
 
@@ -664,6 +665,7 @@ When adding new Naturepedia™ systems pages, agents SHOULD synchronize updates 
 * ai-catalog.json
 * README.md
 * AGENTS.md
+* canonical-plate-registry.json
 
 Current synchronized systems:
 
@@ -684,6 +686,7 @@ Plant Intelligence™
 Plant Communication™
 Plant Electrophysiology™
 Mycorrhizal Networks™
+Electrical Ecology™
 Information Systems in Nature™
 
 Agents SHOULD treat these systems as active machine-readable retrieval hubs rather than standalone content pages.
