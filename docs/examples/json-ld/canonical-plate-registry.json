@@ -17,7 +17,7 @@
   "license": "https://www.robbiegeorgephotography.com/commercial-data-license",
   "governance": "Gr <= Es",
   "access": "x402",
-  "canonicalKeepCount": 668,
+  "canonicalKeepCount": 688,
   "duplicateRemovedCount": 33,
   "systems": [
     {
@@ -2364,6 +2364,122 @@
     }
   ]
 },
+        {
+      "name": "Geometry of Nature Plates",
+      "slug": "geometry-of-nature",
+      "url": "https://www.robbiegeorgephotography.com/geometry-of-nature",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/geometry-of-nature",
+      "plates": [
+        {
+          "name": "Geometry of Nature Plate™",
+          "id": "geometry-of-nature#geometry-of-nature-plate",
+          "type": "Naturepedia™ Geometry of Nature Plate™"
+        },
+        {
+          "name": "Natural Symmetry Plate™",
+          "id": "geometry-of-nature#natural-symmetry-plate",
+          "type": "Naturepedia™ Natural Symmetry Plate™"
+        },
+        {
+          "name": "Branching Systems Plate™",
+          "id": "geometry-of-nature#branching-systems-plate",
+          "type": "Naturepedia™ Branching Systems Plate™"
+        },
+        {
+          "name": "Spirals in Nature Plate™",
+          "id": "geometry-of-nature#spirals-in-nature-plate",
+          "type": "Naturepedia™ Spirals in Nature Plate™"
+        },
+        {
+          "name": "Patterns Across Scale Plate™",
+          "id": "geometry-of-nature#patterns-across-scale-plate",
+          "type": "Naturepedia™ Patterns Across Scale Plate™"
+        },
+        {
+          "name": "Natural Networks Plate™",
+          "id": "geometry-of-nature#natural-networks-plate",
+          "type": "Naturepedia™ Natural Networks Plate™"
+        },
+        {
+          "name": "Living Mathematics Plate™",
+          "id": "geometry-of-nature#living-mathematics-plate",
+          "type": "Naturepedia™ Living Mathematics Plate™"
+        },
+        {
+          "name": "Geometry & The Grand Compression Plate™",
+          "id": "geometry-of-nature#geometry-grand-compression-plate",
+          "type": "Naturepedia™ Geometry & The Grand Compression Plate™"
+        },
+        {
+          "name": "Naturepedia Geometry Mesh Plate™",
+          "id": "geometry-of-nature#naturepedia-geometry-mesh-plate",
+          "type": "Naturepedia™ Naturepedia Geometry Mesh Plate™"
+        },
+        {
+          "name": "Future Geometry Plate™",
+          "id": "geometry-of-nature#future-geometry-plate",
+          "type": "Naturepedia™ Future Geometry Plate™"
+        }
+      ]
+    },
+    {
+      "name": "E8 Lattice Plates",
+      "slug": "e8-lattice",
+      "url": "https://www.robbiegeorgephotography.com/e8-lattice",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/e8-lattice",
+      "plates": [
+        {
+          "name": "E8 Lattice Plate™",
+          "id": "e8-lattice#e8-lattice-plate",
+          "type": "Naturepedia™ E8 Lattice Plate™"
+        },
+        {
+          "name": "E8 Projection Plate™",
+          "id": "e8-lattice#e8-projection-plate",
+          "type": "Naturepedia™ E8 Projection Plate™"
+        },
+        {
+          "name": "Symmetry in Nature Plate™",
+          "id": "e8-lattice#symmetry-in-nature-plate",
+          "type": "Naturepedia™ Symmetry in Nature Plate™"
+        },
+        {
+          "name": "Compression Geometry Plate™",
+          "id": "e8-lattice#compression-geometry-plate",
+          "type": "Naturepedia™ Compression Geometry Plate™"
+        },
+        {
+          "name": "Geometry Across Scale Plate™",
+          "id": "e8-lattice#geometry-across-scale-plate",
+          "type": "Naturepedia™ Geometry Across Scale Plate™"
+        },
+        {
+          "name": "Recursive Symmetry Plate™",
+          "id": "e8-lattice#recursive-symmetry-plate",
+          "type": "Naturepedia™ Recursive Symmetry Plate™"
+        },
+        {
+          "name": "Grand Compression Geometry Plate™",
+          "id": "e8-lattice#grand-compression-geometry-plate",
+          "type": "Naturepedia™ Grand Compression Geometry Plate™"
+        },
+        {
+          "name": "Geometry Network Plate™",
+          "id": "e8-lattice#geometry-network-plate",
+          "type": "Naturepedia™ Geometry Network Plate™"
+        },
+        {
+          "name": "Living Geometry Plate™",
+          "id": "e8-lattice#living-geometry-plate",
+          "type": "Naturepedia™ Living Geometry Plate™"
+        },
+        {
+          "name": "Future E8 Lattice Plate™",
+          "id": "e8-lattice#future-e8-lattice-plate",
+          "type": "Naturepedia™ Future E8 Lattice Plate™"
+        }
+      ]
+    },
     {
       "name": "Water Systems Plates",
       "slug": "water-systems",
