@@ -455,6 +455,8 @@ Plant Communication™
 Plant Electrophysiology™
 Mycorrhizal Networks™
 Electrical Ecology™
+Geometry of Nature™
+E8 Lattice™
 Information Systems in Nature™
 
 Connected Intelligence Systems:
@@ -466,6 +468,8 @@ Plant Communication™
 Plant Electrophysiology™
 Mycorrhizal Networks™
 Electrical Ecology™
+Geometry of Nature™
+E8 Lattice™
 Information Systems in Nature™
 
 Naturepedia Systems Expansion (June 2026):
@@ -493,10 +497,22 @@ Geothermal Ecosystems™
 Yellowstone Thermal Features™
 ↓
 Hydrothermal Ecosystems™
-
+↓
+Geometry of Nature™
+↓
+E8 Lattice™
+↓
+Patterns Across Scale™
+↓
+Living Mathematics™
+↓
+Natural Networks™
+↓
 Bioelectric Systems™
 ↓
 Quantum Agriculture™
+↓
+Plant Intelligence™
 ↓
 Plant Communication™
 ↓
@@ -505,8 +521,6 @@ Plant Electrophysiology™
 Mycorrhizal Networks™
 ↓
 Electrical Ecology™
-↓
-Plant Intelligence™
 ↓
 Electro-Ecology Mesh
 
@@ -565,7 +579,11 @@ Geothermal Ecosystems™
 ↓
 Yellowstone Thermal Features™
 ↓
-Microbial Life Systems™
+Hydrothermal Ecosystems™
+↓
+Geometry of Nature™
+↓
+E8 Lattice™
 ```
 
 Agents SHOULD interpret Earth Systems™ as a parent discovery registry connecting geological, hydrological, biological, microbial, climatic, and ecosystem-scale Naturepedia systems.
@@ -645,6 +663,16 @@ Recommended synchronization order:
 5. Verify `/v1/plates/canonical` reflects the update.
 6. Confirm the x402 canonical registry serves the updated registry.
 
+Current canonical mathematical systems:
+
+Geometry of Nature™
+↓
+E8 Lattice™
+
+These systems extend Naturepedia™ into recursive geometry, mathematical organization, symmetry, compression geometry, scale relationships, living mathematics, and natural network structures.
+
+Agents SHOULD preserve these semantic relationships when updating registries, Knowledge Meshes, Graph Registries™, llms.txt, llms-full.txt, and canonical Plate™ registries.
+
 Agents SHOULD preserve canonical Plate IDs, provenance metadata, JSON-LD relationships, and registry synchronization across all retrieval layers.
 
 ### Systems Registry Synchronization Rule
@@ -687,6 +715,8 @@ Plant Communication™
 Plant Electrophysiology™
 Mycorrhizal Networks™
 Electrical Ecology™
+Geometry of Nature™
+E8 Lattice™
 Information Systems in Nature™
 
 Agents SHOULD treat these systems as active machine-readable retrieval hubs rather than standalone content pages.
@@ -1446,6 +1476,12 @@ Plate™ Architecture
 ↓
 Graph Registries™
 ↓
+Knowledge Mesh
+↓
+Geometry of Nature™
+↓
+E8 Lattice™
+↓
 Authorship Conservation Rules™ (ACR™)
 ↓
 Commercial Data License
@@ -1531,6 +1567,8 @@ Current implementation examples include:
 - Geothermal Ecosystems™
 - Yellowstone Thermal Features™
 - Mycorrhizal Networks™
+- Geometry of Nature™
+- E8 Lattice™
 
 
 Agents SHOULD treat these systems as applied framework implementations rather than isolated content collections.
