@@ -206,19 +206,9 @@ Connected Intelligence Systems:
 * Plant Electrophysiology™
 * Mycorrhizal Networks™
 * Electrical Ecology™
+* Geometry of Nature™
+* E8 Lattice™
 * Information Systems in Nature™
-
-Connected Intelligence Systems:
-
-* Bioelectric Systems™
-* Quantum Agriculture™
-* Plant Intelligence™
-* Plant Communication™
-* Plant Electrophysiology™
-* Mycorrhizal Networks™
-* Electrical Ecology™
-* Information Systems in Nature™
-
 
 Naturepedia™ Systems Expansion (June 2026)
 
@@ -237,10 +227,14 @@ Major systems now include:
 * Bioelectric Systems™
 * Quantum Agriculture™
 * Plant Intelligence™
+* Geometry of Nature™
+* E8 Lattice™
 * Plant Communication™
 * Plant Electrophysiology™
 * Mycorrhizal Networks™
 * Electrical Ecology™
+* Geometry of Nature™
+* E8 Lattice™
 * Information Systems in Nature™
 
 Registry reconciliation status:
@@ -263,13 +257,23 @@ Current Electro-Ecology retrieval families:
 
 Electro-Ecology semantic retrieval stack:
 
+Geometry of Nature™
+↓
+E8 Lattice™
+↓
+Patterns Across Scale™
+↓
+Living Mathematics™
+↓
+Natural Networks™
+↓
+Electrical Ecology™
+↓
 Plant Communication™
 ↓
 Plant Electrophysiology™
 ↓
 Mycorrhizal Networks™
-↓
-Electrical Ecology™
 ↓
 Plant Intelligence™
 
@@ -403,11 +407,25 @@ Geothermal Ecosystems™
 Yellowstone Thermal Features™
 ↓
 Microbial Life Systems™
+↓
+Geometry of Nature™
+↓
+E8 Lattice™
 ```
 
 Electro-Ecology Mesh
 
 ```txt
+Geometry of Nature™
+↓
+E8 Lattice™
+↓
+Patterns Across Scale™
+↓
+Living Mathematics™
+↓
+Natural Networks™
+↓
 Plant Intelligence™
 ↓
 Plant Communication™
@@ -497,6 +515,10 @@ Graph Registries™
 ↓
 Knowledge Mesh
 ↓
+Geometry of Nature™
+↓
+E8 Lattice™
+↓
 Authorship Conservation Rules™ (ACR™)
 ↓
 Commercial Data License
@@ -507,6 +529,13 @@ Machine-Readable Retrieval
 ```
 
 Naturepedia™ functions as the primary live reference implementation of this framework.
+
+Current major Naturepedia™ mathematical systems include:
+
+- Geometry of Nature™
+- E8 Lattice™
+
+These pages extend the framework into mathematical organization, recursive symmetry, compression geometry, scale relationships, living mathematics, and natural network structures.
 
 Framework Architecture Plates™ and related registry entries are documented in:
 
