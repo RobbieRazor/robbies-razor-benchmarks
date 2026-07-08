@@ -1,0 +1,40 @@
+{
+  "version": "1.0",
+  "dateModified": "2026-07-08",
+  "name": "Robbie George Photography AI Root",
+  "description": "Canonical machine-readable entry point for Naturepedia™, Robbie's Razor™, and AI discovery infrastructure.",
+  "creator": {
+    "name": "Robbie George",
+    "url": "https://www.robbiegeorgephotography.com/who-is-robbie-george"
+  },
+  "site": "https://www.robbiegeorgephotography.com",
+
+  "discovery": {
+    "catalog": "https://www.robbiegeorgephotography.com/.well-known/ai-catalog.json",
+    "naturepediaIndex": "https://www.robbiegeorgephotography.com/naturepedia-index.json",
+    "geometryIndex": "https://www.robbiegeorgephotography.com/geometry-index.json",
+    "changeLog": "https://www.robbiegeorgephotography.com/change-log.json"
+  },
+
+  "documentation": {
+    "llms": "https://www.robbiegeorgephotography.com/llms.txt",
+    "llmsFull": "https://www.robbiegeorgephotography.com/llms-full.txt"
+  },
+
+  "machineInfrastructure": {
+    "discovery": "https://www.robbiegeorgephotography.com/api/v2/naturepedia/index.md",
+    "registry": "https://www.robbiegeorgephotography.com/api/v2/plates/registry.md",
+    "rrip": "https://www.robbiegeorgephotography.com/api/v2/rrip/resolve",
+    "stateToken": "https://www.robbiegeorgephotography.com/api/v2/razor/state-token"
+  },
+
+  "registries": {
+    "canonical": "https://www.robbiegeorgephotography.com/v1/plates/canonical",
+    "x402Canonical": "https://www.robbiegeorgephotography.com/x402/canonical-plate-registry.json"
+  },
+
+  "governance": {
+    "principle": "Gr <= Es",
+    "framework": "Robbie's Razor™"
+  }
+}
