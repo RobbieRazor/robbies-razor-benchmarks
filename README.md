@@ -208,6 +208,8 @@ Connected Intelligence Systems:
 * Electrical Ecology™
 * Geometry of Nature™
 * E8 Lattice™
+* Fractals™
+* Fibonacci™
 * Information Systems in Nature™
 
 Naturepedia™ Systems Expansion (June 2026)
@@ -229,6 +231,8 @@ Major systems now include:
 * Plant Intelligence™
 * Geometry of Nature™
 * E8 Lattice™
+* Fractals™
+* Fibonacci™
 * Plant Communication™
 * Plant Electrophysiology™
 * Mycorrhizal Networks™
@@ -411,6 +415,10 @@ Microbial Life Systems™
 Geometry of Nature™
 ↓
 E8 Lattice™
+↓
+Fractals™
+↓
+Fibonacci™
 ```
 
 Electro-Ecology Mesh
@@ -419,6 +427,10 @@ Electro-Ecology Mesh
 Geometry of Nature™
 ↓
 E8 Lattice™
+↓
+Fractals™
+↓
+Fibonacci™
 ↓
 Patterns Across Scale™
 ↓
@@ -519,6 +531,10 @@ Geometry of Nature™
 ↓
 E8 Lattice™
 ↓
+Fractals™
+↓
+Fibonacci™
+↓
 Authorship Conservation Rules™ (ACR™)
 ↓
 Commercial Data License
@@ -534,6 +550,8 @@ Current major Naturepedia™ mathematical systems include:
 
 - Geometry of Nature™
 - E8 Lattice™
+- Fractals™
+- Fibonacci™
 
 These pages extend the framework into mathematical organization, recursive symmetry, compression geometry, scale relationships, living mathematics, and natural network structures.
 
