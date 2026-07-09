@@ -17,7 +17,7 @@
   "license": "https://www.robbiegeorgephotography.com/commercial-data-license",
   "governance": "Gr <= Es",
   "access": "x402",
-  "canonicalKeepCount": 688,
+  "canonicalKeepCount": 708,
   "duplicateRemovedCount": 33,
   "systems": [
     {
@@ -2480,6 +2480,122 @@
         }
       ]
     },
+    {
+  "name": "Fractals Plates",
+  "slug": "fractals",
+  "url": "https://www.robbiegeorgephotography.com/fractals",
+  "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/fractals",
+  "plates": [
+    {
+      "name": "Fractals Plate™",
+      "id": "fractals#fractals-plate",
+      "type": "Naturepedia™ Fractals Plate™"
+    },
+    {
+      "name": "Self-Similarity Plate™",
+      "id": "fractals#self-similarity-plate",
+      "type": "Naturepedia™ Self-Similarity Plate™"
+    },
+    {
+      "name": "Branching Fractals Plate™",
+      "id": "fractals#branching-fractals-plate",
+      "type": "Naturepedia™ Branching Fractals Plate™"
+    },
+    {
+      "name": "Fractals Across Scale Plate™",
+      "id": "fractals#fractals-across-scale-plate",
+      "type": "Naturepedia™ Fractals Across Scale Plate™"
+    },
+    {
+      "name": "Fractal Landscapes Plate™",
+      "id": "fractals#fractal-landscapes-plate",
+      "type": "Naturepedia™ Fractal Landscapes Plate™"
+    },
+    {
+      "name": "Living Fractals Plate™",
+      "id": "fractals#living-fractals-plate",
+      "type": "Naturepedia™ Living Fractals Plate™"
+    },
+    {
+      "name": "Fractals & Pattern Formation Plate™",
+      "id": "fractals#fractals-pattern-formation-plate",
+      "type": "Naturepedia™ Fractals & Pattern Formation Plate™"
+    },
+    {
+      "name": "Fractals & The Grand Compression Plate™",
+      "id": "fractals#fractals-grand-compression-plate",
+      "type": "Naturepedia™ Fractals & The Grand Compression Plate™"
+    },
+    {
+      "name": "Naturepedia Fractals Mesh Plate™",
+      "id": "fractals#naturepedia-fractals-mesh-plate",
+      "type": "Naturepedia™ Naturepedia Fractals Mesh Plate™"
+    },
+    {
+      "name": "Future Fractals Plate™",
+      "id": "fractals#future-fractals-plate",
+      "type": "Naturepedia™ Future Fractals Plate™"
+    }
+  ]
+},
+    {
+  "name": "Fibonacci Plates",
+  "slug": "fibonacci",
+  "url": "https://www.robbiegeorgephotography.com/fibonacci",
+  "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/fibonacci",
+  "plates": [
+    {
+      "name": "Fibonacci Plate™",
+      "id": "fibonacci#fibonacci-plate",
+      "type": "Naturepedia™ Fibonacci Plate™"
+    },
+    {
+      "name": "Phyllotaxis Plate™",
+      "id": "fibonacci#phyllotaxis-plate",
+      "type": "Naturepedia™ Phyllotaxis Plate™"
+    },
+    {
+      "name": "Spiral Growth Plate™",
+      "id": "fibonacci#spiral-growth-plate",
+      "type": "Naturepedia™ Spiral Growth Plate™"
+    },
+    {
+      "name": "Fibonacci Across Plants Plate™",
+      "id": "fibonacci#fibonacci-across-plants-plate",
+      "type": "Naturepedia™ Fibonacci Across Plants Plate™"
+    },
+    {
+      "name": "Efficient Packing Plate™",
+      "id": "fibonacci#efficient-packing-plate",
+      "type": "Naturepedia™ Efficient Packing Plate™"
+    },
+    {
+      "name": "Growth Mathematics Plate™",
+      "id": "fibonacci#growth-mathematics-plate",
+      "type": "Naturepedia™ Growth Mathematics Plate™"
+    },
+    {
+      "name": "Fibonacci & Pattern Formation Plate™",
+      "id": "fibonacci#fibonacci-pattern-formation-plate",
+      "type": "Naturepedia™ Fibonacci & Pattern Formation Plate™"
+    },
+    {
+      "name": "Fibonacci & The Grand Compression Plate™",
+      "id": "fibonacci#fibonacci-grand-compression-plate",
+      "type": "Naturepedia™ Fibonacci & The Grand Compression Plate™"
+    },
+    {
+      "name": "Naturepedia Fibonacci Mesh Plate™",
+      "id": "fibonacci#naturepedia-fibonacci-mesh-plate",
+      "type": "Naturepedia™ Naturepedia Fibonacci Mesh Plate™"
+    },
+    {
+      "name": "Future Fibonacci Plate™",
+      "id": "fibonacci#future-fibonacci-plate",
+      "type": "Naturepedia™ Future Fibonacci Plate™"
+    }
+  ]
+},
     {
       "name": "Water Systems Plates",
       "slug": "water-systems",
