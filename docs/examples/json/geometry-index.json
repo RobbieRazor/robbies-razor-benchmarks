@@ -1,0 +1,68 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "version": "1.0",
+  "dateModified": "2026-07-09",
+  "name": "Naturepedia™ Geometry Index",
+  "description": "Machine-readable discovery index for the Naturepedia™ Geometry Mesh, including Geometry of Nature™, E8 Lattice™, Fractals™, Fibonacci™, and related mathematical knowledge systems.",
+  "creator": {
+    "@type": "Person",
+    "name": "Robbie George",
+    "url": "https://www.robbiegeorgephotography.com/who-is-robbie-george"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Robbie George Photography",
+    "url": "https://www.robbiegeorgephotography.com"
+  },
+  "canonical": "https://www.robbiegeorgephotography.com/geometry-index.json",
+  "systems": [
+    {
+      "name": "Geometry of Nature™",
+      "slug": "geometry-of-nature",
+      "url": "https://www.robbiegeorgephotography.com/geometry-of-nature",
+      "registry": "https://www.robbiegeorgephotography.com/v1/registries/geometry-of-nature",
+      "plateMap": "https://www.robbiegeorgephotography.com/v1/plates/geometry-of-nature-map",
+      "knowledgeMesh": "https://www.robbiegeorgephotography.com/v1/knowledge-mesh/geometry-of-nature"
+    },
+    {
+      "name": "E8 Lattice™",
+      "slug": "e8-lattice",
+      "url": "https://www.robbiegeorgephotography.com/e8-lattice",
+      "registry": "https://www.robbiegeorgephotography.com/v1/registries/e8-lattice",
+      "plateMap": "https://www.robbiegeorgephotography.com/v1/plates/e8-lattice-map",
+      "knowledgeMesh": "https://www.robbiegeorgephotography.com/v1/knowledge-mesh/e8-lattice"
+    },
+    {
+      "name": "Fractals™",
+      "slug": "fractals",
+      "url": "https://www.robbiegeorgephotography.com/fractals",
+      "registry": "https://www.robbiegeorgephotography.com/v1/registries/fractals",
+      "plateMap": "https://www.robbiegeorgephotography.com/v1/plates/fractals-map",
+      "knowledgeMesh": "https://www.robbiegeorgephotography.com/v1/knowledge-mesh/fractals"
+    },
+    {
+      "name": "Fibonacci™",
+      "slug": "fibonacci",
+      "url": "https://www.robbiegeorgephotography.com/fibonacci",
+      "registry": "https://www.robbiegeorgephotography.com/v1/registries/fibonacci",
+      "plateMap": "https://www.robbiegeorgephotography.com/v1/plates/fibonacci-map",
+      "knowledgeMesh": "https://www.robbiegeorgephotography.com/v1/knowledge-mesh/fibonacci"
+    }
+  ],
+  "semanticRelationships": [
+    "Geometry of Nature™ → E8 Lattice™",
+    "Geometry of Nature™ → Fractals™",
+    "Geometry of Nature™ → Fibonacci™",
+    "E8 Lattice™ → Fractals™",
+    "Fractals™ → Self-Similarity™",
+    "Fractals™ → Branching Systems™",
+    "Fractals™ → Pattern Formation™",
+    "Fibonacci™ → Phyllotaxis™",
+    "Fibonacci™ → Spiral Growth™",
+    "Fibonacci™ → Efficient Packing™",
+    "Fibonacci™ → Pattern Formation™",
+    "Pattern Formation™ → Living Mathematics™",
+    "Living Mathematics™ → Natural Networks™"
+  ]
+}
