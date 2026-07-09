@@ -470,6 +470,8 @@ Mycorrhizal Networks™
 Electrical Ecology™
 Geometry of Nature™
 E8 Lattice™
+Fractals™
+Fibonacci™
 Information Systems in Nature™
 
 Naturepedia Systems Expansion (June 2026):
@@ -501,6 +503,10 @@ Hydrothermal Ecosystems™
 Geometry of Nature™
 ↓
 E8 Lattice™
+↓
+Fractals™
+↓
+Fibonacci™
 ↓
 Patterns Across Scale™
 ↓
@@ -584,6 +590,10 @@ Hydrothermal Ecosystems™
 Geometry of Nature™
 ↓
 E8 Lattice™
+↓
+Fractals™
+↓
+Fibonacci™
 ```
 
 Agents SHOULD interpret Earth Systems™ as a parent discovery registry connecting geological, hydrological, biological, microbial, climatic, and ecosystem-scale Naturepedia systems.
@@ -668,6 +678,10 @@ Current canonical mathematical systems:
 Geometry of Nature™
 ↓
 E8 Lattice™
+↓
+Fractals™
+↓
+Fibonacci™
 
 These systems extend Naturepedia™ into recursive geometry, mathematical organization, symmetry, compression geometry, scale relationships, living mathematics, and natural network structures.
 
@@ -1481,6 +1495,10 @@ Knowledge Mesh
 Geometry of Nature™
 ↓
 E8 Lattice™
+↓
+Fractals™
+↓
+Fibonacci™
 ↓
 Authorship Conservation Rules™ (ACR™)
 ↓
