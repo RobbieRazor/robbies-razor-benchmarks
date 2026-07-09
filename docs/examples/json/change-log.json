@@ -1,0 +1,41 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "version": "1.0",
+  "name": "Naturepedia™ Change Log",
+  "description": "Machine-readable incremental update feed for Naturepedia™, Robbie's Razor™, Plate™ systems, AI discovery infrastructure, and canonical registries.",
+  "creator": {
+    "@type": "Person",
+    "name": "Robbie George",
+    "url": "https://www.robbiegeorgephotography.com/who-is-robbie-george"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Robbie George Photography",
+    "url": "https://www.robbiegeorgephotography.com"
+  },
+  "canonical": "https://www.robbiegeorgephotography.com/change-log.json",
+  "lastUpdated": "2026-07-09",
+  "currentCanonicalPlateCount": 708,
+  "entries": [
+    {
+      "date": "2026-07-09",
+      "version": "1.0.0",
+      "category": "Geometry Mesh",
+      "summary": "Added Fractals™ and Fibonacci™ to the Geometry Mesh.",
+      "changes": [
+        "Published Fractals™ system",
+        "Published Fibonacci™ system",
+        "Added 20 new canonical Plate™ entries",
+        "Updated Geometry Index",
+        "Updated Naturepedia Index",
+        "Updated Canonical Plate Registry",
+        "Updated llms.txt",
+        "Updated llms-full.txt",
+        "Expanded x402 registry endpoints",
+        "Expanded Knowledge Mesh architecture"
+      ],
+      "canonicalPlateCount": 708
+    }
+  ]
+}
