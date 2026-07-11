@@ -15,9 +15,48 @@
     "url": "https://www.robbiegeorgephotography.com"
   },
   "canonical": "https://www.robbiegeorgephotography.com/change-log.json",
-  "lastUpdated": "2026-07-09",
-  "currentCanonicalPlateCount": 708,
+  "lastUpdated": "2026-07-11",
+  "currentCanonicalPlateCount": 718,
   "entries": [
+        {
+      "date": "2026-07-11",
+      "version": "1.1.0",
+      "category": "Earth Systems",
+      "summary": "Added Weather™ as a Naturepedia Earth Systems atmospheric hub.",
+      "changes": [
+        "Published the Weather™ system page",
+        "Added 10 new canonical Weather Plate™ entries",
+        "Increased the canonical Plate count from 708 to 718",
+        "Added Weather™ to the Canonical Plate Registry",
+        "Added Weather™ to the Naturepedia Index",
+        "Added the Weather registry endpoint",
+        "Added the Weather relationship-map endpoint",
+        "Added the Weather Knowledge Mesh endpoint",
+        "Added Weather v1 compatibility routes",
+        "Expanded Naturepedia v2 discovery output",
+        "Updated cold-bird Cloudflare Worker",
+        "Updated llms.txt Cloudflare Worker",
+        "Updated llms-full.txt Cloudflare Worker",
+        "Expanded x402 Weather retrieval infrastructure",
+        "Updated registry-state count metadata"
+      ],
+      "affectedPages": [
+        "https://www.robbiegeorgephotography.com/weather"
+      ],
+      "affectedEndpoints": [
+        "https://www.robbiegeorgephotography.com/naturepedia-index.json",
+        "https://www.robbiegeorgephotography.com/v1/plates/canonical",
+        "https://www.robbiegeorgephotography.com/v1/registries/weather",
+        "https://www.robbiegeorgephotography.com/v1/plates/weather-map",
+        "https://www.robbiegeorgephotography.com/v1/knowledge-mesh/weather",
+        "https://www.robbiegeorgephotography.com/x402/weather-registry.json",
+        "https://www.robbiegeorgephotography.com/x402/weather-map.json",
+        "https://www.robbiegeorgephotography.com/x402/knowledge-mesh/weather",
+        "https://www.robbiegeorgephotography.com/llms.txt",
+        "https://www.robbiegeorgephotography.com/llms-full.txt"
+      ],
+      "canonicalPlateCount": 718
+    },
     {
       "date": "2026-07-09",
       "version": "1.0.0",
