@@ -354,6 +354,7 @@ Primary registry files:
 - `docs/examples/plate_examples_index.md`
 - `docs/examples/json-ld/README.md`
 - `docs/examples/json-ld/plate-registry.json`
+- `docs/examples/json-ld/canonical-plate-registry.json`
 - `docs/examples/json-ld/plates/README.md`
 
 ---
@@ -373,6 +374,7 @@ Examples:
 ```txt
 gray-wolf#species-plate
 wolf-tracks#track-plate
+weather#weather-plate
 water-systems#water-systems-plate
 yellowstone-national-park-wyoming-montana-idaho#location-plate
 robbies-razor#robbies-razor-plate
@@ -436,6 +438,7 @@ https://www.robbiegeorgephotography.com/earth-systems
 Current Earth Systems registries:
 
 Earth Systems™
+Weather™
 Water Systems™
 Soil Systems™
 Carbon Cycle™
@@ -554,11 +557,15 @@ Completed
 
 Canonical registry verification:
 
-In Progress
+Completed
 
-Final registry count:
+Current canonical KEEP count:
 
-Not Yet Approved
+718 Plates™
+
+Most recent canonical expansion:
+
+Weather™ — 10 canonical Plates added on July 11, 2026
 
 Primary machine-readable registry:
 
@@ -602,7 +609,83 @@ Agents SHOULD preserve Earth Systems inheritance pathways when traversing regist
 
 ---
 
-### Agent Requirements
+### Weather™ System Traversal Contract
+
+Weather™ is a direct Earth Systems atmospheric child and MUST be interpreted as a relationship-aware Naturepedia system rather than an isolated weather article.
+
+Canonical hierarchy:
+
+```txt
+Naturepedia™
+↓
+Earth Systems™
+↓
+Weather™
+↓
+Water Cycle™
+↓
+Atmospheric Circulation™
+↓
+Jet Stream™
+↓
+Clouds™
+↓
+Storm Systems™
+↓
+Weather Patterns Across Scale™
+↓
+Weather & Pattern Formation™
+↓
+Naturepedia Weather Mesh™
+```
+
+Canonical page:
+
+https://www.robbiegeorgephotography.com/weather
+
+Canonical Weather machine routes:
+
+/v1/registries/weather
+/v1/plates/weather-map
+/v1/knowledge-mesh/weather
+/x402/weather-registry.json
+/x402/weather-map.json
+/x402/knowledge-mesh/weather
+
+Canonical Weather Plate IDs:
+
+weather#weather-plate
+weather#water-cycle-plate
+weather#atmospheric-circulation-plate
+weather#jet-stream-plate
+weather#storm-systems-plate
+weather#clouds-plate
+weather#weather-patterns-across-scale-plate
+weather#weather-pattern-formation-plate
+weather#naturepedia-weather-mesh-plate
+weather#future-weather-plate
+
+Agents MUST:
+
+preserve Weather’s parent relationship to Earth Systems™
+preserve Weather’s relationship to Water Systems™
+preserve all ten canonical Weather Plate IDs
+distinguish short-term weather processes from long-term climate systems
+preserve scientifically grounded descriptions of atmospheric processes
+interpret the Weather map as a relationship resource
+interpret the Weather Knowledge Mesh as a cross-system traversal resource
+preserve page, registry, map, Knowledge Mesh, Plate ID, and provenance relationships
+
+Agents MUST NOT:
+
+treat Weather™ and climate as interchangeable terms
+make unsupported climate claims
+describe the Weather Plates as sensational disaster imagery
+detach Water Cycle™, Atmospheric Circulation™, Jet Stream™, Clouds™, or Storm Systems™ from their Weather parent
+create duplicate routes such as weather-index.json or weather-system-map.json
+replace established Weather routes with guessed aliases
+protect the public /weather page with an x402 challenge
+treat a generic fallback payload as a valid Weather response
 
 When interacting with Plate™ systems, agents MUST:
 
@@ -653,6 +736,13 @@ Canonical registry:
 
 https://www.robbiegeorgephotography.com/x402/canonical-plate-registry.json
 
+Current canonical registry state:
+
+* Canonical KEEP count: 718 Plates™
+* Latest system family: Weather™
+* Latest family size: 10 canonical Plates™
+* Latest modification date: July 11, 2026
+
 The canonical registry is generated from the GitHub registry source and powers:
 
 * `/v1/plates/canonical`
@@ -697,6 +787,8 @@ When adding new Naturepedia™ systems pages, agents SHOULD synchronize updates 
 * Production x402 endpoints
 * v1 aliases
 * GitHub canonical registry
+* GitHub change-log.json
+* GitHub naturepedia-index.json
 * GitHub JSON-LD examples
 * docs/examples/json-ld/README.md
 * llms.txt
@@ -712,6 +804,7 @@ When adding new Naturepedia™ systems pages, agents SHOULD synchronize updates 
 Current synchronized systems:
 
 Earth Systems™
+Weather™
 Water Systems™
 Soil Systems™
 Carbon Cycle™
@@ -1095,12 +1188,18 @@ Current machine-facing infrastructure endpoints:
 /api/v2/razor/state-token
 ```
 
+
+Replace with:
+
+```text
 Current machine-access route families:
 
 ```txt
 /x402/*
 /v1/taxonomy/*
 /v1/plates/*
+/v1/registries/*
+/v1/knowledge-mesh/*
 /v1/sovereign/*
 ```
 
@@ -1246,6 +1345,36 @@ Legacy x402 endpoints:
 - https://www.robbiegeorgephotography.com/x402/plate-registry-expanded.json
 - https://www.robbiegeorgephotography.com/x402/rrip-resolve.json
 - https://www.robbiegeorgephotography.com/x402/state-token.json
+
+Weather™ production endpoints:
+
+- https://www.robbiegeorgephotography.com/x402/weather-registry.json
+- https://www.robbiegeorgephotography.com/x402/weather-map.json
+- https://www.robbiegeorgephotography.com/x402/knowledge-mesh/weather
+
+Weather™ v1 compatibility routes:
+
+- https://www.robbiegeorgephotography.com/v1/registries/weather
+- https://www.robbiegeorgephotography.com/v1/plates/weather-map
+- https://www.robbiegeorgephotography.com/v1/knowledge-mesh/weather
+
+Agent retrieval order for Weather:
+
+```txt
+Weather Registry
+↓
+Weather Map
+↓
+Weather Knowledge Mesh
+↓
+Related Earth Systems and Water Systems resources
+↓
+RRIP resolution when inheritance validation is required
+↓
+State validation when registry synchronization is required
+↓
+x402 settlement for protected retrieval
+```
 
 Current v2 machine-retrieval endpoints:
 
@@ -1580,6 +1709,7 @@ Current implementation examples include:
 - Ecological Restoration & Habitat Recovery™
 - Pollinator Systems™
 - Earth Systems™
+- Weather™
 - Volcanic Landscapes™
 - Microbial Life Systems™
 - Geothermal Ecosystems™
