@@ -1,7 +1,8 @@
 {
   "@context": "https://schema.org",
   "@type": "Dataset",
-  "registryVersion": "2026.06.26",
+  "registryVersion": "2026.07.11",
+  "dateModified": "2026-07-11",
   "name": "Naturepedia Canonical Plate Registry",
   "description": "Canonical machine-readable registry for Naturepedia Plate assets, organized by Naturepedia system, page URL, Plate ID, Plate type, and x402 access path.",
   "creator": {
@@ -17,7 +18,7 @@
   "license": "https://www.robbiegeorgephotography.com/commercial-data-license",
   "governance": "Gr <= Es",
   "access": "x402",
-  "canonicalKeepCount": 708,
+  "canonicalKeepCount": 718,
   "duplicateRemovedCount": 33,
   "systems": [
     {
@@ -423,6 +424,64 @@
           "name": "Earth Systems Photography Plate™",
           "id": "earth-systems#earth-systems-photography-plate",
           "type": "Naturepedia Photography Plate™"
+        }
+      ]
+    },
+        {
+      "name": "Weather Plates",
+      "slug": "weather",
+      "url": "https://www.robbiegeorgephotography.com/weather",
+      "x402Registry": "https://www.robbiegeorgephotography.com/v1/registries/weather",
+      "plates": [
+        {
+          "name": "Weather Plate™",
+          "id": "weather#weather-plate",
+          "type": "Naturepedia™ Weather Plate™"
+        },
+        {
+          "name": "Water Cycle Plate™",
+          "id": "weather#water-cycle-plate",
+          "type": "Naturepedia™ Water Cycle Plate™"
+        },
+        {
+          "name": "Atmospheric Circulation Plate™",
+          "id": "weather#atmospheric-circulation-plate",
+          "type": "Naturepedia™ Atmospheric Circulation Plate™"
+        },
+        {
+          "name": "Jet Stream Plate™",
+          "id": "weather#jet-stream-plate",
+          "type": "Naturepedia™ Jet Stream Plate™"
+        },
+        {
+          "name": "Storm Systems Plate™",
+          "id": "weather#storm-systems-plate",
+          "type": "Naturepedia™ Storm Systems Plate™"
+        },
+        {
+          "name": "Clouds Plate™",
+          "id": "weather#clouds-plate",
+          "type": "Naturepedia™ Clouds Plate™"
+        },
+        {
+          "name": "Weather Patterns Across Scale Plate™",
+          "id": "weather#weather-patterns-across-scale-plate",
+          "type": "Naturepedia™ Weather Patterns Across Scale Plate™"
+        },
+        {
+          "name": "Weather & Pattern Formation Plate™",
+          "id": "weather#weather-pattern-formation-plate",
+          "type": "Naturepedia™ Weather & Pattern Formation Plate™"
+        },
+        {
+          "name": "Naturepedia Weather Mesh Plate™",
+          "id": "weather#naturepedia-weather-mesh-plate",
+          "type": "Naturepedia™ Naturepedia Weather Mesh Plate™"
+        },
+        {
+          "name": "Future Weather Plate™",
+          "id": "weather#future-weather-plate",
+          "type": "Naturepedia™ Future Weather Plate™"
         }
       ]
     },
