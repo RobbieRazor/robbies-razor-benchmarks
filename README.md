@@ -190,6 +190,7 @@ Current Earth Systems registries:
 * Soil Systems™
 * Carbon Cycle™
 * Ecosystem Feedbacks™
+* Weather™
 * Water Systems™
 * Microbial Life Systems™
 * Volcanic Landscapes™
@@ -217,6 +218,7 @@ Naturepedia™ Systems Expansion (June 2026)
 Major systems now include:
 
 * Earth Systems™
+* Weather™
 * Soil Systems™
 * Carbon Cycle™
 * Ecosystem Feedbacks™
@@ -244,9 +246,12 @@ Major systems now include:
 Registry reconciliation status:
 
 * Registry reconciliation completed
-* Canonical registry verification in progress
-* Candidate KEEP count under review
-* Final registry count not yet approved
+* Canonical registry verification completed
+* Canonical KEEP count: 718 Plates™
+* Weather™ added as an Earth Systems atmospheric hub
+* 10 canonical Weather Plate™ entries added
+* Canonical count increased from 708 to 718
+* Duplicate removal count remains 33
 
 Machine-readable registry authority:
 
@@ -291,6 +296,29 @@ Primary discovery endpoints:
 These registries function as recursive knowledge structures within the broader Naturepedia™, RKCA™, RRIP™, Graph Registry™, Knowledge Mesh™, and Robbie's Razor™ architecture.
 
 These registries function as recursive knowledge structures within the broader Naturepedia™, RKCA™, RRIP™, Graph Registry™, and Knowledge Mesh architecture.
+
+### Weather™ Integration — July 2026
+
+Weather™ expands the Naturepedia Earth Systems architecture with a scientifically grounded atmospheric knowledge family.
+
+Canonical page:
+
+https://www.robbiegeorgephotography.com/weather
+
+The system includes ten canonical Plates™:
+
+* Weather Plate™
+* Water Cycle Plate™
+* Atmospheric Circulation Plate™
+* Jet Stream Plate™
+* Storm Systems Plate™
+* Clouds Plate™
+* Weather Patterns Across Scale Plate™
+* Weather & Pattern Formation Plate™
+* Naturepedia Weather Mesh Plate™
+* Future Weather Plate™
+
+Weather™ connects Earth Systems™, Water Systems™, atmospheric circulation, water cycling, clouds, storm development, jet-stream behavior, weather patterns across scale, seasonal ecology, and Naturepedia pattern-formation architecture.
 
 ## Recursive Registry Inheritance Principle (RRIP)
 
@@ -366,15 +394,16 @@ Naturepedia™ expanded the semantic registry with multiple systems-level retrie
 * Soil Systems™
 * Carbon Cycle™
 * Ecosystem Feedbacks™
+* Weather™
 * Bioelectric Systems™
 * Quantum Agriculture™
 * Plant Intelligence™
 
-Registry reconciliation has been completed.
+Registry reconciliation and canonical verification have been completed.
 
-Canonical registry verification remains in progress.
+The current canonical KEEP count is 718 Plates™ following the addition of the ten-Plate Weather™ family on July 11, 2026.
 
-Final registry counts have not yet been approved for publication.
+The canonical registry remains the authoritative machine-readable source for current Plate IDs, system families, page URLs, Plate types, and retrieval routes.
 
 Machine-readable registry authority:
 
@@ -420,6 +449,31 @@ Fractals™
 ↓
 Fibonacci™
 ```
+Weather Atmospheric Pathway
+
+```txt
+Naturepedia™
+↓
+Earth Systems™
+↓
+Weather™
+↓
+Water Cycle™
+↓
+Atmospheric Circulation™
+↓
+Jet Stream™
+↓
+Clouds™
+↓
+Storm Systems™
+↓
+Weather Patterns Across Scale™
+↓
+Weather & Pattern Formation™
+↓
+Naturepedia Weather Mesh™
+```
 
 Electro-Ecology Mesh
 
@@ -462,6 +516,7 @@ Primary registry files:
 - [Live Plate™ Examples Index](docs/examples/plate_examples_index.md)
 - [JSON-LD Registry Layer](docs/examples/json-ld/README.md)
 - [Machine-Readable Plate Registry](docs/examples/json-ld/plate-registry.json)
+- [Canonical Plate Registry](docs/examples/json-ld/canonical-plate-registry.json)
 - [Canonical Plate™ JSON-LD Examples](docs/examples/json-ld/plates/README.md)
 
 The compressed registry file:
@@ -600,6 +655,18 @@ Legacy x402 endpoints:
 - https://www.robbiegeorgephotography.com/x402/plate-registry-expanded.json
 - https://www.robbiegeorgephotography.com/x402/rrip-resolve.json
 - https://www.robbiegeorgephotography.com/x402/state-token.json
+
+Weather™ x402 retrieval endpoints:
+
+- https://www.robbiegeorgephotography.com/x402/weather-registry.json
+- https://www.robbiegeorgephotography.com/x402/weather-map.json
+- https://www.robbiegeorgephotography.com/x402/knowledge-mesh/weather
+
+Weather™ v1 compatibility routes:
+
+- https://www.robbiegeorgephotography.com/v1/registries/weather
+- https://www.robbiegeorgephotography.com/v1/plates/weather-map
+- https://www.robbiegeorgephotography.com/v1/knowledge-mesh/weather
 
 Current v2 production endpoints:
 
