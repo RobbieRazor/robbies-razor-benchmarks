@@ -2,7 +2,7 @@
   "@context": "https://schema.org",
   "@type": "Dataset",
   "version": "1.0",
-  "dateModified": "2026-07-09",
+  "dateModified": "2026-07-11",
   "name": "Naturepedia™ Index",
   "description": "Top-level machine-readable discovery index for Naturepedia™, organizing major knowledge systems, semantic families, AI discovery pathways, and recursive retrieval architecture.",
   "creator": {
@@ -44,9 +44,46 @@
         }
       ]
     },
-    {
+        {
       "name": "Earth Systems",
-      "description": "Planetary systems, geology, climate, water, soils, and ecosystem processes."
+      "description": "Planetary systems, atmospheric processes, weather, geology, climate, water, soils, and ecosystem relationships.",
+      "systems": [
+        {
+          "name": "Earth Systems™",
+          "url": "https://www.robbiegeorgephotography.com/earth-systems",
+          "slug": "earth-systems",
+          "role": "Parent planetary systems hub"
+        },
+        {
+          "name": "Weather™",
+          "url": "https://www.robbiegeorgephotography.com/weather",
+          "slug": "weather",
+          "parent": "Earth Systems™",
+          "role": "Atmospheric processes, water cycling, circulation, jet streams, clouds, storms, and weather-pattern relationships",
+          "registry": "https://www.robbiegeorgephotography.com/v1/registries/weather",
+          "plateMap": "https://www.robbiegeorgephotography.com/v1/plates/weather-map",
+          "knowledgeMesh": "https://www.robbiegeorgephotography.com/v1/knowledge-mesh/weather"
+        },
+        {
+          "name": "Water Systems™",
+          "url": "https://www.robbiegeorgephotography.com/water-systems",
+          "slug": "water-systems",
+          "parent": "Earth Systems™",
+          "role": "Hydrology, rivers, wetlands, groundwater, estuaries, and watershed systems"
+        }
+      ],
+      "semanticRelationships": [
+        "Naturepedia™ → Earth Systems™",
+        "Earth Systems™ → Weather™",
+        "Weather™ → Water Cycle™",
+        "Weather™ → Atmospheric Circulation™",
+        "Atmospheric Circulation™ → Jet Stream™",
+        "Water Cycle™ → Clouds™",
+        "Clouds™ → Storm Systems™",
+        "Weather Patterns Across Scale™ → Seasonal Ecology™",
+        "Weather™ → Water Systems™",
+        "Weather™ → Climate Systems™"
+      ]
     },
     {
       "name": "Carbon Systems",
