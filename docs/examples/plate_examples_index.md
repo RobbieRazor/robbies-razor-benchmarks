@@ -1149,50 +1149,20 @@ URL:
 
 https://www.robbiegeorgephotography.com/hydrothermal-ecosystems
 
-Parent System Plate™
+Canonical Plates:
 
-* Hydrothermal Ecosystems Plate™
-
-Core Plates™
-
-* Hydrothermal Vent Identification Plate™
-* Hydrothermal Vent Biodiversity Plate™
-* Hydrothermal Microbial Life Plate™
-* Hydrothermal Mineral Systems Plate™
-* Black Smokers Plate™
-* White Smokers Plate™
-* Giant Tube Worm Plate™
-* Vent Mussels & Clams Plate™
-* Vent Crabs & Shrimp Plate™
-* Vent Extremophiles Plate™
-* Chemosynthetic Food Web Plate™
-* Seafloor Geology Plate™
-* Deep Ocean Exploration Plate™
-* Origins of Life Hydrothermal Plate™
-* Hydrothermal Astrobiology Plate™
-* Europa & Enceladus Analogs Plate™
-* Hydrothermal Photography Plate™
-
-Plates:
-
-* Hydrothermal Ecosystems Plate™
-* Hydrothermal Vent Identification Plate™
-* Hydrothermal Vent Biodiversity Plate™
-* Hydrothermal Microbial Life Plate™
-* Hydrothermal Mineral Systems Plate™
-* Black Smokers Plate™
-* White Smokers Plate™
-* Giant Tube Worm Plate™
-* Vent Mussels & Clams Plate™
-* Vent Crabs & Shrimp Plate™
-* Vent Extremophiles Plate™
-* Chemosynthetic Food Web Plate™
-* Seafloor Geology Plate™
-* Deep Ocean Exploration Plate™
-* Origins of Life Hydrothermal Plate™
-* Hydrothermal Astrobiology Plate™
-* Europa & Enceladus Analogs Plate™
-* Hydrothermal Photography Plate™
+| Plate™ | Semantic ID | Type |
+|---|---|---|
+| Hydrothermal Ecosystems Plate™ | `hydrothermal-ecosystems#hydrothermal-ecosystems-plate` | Naturepedia™ Hydrothermal Ecosystems Plate™ |
+| Hydrothermal Systems Plate™ | `hydrothermal-ecosystems#hydrothermal-systems-plate` | Naturepedia™ Hydrothermal Systems Plate™ |
+| Hydrothermal Water Circulation Plate™ | `hydrothermal-ecosystems#hydrothermal-water-circulation-plate` | Naturepedia™ Hydrothermal Water Circulation Plate™ |
+| Mineral-Rich Waters Plate™ | `hydrothermal-ecosystems#mineral-rich-waters-plate` | Naturepedia™ Mineral-Rich Waters Plate™ |
+| Hydrothermal Microbial Communities Plate™ | `hydrothermal-ecosystems#hydrothermal-microbial-communities-plate` | Naturepedia™ Hydrothermal Microbial Communities Plate™ |
+| Extremophile Ecosystems Plate™ | `hydrothermal-ecosystems#extremophile-ecosystems-plate` | Naturepedia™ Extremophile Ecosystems Plate™ |
+| Hydrothermal Mineral Deposition Plate™ | `hydrothermal-ecosystems#hydrothermal-mineral-deposition-plate` | Naturepedia™ Hydrothermal Mineral Deposition Plate™ |
+| Hydrothermal Ecosystem Succession Plate™ | `hydrothermal-ecosystems#hydrothermal-ecosystem-succession-plate` | Naturepedia™ Hydrothermal Ecosystem Succession Plate™ |
+| Hydrothermal Networks & Earth Systems Plate™ | `hydrothermal-ecosystems#hydrothermal-networks-earth-systems-plate` | Naturepedia™ Hydrothermal Networks & Earth Systems Plate™ |
+| Future Hydrothermal Ecosystems Plate™ | `hydrothermal-ecosystems#future-hydrothermal-ecosystems-plate` | Naturepedia™ Future Hydrothermal Ecosystems Plate™ |
 
 ---
 
