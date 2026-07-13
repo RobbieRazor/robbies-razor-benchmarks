@@ -2100,6 +2100,13 @@
     },
     {
         "category": "Field Location Plates™",
+        "name": "Acadia National Park Field Location Plate™",
+        "id": "acadia-national-park#location-plate",
+        "url": "https://www.robbiegeorgephotography.com/acadia-national-park-maine",
+        "type": "Naturepedia Field Location Plate™"
+    },
+    {
+        "category": "Field Location Plates™",
         "name": "Grand Teton National Park Field Location Plate™",
         "id": "grand-teton-national-park-wyoming#location-plate",
         "url": "https://www.robbiegeorgephotography.com/grand-teton-national-park-wyoming",
@@ -2138,6 +2145,13 @@
         "name": "Chincoteague National Wildlife Refuge Field Location Plate™",
         "id": "chincoteague-national-wildlife-refuge-virginia#location-plate",
         "url": "https://www.robbiegeorgephotography.com/chincoteague-national-wildlife-refuge-virginia",
+        "type": "Naturepedia Field Location Plate™"
+    },
+    {
+        "category": "Field Location Plates™",
+        "name": "Aransas National Wildlife Refuge Field Location Plate™",
+        "id": "aransas-national-wildlife-refuge-texas#location-plate",
+        "url": "https://www.robbiegeorgephotography.com/aransas-national-wildlife-refuge-texas",
         "type": "Naturepedia Field Location Plate™"
     },
     {
