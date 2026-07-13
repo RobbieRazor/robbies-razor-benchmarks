@@ -15,10 +15,45 @@
     "url": "https://www.robbiegeorgephotography.com"
   },
   "canonical": "https://www.robbiegeorgephotography.com/change-log.json",
-  "lastUpdated": "2026-07-11",
+  "lastUpdated": "2026-07-13",
   "currentCanonicalPlateCount": 718,
-  "entries": [
-        {
+    "entries": [
+    {
+      "date": "2026-07-13",
+      "version": "1.1.1",
+      "category": "Registry Reconciliation",
+      "summary": "Corrected three obsolete Naturepedia page URLs and restored the omitted Acadia and Aransas Field Location Plate entries.",
+      "changes": [
+        "Corrected the Wildlife Sign & Tracking canonical page URL",
+        "Corrected the Food Webs & Ecological Relationships canonical page URL",
+        "Corrected the Wildlife Species public page URL",
+        "Added the Acadia National Park Field Location Plate to the canonical registry",
+        "Added the Aransas National Wildlife Refuge Field Location Plate to the canonical registry",
+        "Added Acadia and Aransas to the machine-readable Plate registry",
+        "Added Acadia and Aransas to the Plate examples index",
+        "Added Acadia and Aransas to llms-full.txt",
+        "Added Acadia and Aransas to the x402 Location System Map",
+        "Corrected copied Bosque del Apache metadata on the live Aransas page",
+        "Added backward-compatible redirects for the three obsolete page URLs"
+      ],
+      "affectedPages": [
+        "https://www.robbiegeorgephotography.com/wildlife-sign-tracking-north-america",
+        "https://www.robbiegeorgephotography.com/food-webs-ecological-relationships-north-america",
+        "https://www.robbiegeorgephotography.com/wildlife",
+        "https://www.robbiegeorgephotography.com/acadia-national-park-maine",
+        "https://www.robbiegeorgephotography.com/aransas-national-wildlife-refuge-texas"
+      ],
+      "affectedEndpoints": [
+        "https://www.robbiegeorgephotography.com/change-log.json",
+        "https://www.robbiegeorgephotography.com/x402/canonical-plate-registry.json",
+        "https://www.robbiegeorgephotography.com/x402/plate-registry.json",
+        "https://www.robbiegeorgephotography.com/x402/location-system-map.json",
+        "https://www.robbiegeorgephotography.com/v1/plates/canonical",
+        "https://www.robbiegeorgephotography.com/llms-full.txt"
+      ],
+      "canonicalPlateCount": 718
+    },
+    {
       "date": "2026-07-11",
       "version": "1.1.0",
       "category": "Earth Systems",
