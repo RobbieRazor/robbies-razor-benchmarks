@@ -1953,6 +1953,64 @@
       ]
     },
     {
+  "name": "Hydrothermal Ecosystems Plates",
+  "slug": "hydrothermal-ecosystems",
+  "url": "https://www.robbiegeorgephotography.com/hydrothermal-ecosystems",
+  "x402Registry": "https://www.robbiegeorgephotography.com/v1/registries/hydrothermal-ecosystems",
+  "plates": [
+    {
+      "name": "Hydrothermal Ecosystems Plate™",
+      "id": "hydrothermal-ecosystems#hydrothermal-ecosystems-plate",
+      "type": "Naturepedia™ Hydrothermal Ecosystems Plate™"
+    },
+    {
+      "name": "Hydrothermal Systems Plate™",
+      "id": "hydrothermal-ecosystems#hydrothermal-systems-plate",
+      "type": "Naturepedia™ Hydrothermal Systems Plate™"
+    },
+    {
+      "name": "Hydrothermal Water Circulation Plate™",
+      "id": "hydrothermal-ecosystems#hydrothermal-water-circulation-plate",
+      "type": "Naturepedia™ Hydrothermal Water Circulation Plate™"
+    },
+    {
+      "name": "Mineral-Rich Waters Plate™",
+      "id": "hydrothermal-ecosystems#mineral-rich-waters-plate",
+      "type": "Naturepedia™ Mineral-Rich Waters Plate™"
+    },
+    {
+      "name": "Hydrothermal Microbial Communities Plate™",
+      "id": "hydrothermal-ecosystems#hydrothermal-microbial-communities-plate",
+      "type": "Naturepedia™ Hydrothermal Microbial Communities Plate™"
+    },
+    {
+      "name": "Extremophile Ecosystems Plate™",
+      "id": "hydrothermal-ecosystems#extremophile-ecosystems-plate",
+      "type": "Naturepedia™ Extremophile Ecosystems Plate™"
+    },
+    {
+      "name": "Hydrothermal Mineral Deposition Plate™",
+      "id": "hydrothermal-ecosystems#hydrothermal-mineral-deposition-plate",
+      "type": "Naturepedia™ Hydrothermal Mineral Deposition Plate™"
+    },
+    {
+      "name": "Hydrothermal Ecosystem Succession Plate™",
+      "id": "hydrothermal-ecosystems#hydrothermal-ecosystem-succession-plate",
+      "type": "Naturepedia™ Hydrothermal Ecosystem Succession Plate™"
+    },
+    {
+      "name": "Hydrothermal Networks & Earth Systems Plate™",
+      "id": "hydrothermal-ecosystems#hydrothermal-networks-earth-systems-plate",
+      "type": "Naturepedia™ Hydrothermal Networks & Earth Systems Plate™"
+    },
+    {
+      "name": "Future Hydrothermal Ecosystems Plate™",
+      "id": "hydrothermal-ecosystems#future-hydrothermal-ecosystems-plate",
+      "type": "Naturepedia™ Future Hydrothermal Ecosystems Plate™"
+    }
+  ]
+},
+    {
       "name": "Microbial Life Systems Plates",
       "slug": "microbial-life-systems",
       "url": "https://www.robbiegeorgephotography.com/microbial-life-systems",
