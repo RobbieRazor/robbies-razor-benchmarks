@@ -4302,6 +4302,45 @@
       ]
     },
     {
+  "name": "Mycelial Networks — Nature’s Internet Plates",
+  "slug": "naturepedia-mycelial-networks",
+  "url": "https://www.robbiegeorgephotography.com/naturepedia-mycelial-networks",
+  "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/naturepedia-mycelial-networks",
+  "plates": [
+    {
+      "name": "Mycelial Networks — Nature’s Internet Plate™",
+      "id": "mycelial-networks#mycelial-networks-plate",
+      "type": "Naturepedia Universal Principle Plate™"
+    }
+  ]
+},
+{
+  "name": "Naturepedia Carbon Cycle Plates",
+  "slug": "naturepedia-carbon-cycle",
+  "url": "https://www.robbiegeorgephotography.com/naturepedia-carbon-cycle",
+  "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/naturepedia-carbon-cycle",
+  "plates": [
+    {
+      "name": "Carbon Cycle Plate™",
+      "id": "naturepedia-carbon-cycle#carbon-cycle-plate",
+      "type": "Naturepedia Universal Principle Plate™"
+    }
+  ]
+},
+{
+  "name": "Soil Microbiome Plates",
+  "slug": "naturepedia-soil-microbiome",
+  "url": "https://www.robbiegeorgephotography.com/naturepedia-soil-microbiome",
+  "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/naturepedia-soil-microbiome",
+  "plates": [
+    {
+      "name": "Soil Microbiome Plate™",
+      "id": "naturepedia-soil-microbiome#soil-microbiome-plate",
+      "type": "Naturepedia Living Soil System Plate™"
+    }
+  ]
+},
+    {
       "name": "Water Memory Plates",
       "slug": "water-memory",
       "url": "https://www.robbiegeorgephotography.com/water-memory",
