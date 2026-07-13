@@ -19,6 +19,36 @@
   "currentCanonicalPlateCount": 718,
     "entries": [
     {
+  "date": "2026-07-13",
+  "version": "1.1.2",
+  "category": "Registry Integrity",
+  "summary": "Removed a duplicated Plant Electrophysiology registry family, restored the omitted 10-Plate Hydrothermal Ecosystems family across canonical discovery layers, and corrected dynamic Bazaar resource advertising.",
+  "changes": [
+    "Removed the duplicated Plant Electrophysiology family from the canonical registry",
+    "Added 10 Hydrothermal Ecosystems Plate records to the canonical registry",
+    "Added the Hydrothermal Ecosystems family to the secondary Plate registry",
+    "Aligned the Hydrothermal section in the Plate examples index",
+    "Added all 10 Hydrothermal Ecosystems Plate records to llms-full.txt",
+    "Corrected Bazaar metadata so each x402 challenge advertises its own requested resource URL",
+    "Verified machine-client 402 responses for the Plate Registry and Location System Map"
+  ],
+  "affectedPages": [
+    "https://www.robbiegeorgephotography.com/hydrothermal-ecosystems",
+    "https://www.robbiegeorgephotography.com/plant-electrophysiology"
+  ],
+  "affectedEndpoints": [
+    "https://www.robbiegeorgephotography.com/change-log.json",
+    "https://www.robbiegeorgephotography.com/llms-full.txt",
+    "https://www.robbiegeorgephotography.com/x402/canonical-plate-registry.json",
+    "https://www.robbiegeorgephotography.com/x402/plate-registry.json",
+    "https://www.robbiegeorgephotography.com/x402/location-system-map.json",
+    "https://www.robbiegeorgephotography.com/x402/hydrothermal-ecosystems-registry.json",
+    "https://www.robbiegeorgephotography.com/v1/plates/canonical",
+    "https://www.robbiegeorgephotography.com/v1/registries/hydrothermal-ecosystems"
+  ],
+  "canonicalPlateCount": 718
+},
+    {
       "date": "2026-07-13",
       "version": "1.1.1",
       "category": "Registry Reconciliation",
