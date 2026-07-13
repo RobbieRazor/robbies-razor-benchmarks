@@ -1210,6 +1210,16 @@ https://www.robbiegeorgephotography.com/x402/plate-registry-expanded.json
 
 ---
 
+## Standalone Naturepedia System Plates™
+
+| Plate™ | Semantic ID | Type | Live URL |
+|---|---|---|---|
+| Mycelial Networks — Nature’s Internet Plate™ | `mycelial-networks#mycelial-networks-plate` | Naturepedia Universal Principle Plate™ | https://www.robbiegeorgephotography.com/naturepedia-mycelial-networks |
+| Carbon Cycle Plate™ | `naturepedia-carbon-cycle#carbon-cycle-plate` | Naturepedia Universal Principle Plate™ | https://www.robbiegeorgephotography.com/naturepedia-carbon-cycle |
+| Soil Microbiome Plate™ | `naturepedia-soil-microbiome#soil-microbiome-plate` | Naturepedia Living Soil System Plate™ | https://www.robbiegeorgephotography.com/naturepedia-soil-microbiome |
+
+---
+
 ## Field Location Plates™
 
 | Plate™ | Semantic ID | Type | Live URL |
