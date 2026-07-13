@@ -2899,6 +2899,11 @@
           "type": "Naturepedia Field Location Plate™"
         },
         {
+          "name": "Acadia National Park Field Location Plate™",
+          "id": "acadia-national-park#location-plate",
+          "type": "Naturepedia Field Location Plate™"
+        },
+        {
           "name": "Grand Teton National Park Field Location Plate™",
           "id": "grand-teton-national-park-wyoming#location-plate",
           "type": "Naturepedia Field Location Plate™"
@@ -2926,6 +2931,11 @@
         {
           "name": "Chincoteague National Wildlife Refuge Field Location Plate™",
           "id": "chincoteague-national-wildlife-refuge-virginia#location-plate",
+          "type": "Naturepedia Field Location Plate™"
+        },
+        {
+          "name": "Aransas National Wildlife Refuge Field Location Plate™",
+          "id": "aransas-national-wildlife-refuge-texas#location-plate",
           "type": "Naturepedia Field Location Plate™"
         },
         {
