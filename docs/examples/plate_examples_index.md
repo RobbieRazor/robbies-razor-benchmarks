@@ -1247,11 +1247,13 @@ https://www.robbiegeorgephotography.com/x402/plate-registry-expanded.json
 | Yellowstone National Park Field Location Plate™ | `yellowstone-national-park-wyoming-montana-idaho#location-plate` | Field Location Plate | https://www.robbiegeorgephotography.com/yellowstone-national-park-wyoming-montana-idaho |
 | Grand Teton National Park Field Location Plate™ | `grand-teton-national-park-wyoming#location-plate` | Field Location Plate | https://www.robbiegeorgephotography.com/grand-teton-national-park-wyoming |
 | Maroon Bells Field Location Plate™ | `maroon-bells-colorado#location-plate` | Field Location Plate | https://www.robbiegeorgephotography.com/maroon-bells-colorado |
+| Acadia National Park Field Location Plate™ | `acadia-national-park#location-plate` | Field Location Plate | https://www.robbiegeorgephotography.com/acadia-national-park-maine |
 | Chesapeake Bay System Plate™ | `chesapeake-bay-wildlife-system#chesapeake-bay-system-plate` | Water System Plate | https://www.robbiegeorgephotography.com/chesapeake-bay-wildlife-system |
 | Blackwater National Wildlife Refuge Field Location Plate™ | `blackwater-national-wildlife-refuge-maryland#location-plate` | Field Location Plate | https://www.robbiegeorgephotography.com/blackwater-national-wildlife-refuge-maryland |
 | Bosque del Apache Field Location Plate™ | `bosque-del-apache-national-wildlife-refuge-new-mexico#location-plate` | Field Location Plate | https://www.robbiegeorgephotography.com/bosque-del-apache-national-wildlife-refuge-new-mexico |
 | Lake Mattamuskeet National Wildlife Refuge Field Location Plate™ | `lake-mattamuskeet-north-carolina#location-plate` | Field Location Plate | https://www.robbiegeorgephotography.com/lake-mattamuskeet-north-carolina |
 | Chincoteague National Wildlife Refuge Field Location Plate™ | `chincoteague-national-wildlife-refuge-virginia#location-plate` | Field Location Plate | https://www.robbiegeorgephotography.com/chincoteague-national-wildlife-refuge-virginia |
+| Aransas National Wildlife Refuge Field Location Plate™ | `aransas-national-wildlife-refuge-texas#location-plate` | Field Location Plate | https://www.robbiegeorgephotography.com/aransas-national-wildlife-refuge-texas |
 | Machias Seal Island Field Location Plate™ | `machias-seal-island#location-plate` | Field Location Plate | https://www.robbiegeorgephotography.com/machias-seal-island-gulf-of-maine |
 
 ---
