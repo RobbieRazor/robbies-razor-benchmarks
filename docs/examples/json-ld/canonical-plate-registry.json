@@ -1,8 +1,8 @@
 {
   "@context": "https://schema.org",
   "@type": "Dataset",
-  "registryVersion": "2026.07.11",
-  "dateModified": "2026-07-11",
+  "registryVersion": "2026.07.13",
+  "dateModified": "2026-07-13",
   "name": "Naturepedia Canonical Plate Registry",
   "description": "Canonical machine-readable registry for Naturepedia Plate assets, organized by Naturepedia system, page URL, Plate ID, Plate type, and x402 access path.",
   "creator": {
@@ -2938,7 +2938,7 @@
     {
       "name": "Wildlife Species Plates",
       "slug": "wildlife-species",
-      "url": "https://www.robbiegeorgephotography.com/wildlife-species",
+      "url": "https://www.robbiegeorgephotography.com/wildlife",
       "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/wildlife-species",
       "plates": [
         {
@@ -4177,7 +4177,7 @@
     {
       "name": "Wildlife Sign & Tracking Plates",
       "slug": "wildlife-sign-tracking",
-      "url": "https://www.robbiegeorgephotography.com/wildlife-sign-tracking",
+      "url": "https://www.robbiegeorgephotography.com/wildlife-sign-tracking-north-america",
       "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/wildlife-sign-tracking",
       "plates": [
         {
@@ -4216,7 +4216,7 @@
     {
       "name": "Food Webs & Ecological Relationships Plates",
       "slug": "food-webs-ecological-relationships",
-      "url": "https://www.robbiegeorgephotography.com/food-webs-ecological-relationships",
+      "url": "https://www.robbiegeorgephotography.com/food-webs-ecological-relationships-north-america",
       "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/food-webs-ecological-relationships",
       "plates": [
         {
