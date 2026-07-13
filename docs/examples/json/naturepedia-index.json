@@ -2,7 +2,7 @@
   "@context": "https://schema.org",
   "@type": "Dataset",
   "version": "1.0",
-  "dateModified": "2026-07-11",
+  "dateModified": "2026-07-13",
   "name": "Naturepedia™ Index",
   "description": "Top-level machine-readable discovery index for Naturepedia™, organizing major knowledge systems, semantic families, AI discovery pathways, and recursive retrieval architecture.",
   "creator": {
@@ -110,9 +110,35 @@
       "description": "Hydrology, wetlands, rivers, estuaries, groundwater, and watersheds."
     },
     {
-      "name": "Volcanic & Geothermal Systems",
-      "description": "Volcanic landscapes, geothermal ecosystems, Yellowstone thermal features, and hydrothermal environments."
+  "name": "Volcanic & Geothermal Systems",
+  "description": "Volcanic landscapes, geothermal ecosystems, Yellowstone thermal features, and hydrothermal environments.",
+  "systems": [
+    {
+      "name": "Volcanic Landscapes™",
+      "url": "https://www.robbiegeorgephotography.com/volcanic-landscapes",
+      "slug": "volcanic-landscapes",
+      "registry": "https://www.robbiegeorgephotography.com/v1/registries/volcanic-systems"
     },
+    {
+      "name": "Geothermal Ecosystems™",
+      "url": "https://www.robbiegeorgephotography.com/geothermal-ecosystems",
+      "slug": "geothermal-ecosystems",
+      "registry": "https://www.robbiegeorgephotography.com/v1/registries/geothermal-systems"
+    },
+    {
+      "name": "Yellowstone Thermal Features™",
+      "url": "https://www.robbiegeorgephotography.com/yellowstone-thermal-features",
+      "slug": "yellowstone-thermal-features",
+      "registry": "https://www.robbiegeorgephotography.com/v1/registries/yellowstone-thermal"
+    },
+    {
+      "name": "Hydrothermal Ecosystems™",
+      "url": "https://www.robbiegeorgephotography.com/hydrothermal-ecosystems",
+      "slug": "hydrothermal-ecosystems",
+      "registry": "https://www.robbiegeorgephotography.com/v1/registries/hydrothermal-ecosystems"
+    }
+  ]
+},
     {
       "name": "Framework & Governance",
       "description": "Robbie's Razor™, Grand Compression, Plate™ Architecture, Graph Registries™, ACR™, and Commercial Data Licensing."
