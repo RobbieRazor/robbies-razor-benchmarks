@@ -1,0 +1,103 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "@id": "https://www.robbiegeorgephotography.com/v1/knowledge-mesh/water-systems",
+  "name": "Naturepedia Water Systems Knowledge Mesh",
+  "description": "Machine-readable semantic knowledge mesh connecting Weather™, Water Systems™, watersheds, groundwater, wetlands, rivers, floodplains, estuaries, coastal systems, ecological processes, and canonical Naturepedia resources.",
+  "version": "2026.07.14-v2",
+  "dateModified": "2026-07-14",
+  "inLanguage": "en-US",
+  "url": "https://www.robbiegeorgephotography.com/v1/knowledge-mesh/water-systems",
+  "mainEntityOfPage": "https://www.robbiegeorgephotography.com/water-systems",
+  "publisher": {
+    "@type": "Person",
+    "name": "Robbie George",
+    "url": "https://www.robbiegeorgephotography.com/about-robbie"
+  },
+  "isPartOf": {
+    "@type": "Dataset",
+    "name": "Naturepedia™"
+  },
+  "isBasedOn": [
+    {
+      "@id": "https://www.robbiegeorgephotography.com/v1/registries/weather",
+      "name": "Naturepedia Weather Registry"
+    },
+    {
+      "@id": "https://www.robbiegeorgephotography.com/v1/plates/weather-map",
+      "name": "Naturepedia Weather System Map"
+    },
+    {
+      "@id": "https://www.robbiegeorgephotography.com/v1/registries/water-systems",
+      "name": "Naturepedia Water Systems Registry"
+    },
+    {
+      "@id": "https://www.robbiegeorgephotography.com/v1/plates/water-system-map",
+      "name": "Naturepedia Water System Map"
+    }
+  ],
+  "hasPart": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Weather → Water Relationship",
+      "description": "Atmospheric processes regulate precipitation, runoff, infiltration, recharge, and watershed dynamics."
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Hydrological Flow Network",
+      "description": "Precipitation, groundwater, rivers, wetlands, floodplains, estuaries, and coastal systems function as interconnected hydrological pathways."
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Watershed Connectivity",
+      "description": "Headwaters, tributaries, groundwater recharge, wetlands, and downstream estuaries operate as connected watershed systems."
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Ecological Connectivity",
+      "description": "Hydrological processes regulate habitat quality, biodiversity, nutrient cycling, and seasonal wildlife behavior."
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Earth Systems Integration",
+      "description": "Water Systems are interconnected with Weather™, Earth Systems™, ecosystems, geology, and climate processes throughout Naturepedia."
+    }
+  ],
+  "mentions": [
+    "Precipitation",
+    "Runoff",
+    "Infiltration",
+    "Groundwater Recharge",
+    "River Systems",
+    "Wetland Ecosystems",
+    "Floodplains",
+    "Groundwater Systems",
+    "Estuaries",
+    "Coastal Systems",
+    "Watersheds",
+    "Snowpack",
+    "Seasonal Melt",
+    "Drought",
+    "Storm Systems",
+    "Weather Patterns",
+    "Chesapeake Bay",
+    "Yellowstone Watershed"
+  ],
+  "keywords": [
+    "Naturepedia",
+    "Knowledge Mesh",
+    "Semantic Graph",
+    "Water Systems",
+    "Hydrology",
+    "Watersheds",
+    "Weather",
+    "Earth Systems",
+    "Wetlands",
+    "Groundwater",
+    "Floodplains",
+    "Estuaries",
+    "Coastal Systems",
+    "Scientific Knowledge",
+    "Machine Readable"
+  ]
+}
