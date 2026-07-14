@@ -561,11 +561,15 @@ Completed
 
 Current canonical KEEP count:
 
-728 Plates™
+737 Plates™
 
-Most recent canonical family expansion:
+Most recent canonical expansion:
 
-Hydrothermal Ecosystems™ — 10 canonical Plates restored on July 13, 2026
+Field Location Wildlife Systems™ — 9 canonical Plates added on July 14, 2026
+
+Current canonical system count:
+
+109 systems
 
 Primary machine-readable registry:
 
@@ -738,10 +742,12 @@ https://www.robbiegeorgephotography.com/x402/canonical-plate-registry.json
 
 Current canonical registry state:
 
-* Canonical KEEP count: 728 Plates™
-* Latest system family: Hydrothermal Ecosystems™
-* Latest family size: 10 canonical Plates™
-* Latest modification date: July 14, 2026
+Canonical KEEP count: 737 Plates™
+Latest expansion: Field Location Wildlife Systems™
+Latest expansion size: 9 canonical Plates™
+Latest system count: 109
+Latest registry references: 741
+Latest modification date: July 14, 2026
 
 The canonical registry is generated from the GitHub registry source and powers:
 
