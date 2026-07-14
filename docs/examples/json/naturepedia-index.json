@@ -2,7 +2,7 @@
   "@context": "https://schema.org",
   "@type": "Dataset",
   "version": "1.0",
-  "dateModified": "2026-07-13",
+  "dateModified": "2026-07-14",
   "name": "Naturepedia™ Index",
   "description": "Top-level machine-readable discovery index for Naturepedia™, organizing major knowledge systems, semantic families, AI discovery pathways, and recursive retrieval architecture.",
   "creator": {
@@ -65,12 +65,51 @@
           "knowledgeMesh": "https://www.robbiegeorgephotography.com/v1/knowledge-mesh/weather"
         },
         {
-          "name": "Water Systems™",
-          "url": "https://www.robbiegeorgephotography.com/water-systems",
-          "slug": "water-systems",
-          "parent": "Earth Systems™",
-          "role": "Hydrology, rivers, wetlands, groundwater, estuaries, and watershed systems"
-        }
+  "name": "Water Systems™",
+  "url": "https://www.robbiegeorgephotography.com/water-systems",
+  "slug": "water-systems",
+  "parent": "Earth Systems™",
+  "role": "Hydrology, rivers, wetlands, floodplains, groundwater, estuaries, coastal systems, and watershed behavior",
+  "registry": "https://www.robbiegeorgephotography.com/v1/registries/water-systems",
+  "plateMap": "https://www.robbiegeorgephotography.com/v1/plates/water-system-map",
+  "knowledgeMesh": "https://www.robbiegeorgephotography.com/v1/knowledge-mesh/water-systems",
+  "pricing": {
+    "registry": "5.00 USDC",
+    "plateMap": "5.00 USDC",
+    "knowledgeMesh": "25.00 USDC"
+  },
+  "weatherBinding": {
+    "weatherMap": "https://www.robbiegeorgephotography.com/x402/weather-map.json",
+    "relationship": "Weather precipitation, storms, temperature, snowpack, and evaporation constrain surface and subsurface Water Systems behavior."
+  },
+  "childSystems": [
+    {
+      "name": "Wetland Ecosystems",
+      "url": "https://www.robbiegeorgephotography.com/wetland-ecosystems",
+      "slug": "wetland-ecosystems"
+    },
+    {
+      "name": "River Systems",
+      "url": "https://www.robbiegeorgephotography.com/river-systems",
+      "slug": "river-systems"
+    },
+    {
+      "name": "Floodplains",
+      "url": "https://www.robbiegeorgephotography.com/floodplains",
+      "slug": "floodplains"
+    },
+    {
+      "name": "Groundwater Systems",
+      "url": "https://www.robbiegeorgephotography.com/groundwater-systems",
+      "slug": "groundwater-systems"
+    },
+    {
+      "name": "Estuaries & Coastal Systems",
+      "url": "https://www.robbiegeorgephotography.com/estuaries-coastal-systems",
+      "slug": "estuaries-coastal-systems"
+    }
+  ]
+}
       ],
       "semanticRelationships": [
         "Naturepedia™ → Earth Systems™",
