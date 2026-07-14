@@ -1349,6 +1349,20 @@ https://www.robbiegeorgephotography.com/bosque-del-apache-wildlife-guide
 | Sunrise Blast-Off Photography Plate™ | `bosque-del-apache-wildlife-guide#sunrise-blast-off-photography-plate` | Naturepedia Wildlife Event Photography Plate™ |
 | Migration Photography Plate™         | `bosque-del-apache-wildlife-guide#migration-photography-plate`         | Naturepedia Migration Photography Plate™      |
 
+## Field Location Wildlife System Plates™
+
+| Plate™ | Semantic ID | Type | Live URL |
+|---|---|---|---|
+| Acadia Coastal Wildlife System Plate™ | acadia-national-park-wildlife-photography-guide#acadia-coastal-wildlife-system-plate | Naturepedia Wildlife System Plate™ | https://www.robbiegeorgephotography.com/acadia-national-park-wildlife-photography-guide |
+| Grand Teton Wildlife System Plate™ | grand-teton-wildlife-photography-guide#grand-teton-wildlife-system-plate | Naturepedia Wildlife System Plate™ | https://www.robbiegeorgephotography.com/grand-teton-wildlife-photography-guide |
+| Yellowstone National Park Wildlife System Plate™ | yellowstone-wildlife-photography-guide#yellowstone-national-park-wildlife-system-plate | Naturepedia Wildlife System Plate™ | https://www.robbiegeorgephotography.com/yellowstone-wildlife-photography-guide |
+| Bosque del Apache National Wildlife Refuge Wildlife System Plate™ | bosque-del-apache-wildlife-photography-guide#bosque-del-apache-wildlife-system-plate | Naturepedia Wildlife System Plate™ | https://www.robbiegeorgephotography.com/bosque-del-apache-wildlife-photography-guide |
+| Aransas National Wildlife Refuge Wildlife System Plate™ | aransas-wildlife-photography-guide#aransas-wildlife-system-plate | Naturepedia Wildlife System Plate™ | https://www.robbiegeorgephotography.com/aransas-wildlife-photography-guide |
+| Machias Seal Island Seabird Wildlife System Plate™ | machias-seal-island-seabird-wildlife-system#machias-seal-island-seabird-wildlife-system-plate | Naturepedia Wildlife System Plate™ | https://www.robbiegeorgephotography.com/machias-seal-island-seabird-wildlife-system |
+| Blackwater National Wildlife Refuge Wildlife System Plate™ | blackwater-wildlife-photography-guide#blackwater-wildlife-system-plate | Naturepedia Wildlife System Plate™ | https://www.robbiegeorgephotography.com/blackwater-wildlife-photography-guide |
+| Chincoteague Barrier Island Wildlife System Plate™ | chincoteague-wildlife-system#chincoteague-barrier-island-wildlife-system-plate | Naturepedia Wildlife System Plate™ | https://www.robbiegeorgephotography.com/chincoteague-wildlife-system |
+| Lake Mattamuskeet Wildlife System Plate™ | lake-mattamuskeet-wildlife-system#lake-mattamuskeet-wildlife-system-plate | Naturepedia Wildlife System Plate™ | https://www.robbiegeorgephotography.com/lake-mattamuskeet-wildlife-system |
+
 ## Pollinator System Plates™
 
 | Plate™ | Semantic ID | Type | Live URL |
