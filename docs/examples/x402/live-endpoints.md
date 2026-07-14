@@ -327,7 +327,9 @@ The four static core v2 endpoints are served directly by the Worker. Additional 
 /v1/plates/plate-registry-expanded -> /x402/plate-registry-expanded.json
 /v1/plates/pollinator-system-map -> /x402/pollinator-system-map.json
 /v1/plates/wildlife-system-map -> /x402/wildlife-system-map.json
+/v1/registries/water-systems -> /x402/water-systems-registry.json
 /v1/plates/water-system-map -> /x402/water-system-map.json
+/v1/knowledge-mesh/water-systems -> /x402/knowledge-mesh/water-systems
 /v1/plates/plant-community-system-map -> /x402/plant-community-system-map.json
 /v1/plates/location-system-map -> /x402/location-system-map.json
 /v1/plates/conservation-system-map -> /x402/conservation-system-map.json
@@ -416,13 +418,111 @@ https://www.robbiegeorgephotography.com/x402/wildlife-system-map.json
 Purpose:
 Relationship map connecting wildlife species, tracks, behavior, habitats, ecosystems, field locations, seasonal timing, and conservation systems.
 
-## Water System Map
+## Water Systems™ Retrieval Family
+
+Status:
+
+Live
+
+Network:
+
+Base — `eip155:8453`
+
+Asset:
+
+USDC
+
+Governance:
+
+`Gr <= Es`
+
+### Water Systems Registry
 
 Endpoint:
-https://www.robbiegeorgephotography.com/x402/water-system-map.json
+
+https://www.robbiegeorgephotography.com/x402/water-systems-registry.json
+
+v1 alias:
+
+https://www.robbiegeorgephotography.com/v1/registries/water-systems
 
 Purpose:
-Relationship map connecting water systems, river systems, wetlands, floodplains, groundwater, estuaries, Chesapeake Bay systems, and Yellowstone watersheds.
+
+Entity-resolved Water Systems™ registry connecting wetlands, river systems, floodplains, groundwater systems, estuaries, coastal systems, watersheds, surface water, subsurface water, hydrological storage, and ecological flow.
+
+Amount:
+
+`5000000`
+
+Reference price:
+
+`5.00 USDC`
+
+### Water System Map
+
+Endpoint:
+
+https://www.robbiegeorgephotography.com/x402/water-system-map.json
+
+v1 alias:
+
+https://www.robbiegeorgephotography.com/v1/plates/water-system-map
+
+Purpose:
+
+Hydrological interaction map connecting precipitation, runoff, infiltration, groundwater recharge, river discharge, wetlands, floodplain inundation, estuarine exchange, coastal systems, watershed behavior, and wildlife habitat.
+
+Amount:
+
+`5000000`
+
+Reference price:
+
+`5.00 USDC`
+
+### Water Systems Knowledge Mesh
+
+Endpoint:
+
+https://www.robbiegeorgephotography.com/x402/knowledge-mesh/water-systems
+
+v1 alias:
+
+https://www.robbiegeorgephotography.com/v1/knowledge-mesh/water-systems
+
+Purpose:
+
+Premium Water Systems™ Knowledge Mesh binding Weather™ precipitation, storm, temperature, snowpack, and evaporation constraints to rivers, wetlands, floodplains, groundwater systems, estuaries, coastal systems, seasonal ecology, and surface-subsurface water behavior.
+
+Amount:
+
+`25000000`
+
+Reference price:
+
+`25.00 USDC`
+
+Hydrological retrieval pathway:
+
+    Weather Registry
+    ↓
+    Weather System Map
+    ↓
+    Water Systems Registry
+    ↓
+    Water System Map
+    ↓
+    Water Systems Knowledge Mesh
+    ↓
+    Conditional x402 Retrieval
+
+Verified browser behavior:
+
+`200 OK` human-bypass gateway
+
+Expected API behavior without settlement:
+
+`402 Payment Required`
 
 ## Plant Community System Map
 
