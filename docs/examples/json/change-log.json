@@ -17,7 +17,36 @@
   "canonical": "https://www.robbiegeorgephotography.com/change-log.json",
   "lastUpdated": "2026-07-14",
   "currentCanonicalPlateCount": 728,
-    "entries": [
+        "entries": [
+    {
+      "id": "2026-07-14-canonical-count-reconciliation",
+      "date": "2026-07-14",
+      "version": "1.1.3",
+      "category": "Registry Reconciliation",
+      "summary": "Restored three standalone Naturepedia Plate IDs and reconciled the canonical registry to 728 unique Plate IDs.",
+      "changes": [
+        "Restored the Mycelial Networks standalone Plate ID",
+        "Restored the Carbon Cycle standalone Plate ID",
+        "Restored the Soil Microbiome standalone Plate ID",
+        "Normalized the Mycelial Networks ID in the secondary registry",
+        "Added the three standalone Plates to the Plate examples index",
+        "Reconciled 732 registry references to 728 unique Plate IDs",
+        "Confirmed four repeated Pollinator Plate IDs are intentional cross-references",
+        "Updated canonical registry count and modification metadata"
+      ],
+      "affectedPages": [
+        "https://www.robbiegeorgephotography.com/naturepedia-mycelial-networks",
+        "https://www.robbiegeorgephotography.com/naturepedia-carbon-cycle",
+        "https://www.robbiegeorgephotography.com/naturepedia-soil-microbiome"
+      ],
+      "affectedEndpoints": [
+        "https://www.robbiegeorgephotography.com/change-log.json",
+        "https://www.robbiegeorgephotography.com/x402/canonical-plate-registry.json",
+        "https://www.robbiegeorgephotography.com/x402/plate-registry.json",
+        "https://www.robbiegeorgephotography.com/v1/plates/canonical"
+      ],
+      "canonicalPlateCount": 728
+    },
     {
   "id": "2026-07-13-hydrothermal-registry-integrity",
   "date": "2026-07-13",
