@@ -561,11 +561,11 @@ Completed
 
 Current canonical KEEP count:
 
-718 Plates™
+728 Plates™
 
-Most recent canonical expansion:
+Most recent canonical family expansion:
 
-Weather™ — 10 canonical Plates added on July 11, 2026
+Hydrothermal Ecosystems™ — 10 canonical Plates restored on July 13, 2026
 
 Primary machine-readable registry:
 
@@ -728,7 +728,7 @@ This repository uses distributed semantic reinforcement rather than a single sou
 
 Meaning emerges through recursive relationship consistency across systems.
 
-### Canonical Registry Authority (June 2026)
+### Canonical Registry Authority (July 2026)
 
 Naturepedia™ now maintains a single canonical machine-readable registry that functions as the authoritative source for all live Plate™ systems.
 
@@ -738,10 +738,10 @@ https://www.robbiegeorgephotography.com/x402/canonical-plate-registry.json
 
 Current canonical registry state:
 
-* Canonical KEEP count: 718 Plates™
-* Latest system family: Weather™
+* Canonical KEEP count: 728 Plates™
+* Latest system family: Hydrothermal Ecosystems™
 * Latest family size: 10 canonical Plates™
-* Latest modification date: July 11, 2026
+* Latest modification date: July 14, 2026
 
 The canonical registry is generated from the GitHub registry source and powers:
 
