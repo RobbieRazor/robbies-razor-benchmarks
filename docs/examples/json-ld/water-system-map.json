@@ -1,0 +1,151 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "@id": "https://www.robbiegeorgephotography.com/v1/plates/water-system-map",
+  "name": "Naturepedia Water System Map",
+  "description": "Machine-readable hydrological system map connecting precipitation, runoff, infiltration, groundwater recharge, rivers, wetlands, floodplains, estuaries, coastal systems, watersheds, and weather constraints.",
+  "version": "2026.07.14-v2",
+  "dateModified": "2026-07-14",
+  "inLanguage": "en-US",
+  "url": "https://www.robbiegeorgephotography.com/v1/plates/water-system-map",
+  "mainEntityOfPage": "https://www.robbiegeorgephotography.com/water-systems",
+  "publisher": {
+    "@type": "Person",
+    "name": "Robbie George",
+    "url": "https://www.robbiegeorgephotography.com/about-robbie"
+  },
+  "isPartOf": {
+    "@type": "Dataset",
+    "@id": "https://www.robbiegeorgephotography.com/v1/registries/water-systems",
+    "name": "Naturepedia Water Systems Registry"
+  },
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "Precipitation",
+      "description": "Atmospheric water delivered to the surface as rain, snow, sleet, or other forms."
+    },
+    {
+      "@type": "Thing",
+      "name": "Surface Runoff",
+      "description": "Water moving across land toward streams, rivers, wetlands, floodplains, lakes, and coastal systems."
+    },
+    {
+      "@type": "Thing",
+      "name": "Infiltration",
+      "description": "Movement of surface water into soil and subsurface layers."
+    },
+    {
+      "@type": "Thing",
+      "name": "Groundwater Recharge",
+      "description": "Downward movement of infiltrated water that replenishes groundwater systems and aquifers."
+    },
+    {
+      "@type": "Thing",
+      "name": "Springs and River Baseflow",
+      "description": "Groundwater discharge that sustains springs, streams, and river flow between precipitation events."
+    },
+    {
+      "@type": "Thing",
+      "name": "Wetland Storage",
+      "description": "Temporary or seasonal storage of water that influences filtration, flood moderation, habitat, and nutrient behavior."
+    },
+    {
+      "@type": "Thing",
+      "name": "Floodplain Inundation",
+      "description": "Expansion of river water across adjacent floodplains during elevated discharge."
+    },
+    {
+      "@type": "Thing",
+      "name": "Groundwater–Estuary Interface",
+      "description": "Subsurface freshwater and nutrient exchange between groundwater systems and estuaries."
+    },
+    {
+      "@type": "Thing",
+      "name": "River–Estuary–Coastal Interface",
+      "description": "Interaction among river discharge, tides, salinity, sediment transport, and coastal processes."
+    },
+    {
+      "@type": "Thing",
+      "name": "Weather Constraints",
+      "description": "Precipitation, snowpack, drought, storms, temperature, and seasonal atmospheric conditions that regulate hydrological behavior."
+    },
+    {
+      "@type": "Place",
+      "name": "Chesapeake Bay",
+      "description": "A major estuarine system demonstrating watershed, river, wetland, tidal, sediment, and coastal relationships."
+    },
+    {
+      "@type": "Place",
+      "name": "Yellowstone Watershed",
+      "description": "A watershed example connecting snowpack, seasonal melt, groundwater, rivers, wetlands, wildlife habitat, and downstream flow."
+    }
+  ],
+  "hasPart": [
+    {
+      "@type": "CreativeWork",
+      "name": "Precipitation to River Pathway",
+      "description": "Precipitation → surface runoff → river discharge → floodplain inundation."
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Recharge to Baseflow Pathway",
+      "description": "Precipitation → infiltration → groundwater recharge → springs and river baseflow."
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Wetland Storage Pathway",
+      "description": "River discharge → wetland storage → filtration, flood moderation, and habitat response."
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Groundwater to Estuary Pathway",
+      "description": "Groundwater discharge → estuarine freshwater and nutrient input."
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "River to Coastal Pathway",
+      "description": "River discharge plus tides → estuarine salinity, sediment behavior, and coastal response."
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Snowmelt Habitat Pathway",
+      "description": "Snowpack → seasonal melt → watershed flow → wetland, river, and wildlife habitat response."
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Drought Pathway",
+      "description": "Drought → reduced infiltration and recharge → lower baseflow and wetland contraction."
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Extreme Storm Pathway",
+      "description": "Extreme storms → rapid runoff, flooding, erosion, sediment transport, and coastal response."
+    }
+  ],
+  "subjectOf": [
+    {
+      "@type": "Dataset",
+      "@id": "https://www.robbiegeorgephotography.com/v1/knowledge-mesh/water-systems",
+      "name": "Naturepedia Water Systems Knowledge Mesh"
+    }
+  ],
+  "keywords": [
+    "Naturepedia",
+    "Water Systems",
+    "Hydrology",
+    "Water Cycle",
+    "Precipitation",
+    "Runoff",
+    "Infiltration",
+    "Groundwater Recharge",
+    "River Systems",
+    "Wetlands",
+    "Floodplains",
+    "Estuaries",
+    "Coastal Systems",
+    "Watersheds",
+    "Chesapeake Bay",
+    "Yellowstone"
+  ]
+}
