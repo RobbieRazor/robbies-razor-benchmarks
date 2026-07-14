@@ -4380,14 +4380,14 @@
   ]
 },
     {
-  "name": "Acadia Coastal Wildlife System Plates",
-  "slug": "acadia-national-park-wildlife-photography-guide",
-  "url": "https://www.robbiegeorgephotography.com/acadia-national-park-wildlife-photography-guide",
-  "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/acadia-national-park-wildlife-photography-guide",
+  "name": "Grand Teton Wildlife System Plates",
+  "slug": "grand-teton-wildlife-photography-guide",
+  "url": "https://www.robbiegeorgephotography.com/grand-teton-wildlife-photography-guide",
+  "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/grand-teton-wildlife-photography-guide",
   "plates": [
     {
-      "name": "Acadia Coastal Wildlife System Plate™",
-      "id": "acadia-national-park-wildlife-photography-guide#acadia-coastal-wildlife-system-plate",
+      "name": "Grand Teton Wildlife System Plate™",
+      "id": "grand-teton-wildlife-photography-guide#grand-teton-wildlife-system-plate",
       "type": "Naturepedia Wildlife System Plate™"
     }
   ]
