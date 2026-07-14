@@ -669,6 +669,36 @@ Weather™ v1 compatibility routes:
 - https://www.robbiegeorgephotography.com/v1/plates/weather-map
 - https://www.robbiegeorgephotography.com/v1/knowledge-mesh/weather
 
+Water Systems™ x402 retrieval endpoints:
+
+* https://www.robbiegeorgephotography.com/x402/water-systems-registry.json
+* https://www.robbiegeorgephotography.com/x402/water-system-map.json
+* https://www.robbiegeorgephotography.com/x402/knowledge-mesh/water-systems
+
+Water Systems™ v1 compatibility routes:
+
+* https://www.robbiegeorgephotography.com/v1/registries/water-systems
+* https://www.robbiegeorgephotography.com/v1/plates/water-system-map
+* https://www.robbiegeorgephotography.com/v1/knowledge-mesh/water-systems
+
+Hydrological binding:
+
+    Weather precipitation and storm constraints
+    ↓
+    Surface runoff and infiltration
+    ↓
+    Rivers, wetlands, floodplains, and groundwater
+    ↓
+    Estuaries and coastal systems
+    ↓
+    Seasonal ecology and wildlife habitat
+
+Pricing:
+
+* Water Systems Registry — 5.00 USDC
+* Water System Map — 5.00 USDC
+* Water Systems Knowledge Mesh — 25.00 USDC
+
 Current v2 production endpoints:
 
 - https://www.robbiegeorgephotography.com/api/v2/naturepedia/index.md
