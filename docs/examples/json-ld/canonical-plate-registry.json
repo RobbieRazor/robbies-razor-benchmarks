@@ -18,7 +18,7 @@
   "license": "https://www.robbiegeorgephotography.com/commercial-data-license",
   "governance": "Gr <= Es",
   "access": "x402",
-  "canonicalKeepCount": 728,
+  "canonicalKeepCount": 737,
   "duplicateRemovedCount": 33,
   "systems": [
     {
@@ -4366,6 +4366,123 @@
         }
       ]
     },
+    {
+  "name": "Acadia Coastal Wildlife System Plates",
+  "slug": "acadia-national-park-wildlife-photography-guide",
+  "url": "https://www.robbiegeorgephotography.com/acadia-national-park-wildlife-photography-guide",
+  "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/acadia-national-park-wildlife-photography-guide",
+  "plates": [
+    {
+      "name": "Acadia Coastal Wildlife System Plate™",
+      "id": "acadia-national-park-wildlife-photography-guide#acadia-coastal-wildlife-system-plate",
+      "type": "Naturepedia Wildlife System Plate™"
+    }
+  ]
+},
+    {
+  "name": "Acadia Coastal Wildlife System Plates",
+  "slug": "acadia-national-park-wildlife-photography-guide",
+  "url": "https://www.robbiegeorgephotography.com/acadia-national-park-wildlife-photography-guide",
+  "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/acadia-national-park-wildlife-photography-guide",
+  "plates": [
+    {
+      "name": "Acadia Coastal Wildlife System Plate™",
+      "id": "acadia-national-park-wildlife-photography-guide#acadia-coastal-wildlife-system-plate",
+      "type": "Naturepedia Wildlife System Plate™"
+    }
+  ]
+},
+    {
+  "name": "Yellowstone National Park Wildlife System Plates",
+  "slug": "yellowstone-wildlife-photography-guide",
+  "url": "https://www.robbiegeorgephotography.com/yellowstone-wildlife-photography-guide",
+  "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/yellowstone-wildlife-photography-guide",
+  "plates": [
+    {
+      "name": "Yellowstone National Park Wildlife System Plate™",
+      "id": "yellowstone-wildlife-photography-guide#yellowstone-national-park-wildlife-system-plate",
+      "type": "Naturepedia Wildlife System Plate™"
+    }
+  ]
+},
+    {
+  "name": "Bosque del Apache Wildlife System Plates",
+  "slug": "bosque-del-apache-wildlife-photography-guide",
+  "url": "https://www.robbiegeorgephotography.com/bosque-del-apache-wildlife-photography-guide",
+  "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/bosque-del-apache-wildlife-photography-guide",
+  "plates": [
+    {
+      "name": "Bosque del Apache National Wildlife Refuge Wildlife System Plate™",
+      "id": "bosque-del-apache-wildlife-photography-guide#bosque-del-apache-wildlife-system-plate",
+      "type": "Naturepedia Wildlife System Plate™"
+    }
+  ]
+},
+    {
+  "name": "Aransas Wildlife System Plates",
+  "slug": "aransas-wildlife-photography-guide",
+  "url": "https://www.robbiegeorgephotography.com/aransas-wildlife-photography-guide",
+  "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/aransas-wildlife-photography-guide",
+  "plates": [
+    {
+      "name": "Aransas National Wildlife Refuge Wildlife System Plate™",
+      "id": "aransas-wildlife-photography-guide#aransas-wildlife-system-plate",
+      "type": "Naturepedia Wildlife System Plate™"
+    }
+  ]
+},
+    {
+  "name": "Machias Seal Island Seabird Wildlife System Plates",
+  "slug": "machias-seal-island-seabird-wildlife-system",
+  "url": "https://www.robbiegeorgephotography.com/machias-seal-island-seabird-wildlife-system",
+  "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/machias-seal-island-seabird-wildlife-system",
+  "plates": [
+    {
+      "name": "Machias Seal Island Seabird Wildlife System Plate™",
+      "id": "machias-seal-island-seabird-wildlife-system#machias-seal-island-seabird-wildlife-system-plate",
+      "type": "Naturepedia Wildlife System Plate™"
+    }
+  ]
+},
+    {
+  "name": "Blackwater Wildlife System Plates",
+  "slug": "blackwater-wildlife-photography-guide",
+  "url": "https://www.robbiegeorgephotography.com/blackwater-wildlife-photography-guide",
+  "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/blackwater-wildlife-photography-guide",
+  "plates": [
+    {
+      "name": "Blackwater National Wildlife Refuge Wildlife System Plate™",
+      "id": "blackwater-wildlife-photography-guide#blackwater-wildlife-system-plate",
+      "type": "Naturepedia Wildlife System Plate™"
+    }
+  ]
+},
+    {
+  "name": "Chincoteague Barrier Island Wildlife System Plates",
+  "slug": "chincoteague-wildlife-system",
+  "url": "https://www.robbiegeorgephotography.com/chincoteague-wildlife-system",
+  "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/chincoteague-wildlife-system",
+  "plates": [
+    {
+      "name": "Chincoteague Barrier Island Wildlife System Plate™",
+      "id": "chincoteague-wildlife-system#chincoteague-barrier-island-wildlife-system-plate",
+      "type": "Naturepedia Wildlife System Plate™"
+    }
+  ]
+},
+    {
+  "name": "Lake Mattamuskeet Wildlife System Plates",
+  "slug": "lake-mattamuskeet-wildlife-system",
+  "url": "https://www.robbiegeorgephotography.com/lake-mattamuskeet-wildlife-system",
+  "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/lake-mattamuskeet-wildlife-system",
+  "plates": [
+    {
+      "name": "Lake Mattamuskeet Wildlife System Plate™",
+      "id": "lake-mattamuskeet-wildlife-system#lake-mattamuskeet-wildlife-system-plate",
+      "type": "Naturepedia Wildlife System Plate™"
+    }
+  ]
+},
     {
       "name": "Chesapeake Bay Wildlife System Plates",
       "slug": "chesapeake-bay-wildlife-system",
