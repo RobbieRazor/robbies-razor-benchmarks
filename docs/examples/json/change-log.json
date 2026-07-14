@@ -16,8 +16,43 @@
   },
   "canonical": "https://www.robbiegeorgephotography.com/change-log.json",
   "lastUpdated": "2026-07-14",
-  "currentCanonicalPlateCount": 728,
+  "currentCanonicalPlateCount": 737,
         "entries": [
+    {
+  "id": "2026-07-14-field-location-wildlife-systems",
+  "date": "2026-07-14",
+  "version": "1.1.4",
+  "category": "Field Location Wildlife Systems",
+  "summary": "Added nine live field-location Wildlife System pages across the canonical registry, secondary Plate registry, cold-bird fallback registry, and llms-full discovery layer.",
+  "changes": [
+    "Added nine unique Wildlife System Plate IDs",
+    "Expanded the canonical registry from 728 to 737 unique Plate IDs",
+    "Expanded the canonical system count from 100 to 109",
+    "Expanded registry references from 732 to 741",
+    "Added all nine records to the secondary Plate registry",
+    "Added all nine records to the cold-bird fallback registry",
+    "Added all nine records to llms-full.txt"
+  ],
+  "affectedPages": [
+    "https://www.robbiegeorgephotography.com/acadia-national-park-wildlife-photography-guide",
+    "https://www.robbiegeorgephotography.com/grand-teton-wildlife-photography-guide",
+    "https://www.robbiegeorgephotography.com/yellowstone-wildlife-photography-guide",
+    "https://www.robbiegeorgephotography.com/bosque-del-apache-wildlife-photography-guide",
+    "https://www.robbiegeorgephotography.com/aransas-wildlife-photography-guide",
+    "https://www.robbiegeorgephotography.com/machias-seal-island-seabird-wildlife-system",
+    "https://www.robbiegeorgephotography.com/blackwater-wildlife-photography-guide",
+    "https://www.robbiegeorgephotography.com/chincoteague-wildlife-system",
+    "https://www.robbiegeorgephotography.com/lake-mattamuskeet-wildlife-system"
+  ],
+  "affectedEndpoints": [
+    "https://www.robbiegeorgephotography.com/change-log.json",
+    "https://www.robbiegeorgephotography.com/llms-full.txt",
+    "https://www.robbiegeorgephotography.com/x402/canonical-plate-registry.json",
+    "https://www.robbiegeorgephotography.com/x402/plate-registry.json",
+    "https://www.robbiegeorgephotography.com/v1/plates/canonical"
+  ],
+  "canonicalPlateCount": 737
+},
     {
       "id": "2026-07-14-canonical-count-reconciliation",
       "date": "2026-07-14",
