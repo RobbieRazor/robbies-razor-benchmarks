@@ -513,6 +513,46 @@ quantum-agriculture-registry.json
 plant-intelligence-registry.json
 ```
 
+Water Systems™ Retrieval Family
+
+The Water Systems™ hydrological retrieval family follows the same three-layer semantic architecture used throughout Naturepedia™:
+
+Registry
+
+```txt
+water-systems-registry.json
+```
+
+System Map
+
+```txt
+water-system-map.json
+```
+
+Knowledge Mesh
+
+```txt
+water-systems-knowledge-mesh.json
+```
+
+Production x402 endpoints
+
+```txt
+/x402/water-systems-registry.json
+/x402/water-system-map.json
+/x402/knowledge-mesh/water-systems
+```
+
+Public v1 aliases
+
+```txt
+/v1/registries/water-systems
+/v1/plates/water-system-map
+/v1/knowledge-mesh/water-systems
+```
+
+The Water Systems™ retrieval family demonstrates how Registry, System Map, and Knowledge Mesh layers work together to expose inventory, hydrological relationships, and cross-system semantic connections between Weather™, Water Systems™, watersheds, wetlands, groundwater, rivers, floodplains, estuaries, coastal systems, and Earth Systems™.
+
 These files function as machine-readable inventories for major Naturepedia™ system families.
 
 Registry files typically contain:
