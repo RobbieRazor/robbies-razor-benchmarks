@@ -17,7 +17,7 @@
   "description": "Machine-readable semantic registry for Naturepedia Plate systems, recursive compression interfaces, JSON-LD semantic nodes, field observation systems, governance systems, pricing systems, species plates, track plates, photography guide plates, field location plates, water systems, ecosystem systems, and distributed ecological knowledge graph relationships.",
   "license": "https://www.robbiegeorgephotography.com/commercial-data-license",
   "url": "https://github.com/RobbieRazor/robbies-razor-benchmarks",
-  "dateModified": "2026-07-13",
+  "dateModified": "2026-07-14",
   "keywords": [
     "Naturepedia",
     "Earth Systems",
