@@ -1,0 +1,163 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "@id": "https://www.robbiegeorgephotography.com/v1/plates/ocean-system-map",
+  "name": "Naturepedia Ocean System Map",
+  "description": "Machine-readable ocean interaction map connecting solar energy, winds, waves, tides, temperature, salinity, circulation, depth zones, seafloor geology, upwelling, atmosphere exchange, coastal habitats, nutrients, marine food webs, carbon movement, observation, and stewardship.",
+  "version": "2026.07.15-v2",
+  "dateModified": "2026-07-15",
+  "inLanguage": "en-US",
+  "url": "https://www.robbiegeorgephotography.com/v1/plates/ocean-system-map",
+  "mainEntityOfPage": "https://www.robbiegeorgephotography.com/ocean-systems",
+  "publisher": {
+    "@type": "Person",
+    "name": "Robbie George",
+    "url": "https://www.robbiegeorgephotography.com/about-robbie"
+  },
+  "isPartOf": {
+    "@type": "Dataset",
+    "@id": "https://www.robbiegeorgephotography.com/v1/registries/ocean-systems",
+    "name": "Naturepedia Ocean Systems Registry"
+  },
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "Ocean Surface Exchange",
+      "description": "Exchange of solar energy, heat, moisture, gases, and momentum between the atmosphere and ocean surface."
+    },
+    {
+      "@type": "Thing",
+      "name": "Ocean Zones",
+      "description": "Vertical and horizontal ocean regions organized by depth, light, temperature, pressure, distance from shore, and seafloor position."
+    },
+    {
+      "@type": "Thing",
+      "name": "Seafloor Systems",
+      "description": "Continental shelves, slopes, abyssal plains, ridges, trenches, sediments, and hydrothermal environments beneath the ocean."
+    },
+    {
+      "@type": "Thing",
+      "name": "Ocean Circulation",
+      "description": "Connected surface, intermediate, and deep-water movement driven by winds, density differences, planetary rotation, and basin geometry."
+    },
+    {
+      "@type": "Thing",
+      "name": "Currents and Gyres",
+      "description": "Organized ocean flow shaped by winds, the Coriolis effect, coastlines, basin boundaries, fronts, and eddies."
+    },
+    {
+      "@type": "Thing",
+      "name": "Upwelling and Downwelling",
+      "description": "Vertical water movement that transports nutrients, oxygen, heat, carbon, and dissolved properties between surface and deeper layers."
+    },
+    {
+      "@type": "Thing",
+      "name": "Coastal and Estuarine Systems",
+      "description": "Transition systems where rivers, watersheds, tides, sediment, nutrients, salinity gradients, wetlands, and marine waters interact."
+    },
+    {
+      "@type": "Thing",
+      "name": "Marine Food Webs",
+      "description": "Biological pathways connecting phytoplankton, microbes, zooplankton, invertebrates, fish, seabirds, marine mammals, predators, and decomposers."
+    },
+    {
+      "@type": "Thing",
+      "name": "Ocean Nutrient Cycling",
+      "description": "Movement and recycling of nitrogen, phosphorus, silica, iron, carbon, and other materials through physical and biological ocean processes."
+    },
+    {
+      "@type": "Thing",
+      "name": "Ocean Carbon Pathways",
+      "description": "Carbon exchange, biological uptake, respiration, decomposition, particle sinking, deep-water transfer, and sediment burial."
+    },
+    {
+      "@type": "Thing",
+      "name": "Ocean Patterns Across Scale",
+      "description": "Connected patterns expressed as ripples, waves, tides, fronts, eddies, gyres, coastlines, basin circulation, and planetary flows."
+    },
+    {
+      "@type": "Thing",
+      "name": "Ocean Observation and Stewardship",
+      "description": "Satellite, buoy, profiling-float, underwater-vehicle, wildlife, field, modeling, validation, communication, and stewardship systems."
+    }
+  ],
+  "hasPart": [
+    {
+      "@type": "CreativeWork",
+      "name": "Atmosphere–Ocean Exchange Pathway",
+      "description": "Solar heating, winds, evaporation, precipitation, and gas exchange → ocean-surface response."
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Wind-to-Circulation Pathway",
+      "description": "Winds → waves and surface currents → gyres, boundary currents, fronts, and eddies."
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Density Circulation Pathway",
+      "description": "Temperature plus salinity → density differences → sinking, deep-water formation, and ocean-interior circulation."
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Upwelling Productivity Pathway",
+      "description": "Surface-water transport → upwelling → nutrient delivery → phytoplankton productivity and marine food-web response."
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Watershed-to-Ocean Pathway",
+      "description": "Watersheds and rivers → estuaries → sediment, nutrient, freshwater, and organic-material exchange with coastal waters."
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Marine Food-Web Pathway",
+      "description": "Sunlight plus nutrients → phytoplankton → zooplankton → fish, seabirds, marine mammals, and higher predators."
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Biological Carbon Pathway",
+      "description": "Photosynthesis and food-web processing → organic particles → marine snow → deep-water and sediment carbon transfer."
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Hydrothermal Ecosystem Pathway",
+      "description": "Seafloor fractures plus geothermal heat and circulating seawater → mineral-rich discharge → chemosynthetic ecosystems."
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Ocean Pattern Pathway",
+      "description": "Energy, motion, rotation, density, and boundaries → waves, tides, fronts, eddies, gyres, and global circulation patterns."
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Observation-to-Stewardship Pathway",
+      "description": "Distributed observations → field validation → connected models → human interpretation, communication, and stewardship."
+    }
+  ],
+  "subjectOf": [
+    {
+      "@type": "Dataset",
+      "@id": "https://www.robbiegeorgephotography.com/v1/knowledge-mesh/ocean-systems",
+      "name": "Naturepedia Ocean Systems Knowledge Mesh"
+    }
+  ],
+  "keywords": [
+    "Naturepedia",
+    "Ocean Systems",
+    "Oceanography",
+    "Ocean Zones",
+    "Seafloor",
+    "Ocean Circulation",
+    "Ocean Currents",
+    "Gyres",
+    "Upwelling",
+    "Ocean–Atmosphere Exchange",
+    "Coastal Systems",
+    "Estuaries",
+    "Marine Food Webs",
+    "Marine Nutrients",
+    "Ocean Carbon",
+    "Hydrothermal Ecosystems",
+    "Ocean Observation",
+    "Ocean Stewardship"
+  ]
+}
