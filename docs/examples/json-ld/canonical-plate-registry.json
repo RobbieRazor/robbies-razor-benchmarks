@@ -1,8 +1,8 @@
 {
   "@context": "https://schema.org",
   "@type": "Dataset",
-  "registryVersion": "2026.07.14",
-  "dateModified": "2026-07-14",
+  "registryVersion": "2026.07.15",
+"dateModified": "2026-07-15",
   "name": "Naturepedia Canonical Plate Registry",
   "description": "Canonical machine-readable registry for Naturepedia Plate assets, organized by Naturepedia system, page URL, Plate ID, Plate type, and x402 access path.",
   "creator": {
@@ -18,7 +18,7 @@
   "license": "https://www.robbiegeorgephotography.com/commercial-data-license",
   "governance": "Gr <= Es",
   "access": "x402",
-  "canonicalKeepCount": 737,
+  "canonicalKeepCount": 747,
   "duplicateRemovedCount": 33,
   "systems": [
     {
@@ -2668,6 +2668,64 @@
         }
       ]
     },
+    {
+  "name": "Ocean Systems Plates",
+  "slug": "ocean-systems",
+  "url": "https://www.robbiegeorgephotography.com/ocean-systems",
+  "x402Registry": "https://www.robbiegeorgephotography.com/v1/registries/ocean-systems",
+  "plates": [
+    {
+      "name": "Ocean Systems Plate™",
+      "id": "ocean-systems#ocean-systems-plate",
+      "type": "Naturepedia™ Ocean Systems Plate™"
+    },
+    {
+      "name": "Ocean Zones & Seafloor Plate™",
+      "id": "ocean-systems#ocean-zones-seafloor-plate",
+      "type": "Naturepedia™ Ocean Zones & Seafloor Plate™"
+    },
+    {
+      "name": "Ocean Circulation Plate™",
+      "id": "ocean-systems#ocean-circulation-plate",
+      "type": "Naturepedia™ Ocean Circulation Plate™"
+    },
+    {
+      "name": "Currents, Gyres & Upwelling Plate™",
+      "id": "ocean-systems#currents-gyres-upwelling-plate",
+      "type": "Naturepedia™ Currents, Gyres & Upwelling Plate™"
+    },
+    {
+      "name": "Ocean–Atmosphere Exchange Plate™",
+      "id": "ocean-systems#ocean-atmosphere-exchange-plate",
+      "type": "Naturepedia™ Ocean–Atmosphere Exchange Plate™"
+    },
+    {
+      "name": "Coastal & Estuarine Systems Plate™",
+      "id": "ocean-systems#coastal-estuarine-systems-plate",
+      "type": "Naturepedia™ Coastal & Estuarine Systems Plate™"
+    },
+    {
+      "name": "Ocean Life, Nutrients & Carbon Plate™",
+      "id": "ocean-systems#ocean-life-nutrients-carbon-plate",
+      "type": "Naturepedia™ Ocean Life, Nutrients & Carbon Plate™"
+    },
+    {
+      "name": "Ocean Patterns Across Scale Plate™",
+      "id": "ocean-systems#ocean-patterns-across-scale-plate",
+      "type": "Naturepedia™ Ocean Patterns Across Scale Plate™"
+    },
+    {
+      "name": "Naturepedia Ocean Mesh Plate™",
+      "id": "ocean-systems#naturepedia-ocean-mesh-plate",
+      "type": "Naturepedia™ Ocean Mesh Plate™"
+    },
+    {
+      "name": "Future Ocean Plate™",
+      "id": "ocean-systems#future-ocean-plate",
+      "type": "Naturepedia™ Future Ocean Plate™"
+    }
+  ]
+},
     {
       "name": "River Systems Plates",
       "slug": "river-systems",
