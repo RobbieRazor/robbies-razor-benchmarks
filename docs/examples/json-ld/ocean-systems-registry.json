@@ -1,0 +1,81 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "@id": "https://www.robbiegeorgephotography.com/v1/registries/ocean-systems",
+  "name": "Naturepedia Ocean Systems Registry",
+  "description": "Machine-readable registry describing the Naturepedia™ Ocean Systems collection and its canonical scientific resources.",
+  "version": "2026.07.15-v2",
+  "dateModified": "2026-07-15",
+  "inLanguage": "en-US",
+  "license": "https://www.robbiegeorgephotography.com/terms",
+  "publisher": {
+    "@type": "Person",
+    "name": "Robbie George",
+    "url": "https://www.robbiegeorgephotography.com/about-robbie"
+  },
+  "url": "https://www.robbiegeorgephotography.com/v1/registries/ocean-systems",
+  "isPartOf": {
+    "@type": "Dataset",
+    "name": "Naturepedia™"
+  },
+  "about": [
+    {
+      "@id": "ocean-systems#ocean-systems-plate",
+      "name": "Ocean Systems™"
+    },
+    {
+      "@id": "ocean-systems#ocean-zones-seafloor-plate",
+      "name": "Ocean Zones & Seafloor"
+    },
+    {
+      "@id": "ocean-systems#ocean-circulation-plate",
+      "name": "Ocean Circulation"
+    },
+    {
+      "@id": "ocean-systems#currents-gyres-upwelling-plate",
+      "name": "Currents, Gyres & Upwelling"
+    },
+    {
+      "@id": "ocean-systems#ocean-atmosphere-exchange-plate",
+      "name": "Ocean–Atmosphere Exchange"
+    },
+    {
+      "@id": "ocean-systems#coastal-estuarine-systems-plate",
+      "name": "Coastal & Estuarine Systems"
+    },
+    {
+      "@id": "ocean-systems#ocean-life-nutrients-carbon-plate",
+      "name": "Ocean Life, Nutrients & Carbon"
+    },
+    {
+      "@id": "ocean-systems#ocean-patterns-across-scale-plate",
+      "name": "Ocean Patterns Across Scale"
+    },
+    {
+      "@id": "ocean-systems#naturepedia-ocean-mesh-plate",
+      "name": "Naturepedia Ocean Mesh"
+    },
+    {
+      "@id": "ocean-systems#future-ocean-plate",
+      "name": "Future Ocean"
+    }
+  ],
+  "keywords": [
+    "Naturepedia",
+    "Ocean Systems",
+    "Oceanography",
+    "Ocean Zones",
+    "Seafloor",
+    "Ocean Circulation",
+    "Currents",
+    "Gyres",
+    "Upwelling",
+    "Ocean–Atmosphere Exchange",
+    "Coastal Systems",
+    "Estuaries",
+    "Marine Nutrients",
+    "Ocean Carbon",
+    "Marine Life",
+    "Scientific Registry"
+  ]
+}
