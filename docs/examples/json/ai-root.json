@@ -2,7 +2,7 @@
   "id": "https://www.robbiegeorgephotography.com/.well-known/ai-root.json",
   "schemaVersion": "1.0",
   "version": "1.0",
-  "dateModified": "2026-07-08",
+  "dateModified": "2026-07-15",
   "name": "Robbie George Photography AI Root",
   "description": "Canonical machine-readable entry point for Naturepedia™, Robbie's Razor™, and AI discovery infrastructure.",
   "creator": {
@@ -19,9 +19,10 @@
   },
 
   "documentation": {
-    "llms": "https://www.robbiegeorgephotography.com/llms.txt",
-    "llmsFull": "https://www.robbiegeorgephotography.com/llms-full.txt"
-  },
+  "llms": "https://www.robbiegeorgephotography.com/llms.txt",
+  "skill": "https://www.robbiegeorgephotography.com/.well-known/skills/default/skill.md",
+  "llmsFull": "https://www.robbiegeorgephotography.com/llms-full.txt"
+},
 
   "machineInfrastructure": {
     "discovery": "https://www.robbiegeorgephotography.com/api/v2/naturepedia/index.md",
