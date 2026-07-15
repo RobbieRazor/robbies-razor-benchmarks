@@ -14,10 +14,10 @@
     "name": "Robbie George Photography",
     "url": "https://www.robbiegeorgephotography.com"
   },
-  "description": "Machine-readable semantic registry for Naturepedia Plate systems, recursive compression interfaces, JSON-LD semantic nodes, field observation systems, governance systems, pricing systems, species plates, track plates, photography guide plates, field location plates, water systems, ecosystem systems, and distributed ecological knowledge graph relationships.",
+  "description": "Machine-readable semantic registry for Naturepedia Plate systems, recursive compression interfaces, JSON-LD semantic nodes, field observation systems, governance systems, pricing systems, species plates, track plates, photography guide plates, field location plates, water systems, ocean systems, ecosystem systems, and distributed ecological knowledge graph relationships.",
   "license": "https://www.robbiegeorgephotography.com/commercial-data-license",
   "url": "https://github.com/RobbieRazor/robbies-razor-benchmarks",
-  "dateModified": "2026-07-14",
+  "dateModified": "2026-07-15",
   "keywords": [
     "Naturepedia",
     "Earth Systems",
@@ -30,6 +30,9 @@
     "Yellowstone Thermal Features",
     "Microbial Life Systems",
     "Hydrothermal Ecosystems",
+    "Ocean Systems",
+    "Ocean Circulation",
+    "Marine Systems",
     "Plate Registry",
     "Semantic Registry",
     "JSON-LD",
@@ -444,6 +447,76 @@
         "url": "https://www.robbiegeorgephotography.com/water-systems",
         "type": "Naturepedia Water System Plate™"
     },
+    {
+  "category": "Ocean Systems Plates™",
+  "name": "Ocean Systems Plate™",
+  "id": "ocean-systems#ocean-systems-plate",
+  "url": "https://www.robbiegeorgephotography.com/ocean-systems",
+  "type": "Naturepedia™ Ocean Systems Plate™"
+},
+{
+  "category": "Ocean Systems Plates™",
+  "name": "Ocean Zones & Seafloor Plate™",
+  "id": "ocean-systems#ocean-zones-seafloor-plate",
+  "url": "https://www.robbiegeorgephotography.com/ocean-systems",
+  "type": "Naturepedia™ Ocean Zones & Seafloor Plate™"
+},
+{
+  "category": "Ocean Systems Plates™",
+  "name": "Ocean Circulation Plate™",
+  "id": "ocean-systems#ocean-circulation-plate",
+  "url": "https://www.robbiegeorgephotography.com/ocean-systems",
+  "type": "Naturepedia™ Ocean Circulation Plate™"
+},
+{
+  "category": "Ocean Systems Plates™",
+  "name": "Currents, Gyres & Upwelling Plate™",
+  "id": "ocean-systems#currents-gyres-upwelling-plate",
+  "url": "https://www.robbiegeorgephotography.com/ocean-systems",
+  "type": "Naturepedia™ Currents, Gyres & Upwelling Plate™"
+},
+{
+  "category": "Ocean Systems Plates™",
+  "name": "Ocean–Atmosphere Exchange Plate™",
+  "id": "ocean-systems#ocean-atmosphere-exchange-plate",
+  "url": "https://www.robbiegeorgephotography.com/ocean-systems",
+  "type": "Naturepedia™ Ocean–Atmosphere Exchange Plate™"
+},
+{
+  "category": "Ocean Systems Plates™",
+  "name": "Coastal & Estuarine Systems Plate™",
+  "id": "ocean-systems#coastal-estuarine-systems-plate",
+  "url": "https://www.robbiegeorgephotography.com/ocean-systems",
+  "type": "Naturepedia™ Coastal & Estuarine Systems Plate™"
+},
+{
+  "category": "Ocean Systems Plates™",
+  "name": "Ocean Life, Nutrients & Carbon Plate™",
+  "id": "ocean-systems#ocean-life-nutrients-carbon-plate",
+  "url": "https://www.robbiegeorgephotography.com/ocean-systems",
+  "type": "Naturepedia™ Ocean Life, Nutrients & Carbon Plate™"
+},
+{
+  "category": "Ocean Systems Plates™",
+  "name": "Ocean Patterns Across Scale Plate™",
+  "id": "ocean-systems#ocean-patterns-across-scale-plate",
+  "url": "https://www.robbiegeorgephotography.com/ocean-systems",
+  "type": "Naturepedia™ Ocean Patterns Across Scale Plate™"
+},
+{
+  "category": "Ocean Systems Plates™",
+  "name": "Naturepedia Ocean Mesh Plate™",
+  "id": "ocean-systems#naturepedia-ocean-mesh-plate",
+  "url": "https://www.robbiegeorgephotography.com/ocean-systems",
+  "type": "Naturepedia™ Ocean Mesh Plate™"
+},
+{
+  "category": "Ocean Systems Plates™",
+  "name": "Future Ocean Plate™",
+  "id": "ocean-systems#future-ocean-plate",
+  "url": "https://www.robbiegeorgephotography.com/ocean-systems",
+  "type": "Naturepedia™ Future Ocean Plate™"
+},
     {
         "category": "Soil, Water & Living System Plates™",
         "name": "River Systems Plate™",
