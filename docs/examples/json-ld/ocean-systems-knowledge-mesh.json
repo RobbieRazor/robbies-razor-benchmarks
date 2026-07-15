@@ -1,0 +1,189 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "@id": "https://www.robbiegeorgephotography.com/v1/knowledge-mesh/ocean-systems",
+  "name": "Naturepedia Ocean Systems Knowledge Mesh",
+  "description": "Machine-readable semantic knowledge mesh connecting Earth Systems™, Ocean Systems™, Water Systems™, Weather™, Carbon Cycle™, coastal and hydrothermal ecosystems, marine food webs, biodiversity, wildlife, field locations, natural pattern formation, ocean observation, and stewardship.",
+  "version": "2026.07.15-v2",
+  "dateModified": "2026-07-15",
+  "inLanguage": "en-US",
+  "url": "https://www.robbiegeorgephotography.com/v1/knowledge-mesh/ocean-systems",
+  "mainEntityOfPage": "https://www.robbiegeorgephotography.com/ocean-systems",
+  "publisher": {
+    "@type": "Person",
+    "name": "Robbie George",
+    "url": "https://www.robbiegeorgephotography.com/about-robbie"
+  },
+  "isPartOf": {
+    "@type": "Dataset",
+    "name": "Naturepedia™"
+  },
+  "isBasedOn": [
+    {
+      "@id": "https://www.robbiegeorgephotography.com/v1/registries/ocean-systems",
+      "name": "Naturepedia Ocean Systems Registry"
+    },
+    {
+      "@id": "https://www.robbiegeorgephotography.com/v1/plates/ocean-system-map",
+      "name": "Naturepedia Ocean System Map"
+    },
+    {
+      "@id": "https://www.robbiegeorgephotography.com/v1/registries/earth-systems",
+      "name": "Naturepedia Earth Systems Registry"
+    },
+    {
+      "@id": "https://www.robbiegeorgephotography.com/v1/plates/earth-systems-map",
+      "name": "Naturepedia Earth Systems Map"
+    },
+    {
+      "@id": "https://www.robbiegeorgephotography.com/v1/registries/weather",
+      "name": "Naturepedia Weather Registry"
+    },
+    {
+      "@id": "https://www.robbiegeorgephotography.com/v1/plates/weather-map",
+      "name": "Naturepedia Weather System Map"
+    },
+    {
+      "@id": "https://www.robbiegeorgephotography.com/v1/registries/water-systems",
+      "name": "Naturepedia Water Systems Registry"
+    },
+    {
+      "@id": "https://www.robbiegeorgephotography.com/v1/plates/water-system-map",
+      "name": "Naturepedia Water System Map"
+    },
+    {
+      "@id": "https://www.robbiegeorgephotography.com/v1/registries/carbon-cycle",
+      "name": "Naturepedia Carbon Cycle Registry"
+    },
+    {
+      "@id": "https://www.robbiegeorgephotography.com/v1/plates/carbon-cycle-map",
+      "name": "Naturepedia Carbon Cycle Map"
+    },
+    {
+      "@id": "https://www.robbiegeorgephotography.com/v1/registries/hydrothermal-ecosystems",
+      "name": "Naturepedia Hydrothermal Ecosystems Registry"
+    },
+    {
+      "@id": "https://www.robbiegeorgephotography.com/v1/plates/hydrothermal-map",
+      "name": "Naturepedia Hydrothermal System Map"
+    }
+  ],
+  "hasPart": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Earth Systems → Ocean Relationship",
+      "description": "The global ocean connects atmosphere, hydrosphere, geosphere, biosphere, cryosphere, climate, water, carbon, and living systems."
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Atmosphere → Ocean Relationship",
+      "description": "Solar energy, winds, storms, precipitation, evaporation, heat, moisture, gases, and momentum regulate ocean-surface behavior."
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Water Systems → Ocean Relationship",
+      "description": "Groundwater, rivers, wetlands, floodplains, watersheds, and estuaries deliver freshwater, sediment, nutrients, carbon, and organic material to coastal and marine systems."
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Ocean Circulation Network",
+      "description": "Winds, planetary rotation, temperature, salinity, density, basin geometry, currents, gyres, eddies, fronts, upwelling, and downwelling form a connected transport system."
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Ocean Zone Connectivity",
+      "description": "Surface, twilight, deep, abyssal, hadal, coastal, open-ocean, and seafloor environments exchange energy, organisms, nutrients, oxygen, and carbon."
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Marine Nutrient and Food-Web Network",
+      "description": "Sunlight, nutrients, phytoplankton, microbes, zooplankton, fish, seabirds, marine mammals, predators, decomposers, and recycled materials form interconnected marine food webs."
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Ocean Carbon Network",
+      "description": "Atmosphere–ocean exchange, photosynthesis, respiration, decomposition, particle sinking, deep-water transport, and sediment burial connect ocean systems with the global carbon cycle."
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Coastal Connectivity",
+      "description": "Watersheds, rivers, estuaries, wetlands, tides, intertidal zones, continental shelves, nearshore habitats, and open-ocean processes operate as connected transition systems."
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Hydrothermal Connectivity",
+      "description": "Seafloor fractures, geothermal heat, seawater circulation, mineral-rich discharge, microbes, chemosynthesis, and specialized organisms connect geology with deep-ocean ecosystems."
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Ocean Pattern Formation",
+      "description": "Energy, motion, rotation, density differences, gravity, boundaries, and feedback produce related patterns across ripples, waves, tides, fronts, eddies, gyres, coastlines, and planetary circulation."
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Ocean Observation Network",
+      "description": "Satellites, buoys, profiling floats, research vessels, underwater vehicles, wildlife monitoring, field locations, models, and human expertise create distributed ocean knowledge."
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Knowledge → Stewardship Relationship",
+      "description": "Observation, validation, modeling, interpretation, communication, conservation, and governance connect scientific understanding with ocean stewardship."
+    }
+  ],
+  "mentions": [
+    "Earth Systems",
+    "Ocean Systems",
+    "Water Systems",
+    "Weather",
+    "Carbon Cycle",
+    "Ocean Zones",
+    "Seafloor",
+    "Ocean Circulation",
+    "Surface Currents",
+    "Deep-Water Circulation",
+    "Gyres",
+    "Eddies",
+    "Fronts",
+    "Upwelling",
+    "Downwelling",
+    "Ocean–Atmosphere Exchange",
+    "Waves",
+    "Tides",
+    "Coastal Systems",
+    "Estuaries",
+    "Watersheds",
+    "Marine Food Webs",
+    "Phytoplankton",
+    "Marine Nutrients",
+    "Marine Snow",
+    "Ocean Carbon",
+    "Hydrothermal Ecosystems",
+    "Marine Biodiversity",
+    "Seabirds",
+    "Marine Mammals",
+    "Ocean Observation",
+    "Scientific Modeling",
+    "Ocean Stewardship"
+  ],
+  "keywords": [
+    "Naturepedia",
+    "Knowledge Mesh",
+    "Semantic Graph",
+    "Ocean Systems",
+    "Oceanography",
+    "Earth Systems",
+    "Water Systems",
+    "Weather",
+    "Carbon Cycle",
+    "Ocean Circulation",
+    "Ocean–Atmosphere Exchange",
+    "Coastal Systems",
+    "Marine Food Webs",
+    "Ocean Carbon",
+    "Hydrothermal Ecosystems",
+    "Ocean Observation",
+    "Ocean Stewardship",
+    "Scientific Knowledge",
+    "Machine Readable"
+  ]
+}
