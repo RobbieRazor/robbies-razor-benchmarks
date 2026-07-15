@@ -553,6 +553,54 @@ Public v1 aliases
 
 The Water Systems™ retrieval family demonstrates how Registry, System Map, and Knowledge Mesh layers work together to expose inventory, hydrological relationships, and cross-system semantic connections between Weather™, Water Systems™, watersheds, wetlands, groundwater, rivers, floodplains, estuaries, coastal systems, and Earth Systems™.
 
+Ocean Systems™ Retrieval Family
+
+The Ocean Systems™ retrieval family follows Naturepedia’s three-layer semantic architecture:
+
+Registry
+
+```txt
+ocean-systems-registry.json
+```
+
+System Map
+
+```txt
+ocean-system-map.json
+```
+
+Knowledge Mesh
+
+```txt
+ocean-systems-knowledge-mesh.json
+```
+
+Production x402 endpoints
+
+```txt
+/x402/ocean-systems-registry.json
+/x402/ocean-system-map.json
+/x402/knowledge-mesh/ocean-systems
+```
+
+Public v1 aliases
+
+```txt
+/v1/registries/ocean-systems
+/v1/plates/ocean-system-map
+/v1/knowledge-mesh/ocean-systems
+```
+
+Machine retrieval pricing
+
+```txt
+Registry: $5 USDC
+System Map: $5 USDC
+Knowledge Mesh: $25 USDC
+```
+
+The Ocean Systems™ Registry answers what exists. The Ocean System Map explains how ocean processes and structures connect. The Ocean Systems Knowledge Mesh exposes cross-system relationships among Earth Systems™, Weather™, Water Systems™, Carbon Cycle™, ocean circulation, coastal and estuarine systems, marine food webs, hydrothermal ecosystems, observation, and stewardship.
+
 These files function as machine-readable inventories for major Naturepedia™ system families.
 
 Registry files typically contain:
