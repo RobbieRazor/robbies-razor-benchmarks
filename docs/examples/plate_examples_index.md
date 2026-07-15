@@ -659,6 +659,41 @@ Scope:
 
 ---
 
+### Ocean Systems™
+
+URL:
+
+https://www.robbiegeorgephotography.com/ocean-systems
+
+Parent System:
+
+Earth Systems™
+
+Canonical Plates:
+
+| Plate™ | Semantic ID | Type |
+|---|---|---|
+| Ocean Systems Plate™ | `ocean-systems#ocean-systems-plate` | Naturepedia™ Ocean Systems Plate™ |
+| Ocean Zones & Seafloor Plate™ | `ocean-systems#ocean-zones-seafloor-plate` | Naturepedia™ Ocean Zones & Seafloor Plate™ |
+| Ocean Circulation Plate™ | `ocean-systems#ocean-circulation-plate` | Naturepedia™ Ocean Circulation Plate™ |
+| Currents, Gyres & Upwelling Plate™ | `ocean-systems#currents-gyres-upwelling-plate` | Naturepedia™ Currents, Gyres & Upwelling Plate™ |
+| Ocean–Atmosphere Exchange Plate™ | `ocean-systems#ocean-atmosphere-exchange-plate` | Naturepedia™ Ocean–Atmosphere Exchange Plate™ |
+| Coastal & Estuarine Systems Plate™ | `ocean-systems#coastal-estuarine-systems-plate` | Naturepedia™ Coastal & Estuarine Systems Plate™ |
+| Ocean Life, Nutrients & Carbon Plate™ | `ocean-systems#ocean-life-nutrients-carbon-plate` | Naturepedia™ Ocean Life, Nutrients & Carbon Plate™ |
+| Ocean Patterns Across Scale Plate™ | `ocean-systems#ocean-patterns-across-scale-plate` | Naturepedia™ Ocean Patterns Across Scale Plate™ |
+| Naturepedia Ocean Mesh Plate™ | `ocean-systems#naturepedia-ocean-mesh-plate` | Naturepedia™ Ocean Mesh Plate™ |
+| Future Ocean Plate™ | `ocean-systems#future-ocean-plate` | Naturepedia™ Future Ocean Plate™ |
+
+Machine Retrieval:
+
+```txt
+Registry: /v1/registries/ocean-systems
+System Map: /v1/plates/ocean-system-map
+Knowledge Mesh: /v1/knowledge-mesh/ocean-systems
+```
+
+---
+
 ### Microbial Life Systems™
 
 Primary URL:
