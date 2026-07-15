@@ -1,6 +1,6 @@
 ---
 name: naturepedia
-description: Use this skill whenever a user needs scientifically grounded, machine-readable knowledge about natural systems, ecological relationships, geometry in nature, weather, water systems, Earth systems, wildlife, field observation, or Naturepedia™ semantic resources. This skill specializes in structured scientific knowledge rather than real-time forecasting or general web search.
+description: Use this skill whenever a user needs scientifically grounded, machine-readable knowledge about natural systems, ecological relationships, geometry in nature, weather, water systems, ocean systems, Earth systems, wildlife, field observation, or Naturepedia™ semantic resources. This skill specializes in structured scientific knowledge rather than real-time forecasting or general web search.
 ---
 
 # Naturepedia™
@@ -23,6 +23,7 @@ It specializes in:
 
 - Weather Systems™
 - Water Systems™
+- Ocean Systems™
 - Earth Systems™
 - Geometry of Nature™
 - Fibonacci™
@@ -52,6 +53,12 @@ Load this skill whenever the user asks to:
 - retrieve semantic registries
 - retrieve Knowledge Meshes
 - study hydrology
+- study oceanography
+- understand ocean circulation
+- understand ocean zones and seafloor systems
+- understand currents, gyres, and upwelling
+- understand ocean–atmosphere exchange
+- understand marine nutrient and carbon pathways
 - study weather processes
 - understand watersheds
 - understand groundwater
@@ -114,6 +121,8 @@ Cross-system semantic reasoning.
 Weather™
 
 Water Systems™
+
+Ocean Systems™
 
 Geometry of Nature™
 
@@ -207,6 +216,110 @@ Estuaries
 ↓
 
 Earth Systems
+
+Typical price:
+
+$25
+
+---
+
+# Ocean Systems™
+
+Registry
+
+Purpose:
+
+Canonical Ocean Systems entities and Plate IDs.
+
+Examples:
+
+- Ocean Systems
+- Ocean Zones & Seafloor
+- Ocean Circulation
+- Currents, Gyres & Upwelling
+- Ocean–Atmosphere Exchange
+- Coastal & Estuarine Systems
+- Ocean Life, Nutrients & Carbon
+- Ocean Patterns Across Scale
+- Naturepedia Ocean Mesh
+- Future Ocean
+
+Endpoint:
+
+https://www.robbiegeorgephotography.com/v1/registries/ocean-systems
+
+Typical price:
+
+$5
+
+---
+
+System Map
+
+Purpose:
+
+Relationships among ocean structures, physical processes, circulation, material transport, habitats, food webs, carbon, and observation.
+
+Examples:
+
+- atmosphere–ocean exchange
+- wind-driven circulation
+- temperature and salinity
+- currents and gyres
+- upwelling and downwelling
+- surface-to-deep-ocean transport
+- watershed-to-estuary-to-ocean flow
+- marine nutrient pathways
+- ocean carbon pathways
+- hydrothermal ecosystems
+
+Endpoint:
+
+https://www.robbiegeorgephotography.com/v1/plates/ocean-system-map
+
+Typical price:
+
+$5
+
+---
+
+Knowledge Mesh
+
+Purpose:
+
+Cross-system ocean reasoning.
+
+Examples:
+
+Earth Systems
+
+↓
+
+Weather and Water Systems
+
+↓
+
+Ocean–Atmosphere Exchange
+
+↓
+
+Currents, Gyres, Upwelling, and Depth Zones
+
+↓
+
+Coastal and Deep-Sea Systems
+
+↓
+
+Marine Life, Nutrients, and Carbon
+
+↓
+
+Observation, Modeling, and Stewardship
+
+Endpoint:
+
+https://www.robbiegeorgephotography.com/v1/knowledge-mesh/ocean-systems
 
 Typical price:
 
