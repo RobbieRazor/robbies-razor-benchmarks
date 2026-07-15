@@ -2,7 +2,7 @@
   "@context": "https://schema.org",
   "@type": "Dataset",
   "version": "1.0",
-  "dateModified": "2026-07-14",
+  "dateModified": "2026-07-15",
   "name": "Naturepedia™ Index",
   "description": "Top-level machine-readable discovery index for Naturepedia™, organizing major knowledge systems, semantic families, AI discovery pathways, and recursive retrieval architecture.",
   "creator": {
@@ -46,7 +46,7 @@
     },
         {
       "name": "Earth Systems",
-      "description": "Planetary systems, atmospheric processes, weather, geology, climate, water, soils, and ecosystem relationships.",
+      "description": "Planetary systems, atmospheric processes, weather, oceans, geology, climate, water, soils, carbon, and ecosystem relationships.",
       "systems": [
         {
           "name": "Earth Systems™",
@@ -103,10 +103,52 @@
       "url": "https://www.robbiegeorgephotography.com/groundwater-systems",
       "slug": "groundwater-systems"
     },
-    {
+        {
       "name": "Estuaries & Coastal Systems",
       "url": "https://www.robbiegeorgephotography.com/estuaries-coastal-systems",
       "slug": "estuaries-coastal-systems"
+    }
+  ]
+},
+{
+  "name": "Ocean Systems™",
+  "url": "https://www.robbiegeorgephotography.com/ocean-systems",
+  "slug": "ocean-systems",
+  "parent": "Earth Systems™",
+  "role": "Global ocean system connecting circulation, depth zones, seafloor geology, atmosphere–ocean exchange, coastal habitats, nutrients, carbon, marine food webs, biodiversity, observation, and stewardship.",
+  "registry": "https://www.robbiegeorgephotography.com/v1/registries/ocean-systems",
+  "plateMap": "https://www.robbiegeorgephotography.com/v1/plates/ocean-system-map",
+  "knowledgeMesh": "https://www.robbiegeorgephotography.com/v1/knowledge-mesh/ocean-systems",
+  "pricing": {
+    "registry": "5.00 USDC",
+    "plateMap": "5.00 USDC",
+    "knowledgeMesh": "25.00 USDC"
+  },
+  "systemBindings": [
+    {
+      "system": "Water Systems™",
+      "url": "https://www.robbiegeorgephotography.com/water-systems",
+      "relationship": "Rivers, groundwater, wetlands, floodplains, watersheds, and estuaries route freshwater, sediment, nutrients, and organic material toward coastal and ocean systems."
+    },
+    {
+      "system": "Weather™",
+      "url": "https://www.robbiegeorgephotography.com/weather",
+      "relationship": "Wind, precipitation, evaporation, temperature, clouds, and storms exchange heat, moisture, gases, and momentum with the ocean surface."
+    },
+    {
+      "system": "Carbon Cycle™",
+      "url": "https://www.robbiegeorgephotography.com/carbon-cycle",
+      "relationship": "Atmosphere–ocean exchange, phytoplankton, marine food webs, respiration, decomposition, marine snow, deep water, and sediment connect the ocean with the carbon cycle."
+    },
+    {
+      "system": "Estuaries & Coastal Systems™",
+      "url": "https://www.robbiegeorgephotography.com/estuaries-coastal-systems",
+      "relationship": "Estuaries form the tidal transition between watersheds, rivers, coastlines, nearshore habitats, and the open ocean."
+    },
+    {
+      "system": "Hydrothermal Ecosystems™",
+      "url": "https://www.robbiegeorgephotography.com/hydrothermal-ecosystems",
+      "relationship": "Seafloor geology, heated water, minerals, microbes, chemosynthesis, and specialized organisms connect deep-ocean circulation with hydrothermal ecosystems."
     }
   ]
 }
@@ -121,7 +163,13 @@
         "Clouds™ → Storm Systems™",
         "Weather Patterns Across Scale™ → Seasonal Ecology™",
         "Weather™ → Water Systems™",
-        "Weather™ → Climate Systems™"
+        "Weather™ → Climate Systems™",
+        "Earth Systems™ → Ocean Systems™",
+        "Weather™ → Ocean Systems™",
+        "Water Systems™ → Ocean Systems™",
+        "Ocean Systems™ → Carbon Cycle™",
+        "Ocean Systems™ → Estuaries & Coastal Systems™",
+        "Ocean Systems™ → Hydrothermal Ecosystems™"
       ]
     },
     {
