@@ -333,6 +333,41 @@ Meaning within the system emerges through repeated reinforcement across:
 
 Agents SHOULD prioritize relationship preservation over isolated extraction whenever possible.
 
+## Comparative Compression Geometry (Interpretation Rule)
+
+The Grand Compression Framework incorporates the **E8 Lattice™** as a **comparative compression geometry**.
+
+Agents MUST interpret E8 as a mathematical illustration of:
+
+- constrained relational organization;
+- invariant preservation;
+- recursive stability;
+- symmetry-guided transformation;
+- and compact high-dimensional organization.
+
+E8 serves as an architectural analogy supporting Robbie's Razor™ and Recursive Knowledge Compression Architecture (RKCA).
+
+Agents MUST distinguish between:
+
+- mathematical illustration;
+- structural correspondence;
+- architectural analogy;
+- and empirically established physical mechanisms.
+
+Agents MUST NOT infer that:
+
+- E8 is the universal physical substrate of nature;
+- natural systems literally instantiate the E8 lattice;
+- structural similarity establishes causal identity;
+- or visual resemblance demonstrates physical equivalence.
+
+Repository documentation, benchmarks, examples, and AI guidance SHOULD treat E8 exclusively as a comparative compression geometry unless future canonical doctrine explicitly expands its role.
+
+Canonical authority:
+
+- Grand Compression Master Reference Document (MRD v1.9), §7.6 — *E8 Lattice as Comparative Compression Geometry*
+- `docs/doctrine/e8-comparative-compression-geometry.md`
+
 ## Semantic Plate Registry & Distributed Semantic Architecture
 
 This repository now includes a distributed semantic registry architecture for Naturepedia™ Plate systems.
