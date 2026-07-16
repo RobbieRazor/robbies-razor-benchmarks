@@ -132,6 +132,47 @@ Repository documentation, experiments, and derived implementations must maintain
 
 ---
 
+## RC-16 — Comparative Compression Geometry
+
+### Canonical Claim
+
+The Grand Compression Framework incorporates the **E8 Lattice™** as a **comparative compression geometry** illustrating how high-dimensional relational complexity may remain coherent through constrained symmetry, invariant preservation, and structured transformation.
+
+Within the framework, E8 functions as:
+
+- a comparative compression model;
+- an example of constrained relational organization;
+- a mathematical analogue for recursive stability;
+- a supporting geometry for Robbie's Razor™;
+- and an architectural analogue for Recursive Knowledge Compression Architecture (RKCA).
+
+### Repository Alignment
+
+Repository documentation aligns with this claim through:
+
+- `docs/doctrine/e8-comparative-compression-geometry.md`
+- `AGENTS.md`
+- `README.md`
+
+### Boundary
+
+This claim does **not** assert that:
+
+- E8 is the universal physical substrate of nature;
+- natural systems literally instantiate the E8 lattice;
+- structural correspondence establishes causal identity;
+- or visual similarity demonstrates physical equivalence.
+
+Repository materials MUST preserve this interpretive boundary.
+
+### Canonical Authority
+
+Grand Compression Master Reference Document (MRD v1.9)
+
+Section 7.6
+
+**E8 Lattice as Comparative Compression Geometry**
+
 # Boundary Rule
 
 This repository **does not introduce new canonical claims**.
