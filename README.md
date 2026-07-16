@@ -385,6 +385,51 @@ Primary canonical references:
 
 RRIP does not redefine canonical theory. It extends the applied architecture layer connecting Plates™, Registries, Graph Registries™, and Knowledge Mesh systems.
 
+## Comparative Compression Geometry
+
+The Grand Compression Framework incorporates **E8 Lattice™** as a **comparative compression geometry** that supports Recursive Knowledge Compression Architecture (RKCA) and the broader Naturepedia™ knowledge architecture.
+
+Within the framework, E8 demonstrates how:
+
+- constrained symmetry preserves relational organization;
+- invariant preservation enables recursive stability;
+- compact mathematical structures may encode exceptionally rich relationships;
+- and high-dimensional organization can remain coherent through constrained transformation.
+
+E8 serves as a mathematical analogue for recursive knowledge compression rather than a universal physical substrate.
+
+Its purpose is to strengthen understanding of:
+
+- Robbie's Razor™
+- Recursive Knowledge Compression Architecture (RKCA)
+- Plate™ systems
+- Registry architectures
+- Knowledge Meshes™
+- recursive semantic organization
+
+The framework distinguishes clearly between:
+
+- mathematical illustration;
+- structural correspondence;
+- architectural analogy;
+- and empirically established scientific mechanisms.
+
+Accordingly, the framework does **not** assert that:
+
+- natural systems literally instantiate the E8 lattice;
+- structural similarity establishes causal identity;
+- E8 is the universal geometry of nature;
+- or visual resemblance demonstrates physical equivalence.
+
+Canonical doctrine:
+
+- `docs/doctrine/e8-comparative-compression-geometry.md`
+
+Canonical authority:
+
+- **Grand Compression Master Reference Document (MRD v1.9)**  
+  **§7.6 — E8 Lattice as Comparative Compression Geometry**
+
 ## Naturepedia Semantic Plate Registry
 
 ### June 2026 Registry Expansion
