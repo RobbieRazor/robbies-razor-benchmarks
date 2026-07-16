@@ -1,0 +1,330 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "@id": "https://www.robbiegeorgephotography.com/x402/geology-system-map.json#geology-system-map",
+  "version": "v1.0",
+  "dateModified": "2026-07-16",
+  "name": "Naturepedia Geology System Map",
+  "description": "Directional process map connecting Earth’s internal structure and heat with tectonic motion, plate boundaries, rock formation and transformation, mountain building, faulting, earthquakes, volcanism, geothermal circulation, weathering, erosion, sediment transport, deposition, and landscape evolution.",
+  "system": "Geology™",
+  "canonicalUrl": "https://www.robbiegeorgephotography.com/geology",
+  "parentSystem": "Earth Systems™",
+  "creator": {
+    "@type": "Person",
+    "name": "Robbie George",
+    "url": "https://www.robbiegeorgephotography.com/who-is-robbie-george"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Naturepedia™",
+    "url": "https://www.robbiegeorgephotography.com/naturepedia"
+  },
+  "license": "https://www.robbiegeorgephotography.com/commercial-data-license",
+  "governance": "Gr <= Es",
+  "access": {
+    "protocol": "x402",
+    "tier": "plates",
+    "price": "5.00",
+    "asset": "USDC",
+    "network": "eip155:8453"
+  },
+  "resourceIdentifiers": {
+    "humanPage": "https://www.robbiegeorgephotography.com/geology",
+    "canonicalSystemMap": "https://www.robbiegeorgephotography.com/x402/geology-system-map.json",
+    "systemMapAlias": "https://www.robbiegeorgephotography.com/v1/plates/geology-system-map",
+    "canonicalRegistry": "https://www.robbiegeorgephotography.com/x402/geology-registry.json",
+    "registryAlias": "https://www.robbiegeorgephotography.com/v1/registries/geology",
+    "canonicalKnowledgeMesh": "https://www.robbiegeorgephotography.com/x402/knowledge-mesh/geology",
+    "knowledgeMeshAlias": "https://www.robbiegeorgephotography.com/v1/knowledge-mesh/geology"
+  },
+  "architecture": "Internal Heat & Gravity → Mantle and Lithosphere Behavior → Plate Motion → Boundary Processes → Rock Transformation & Crustal Deformation → Uplift, Volcanism & Faulting → Weathering & Erosion → Sediment Transport & Deposition → Landscape Evolution",
+  "systemNodes": [
+    {
+      "id": "earth-interior",
+      "name": "Earth’s Interior",
+      "role": "Stores and transfers heat while density, pressure, gravity, and material properties organize Earth’s internal layers."
+    },
+    {
+      "id": "mantle-lithosphere",
+      "name": "Mantle and Lithosphere",
+      "role": "Connects slow mantle deformation, rigid lithospheric plates, buoyancy, slab behavior, and plate-driving forces."
+    },
+    {
+      "id": "plate-motion",
+      "name": "Plate Motion",
+      "role": "Moves lithospheric plates relative to one another over geological time."
+    },
+    {
+      "id": "plate-boundaries",
+      "name": "Plate Boundaries",
+      "role": "Concentrates divergence, convergence, transform motion, deformation, earthquakes, and volcanism."
+    },
+    {
+      "id": "rock-transformation",
+      "name": "Rock Transformation",
+      "role": "Connects melting, crystallization, weathering, erosion, deposition, burial, lithification, heat, pressure, fluids, uplift, and exposure."
+    },
+    {
+      "id": "crustal-deformation",
+      "name": "Crustal Deformation",
+      "role": "Produces folding, faulting, uplift, subsidence, mountain building, and earthquakes."
+    },
+    {
+      "id": "volcanic-geothermal",
+      "name": "Volcanic and Geothermal Systems",
+      "role": "Moves magma, heat, fluids, gases, and minerals through volcanic and hydrothermal pathways."
+    },
+    {
+      "id": "surface-processes",
+      "name": "Surface Processes",
+      "role": "Weathering, erosion, mass movement, water, wind, ice, and gravity reshape exposed materials."
+    },
+    {
+      "id": "sediment-system",
+      "name": "Sediment System",
+      "role": "Routes particles and dissolved materials through transport, sorting, deposition, burial, and lithification."
+    },
+    {
+      "id": "landscape-evolution",
+      "name": "Landscape Evolution",
+      "role": "Expresses the changing balance among uplift, subsidence, rock resistance, weathering, erosion, transport, and deposition."
+    },
+    {
+      "id": "geological-observation",
+      "name": "Geological Observation",
+      "role": "Connects field evidence, samples, maps, seismic data, geodesy, remote sensing, dating, models, and uncertainty assessment."
+    }
+  ],
+  "directedRelationships": [
+    {
+      "from": "Earth’s internal heat",
+      "to": "mantle and lithosphere behavior",
+      "relationship": "Heat from planetary formation, differentiation, and radioactive decay contributes to internal energy transfer and slow mantle deformation."
+    },
+    {
+      "from": "mantle behavior, gravity, and plate-boundary forces",
+      "to": "plate motion",
+      "relationship": "Slab pull, ridge-related forces, buoyancy, basal interactions, and mantle flow contribute to plate movement."
+    },
+    {
+      "from": "plate divergence",
+      "to": "rifting and seafloor spreading",
+      "relationship": "Extension thins and fractures lithosphere, permitting decompression melting and creation of new oceanic crust in many divergent settings."
+    },
+    {
+      "from": "oceanic plate convergence",
+      "to": "subduction",
+      "relationship": "A denser oceanic plate may descend beneath another plate, producing trenches, earthquakes, metamorphism, melting, and volcanic arcs."
+    },
+    {
+      "from": "continental collision",
+      "to": "mountain building",
+      "relationship": "Compression, folding, thrust faulting, crustal thickening, metamorphism, and uplift can construct mountain belts."
+    },
+    {
+      "from": "transform plate motion",
+      "to": "strike-slip faulting",
+      "relationship": "Lateral plate movement concentrates shear stress along faults and can generate earthquakes."
+    },
+    {
+      "from": "accumulated elastic strain",
+      "to": "earthquake rupture",
+      "relationship": "When fault resistance is exceeded, sudden slip releases stored elastic energy as seismic waves and deformation."
+    },
+    {
+      "from": "partial melting",
+      "to": "magma formation",
+      "relationship": "Temperature, pressure reduction, water, and material composition influence partial melting in the mantle or crust."
+    },
+    {
+      "from": "magma ascent and storage",
+      "to": "volcanism or intrusion",
+      "relationship": "Buoyant magma may rise, stall, crystallize below ground, or erupt as lava, ash, gases, and fragmented material."
+    },
+    {
+      "from": "geological heat and fractured rock",
+      "to": "hydrothermal circulation",
+      "relationship": "Groundwater or seawater can circulate through permeable hot rock, transferring heat and dissolved minerals."
+    },
+    {
+      "from": "cooling magma or lava",
+      "to": "igneous rock",
+      "relationship": "Crystallization produces intrusive or extrusive igneous rocks depending on setting and cooling history."
+    },
+    {
+      "from": "existing rock exposed at the surface",
+      "to": "weathered material",
+      "relationship": "Physical, chemical, and biological weathering break down or alter minerals and rock."
+    },
+    {
+      "from": "weathered material",
+      "to": "transported sediment",
+      "relationship": "Water, wind, ice, waves, mass movement, and gravity detach and move particles and dissolved material."
+    },
+    {
+      "from": "reduced transport energy",
+      "to": "sediment deposition",
+      "relationship": "Sediment accumulates when carrying capacity declines or when particles settle, precipitate, or become biologically concentrated."
+    },
+    {
+      "from": "burial and lithification",
+      "to": "sedimentary rock",
+      "relationship": "Compaction, cementation, and chemical or biological processes transform deposited sediment into sedimentary rock."
+    },
+    {
+      "from": "heat, pressure, stress, and reactive fluids",
+      "to": "metamorphic rock",
+      "relationship": "Minerals and rock fabrics change without complete melting under new physical and chemical conditions."
+    },
+    {
+      "from": "rock melting",
+      "to": "magma",
+      "relationship": "Sufficient heating, decompression, volatile addition, or combinations of these processes can partially melt rock."
+    },
+    {
+      "from": "tectonic uplift",
+      "to": "surface exposure",
+      "relationship": "Uplift and erosion can expose deeply formed rocks to surface weathering."
+    },
+    {
+      "from": "uplift and rock resistance",
+      "to": "topographic relief",
+      "relationship": "Crustal uplift and differences in material strength help create and maintain mountains, plateaus, ridges, and escarpments."
+    },
+    {
+      "from": "weathering, erosion, transport, and deposition",
+      "to": "landscape evolution",
+      "relationship": "Surface processes lower, dissect, redistribute, and rebuild landforms across interacting spatial and temporal scales."
+    }
+  ],
+  "processSequences": [
+    {
+      "name": "Divergent Boundary Sequence",
+      "sequence": [
+        "lithospheric extension",
+        "fracturing and rifting",
+        "decompression melting",
+        "magma ascent",
+        "new crust formation",
+        "seafloor spreading or continental rift development"
+      ]
+    },
+    {
+      "name": "Subduction Sequence",
+      "sequence": [
+        "oceanic plate convergence",
+        "plate descent",
+        "trench formation",
+        "earthquake generation",
+        "fluid release and mantle melting",
+        "magma ascent",
+        "volcanic-arc and intrusive activity"
+      ]
+    },
+    {
+      "name": "Mountain-Building Sequence",
+      "sequence": [
+        "plate convergence",
+        "compression",
+        "folding and faulting",
+        "crustal thickening",
+        "metamorphism",
+        "uplift",
+        "erosional dissection"
+      ]
+    },
+    {
+      "name": "Rock Transformation Sequence",
+      "sequence": [
+        "rock formation",
+        "uplift or exposure",
+        "weathering",
+        "erosion and transport",
+        "deposition",
+        "burial and lithification",
+        "metamorphism",
+        "partial melting",
+        "crystallization"
+      ]
+    },
+    {
+      "name": "Landscape Sequence",
+      "sequence": [
+        "tectonic or volcanic construction",
+        "surface exposure",
+        "weathering",
+        "erosion",
+        "sediment transport",
+        "deposition",
+        "continued uplift, subsidence, or renewed erosion"
+      ]
+    }
+  ],
+  "feedbackRelationships": [
+    "uplift increases relief and exposure → erosion can accelerate → unloading can influence crustal response",
+    "erosion removes overlying material → deeper rock becomes exposed → weathering begins again",
+    "sediment deposition adds load → basin subsidence may continue → additional sediment accommodation develops",
+    "fracturing increases permeability → fluid circulation increases → mineral alteration can modify rock strength and permeability",
+    "volcanic construction creates relief → weathering and erosion redistribute volcanic material → new soils and sediment systems develop"
+  ],
+  "scales": {
+    "spatial": [
+      "mineral lattice",
+      "rock sample",
+      "outcrop",
+      "fault zone",
+      "watershed",
+      "mountain range",
+      "tectonic plate",
+      "planetary interior"
+    ],
+    "temporal": [
+      "seconds of earthquake rupture",
+      "days to years of eruption and sediment events",
+      "centuries to millennia of landscape adjustment",
+      "millions of years of mountain building and basin development",
+      "billions of years of planetary evolution"
+    ]
+  },
+  "relatedResources": {
+    "registry": "https://www.robbiegeorgephotography.com/x402/geology-registry.json",
+    "knowledgeMesh": "https://www.robbiegeorgephotography.com/x402/knowledge-mesh/geology",
+    "earthSystemsMap": "https://www.robbiegeorgephotography.com/x402/earth-systems-map.json",
+    "waterSystemMap": "https://www.robbiegeorgephotography.com/x402/water-system-map.json",
+    "weatherMap": "https://www.robbiegeorgephotography.com/x402/weather-map.json",
+    "oceanSystemMap": "https://www.robbiegeorgephotography.com/x402/ocean-system-map.json",
+    "carbonCycleMap": "https://www.robbiegeorgephotography.com/x402/carbon-cycle-map.json",
+    "volcanicSystemsMap": "https://www.robbiegeorgephotography.com/x402/volcanic-systems-map.json",
+    "hydrothermalMap": "https://www.robbiegeorgephotography.com/x402/hydrothermal-map.json"
+  },
+  "provenance": {
+    "architectOfRecord": "Robbie George",
+    "framework": "Robbie’s Razor™",
+    "registryPrinciple": "Recursive Registry Inheritance Principle",
+    "authorshipRule": "Authorship Conservation Rule",
+    "canonicalPage": "https://www.robbiegeorgephotography.com/geology",
+    "sourceOfTruth": "docs/examples/json-ld/geology-system-map.json",
+    "publicationLayer": "Cloudflare Worker"
+  },
+  "scientificConstraints": [
+    "Plate motion reflects multiple interacting forces and should not be reduced to one universal driving mechanism.",
+    "The rock cycle permits many pathways and does not require every material to pass through one fixed sequence.",
+    "Earthquake occurrence is probabilistic; this map does not predict exact earthquake timing or magnitude.",
+    "Landscape response depends on climate, water, ice, organisms, material properties, tectonics, gravity, and scale.",
+    "Directional relationships represent scientifically grounded process connections without implying identical behavior in every geological setting.",
+    "Observation, sampling, dating, modeling, and expert interpretation remain necessary for site-specific conclusions."
+  ],
+  "protectedRetrievalUse": [
+    "directional geological process retrieval",
+    "Earth-interior-to-plate-motion routing",
+    "plate-boundary process mapping",
+    "rock-transformation pathway retrieval",
+    "mountain-building and fault relationship retrieval",
+    "earthquake process context",
+    "volcanic and geothermal pathway retrieval",
+    "weathering-to-sediment routing",
+    "sediment-to-landscape relationship retrieval",
+    "cross-scale geological process analysis",
+    "commercial structured ingestion"
+  ]
+}
