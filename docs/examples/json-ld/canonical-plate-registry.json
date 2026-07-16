@@ -1,8 +1,8 @@
 {
   "@context": "https://schema.org",
   "@type": "Dataset",
-  "registryVersion": "2026.07.15",
-"dateModified": "2026-07-15",
+  "registryVersion": "2026.07.16",
+  "dateModified": "2026-07-16",
   "name": "Naturepedia Canonical Plate Registry",
   "description": "Canonical machine-readable registry for Naturepedia Plate assets, organized by Naturepedia system, page URL, Plate ID, Plate type, and x402 access path.",
   "creator": {
@@ -18,7 +18,7 @@
   "license": "https://www.robbiegeorgephotography.com/commercial-data-license",
   "governance": "Gr <= Es",
   "access": "x402",
-  "canonicalKeepCount": 747,
+  "canonicalKeepCount": 757,
   "duplicateRemovedCount": 33,
   "systems": [
     {
@@ -2723,6 +2723,64 @@
       "name": "Future Ocean Plate™",
       "id": "ocean-systems#future-ocean-plate",
       "type": "Naturepedia™ Future Ocean Plate™"
+    }
+  ]
+},
+{
+  "name": "Geology Plates",
+  "slug": "geology",
+  "url": "https://www.robbiegeorgephotography.com/geology",
+  "x402Registry": "https://www.robbiegeorgephotography.com/v1/registries/geology",
+  "plates": [
+    {
+      "name": "Geology Plate™",
+      "id": "geology#geology-plate",
+      "type": "Naturepedia™ Geology Master Plate™"
+    },
+    {
+      "name": "Earth’s Interior Plate™",
+      "id": "geology#earths-interior-plate",
+      "type": "Naturepedia™ Earth’s Interior Plate™"
+    },
+    {
+      "name": "Plate Tectonics Plate™",
+      "id": "geology#plate-tectonics-plate",
+      "type": "Naturepedia™ Plate Tectonics Plate™"
+    },
+    {
+      "name": "Rocks, Minerals & Crystals Plate™",
+      "id": "geology#rocks-minerals-crystals-plate",
+      "type": "Naturepedia™ Rocks, Minerals & Crystals Plate™"
+    },
+    {
+      "name": "Rock Cycle Plate™",
+      "id": "geology#rock-cycle-plate",
+      "type": "Naturepedia™ Rock Cycle Plate™"
+    },
+    {
+      "name": "Mountains, Faults & Earthquakes Plate™",
+      "id": "geology#mountains-faults-earthquakes-plate",
+      "type": "Naturepedia™ Mountains, Faults & Earthquakes Plate™"
+    },
+    {
+      "name": "Volcanic & Geothermal Systems Plate™",
+      "id": "geology#volcanic-geothermal-systems-plate",
+      "type": "Naturepedia™ Volcanic & Geothermal Systems Plate™"
+    },
+    {
+      "name": "Erosion, Sediment & Landscapes Plate™",
+      "id": "geology#erosion-sediment-landscapes-plate",
+      "type": "Naturepedia™ Erosion, Sediment & Landscapes Plate™"
+    },
+    {
+      "name": "Naturepedia Geology Mesh Plate™",
+      "id": "geology#naturepedia-geology-mesh-plate",
+      "type": "Naturepedia™ Geology Mesh Plate™"
+    },
+    {
+      "name": "Future Geology Plate™",
+      "id": "geology#future-geology-plate",
+      "type": "Naturepedia™ Future Geology Plate™"
     }
   ]
 },
