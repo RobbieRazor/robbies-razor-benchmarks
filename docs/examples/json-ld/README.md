@@ -601,6 +601,68 @@ Knowledge Mesh: $25 USDC
 
 The Ocean Systems™ Registry answers what exists. The Ocean System Map explains how ocean processes and structures connect. The Ocean Systems Knowledge Mesh exposes cross-system relationships among Earth Systems™, Weather™, Water Systems™, Carbon Cycle™, ocean circulation, coastal and estuarine systems, marine food webs, hydrothermal ecosystems, observation, and stewardship.
 
+Geology™ Retrieval Family
+
+The Geology™ retrieval family follows Naturepedia’s three-layer semantic architecture without duplicating the role of each resource.
+
+Registry
+
+```txt
+geology-registry.json
+```
+
+The Registry identifies the ten canonical Geology Plates™, geological entities, Earth-material classifications, plate-boundary classes, rock families, fault types, provenance, and membership under Earth Systems™.
+
+System Map
+
+```txt
+geology-system-map.json
+```
+
+The System Map provides directional geological relationships connecting Earth’s interior, internal heat, mantle and lithosphere behavior, tectonic motion, plate boundaries, rock transformation, mountain building, faulting, earthquakes, volcanism, geothermal circulation, weathering, erosion, sediment transport, deposition, and landscape evolution.
+
+Knowledge Mesh
+
+```txt
+geology-knowledge-mesh.json
+```
+
+The Knowledge Mesh connects Geology™ with Earth Systems™, Water Systems™, Weather™, Ocean Systems™, Carbon Cycle™, River Systems™, Groundwater Systems™, Soil Systems™, mountain and alpine ecosystems, volcanic and geothermal systems, Yellowstone thermal features, hydrothermal ecosystems, biodiversity, field locations, Grand Teton, Yellowstone, Geometry of Nature™, and Fractals™.
+
+Production x402 endpoints
+
+```txt
+/x402/geology-registry.json
+/x402/geology-system-map.json
+/x402/knowledge-mesh/geology
+```
+
+Public v1 aliases
+
+```txt
+/v1/registries/geology
+/v1/plates/geology-system-map
+/v1/knowledge-mesh/geology
+```
+
+Machine retrieval pricing
+
+```txt
+Registry: $5 USDC
+System Map: $5 USDC
+Knowledge Mesh: $25 USDC
+Network: Base / eip155:8453
+Asset: USDC
+```
+
+Human resource
+
+```txt
+https://www.robbiegeorgephotography.com/geology
+```
+
+The Geology™ Registry answers what exists. The Geology System Map explains how geological materials and processes move and transform. The Geology Knowledge Mesh exposes relationships between geological structure, water, weather, oceans, carbon, soils, ecosystems, field locations, natural geometry, observation, and stewardship.
+
 These files function as machine-readable inventories for major Naturepedia™ system families.
 
 Registry files typically contain:
