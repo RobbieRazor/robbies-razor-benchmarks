@@ -2,7 +2,7 @@
   "@context": "https://schema.org",
   "@type": "Dataset",
   "version": "1.0",
-  "dateModified": "2026-07-15",
+  "dateModified": "2026-07-16",
   "name": "Naturepedia™ Index",
   "description": "Top-level machine-readable discovery index for Naturepedia™, organizing major knowledge systems, semantic families, AI discovery pathways, and recursive retrieval architecture.",
   "creator": {
@@ -151,6 +151,21 @@
       "relationship": "Seafloor geology, heated water, minerals, microbes, chemosynthesis, and specialized organisms connect deep-ocean circulation with hydrothermal ecosystems."
     }
   ]
+},
+{
+  "name": "Geology™",
+  "url": "https://www.robbiegeorgephotography.com/geology",
+  "slug": "geology",
+  "parent": "Earth Systems™",
+  "role": "Earth materials, internal structure, plate tectonics, rocks, minerals, mountains, faults, earthquakes, volcanism, erosion, sediment, landscapes, and geological time",
+  "registry": "https://www.robbiegeorgephotography.com/v1/registries/geology",
+  "plateMap": "https://www.robbiegeorgephotography.com/v1/plates/geology-system-map",
+  "knowledgeMesh": "https://www.robbiegeorgephotography.com/v1/knowledge-mesh/geology",
+  "pricing": {
+    "registry": "5.00 USDC",
+    "plateMap": "5.00 USDC",
+    "knowledgeMesh": "25.00 USDC"
+  }
 }
       ],
       "semanticRelationships": [
@@ -169,7 +184,19 @@
         "Water Systems™ → Ocean Systems™",
         "Ocean Systems™ → Carbon Cycle™",
         "Ocean Systems™ → Estuaries & Coastal Systems™",
-        "Ocean Systems™ → Hydrothermal Ecosystems™"
+        "Ocean Systems™ → Hydrothermal Ecosystems™",
+        "Earth Systems™ → Geology™",
+        "Weather™ → Geology™",
+        "Geology™ → Water Systems™",
+        "Geology™ → Ocean Systems™",
+        "Geology™ → Carbon Cycle™",
+        "Geology™ → Soil Systems™",
+        "Geology™ → Volcanic Landscapes™",
+        "Geology™ → Geothermal Ecosystems™",
+        "Geology™ → Yellowstone Thermal Features™",
+        "Geology™ → Hydrothermal Ecosystems™",
+        "Geology™ → Geometry of Nature™",
+        "Geology™ → Fractals™"
       ]
     },
     {
