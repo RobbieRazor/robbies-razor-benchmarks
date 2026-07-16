@@ -1,0 +1,367 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "@id": "https://www.robbiegeorgephotography.com/x402/knowledge-mesh/geology#geology-knowledge-mesh",
+  "version": "v1.0",
+  "dateModified": "2026-07-16",
+  "name": "Naturepedia Geology Knowledge Mesh",
+  "description": "Premium cross-system semantic mesh connecting Geology™ with Earth Systems™, Water Systems™, Weather™, Ocean Systems™, Carbon Cycle™, rivers, groundwater, soils, mountains, volcanic and geothermal systems, Yellowstone thermal features, hydrothermal ecosystems, biodiversity, field locations, Grand Teton, Yellowstone, Geometry of Nature™, and Fractals™.",
+  "system": "Geology™",
+  "canonicalUrl": "https://www.robbiegeorgephotography.com/geology",
+  "parentSystem": "Earth Systems™",
+  "creator": {
+    "@type": "Person",
+    "name": "Robbie George",
+    "url": "https://www.robbiegeorgephotography.com/who-is-robbie-george"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Naturepedia™",
+    "url": "https://www.robbiegeorgephotography.com/naturepedia"
+  },
+  "license": "https://www.robbiegeorgephotography.com/commercial-data-license",
+  "governance": "Gr <= Es",
+  "access": {
+    "protocol": "x402",
+    "tier": "sovereign",
+    "price": "25.00",
+    "asset": "USDC",
+    "network": "eip155:8453"
+  },
+  "resourceIdentifiers": {
+    "humanPage": "https://www.robbiegeorgephotography.com/geology",
+    "canonicalKnowledgeMesh": "https://www.robbiegeorgephotography.com/x402/knowledge-mesh/geology",
+    "knowledgeMeshAlias": "https://www.robbiegeorgephotography.com/v1/knowledge-mesh/geology",
+    "canonicalRegistry": "https://www.robbiegeorgephotography.com/x402/geology-registry.json",
+    "registryAlias": "https://www.robbiegeorgephotography.com/v1/registries/geology",
+    "canonicalSystemMap": "https://www.robbiegeorgephotography.com/x402/geology-system-map.json",
+    "systemMapAlias": "https://www.robbiegeorgephotography.com/v1/plates/geology-system-map"
+  },
+  "architecture": "Geological Substrate → Earth-System Constraints → Water, Weather & Ocean Interactions → Soil, Carbon & Ecosystem Development → Volcanic, Geothermal & Hydrothermal Systems → Mountains, Biodiversity & Field Locations → Natural Geometry, Observation & Stewardship",
+  "boundResources": {
+    "geologyRegistry": "https://www.robbiegeorgephotography.com/x402/geology-registry.json",
+    "geologySystemMap": "https://www.robbiegeorgephotography.com/x402/geology-system-map.json",
+    "earthSystemsRegistry": "https://www.robbiegeorgephotography.com/x402/earth-systems-registry.json",
+    "earthSystemsMap": "https://www.robbiegeorgephotography.com/x402/earth-systems-map.json",
+    "earthSystemsKnowledgeMesh": "https://www.robbiegeorgephotography.com/x402/knowledge-mesh/earth-systems",
+    "waterSystemsRegistry": "https://www.robbiegeorgephotography.com/x402/water-systems-registry.json",
+    "waterSystemMap": "https://www.robbiegeorgephotography.com/x402/water-system-map.json",
+    "waterSystemsKnowledgeMesh": "https://www.robbiegeorgephotography.com/x402/knowledge-mesh/water-systems",
+    "weatherRegistry": "https://www.robbiegeorgephotography.com/x402/weather-registry.json",
+    "weatherMap": "https://www.robbiegeorgephotography.com/x402/weather-map.json",
+    "weatherKnowledgeMesh": "https://www.robbiegeorgephotography.com/x402/knowledge-mesh/weather",
+    "oceanSystemsRegistry": "https://www.robbiegeorgephotography.com/x402/ocean-systems-registry.json",
+    "oceanSystemMap": "https://www.robbiegeorgephotography.com/x402/ocean-system-map.json",
+    "oceanSystemsKnowledgeMesh": "https://www.robbiegeorgephotography.com/x402/knowledge-mesh/ocean-systems",
+    "carbonCycleRegistry": "https://www.robbiegeorgephotography.com/x402/carbon-cycle-registry.json",
+    "carbonCycleMap": "https://www.robbiegeorgephotography.com/x402/carbon-cycle-map.json",
+    "carbonCycleKnowledgeMesh": "https://www.robbiegeorgephotography.com/x402/knowledge-mesh/carbon-cycle",
+    "soilSystemsRegistry": "https://www.robbiegeorgephotography.com/x402/soil-systems-registry.json",
+    "soilSystemsMap": "https://www.robbiegeorgephotography.com/x402/soil-systems-map.json",
+    "soilSystemsKnowledgeMesh": "https://www.robbiegeorgephotography.com/x402/knowledge-mesh/soil-systems",
+    "volcanicSystemsRegistry": "https://www.robbiegeorgephotography.com/x402/volcanic-systems-registry.json",
+    "volcanicSystemsMap": "https://www.robbiegeorgephotography.com/x402/volcanic-systems-map.json",
+    "geothermalSystemsRegistry": "https://www.robbiegeorgephotography.com/x402/geothermal-systems-registry.json",
+    "yellowstoneThermalRegistry": "https://www.robbiegeorgephotography.com/x402/yellowstone-thermal-registry.json",
+    "yellowstoneThermalMap": "https://www.robbiegeorgephotography.com/x402/yellowstone-thermal-map.json",
+    "hydrothermalEcosystemsRegistry": "https://www.robbiegeorgephotography.com/x402/hydrothermal-ecosystems-registry.json",
+    "hydrothermalMap": "https://www.robbiegeorgephotography.com/x402/hydrothermal-map.json",
+    "geometryOfNatureRegistry": "https://www.robbiegeorgephotography.com/x402/geometry-of-nature-registry.json",
+    "geometryOfNatureMap": "https://www.robbiegeorgephotography.com/x402/geometry-of-nature-map.json",
+    "geometryOfNatureKnowledgeMesh": "https://www.robbiegeorgephotography.com/x402/knowledge-mesh/geometry-of-nature",
+    "fractalsRegistry": "https://www.robbiegeorgephotography.com/x402/fractals-registry.json",
+    "fractalsMap": "https://www.robbiegeorgephotography.com/x402/fractals-map.json",
+    "fractalsKnowledgeMesh": "https://www.robbiegeorgephotography.com/x402/knowledge-mesh/fractals"
+  },
+  "crossSystemRelationships": [
+    {
+      "from": "Earth Systems™",
+      "to": "Geology™",
+      "relationship": "The geosphere, internal heat, gravity, atmosphere, hydrosphere, biosphere, and cryosphere interact across Earth’s coupled physical system."
+    },
+    {
+      "from": "Geology™",
+      "to": "Water Systems™",
+      "relationship": "Rock type, fractures, faults, permeability, topography, sediment, and basin structure influence runoff, infiltration, groundwater storage, springs, rivers, wetlands, and watersheds."
+    },
+    {
+      "from": "Weather™",
+      "to": "Geology™",
+      "relationship": "Precipitation, temperature variation, wind, freezing, thawing, and storms influence physical and chemical weathering, erosion, slope processes, and sediment transport."
+    },
+    {
+      "from": "Geology™",
+      "to": "Ocean Systems™",
+      "relationship": "Plate tectonics creates ocean basins, ridges, trenches, continental margins, seafloor relief, volcanic islands, and hydrothermal settings that constrain ocean circulation and habitat."
+    },
+    {
+      "from": "Ocean Systems™",
+      "to": "Geology™",
+      "relationship": "Waves, tides, currents, sea-level change, and marine deposition erode, transport, sort, and accumulate geological materials along coasts and across ocean basins."
+    },
+    {
+      "from": "Geology™",
+      "to": "Carbon Cycle™",
+      "relationship": "Rock weathering, carbonate formation, volcanic degassing, organic burial, sedimentation, metamorphism, and tectonic recycling connect geological processes with carbon movement across long timescales."
+    },
+    {
+      "from": "Geology™",
+      "to": "River Systems™",
+      "relationship": "Uplift, bedrock, faults, valley structure, slope, sediment supply, and erosion influence river gradients, channels, drainage networks, floodplains, and deltas."
+    },
+    {
+      "from": "Geology™",
+      "to": "Groundwater Systems™",
+      "relationship": "Porosity, permeability, fractures, faults, karst, confining layers, and basin geometry influence groundwater recharge, storage, flow, discharge, and water chemistry."
+    },
+    {
+      "from": "Geology™",
+      "to": "Soil Systems™",
+      "relationship": "Parent material, minerals, weathering, topography, drainage, sediment, climate, organisms, and time contribute to soil formation and soil properties."
+    },
+    {
+      "from": "Plate Convergence and Uplift",
+      "to": "Mountain & Alpine Ecosystems™",
+      "relationship": "Mountain building creates elevation, relief, slope, aspect, rock substrates, snow accumulation patterns, drainage divides, and habitat gradients."
+    },
+    {
+      "from": "Geology™",
+      "to": "Volcanic Landscapes™",
+      "relationship": "Partial melting, magma generation, ascent, intrusion, eruption, lava, ash, caldera formation, and erosion produce volcanic landforms and substrates."
+    },
+    {
+      "from": "Geology™",
+      "to": "Geothermal Ecosystems™",
+      "relationship": "Internal heat, magma, faults, fractured rock, groundwater, permeability, and mineral-rich fluids create geothermal environments."
+    },
+    {
+      "from": "Geology™",
+      "to": "Yellowstone Thermal Features™",
+      "relationship": "Regional volcanism, crustal heat, caldera structure, faults, fractures, groundwater, pressure, and mineral deposition support Yellowstone’s geysers, hot springs, fumaroles, and mud pots."
+    },
+    {
+      "from": "Geology™",
+      "to": "Hydrothermal Ecosystems™",
+      "relationship": "Heat, fractured rock, circulating water, dissolved minerals, chemical gradients, and fluid discharge create hydrothermal habitats on land and the seafloor."
+    },
+    {
+      "from": "Geological Substrate",
+      "to": "Biodiversity & Ecosystem Balance",
+      "relationship": "Rock, sediment, soils, minerals, landforms, water pathways, elevation, and disturbance influence habitat diversity, nutrient availability, ecological succession, and species distribution."
+    },
+    {
+      "from": "Geology™",
+      "to": "Field Locations",
+      "relationship": "Outcrops, mountains, valleys, coastlines, volcanic features, thermal systems, rivers, sediments, and landforms provide place-based evidence for geological observation."
+    },
+    {
+      "from": "Geology™",
+      "to": "Grand Teton",
+      "relationship": "Faulting, uplift, glaciation, erosion, sedimentation, lakes, rivers, and contrasting rock histories shape the Teton landscape and its habitats."
+    },
+    {
+      "from": "Geology™",
+      "to": "Yellowstone",
+      "relationship": "Volcanism, caldera history, hydrothermal circulation, glaciation, rivers, erosion, and sediment contribute to Yellowstone’s landscape, thermal features, soils, and ecosystems."
+    },
+    {
+      "from": "Geological Forms",
+      "to": "Geometry of Nature™",
+      "relationship": "Crystal symmetry, mineral cleavage, joints, faults, folds, drainage networks, sediment patterns, and landforms express geometry shaped by material properties, force, flow, and constraint."
+    },
+    {
+      "from": "Geological Landscapes",
+      "to": "Fractals™",
+      "relationship": "Some coastlines, fracture networks, drainage systems, erosion patterns, and topographic boundaries exhibit scale-dependent fractal-like structure without perfect or infinite self-similarity."
+    }
+  ],
+  "materialPathways": [
+    "internal heat + gravity + mantle behavior → plate motion → boundary deformation",
+    "plate convergence → subduction or collision → earthquakes, volcanism, metamorphism, and mountain building",
+    "plate divergence → rifting and seafloor spreading → new crust and ocean-basin development",
+    "magma → cooling and crystallization → igneous rock",
+    "rock exposure → weathering → erosion → sediment transport → deposition",
+    "sediment deposition → burial and lithification → sedimentary rock",
+    "heat + pressure + fluids → metamorphism → metamorphic rock",
+    "rock melting → magma → intrusion or eruption",
+    "uplift → topographic relief → weathering and erosion → renewed sediment production",
+    "fractures + permeable rock + groundwater + heat → hydrothermal circulation",
+    "bedrock + sediment + topography → watershed structure → rivers, groundwater, wetlands, estuaries, and coastal delivery",
+    "parent material + weathering + organisms + climate + time → soil development",
+    "geological substrate + water + climate + disturbance → habitat structure and biodiversity patterns"
+  ],
+  "placeBindings": [
+    {
+      "name": "Field Locations",
+      "url": "https://www.robbiegeorgephotography.com/field-locations",
+      "relationships": [
+        "place-based geological observation",
+        "landform interpretation",
+        "rock and sediment context",
+        "water and habitat relationships",
+        "field photography and human validation"
+      ]
+    },
+    {
+      "name": "Grand Teton",
+      "url": "https://www.robbiegeorgephotography.com/grand-teton-wildlife-photography-guide",
+      "relationships": [
+        "Teton fault system",
+        "mountain uplift",
+        "glacial erosion",
+        "alluvial and lake sediment",
+        "Snake River system",
+        "alpine habitat gradients"
+      ]
+    },
+    {
+      "name": "Yellowstone",
+      "url": "https://www.robbiegeorgephotography.com/yellowstone-wildlife-photography-guide",
+      "relationships": [
+        "Yellowstone caldera",
+        "volcanic history",
+        "hydrothermal circulation",
+        "thermal features",
+        "glaciation and erosion",
+        "rivers, soils, wildlife, and ecosystems"
+      ]
+    },
+    {
+      "name": "Yellowstone Thermal Features",
+      "url": "https://www.robbiegeorgephotography.com/yellowstone-thermal-features",
+      "relationships": [
+        "crustal heat",
+        "faults and fractures",
+        "groundwater circulation",
+        "geysers and hot springs",
+        "mineral deposition",
+        "microbial thermal habitats"
+      ]
+    },
+    {
+      "name": "Volcanic Landscapes",
+      "url": "https://www.robbiegeorgephotography.com/volcanic-landscapes",
+      "relationships": [
+        "magma systems",
+        "lava and ash",
+        "volcanic landforms",
+        "disturbance and succession",
+        "volcanic soils"
+      ]
+    },
+    {
+      "name": "Geothermal Ecosystems",
+      "url": "https://www.robbiegeorgephotography.com/geothermal-ecosystems",
+      "relationships": [
+        "geological heat",
+        "hydrothermal water",
+        "mineral gradients",
+        "thermophiles",
+        "ecosystem adaptation"
+      ]
+    },
+    {
+      "name": "Hydrothermal Ecosystems",
+      "url": "https://www.robbiegeorgephotography.com/hydrothermal-ecosystems",
+      "relationships": [
+        "fractured crust",
+        "heated fluids",
+        "mineral chemistry",
+        "chemosynthesis",
+        "specialized biological communities"
+      ]
+    }
+  ],
+  "observationLayers": [
+    {
+      "layer": "Field Evidence",
+      "methods": [
+        "outcrop mapping",
+        "rock and mineral identification",
+        "structural measurements",
+        "stratigraphic observation",
+        "landform interpretation",
+        "sediment description",
+        "photographic documentation"
+      ]
+    },
+    {
+      "layer": "Laboratory Evidence",
+      "methods": [
+        "mineral analysis",
+        "geochemistry",
+        "petrography",
+        "radiometric dating",
+        "experimental petrology",
+        "material-property measurements"
+      ]
+    },
+    {
+      "layer": "Geophysical Evidence",
+      "methods": [
+        "seismology",
+        "gravity measurements",
+        "magnetic measurements",
+        "electrical and electromagnetic surveys",
+        "heat-flow measurements",
+        "subsurface imaging"
+      ]
+    },
+    {
+      "layer": "Remote and Distributed Observation",
+      "methods": [
+        "satellite imagery",
+        "digital elevation models",
+        "GPS and satellite geodesy",
+        "InSAR",
+        "aerial mapping",
+        "bathymetry",
+        "long-term monitoring networks"
+      ]
+    }
+  ],
+  "retrievalSequence": [
+    "Geology Registry",
+    "Geology System Map",
+    "Earth Systems resources",
+    "Water, Weather, and Ocean resources",
+    "Carbon Cycle and Soil Systems resources",
+    "Volcanic, Geothermal, Yellowstone, and Hydrothermal resources",
+    "Field Locations and place bindings",
+    "Geometry of Nature and Fractals resources",
+    "Geology Knowledge Mesh",
+    "Conditional x402 Retrieval"
+  ],
+  "provenance": {
+    "architectOfRecord": "Robbie George",
+    "framework": "Robbie’s Razor™",
+    "registryPrinciple": "Recursive Registry Inheritance Principle",
+    "authorshipRule": "Authorship Conservation Rule",
+    "canonicalPage": "https://www.robbiegeorgephotography.com/geology",
+    "sourceOfTruth": "docs/examples/json-ld/geology-knowledge-mesh.json",
+    "publicationLayer": "Cloudflare Worker"
+  },
+  "scientificConstraints": [
+    "Cross-system relationships vary with place, material, rate, spatial scale, temporal scale, and available evidence.",
+    "Geological history is reconstructed from incomplete evidence and may be revised when new observations become available.",
+    "Earthquake occurrence and volcanic behavior cannot be reduced to deterministic predictions from this mesh.",
+    "Fractal-like or geometric resemblance does not establish one universal mechanism or perfect self-similarity.",
+    "Geological context influences ecosystems without determining every biological outcome.",
+    "Machine-assisted retrieval supports but does not replace field observation, laboratory evidence, expert interpretation, uncertainty assessment, or stewardship judgment."
+  ],
+  "protectedRetrievalUse": [
+    "cross-system geology traversal",
+    "Earth-interior-to-surface relationship retrieval",
+    "geology-to-water and groundwater routing",
+    "weather-to-weathering-to-sediment routing",
+    "geology-to-ocean-basin relationship retrieval",
+    "geological carbon pathway retrieval",
+    "geology-to-soil and biodiversity binding",
+    "volcanic, geothermal, and hydrothermal traversal",
+    "mountain and field-location binding",
+    "Yellowstone and Grand Teton geological context",
+    "geology-to-natural-geometry retrieval",
+    "observation-to-stewardship relationship retrieval",
+    "premium commercial machine ingestion"
+  ]
+}
