@@ -1,0 +1,310 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "@id": "https://www.robbiegeorgephotography.com/x402/geology-registry.json#geology-registry",
+  "version": "v1.0",
+  "dateModified": "2026-07-16",
+  "name": "Naturepedia Geology Registry",
+  "description": "Canonical machine-readable registry of Geology™ entities, classifications, relationships, and ten Naturepedia Plates covering Earth’s interior, plate tectonics, rocks, minerals, crystals, mountain building, faults, earthquakes, volcanism, geothermal systems, erosion, sediment, landscapes, observation, and stewardship.",
+  "system": "Geology™",
+  "canonicalUrl": "https://www.robbiegeorgephotography.com/geology",
+  "parentSystem": "Earth Systems™",
+  "category": "Earth Systems",
+  "creator": {
+    "@type": "Person",
+    "name": "Robbie George",
+    "url": "https://www.robbiegeorgephotography.com/who-is-robbie-george"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Naturepedia™",
+    "url": "https://www.robbiegeorgephotography.com/naturepedia"
+  },
+  "license": "https://www.robbiegeorgephotography.com/commercial-data-license",
+  "governance": "Gr <= Es",
+  "access": {
+    "protocol": "x402",
+    "tier": "plates",
+    "price": "5.00",
+    "asset": "USDC",
+    "network": "eip155:8453"
+  },
+  "resourceIdentifiers": {
+    "humanPage": "https://www.robbiegeorgephotography.com/geology",
+    "canonicalRegistry": "https://www.robbiegeorgephotography.com/x402/geology-registry.json",
+    "registryAlias": "https://www.robbiegeorgephotography.com/v1/registries/geology",
+    "canonicalSystemMap": "https://www.robbiegeorgephotography.com/x402/geology-system-map.json",
+    "systemMapAlias": "https://www.robbiegeorgephotography.com/v1/plates/geology-system-map",
+    "canonicalKnowledgeMesh": "https://www.robbiegeorgephotography.com/x402/knowledge-mesh/geology",
+    "knowledgeMeshAlias": "https://www.robbiegeorgephotography.com/v1/knowledge-mesh/geology"
+  },
+  "architecture": "Earth’s Interior → Plate Tectonics → Rocks, Minerals & Crystals → Rock Cycle → Mountains, Faults & Earthquakes → Volcanic & Geothermal Systems → Erosion, Sediment & Landscapes → Geology Mesh → Future Geology",
+  "plates": [
+    {
+      "name": "Geology Plate™",
+      "id": "geology#geology-plate",
+      "url": "https://www.robbiegeorgephotography.com/geology",
+      "type": "Naturepedia™ Geology Master Plate™",
+      "classification": "Master geology system overview"
+    },
+    {
+      "name": "Earth’s Interior Plate™",
+      "id": "geology#earths-interior-plate",
+      "url": "https://www.robbiegeorgephotography.com/geology",
+      "type": "Naturepedia™ Earth’s Interior Plate™",
+      "classification": "Crust, mantle, outer-core, inner-core, heat, density, and seismic-structure system"
+    },
+    {
+      "name": "Plate Tectonics Plate™",
+      "id": "geology#plate-tectonics-plate",
+      "url": "https://www.robbiegeorgephotography.com/geology",
+      "type": "Naturepedia™ Plate Tectonics Plate™",
+      "classification": "Lithospheric plate movement and boundary-process system"
+    },
+    {
+      "name": "Rocks, Minerals & Crystals Plate™",
+      "id": "geology#rocks-minerals-crystals-plate",
+      "url": "https://www.robbiegeorgephotography.com/geology",
+      "type": "Naturepedia™ Rocks, Minerals & Crystals Plate™",
+      "classification": "Earth-material composition, structure, property, and identification system"
+    },
+    {
+      "name": "Rock Cycle Plate™",
+      "id": "geology#rock-cycle-plate",
+      "url": "https://www.robbiegeorgephotography.com/geology",
+      "type": "Naturepedia™ Rock Cycle Plate™",
+      "classification": "Igneous, sedimentary, and metamorphic transformation system"
+    },
+    {
+      "name": "Mountains, Faults & Earthquakes Plate™",
+      "id": "geology#mountains-faults-earthquakes-plate",
+      "url": "https://www.robbiegeorgephotography.com/geology",
+      "type": "Naturepedia™ Mountains, Faults & Earthquakes Plate™",
+      "classification": "Crustal deformation, uplift, faulting, stress release, and seismic-hazard system"
+    },
+    {
+      "name": "Volcanic & Geothermal Systems Plate™",
+      "id": "geology#volcanic-geothermal-systems-plate",
+      "url": "https://www.robbiegeorgephotography.com/geology",
+      "type": "Naturepedia™ Volcanic & Geothermal Systems Plate™",
+      "classification": "Magma, volcanism, hydrothermal circulation, and geothermal-heat system"
+    },
+    {
+      "name": "Erosion, Sediment & Landscapes Plate™",
+      "id": "geology#erosion-sediment-landscapes-plate",
+      "url": "https://www.robbiegeorgephotography.com/geology",
+      "type": "Naturepedia™ Erosion, Sediment & Landscapes Plate™",
+      "classification": "Weathering, erosion, transport, deposition, and landscape-evolution system"
+    },
+    {
+      "name": "Naturepedia Geology Mesh Plate™",
+      "id": "geology#naturepedia-geology-mesh-plate",
+      "url": "https://www.robbiegeorgephotography.com/geology",
+      "type": "Naturepedia™ Geology Mesh Plate™",
+      "classification": "Cross-system geological relationship mesh"
+    },
+    {
+      "name": "Future Geology Plate™",
+      "id": "geology#future-geology-plate",
+      "url": "https://www.robbiegeorgephotography.com/geology",
+      "type": "Naturepedia™ Future Geology Plate™",
+      "classification": "Observation, modeling, uncertainty, human expertise, and stewardship system"
+    }
+  ],
+  "entityClasses": [
+    {
+      "class": "Earth Interior",
+      "entities": [
+        "continental crust",
+        "oceanic crust",
+        "lithosphere",
+        "asthenosphere",
+        "upper mantle",
+        "lower mantle",
+        "outer core",
+        "inner core",
+        "internal heat",
+        "seismic discontinuities"
+      ]
+    },
+    {
+      "class": "Plate Tectonic Systems",
+      "entities": [
+        "tectonic plates",
+        "divergent boundaries",
+        "convergent boundaries",
+        "transform boundaries",
+        "subduction zones",
+        "mid-ocean ridges",
+        "continental rifts",
+        "ocean trenches",
+        "mantle convection",
+        "plate motion"
+      ]
+    },
+    {
+      "class": "Earth Materials",
+      "entities": [
+        "minerals",
+        "crystals",
+        "igneous rocks",
+        "sedimentary rocks",
+        "metamorphic rocks",
+        "magma",
+        "lava",
+        "sediment",
+        "mineral grains",
+        "rock fabric"
+      ]
+    },
+    {
+      "class": "Crustal Deformation",
+      "entities": [
+        "uplift",
+        "folding",
+        "faulting",
+        "compression",
+        "extension",
+        "shear",
+        "mountain building",
+        "earthquakes",
+        "seismic waves",
+        "surface rupture"
+      ]
+    },
+    {
+      "class": "Volcanic and Geothermal Systems",
+      "entities": [
+        "magma chambers",
+        "volcanoes",
+        "lava flows",
+        "ash",
+        "calderas",
+        "hot springs",
+        "geysers",
+        "fumaroles",
+        "hydrothermal circulation",
+        "geothermal heat"
+      ]
+    },
+    {
+      "class": "Surface Processes",
+      "entities": [
+        "physical weathering",
+        "chemical weathering",
+        "biological weathering",
+        "erosion",
+        "mass movement",
+        "sediment transport",
+        "deposition",
+        "river valleys",
+        "coastlines",
+        "landscape evolution"
+      ]
+    },
+    {
+      "class": "Geological Observation",
+      "entities": [
+        "field mapping",
+        "rock and mineral identification",
+        "stratigraphy",
+        "radiometric dating",
+        "seismology",
+        "satellite geodesy",
+        "remote sensing",
+        "geophysical imaging",
+        "sampling",
+        "uncertainty assessment"
+      ]
+    }
+  ],
+  "classifications": {
+    "earthLayers": [
+      "crust",
+      "mantle",
+      "outer core",
+      "inner core"
+    ],
+    "plateBoundaries": [
+      "divergent",
+      "convergent",
+      "transform"
+    ],
+    "rockFamilies": [
+      "igneous",
+      "sedimentary",
+      "metamorphic"
+    ],
+    "faultTypes": [
+      "normal",
+      "reverse",
+      "thrust",
+      "strike-slip"
+    ],
+    "surfaceProcessStages": [
+      "weathering",
+      "erosion",
+      "transport",
+      "deposition",
+      "burial",
+      "uplift"
+    ]
+  },
+  "primaryRelationships": [
+    "internal heat → mantle movement",
+    "mantle movement + boundary forces → tectonic plate motion",
+    "plate divergence → rifting and seafloor spreading",
+    "plate convergence → subduction, collision, volcanism, and mountain building",
+    "transform motion → faulting and earthquakes",
+    "cooling magma or lava → igneous rock",
+    "weathering + erosion → sediment",
+    "transport + deposition + burial + lithification → sedimentary rock",
+    "heat + pressure + fluids → metamorphic rock",
+    "melting → magma",
+    "uplift + exposure → renewed weathering and erosion",
+    "erosion + transport + deposition → evolving landscapes"
+  ],
+  "relatedResources": {
+    "systemMap": "https://www.robbiegeorgephotography.com/x402/geology-system-map.json",
+    "knowledgeMesh": "https://www.robbiegeorgephotography.com/x402/knowledge-mesh/geology",
+    "earthSystemsRegistry": "https://www.robbiegeorgephotography.com/x402/earth-systems-registry.json",
+    "earthSystemsMap": "https://www.robbiegeorgephotography.com/x402/earth-systems-map.json",
+    "waterSystemsRegistry": "https://www.robbiegeorgephotography.com/x402/water-systems-registry.json",
+    "weatherRegistry": "https://www.robbiegeorgephotography.com/x402/weather-registry.json",
+    "oceanSystemsRegistry": "https://www.robbiegeorgephotography.com/x402/ocean-systems-registry.json",
+    "carbonCycleRegistry": "https://www.robbiegeorgephotography.com/x402/carbon-cycle-registry.json",
+    "volcanicSystemsRegistry": "https://www.robbiegeorgephotography.com/x402/volcanic-systems-registry.json",
+    "geothermalSystemsRegistry": "https://www.robbiegeorgephotography.com/x402/geothermal-systems-registry.json",
+    "yellowstoneThermalRegistry": "https://www.robbiegeorgephotography.com/x402/yellowstone-thermal-registry.json",
+    "hydrothermalEcosystemsRegistry": "https://www.robbiegeorgephotography.com/x402/hydrothermal-ecosystems-registry.json"
+  },
+  "provenance": {
+    "architectOfRecord": "Robbie George",
+    "framework": "Robbie’s Razor™",
+    "registryPrinciple": "Recursive Registry Inheritance Principle",
+    "authorshipRule": "Authorship Conservation Rule",
+    "canonicalPage": "https://www.robbiegeorgephotography.com/geology",
+    "sourceOfTruth": "docs/examples/json-ld/geology-registry.json",
+    "publicationLayer": "Cloudflare Worker"
+  },
+  "scientificConstraints": [
+    "Earth’s internal structure is inferred from seismic waves, gravity, magnetism, heat flow, laboratory measurements, and physical modeling rather than direct observation at most depths.",
+    "Mantle convection contributes to plate motion but does not act as a single simple conveyor system.",
+    "The rock cycle is a network of possible transformations rather than one fixed circular sequence.",
+    "Earthquake timing and magnitude cannot be predicted precisely from this registry.",
+    "Geological boundaries, rates, classifications, and reconstructions contain scale-dependent uncertainty.",
+    "Machine-readable relationships support retrieval but do not replace field evidence, laboratory analysis, expert interpretation, or uncertainty assessment."
+  ],
+  "protectedRetrievalUse": [
+    "canonical Geology Plate discovery",
+    "geological entity resolution",
+    "Earth-layer classification retrieval",
+    "plate-boundary classification retrieval",
+    "rock and mineral classification retrieval",
+    "fault and earthquake classification retrieval",
+    "volcanic and geothermal entity retrieval",
+    "surface-process classification retrieval",
+    "geological provenance validation",
+    "commercial structured ingestion"
+  ]
+}
