@@ -59,7 +59,11 @@ Where:
 
 This principle clarifies that long-term recursive capability growth depends primarily on compression efficiency, preserved memory, and reduced recomputation burden rather than unconstrained infrastructure expansion alone.
 
-Canonical authority remains exclusively in MRD §11.4.4A.
+Canonical authority for recursive engineering now spans **MRD Sections 11 and 12**.
+
+Section 11 defines the underlying recursion architecture.
+
+Section 12 defines the engineering, retrieval, deployment, comparison, and knowledge-system implementation of that architecture.
 
 ## Robbie’s Razor Architecture
 
@@ -161,18 +165,52 @@ Quick research summary: docs/RESEARCH_OVERVIEW.md
 
 ## Knowledge Architecture
 
+The applied knowledge architecture of this repository is formally defined by **Section 12 — Structural Intelligence Engineering** of the Grand Compression Master Reference Document (MRD v1.9).
+
+Section 12 establishes the engineering principles governing:
+
+- Recursive Knowledge Compression Architecture (RKCA)
+- Recursive Compression Interfaces (RCIs)
+- Plates™ as applied cognitive infrastructure
+- Recursive Registry Inheritance Principle (RRIP)
+- Comparative Compression Geometry™
+- retrieval-dominant knowledge systems
+- machine-readable intelligence
+- recursive deployment under energy, memory, governance, and substrate constraints
+
+Within this repository:
+
+compression → expression → memory → recursion
+
+is implemented as an engineering architecture rather than merely a conceptual sequence.
+
 Recursive Knowledge Compression Architecture (RKCA) defines how complex knowledge systems are compressed into reusable human-readable and machine-readable cognitive structures.
 
-RKCA extends Robbie’s Razor and the Grand Compression Cosmology into structured knowledge systems, including Recursive Compression Interfaces (RCIs) and Plates™.
+RKCA extends Robbie's Razor into applied knowledge systems through:
 
-Key documents:
+- Recursive Compression Interfaces (RCIs)
+- Plates™
+- Registries
+- System Maps
+- Graph Registries™
+- Knowledge Meshes
+- machine-readable retrieval
 
-- [Recursive Knowledge Compression Architecture (RKCA)](docs/recursive-knowledge-compression.md)
-- [Plates™ and RKCA Attribution Protocol](governance/plates_and_rkca_attribution.md)
-- [Gray Wolf Species Plate™ Example](docs/examples/gray_wolf_species_plate_example.md)
-- [Live Plate™ Examples Index](docs/examples/plate_examples_index.md)
+These components collectively form a **retrieval-dominant architecture**.
 
-RKCA and Plates™ are applied knowledge-architecture layers. They do not redefine canonical theory, which remains exclusively governed by the Master Reference Document (MRD v1.9) and the Authorship Conservation Rule (ACR).
+Rather than repeatedly reconstructing knowledge from raw information, validated compressed structures are preserved as reusable cognitive infrastructure.
+
+This architecture reduces unnecessary recomputation while preserving provenance, semantic relationships, and recursive continuity.
+
+Canonical references:
+
+- Recursive Knowledge Compression Architecture (MRD §12.7)
+- Recursive Registry Inheritance Principle (MRD §12.8)
+- Comparative Compression Geometry™ (MRD §12.9)
+
+RKCA and all repository implementations remain applied engineering layers.
+
+Canonical definitions remain exclusively governed by the Master Reference Document (MRD v1.9).
 
 ### Earth Systems Expansion (Naturepedia™)
 
@@ -295,8 +333,6 @@ Primary discovery endpoints:
 
 These registries function as recursive knowledge structures within the broader Naturepedia™, RKCA™, RRIP™, Graph Registry™, Knowledge Mesh™, and Robbie's Razor™ architecture.
 
-These registries function as recursive knowledge structures within the broader Naturepedia™, RKCA™, RRIP™, Graph Registry™, and Knowledge Mesh architecture.
-
 ### Weather™ Integration — July 2026
 
 Weather™ expands the Naturepedia Earth Systems architecture with a scientifically grounded atmospheric knowledge family.
@@ -385,50 +421,56 @@ Primary canonical references:
 
 RRIP does not redefine canonical theory. It extends the applied architecture layer connecting Plates™, Registries, Graph Registries™, and Knowledge Mesh systems.
 
-## Comparative Compression Geometry
+## Comparative Compression Geometry™
 
-The Grand Compression Framework incorporates **E8 Lattice™** as a **comparative compression geometry** that supports Recursive Knowledge Compression Architecture (RKCA) and the broader Naturepedia™ knowledge architecture.
+Comparative Compression Geometry™ is the formal cross-system comparison layer defined in **MRD §12.9**.
 
-Within the framework, E8 demonstrates how:
+It provides a disciplined method for evaluating structural correspondence between systems that differ in:
 
-- constrained symmetry preserves relational organization;
-- invariant preservation enables recursive stability;
-- compact mathematical structures may encode exceptionally rich relationships;
-- and high-dimensional organization can remain coherent through constrained transformation.
+- substrate
+- scale
+- material composition
+- domain
+- mechanism
 
-E8 serves as a mathematical analogue for recursive knowledge compression rather than a universal physical substrate.
+Comparison occurs only after normalization through Robbie's Razor.
 
-Its purpose is to strengthen understanding of:
+The framework therefore compares preserved recursive organization rather than shared physical substance.
 
-- Robbie's Razor™
-- Recursive Knowledge Compression Architecture (RKCA)
+Within the repository, Comparative Compression Geometry™ supports:
+
+- RKCA
 - Plate™ systems
-- Registry architectures
-- Knowledge Meshes™
-- recursive semantic organization
+- Registries
+- Knowledge Meshes
+- semantic retrieval
+- cross-domain benchmark interpretation
 
-The framework distinguishes clearly between:
+The framework distinguishes carefully between:
 
-- mathematical illustration;
-- structural correspondence;
-- architectural analogy;
-- and empirically established scientific mechanisms.
+- mathematical analogy
+- structural correspondence
+- normalized recursive comparison
+- empirically established scientific mechanisms
 
 Accordingly, the framework does **not** assert that:
 
 - natural systems literally instantiate the E8 lattice;
-- structural similarity establishes causal identity;
+- structural correspondence establishes material identity;
 - E8 is the universal geometry of nature;
 - or visual resemblance demonstrates physical equivalence.
 
-Canonical doctrine:
+E8 remains one bounded mathematical example of comparative compression geometry.
 
-- `docs/doctrine/e8-comparative-compression-geometry.md`
+It illustrates how dense relational organization may remain coherent through constrained symmetry and invariant preservation.
 
 Canonical authority:
 
-- **Grand Compression Master Reference Document (MRD v1.9)**  
-  **§7.6 — E8 Lattice as Comparative Compression Geometry**
+**MRD §12.9 — Comparative Compression Geometry™**
+
+Supporting mathematical example:
+
+**MRD §7.6 — E8 Lattice as Comparative Compression Geometry**
 
 ## Naturepedia Semantic Plate Registry
 
