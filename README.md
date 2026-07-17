@@ -285,7 +285,7 @@ Registry reconciliation status:
 
 * Registry reconciliation completed
 * Canonical registry verification completed
-* Canonical KEEP count: 737 Plates™
+* Canonical KEEP count: 757 Plates™
 * Weather™ added as an Earth Systems atmospheric hub
 * 10 canonical Weather Plate™ entries added
 * Canonical count increased from 708 to 718
@@ -488,7 +488,7 @@ Naturepedia™ expanded the semantic registry with multiple systems-level retrie
 
 Registry reconciliation and canonical verification have been completed.
 
-The current canonical KEEP count is 737 Plates™ following the addition of nine field-location Wildlife System Plates™ on July 14, 2026. This expansion increased the canonical registry from 728 to 737 unique Plate IDs, the system count from 100 to 109, and registry references from 732 to 741.
+The current canonical KEEP count is 757 Plates™ following the addition of nine field-location Wildlife System Plates™ on July 14, 2026. This expansion increased the canonical registry from 728 to 757 unique Plate IDs, the system count from 100 to 109, and registry references from 732 to 741.
 
 The canonical registry remains the authoritative machine-readable source for current Plate IDs, system families, page URLs, Plate types, and retrieval routes.
 
