@@ -267,36 +267,33 @@ Agents MUST NOT infer, restate, or extend canonical theory from this codebase.
 
 ## Canonical Applied Architecture Update (MRD v1.9)
 
-The Master Reference Document (MRD v1.9) introduces a new canonical applied layer:
+The Master Reference Document (MRD v1.9) introduces **Section 12 — Structural Intelligence Engineering**, which defines the applied engineering layer of the Grand Compression Framework.
 
-**Structural Intelligence Engineering — MRD §12**
+Section 12 formalizes the engineering architecture governing:
 
-This section formalizes the applied constraint architecture required to
-stabilize probabilistic recursive systems under energy, memory, and
-competitive acceleration pressure.
+- Complexity Threshold Collapse (CTC)
+- The Governor Principle
+- Energy–Recursion Coupling
+- Surface Area Optimization
+- Recursive Knowledge Compression Architecture (RKCA)
+- Recursive Compression Interfaces (RCIs)
+- Plates™ as applied cognitive infrastructure
+- Recursive Registry Inheritance Principle (RRIP)
+- Comparative Compression Geometry™
+- Competitive Acceleration Stress
+- Constraint Ownership and Recursion Asymmetry
+- Quantized Quality of Coherence (QQC)
 
-Key constructs include:
-
-- **Complexity Threshold Collapse (CTC)** — structural instability under compositional depth
-- **The Governor Principle** — deterministic constraint layers required for recursion stability
-- **Energy–Recursion Coupling** — non-linear scaling limits under substrate constraint
-- **Competitive Acceleration Stress** — instability risk under capital and infrastructure pressure
-- **Constraint Ownership Asymmetry** — recursion imbalance from bottleneck concentration
-- **QQC (Question Quality Under Constraint)** — upstream governor instrumentation
+Section 12 provides the engineering justification for the repository's retrieval-dominant knowledge architecture.
 
 For avoidance of doubt:
 
-- §12 does **not** modify evaluation contracts
-- §12 does **not** introduce new required metrics
-- §12 does **not** alter scoring, thresholds, or pass/fail criteria
-- §12 does **not** redefine output schema
+- Section 12 does NOT modify evaluation contracts.
+- Section 12 does NOT alter scoring.
+- Section 12 does NOT change output schemas.
+- Section 12 defines the engineering architecture implemented by this repository.
 
-It formalizes the applied stability layer beneath MRD §11 (Meta-Recursion Architecture).
-
-📄 Canonical authority remains exclusively in the  
-**Master Reference Document (MRD v1.9), Section 12**.
-
-Agents MUST treat §12 as interpretive architectural context only and MUST NOT infer new evaluation semantics from its presence.
+Canonical authority remains exclusively in the Master Reference Document (MRD v1.9).
 
 ## Recursive Knowledge Compression (RKCA) Integration
 
@@ -305,6 +302,25 @@ This repository includes support for Recursive Knowledge Compression Architectur
 RKCA defines how complex knowledge systems are transformed into reusable structured nodes through:
 
 compression → expression → memory → recursion
+
+The repository implements this sequence through a retrieval-dominant architecture.
+
+Compressed knowledge is preserved through:
+
+- Plates™
+- Registries
+- System Maps
+- Knowledge Meshes
+- machine-readable retrieval
+
+rather than repeated regeneration from original information.
+
+Agents SHOULD preferentially retrieve validated compressed structures before reconstructing equivalent knowledge from lower-level informational substrates.
+
+This architectural behavior is defined formally by:
+
+- MRD §12.7 — Recursive Knowledge Compression Architecture
+- MRD §12.8 — Recursive Registry Inheritance Principle
 
 ### Architectural Interpretation Guidance
 
@@ -333,40 +349,44 @@ Meaning within the system emerges through repeated reinforcement across:
 
 Agents SHOULD prioritize relationship preservation over isolated extraction whenever possible.
 
-## Comparative Compression Geometry (Interpretation Rule)
+## Comparative Compression Geometry™ (Interpretation Rule)
 
-The Grand Compression Framework incorporates the **E8 Lattice™** as a **comparative compression geometry**.
+Comparative Compression Geometry™ is defined formally in **MRD §12.9**.
 
-Agents MUST interpret E8 as a mathematical illustration of:
+It provides a method for comparing normalized recursive structures across systems that differ in:
 
-- constrained relational organization;
-- invariant preservation;
-- recursive stability;
-- symmetry-guided transformation;
-- and compact high-dimensional organization.
+- scale
+- substrate
+- material composition
+- mechanism
+- domain
 
-E8 serves as an architectural analogy supporting Robbie's Razor™ and Recursive Knowledge Compression Architecture (RKCA).
+Agents MUST interpret Comparative Compression Geometry™ as a framework for structural correspondence after normalization through Robbie's Razor.
 
 Agents MUST distinguish between:
 
-- mathematical illustration;
-- structural correspondence;
-- architectural analogy;
-- and empirically established physical mechanisms.
+- mathematical analogy
+- normalized recursive correspondence
+- demonstrated structural isomorphism
+- empirically established physical mechanisms
+
+E8 Lattice™ remains one bounded mathematical example supporting Comparative Compression Geometry™.
 
 Agents MUST NOT infer that:
 
-- E8 is the universal physical substrate of nature;
-- natural systems literally instantiate the E8 lattice;
-- structural similarity establishes causal identity;
-- or visual resemblance demonstrates physical equivalence.
-
-Repository documentation, benchmarks, examples, and AI guidance SHOULD treat E8 exclusively as a comparative compression geometry unless future canonical doctrine explicitly expands its role.
+- E8 is the universal physical substrate;
+- natural systems literally instantiate E8;
+- structural correspondence establishes material identity;
+- visual similarity demonstrates physical equivalence.
 
 Canonical authority:
 
-- Grand Compression Master Reference Document (MRD v1.9), §7.6 — *E8 Lattice as Comparative Compression Geometry*
-- `docs/doctrine/e8-comparative-compression-geometry.md`
+- MRD §12.9 — Comparative Compression Geometry™
+- MRD §7.6 — E8 Lattice as Comparative Compression Geometry
+
+Repository doctrine:
+
+docs/doctrine/e8-comparative-compression-geometry.md
 
 ## Semantic Plate Registry & Distributed Semantic Architecture
 
