@@ -1,7 +1,7 @@
 # Canonical Claim Alignment
 ### Robbie’s Razor Benchmarks Repository
 
-This document defines how this repository aligns with the canonical claims of the **Grand Compression Cosmology**.
+This document defines how this repository aligns with the canonical claims and doctrine of the **Grand Compression Cosmology**.
 
 The canonical claims are maintained in the **Grand Compression Canonical Claims Register**.
 
@@ -17,57 +17,117 @@ https://www.robbiegeorgephotography.com/grand-compression-canonical-claims
 
 # Purpose
 
-This repository implements empirical experiments and benchmark demonstrations aligned with the reasoning principles defined in the Grand Compression Cosmology.
+This repository implements empirical experiments, benchmark demonstrations, machine-readable examples, and applied architecture aligned with the reasoning principles defined in the Grand Compression Cosmology.
 
-The repository therefore serves as an **evaluation and demonstration layer**, not a canonical definition layer.
+The repository serves as an **evaluation, demonstration, and implementation-alignment layer**, not a canonical definition layer.
 
-Canonical definitions always reside in the **Master Reference Document (MRD)**.
+Canonical definitions reside in the **Master Reference Document (MRD)**. Canonical claim identifiers originate only in the public Canonical Claims Register.
+
+The repository MUST NOT invent, renumber, or reassign canonical claim identifiers.
 
 ---
 
-# Claim Alignment
+# MRD §12 — Structural Intelligence Engineering
+
+MRD §12 defines the applied architecture through which recursive systems are engineered, compared, preserved, inherited, governed, and deployed.
+
+The section formalizes:
+
+- Complexity Threshold Collapse;
+- the Governor Principle;
+- Energy–Recursion Coupling;
+- the Surface Area Optimization Principle;
+- Recursive Knowledge Compression Architecture (RKCA);
+- Recursive Compression Interfaces (RCIs);
+- Plates™ as applied cognitive infrastructure;
+- the Recursive Registry Inheritance Principle (RRIP);
+- Comparative Compression Geometry™ (CCG);
+- Competitive Acceleration Stress;
+- Constraint Ownership and Recursion Asymmetry;
+- the Quantized Quality of Coherence Benchmark (QQC);
+- governance, provenance, attribution, and AI-use constraints.
+
+The repository implements, evaluates, and documents these structures but does not redefine them.
+
+**Canonical authority:**  
+Grand Compression Master Reference Document — MRD §12, Structural Intelligence Engineering
+
+---
+
+# Canonical Claim Alignment
 
 The following canonical claims are directly operationalized or evaluated by this repository.
 
 ## RC-01 — Robbie’s Razor
-**Canonical Claim**
+
+### Canonical Claim
 
 When competing explanations exist, prefer the model that follows:
 
 compression → expression → memory → recursion.
 
-Repository role:
+### Repository Role
 
-This repository evaluates reasoning systems to determine whether they demonstrate the efficiency properties predicted by Robbie’s Razor.
+This repository evaluates reasoning systems to determine whether they demonstrate the efficiency, stability, memory-preservation, and constraint-alignment properties predicted by Robbie’s Razor.
 
 ---
 
 ## RC-03 — Recursion as the Stability Architecture
 
-**Canonical Claim**
+### Canonical Claim
 
 Recursion is not merely repetition within the Grand Compression Cosmology; it is the stability architecture by which compressed structure is preserved, expressed, remembered, and renewed across scale.
 
-Repository role:
+### Repository Role
 
-Experiments in this repository evaluate how recursive reasoning structures affect reasoning stability and efficiency across model outputs.
+Experiments and examples in this repository evaluate how recursive reasoning structures affect stability, efficiency, retrieval, and coherence across repeated model outputs and inherited knowledge structures.
 
 ---
 
-## Recursive Registry Inheritance Principle (RRIP)
+## MRD §12.7 — Recursive Knowledge Compression Architecture
 
-**Architectural Alignment Extension**
+### Doctrine Alignment
 
-The Recursive Registry Inheritance Principle (RRIP) extends the repository interpretation of Recursive Knowledge Compression Architecture (RKCA).
+Recursive Knowledge Compression Architecture (RKCA) defines how complex knowledge systems are transformed into reusable human-readable and machine-readable cognitive structures.
+
+RKCA operationalizes:
+
+compression → expression → memory → recursion
+
+through Recursive Compression Interfaces, Plates™, registries, system maps, graph structures, and knowledge meshes.
+
+### Repository Role
+
+This repository treats the following as reusable compressed knowledge structures:
+
+- Plate™ systems;
+- semantic registries;
+- JSON-LD structures;
+- system maps;
+- Graph Registries™;
+- Naturepedia™ relationship systems;
+- Knowledge Meshes;
+- machine-readable retrieval endpoints.
+
+RKCA is an MRD doctrine component. It does not currently receive a repository-created RC identifier.
+
+---
+
+## MRD §12.8 — Recursive Registry Inheritance Principle
+
+### Doctrine Alignment
+
+The Recursive Registry Inheritance Principle (RRIP) defines how compressed knowledge structures become substrates for higher-order knowledge compression.
 
 Formal progression:
 
 ```txt
 Plate™
 → Registry
-→ Meta-Registry
+→ System Map
 → Graph Registry™
 → Knowledge Mesh
+→ Higher-Order Index
 ```
 
 Formal notation:
@@ -79,40 +139,87 @@ Rₙ → Sₙ₊₁
 
 Where:
 
-* Sₙ = compression sequence at order n
-* Rₙ = compressed registry generated by that sequence
+- Sₙ = compression sequence at recursive order n;
+- Rₙ = compressed registry generated by that sequence;
+- Sₙ₊₁ = subsequent sequence inheriting Rₙ as part of its substrate.
 
-Relationship to RC-03:
+### Relationship to RC-03
 
-RC-03 defines recursion as the mechanism by which compressed structure is preserved across scale.
+RC-03 defines recursion as the mechanism through which compressed structure is preserved and renewed across scale.
 
-RRIP defines how preserved compressed structures become the substrate for future compression cycles.
+RRIP defines how preserved compressed structures become reusable substrates for future compression cycles.
 
-Repository role:
+### Repository Role
 
-This repository treats:
+The repository preserves registries, maps, JSON-LD structures, indexes, and knowledge meshes as inherited recursive memory structures rather than passive storage artifacts.
 
-* Plate™ systems
-* semantic registries
-* JSON-LD structures
-* Graph Registries™
-* Naturepedia™ relationship systems
+RRIP does not currently introduce a separate canonical claim identifier in this repository.
 
-as reusable recursive memory structures rather than passive storage artifacts.
+---
 
-RRIP does not introduce a new canonical claim.
+## MRD §12.9 — Comparative Compression Geometry™
 
-It provides architectural alignment guidance for interpreting how recursive knowledge structures compound through registry inheritance
+### Doctrine Alignment
+
+Comparative Compression Geometry™ defines a method for evaluating structural correspondence between systems after normalization through Robbie’s Razor.
+
+Formal relationship:
+
+```txt
+A ~ℛ B
+iff
+Σℛ(A) = Σℛ(B)
+```
+
+This denotes equality of declared normalized recursive signatures under stated comparison rules. It does not assert material, causal, mechanistic, or ontological identity between the source systems.
+
+### Repository Role
+
+The repository supports Comparative Compression Geometry through:
+
+- cross-domain benchmark comparisons;
+- Recursive Knowledge Compression Architecture;
+- Plate™ systems;
+- semantic registries;
+- system maps and knowledge meshes;
+- comparative geometry documentation;
+- E8 Lattice™ examples.
+
+### E8 Application
+
+E8 Lattice™ is retained as a bounded comparative geometry example illustrating constrained symmetry, invariant preservation, and high-dimensional relational organization.
+
+The E8 lattice and root system are eight-dimensional. The associated E8 Lie algebra has dimension 248.
+
+E8 does not define the full scope of Comparative Compression Geometry, and repository materials MUST NOT represent it as the literal physical substrate of biological, geological, ecological, or cosmological systems.
+
+### Boundary
+
+Comparative Compression Geometry does not assert that:
+
+- structurally corresponding systems are materially identical;
+- visual resemblance proves mathematical isomorphism;
+- all systems instantiate one physical substrate;
+- natural systems perform explicit E8 calculations;
+- phase correspondence alone establishes full Razor isomorphism;
+- mathematical analogy establishes causal identity.
+
+### Canonical Authority
+
+- MRD §12.9 — Comparative Compression Geometry™;
+- MRD §7.6 — E8 Lattice as a bounded comparative geometry example.
+
+Comparative Compression Geometry does not currently receive an RC identifier in this repository. Any future identifier must originate in the public Canonical Claims Register.
 
 ---
 
 ## RC-13 — Canonical Authority of the Master Reference Document
 
-**Canonical Claim**
+### Canonical Claim
 
-The Master Reference Document (MRD) serves as the authoritative specification for the structure, terminology, and definitions of the Grand Compression Cosmology.
+The Master Reference Document serves as the authoritative specification for the structure, terminology, definitions, and governance of the Grand Compression Cosmology.
 
-Repository role:
+### Repository Role
 
 All terminology and conceptual definitions used in this repository derive from the MRD.
 
@@ -122,56 +229,43 @@ This repository does not redefine canonical concepts.
 
 ## RC-15 — Compliance as Semantic Integrity Preservation
 
-**Canonical Claim**
+### Canonical Claim
 
 Compliance within Robbie’s Razor and the Grand Compression Cosmology exists to preserve semantic integrity, authorship fidelity, and implementation alignment.
 
-Repository role:
+### Repository Role
 
-Repository documentation, experiments, and derived implementations must maintain semantic alignment with the MRD and canonical claim register.
+Repository documentation, experiments, examples, machine-readable resources, and derived implementations must maintain semantic alignment with the MRD and Canonical Claims Register.
 
 ---
 
-## RC-16 — Comparative Compression Geometry
+## RC-16 — Environmental Reciprocity as Governance Extension
 
 ### Canonical Claim
 
-The Grand Compression Framework incorporates the **E8 Lattice™** as a **comparative compression geometry** illustrating how high-dimensional relational complexity may remain coherent through constrained symmetry, invariant preservation, and structured transformation.
+The Grand Compression Cosmology extends governance beyond technical and legal control by requiring environmental reciprocity, recognizing that recursive intelligence systems remain accountable to the ecological substrates that sustain them.
 
-Within the framework, E8 functions as:
+### Repository Role
 
-- a comparative compression model;
-- an example of constrained relational organization;
-- a mathematical analogue for recursive stability;
-- a supporting geometry for Robbie's Razor™;
-- and an architectural analogue for Recursive Knowledge Compression Architecture (RKCA).
+Repository architecture should evaluate energy use, infrastructure demand, externalized ecological cost, and constraint ownership when describing recursive intelligence systems.
 
-### Repository Alignment
+RC-16 MUST NOT be reassigned to Comparative Compression Geometry or any other doctrine component.
 
-Repository documentation aligns with this claim through:
+---
 
-- `docs/doctrine/e8-comparative-compression-geometry.md`
-- `AGENTS.md`
-- `README.md`
+# Retrieval-Dominant Architecture Alignment
 
-### Boundary
+The repository distinguishes retrieval-dominant architecture from regeneration-dominant architecture.
 
-This claim does **not** assert that:
+Validated compressed structures are preserved through Plates™, registries, system maps, knowledge meshes, and machine-readable endpoints so that future systems may retrieve and reuse coherent structure without repeatedly reconstructing it from raw informational mass.
 
-- E8 is the universal physical substrate of nature;
-- natural systems literally instantiate the E8 lattice;
-- structural correspondence establishes causal identity;
-- or visual similarity demonstrates physical equivalence.
+Retrieval-dominant does not mean retrieval-only.
 
-Repository materials MUST preserve this interpretive boundary.
+Primary sources, field observations, and canonical evidence remain available for verification when required.
 
-### Canonical Authority
+This architecture is formally grounded in MRD §§12.7–12.8 and remains bounded by the energy, memory, transition-cost, governance, provenance, and deployment constraints defined throughout MRD §12.
 
-Grand Compression Master Reference Document (MRD v1.9)
-
-Section 7.6
-
-**E8 Lattice as Comparative Compression Geometry**
+---
 
 # Boundary Rule
 
@@ -181,6 +275,8 @@ All canonical claims originate exclusively with:
 
 **Robbie George**  
 Author of the Grand Compression Cosmology
+
+Repository documentation may align implementations with MRD doctrine sections that do not yet possess individual RC identifiers, but it MUST clearly label those entries as doctrine alignment rather than canonical claim assignment.
 
 ---
 
@@ -202,6 +298,6 @@ https://www.robbiegeorgephotography.com/grand-compression-canonical-claims
 
 This repository is aligned with:
 
-**MRD v1.9**
+**MRD v1.9 — including revised §12, Structural Intelligence Engineering**
 
-Future repository revisions should update this document if additional claims become operationalized by experiments or benchmarks.
+Future repository revisions should update this document whenever canonical claims or doctrine sections are revised, renumbered, or newly operationalized by experiments, benchmarks, registries, or machine-readable architecture.
