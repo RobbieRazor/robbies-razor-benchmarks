@@ -1,0 +1,106 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "rgp": "https://www.robbiegeorgephotography.com/ns/",
+    "canonicalPath": "rgp:canonicalPath",
+    "resourceClass": "rgp:resourceClass",
+    "schemaVersion": "rgp:schemaVersion",
+    "registryVersion": "rgp:registryVersion",
+    "paidPath": "rgp:paidPath"
+  },
+  "@type": "DataCatalog",
+  "@id": "https://www.robbiegeorgephotography.com/canonical-publication-manifest.json",
+  "name": "Naturepedia Canonical Publication Manifest",
+  "description": "Canonical publication metadata used to validate Naturepedia machine-readable resources at the paid retrieval boundary before serialization, hashing, request binding, settlement delivery, and RRIP verification.",
+  "url": "https://www.robbiegeorgephotography.com/canonical-publication-manifest.json",
+  "version": "1.0",
+  "dateModified": "2026-07-21",
+  "publisher": {
+    "@type": "Person",
+    "name": "Robbie George",
+    "url": "https://www.robbiegeorgephotography.com/"
+  },
+  "governance": {
+    "@type": "CreativeWork",
+    "name": "Robbie's Razor Governance",
+    "principle": "Gr <= Es",
+    "boundaryFailureCode": "TOLLBOOTH_FIDELITY_FAILURE",
+    "boundaryFailureStatus": 503,
+    "unknownResourceCode": "PAID_RESOURCE_NOT_FOUND",
+    "unknownResourceStatus": 404
+  },
+  "publicationRules": {
+    "manifestRequired": true,
+    "canonicalPathRequired": true,
+    "resourceClassRequired": true,
+    "schemaVersionRequired": true,
+    "registryVersionRequired": true,
+    "canonicalSerializationRequired": true,
+    "payloadHashAlgorithm": "SHA-256",
+    "requestBindingRequired": true,
+    "rripValidationRequired": true,
+    "unknownResourcesMayChallengePayment": false
+  },
+  "dataset": [
+    {
+      "@type": "Dataset",
+      "@id": "https://www.robbiegeorgephotography.com/v1/registries/geology",
+      "name": "Naturepedia Geology Registry",
+      "description": "Canonical registry for the Naturepedia Geology system and its published Plates.",
+      "canonicalPath": "/x402/geology-registry.json",
+      "paidPath": "/x402/geology-registry.json",
+      "resourceClass": "registry",
+      "schemaVersion": "1.0",
+      "registryVersion": "1.0",
+      "isPartOf": "https://www.robbiegeorgephotography.com/geology"
+    },
+    {
+      "@type": "Dataset",
+      "@id": "https://www.robbiegeorgephotography.com/v1/registries/weather",
+      "name": "Naturepedia Weather Registry",
+      "description": "Canonical registry for the Naturepedia Weather system and its published Plates.",
+      "canonicalPath": "/x402/weather-registry.json",
+      "paidPath": "/x402/weather-registry.json",
+      "resourceClass": "registry",
+      "schemaVersion": "1.0",
+      "registryVersion": "1.0",
+      "isPartOf": "https://www.robbiegeorgephotography.com/weather"
+    },
+    {
+      "@type": "Dataset",
+      "@id": "https://www.robbiegeorgephotography.com/v1/registries/water-systems",
+      "name": "Naturepedia Water Systems Registry",
+      "description": "Canonical registry for the Naturepedia Water Systems family and its published Plates.",
+      "canonicalPath": "/x402/water-systems-registry.json",
+      "paidPath": "/x402/water-systems-registry.json",
+      "resourceClass": "registry",
+      "schemaVersion": "1.0",
+      "registryVersion": "1.0",
+      "isPartOf": "https://www.robbiegeorgephotography.com/water-systems"
+    },
+    {
+      "@type": "Dataset",
+      "@id": "https://www.robbiegeorgephotography.com/v1/registries/ocean-systems",
+      "name": "Naturepedia Ocean Systems Registry",
+      "description": "Canonical registry for the Naturepedia Ocean Systems family and its published Plates.",
+      "canonicalPath": "/x402/ocean-systems-registry.json",
+      "paidPath": "/x402/ocean-systems-registry.json",
+      "resourceClass": "registry",
+      "schemaVersion": "1.0",
+      "registryVersion": "1.0",
+      "isPartOf": "https://www.robbiegeorgephotography.com/ocean-systems"
+    },
+    {
+      "@type": "Dataset",
+      "@id": "https://www.robbiegeorgephotography.com/v1/registries/climate-systems",
+      "name": "Naturepedia Climate Systems Registry",
+      "description": "Canonical registry for the Naturepedia Climate Systems family and its published Plates.",
+      "canonicalPath": "/x402/climate-systems-registry.json",
+      "paidPath": "/x402/climate-systems-registry.json",
+      "resourceClass": "registry",
+      "schemaVersion": "1.0",
+      "registryVersion": "1.0",
+      "isPartOf": "https://www.robbiegeorgephotography.com/climate-systems"
+    }
+  ]
+}
