@@ -1,17 +1,28 @@
 # Canonical Claim Alignment
+
 ### Robbie’s Razor Benchmarks Repository
 
-This document defines how this repository aligns with the canonical claims and doctrine of the **Grand Compression Cosmology**.
+This document defines how this repository aligns with the canonical claims, doctrine, evidence requirements, and implementation boundaries of **The Grand Compression Cosmology — Master Reference Document, MRD v2.0**.
 
 The canonical claims are maintained in the **Grand Compression Canonical Claims Register**.
 
-**Author:** Robbie George  
-**Framework:** Grand Compression Cosmology  
-**Canonical Source:**  
+**Author and originator:** Robbie George  
+**Framework:** The Grand Compression Cosmology  
+**Current governing version:** MRD v2.0  
+**Identifier:** `GC-MRD-v2.0`  
+**Canonical claim range:** RC-01 through RC-22  
+
+**Canonical authority resolver:**  
 https://www.robbiegeorgephotography.com/grand-compression-master-reference-document
 
-**Claim Register:**  
+**Complete versioned MRD v2.0 PDF:**  
+https://asf-file-uploads.s3.us-east-1.amazonaws.com/image/upload/production/3790/Grand-Compr_1247ef65e1/1785596435.pdf
+
+**Canonical Claims Register:**  
 https://www.robbiegeorgephotography.com/grand-compression-canonical-claims
+
+**Repository alignment contract:**  
+[`docs/doctrine/mrd-v2.0-alignment.md`](./mrd-v2.0-alignment.md)
 
 ---
 
@@ -19,11 +30,50 @@ https://www.robbiegeorgephotography.com/grand-compression-canonical-claims
 
 This repository implements empirical experiments, benchmark demonstrations, machine-readable examples, and applied architecture aligned with the reasoning principles defined in the Grand Compression Cosmology.
 
-The repository serves as an **evaluation, demonstration, and implementation-alignment layer**, not a canonical definition layer.
+The repository serves as an **evaluation, demonstration, benchmark, and implementation-alignment layer**, not as a replacement canonical-definition layer.
 
-Canonical definitions reside in the **Master Reference Document (MRD)**. Canonical claim identifiers originate only in the public Canonical Claims Register.
+Canonical definitions reside in **MRD v2.0**. Canonical claim identifiers and exact canonical statements originate only in MRD v2.0 and the public Canonical Claims Register.
 
-The repository MUST NOT invent, renumber, or reassign canonical claim identifiers.
+MRD v2.0 contains:
+
+- Sections 1 through 13;
+- Appendices A through Q;
+- embedded Appendices E, F, I, P, and Q; and
+- Canonical Claims RC-01 through RC-22.
+
+MRD v2.0 preserves RC-01 through RC-17 without renumbering and adds:
+
+- **RC-18 — Preserved Reusable Structure Principle**
+- **RC-19 — Predictive Evaluation Requirement**
+- **RC-20 — Compression Fitness Constraint**
+- **RC-21 — Reference Implementation Distinction**
+- **RC-22 — Domain Transfer Constraint**
+
+MRD v1.9 remains preserved as a historical provenance record. It is superseded only as the current governing authority and MUST NOT be deleted or silently rewritten as v2.0.
+
+This repository MUST NOT:
+
+- invent canonical claims;
+- renumber or reassign canonical claim identifiers;
+- paraphrase a claim and label the paraphrase as its exact canonical statement;
+- treat canonical publication as empirical confirmation;
+- treat Naturepedia™ as independent validation of the complete framework;
+- treat implementation, payment, settlement, or payload delivery as evidence; or
+- treat provisional Appendix Q mathematics as validated doctrine.
+
+Claim provenance and evidence provenance MUST remain separate.
+
+Repository evidence records SHOULD use only the governed evidence states:
+
+- Proposed
+- Testing
+- Provisionally Supported
+- Supported
+- Challenged
+- Inconclusive
+- Retired
+
+Exact canonical statements reproduced in this document MUST be verified against MRD v2.0 or the live Canonical Claims Register.
 
 ---
 
