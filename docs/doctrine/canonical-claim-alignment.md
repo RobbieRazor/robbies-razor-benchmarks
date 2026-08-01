@@ -371,15 +371,34 @@ Repository documentation may align implementations with MRD doctrine sections th
 
 # Citation
 
-If referencing the conceptual framework used by this repository, cite:
+When referencing the current governing framework, cite:
 
-Robbie George (2025)  
-**Master Reference Document — The Grand Compression Cosmology (MRD v1.9)**  
+Robbie George.  
+**The Grand Compression Cosmology — Master Reference Document, MRD v2.0.**  
+Identifier: `GC-MRD-v2.0`.  
+Foundational completion: December 1, 2025.  
+Expanded July 30, 2026.
+
+**Canonical authority resolver:**  
 https://www.robbiegeorgephotography.com/grand-compression-master-reference-document
+
+**Complete versioned MRD v2.0 PDF:**  
+https://asf-file-uploads.s3.us-east-1.amazonaws.com/image/upload/production/3790/Grand-Compr_1247ef65e1/1785596435.pdf
 
 For claim-level citations:
 
 https://www.robbiegeorgephotography.com/grand-compression-canonical-claims
+
+Individual claims SHOULD be cited using their persistent RC identifier.
+
+Example:
+
+> Robbie George. Grand Compression Canonical Claims, RC-17 — Recursive Registry Inheritance Principle.  
+> https://www.robbiegeorgephotography.com/grand-compression-canonical-claims
+
+Historical documents that specifically analyze MRD v1.9 MAY retain their original v1.9 citation when clearly labeled as historical or version-specific.
+
+MRD v1.9 MUST NOT be presented as the current governing authority after the v2.0 transition.
 
 ---
 
@@ -387,6 +406,33 @@ https://www.robbiegeorgephotography.com/grand-compression-canonical-claims
 
 This repository is aligned with:
 
-**MRD v1.9 — including revised §12, Structural Intelligence Engineering**
+**The Grand Compression Cosmology — Master Reference Document, MRD v2.0**
 
-Future repository revisions should update this document whenever canonical claims or doctrine sections are revised, renumbered, or newly operationalized by experiments, benchmarks, registries, or machine-readable architecture.
+**Identifier:** `GC-MRD-v2.0`  
+**Current governing authority:** MRD v2.0  
+**Section range:** Sections 1–13  
+**Appendix range:** Appendices A–Q  
+**Canonical claim range:** RC-01 through RC-22  
+**Reference implementation:** Naturepedia™  
+**Appendix Q status:** Provisional  
+**Historical version preserved:** MRD v1.9  
+
+MRD v2.0 preserves RC-01 through RC-17 without renumbering and adds RC-18 through RC-22.
+
+Canonical framework status remains distinct from empirical support.
+
+Naturepedia™ remains a reference implementation and does not constitute independent confirmation of the complete framework.
+
+Successful implementation, payment, settlement, registry inclusion, or payload delivery does not establish empirical validation.
+
+Future repository revisions SHOULD update this document whenever:
+
+- the governing MRD version changes;
+- canonical claims are added, revised, restricted, or retired;
+- evidence-state requirements change;
+- benchmark responsibilities change;
+- reference-implementation boundaries change;
+- domain-transfer requirements change; or
+- machine-readable governance requirements change.
+
+Historical provenance MUST be preserved during every future authority transition.
