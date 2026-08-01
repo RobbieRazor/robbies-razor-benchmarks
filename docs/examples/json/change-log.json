@@ -1,7 +1,7 @@
 {
   "@context": "https://schema.org",
   "@type": "Dataset",
-  "version": "1.1.7",
+  "version": "1.2.0",
   "name": "Naturepedia™ Change Log",
   "description": "Machine-readable incremental update feed for Naturepedia™, Robbie's Razor™, Plate™ systems, AI discovery infrastructure, and canonical registries.",
   "creator": {
@@ -15,9 +15,75 @@
     "url": "https://www.robbiegeorgephotography.com"
   },
   "canonical": "https://www.robbiegeorgephotography.com/change-log.json",
-  "lastUpdated": "2026-07-16",
+  "lastUpdated": "2026-08-01",
   "currentCanonicalPlateCount": 757,
   "entries": [
+        {
+      "id": "2026-08-01-mrd-v2-authority-transition",
+      "date": "2026-08-01",
+      "version": "1.2.0",
+      "category": "Canonical Authority Transition",
+      "summary": "Aligned the repository’s doctrine, agent governance, claim mapping, citation architecture, and machine-readable document metadata with The Grand Compression Cosmology — Master Reference Document, MRD v2.0, while preserving MRD v1.9 as a historical provenance record.",
+      "changes": [
+        "Established MRD v2.0 and GC-MRD-v2.0 as the current governing authority",
+        "Preserved MRD v1.9 as a historical provenance record",
+        "Aligned the repository with MRD Sections 1 through 13 and Appendices A through Q",
+        "Added Section 13 predictive evaluation, evidence governance, falsifiability, benchmark, and reference-implementation requirements",
+        "Preserved RC-01 through RC-17 without renumbering",
+        "Added RC-18 — Preserved Reusable Structure Principle",
+        "Added RC-19 — Predictive Evaluation Requirement",
+        "Added RC-20 — Compression Fitness Constraint",
+        "Added RC-21 — Reference Implementation Distinction",
+        "Added RC-22 — Domain Transfer Constraint",
+        "Established Appendix Q as explicitly provisional",
+        "Added the governed evidence states Proposed, Testing, Provisionally Supported, Supported, Challenged, Inconclusive, and Retired",
+        "Separated canonical claim provenance from evidence provenance",
+        "Established Naturepedia™ as the primary reference implementation without treating it as independent confirmation",
+        "Added domain-transfer declaration requirements",
+        "Separated public authority, public machine discovery, and paid machine retrieval",
+        "Confirmed that payment, settlement, payload delivery, indexing, and implementation do not establish empirical validation",
+        "Added the MRD v2.0 repository alignment contract",
+        "Updated the canonical claim alignment document",
+        "Updated README authority, claim-range, citation, and attribution sections",
+        "Updated AGENTS.md with the MRD v2.0 agent-interpretation contract",
+        "Added the machine-readable MRD v2.0 manifest",
+        "Preserved existing Plate counts, endpoint inventories, registry counts, x402 pricing, and settlement behavior"
+      ],
+      "affectedPages": [
+        "https://www.robbiegeorgephotography.com/grand-compression-master-reference-document",
+        "https://www.robbiegeorgephotography.com/grand-compression-canonical-claims",
+        "https://www.robbiegeorgephotography.com/naturepedia"
+      ],
+      "affectedRepositoryFiles": [
+        "README.md",
+        "AGENTS.md",
+        "docs/doctrine/mrd-v2.0-alignment.md",
+        "docs/doctrine/canonical-claim-alignment.md",
+        "docs/mrd/mrd-v2.0-manifest.json",
+        "docs/examples/json/change-log.json"
+      ],
+      "authorityRecord": {
+        "governingMrdVersion": "2.0",
+        "governingMrdIdentifier": "GC-MRD-v2.0",
+        "governingMrdUrl": "https://www.robbiegeorgephotography.com/grand-compression-master-reference-document",
+        "canonicalClaimRange": "RC-01-RC-22",
+        "appendixQStatus": "provisional",
+        "referenceImplementation": "Naturepedia"
+      },
+      "preservationRecord": {
+        "supersedes": "GC-MRD-v1.9",
+        "preservesHistoricalVersion": "GC-MRD-v1.9",
+        "claimProvenanceSeparateFromEvidenceProvenance": true
+      },
+      "impactBoundaries": {
+        "canonicalPlateCountChanged": false,
+        "endpointInventoryChanged": false,
+        "registryCountChanged": false,
+        "x402PricingChanged": false,
+        "settlementBehaviorChanged": false
+      },
+      "canonicalPlateCount": 757
+    },
     {
   "id": "2026-07-17-mrd-section-12-synchronization",
   "date": "2026-07-17",
