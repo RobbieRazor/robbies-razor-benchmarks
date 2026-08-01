@@ -165,52 +165,87 @@ Quick research summary: docs/RESEARCH_OVERVIEW.md
 
 ## Knowledge Architecture
 
-The applied knowledge architecture of this repository is formally defined by **Section 12 — Structural Intelligence Engineering** of the Grand Compression Master Reference Document (MRD v1.9).
+The applied knowledge architecture of this repository is governed by **MRD v2.0**, including:
+
+- **Section 12 — Structural Intelligence Engineering**
+- **Section 13 — Predictive Compression, Evaluation, and Reference Implementation**
 
 Section 12 establishes the engineering principles governing:
 
-- Recursive Knowledge Compression Architecture (RKCA)
-- Recursive Compression Interfaces (RCIs)
-- Plates™ as applied cognitive infrastructure
-- Recursive Registry Inheritance Principle (RRIP)
-- Comparative Compression Geometry™
-- retrieval-dominant knowledge systems
-- machine-readable intelligence
-- recursive deployment under energy, memory, governance, and substrate constraints
+- Recursive Knowledge Compression Architecture (RKCA);
+- Recursive Compression Interfaces (RCIs);
+- Plates™ as applied cognitive infrastructure;
+- Recursive Registry Inheritance Principle (RRIP);
+- Comparative Compression Geometry™;
+- retrieval-dominant knowledge systems;
+- machine-readable intelligence; and
+- recursive deployment under energy, memory, governance, and substrate constraints.
+
+Section 13 establishes the evaluation and evidence requirements governing:
+
+- Predictive Compression Theory;
+- Preserved Reusable Structure;
+- Compression Fitness;
+- falsifiability and declared failure conditions;
+- evidence-state classification;
+- benchmark architecture;
+- reference-implementation boundaries;
+- domain-transfer constraints; and
+- AI-agent interpretation and evidence discipline.
 
 Within this repository:
 
-compression → expression → memory → recursion
+`compression → expression → memory → recursion`
 
 is implemented as an engineering architecture rather than merely a conceptual sequence.
 
-Recursive Knowledge Compression Architecture (RKCA) defines how complex knowledge systems are compressed into reusable human-readable and machine-readable cognitive structures.
+Recursive Knowledge Compression Architecture defines how complex knowledge systems are compressed into reusable human-readable and machine-readable cognitive structures.
 
-RKCA extends Robbie's Razor into applied knowledge systems through:
+RKCA extends Robbie’s Razor™ into applied knowledge systems through:
 
-- Recursive Compression Interfaces (RCIs)
-- Plates™
-- Registries
-- System Maps
-- Graph Registries™
-- Knowledge Meshes
-- machine-readable retrieval
+- Recursive Compression Interfaces;
+- Plates™;
+- Registries;
+- Meta-Registries;
+- System Maps;
+- Graph Registries™;
+- Knowledge Meshes;
+- provenance records; and
+- machine-readable retrieval.
 
 These components collectively form a **retrieval-dominant architecture**.
 
-Rather than repeatedly reconstructing knowledge from raw information, validated compressed structures are preserved as reusable cognitive infrastructure.
+Rather than repeatedly reconstructing knowledge from raw information, validated compressed structures may be preserved as reusable cognitive infrastructure.
 
-This architecture reduces unnecessary recomputation while preserving provenance, semantic relationships, and recursive continuity.
+Under RC-18, preservation requires maintaining sufficient identity, relationships, provenance, constraints, version state, and retrieval pathways for valid future reuse.
+
+Under RC-17, validated compressed registries may become substrates for later compression cycles through recursive registry inheritance.
+
+The applied progression is:
+
+`Plate™ → Registry → Meta-Registry → System Map → Graph Registry™ → Knowledge Mesh`
+
+This architecture is intended to reduce unnecessary recomputation while preserving provenance, semantic relationships, version continuity, and recursive usability.
 
 Canonical references:
 
-- Recursive Knowledge Compression Architecture (MRD §12.7)
-- Recursive Registry Inheritance Principle (MRD §12.8)
-- Comparative Compression Geometry™ (MRD §12.9)
+- Recursive Knowledge Compression Architecture — MRD v2.0 §12.7
+- Recursive Registry Inheritance Principle — MRD v2.0 §12.8 and RC-17
+- Comparative Compression Geometry™ — MRD v2.0 §12.9
+- Predictive Compression Theory — MRD v2.0 §13.2
+- Preserved Reusable Structure Principle — MRD v2.0 §13.3 and RC-18
+- Compression Fitness Principle — MRD v2.0 §13.4 and RC-20
+- Reference Implementation — MRD v2.0 §13.7 and RC-21
+- Domain Transfer Constraint — RC-22
+- Provisional mathematical formalization — Appendix Q
 
-RKCA and all repository implementations remain applied engineering layers.
+RKCA, Naturepedia™, and all repository implementations remain applied engineering or reference-implementation layers.
 
-Canonical definitions remain exclusively governed by the Master Reference Document (MRD v1.9).
+Canonical definitions remain governed by **The Grand Compression Cosmology — Master Reference Document, MRD v2.0**.
+
+Implementation does not equal empirical confirmation.
+
+Naturepedia™ operation does not independently establish universal validation of the complete framework.
 
 ### Earth Systems Expansion (Naturepedia™)
 
