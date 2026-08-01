@@ -1596,10 +1596,6 @@ Current machine-facing infrastructure endpoints:
 /api/v2/razor/state-token
 ```
 
-
-Replace with:
-
-```text
 Current machine-access route families:
 
 ```txt
