@@ -491,6 +491,197 @@ RC-16 MUST NOT be reassigned to Comparative Compression Geometry or any other do
 
 ---
 
+# MRD v2.0 Extension Claims
+
+MRD v2.0 adds five canonical claims governing preserved structure, predictive evaluation, Compression Fitness, reference implementations, and cross-domain transfer.
+
+The following statements reproduce the canonical wording maintained by the MRD v2.0 master authority.
+
+## RC-18 — Preserved Reusable Structure Principle
+
+### Canonical Claim
+
+Compressed information becomes durable recursive infrastructure only when the identity, relationships, provenance, constraints, version state, and retrieval pathways required for valid future reuse remain sufficiently preserved.
+
+### Repository Role
+
+This repository operationalizes RC-18 through:
+
+- versioned structured resources;
+- preserved identifiers;
+- canonical source links;
+- provenance metadata;
+- relationship preservation;
+- schema validation;
+- retrieval-path documentation;
+- registry inheritance;
+- canonical serialization; and
+- fidelity and integrity checks.
+
+A compressed resource is not considered reusable merely because it is smaller, retrievable, or machine-readable.
+
+Valid future reuse requires preservation of the structure necessary to interpret, validate, trace, and apply the resource within its declared scope.
+
+---
+
+## RC-19 — Predictive Evaluation Requirement
+
+### Canonical Claim
+
+Any proposition presented as predictive, comparative, empirical, or performance-related must declare measurable variables, scope, scale, baseline, expected direction, failure conditions, evidence status, and revision consequences.
+
+### Repository Role
+
+Benchmark, prediction, and evaluation records SHOULD declare:
+
+- measurable variables;
+- applicable scope;
+- declared scale;
+- comparison baseline;
+- expected direction;
+- evaluation method;
+- failure conditions;
+- evidence status;
+- limitations;
+- exclusions; and
+- revision consequences.
+
+A prediction MUST NOT be described as supported solely because it is canonically published, structurally coherent, implemented, indexed, retrieved, or monetized.
+
+Repository evaluations must remain falsifiable and capable of producing Challenged, Inconclusive, Restricted, Revised, Replaced, or Retired outcomes.
+
+---
+
+## RC-20 — Compression Fitness Constraint
+
+### Canonical Claim
+
+Compression must be evaluated by the reusable utility, fidelity, provenance, and accessibility it preserves relative to transition cost, regeneration burden, distortion, governance demand, blast-radius exposure, and maintenance cost.
+
+### Repository Role
+
+Compression evaluation SHOULD account for:
+
+- reusable utility;
+- preserved fidelity;
+- provenance completeness;
+- accessibility;
+- transition cost;
+- regeneration burden;
+- distortion;
+- governance demand;
+- blast-radius exposure; and
+- maintenance cost.
+
+A smaller representation is not automatically a fitter representation.
+
+Compression that destroys identity, relationships, provenance, constraints, version state, or valid retrieval pathways may reduce size while failing the Compression Fitness Constraint.
+
+### Appendix Q Boundary
+
+Appendix Q contains provisional mathematical formalizations related to Predictive Compression and Compression Fitness.
+
+Appendix Q equations, weights, scoring methods, thresholds, and normalization procedures MUST remain explicitly provisional until evaluated through declared benchmark and validation procedures.
+
+---
+
+## RC-21 — Reference Implementation Distinction
+
+### Canonical Claim
+
+A reference implementation demonstrates operational translation of selected framework principles but does not by itself establish universal theoretical validity or independent empirical confirmation.
+
+### Repository Role
+
+Naturepedia™ is the primary reference implementation of the framework.
+
+Naturepedia may demonstrate:
+
+- operational translation;
+- Plate™ architecture;
+- Registry and System Map construction;
+- Knowledge Mesh organization;
+- preserved reusable structure;
+- recursive registry inheritance;
+- machine-readable provenance; and
+- governed human and machine retrieval.
+
+Naturepedia operation does not independently establish:
+
+- universal theoretical validity;
+- independent empirical confirmation;
+- validation across every domain or scale;
+- support for every canonical claim; or
+- material or causal identity between compared systems.
+
+Repository documentation MUST preserve:
+
+```text
+reference implementation
+≠ independent confirmation
+≠ universal validation
+```
+
+---
+
+## RC-22 — Domain Transfer Constraint
+
+### Canonical Claim
+
+No principle, prediction, equation, observation, benchmark result, or structural mapping may be transferred across domains or scales without declaring the relevant objects, scale, normalization, preserved relationships, exclusions, constraints, evidence basis, competing interpretations, and failure conditions.
+
+### Repository Role
+
+Every cross-domain or cross-scale transfer MUST declare:
+
+- the relevant source and target objects;
+- source domain;
+- target domain;
+- declared scale;
+- normalization method;
+- preserved relationships;
+- excluded variables;
+- applicable constraints;
+- evidence basis;
+- competing interpretations;
+- known limitations; and
+- failure conditions.
+
+A transfer statement MUST distinguish among:
+
+- analogy;
+- visual resemblance;
+- structural correspondence;
+- normalized recursive correspondence;
+- mathematical isomorphism;
+- mechanistic equivalence;
+- causal identity; and
+- material identity.
+
+Structural correspondence MUST NOT be represented as proof of shared physical substance, causal mechanism, material identity, or universal applicability.
+
+If the required transfer declarations are unavailable, the claim must be restricted rather than inferred.
+
+---
+
+# Extension-Claim Evidence Boundary
+
+Canonical claim status defines the governing content of the framework.
+
+It MUST NOT be interpreted as automatic empirical confirmation of:
+
+- predictions;
+- mathematical formulations;
+- benchmark results;
+- cross-domain comparisons;
+- reference implementations;
+- provisional equations; or
+- implementation performance.
+
+Evidence status must be assigned through a traceable evidence record using the governed evidence-state architecture.
+
+---
+
 # Retrieval-Dominant Architecture Alignment
 
 The repository distinguishes retrieval-dominant architecture from regeneration-dominant architecture.
