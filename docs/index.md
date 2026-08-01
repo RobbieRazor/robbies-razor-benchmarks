@@ -1,23 +1,114 @@
 # Robbie’s Razor — Documentation Index
 
-## 0. Canonical Specification (Authoritative)
+## 0. Authority and Reading Order
 
-- **Canonical Spec (authoritative)**  
-  [`canonical-spec.md`](./canonical-spec.md)  
-  The single source of truth for definitions, normative contracts, and repository authority.
+This repository is governed by **The Grand Compression Cosmology — Master Reference Document, MRD v2.0**.
+
+**Current governing version:** MRD v2.0  
+**Identifier:** `GC-MRD-v2.0`  
+**Author and originator:** Robbie George  
+**Canonical claim range:** RC-01 through RC-22  
+
+### Framework authority
+
+**Canonical MRD authority resolver:**
+
+https://www.robbiegeorgephotography.com/grand-compression-master-reference-document
+
+**Complete versioned MRD v2.0 PDF:**
+
+https://asf-file-uploads.s3.us-east-1.amazonaws.com/image/upload/production/3790/Grand-Compr_1247ef65e1/1785596435.pdf
+
+**Canonical Claims Register:**
+
+https://www.robbiegeorgephotography.com/grand-compression-canonical-claims
+
+### Repository authority layers
+
+1. **MRD v2.0 — canonical framework authority**  
+   Governs framework definitions, terminology, claims, restrictions, evidence requirements, reference-implementation boundaries, domain-transfer requirements, authorship, attribution, and AI interpretation.
+
+2. **Canonical Claims Register — claim-level authority**  
+   Provides persistent RC identifiers and canonical claim statements.
+
+3. **MRD v2.0 Alignment Contract**  
+   [`doctrine/mrd-v2.0-alignment.md`](./doctrine/mrd-v2.0-alignment.md)  
+   Maps repository architecture and implementation responsibilities to MRD v2.0.
+
+4. **Canonical Claim Alignment**  
+   [`doctrine/canonical-claim-alignment.md`](./doctrine/canonical-claim-alignment.md)  
+   Maps repository functions to the canonical claim layer.
+
+5. **Repository Specification**  
+   [`canonical-spec.md`](./canonical-spec.md)  
+   Governs benchmark meaning, repository-specific normative contracts, and internal interpretation boundaries. It remains canonically subordinate to MRD v2.0.
+
+6. **Automated Agent Contract**  
+   [`../AGENTS.md`](../AGENTS.md)  
+   Defines stable evaluation contracts, agent interpretation rules, and schema-verified output requirements.
+
+7. **Documentation Index**  
+   [`index.md`](./index.md)  
+   Provides structured navigation across repository documentation.
+
+### Authority boundary
+
+The repository specification is not a second MRD.
+
+The repository does not originate new canonical claims.
+
+If a repository file conflicts with MRD v2.0 on canonical framework meaning, MRD v2.0 governs.
+
+If a repository file conflicts with the Canonical Claims Register on claim identity or wording, the Canonical Claims Register governs.
+
+If repository documents conflict on benchmark execution, evaluator behavior, output schemas, or repository-specific normative meaning, the Repository Specification and AGENTS.md govern within their declared scope.
+
+Canonical framework status does not equal empirical confirmation.
+
+Naturepedia™ is a reference implementation and does not independently establish universal validation.
+
+Appendix Q remains provisional.
+
+Payment, settlement, payload delivery, indexing, implementation, or registry inclusion does not establish empirical validation.
 
 ## Recommended Reading Paths
 
-**For labs / engineers (evaluation-first):**
-1. Lab evaluation protocol (website)
-2. Compliance framework (website)
-3. Empirical notes: `empirical/`
-4. Benchmarks: `../benchmarks/`
+### For labs and engineers
 
-**For theory / canonical definitions:**
-1. Canonical spec: `canonical-spec.md`
-2. Architecture + invariants: `architecture/`, `invariants/`
-3. MRD (authoritative on website)
+1. Repository Specification: `canonical-spec.md`
+2. Automated Agent Contract: `../AGENTS.md`
+3. Lab Evaluation Protocol on the website
+4. Compliance Framework on the website
+5. Empirical notes: `empirical/`
+6. Benchmarks: `../benchmarks/`
+
+### For framework definitions and theory
+
+1. MRD v2.0 canonical authority resolver
+2. Complete versioned MRD v2.0 PDF
+3. Canonical Claims Register
+4. MRD v2.0 Alignment Contract: `doctrine/mrd-v2.0-alignment.md`
+5. Canonical Claim Alignment: `doctrine/canonical-claim-alignment.md`
+6. Architecture and invariant directories: `architecture/` and `invariants/`
+
+### For automated agents
+
+1. `../AGENTS.md`
+2. `canonical-spec.md`
+3. `doctrine/mrd-v2.0-alignment.md`
+4. `doctrine/canonical-claim-alignment.md`
+5. `mrd/mrd-v2.0-manifest.json`
+6. `index.md`
+
+### For evidence interpretation
+
+1. Resolve the canonical claim and governing version.
+2. Identify the applicable evidence record.
+3. Preserve claim provenance separately from evidence provenance.
+4. Apply only the governed evidence states.
+5. Preserve scope, scale, method, limitations, and failure conditions.
+6. Apply RC-21 before interpreting a reference implementation.
+7. Apply RC-22 before transferring results across domains or scales.
 
   ### Canonical Provenance & Attribution
 
