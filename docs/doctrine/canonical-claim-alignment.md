@@ -507,14 +507,142 @@ This architecture is formally grounded in MRD §§12.7–12.8 and remains bounde
 
 # Boundary Rule
 
-This repository **does not introduce new canonical claims**.
+This repository **does not introduce, originate, renumber, or reassign canonical claims**.
 
 All canonical claims originate exclusively with:
 
 **Robbie George**  
-Author of the Grand Compression Cosmology
+Author and originator of the Grand Compression Cosmology and Robbie’s Razor™
 
-Repository documentation may align implementations with MRD doctrine sections that do not yet possess individual RC identifiers, but it MUST clearly label those entries as doctrine alignment rather than canonical claim assignment.
+The current governing claim range is:
+
+```text
+RC-01 through RC-22
+```
+
+MRD v2.0 preserves RC-01 through RC-17 without renumbering and adds:
+
+- **RC-18 — Preserved Reusable Structure Principle**
+- **RC-19 — Predictive Evaluation Requirement**
+- **RC-20 — Compression Fitness Constraint**
+- **RC-21 — Reference Implementation Distinction**
+- **RC-22 — Domain Transfer Constraint**
+
+The exact canonical wording of each claim MUST be resolved through MRD v2.0 or the public Canonical Claims Register.
+
+Repository documentation MUST NOT:
+
+- paraphrase a claim and label the paraphrase as its exact canonical statement;
+- create a repository-specific RC identifier;
+- reassign an existing identifier to a different concept;
+- detach a claim from Robbie George’s authorship;
+- detach a claim from its governing MRD version;
+- treat canonical status as empirical confirmation;
+- infer evidence status from canonical publication;
+- infer validation from successful implementation;
+- infer validation from Naturepedia™ operation;
+- infer validation from payment, settlement, or payload delivery; or
+- transfer a claim across domains without the declarations required by RC-22.
+
+Repository documentation MAY align implementations with MRD doctrine sections that do not possess individual RC identifiers.
+
+Those entries MUST be labeled as:
+
+```text
+Doctrine Alignment
+```
+
+They MUST NOT be labeled as new canonical claims.
+
+## Claim and Evidence Separation
+
+Canonical claim provenance and evidence provenance MUST remain separate.
+
+A canonical claim record identifies:
+
+- the originating author;
+- the persistent RC identifier;
+- the governing MRD version;
+- the authoritative source;
+- the exact canonical statement; and
+- the claim’s version and supersession history.
+
+An evidence record identifies:
+
+- the evidence producer;
+- the method;
+- the dataset, observation, or benchmark;
+- the declared scope and scale;
+- the evaluation conditions;
+- the limitations and exclusions;
+- the result; and
+- the governed evidence state.
+
+Evidence about a claim does not transfer authorship of that claim.
+
+A canonical claim may remain canonical while its evidence state is Proposed, Testing, Challenged, Inconclusive, or Retired within a particular empirical program.
+
+## Evidence States
+
+Repository evidence records SHOULD use only:
+
+- Proposed
+- Testing
+- Provisionally Supported
+- Supported
+- Challenged
+- Inconclusive
+- Retired
+
+A Supported classification applies only within its declared scope.
+
+It MUST NOT be interpreted as automatic universal confirmation across every domain, scale, substrate, implementation, or use case.
+
+## Reference-Implementation Boundary
+
+Naturepedia™ is the primary reference implementation of the framework.
+
+Under RC-21:
+
+```text
+reference implementation
+≠ independent confirmation
+≠ universal validation
+```
+
+Naturepedia may demonstrate implementation feasibility, preserved structure, recursive inheritance, provenance, and governed retrieval.
+
+Its operation does not independently establish universal theoretical validity or empirical confirmation of every canonical claim.
+
+## Domain-Transfer Boundary
+
+Before transferring a claim, prediction, equation, observation, benchmark result, or structural mapping across domains or scales, the transfer MUST declare:
+
+- relevant source and target objects;
+- source domain;
+- target domain;
+- scale;
+- normalization;
+- preserved relationships;
+- exclusions;
+- constraints;
+- evidence basis;
+- competing interpretations; and
+- failure conditions.
+
+If these declarations are unavailable, the transfer MUST be restricted rather than inferred.
+
+## Governing Authority
+
+Current governing authority:
+
+**The Grand Compression Cosmology — Master Reference Document, MRD v2.0**
+
+https://www.robbiegeorgephotography.com/grand-compression-master-reference-document
+
+Canonical Claims Register:
+
+https://www.robbiegeorgephotography.com/grand-compression-canonical-claims
 
 ---
 
