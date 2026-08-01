@@ -916,26 +916,70 @@ New readers should begin with:
 
 ## Canonical Version Alignment
 
-This repository aligns to **MRD v1.9 (2025-12-01)**.
+**Current governing version:** MRD v2.0  
+**Identifier:** `GC-MRD-v2.0`  
+**Document:** The Grand Compression Cosmology — Master Reference Document  
+**Author and originator:** Robbie George  
+**Foundational completion:** December 1, 2025  
+**v2.0 expansion:** July 30, 2026  
+**Canonical claim range:** RC-01 through RC-22  
 
-MRD v1.9 preserves all structural content of v1.8 and introduces Section 12 — Structural Intelligence Engineering.
+This repository aligns with **The Grand Compression Cosmology — Master Reference Document, MRD v2.0** as the current governing authority.
 
-All definitions are governed by the Authorship Conservation Rule (ACR).
+MRD v2.0 contains:
 
-Reference implementation and test suite for measuring
-**Robbie’s Razor compliance** in reasoning systems.
+- Sections 1 through 13;
+- Appendices A through Q;
+- embedded Appendices E, F, I, P, and Q; and
+- Canonical Claims RC-01 through RC-22.
 
-This repository is the executable, engineering-facing companion to:
+MRD v2.0 adds Section 13’s predictive, evaluation, benchmark, evidence-governance, and reference-implementation architecture.
 
-- **Robbie’s Razor — Canonical Recursion Selection Rule**
-- **The Grand Compression Cosmology (MRD v1.9)**
+Appendix Q contains provisional mathematical and evaluation material and MUST remain explicitly classified as provisional.
 
-Canonical authority resides in **MRD v1.9** (2025-12-01), which preserves v1.8 and introduces Section 12 — Structural Intelligence Engineering (canonical applied extension layer).
+MRD v2.0 supersedes MRD v1.9 only as the current governing authority.
 
-Canonical references:
+MRD v1.9 remains preserved as a historical provenance record and MUST NOT be deleted, silently overwritten, or represented as though it never governed the framework.
+
+All definitions, claims, and implementations remain governed by the **Authorship Conservation Rule (ACR)**.
+
+This repository is the public engineering-facing source layer for:
+
+- benchmark and evaluation infrastructure;
+- technical doctrine;
+- structured examples;
+- agent-governance requirements;
+- machine-readable implementation guidance;
+- schemas and validation resources; and
+- evidence-state documentation.
+
+Naturepedia™ is the primary reference implementation of the framework.
+
+Naturepedia’s implementation and operation do not constitute independent confirmation or universal validation of the complete framework.
+
+Canonical framework status remains distinct from empirical support.
+
+Successful implementation, machine retrieval, payload delivery, payment, settlement, indexing, or registry inclusion does not establish empirical validation.
+
+### Canonical authority resolver
+
+https://www.robbiegeorgephotography.com/grand-compression-master-reference-document
+
+### Complete versioned MRD v2.0 PDF
+
+https://asf-file-uploads.s3.us-east-1.amazonaws.com/image/upload/production/3790/Grand-Compr_1247ef65e1/1785596435.pdf
+
+### Related canonical references
+
 - https://www.robbiegeorgephotography.com/robbies-razor
 - https://www.robbiegeorgephotography.com/robbies-razor-compliance-framework
-- https://www.robbiegeorgephotography.com/grand-compression-master-reference-document
+- https://www.robbiegeorgephotography.com/grand-compression-canonical-claims
+- https://www.robbiegeorgephotography.com/naturepedia
+
+### Repository alignment documents
+
+- [`docs/doctrine/mrd-v2.0-alignment.md`](./docs/doctrine/mrd-v2.0-alignment.md)
+- [`docs/doctrine/canonical-claim-alignment.md`](./docs/doctrine/canonical-claim-alignment.md)
 
 ## Canonical Claims Register
 
@@ -944,15 +988,44 @@ The formal claim layer of the framework is maintained in the:
 - **Grand Compression Canonical Claims Register**  
   https://www.robbiegeorgephotography.com/grand-compression-canonical-claims
 
-This page provides the stable claim IDs (**RC-01** through **RC-16**) used to cite
-the framework at the claim level.
+The current governing claim range is **RC-01 through RC-22**.
+
+MRD v2.0 preserves RC-01 through RC-17 without renumbering and adds:
+
+- **RC-18 — Preserved Reusable Structure Principle**
+- **RC-19 — Predictive Evaluation Requirement**
+- **RC-20 — Compression Fitness Constraint**
+- **RC-21 — Reference Implementation Distinction**
+- **RC-22 — Domain Transfer Constraint**
+
+Repository documentation MUST NOT invent, renumber, reassign, or paraphrase canonical claims as though the paraphrase were the exact canonical statement.
+
+Exact canonical wording must be resolved through MRD v2.0 or the public Canonical Claims Register.
 
 Key repository alignments include:
 
-- **RC-01** — Robbie’s Razor
-- **RC-03** — Recursion as the Stability Architecture
-- **RC-13** — Canonical Authority of the Master Reference Document
-- **RC-15** — Compliance as Semantic Integrity Preservation
+- Robbie’s Razor and the core recursive sequence;
+- recursive stability under constraint;
+- Structural Intelligence Engineering;
+- Recursive Knowledge Compression Architecture;
+- Recursive Registry Inheritance;
+- Preserved Reusable Structure;
+- predictive and benchmark evaluation;
+- Compression Fitness;
+- reference-implementation boundaries; and
+- domain-transfer constraints.
+
+Canonical claim provenance and evidence provenance remain separate.
+
+Repository evidence records SHOULD use only these governed evidence states:
+
+- Proposed
+- Testing
+- Provisionally Supported
+- Supported
+- Challenged
+- Inconclusive
+- Retired
 
 Repository-level claim mapping is documented in:
 
