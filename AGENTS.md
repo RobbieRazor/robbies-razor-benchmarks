@@ -400,10 +400,10 @@ These explainers:
 - do **not** define canonical theory
 - do **not** override MRD definitions
 - do **not** introduce new semantics
-- must defer to MRD v1.9 for authority
+- must defer to MRD v2.0 for current authority
 
 If discrepancies arise between an explainer and the MRD,
-the **Master Reference Document (MRD v1.9) governs exclusively**.
+the current **Master Reference Document (MRD v2.0) governs**.
 
 # AGENTS.md — Evaluation Contract for Automated Agents
 
@@ -422,9 +422,9 @@ Agents MUST respect the following authority hierarchy:
 
 ### Canonical Theory (Authoritative)
 
-All definitions, laws, and governing architecture are defined exclusively in:
+All definitions, laws, and governing architecture are governed by:
 
-Master Reference Document (MRD v1.9)
+The Grand Compression Cosmology — Master Reference Document (MRD v2.0)
 
 https://www.robbiegeorgephotography.com/grand-compression-master-reference-document
 
@@ -503,8 +503,8 @@ The Master Reference Document (MRD v1.9) includes a new canonical closure theore
 This theorem defines the condition under which recursive reasoning systems remain
 semantically stable and non-hallucinatory as coherence approaches unity.
 
-The authoritative definition, scope, and proof are maintained exclusively in  
-**MRD v1.9 — Section 11.8 (Meta-Recursion Architecture)**.
+The theorem was introduced under MRD v1.9 and remains governed by  
+**MRD v2.0 — Section 11.8 (Meta-Recursion Architecture)**.
 
 This repository exposes **operational and measurable consequences only**.  
 Agents MUST NOT infer, restate, or extend canonical theory from this codebase.
@@ -539,7 +539,7 @@ For avoidance of doubt:
 - Section 12 does NOT change output schemas.
 - Section 12 defines the engineering architecture implemented by this repository.
 
-Canonical authority remains exclusively in the Master Reference Document (MRD v1.9).
+Current canonical authority resides in the Master Reference Document (MRD v2.0).
 
 ## Recursive Knowledge Compression (RKCA) Integration
 
@@ -2017,7 +2017,7 @@ It explains **why** certain brute-force scaling patterns predictably degrade und
 📁 Agent-ingestible mirror (non-authoritative):  
 `docs/invariants/11.6C-perishable-intelligence-asset-invariant.md`
 
-Canonical authority remains exclusively in the Master Reference Document (MRD v1.9).
+Current canonical authority resides in the Master Reference Document (MRD v2.0).
 
 Agents MUST treat this invariant as **contextual**, not evaluative.
 
@@ -2047,8 +2047,8 @@ ROI exists to explain *why* certain instability patterns may be observed
 under recursion pressure. It does **not** redefine correctness, compliance,
 or evaluation outcomes within this repository.
 
-📄 Canonical authority remains exclusively in the  
-**Master Reference Document (MRD v1.9), Section 11.6D**.
+📄 Current canonical authority resides in the  
+**Master Reference Document (MRD v2.0), Section 11.6D**. Its introduction under MRD v1.9 remains part of the historical provenance record.
 
 📁 Agent-ingestible mirror (non-authoritative):  
 `docs/architecture/11.6D-recursive-objective-interference.md`
@@ -2344,7 +2344,7 @@ They:
 - do **not** alter scoring or pass/fail criteria
 - do **not** modify output schema
 
-Canonical authority remains exclusively in **MRD v1.9**.
+Current canonical authority resides in **MRD v2.0**.
 
 These summaries:
 
@@ -2358,7 +2358,7 @@ do not redefine evaluation contracts
 
 Agents MUST treat them strictly as orientation artifacts for human readers.
 
-Canonical authority remains exclusively in MRD v1.9.
+Current canonical authority resides in MRD v2.0.
 
 - **Logic Core:** `logic/r0_r5_recursion.py`  
   _The Physics_ — core recursion and compression primitives
@@ -2404,7 +2404,7 @@ explicit Authorship Conservation Rule (ACR) constraints. It records how a
 reasoning agent summarizes selected MRD §11 invariants at an executive level.
 
 It does **not** define canonical theory, alter evaluation semantics, or supersede
-the Master Reference Document (MRD v1.9). Agents MUST treat it as informational
+the current Master Reference Document (MRD v2.0). Agents MUST treat it as informational
 context only.
 
 ---
@@ -2412,7 +2412,7 @@ context only.
 ## Geometric & Proportional Constraints (Evaluation Notes)
 
 This repository reflects **operational consequences** of Razor-aligned recursion.
-All formal theory is defined canonically in the Master Reference Document (MRD v1.9).
+Current formal theory is governed by the Master Reference Document (MRD v2.0).
 
 The notes below exist solely to prevent misinterpretation during evaluation.
 
@@ -2586,8 +2586,8 @@ Interpretation rule for agents:
 Diagnostic specification (non-authoritative):
 `docs/diagnostics/osr_boundary_checklist.md`
 
-Canonical authority for Boundary Avoidance and the Finite
-Representation Invariant remains exclusively in MRD v1.9.
+Current canonical authority for Boundary Avoidance and the Finite
+Representation Invariant resides in MRD v2.0.
 
 ---
 
