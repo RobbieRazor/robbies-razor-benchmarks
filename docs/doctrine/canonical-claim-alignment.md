@@ -104,6 +104,155 @@ Grand Compression Master Reference Document — MRD §12, Structural Intelligenc
 
 ---
 
+# MRD §13 — Predictive Evaluation and Evidence Governance
+
+MRD §13 extends the Grand Compression Cosmology into predictive evaluation, benchmark governance, evidence-state classification, falsifiability, reference-implementation boundaries, and domain-transfer discipline.
+
+Section 13 requires framework structures to move beyond canonical definition into bounded evaluation.
+
+The governing evaluation sequence is:
+
+```txt
+Grand Compression Framework
+→ Robbie’s Razor
+→ RKCA candidate structure
+→ Preserved Reusable Structure validation
+→ RRIP inheritance
+→ prediction and benchmark evaluation
+→ evidence record
+→ preserve / restrict / revise / replace / retire
+→ governed human and machine retrieval
+```
+
+Section 13 establishes that:
+
+- canonical framework status does not equal empirical confirmation;
+- implementation does not equal validation;
+- successful retrieval does not equal evidence;
+- payment does not equal evidence;
+- reference implementation does not equal independent confirmation;
+- predictions require declared evaluation conditions;
+- evidence status must remain separate from claim provenance;
+- cross-domain transfer requires declared source and target conditions; and
+- unsupported or failed claims must be restrictable, revisable, replaceable, or retireable.
+
+## Predictive Evaluation
+
+A predictive framework statement SHOULD identify:
+
+- the prediction being evaluated;
+- the applicable claim or doctrine source;
+- the expected observable result;
+- the evaluation method;
+- the relevant benchmark or dataset;
+- the declared scope;
+- the comparison baseline;
+- the acceptance criteria;
+- the failure conditions;
+- the exclusions and limitations; and
+- the resulting evidence state.
+
+Prediction records MUST distinguish a canonical prediction from evidence gathered about that prediction.
+
+A prediction MUST NOT be classified as supported solely because it is internally coherent, canonically published, implemented, indexed, retrieved, or monetized.
+
+## Evidence States
+
+Repository evidence records SHOULD use only these governed states:
+
+- **Proposed**
+- **Testing**
+- **Provisionally Supported**
+- **Supported**
+- **Challenged**
+- **Inconclusive**
+- **Retired**
+
+Evidence states apply within a declared scope.
+
+A Supported classification does not automatically establish universal validity outside that scope.
+
+Evidence states MUST be traceable to an evidence record containing method, provenance, limitations, and evaluation conditions.
+
+## Claim Provenance and Evidence Provenance
+
+Claim provenance records the origin, authorship, canonical identifier, governing version, and authoritative source of a claim.
+
+Evidence provenance records the origin, method, dataset, evaluation conditions, limitations, and result of evidence used to evaluate that claim.
+
+These provenance layers MUST remain separate.
+
+Evidence produced by a reference implementation is not automatically independent evidence.
+
+Testing a canonical claim does not transfer authorship of that claim.
+
+## Reference-Implementation Boundary
+
+Naturepedia™ is the primary reference implementation of the framework.
+
+Naturepedia may demonstrate implementation feasibility, preserved structure, recursive inheritance, machine-readable provenance, and governed retrieval.
+
+Naturepedia operation does not independently establish:
+
+- universal validation of the complete framework;
+- confirmation across every domain or scale;
+- support for every canonical claim;
+- material identity between compared systems; or
+- independent replication.
+
+This distinction is governed by RC-21 — Reference Implementation Distinction.
+
+## Domain-Transfer Boundary
+
+Before applying a framework structure or evaluation result across domains, the transfer MUST declare:
+
+- source domain;
+- target domain;
+- declared scale;
+- normalization method;
+- preserved invariants;
+- excluded variables;
+- mechanistic assumptions;
+- limitations;
+- failure conditions; and
+- evidence required for acceptance.
+
+Structural correspondence MUST NOT be represented as proof of shared material composition, causal mechanism, physical identity, or universal applicability.
+
+This requirement is governed by RC-22 — Domain Transfer Constraint.
+
+## Appendix Q
+
+Appendix Q remains explicitly provisional.
+
+Compression Fitness equations, weights, normalization methods, scoring procedures, thresholds, and benchmark acceptance criteria derived from Appendix Q MUST remain labeled provisional until validated through governed evaluation.
+
+The repository MAY test Appendix Q candidates.
+
+The repository MUST NOT present provisional Appendix Q mathematics as a final universal equation, established empirical constant, or completed benchmark standard.
+
+## Repository Role
+
+This repository may operationalize Section 13 through:
+
+- prediction records;
+- benchmark protocols;
+- evaluation schemas;
+- empirical probes;
+- evidence-state records;
+- falsifiability documentation;
+- provenance records;
+- reference-implementation tests;
+- domain-transfer declarations; and
+- provisional Appendix Q experiments.
+
+The repository implements and evaluates these structures but does not redefine their canonical meaning.
+
+**Canonical authority:**  
+Grand Compression Master Reference Document — MRD v2.0, Section 13 and Appendix Q
+
+---
+
 # Canonical Claim Alignment
 
 The following canonical claims are directly operationalized or evaluated by this repository.
