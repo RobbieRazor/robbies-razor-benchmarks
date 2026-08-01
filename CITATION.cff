@@ -42,7 +42,7 @@ keywords:
   - "evidence governance"
   - "RRIP"
 
-license: "Evaluation-Only"
+license-url: "https://github.com/RobbieRazor/robbies-razor-benchmarks/blob/main/LICENSE.txt"
 
 references:
   - type: report
@@ -64,7 +64,7 @@ references:
     version: "2.0"
     url: "https://asf-file-uploads.s3.us-east-1.amazonaws.com/image/upload/production/3790/Grand-Compr_1247ef65e1/1785596435.pdf"
 
-  - type: webpage
+  - type: website
     title: "Grand Compression Canonical Claims Register"
     authors:
       - family-names: "George"
