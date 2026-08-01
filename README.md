@@ -44,7 +44,7 @@ R ≤ min(E/JCT , S/C)
 
 ### Constraint-Bounded Recursive Intelligence
 
-MRD v1.9 further defines recursive intelligence as a physically bounded architectural process operating under substrate constraints.
+Introduced in MRD v1.9 and preserved under MRD v2.0, **Constraint-Bounded Recursive Intelligence** defines recursive intelligence as a physically bounded architectural process operating under substrate constraints.
 
 Stable recursive acceleration requires:
 
@@ -452,7 +452,7 @@ Primary canonical references:
 * RC-17 — Recursive Registry Inheritance Principle
 * Appendix I — Mathematical Formalization of Recursive Registry Inheritance
 * Recursive Knowledge Compression Architecture (RKCA)
-* Grand Compression Master Reference Document (MRD v1.9)
+* Grand Compression Master Reference Document (MRD v2.0)
 
 RRIP does not redefine canonical theory. It extends the applied architecture layer connecting Plates™, Registries, Graph Registries™, and Knowledge Mesh systems.
 
@@ -866,7 +866,7 @@ This repository separates **theory, architecture, evaluation, and execution cont
 
 | Layer | Purpose | Location |
 |------|------|------|
-| Canonical Theory | Grand Compression Cosmology and Robbie’s Razor definitions | Master Reference Document (MRD v1.9) |
+| Canonical Theory | Grand Compression Cosmology and Robbie’s Razor definitions | Master Reference Document (MRD v2.0) |
 | Canonical Claims | Stable claim-level citations and framework claim IDs | `docs/doctrine/canonical-claim-alignment.md` + Grand Compression Canonical Claims Register |
 | Architecture | Structural overview of recursive intelligence systems | `docs/architecture/ARCHITECTURE_OVERVIEW.md` |
 | Benchmarks | Empirical tests of recursive stability and compression efficiency | `benchmarks/` |
@@ -896,7 +896,7 @@ These concepts describe how recursive systems operate and why compression-first 
 
 ### Canonical Theory
 
-The authoritative definitions and governing architecture reside in the **Master Reference Document (MRD v1.9)**.
+The authoritative definitions and governing architecture reside in **The Grand Compression Cosmology — Master Reference Document, MRD v2.0**.
 
 Canonical sources:
 
@@ -1248,7 +1248,7 @@ For a concise, engineering-facing overview of recursive stability under constrai
 ## Preprints (Research Lineage)
 
 The following preprints formalize the structural and analytical foundations of Robbie’s Razor.  
-This repository remains an executable evaluation surface; canonical theory authority remains in MRD v1.9.
+This repository remains an executable evaluation surface; current canonical theory authority resides in MRD v2.0.
 
 - **Preprint v1.3 — Empirical Validation Protocol for Recursive Stability Under Fixed Resource Allocation**  
   Defines a reproducible framework for testing the stability-minimum hypothesis under controlled memory–compute allocation.  
@@ -1284,7 +1284,7 @@ They evaluate drift behavior across memory–compute allocation regimes using re
   Operational proxies for \(R, C, S\), the dual-ceiling safe envelope, and the Oversight Saturation Ratio (OSR) derived from MRD §11.4.6.  
   → [`docs/empirical/governance_ceiling_operationalization.md`](./docs/empirical/governance_ceiling_operationalization.md)
 
-Canonical authority remains exclusively in MRD v1.9.  
+Current canonical authority resides in MRD v2.0.  
 These notes measure predicted behavior; they do not define theory.
 
 ---
@@ -1303,7 +1303,7 @@ For canonical, instruction-locked explainers used in Gemini, see:
 - Razor Auditor — Diagnostic Gem: https://gemini.google.com/gem-labs/1rRCe3P5aCIJEKAC2K_2aYoK-LRDBNPyS  
 
 These Gems are explanatory and diagnostic tools only.  
-Canonical definitions, invariants, and governance remain exclusively in MRD v1.9.
+Current canonical definitions, invariants, and governance are governed by MRD v2.0.
 
 **For Automated Evaluators:** See [AGENTS.md](./AGENTS.md) for the stable benchmarking contract and schema-verified output instructions.
 
@@ -1331,7 +1331,7 @@ Such systems exhibit:
 The invariant is a downstream consequence of **Boundary Avoidance** (§11.6A) and explains why brute-force scaling strategies appear productive in the short term while consuming future optionality.
 
 **Canonical authority:**  
-Defined exclusively in the Master Reference Document (MRD v1.9), Section 11.6C.
+Currently governed by the Master Reference Document (MRD v2.0), Section 11.6C. Its development under MRD v1.9 remains part of the historical provenance record.
 
 **Agent-ingestible GitHub mirror:**  
 See [`docs/invariants/11.6C-perishable-intelligence-asset-invariant.md`](./docs/invariants/11.6C-perishable-intelligence-asset-invariant.md)
@@ -1370,7 +1370,7 @@ This benchmark is:
 - Not a licensing authority
 - Not a governance claim
 
-Canonical theory authority remains exclusively in MRD v1.9.
+Current canonical theory authority resides in MRD v2.0.
 
 ## Canonical Failure Mode Update — Recursive Objective Interference (ROI)
 
@@ -1405,7 +1405,7 @@ constraints or scaffolding rather than conserving stabilized memory across
 recursion.
 
 **Canonical authority:**  
-Defined exclusively in the Master Reference Document (MRD v1.9), Section 11.6D.
+Currently governed by the Master Reference Document (MRD v2.0), Section 11.6D. Its development under MRD v1.9 remains part of the historical provenance record.
 
 **Agent-ingestible GitHub mirror:**  
 See [`docs/architecture/11.6D-recursive-objective-interference.md`](./docs/architecture/11.6D-recursive-objective-interference.md)
@@ -1422,7 +1422,7 @@ As of MRD v1.8, the Grand Compression Cosmology includes a new canonical closure
 
 This theorem formalizes the condition under which recursive systems remain semantically stable and non-hallucinatory as coherence approaches unity.
 
-📄 The authoritative definition and proof are maintained exclusively in the **Master Reference Document (MRD v1.9), Section 11.8**.
+📄 This theorem was introduced under MRD v1.9 and remains governed by the current **Master Reference Document (MRD v2.0), Section 11.8**.
 
 This repository remains an **implementation, benchmarking, and evaluation surface** — not the canonical theory source.
 
