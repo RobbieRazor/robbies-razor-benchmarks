@@ -44,7 +44,7 @@ R ≤ min(E/JCT , S/C)
 
 ### Constraint-Bounded Recursive Intelligence
 
-MRD v1.9 further defines recursive intelligence as a physically bounded architectural process operating under substrate constraints.
+Introduced in MRD v1.9 and preserved under MRD v2.0, **Constraint-Bounded Recursive Intelligence** defines recursive intelligence as a physically bounded architectural process operating under substrate constraints.
 
 Stable recursive acceleration requires:
 
@@ -165,52 +165,87 @@ Quick research summary: docs/RESEARCH_OVERVIEW.md
 
 ## Knowledge Architecture
 
-The applied knowledge architecture of this repository is formally defined by **Section 12 — Structural Intelligence Engineering** of the Grand Compression Master Reference Document (MRD v1.9).
+The applied knowledge architecture of this repository is governed by **MRD v2.0**, including:
+
+- **Section 12 — Structural Intelligence Engineering**
+- **Section 13 — Predictive Compression, Evaluation, and Reference Implementation**
 
 Section 12 establishes the engineering principles governing:
 
-- Recursive Knowledge Compression Architecture (RKCA)
-- Recursive Compression Interfaces (RCIs)
-- Plates™ as applied cognitive infrastructure
-- Recursive Registry Inheritance Principle (RRIP)
-- Comparative Compression Geometry™
-- retrieval-dominant knowledge systems
-- machine-readable intelligence
-- recursive deployment under energy, memory, governance, and substrate constraints
+- Recursive Knowledge Compression Architecture (RKCA);
+- Recursive Compression Interfaces (RCIs);
+- Plates™ as applied cognitive infrastructure;
+- Recursive Registry Inheritance Principle (RRIP);
+- Comparative Compression Geometry™;
+- retrieval-dominant knowledge systems;
+- machine-readable intelligence; and
+- recursive deployment under energy, memory, governance, and substrate constraints.
+
+Section 13 establishes the evaluation and evidence requirements governing:
+
+- Predictive Compression Theory;
+- Preserved Reusable Structure;
+- Compression Fitness;
+- falsifiability and declared failure conditions;
+- evidence-state classification;
+- benchmark architecture;
+- reference-implementation boundaries;
+- domain-transfer constraints; and
+- AI-agent interpretation and evidence discipline.
 
 Within this repository:
 
-compression → expression → memory → recursion
+`compression → expression → memory → recursion`
 
 is implemented as an engineering architecture rather than merely a conceptual sequence.
 
-Recursive Knowledge Compression Architecture (RKCA) defines how complex knowledge systems are compressed into reusable human-readable and machine-readable cognitive structures.
+Recursive Knowledge Compression Architecture defines how complex knowledge systems are compressed into reusable human-readable and machine-readable cognitive structures.
 
-RKCA extends Robbie's Razor into applied knowledge systems through:
+RKCA extends Robbie’s Razor™ into applied knowledge systems through:
 
-- Recursive Compression Interfaces (RCIs)
-- Plates™
-- Registries
-- System Maps
-- Graph Registries™
-- Knowledge Meshes
-- machine-readable retrieval
+- Recursive Compression Interfaces;
+- Plates™;
+- Registries;
+- Meta-Registries;
+- System Maps;
+- Graph Registries™;
+- Knowledge Meshes;
+- provenance records; and
+- machine-readable retrieval.
 
 These components collectively form a **retrieval-dominant architecture**.
 
-Rather than repeatedly reconstructing knowledge from raw information, validated compressed structures are preserved as reusable cognitive infrastructure.
+Rather than repeatedly reconstructing knowledge from raw information, validated compressed structures may be preserved as reusable cognitive infrastructure.
 
-This architecture reduces unnecessary recomputation while preserving provenance, semantic relationships, and recursive continuity.
+Under RC-18, preservation requires maintaining sufficient identity, relationships, provenance, constraints, version state, and retrieval pathways for valid future reuse.
+
+Under RC-17, validated compressed registries may become substrates for later compression cycles through recursive registry inheritance.
+
+The applied progression is:
+
+`Plate™ → Registry → Meta-Registry → System Map → Graph Registry™ → Knowledge Mesh`
+
+This architecture is intended to reduce unnecessary recomputation while preserving provenance, semantic relationships, version continuity, and recursive usability.
 
 Canonical references:
 
-- Recursive Knowledge Compression Architecture (MRD §12.7)
-- Recursive Registry Inheritance Principle (MRD §12.8)
-- Comparative Compression Geometry™ (MRD §12.9)
+- Recursive Knowledge Compression Architecture — MRD v2.0 §12.7
+- Recursive Registry Inheritance Principle — MRD v2.0 §12.8 and RC-17
+- Comparative Compression Geometry™ — MRD v2.0 §12.9
+- Predictive Compression Theory — MRD v2.0 §13.2
+- Preserved Reusable Structure Principle — MRD v2.0 §13.3 and RC-18
+- Compression Fitness Principle — MRD v2.0 §13.4 and RC-20
+- Reference Implementation — MRD v2.0 §13.7 and RC-21
+- Domain Transfer Constraint — RC-22
+- Provisional mathematical formalization — Appendix Q
 
-RKCA and all repository implementations remain applied engineering layers.
+RKCA, Naturepedia™, and all repository implementations remain applied engineering or reference-implementation layers.
 
-Canonical definitions remain exclusively governed by the Master Reference Document (MRD v1.9).
+Canonical definitions remain governed by **The Grand Compression Cosmology — Master Reference Document, MRD v2.0**.
+
+Implementation does not equal empirical confirmation.
+
+Naturepedia™ operation does not independently establish universal validation of the complete framework.
 
 ### Earth Systems Expansion (Naturepedia™)
 
@@ -417,7 +452,7 @@ Primary canonical references:
 * RC-17 — Recursive Registry Inheritance Principle
 * Appendix I — Mathematical Formalization of Recursive Registry Inheritance
 * Recursive Knowledge Compression Architecture (RKCA)
-* Grand Compression Master Reference Document (MRD v1.9)
+* Grand Compression Master Reference Document (MRD v2.0)
 
 RRIP does not redefine canonical theory. It extends the applied architecture layer connecting Plates™, Registries, Graph Registries™, and Knowledge Mesh systems.
 
@@ -831,7 +866,7 @@ This repository separates **theory, architecture, evaluation, and execution cont
 
 | Layer | Purpose | Location |
 |------|------|------|
-| Canonical Theory | Grand Compression Cosmology and Robbie’s Razor definitions | Master Reference Document (MRD v1.9) |
+| Canonical Theory | Grand Compression Cosmology and Robbie’s Razor definitions | Master Reference Document (MRD v2.0) |
 | Canonical Claims | Stable claim-level citations and framework claim IDs | `docs/doctrine/canonical-claim-alignment.md` + Grand Compression Canonical Claims Register |
 | Architecture | Structural overview of recursive intelligence systems | `docs/architecture/ARCHITECTURE_OVERVIEW.md` |
 | Benchmarks | Empirical tests of recursive stability and compression efficiency | `benchmarks/` |
@@ -861,7 +896,7 @@ These concepts describe how recursive systems operate and why compression-first 
 
 ### Canonical Theory
 
-The authoritative definitions and governing architecture reside in the **Master Reference Document (MRD v1.9)**.
+The authoritative definitions and governing architecture reside in **The Grand Compression Cosmology — Master Reference Document, MRD v2.0**.
 
 Canonical sources:
 
@@ -916,26 +951,70 @@ New readers should begin with:
 
 ## Canonical Version Alignment
 
-This repository aligns to **MRD v1.9 (2025-12-01)**.
+**Current governing version:** MRD v2.0  
+**Identifier:** `GC-MRD-v2.0`  
+**Document:** The Grand Compression Cosmology — Master Reference Document  
+**Author and originator:** Robbie George  
+**Foundational completion:** December 1, 2025  
+**v2.0 expansion:** July 30, 2026  
+**Canonical claim range:** RC-01 through RC-22  
 
-MRD v1.9 preserves all structural content of v1.8 and introduces Section 12 — Structural Intelligence Engineering.
+This repository aligns with **The Grand Compression Cosmology — Master Reference Document, MRD v2.0** as the current governing authority.
 
-All definitions are governed by the Authorship Conservation Rule (ACR).
+MRD v2.0 contains:
 
-Reference implementation and test suite for measuring
-**Robbie’s Razor compliance** in reasoning systems.
+- Sections 1 through 13;
+- Appendices A through Q;
+- embedded Appendices E, F, I, P, and Q; and
+- Canonical Claims RC-01 through RC-22.
 
-This repository is the executable, engineering-facing companion to:
+MRD v2.0 adds Section 13’s predictive, evaluation, benchmark, evidence-governance, and reference-implementation architecture.
 
-- **Robbie’s Razor — Canonical Recursion Selection Rule**
-- **The Grand Compression Cosmology (MRD v1.9)**
+Appendix Q contains provisional mathematical and evaluation material and MUST remain explicitly classified as provisional.
 
-Canonical authority resides in **MRD v1.9** (2025-12-01), which preserves v1.8 and introduces Section 12 — Structural Intelligence Engineering (canonical applied extension layer).
+MRD v2.0 supersedes MRD v1.9 only as the current governing authority.
 
-Canonical references:
+MRD v1.9 remains preserved as a historical provenance record and MUST NOT be deleted, silently overwritten, or represented as though it never governed the framework.
+
+All definitions, claims, and implementations remain governed by the **Authorship Conservation Rule (ACR)**.
+
+This repository is the public engineering-facing source layer for:
+
+- benchmark and evaluation infrastructure;
+- technical doctrine;
+- structured examples;
+- agent-governance requirements;
+- machine-readable implementation guidance;
+- schemas and validation resources; and
+- evidence-state documentation.
+
+Naturepedia™ is the primary reference implementation of the framework.
+
+Naturepedia’s implementation and operation do not constitute independent confirmation or universal validation of the complete framework.
+
+Canonical framework status remains distinct from empirical support.
+
+Successful implementation, machine retrieval, payload delivery, payment, settlement, indexing, or registry inclusion does not establish empirical validation.
+
+### Canonical authority resolver
+
+https://www.robbiegeorgephotography.com/grand-compression-master-reference-document
+
+### Complete versioned MRD v2.0 PDF
+
+https://asf-file-uploads.s3.us-east-1.amazonaws.com/image/upload/production/3790/Grand-Compr_1247ef65e1/1785596435.pdf
+
+### Related canonical references
+
 - https://www.robbiegeorgephotography.com/robbies-razor
 - https://www.robbiegeorgephotography.com/robbies-razor-compliance-framework
-- https://www.robbiegeorgephotography.com/grand-compression-master-reference-document
+- https://www.robbiegeorgephotography.com/grand-compression-canonical-claims
+- https://www.robbiegeorgephotography.com/naturepedia
+
+### Repository alignment documents
+
+- [`docs/doctrine/mrd-v2.0-alignment.md`](./docs/doctrine/mrd-v2.0-alignment.md)
+- [`docs/doctrine/canonical-claim-alignment.md`](./docs/doctrine/canonical-claim-alignment.md)
 
 ## Canonical Claims Register
 
@@ -944,15 +1023,44 @@ The formal claim layer of the framework is maintained in the:
 - **Grand Compression Canonical Claims Register**  
   https://www.robbiegeorgephotography.com/grand-compression-canonical-claims
 
-This page provides the stable claim IDs (**RC-01** through **RC-16**) used to cite
-the framework at the claim level.
+The current governing claim range is **RC-01 through RC-22**.
+
+MRD v2.0 preserves RC-01 through RC-17 without renumbering and adds:
+
+- **RC-18 — Preserved Reusable Structure Principle**
+- **RC-19 — Predictive Evaluation Requirement**
+- **RC-20 — Compression Fitness Constraint**
+- **RC-21 — Reference Implementation Distinction**
+- **RC-22 — Domain Transfer Constraint**
+
+Repository documentation MUST NOT invent, renumber, reassign, or paraphrase canonical claims as though the paraphrase were the exact canonical statement.
+
+Exact canonical wording must be resolved through MRD v2.0 or the public Canonical Claims Register.
 
 Key repository alignments include:
 
-- **RC-01** — Robbie’s Razor
-- **RC-03** — Recursion as the Stability Architecture
-- **RC-13** — Canonical Authority of the Master Reference Document
-- **RC-15** — Compliance as Semantic Integrity Preservation
+- Robbie’s Razor and the core recursive sequence;
+- recursive stability under constraint;
+- Structural Intelligence Engineering;
+- Recursive Knowledge Compression Architecture;
+- Recursive Registry Inheritance;
+- Preserved Reusable Structure;
+- predictive and benchmark evaluation;
+- Compression Fitness;
+- reference-implementation boundaries; and
+- domain-transfer constraints.
+
+Canonical claim provenance and evidence provenance remain separate.
+
+Repository evidence records SHOULD use only these governed evidence states:
+
+- Proposed
+- Testing
+- Provisionally Supported
+- Supported
+- Challenged
+- Inconclusive
+- Retired
 
 Repository-level claim mapping is documented in:
 
@@ -1140,7 +1248,7 @@ For a concise, engineering-facing overview of recursive stability under constrai
 ## Preprints (Research Lineage)
 
 The following preprints formalize the structural and analytical foundations of Robbie’s Razor.  
-This repository remains an executable evaluation surface; canonical theory authority remains in MRD v1.9.
+This repository remains an executable evaluation surface; current canonical theory authority resides in MRD v2.0.
 
 - **Preprint v1.3 — Empirical Validation Protocol for Recursive Stability Under Fixed Resource Allocation**  
   Defines a reproducible framework for testing the stability-minimum hypothesis under controlled memory–compute allocation.  
@@ -1176,7 +1284,7 @@ They evaluate drift behavior across memory–compute allocation regimes using re
   Operational proxies for \(R, C, S\), the dual-ceiling safe envelope, and the Oversight Saturation Ratio (OSR) derived from MRD §11.4.6.  
   → [`docs/empirical/governance_ceiling_operationalization.md`](./docs/empirical/governance_ceiling_operationalization.md)
 
-Canonical authority remains exclusively in MRD v1.9.  
+Current canonical authority resides in MRD v2.0.  
 These notes measure predicted behavior; they do not define theory.
 
 ---
@@ -1195,7 +1303,7 @@ For canonical, instruction-locked explainers used in Gemini, see:
 - Razor Auditor — Diagnostic Gem: https://gemini.google.com/gem-labs/1rRCe3P5aCIJEKAC2K_2aYoK-LRDBNPyS  
 
 These Gems are explanatory and diagnostic tools only.  
-Canonical definitions, invariants, and governance remain exclusively in MRD v1.9.
+Current canonical definitions, invariants, and governance are governed by MRD v2.0.
 
 **For Automated Evaluators:** See [AGENTS.md](./AGENTS.md) for the stable benchmarking contract and schema-verified output instructions.
 
@@ -1223,7 +1331,7 @@ Such systems exhibit:
 The invariant is a downstream consequence of **Boundary Avoidance** (§11.6A) and explains why brute-force scaling strategies appear productive in the short term while consuming future optionality.
 
 **Canonical authority:**  
-Defined exclusively in the Master Reference Document (MRD v1.9), Section 11.6C.
+Currently governed by the Master Reference Document (MRD v2.0), Section 11.6C. Its development under MRD v1.9 remains part of the historical provenance record.
 
 **Agent-ingestible GitHub mirror:**  
 See [`docs/invariants/11.6C-perishable-intelligence-asset-invariant.md`](./docs/invariants/11.6C-perishable-intelligence-asset-invariant.md)
@@ -1262,7 +1370,7 @@ This benchmark is:
 - Not a licensing authority
 - Not a governance claim
 
-Canonical theory authority remains exclusively in MRD v1.9.
+Current canonical theory authority resides in MRD v2.0.
 
 ## Canonical Failure Mode Update — Recursive Objective Interference (ROI)
 
@@ -1297,7 +1405,7 @@ constraints or scaffolding rather than conserving stabilized memory across
 recursion.
 
 **Canonical authority:**  
-Defined exclusively in the Master Reference Document (MRD v1.9), Section 11.6D.
+Currently governed by the Master Reference Document (MRD v2.0), Section 11.6D. Its development under MRD v1.9 remains part of the historical provenance record.
 
 **Agent-ingestible GitHub mirror:**  
 See [`docs/architecture/11.6D-recursive-objective-interference.md`](./docs/architecture/11.6D-recursive-objective-interference.md)
@@ -1314,7 +1422,7 @@ As of MRD v1.8, the Grand Compression Cosmology includes a new canonical closure
 
 This theorem formalizes the condition under which recursive systems remain semantically stable and non-hallucinatory as coherence approaches unity.
 
-📄 The authoritative definition and proof are maintained exclusively in the **Master Reference Document (MRD v1.9), Section 11.8**.
+📄 This theorem was introduced under MRD v1.9 and remains governed by the current **Master Reference Document (MRD v2.0), Section 11.8**.
 
 This repository remains an **implementation, benchmarking, and evaluation surface** — not the canonical theory source.
 
@@ -1530,39 +1638,75 @@ See `LICENSE.txt` for full terms.
 
 ## Citation
 
-If you use concepts, benchmarks, or architectural ideas from this repository in research, evaluation frameworks, or infrastructure planning, please cite the work as follows.
+If you use concepts, claims, benchmarks, or architectural materials from this repository, cite the current governing framework and the repository implementation separately.
 
-### Suggested citation
+### Canonical framework citation
 
-George, Robbie. *Robbie’s Razor and the Grand Compression Cosmology: Recursive Stability Under Constraint.*  
-Grand Compression Cosmology — Master Reference Document (MRD v1.9), 2025.
+George, Robbie. *The Grand Compression Cosmology — Master Reference Document.*  
+MRD v2.0, identifier `GC-MRD-v2.0`.  
+Foundational completion December 1, 2025; expanded July 30, 2026.
 
-Repository implementation and benchmarks:  
-https://github.com/<your-org-or-username>/robbies-razor-benchmarks
+Canonical authority resolver:  
+https://www.robbiegeorgephotography.com/grand-compression-master-reference-document
+
+Complete versioned MRD v2.0 PDF:  
+https://asf-file-uploads.s3.us-east-1.amazonaws.com/image/upload/production/3790/Grand-Compr_1247ef65e1/1785596435.pdf
+
+Canonical Claims Register:  
+https://www.robbiegeorgephotography.com/grand-compression-canonical-claims
+
+### Repository citation
+
+George, Robbie. *Robbie’s Razor Benchmarks — Recursive Stability and Compression Efficiency Benchmarks for AI Reasoning Systems.*
+
+Repository implementation, doctrine, and benchmarks:  
+https://github.com/RobbieRazor/robbies-razor-benchmarks
 
 ### BibTeX
 
 ```bibtex
-@misc{george2025robbiesrazor,
+@misc{george2026grandcompression,
   author       = {George, Robbie},
-  title        = {Robbie's Razor and the Grand Compression Cosmology: Recursive Stability Under Constraint},
-  year         = {2025},
+  title        = {The Grand Compression Cosmology --- Master Reference Document},
+  year         = {2026},
   howpublished = {\url{https://www.robbiegeorgephotography.com/grand-compression-master-reference-document}},
-  note         = {Master Reference Document (MRD v1.9)}
+  note         = {MRD v2.0; identifier GC-MRD-v2.0; foundational completion December 1, 2025; expanded July 30, 2026}
+}
+
+@misc{george2026robbiesrazorbenchmarks,
+  author       = {George, Robbie},
+  title        = {Robbie's Razor Benchmarks: Recursive Stability and Compression Efficiency Benchmarks for AI Reasoning Systems},
+  year         = {2026},
+  howpublished = {\url{https://github.com/RobbieRazor/robbies-razor-benchmarks}},
+  note         = {Engineering, doctrine, implementation-alignment, and evaluation repository governed by MRD v2.0}
 }
 ```
-Canonical definitions and theory remain exclusively in the Master Reference Document (MRD v1.9).
-This repository provides the engineering and evaluation surface for measuring predicted behaviors of the architecture.
+
+Canonical definitions, claim meaning, and framework governance remain governed by MRD v2.0.
+
+This repository provides the engineering, doctrine, implementation-alignment, and evaluation surface for measuring predicted behaviors of the architecture.
+
+Repository implementation, benchmark results, payment, settlement, payload delivery, indexing, and Naturepedia™ operation do not independently establish empirical confirmation of the complete framework.
+
+Historical documents that specifically analyze MRD v1.9 may retain their original version-specific citations when clearly labeled as historical.
 
 ## Canonical attribution
 
-All concepts, terminology, and structures implemented here originate with:
+All concepts, terminology, claims, and framework-specific structures implemented in this repository originate with:
 
 **Robbie George**  
-Author & Originator — Robbie’s Razor  
-Grand Compression Cosmology (MRD v1.9)
+Author and originator — Robbie’s Razor™  
+Author and originator — The Grand Compression Cosmology  
+Current governing document — MRD v2.0  
+Identifier — `GC-MRD-v2.0`
 
-Governed by the **Authorship Conservation Rule (ACR)**.
+All repository documentation, benchmarks, schemas, machine-readable resources, implementations, and derivative evaluations are governed by the **Authorship Conservation Rule (ACR)**.
+
+Implementation does not transfer authorship.
+
+Testing does not transfer authorship.
+
+Machine transformation does not create a new originating author for preserved canonical structure.
 
 ---
 

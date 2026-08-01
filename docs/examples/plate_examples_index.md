@@ -3,6 +3,26 @@
 **Status:** Live Recursive Semantic Registry  
 **Author & Architect of Record:** Robbie George  
 **Systems:** Naturepedia™, Robbie’s Razor™, RKCA™, Grand Compression Cosmology™  
+**Current governing authority:** The Grand Compression Cosmology — Master Reference Document, MRD v2.0  
+**Canonical identifier:** `GC-MRD-v2.0`  
+**Canonical claim range:** RC-01 through RC-22  
+**Primary reference implementation:** Naturepedia™  
+**Index role:** Human-readable implementation and navigation index  
+
+**Canonical authority resolver:**  
+https://www.robbiegeorgephotography.com/grand-compression-master-reference-document
+
+**Complete versioned PDF:**  
+https://asf-file-uploads.s3.us-east-1.amazonaws.com/image/upload/production/3790/Grand-Compr_1247ef65e1/1785596435.pdf
+
+**Canonical Claims Register:**  
+https://www.robbiegeorgephotography.com/grand-compression-canonical-claims
+
+This index records implementation, identity, relationships, retrieval paths, and registry membership. Plate or registry inclusion does not independently establish empirical validation.
+
+Naturepedia is the primary reference implementation. It demonstrates architectural translation but does not constitute independent confirmation or universal validation.
+
+MRD v1.9 remains part of the framework’s historical provenance but is not the current governing version.  
 
 ---
 
@@ -211,7 +231,9 @@ RRIP is formally defined through:
 * Appendix I — Mathematical Formalization of Recursive Registry Inheritance
 * Recursive Knowledge Compression Architecture (RKCA)
 * Robbie's Razor™
-* Grand Compression Master Reference Document (MRD v1.9)
+* Grand Compression Master Reference Document, MRD v2.0 (`GC-MRD-v2.0`)
+* Section 13 — Predictive Compression, Evidence, and Boundary Requirements
+* RC-18 through RC-22 — Preservation, evidence, compression evaluation, reference-implementation, and cross-domain boundaries
 
 Canonical inheritance pathway:
 
@@ -373,7 +395,7 @@ These endpoints function as the Discovery Plane, Registry Plane, RRIP Resolution
 The full canonical machine-readable Plate™ registry is maintained at:
 
 ```txt
-docs/examples/json-ld/plate-registry.json
+docs/examples/json-ld/canonical-plate-registry.json
 ```
 
 ## Naturepedia System & Navigation Plates™
@@ -1573,4 +1595,3 @@ Commercial AI training, structured retrieval, embedding generation, dataset cons
 Primary governance and licensing reference:
 
 https://www.robbiegeorgephotography.com/commercial-data-license
-```

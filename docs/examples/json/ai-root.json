@@ -1,16 +1,48 @@
 {
   "id": "https://www.robbiegeorgephotography.com/.well-known/ai-root.json",
   "schemaVersion": "1.0",
-  "version": "1.1",
-  "dateModified": "2026-07-30",
+  "version": "1.2",
+  "dateModified": "2026-08-01",
   "name": "Robbie George Photography AI Root",
-  "description": "Canonical machine-readable entry point for Robbie George's human-authority pages, professional evidence, Naturepedia™, Robbie's Razor™, and AI discovery infrastructure.",
+  "description": "Canonical machine-readable entry point for Robbie George's human-authority pages, The Grand Compression Cosmology MRD v2.0, Naturepedia™, Robbie's Razor™, AI discovery infrastructure, and governed machine retrieval.",
   "creator": {
     "name": "Robbie George",
     "url": "https://www.robbiegeorgephotography.com/who-is-robbie-george"
   },
   "site": "https://www.robbiegeorgephotography.com",
-
+  "mrdAuthority": {
+    "name": "The Grand Compression Cosmology — Master Reference Document",
+    "version": "2.0",
+    "identifier": "GC-MRD-v2.0",
+    "author": "Robbie George",
+    "canonicalUrl": "https://www.robbiegeorgephotography.com/grand-compression-master-reference-document",
+    "pdfUrl": "https://asf-file-uploads.s3.us-east-1.amazonaws.com/image/upload/production/3790/Grand-Compr_1247ef65e1/1785596435.pdf",
+    "sectionRange": "1-13",
+    "appendixRange": "A-Q",
+    "canonicalClaimRange": "RC-01-RC-22",
+    "referenceImplementation": "Naturepedia",
+    "appendixQStatus": "provisional",
+    "supersedes": "GC-MRD-v1.9",
+    "preservesHistoricalVersion": "GC-MRD-v1.9"
+  },
+  "authorityBoundaries": {
+    "canonicalStatusIsEmpiricalConfirmation": false,
+    "referenceImplementationIsIndependentConfirmation": false,
+    "implementationEstablishesValidation": false,
+    "paymentEstablishesEvidence": false,
+    "settlementEstablishesEvidence": false,
+    "payloadDeliveryEstablishesEvidence": false,
+    "claimProvenanceSeparateFromEvidenceProvenance": true
+  },
+  "evidenceStates": [
+    "Proposed",
+    "Testing",
+    "Provisionally Supported",
+    "Supported",
+    "Challenged",
+    "Inconclusive",
+    "Retired"
+  ],
   "humanAuthority": {
     "parentHub": {
       "name": "About Robbie",
@@ -36,34 +68,58 @@
       "Do not treat the professional archive as a Plate, registry, x402 resource, or paid machine-retrieval endpoint."
     ]
   },
-
   "discovery": {
     "catalog": "https://www.robbiegeorgephotography.com/.well-known/ai-catalog.json",
     "naturepediaIndex": "https://www.robbiegeorgephotography.com/naturepedia-index.json",
     "geometryIndex": "https://www.robbiegeorgephotography.com/geometry-index.json",
-    "changeLog": "https://www.robbiegeorgephotography.com/change-log.json"
+    "changeLog": "https://www.robbiegeorgephotography.com/change-log.json",
+    "canonicalPublicationManifest": "https://www.robbiegeorgephotography.com/canonical-publication-manifest.json"
   },
-
   "documentation": {
-  "llms": "https://www.robbiegeorgephotography.com/llms.txt",
-  "skill": "https://www.robbiegeorgephotography.com/.well-known/skills/default/skill.md",
-  "llmsFull": "https://www.robbiegeorgephotography.com/llms-full.txt"
-},
-
+    "llms": "https://www.robbiegeorgephotography.com/llms.txt",
+    "skill": "https://www.robbiegeorgephotography.com/.well-known/skills/default/skill.md",
+    "llmsFull": "https://www.robbiegeorgephotography.com/llms-full.txt",
+    "mrdAlignment": "https://github.com/RobbieRazor/robbies-razor-benchmarks/blob/main/docs/doctrine/mrd-v2.0-alignment.md",
+    "canonicalClaimAlignment": "https://github.com/RobbieRazor/robbies-razor-benchmarks/blob/main/docs/doctrine/canonical-claim-alignment.md",
+    "mrdManifest": "https://github.com/RobbieRazor/robbies-razor-benchmarks/blob/main/docs/mrd/mrd-v2.0-manifest.json"
+  },
   "machineInfrastructure": {
     "discovery": "https://www.robbiegeorgephotography.com/api/v2/naturepedia/index.md",
     "registry": "https://www.robbiegeorgephotography.com/api/v2/plates/registry.md",
     "rrip": "https://www.robbiegeorgephotography.com/api/v2/rrip/resolve",
     "stateToken": "https://www.robbiegeorgephotography.com/api/v2/razor/state-token"
   },
-
   "registries": {
     "canonical": "https://www.robbiegeorgephotography.com/v1/plates/canonical",
     "x402Canonical": "https://www.robbiegeorgephotography.com/x402/canonical-plate-registry.json"
   },
-
+  "accessArchitecture": {
+    "publicAuthority": [
+      "https://www.robbiegeorgephotography.com/grand-compression-master-reference-document",
+      "https://www.robbiegeorgephotography.com/grand-compression-canonical-claims",
+      "https://www.robbiegeorgephotography.com/llms.txt",
+      "https://www.robbiegeorgephotography.com/llms-full.txt",
+      "https://www.robbiegeorgephotography.com/canonical-publication-manifest.json"
+    ],
+    "publicMachineDiscovery": [
+      "https://www.robbiegeorgephotography.com/.well-known/ai-root.json",
+      "https://www.robbiegeorgephotography.com/.well-known/ai-catalog.json",
+      "https://www.robbiegeorgephotography.com/.well-known/skills/default/skill.md"
+    ],
+    "paidMachineRetrieval": {
+      "compactStructuredResourcesUsd": 1,
+      "registriesAndSystemMapsUsd": 5,
+      "knowledgeMeshesAndHigherOrderResourcesUsd": 25
+    }
+  },
   "governance": {
     "principle": "Gr <= Es",
-    "framework": "Robbie's Razor™"
+    "framework": "Robbie's Razor™",
+    "governingMrdVersion": "2.0",
+    "governingMrdIdentifier": "GC-MRD-v2.0",
+    "canonicalClaimRange": "RC-01-RC-22",
+    "authorshipConservationRuleRequired": true,
+    "appendixQProvisional": true,
+    "domainTransferDeclarationsRequired": true
   }
 }

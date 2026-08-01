@@ -1,276 +1,505 @@
 # Grand Compression Intelligence Loop
 
+## Document Status
+
+This document provides an engineering-facing description of the Grand Compression Intelligence Loop.
+
+It is an architectural orientation aligned with **The Grand Compression Cosmology — Master Reference Document, MRD v2.0**.
+
+It does not replace the complete MRD, establish that every intelligence system follows an identical mechanism, or independently validate the represented relationships.
+
+---
+
 ## Canonical Version Alignment
 
-This architecture description aligns with The Grand Compression Cosmology — Master Reference Document (MRD v1.9).
+**Governing document:** The Grand Compression Cosmology — Master Reference Document  
+**Governing version:** MRD v2.0  
+**Canonical identifier:** `GC-MRD-v2.0`  
+**Author and originator:** Robbie George  
+**Canonical section range:** Sections 1–13  
+**Canonical appendix range:** Appendices A–Q  
+**Canonical claim range:** RC-01 through RC-22  
 
-MRD v1.9 preserves the structural framework introduced in earlier versions and extends the applied architecture layers governing recursive intelligence systems.
+Canonical authority resolver:
 
-All definitions, principles, and architectural rules are governed by the Authorship Conservation Rule (ACR).
+https://www.robbiegeorgephotography.com/grand-compression-master-reference-document
 
-The concepts presented here are original to Robbie George, originator of:
+Complete versioned PDF:
 
-Robbie’s Razor
+https://asf-file-uploads.s3.us-east-1.amazonaws.com/image/upload/production/3790/Grand-Compr_1247ef65e1/1785596435.pdf
 
-The Grand Compression Cosmology
+Canonical Claims Register:
 
-Meta-Recursion Architecture
+https://www.robbiegeorgephotography.com/grand-compression-canonical-claims
 
-### Canonical references:
+Additional framework references:
 
 https://www.robbiegeorgephotography.com/robbies-razor
 
 https://www.robbiegeorgephotography.com/robbies-razor-compliance-framework
 
-https://www.robbiegeorgephotography.com/grand-compression-master-reference-document
+Repository architecture overview:
 
-This document provides an engineering-facing architectural summary of how recursive intelligence systems operate under the Razor framework.
+[`ARCHITECTURE_OVERVIEW.md`](ARCHITECTURE_OVERVIEW.md)
 
-# Executive Architecture Summary
+MRD v1.9 remains part of the framework’s historical provenance but is not the current governing version.
 
-Robbie’s Razor describes intelligence systems as recursive compression architectures governed by the cycle:
+---
 
+## Executive Architecture Summary
+
+The Grand Compression Intelligence Loop is organized around the orientation cycle:
+
+```text
 compression → expression → memory → recursion
+```
 
-Prediction emerges naturally when recursion operates on preserved compressed structure.
+Within this architecture:
 
-In practical systems, this produces a closed intelligence loop that allows systems to:
+- **Compression** reduces representation or operating burden while preserving required structure.
+- **Expression** transforms compressed structure into an observable, operational, or retrievable state.
+- **Memory** preserves structure required for later retrieval and reuse.
+- **Recursion** reuses or transforms preserved structure across successive cycles or layers.
 
-reuse compressed knowledge
+Prediction may emerge when recursion operates on preserved compressed memory to project bounded future states.
 
-reduce recomputation cost
+This is an architectural proposition. Its application to a specific system requires declared variables, scope, scale, mechanisms, evidence, alternatives, and failure conditions.
 
-generate future state projections
+---
 
-adapt under constraint
+## Grand Compression Intelligence Loop
 
-The architecture is substrate-independent and applies across:
+The broader engineering loop may be represented as:
 
-biological intelligence
+```mermaid
+flowchart TD
+    A[Environment] --> B[Observation]
+    B --> C[Compression]
+    C --> D[Expression]
+    D --> E[Memory]
+    E --> F[Recursion]
+    F --> G[Prediction]
+    G --> H[Action]
+    H --> I[Feedback]
+    I --> J[Memory update]
+    J --> K[Recompression]
+    K --> B
+```
 
-artificial intelligence
+The diagram presents a reusable architectural sequence.
 
-evolutionary systems
+It does not imply that:
 
-economic systems
+- every system contains every stage as a distinct component
+- every system follows the same temporal order
+- every feedback process constitutes intelligence
+- every recursive process generates prediction
+- visual correspondence proves a shared causal mechanism
+- one domain’s measurements transfer automatically to another
 
-institutional decision loops
+---
 
-# Grand Compression Intelligence Loop
+## Stage Definitions
 
-All stable intelligence systems follow a closed-loop structure:
+### Environment
 
-Environment
-     │
-     ▼
-Observation
-     │
-     ▼
-Compression
-     │
-     ▼
-Expression
-     │
-     ▼
-Memory
-     │
-     ▼
-Recursion
-     │
-     ▼
-Prediction
-     │
-     ▼
-Action
-     │
-     ▼
-Feedback
-     │
-     ▼
-Memory Update
-     │
-     ▼
-Recompression
+The declared external or internal conditions relevant to the modeled system.
 
-The loop then repeats.
+A study must define what is included within the environment and what is excluded.
 
-Prediction appears inside the recursion stage as the mechanism that projects compressed memory forward into possible future states.
+### Observation
 
-This reduces recomputation burden and improves stability under resource constraint.
+The acquisition or construction of a state representation from available signals.
 
-# Predictive Recursion Principle
+Observation may be incomplete, noisy, selected, transformed, or constrained by the system’s interface.
 
-Within a recursive architecture governed by:
+### Compression
 
-compression → expression → memory → recursion
+The reduction of description, representation, or operating burden while preserving structure required for the intended purpose.
 
-prediction emerges as the forward projection of compressed memory.
+Compression quality cannot be assessed by size reduction alone.
 
-Let:
+### Expression
 
-M = stabilized compressed memory
+The transformation of compressed structure into an observable, communicable, actionable, or retrievable state.
 
-R = recursive transition operator
+Expression may introduce distortion if it is not anchored to preserved memory and constraints.
 
-P = predicted future state distribution
+### Memory
 
-Then:
+The preservation of identity, relationships, provenance, constraints, version state, or other structure required for later use.
 
+Storage alone does not guarantee usable memory. The stored structure must remain identifiable and retrievable.
+
+### Recursion
+
+The reuse or transformation of preserved structure across successive cycles or layers.
+
+Repeated processing without preserved invariants may produce drift rather than stable recursion.
+
+### Prediction
+
+A bounded projection concerning a possible future, hidden, or subsequent state.
+
+Predictive claims require explicit variables, scope, scale, baseline, direction, evidence status, and failure conditions.
+
+### Action
+
+A state change, decision, output, or intervention produced by the system.
+
+An output does not establish that the underlying prediction or internal representation was correct.
+
+### Feedback
+
+Information returned to the system concerning consequences, error, change, or environmental response.
+
+Feedback quality depends on timing, relevance, measurement, attribution, and accessibility.
+
+### Memory Update
+
+The modification of preserved state in response to new evidence or feedback.
+
+Updates must preserve provenance, version state, and the distinction between prior and revised representations.
+
+### Recompression
+
+The construction of an updated compressed representation following observation, action, feedback, or memory revision.
+
+Recompression must not silently erase evidence, constraints, exclusions, or historical state required for later interpretation.
+
+---
+
+## Preserved Reusable Structure
+
+MRD v2.0 Section 13 and RC-18 establish that compressed information becomes durable recursive infrastructure only when the structure required for later use remains preserved.
+
+Depending on the system, this may include:
+
+- stable identity
+- relationships
+- provenance
+- constraints
+- version state
+- retrieval paths
+- evidence status
+- known exclusions
+- failure conditions
+
+The loop depends on this preservation boundary.
+
+Without preserved reusable structure, later recursion may reconstruct an uncontrolled approximation rather than reuse a governed state.
+
+---
+
+## Predictive Recursion Orientation
+
+A simplified conceptual representation may be written as:
+
+```text
 P = R(M)
-
-Prediction therefore arises when recursive systems attempt to minimize recomputation cost by anticipating future states rather than exhaustively computing them.
-
-Prediction is therefore:
-
-a recursion artifact
-
-a compression efficiency strategy
-
-an energy minimization mechanism
-
-Across domains this architecture appears as:
-
-System	Memory Substrate	Prediction Mechanism
-Biological brains	Synaptic structure	Anticipated sensory input
-Artificial neural networks	Model weights	Next-token or next-state inference
-Control systems	State estimators	Future state projection
-Markets	Aggregated information	Price expectation
-Evolution	Genetic encoding	Environmental fitness prediction
-
-Prediction is therefore not exclusive to artificial intelligence.
-
-It is a general property of recursive compression systems operating under constraint.
-
-# Recursion Under Constraint
-
-All recursive intelligence systems operate within two structural ceilings.
-
-## Energetic Recursion Ceiling
-
-Energy availability limits how many coherent recursive transitions can occur.
-
-Let:
-
-E = available energy per unit time
-
-JCT = Joules per Coherent Transition
-
-R = recursive transition rate
-
-Then:
-
-R ≤ E / JCT
-
-Compression-efficient architectures reduce JCT, increasing possible recursion throughput.
-
-## Governance Recursion Ceiling
-
-Institutional or system stabilization capacity also limits recursion velocity.
-
-Let:
-
-S = stabilization bandwidth
-
-C = correction demand per transition
-
-R = recursive transition rate
-
-Then:
-
-R · C ≤ S
-
-Instability occurs when recursive transitions generate correction demand faster than stabilization systems can absorb.
-
-# The Sovereign Safe Recursion Envelope
-
-Stable recursive systems must remain within both ceilings simultaneously.
-
-R ≤ min(E/JCT , S/C)
+```
 
 Where:
 
-E/JCT represents the energetic constraint
+- **M** = a declared preserved memory state
+- **R** = a declared recursive transition or projection operation
+- **P** = a bounded predicted state or distribution
 
-S/C represents the governance stabilization constraint
+This notation is schematic and does not constitute a universal empirical equation.
 
-Recursive systems operating within this envelope maintain structural coherence under constraint.
+A real implementation must also specify, where relevant:
 
-# Relationship to Robbie’s Razor
+- observations
+- context
+- time
+- constraints
+- uncertainty
+- model parameters
+- intervention conditions
+- evaluation criteria
 
-Robbie’s Razor states:
+Prediction should not be described as an automatic property of all recursion.
 
-When competing explanations exist, prefer the model that follows
-compression → expression → memory → recursion.
+The bounded architectural proposition is that a system may reduce some recomputation burden by projecting from preserved structure rather than reconstructing every relevant state from the beginning.
 
-The Grand Compression Intelligence Loop describes the operational architecture through which this principle manifests in real systems.
+Canonical orientation: MRD v2.0, Section 13 and RC-19.
 
-Systems that bypass compression discipline typically resort to:
+---
 
-brute-force scaling
+## Predictive-Claim Requirements
 
-boundary expansion
+A predictive, comparative, empirical, or performance claim should declare:
 
-recomputation inflation
+- variables
+- scope
+- scale
+- baseline
+- expected direction
+- measurement method
+- evidence status
+- uncertainty
+- alternatives
+- failure conditions
+- revision conditions
 
-These strategies postpone instability rather than reducing recursion cost.
+A successful prediction in one bounded task does not establish universal applicability, causal explanation, or independent validation of the complete framework.
 
-Razor-governed systems instead:
+---
 
-preserve compressed structure
+## Recursion Under Constraint
 
-reuse stabilized representations
+The architecture represents recursion as operating within energetic and governance constraints.
 
-minimize recomputation
+These relationships are conceptual models unless operationalized and tested within a declared system.
 
-This produces higher recursion efficiency and improved structural stability.
+### Energetic Recursion Ceiling
 
-# Cross-Scale Applicability
+```text
+R ≤ E / JCT
+```
 
-The architecture applies across multiple domains:
+Where:
 
-Domain	Recursive Memory	Prediction Function
-Neuroscience	Synaptic networks	Sensory prediction
-AI systems	Model parameters	Token or state prediction
-Evolution	Genetic encoding	Environmental adaptation
-Markets	Distributed information	Price forecasting
-Institutions	Governance structures	Policy outcome projection
+- **E** = available energy within the declared system boundary
+- **JCT** = Joules per Coherent Transition
+- **R** = recursive transition rate
 
-This cross-domain recurrence supports the broader framework of the Grand Compression Cosmology.
+A study using this relationship must define the transition, coherence criterion, measurement method, units, time interval, uncertainty, and baseline.
 
-# Engineering Implications
+### Governance Recursion Ceiling
 
-Systems designed under Razor principles tend to exhibit:
+```text
+R × C ≤ S
+```
 
-lower recomputation cost
+Where:
 
-improved energy efficiency
+- **S** = stabilization or governance bandwidth
+- **C** = correction demand per transition
+- **R** = recursive transition rate
 
-reduced representational drift
+A study must define what qualifies as correction demand, how stabilization bandwidth is measured, and what constitutes failure.
 
-greater stability under recursive depth
+### Safe Recursion Envelope
 
-Engineering strategies aligned with the Razor include:
+The combined conceptual relationship may be written as:
 
-externalized memory structures
+```text
+R ≤ min(E / JCT, S / C)
+```
 
-compressed representation reuse
+The region satisfying the declared constraints is described as the **Safe Recursion Envelope**.
 
-recursive depth control
+The existence of this equation in an architecture file does not demonstrate that a particular system has been empirically measured or shown to remain within the envelope.
 
-entropy-aware gating
+---
 
-modular architectures
+## Relationship to Robbie’s Razor™
 
-These patterns increasingly appear in frontier AI systems operating under real-world constraint.
+Robbie’s Razor provides the governing selection and evaluation principle for the cycle:
 
-# Canonical Attribution
+```text
+compression → expression → memory → recursion
+```
 
-All concepts presented here are original work by Robbie George and are governed by the Authorship Conservation Rule (ACR).
+The Grand Compression Intelligence Loop describes one engineering-facing representation of how that cycle may connect observation, prediction, action, feedback, and recompression.
 
-This document is an engineering-facing architectural summary aligned with the canonical specification contained in:
+The architecture compares two broad implementation tendencies.
 
-The Grand Compression Cosmology — Master Reference Document (MRD v1.9)
+### Retrieval and Reuse
 
-Canonical source:
+A retrieval-oriented system may:
 
-https://www.robbiegeorgephotography.com/grand-compression-master-reference-document
+- preserve stabilized structure
+- retrieve governed representations
+- maintain provenance
+- reuse prior work
+- reduce avoidable recomputation
+- control recursive depth
+
+### Reconstruction and Boundary Expansion
+
+A reconstruction-dominant system may:
+
+- repeatedly regenerate prior structure
+- increase compute or energy demand
+- lose provenance
+- introduce representational drift
+- expand infrastructure boundaries
+- increase correction demand
+
+These tendencies are evaluation categories, not automatic conclusions.
+
+A benchmark must measure the relevant costs, fidelity, constraints, and outcomes before claiming that one implementation is more stable or efficient.
+
+---
+
+## Cross-Domain Applicability Boundary
+
+The intelligence-loop architecture may be used to generate bounded comparisons across domains.
+
+Illustrative mappings might include:
+
+| Domain | Possible memory representation | Possible projection function |
+|---|---|---|
+| Neuroscience | Declared neural or synaptic state | Bounded sensory or state prediction |
+| Artificial intelligence | Model parameters, context, or external memory | Token, action, or state prediction |
+| Control systems | State estimate | Future-state projection |
+| Markets | Recorded or aggregated information | Price or demand expectation |
+| Evolutionary analysis | Inherited biological information | Modeled fitness response |
+| Institutions | Policies, records, and governance structures | Scenario or outcome projection |
+
+These mappings are not evidence that the domains use identical substrates, mechanisms, mathematics, or causal processes.
+
+Before transferring the architecture across domains or scales, an analysis must declare:
+
+- objects
+- scale
+- normalization
+- relationships
+- exclusions
+- constraints
+- evidence
+- alternatives
+- failure conditions
+
+Canonical orientation: MRD v2.0 and RC-22.
+
+---
+
+## Engineering Hypotheses
+
+The architecture supports testable engineering hypotheses concerning whether a system can:
+
+- reduce recomputation burden
+- preserve reusable structure
+- maintain provenance
+- control recursive depth
+- reduce representational drift
+- operate within declared resource constraints
+- preserve relationships across transformations
+- update memory without erasing version history
+- improve retrieval fidelity
+- reduce correction demand
+
+These are evaluation targets, not guaranteed outcomes.
+
+An implementation claiming improvement must identify:
+
+- the tested system
+- baseline
+- variables
+- resource budget
+- method
+- observed result
+- uncertainty
+- limitations
+- failure conditions
+
+---
+
+## Candidate Engineering Strategies
+
+Candidate strategies aligned with the architecture may include:
+
+- externalized memory structures
+- governed retrieval
+- compressed representation reuse
+- recursive-depth controls
+- provenance preservation
+- constraint-aware gating
+- modular architectures
+- deterministic serialization
+- versioned state transitions
+- explicit failure handling
+
+The inclusion of a strategy in this document does not establish that it will improve every system.
+
+Its effectiveness must be evaluated within the relevant implementation boundary.
+
+---
+
+## Naturepedia™ Reference Implementation
+
+Naturepedia is the primary reference implementation of the Grand Compression architecture.
+
+Its implementation sequence includes:
+
+```text
+Plate™ → Registry → System Map → Knowledge Mesh
+```
+
+Naturepedia demonstrates how the loop may be supported through:
+
+- human-readable knowledge interfaces
+- machine-readable resources
+- stable identifiers
+- preserved relationships
+- provenance
+- constraints
+- version state
+- retrieval paths
+- public and protected delivery
+
+Reference-implementation status demonstrates architectural translation.
+
+It does not establish universal validity or independent empirical confirmation.
+
+Canonical orientation: MRD v2.0 and RC-21.
+
+---
+
+## Evidence-State Boundary
+
+The following statuses are distinct:
+
+- canonical
+- implemented
+- schema-valid
+- serialized
+- settled
+- benchmarked
+- empirically validated
+
+These statuses must not be treated as interchangeable.
+
+Payment settlement, endpoint availability, successful serialization, implementation status, and canonical status do not independently establish empirical validation.
+
+---
+
+## Relationship to This Repository
+
+This repository provides bounded technical and evaluation surfaces for:
+
+- compression efficiency
+- preserved reusable structure
+- recursive stability
+- semantic diffusion
+- memory stabilization
+- recomputation avoidance
+- provenance retention
+- relationship preservation
+- retrieval fidelity
+- Question Quality Under Constraint
+- schema conformance
+- deterministic serialization
+- governed machine delivery
+
+The repository may test architectural predictions within declared conditions.
+
+It does not redefine canonical theory or independently validate the complete Grand Compression Cosmology.
+
+---
+
+## Attribution
+
+The Grand Compression Cosmology, Robbie’s Razor™, the Meta-Recursion Architecture, the Grand Compression Intelligence Loop, the Recursive Knowledge Compression Architecture, RRIP, Plates™, and associated canonical concepts and terminology originate with:
+
+**Robbie George**  
+Author and Originator  
+The Grand Compression Cosmology — Master Reference Document, MRD v2.0  
+Canonical identifier: `GC-MRD-v2.0`
+
+These materials are governed by the **Authorship Conservation Rule (ACR)**.
+
+Implementation, summarization, diagramming, benchmarking, serialization, or machine transformation does not transfer authorship of the originating framework.

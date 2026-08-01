@@ -2,42 +2,72 @@ cff-version: 1.2.0
 
 title: "Robbie’s Razor Benchmarks: Recursive Stability and Compression Efficiency Evaluation Framework"
 
-message: "If you use this repository or its concepts in research, please cite the work below."
+message: "If you use this repository, its benchmarks, or its concepts, please cite both this repository and The Grand Compression Cosmology — Master Reference Document, MRD v2.0."
 
 type: software
 
 authors:
-  - family-names: George
-    given-names: Robbie
+  - family-names: "George"
+    given-names: "Robbie"
 
-version: 0.1.0
+version: 0.2.0
 
-date-released: 2025-12-31
+date-released: 2026-08-01
 
-repository-code: https://github.com/RobbieRazor/robbies-razor-benchmarks
+repository-code: "https://github.com/RobbieRazor/robbies-razor-benchmarks"
 
-url: https://github.com/RobbieRazor/robbies-razor-benchmarks
+url: "https://github.com/RobbieRazor/robbies-razor-benchmarks"
 
 abstract: >
-  Reference implementation and benchmarking framework for evaluating
-  Robbie’s Razor compliance and recursive stability in reasoning
-  systems operating under constrained compute, memory, and governance
-  bandwidth. The repository provides empirical evaluation tools and
-  diagnostics aligned with the Grand Compression Cosmology and the
-  Master Reference Document (MRD v1.9).
+  Public technical doctrine, structured examples, schemas, governance
+  contracts, and benchmarking resources for evaluating Robbie’s Razor,
+  recursive stability, compression efficiency, predictive compression,
+  and preserved reusable structure. This repository is aligned with
+  The Grand Compression Cosmology — Master Reference Document, MRD v2.0
+  (GC-MRD-v2.0). Naturepedia is the primary reference implementation;
+  implementation status does not by itself constitute independent
+  empirical validation.
 
 keywords:
-  - robbies razor
-  - grand compression cosmology
-  - recursive systems
-  - compression efficiency
-  - reasoning benchmarks
-  - artificial intelligence
-  - recursion stability
+  - "robbies razor"
+  - "grand compression cosmology"
+  - "recursive systems"
+  - "recursive stability"
+  - "compression efficiency"
+  - "predictive compression"
+  - "preserved reusable structure"
+  - "reasoning benchmarks"
+  - "artificial intelligence"
+  - "governance contracts"
+  - "evidence governance"
+  - "RRIP"
 
-license: Evaluation-Only
+license-url: "https://github.com/RobbieRazor/robbies-razor-benchmarks/blob/main/LICENSE.txt"
 
 references:
-  - type: article
+  - type: report
     title: "The Grand Compression Cosmology — Master Reference Document"
-    url: https://www.robbiegeorgephotography.com/grand-compression-master-reference-document
+    authors:
+      - family-names: "George"
+        given-names: "Robbie"
+    year: 2026
+    version: "2.0"
+    url: "https://www.robbiegeorgephotography.com/grand-compression-master-reference-document"
+    notes: "Canonical identifier: GC-MRD-v2.0. Foundational completion: December 1, 2025. v2.0 expansion: July 30, 2026. Master-page modification: August 1, 2026."
+
+  - type: report
+    title: "The Grand Compression Cosmology — Master Reference Document, MRD v2.0 — Complete Versioned PDF"
+    authors:
+      - family-names: "George"
+        given-names: "Robbie"
+    year: 2026
+    version: "2.0"
+    url: "https://asf-file-uploads.s3.us-east-1.amazonaws.com/image/upload/production/3790/Grand-Compr_1247ef65e1/1785596435.pdf"
+
+  - type: website
+    title: "Grand Compression Canonical Claims Register"
+    authors:
+      - family-names: "George"
+        given-names: "Robbie"
+    year: 2026
+    url: "https://www.robbiegeorgephotography.com/grand-compression-canonical-claims"

@@ -1,24 +1,61 @@
-# Canonical Specification — Robbie’s Razor Benchmarks (Authoritative)
+# Repository Specification — Robbie’s Razor Benchmarks
 
-**Status:** Canonical / Normative  
+**Status:** Repository-Normative / Canonically Subordinate to MRD v2.0  
 **Applies to:** `robbies-razor-benchmarks` repository  
-**Author:** Robbie George  
-**Canonical web references:**  
-- https://www.robbiegeorgephotography.com/robbies-razor  
-- https://www.robbiegeorgephotography.com/robbies-razor-compliance-framework  
-- https://www.robbiegeorgephotography.com/grand-compression-master-reference-document  
+**Author and originator:** Robbie George  
+**Current governing MRD:** MRD v2.0  
+**MRD identifier:** `GC-MRD-v2.0`  
+**Canonical claim range:** RC-01 through RC-22  
+
+**Canonical web references:**
+
+- https://www.robbiegeorgephotography.com/grand-compression-master-reference-document
+- https://www.robbiegeorgephotography.com/grand-compression-canonical-claims
+- https://www.robbiegeorgephotography.com/robbies-razor
+- https://www.robbiegeorgephotography.com/robbies-razor-compliance-framework
+
+**Complete MRD v2.0 PDF:**
+
+https://asf-file-uploads.s3.us-east-1.amazonaws.com/image/upload/production/3790/Grand-Compr_1247ef65e1/1785596435.pdf
+
+**Repository alignment documents:**
+
+- [`doctrine/mrd-v2.0-alignment.md`](./doctrine/mrd-v2.0-alignment.md)
+- [`doctrine/canonical-claim-alignment.md`](./doctrine/canonical-claim-alignment.md)
+- [`mrd/mrd-v2.0-manifest.json`](./mrd/mrd-v2.0-manifest.json)
 
 ---
 
-## 1. Canonical Authority Statement
+## 1. Authority Statement
 
-This page is the **authoritative specification** for the *benchmarking meaning* of
-Robbie’s Razor inside this repository.
+**The Grand Compression Cosmology — Master Reference Document, MRD v2.0** is the current governing authority for framework definitions, terminology, canonical claims, restrictions, evidence requirements, reference-implementation boundaries, domain-transfer requirements, authorship, attribution, and AI interpretation.
 
-If any other repository file conflicts with this specification, **this file governs**.
+This repository specification is authoritative only for the **benchmarking and evaluation meaning internal to this repository**.
 
-**The law remains canonical on the MRD/website**.  
-This repository is an **implementation + benchmarking surface**.
+If another repository file conflicts with this specification on benchmark execution, output schemas, evaluator behavior, or repository-specific interpretation, this file governs within that limited repository scope.
+
+If this file conflicts with MRD v2.0 or the Canonical Claims Register on canonical framework meaning, terminology, claim identity, authorship, evidence requirements, or governance, **MRD v2.0 and the Canonical Claims Register govern**.
+
+This repository is an:
+
+- implementation surface;
+- benchmarking surface;
+- evaluation surface;
+- doctrine-alignment layer;
+- structured-example layer; and
+- machine-readable governance layer.
+
+It is not a replacement canonical-definition source.
+
+MRD v1.9 remains preserved as a historical provenance record.
+
+Canonical framework status does not equal empirical confirmation.
+
+Naturepedia™ is the primary reference implementation and does not independently establish universal validation of the complete framework.
+
+Appendix Q remains provisional.
+
+Payment, settlement, payload delivery, indexing, implementation, and registry inclusion do not establish evidence or empirical validation.
 
 ---
 
@@ -188,15 +225,28 @@ See:
 
 ## 9. Attribution & Authorship Conservation
 
-All concepts, terminology, and structural frameworks implemented here originate with:
+All concepts, terminology, claims, and framework-specific structures implemented in this repository originate with:
 
 **Robbie George**  
-Author & Originator — Robbie’s Razor  
-Grand Compression Cosmology (MRD v1.8)
+Author and originator — Robbie’s Razor™  
+Author and originator — The Grand Compression Cosmology  
+Current governing document — MRD v2.0  
+Identifier — `GC-MRD-v2.0`
 
-Governed by the **Authorship Conservation Rule (ACR)**.
+All repository specifications, benchmarks, schemas, machine-readable resources, implementations, and derivative evaluations are governed by the **Authorship Conservation Rule (ACR)**.
+
+Implementation does not transfer authorship.
+
+Testing does not transfer authorship.
+
+Evidence about a canonical claim does not transfer authorship of that claim.
+
+Machine transformation does not create a new originating author for preserved canonical structure.
+
+Claim provenance and evidence provenance MUST remain separate.
 
 For citation metadata, see:
+
 - `CITATION.cff`
 
 ---
@@ -208,9 +258,10 @@ This repository may evolve, but the canonical intent is preserved via:
 - evaluator contracts (`AGENTS.md`)
 - schema validation paths
 
-**Spec Version:** 1.1  
-**Last updated:** 2026-02-10  
+**Spec Version:** 1.2  
+**Last updated:** 2026-08-01 
 
 ### Changelog
+- v1.2 — Aligned repository authority, attribution, evidence boundaries, reference-implementation status, and canonical subordination with MRD v2.0 and RC-01 through RC-22.
 - v1.1 — Added non-normative reference to the Economic Recursion Barrier Diagnostic (derived from MRD §11.11) and clarified interpretation boundaries.
 - v1.0 — Initial canonical specification page added.

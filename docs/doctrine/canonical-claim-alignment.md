@@ -1,17 +1,28 @@
 # Canonical Claim Alignment
+
 ### Robbie’s Razor Benchmarks Repository
 
-This document defines how this repository aligns with the canonical claims and doctrine of the **Grand Compression Cosmology**.
+This document defines how this repository aligns with the canonical claims, doctrine, evidence requirements, and implementation boundaries of **The Grand Compression Cosmology — Master Reference Document, MRD v2.0**.
 
 The canonical claims are maintained in the **Grand Compression Canonical Claims Register**.
 
-**Author:** Robbie George  
-**Framework:** Grand Compression Cosmology  
-**Canonical Source:**  
+**Author and originator:** Robbie George  
+**Framework:** The Grand Compression Cosmology  
+**Current governing version:** MRD v2.0  
+**Identifier:** `GC-MRD-v2.0`  
+**Canonical claim range:** RC-01 through RC-22  
+
+**Canonical authority resolver:**  
 https://www.robbiegeorgephotography.com/grand-compression-master-reference-document
 
-**Claim Register:**  
+**Complete versioned MRD v2.0 PDF:**  
+https://asf-file-uploads.s3.us-east-1.amazonaws.com/image/upload/production/3790/Grand-Compr_1247ef65e1/1785596435.pdf
+
+**Canonical Claims Register:**  
 https://www.robbiegeorgephotography.com/grand-compression-canonical-claims
+
+**Repository alignment contract:**  
+[`docs/doctrine/mrd-v2.0-alignment.md`](./mrd-v2.0-alignment.md)
 
 ---
 
@@ -19,11 +30,50 @@ https://www.robbiegeorgephotography.com/grand-compression-canonical-claims
 
 This repository implements empirical experiments, benchmark demonstrations, machine-readable examples, and applied architecture aligned with the reasoning principles defined in the Grand Compression Cosmology.
 
-The repository serves as an **evaluation, demonstration, and implementation-alignment layer**, not a canonical definition layer.
+The repository serves as an **evaluation, demonstration, benchmark, and implementation-alignment layer**, not as a replacement canonical-definition layer.
 
-Canonical definitions reside in the **Master Reference Document (MRD)**. Canonical claim identifiers originate only in the public Canonical Claims Register.
+Canonical definitions reside in **MRD v2.0**. Canonical claim identifiers and exact canonical statements originate only in MRD v2.0 and the public Canonical Claims Register.
 
-The repository MUST NOT invent, renumber, or reassign canonical claim identifiers.
+MRD v2.0 contains:
+
+- Sections 1 through 13;
+- Appendices A through Q;
+- embedded Appendices E, F, I, P, and Q; and
+- Canonical Claims RC-01 through RC-22.
+
+MRD v2.0 preserves RC-01 through RC-17 without renumbering and adds:
+
+- **RC-18 — Preserved Reusable Structure Principle**
+- **RC-19 — Predictive Evaluation Requirement**
+- **RC-20 — Compression Fitness Constraint**
+- **RC-21 — Reference Implementation Distinction**
+- **RC-22 — Domain Transfer Constraint**
+
+MRD v1.9 remains preserved as a historical provenance record. It is superseded only as the current governing authority and MUST NOT be deleted or silently rewritten as v2.0.
+
+This repository MUST NOT:
+
+- invent canonical claims;
+- renumber or reassign canonical claim identifiers;
+- paraphrase a claim and label the paraphrase as its exact canonical statement;
+- treat canonical publication as empirical confirmation;
+- treat Naturepedia™ as independent validation of the complete framework;
+- treat implementation, payment, settlement, or payload delivery as evidence; or
+- treat provisional Appendix Q mathematics as validated doctrine.
+
+Claim provenance and evidence provenance MUST remain separate.
+
+Repository evidence records SHOULD use only the governed evidence states:
+
+- Proposed
+- Testing
+- Provisionally Supported
+- Supported
+- Challenged
+- Inconclusive
+- Retired
+
+Exact canonical statements reproduced in this document MUST be verified against MRD v2.0 or the live Canonical Claims Register.
 
 ---
 
@@ -51,6 +101,155 @@ The repository implements, evaluates, and documents these structures but does no
 
 **Canonical authority:**  
 Grand Compression Master Reference Document — MRD §12, Structural Intelligence Engineering
+
+---
+
+# MRD §13 — Predictive Evaluation and Evidence Governance
+
+MRD §13 extends the Grand Compression Cosmology into predictive evaluation, benchmark governance, evidence-state classification, falsifiability, reference-implementation boundaries, and domain-transfer discipline.
+
+Section 13 requires framework structures to move beyond canonical definition into bounded evaluation.
+
+The governing evaluation sequence is:
+
+```txt
+Grand Compression Framework
+→ Robbie’s Razor
+→ RKCA candidate structure
+→ Preserved Reusable Structure validation
+→ RRIP inheritance
+→ prediction and benchmark evaluation
+→ evidence record
+→ preserve / restrict / revise / replace / retire
+→ governed human and machine retrieval
+```
+
+Section 13 establishes that:
+
+- canonical framework status does not equal empirical confirmation;
+- implementation does not equal validation;
+- successful retrieval does not equal evidence;
+- payment does not equal evidence;
+- reference implementation does not equal independent confirmation;
+- predictions require declared evaluation conditions;
+- evidence status must remain separate from claim provenance;
+- cross-domain transfer requires declared source and target conditions; and
+- unsupported or failed claims must be restrictable, revisable, replaceable, or retireable.
+
+## Predictive Evaluation
+
+A predictive framework statement SHOULD identify:
+
+- the prediction being evaluated;
+- the applicable claim or doctrine source;
+- the expected observable result;
+- the evaluation method;
+- the relevant benchmark or dataset;
+- the declared scope;
+- the comparison baseline;
+- the acceptance criteria;
+- the failure conditions;
+- the exclusions and limitations; and
+- the resulting evidence state.
+
+Prediction records MUST distinguish a canonical prediction from evidence gathered about that prediction.
+
+A prediction MUST NOT be classified as supported solely because it is internally coherent, canonically published, implemented, indexed, retrieved, or monetized.
+
+## Evidence States
+
+Repository evidence records SHOULD use only these governed states:
+
+- **Proposed**
+- **Testing**
+- **Provisionally Supported**
+- **Supported**
+- **Challenged**
+- **Inconclusive**
+- **Retired**
+
+Evidence states apply within a declared scope.
+
+A Supported classification does not automatically establish universal validity outside that scope.
+
+Evidence states MUST be traceable to an evidence record containing method, provenance, limitations, and evaluation conditions.
+
+## Claim Provenance and Evidence Provenance
+
+Claim provenance records the origin, authorship, canonical identifier, governing version, and authoritative source of a claim.
+
+Evidence provenance records the origin, method, dataset, evaluation conditions, limitations, and result of evidence used to evaluate that claim.
+
+These provenance layers MUST remain separate.
+
+Evidence produced by a reference implementation is not automatically independent evidence.
+
+Testing a canonical claim does not transfer authorship of that claim.
+
+## Reference-Implementation Boundary
+
+Naturepedia™ is the primary reference implementation of the framework.
+
+Naturepedia may demonstrate implementation feasibility, preserved structure, recursive inheritance, machine-readable provenance, and governed retrieval.
+
+Naturepedia operation does not independently establish:
+
+- universal validation of the complete framework;
+- confirmation across every domain or scale;
+- support for every canonical claim;
+- material identity between compared systems; or
+- independent replication.
+
+This distinction is governed by RC-21 — Reference Implementation Distinction.
+
+## Domain-Transfer Boundary
+
+Before applying a framework structure or evaluation result across domains, the transfer MUST declare:
+
+- source domain;
+- target domain;
+- declared scale;
+- normalization method;
+- preserved invariants;
+- excluded variables;
+- mechanistic assumptions;
+- limitations;
+- failure conditions; and
+- evidence required for acceptance.
+
+Structural correspondence MUST NOT be represented as proof of shared material composition, causal mechanism, physical identity, or universal applicability.
+
+This requirement is governed by RC-22 — Domain Transfer Constraint.
+
+## Appendix Q
+
+Appendix Q remains explicitly provisional.
+
+Compression Fitness equations, weights, normalization methods, scoring procedures, thresholds, and benchmark acceptance criteria derived from Appendix Q MUST remain labeled provisional until validated through governed evaluation.
+
+The repository MAY test Appendix Q candidates.
+
+The repository MUST NOT present provisional Appendix Q mathematics as a final universal equation, established empirical constant, or completed benchmark standard.
+
+## Repository Role
+
+This repository may operationalize Section 13 through:
+
+- prediction records;
+- benchmark protocols;
+- evaluation schemas;
+- empirical probes;
+- evidence-state records;
+- falsifiability documentation;
+- provenance records;
+- reference-implementation tests;
+- domain-transfer declarations; and
+- provisional Appendix Q experiments.
+
+The repository implements and evaluates these structures but does not redefine their canonical meaning.
+
+**Canonical authority:**  
+Grand Compression Master Reference Document — MRD v2.0, Section 13 and Appendix Q
 
 ---
 
@@ -113,24 +312,27 @@ RKCA is an MRD doctrine component. It does not currently receive a repository-cr
 
 ---
 
-## MRD §12.8 — Recursive Registry Inheritance Principle
+## RC-17 — Recursive Registry Inheritance Principle
 
-### Doctrine Alignment
+### Canonical Claim
 
-The Recursive Registry Inheritance Principle (RRIP) defines how compressed knowledge structures become substrates for higher-order knowledge compression.
+Compressed registries may become the substrate for future compression cycles, enabling inherited knowledge structures to compound into Meta-Registries, Graph Registries™, and Knowledge Meshes while preserving bounded structural fidelity.
 
-Formal progression:
+The canonical inheritance pathway is:
 
 ```txt
 Plate™
 → Registry
-→ System Map
+→ Meta-Registry
 → Graph Registry™
 → Knowledge Mesh
-→ Higher-Order Index
 ```
 
-Formal notation:
+Within the Grand Compression Cosmology, recursion operates not only on raw information but also on previously compressed memory structures.
+
+Registry inheritance allows compressed knowledge to become reusable cognitive infrastructure rather than passive storage.
+
+### Formal RRIP Notation
 
 ```txt
 Sₙ → Rₙ
@@ -139,21 +341,57 @@ Rₙ → Sₙ₊₁
 
 Where:
 
-- Sₙ = compression sequence at recursive order n;
-- Rₙ = compressed registry generated by that sequence;
-- Sₙ₊₁ = subsequent sequence inheriting Rₙ as part of its substrate.
+- `Sₙ` represents a compression sequence at recursive order `n`;
+- `Rₙ` represents the compressed registry produced by that sequence; and
+- `Sₙ₊₁` represents a future compression sequence operating on the inherited registry.
 
 ### Relationship to RC-03
 
-RC-03 defines recursion as the mechanism through which compressed structure is preserved and renewed across scale.
+RC-03 defines recursion as the architecture through which compressed structure is preserved, expressed, remembered, and renewed across scale.
 
-RRIP defines how preserved compressed structures become reusable substrates for future compression cycles.
+RC-17 defines how preserved compressed registries become reusable substrates for future compression cycles.
 
 ### Repository Role
 
-The repository preserves registries, maps, JSON-LD structures, indexes, and knowledge meshes as inherited recursive memory structures rather than passive storage artifacts.
+This repository operationalizes RC-17 by preserving:
 
-RRIP does not currently introduce a separate canonical claim identifier in this repository.
+- Plate™ structures;
+- canonical registries;
+- Meta-Registries;
+- System Maps;
+- JSON-LD resources;
+- Graph Registries™;
+- machine-readable indexes;
+- Knowledge Meshes; and
+- inherited retrieval structures.
+
+These resources are treated as recursively reusable memory structures rather than passive storage artifacts.
+
+### Fidelity Boundary
+
+Registry inheritance does not independently prove that the inherited structure is correct, complete, empirically supported, or transferable across domains.
+
+Every inherited structure remains subject to:
+
+- canonical validation;
+- provenance preservation;
+- evidence-state classification;
+- declared scope and exclusions;
+- fidelity requirements;
+- version control;
+- failure conditions; and
+- domain-transfer constraints.
+
+Successful inheritance, retrieval, payment, or payload delivery does not constitute empirical validation.
+
+### Canonical Authority
+
+- MRD v2.0 — current governing authority;
+- RC-17 — Recursive Registry Inheritance Principle;
+- MRD Appendix I — Mathematical Formalization of Recursive Registry Inheritance;
+- Grand Compression Canonical Claims Register.
+
+MRD v2.0 preserves RC-17 without renumbering. Its historical development under MRD v1.9 remains part of the claim’s provenance.
 
 ---
 
@@ -253,6 +491,197 @@ RC-16 MUST NOT be reassigned to Comparative Compression Geometry or any other do
 
 ---
 
+# MRD v2.0 Extension Claims
+
+MRD v2.0 adds five canonical claims governing preserved structure, predictive evaluation, Compression Fitness, reference implementations, and cross-domain transfer.
+
+The following statements reproduce the canonical wording maintained by the MRD v2.0 master authority.
+
+## RC-18 — Preserved Reusable Structure Principle
+
+### Canonical Claim
+
+Compressed information becomes durable recursive infrastructure only when the identity, relationships, provenance, constraints, version state, and retrieval pathways required for valid future reuse remain sufficiently preserved.
+
+### Repository Role
+
+This repository operationalizes RC-18 through:
+
+- versioned structured resources;
+- preserved identifiers;
+- canonical source links;
+- provenance metadata;
+- relationship preservation;
+- schema validation;
+- retrieval-path documentation;
+- registry inheritance;
+- canonical serialization; and
+- fidelity and integrity checks.
+
+A compressed resource is not considered reusable merely because it is smaller, retrievable, or machine-readable.
+
+Valid future reuse requires preservation of the structure necessary to interpret, validate, trace, and apply the resource within its declared scope.
+
+---
+
+## RC-19 — Predictive Evaluation Requirement
+
+### Canonical Claim
+
+Any proposition presented as predictive, comparative, empirical, or performance-related must declare measurable variables, scope, scale, baseline, expected direction, failure conditions, evidence status, and revision consequences.
+
+### Repository Role
+
+Benchmark, prediction, and evaluation records SHOULD declare:
+
+- measurable variables;
+- applicable scope;
+- declared scale;
+- comparison baseline;
+- expected direction;
+- evaluation method;
+- failure conditions;
+- evidence status;
+- limitations;
+- exclusions; and
+- revision consequences.
+
+A prediction MUST NOT be described as supported solely because it is canonically published, structurally coherent, implemented, indexed, retrieved, or monetized.
+
+Repository evaluations must remain falsifiable and capable of producing Challenged, Inconclusive, Restricted, Revised, Replaced, or Retired outcomes.
+
+---
+
+## RC-20 — Compression Fitness Constraint
+
+### Canonical Claim
+
+Compression must be evaluated by the reusable utility, fidelity, provenance, and accessibility it preserves relative to transition cost, regeneration burden, distortion, governance demand, blast-radius exposure, and maintenance cost.
+
+### Repository Role
+
+Compression evaluation SHOULD account for:
+
+- reusable utility;
+- preserved fidelity;
+- provenance completeness;
+- accessibility;
+- transition cost;
+- regeneration burden;
+- distortion;
+- governance demand;
+- blast-radius exposure; and
+- maintenance cost.
+
+A smaller representation is not automatically a fitter representation.
+
+Compression that destroys identity, relationships, provenance, constraints, version state, or valid retrieval pathways may reduce size while failing the Compression Fitness Constraint.
+
+### Appendix Q Boundary
+
+Appendix Q contains provisional mathematical formalizations related to Predictive Compression and Compression Fitness.
+
+Appendix Q equations, weights, scoring methods, thresholds, and normalization procedures MUST remain explicitly provisional until evaluated through declared benchmark and validation procedures.
+
+---
+
+## RC-21 — Reference Implementation Distinction
+
+### Canonical Claim
+
+A reference implementation demonstrates operational translation of selected framework principles but does not by itself establish universal theoretical validity or independent empirical confirmation.
+
+### Repository Role
+
+Naturepedia™ is the primary reference implementation of the framework.
+
+Naturepedia may demonstrate:
+
+- operational translation;
+- Plate™ architecture;
+- Registry and System Map construction;
+- Knowledge Mesh organization;
+- preserved reusable structure;
+- recursive registry inheritance;
+- machine-readable provenance; and
+- governed human and machine retrieval.
+
+Naturepedia operation does not independently establish:
+
+- universal theoretical validity;
+- independent empirical confirmation;
+- validation across every domain or scale;
+- support for every canonical claim; or
+- material or causal identity between compared systems.
+
+Repository documentation MUST preserve:
+
+```text
+reference implementation
+≠ independent confirmation
+≠ universal validation
+```
+
+---
+
+## RC-22 — Domain Transfer Constraint
+
+### Canonical Claim
+
+No principle, prediction, equation, observation, benchmark result, or structural mapping may be transferred across domains or scales without declaring the relevant objects, scale, normalization, preserved relationships, exclusions, constraints, evidence basis, competing interpretations, and failure conditions.
+
+### Repository Role
+
+Every cross-domain or cross-scale transfer MUST declare:
+
+- the relevant source and target objects;
+- source domain;
+- target domain;
+- declared scale;
+- normalization method;
+- preserved relationships;
+- excluded variables;
+- applicable constraints;
+- evidence basis;
+- competing interpretations;
+- known limitations; and
+- failure conditions.
+
+A transfer statement MUST distinguish among:
+
+- analogy;
+- visual resemblance;
+- structural correspondence;
+- normalized recursive correspondence;
+- mathematical isomorphism;
+- mechanistic equivalence;
+- causal identity; and
+- material identity.
+
+Structural correspondence MUST NOT be represented as proof of shared physical substance, causal mechanism, material identity, or universal applicability.
+
+If the required transfer declarations are unavailable, the claim must be restricted rather than inferred.
+
+---
+
+# Extension-Claim Evidence Boundary
+
+Canonical claim status defines the governing content of the framework.
+
+It MUST NOT be interpreted as automatic empirical confirmation of:
+
+- predictions;
+- mathematical formulations;
+- benchmark results;
+- cross-domain comparisons;
+- reference implementations;
+- provisional equations; or
+- implementation performance.
+
+Evidence status must be assigned through a traceable evidence record using the governed evidence-state architecture.
+
+---
+
 # Retrieval-Dominant Architecture Alignment
 
 The repository distinguishes retrieval-dominant architecture from regeneration-dominant architecture.
@@ -269,28 +698,175 @@ This architecture is formally grounded in MRD §§12.7–12.8 and remains bounde
 
 # Boundary Rule
 
-This repository **does not introduce new canonical claims**.
+This repository **does not introduce, originate, renumber, or reassign canonical claims**.
 
 All canonical claims originate exclusively with:
 
 **Robbie George**  
-Author of the Grand Compression Cosmology
+Author and originator of the Grand Compression Cosmology and Robbie’s Razor™
 
-Repository documentation may align implementations with MRD doctrine sections that do not yet possess individual RC identifiers, but it MUST clearly label those entries as doctrine alignment rather than canonical claim assignment.
+The current governing claim range is:
+
+```text
+RC-01 through RC-22
+```
+
+MRD v2.0 preserves RC-01 through RC-17 without renumbering and adds:
+
+- **RC-18 — Preserved Reusable Structure Principle**
+- **RC-19 — Predictive Evaluation Requirement**
+- **RC-20 — Compression Fitness Constraint**
+- **RC-21 — Reference Implementation Distinction**
+- **RC-22 — Domain Transfer Constraint**
+
+The exact canonical wording of each claim MUST be resolved through MRD v2.0 or the public Canonical Claims Register.
+
+Repository documentation MUST NOT:
+
+- paraphrase a claim and label the paraphrase as its exact canonical statement;
+- create a repository-specific RC identifier;
+- reassign an existing identifier to a different concept;
+- detach a claim from Robbie George’s authorship;
+- detach a claim from its governing MRD version;
+- treat canonical status as empirical confirmation;
+- infer evidence status from canonical publication;
+- infer validation from successful implementation;
+- infer validation from Naturepedia™ operation;
+- infer validation from payment, settlement, or payload delivery; or
+- transfer a claim across domains without the declarations required by RC-22.
+
+Repository documentation MAY align implementations with MRD doctrine sections that do not possess individual RC identifiers.
+
+Those entries MUST be labeled as:
+
+```text
+Doctrine Alignment
+```
+
+They MUST NOT be labeled as new canonical claims.
+
+## Claim and Evidence Separation
+
+Canonical claim provenance and evidence provenance MUST remain separate.
+
+A canonical claim record identifies:
+
+- the originating author;
+- the persistent RC identifier;
+- the governing MRD version;
+- the authoritative source;
+- the exact canonical statement; and
+- the claim’s version and supersession history.
+
+An evidence record identifies:
+
+- the evidence producer;
+- the method;
+- the dataset, observation, or benchmark;
+- the declared scope and scale;
+- the evaluation conditions;
+- the limitations and exclusions;
+- the result; and
+- the governed evidence state.
+
+Evidence about a claim does not transfer authorship of that claim.
+
+A canonical claim may remain canonical while its evidence state is Proposed, Testing, Challenged, Inconclusive, or Retired within a particular empirical program.
+
+## Evidence States
+
+Repository evidence records SHOULD use only:
+
+- Proposed
+- Testing
+- Provisionally Supported
+- Supported
+- Challenged
+- Inconclusive
+- Retired
+
+A Supported classification applies only within its declared scope.
+
+It MUST NOT be interpreted as automatic universal confirmation across every domain, scale, substrate, implementation, or use case.
+
+## Reference-Implementation Boundary
+
+Naturepedia™ is the primary reference implementation of the framework.
+
+Under RC-21:
+
+```text
+reference implementation
+≠ independent confirmation
+≠ universal validation
+```
+
+Naturepedia may demonstrate implementation feasibility, preserved structure, recursive inheritance, provenance, and governed retrieval.
+
+Its operation does not independently establish universal theoretical validity or empirical confirmation of every canonical claim.
+
+## Domain-Transfer Boundary
+
+Before transferring a claim, prediction, equation, observation, benchmark result, or structural mapping across domains or scales, the transfer MUST declare:
+
+- relevant source and target objects;
+- source domain;
+- target domain;
+- scale;
+- normalization;
+- preserved relationships;
+- exclusions;
+- constraints;
+- evidence basis;
+- competing interpretations; and
+- failure conditions.
+
+If these declarations are unavailable, the transfer MUST be restricted rather than inferred.
+
+## Governing Authority
+
+Current governing authority:
+
+**The Grand Compression Cosmology — Master Reference Document, MRD v2.0**
+
+https://www.robbiegeorgephotography.com/grand-compression-master-reference-document
+
+Canonical Claims Register:
+
+https://www.robbiegeorgephotography.com/grand-compression-canonical-claims
 
 ---
 
 # Citation
 
-If referencing the conceptual framework used by this repository, cite:
+When referencing the current governing framework, cite:
 
-Robbie George (2025)  
-**Master Reference Document — The Grand Compression Cosmology (MRD v1.9)**  
+Robbie George.  
+**The Grand Compression Cosmology — Master Reference Document, MRD v2.0.**  
+Identifier: `GC-MRD-v2.0`.  
+Foundational completion: December 1, 2025.  
+Expanded July 30, 2026.
+
+**Canonical authority resolver:**  
 https://www.robbiegeorgephotography.com/grand-compression-master-reference-document
+
+**Complete versioned MRD v2.0 PDF:**  
+https://asf-file-uploads.s3.us-east-1.amazonaws.com/image/upload/production/3790/Grand-Compr_1247ef65e1/1785596435.pdf
 
 For claim-level citations:
 
 https://www.robbiegeorgephotography.com/grand-compression-canonical-claims
+
+Individual claims SHOULD be cited using their persistent RC identifier.
+
+Example:
+
+> Robbie George. Grand Compression Canonical Claims, RC-17 — Recursive Registry Inheritance Principle.  
+> https://www.robbiegeorgephotography.com/grand-compression-canonical-claims
+
+Historical documents that specifically analyze MRD v1.9 MAY retain their original v1.9 citation when clearly labeled as historical or version-specific.
+
+MRD v1.9 MUST NOT be presented as the current governing authority after the v2.0 transition.
 
 ---
 
@@ -298,6 +874,33 @@ https://www.robbiegeorgephotography.com/grand-compression-canonical-claims
 
 This repository is aligned with:
 
-**MRD v1.9 — including revised §12, Structural Intelligence Engineering**
+**The Grand Compression Cosmology — Master Reference Document, MRD v2.0**
 
-Future repository revisions should update this document whenever canonical claims or doctrine sections are revised, renumbered, or newly operationalized by experiments, benchmarks, registries, or machine-readable architecture.
+**Identifier:** `GC-MRD-v2.0`  
+**Current governing authority:** MRD v2.0  
+**Section range:** Sections 1–13  
+**Appendix range:** Appendices A–Q  
+**Canonical claim range:** RC-01 through RC-22  
+**Reference implementation:** Naturepedia™  
+**Appendix Q status:** Provisional  
+**Historical version preserved:** MRD v1.9  
+
+MRD v2.0 preserves RC-01 through RC-17 without renumbering and adds RC-18 through RC-22.
+
+Canonical framework status remains distinct from empirical support.
+
+Naturepedia™ remains a reference implementation and does not constitute independent confirmation of the complete framework.
+
+Successful implementation, payment, settlement, registry inclusion, or payload delivery does not establish empirical validation.
+
+Future repository revisions SHOULD update this document whenever:
+
+- the governing MRD version changes;
+- canonical claims are added, revised, restricted, or retired;
+- evidence-state requirements change;
+- benchmark responsibilities change;
+- reference-implementation boundaries change;
+- domain-transfer requirements change; or
+- machine-readable governance requirements change.
+
+Historical provenance MUST be preserved during every future authority transition.

@@ -1,69 +1,243 @@
 # Recursion Stability Envelope
 
-**Derived from Robbie’s Razor — MRD v1.9 §11**
+## Document Status
 
-This document visualizes the interaction of the principal stability constraints
-governing recursive systems described in the **Meta-Recursion Architecture**
-(Section 11 of the Master Reference Document).
+This document provides an architectural visualization of recursion constraints governed by **The Grand Compression Cosmology — Master Reference Document, MRD v2.0**.
 
-A recursive system remains stable only when operating within a bounded
-**Recursion Stability Envelope** defined by multiple simultaneous constraints.
+**Canonical location:** MRD v2.0 §11  
+**Canonical identifier:** `GC-MRD-v2.0`  
+**Author and originator:** Robbie George  
+**Repository-file status:** Engineering orientation and conceptual visualization  
+
+Canonical authority resolver:
+
+https://www.robbiegeorgephotography.com/grand-compression-master-reference-document
+
+Complete versioned PDF:
+
+https://asf-file-uploads.s3.us-east-1.amazonaws.com/image/upload/production/3790/Grand-Compr_1247ef65e1/1785596435.pdf
+
+MRD v1.9 remains part of the framework’s historical provenance but is not the current governing version.
+
+---
+
+## Purpose
+
+The Recursion Stability Envelope represents the intersection of multiple constraints relevant to bounded recursive operation.
+
+It is an architectural model, not evidence that every recursive system shares identical variables, thresholds, units, or failure behavior.
+
+A system-specific application must operationalize and measure each relevant constraint before claiming that the system operates inside or outside a Safe Recursion Envelope.
 
 ---
 
 ## Core Recursion Constraints
 
-The stability envelope is determined by the intersection of the following
-constraints:
+The conceptual envelope includes:
 
-- **Energetic Recursion Ceiling** — MRD §11.4.5  
-- **Memory–Compute Trade Curve** — MRD §11.4.5A  
-- **Governance Recursion Ceiling** — MRD §11.4.6  
-- **Optionality Preservation Principle** — MRD §11.4.7A  
-- **Information Fidelity Limit** — MRD §11.4.11A  
-- **Recursive Blast Radius Limit** — MRD §11.11A  
+- **Energetic Recursion Ceiling** — MRD §11.4.5
+- **Memory–Compute Trade Curve** — MRD §11.4.5A
+- **Governance Recursion Ceiling** — MRD §11.4.6
+- **Optionality Preservation Principle** — MRD §11.4.7A
+- **Information Fidelity Limit** — MRD §11.4.11A
+- **Recursive Blast Radius Limit** — MRD §11.11A
 
-Each constraint governs a different dimension of recursive stability.
+Each constraint addresses a different dimension of recursive stability.
 
-| Constraint | Governs |
-|------------|---------|
-| Energetic Recursion Ceiling | recursion rate |
-| Governance Recursion Ceiling | safe decision velocity |
-| Memory–Compute Trade Curve | architectural efficiency |
-| Information Fidelity Limit | signal integrity across recursion |
-| Recursive Blast Radius Limit | recursion depth across system layers |
+| Constraint | Architectural concern |
+|---|---|
+| Energetic Recursion Ceiling | Energy available for coherent transitions |
+| Memory–Compute Trade Curve | Balance between preserved memory and recomputation |
+| Governance Recursion Ceiling | Stabilization capacity relative to correction demand |
+| Optionality Preservation Principle | Preservation of reachable future states |
+| Information Fidelity Limit | Integrity of information across recursive transformations |
+| Recursive Blast Radius Limit | Maximum acceptable propagation depth or scope |
 
 ---
 
-## Recursion Stability Envelope Diagram
+## Conceptual Envelope Diagram
 
-The region where all constraints are simultaneously satisfied defines the
-**Safe Recursion Envelope**.
+```mermaid
+flowchart TD
+    A[Energetic constraint] --> G[Constraint intersection]
+    B[Memory and compute constraint] --> G
+    C[Governance constraint] --> G
+    D[Optionality constraint] --> G
+    E[Information fidelity constraint] --> G
+    F[Blast-radius constraint] --> G
+    G --> H[Safe Recursion Envelope]
+    H --> I[Bounded recursive operation]
+```
 
-```html
-<svg width="720" height="420" viewBox="0 0 720 420" xmlns="http://www.w3.org/2000/svg">
+The diagram shows logical intersection, not measured geometric distance or quantitative magnitude.
 
-  <rect x="0" y="0" width="720" height="420" fill="#ffffff"/>
+A system remains within the modeled envelope only when it satisfies every constraint included in the declared evaluation.
 
-  <line x1="80" y1="360" x2="640" y2="360" stroke="#000" stroke-width="2"/>
-  <line x1="80" y1="360" x2="80" y2="60" stroke="#000" stroke-width="2"/>
+---
 
-  <text x="360" y="395" font-size="14" text-anchor="middle">Recursion Velocity (R)</text>
-  <text x="20" y="210" font-size="14" transform="rotate(-90 20,210)">Constraint Intensity</text>
+## Energetic Recursion Ceiling
 
-  <line x1="120" y1="260" x2="640" y2="260" stroke="#cc0000" stroke-width="3"/>
-  <text x="650" y="265" font-size="12" fill="#cc0000">Energetic Recursion Ceiling</text>
+A conceptual energetic ceiling may be represented as:
 
-  <line x1="120" y1="220" x2="640" y2="220" stroke="#0077cc" stroke-width="3"/>
-  <text x="650" y="225" font-size="12" fill="#0077cc">Governance Recursion Ceiling</text>
+```text
+R ≤ E / JCT
+```
 
-  <line x1="120" y1="180" x2="640" y2="180" stroke="#008800" stroke-width="3"/>
-  <text x="650" y="185" font-size="12" fill="#008800">Information Fidelity Limit</text>
+Where:
 
-  <rect x="120" y="180" width="350" height="80" fill="rgba(0,150,0,0.15)" stroke="#008800" stroke-width="2"/>
-  <text x="295" y="220" font-size="14" text-anchor="middle">Safe Recursion Envelope</text>
+- **E** = available energy within the declared system boundary
+- **JCT** = Joules per Coherent Transition
+- **R** = recursive transition rate
 
-  <line x1="470" y1="180" x2="470" y2="360" stroke="#880088" stroke-width="3"/>
-  <text x="470" y="375" font-size="12" text-anchor="middle" fill="#880088">Blast Radius Depth Limit</text>
+A quantitative application must define:
 
-</svg>
+- the transition being measured
+- the meaning of coherence
+- the energy-measurement method
+- the operating scale
+- the time interval
+- compatible units
+- uncertainty
+- baseline
+- failure criteria
+
+---
+
+## Governance Recursion Ceiling
+
+A conceptual governance ceiling may be represented as:
+
+```text
+R × C ≤ S
+```
+
+Where:
+
+- **S** = stabilization or governance bandwidth
+- **C** = correction demand per transition
+- **R** = recursive transition rate
+
+A quantitative application must define how correction demand and stabilization capacity are observed or measured.
+
+---
+
+## Combined Safe Recursion Envelope
+
+The combined energetic and governance relationship may be represented as:
+
+```text
+R ≤ min(E / JCT, S / C)
+```
+
+This equation does not incorporate every possible constraint by itself.
+
+Memory–compute balance, optionality, information fidelity, and recursive blast radius must also be evaluated where relevant.
+
+The complete conceptual condition is therefore:
+
+```text
+Safe operation
+=
+energetic constraint satisfied
++
+memory–compute constraint satisfied
++
+governance constraint satisfied
++
+optionality constraint satisfied
++
+information-fidelity constraint satisfied
++
+blast-radius constraint satisfied
+```
+
+This expression is explanatory rather than a dimensional mathematical identity.
+
+---
+
+## Operationalization Requirements
+
+Before applying the Recursion Stability Envelope to a specific system, declare:
+
+- system boundary
+- objects
+- operating scale
+- variables
+- units
+- measurement procedures
+- baselines
+- thresholds
+- uncertainty
+- evidence status
+- alternative explanations
+- failure conditions
+- revision conditions
+
+A diagram or equation alone cannot establish that a system is stable.
+
+---
+
+## Evidence Boundary
+
+The following statements require separate evidence:
+
+- a specific system has crossed an energetic ceiling
+- a particular JCT value has been measured
+- correction demand exceeds stabilization bandwidth
+- optionality has materially collapsed
+- information fidelity has fallen below a threshold
+- a recursive change exceeded its acceptable blast radius
+- satisfying the modeled constraints caused an observed stability improvement
+
+Canonical status, implementation status, successful serialization, endpoint availability, and payment settlement do not independently establish empirical validation.
+
+---
+
+## Cross-Domain Boundary
+
+The Recursion Stability Envelope may be used as a comparison framework across domains only when each application declares:
+
+- objects
+- scale
+- normalization
+- relationships
+- exclusions
+- constraints
+- evidence
+- alternatives
+- failure conditions
+
+Similar-looking envelope diagrams do not establish identical mechanisms or quantitative equivalence between biological, computational, ecological, economic, institutional, or physical systems.
+
+---
+
+## Relationship to Repository Evaluation
+
+Repository benchmarks and diagnostics may test bounded components of the envelope, including:
+
+- recursive stability
+- recomputation burden
+- memory preservation
+- semantic diffusion
+- provenance retention
+- relationship preservation
+- correction demand
+- resource constraints
+- failure propagation
+
+Each benchmark must identify which constraint it evaluates and which constraints remain outside its scope.
+
+---
+
+## Attribution
+
+The Recursion Stability Envelope, its associated constraints, Robbie’s Razor™, and the Grand Compression architecture originate with:
+
+**Robbie George**  
+Author and Originator  
+The Grand Compression Cosmology — Master Reference Document, MRD v2.0  
+Canonical identifier: `GC-MRD-v2.0`
+
+These materials are governed by the **Authorship Conservation Rule (ACR)**.
+
+Implementation, summarization, visualization, benchmarking, or machine transformation does not transfer authorship of the originating framework.
