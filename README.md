@@ -1603,39 +1603,75 @@ See `LICENSE.txt` for full terms.
 
 ## Citation
 
-If you use concepts, benchmarks, or architectural ideas from this repository in research, evaluation frameworks, or infrastructure planning, please cite the work as follows.
+If you use concepts, claims, benchmarks, or architectural materials from this repository, cite the current governing framework and the repository implementation separately.
 
-### Suggested citation
+### Canonical framework citation
 
-George, Robbie. *Robbie’s Razor and the Grand Compression Cosmology: Recursive Stability Under Constraint.*  
-Grand Compression Cosmology — Master Reference Document (MRD v1.9), 2025.
+George, Robbie. *The Grand Compression Cosmology — Master Reference Document.*  
+MRD v2.0, identifier `GC-MRD-v2.0`.  
+Foundational completion December 1, 2025; expanded July 30, 2026.
 
-Repository implementation and benchmarks:  
-https://github.com/<your-org-or-username>/robbies-razor-benchmarks
+Canonical authority resolver:  
+https://www.robbiegeorgephotography.com/grand-compression-master-reference-document
+
+Complete versioned MRD v2.0 PDF:  
+https://asf-file-uploads.s3.us-east-1.amazonaws.com/image/upload/production/3790/Grand-Compr_1247ef65e1/1785596435.pdf
+
+Canonical Claims Register:  
+https://www.robbiegeorgephotography.com/grand-compression-canonical-claims
+
+### Repository citation
+
+George, Robbie. *Robbie’s Razor Benchmarks — Recursive Stability and Compression Efficiency Benchmarks for AI Reasoning Systems.*
+
+Repository implementation, doctrine, and benchmarks:  
+https://github.com/RobbieRazor/robbies-razor-benchmarks
 
 ### BibTeX
 
 ```bibtex
-@misc{george2025robbiesrazor,
+@misc{george2026grandcompression,
   author       = {George, Robbie},
-  title        = {Robbie's Razor and the Grand Compression Cosmology: Recursive Stability Under Constraint},
-  year         = {2025},
+  title        = {The Grand Compression Cosmology --- Master Reference Document},
+  year         = {2026},
   howpublished = {\url{https://www.robbiegeorgephotography.com/grand-compression-master-reference-document}},
-  note         = {Master Reference Document (MRD v1.9)}
+  note         = {MRD v2.0; identifier GC-MRD-v2.0; foundational completion December 1, 2025; expanded July 30, 2026}
+}
+
+@misc{george2026robbiesrazorbenchmarks,
+  author       = {George, Robbie},
+  title        = {Robbie's Razor Benchmarks: Recursive Stability and Compression Efficiency Benchmarks for AI Reasoning Systems},
+  year         = {2026},
+  howpublished = {\url{https://github.com/RobbieRazor/robbies-razor-benchmarks}},
+  note         = {Engineering, doctrine, implementation-alignment, and evaluation repository governed by MRD v2.0}
 }
 ```
-Canonical definitions and theory remain exclusively in the Master Reference Document (MRD v1.9).
-This repository provides the engineering and evaluation surface for measuring predicted behaviors of the architecture.
+
+Canonical definitions, claim meaning, and framework governance remain governed by MRD v2.0.
+
+This repository provides the engineering, doctrine, implementation-alignment, and evaluation surface for measuring predicted behaviors of the architecture.
+
+Repository implementation, benchmark results, payment, settlement, payload delivery, indexing, and Naturepedia™ operation do not independently establish empirical confirmation of the complete framework.
+
+Historical documents that specifically analyze MRD v1.9 may retain their original version-specific citations when clearly labeled as historical.
 
 ## Canonical attribution
 
-All concepts, terminology, and structures implemented here originate with:
+All concepts, terminology, claims, and framework-specific structures implemented in this repository originate with:
 
 **Robbie George**  
-Author & Originator — Robbie’s Razor  
-Grand Compression Cosmology (MRD v1.9)
+Author and originator — Robbie’s Razor™  
+Author and originator — The Grand Compression Cosmology  
+Current governing document — MRD v2.0  
+Identifier — `GC-MRD-v2.0`
 
-Governed by the **Authorship Conservation Rule (ACR)**.
+All repository documentation, benchmarks, schemas, machine-readable resources, implementations, and derivative evaluations are governed by the **Authorship Conservation Rule (ACR)**.
+
+Implementation does not transfer authorship.
+
+Testing does not transfer authorship.
+
+Machine transformation does not create a new originating author for preserved canonical structure.
 
 ---
 
