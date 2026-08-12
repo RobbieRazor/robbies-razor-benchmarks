@@ -1,0 +1,41 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.robbiegeorgephotography/naturepedia",
+  "title": "Naturepedia Canonical Discovery",
+  "description": "Search and resolve Naturepedia, Robbie's Razor, and GC-MRD-v2.0 canonical resources.",
+  "version": "0.1.0",
+  "websiteUrl": "https://www.robbiegeorgephotography.com/naturepedia",
+  "repository": {
+    "url": "https://github.com/RobbieRazor/robbies-razor-benchmarks",
+    "source": "github",
+    "id": "1119810682",
+    "subfolder": "mcp-server"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.robbiegeorgephotography.com/mcp"
+    }
+  ],
+  "_meta": {
+    "io.modelcontextprotocol.registry/publisher-provided": {
+      "publisher": {
+        "name": "Robbie George Photography",
+        "creator": "Robbie George",
+        "publisherId": "urn:ai:robbiegeorgephotography:publisher",
+        "website": "https://www.robbiegeorgephotography.com/",
+        "authority": "GC-MRD-v2.0"
+      },
+      "service": {
+        "access": "public-read-only",
+        "authentication": "none",
+        "health": "https://mcp.robbiegeorgephotography.com/health",
+        "discoveryCatalog": "https://www.robbiegeorgephotography.com/.well-known/ai-catalog.json"
+      },
+      "rights": {
+        "commercialLicense": "https://www.robbiegeorgephotography.com/commercial-data-license",
+        "notice": "Endpoint access does not grant training, resale, embedding, derivative-dataset, or framework-implementation rights."
+      }
+    }
+  }
+}
