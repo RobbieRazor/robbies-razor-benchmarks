@@ -1,0 +1,52 @@
+name: Publish Naturepedia MCP to Official Registry
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: naturepedia-mcp-registry-publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    defaults:
+      run:
+        working-directory: mcp-server
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Use Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Install validation dependencies
+        run: npm install
+
+      - name: Validate MCP Registry metadata
+        run: npm run validate:registry
+
+      - name: Install verified mcp-publisher v1.8.1
+        run: |
+          curl -fL "https://github.com/modelcontextprotocol/registry/releases/download/v1.8.1/mcp-publisher_linux_amd64.tar.gz" -o /tmp/mcp-publisher.tar.gz
+          echo "a06c9096dcb9727c13555b6be26c7effa707b01f06a4c561ba7a3635443cf2cc  /tmp/mcp-publisher.tar.gz" | sha256sum -c -
+          tar -xzf /tmp/mcp-publisher.tar.gz -C .
+          chmod +x ./mcp-publisher
+          ./mcp-publisher --version
+
+      - name: Authenticate domain ownership
+        env:
+          MCP_PRIVATE_KEY: ${{ secrets.MCP_PRIVATE_KEY }}
+        run: |
+          test -n "${MCP_PRIVATE_KEY}"
+          ./mcp-publisher login dns --domain "robbiegeorgephotography.com" --private-key "${MCP_PRIVATE_KEY}"
+
+      - name: Publish Naturepedia MCP metadata
+        run: ./mcp-publisher publish
