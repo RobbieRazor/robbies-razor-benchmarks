@@ -38,5 +38,8 @@ jobs:
       - name: Type-check
         run: npm run typecheck
 
+      - name: Validate MCP Registry metadata
+        run: npm run validate:registry
+
       - name: Build Worker bundle
         run: npx wrangler deploy --dry-run --outdir dist-worker
