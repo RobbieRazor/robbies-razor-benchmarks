@@ -191,7 +191,10 @@ function createServer() {
 const mcpHandler = createMcpHandler(createServer, {
   route: "/mcp",
   responseMode: "json",
-  allowedHostnames: ["mcp.robbiegeorgephotography.com"],
+  allowedHostnames: [
+    "naturepedia-mcp.robbiengs.workers.dev",
+    "mcp.robbiegeorgephotography.com",
+  ],
   onerror(error) {
     console.error("naturepedia_mcp_error", {
       message: error.message,
