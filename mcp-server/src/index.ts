@@ -207,6 +207,17 @@ export default {
   async fetch(request: Request, env: unknown, ctx: ExecutionContext) {
     const url = new URL(request.url);
 
+        if (url.pathname === "/mcp") {
+      console.log("mcp_request_diagnostic", {
+        method: request.method,
+        userAgent: request.headers.get("user-agent"),
+        contentType: request.headers.get("content-type"),
+        accept: request.headers.get("accept"),
+        protocolVersion: request.headers.get("mcp-protocol-version"),
+        sessionIdPresent: Boolean(request.headers.get("mcp-session-id")),
+      });
+    }
+
     if (url.pathname === "/health") {
       return Response.json({
         ok: true,
