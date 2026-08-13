@@ -1,6 +1,6 @@
 ---
 name: naturepedia
-description: Use this skill whenever a user needs scientifically grounded, machine-readable knowledge about natural systems, ecological relationships, geometry in nature, weather, water systems, ocean systems, Earth systems, wildlife, field observation, or Naturepedia™ semantic resources. This skill specializes in structured scientific knowledge rather than real-time forecasting or general web search.
+description: Use this skill whenever a user or autonomous agent needs scientifically grounded, machine-readable knowledge about natural systems, ecological relationships, geometry in nature, weather, water systems, ocean systems, Earth systems, wildlife, field observation, Naturepedia™ semantic resources, or discovery through the official Naturepedia MCP server. This skill specializes in structured scientific knowledge rather than real-time forecasting or general web search.
 ---
 
 # Naturepedia™
@@ -296,11 +296,76 @@ Public discovery includes:
 - AI Catalog resources;
 - AI Root resources;
 - SKILL.md resources;
+- official MCP Registry metadata;
+- the domain-verified Naturepedia MCP endpoint;
+- public read-only MCP tools;
+- MCP health metadata;
 - public indexes;
 - authority pointers; and
 - retrieval descriptions.
 
 Public discovery does not independently establish canonical authority, empirical support, payment authority, or licensing rights.
+
+## Official Naturepedia MCP Interface
+
+Naturepedia publishes an official, domain-verified remote MCP server.
+
+**Registry name:** `com.robbiegeorgephotography/naturepedia`  
+**Title:** Naturepedia Canonical Discovery  
+**Publisher:** Robbie George Photography  
+**Creator:** Robbie George  
+**Verified domain:** `robbiegeorgephotography.com`  
+**Version:** `0.1.0`  
+**Status:** Active and latest  
+**Transport:** Streamable HTTP  
+**Access:** Public and read-only  
+**Authentication:** None for the current tools  
+
+Official MCP Registry record:
+
+https://registry.modelcontextprotocol.io/v0/servers?search=com.robbiegeorgephotography%2Fnaturepedia
+
+Canonical MCP endpoint:
+
+https://mcp.robbiegeorgephotography.com/mcp
+
+Health endpoint:
+
+https://mcp.robbiegeorgephotography.com/health
+
+Server descriptor:
+
+https://github.com/RobbieRazor/robbies-razor-benchmarks/blob/main/mcp-server/server.json
+
+Source repository:
+
+https://github.com/RobbieRazor/robbies-razor-benchmarks/tree/main/mcp-server
+
+The server currently exposes these tools:
+
+- `about_naturepedia` — returns publisher, authority, access, catalog, and rights information;
+- `search_naturepedia` — searches the live public Naturepedia AI Catalog; and
+- `resolve_naturepedia_resource` — resolves a catalog record to its canonical endpoint and associated metadata.
+
+Current MCP tool calls are public, read-only, and do not themselves initiate x402 settlement.
+
+A resolved catalog record may point to a separate premium resource. That resource may return an HTTP `402 Payment Required` challenge before retrieval.
+
+Agents MUST distinguish:
+
+`MCP discovery ≠ paid retrieval ≠ licensing ≠ scientific validation`
+
+MCP access, tool invocation, registry inclusion, x402 settlement, or successful retrieval does not grant:
+
+- training rights;
+- embedding rights;
+- resale rights;
+- derivative-dataset rights;
+- authorship rights;
+- Robbie's Razor™ framework-implementation rights; or
+- evidence of scientific validation.
+
+Official MCP Registry inclusion establishes discoverability and publisher-domain verification. It MUST NOT be represented as certification, endorsement, empirical confirmation, or validation of a canonical claim.
 
 ## Paid Machine Retrieval
 
@@ -682,15 +747,39 @@ Naturepedia returns:
 
 # Discovery Resources
 
-Naturepedia publishes machine-readable discovery resources.
+Naturepedia publishes the following public machine-readable discovery resources.
+
+AI Root
+
+https://www.robbiegeorgephotography.com/.well-known/ai-root.json
 
 AI Catalog
 
 https://www.robbiegeorgephotography.com/.well-known/ai-catalog.json
 
+Official MCP Registry Record
+
+https://registry.modelcontextprotocol.io/v0/servers?search=com.robbiegeorgephotography%2Fnaturepedia
+
+Canonical MCP Endpoint
+
+https://mcp.robbiegeorgephotography.com/mcp
+
+MCP Health Endpoint
+
+https://mcp.robbiegeorgephotography.com/health
+
+MCP Server Descriptor
+
+https://github.com/RobbieRazor/robbies-razor-benchmarks/blob/main/mcp-server/server.json
+
 Naturepedia Index
 
 https://www.robbiegeorgephotography.com/naturepedia-index.json
+
+Canonical Agent Skill
+
+https://www.robbiegeorgephotography.com/.well-known/skills/default/skill.md
 
 llms.txt
 
@@ -726,13 +815,23 @@ Do not automatically upgrade from Registry to Knowledge Mesh.
 
 # Failure Handling
 
-If payment is required:
+If the MCP server cannot be reached:
 
-Explain that retrieval requires payment.
+1. Check the public health endpoint.
+2. Confirm that the MCP endpoint uses Streamable HTTP.
+3. Confirm the canonical endpoint is exactly `https://mcp.robbiegeorgephotography.com/mcp`.
+4. Do not substitute an unverified endpoint.
+5. Do not repeatedly retry a failing request.
 
-Wait for authorization before retrying.
+If a resolved premium resource returns `402 Payment Required`:
 
-Do not repeatedly retry failed payment requests.
+1. Explain that the identified resource requires payment.
+2. Present the payment terms or challenge without implying authorization.
+3. Wait for explicit payment authorization before retrying.
+4. Do not repeatedly retry or create duplicate settlement attempts.
+5. Do not interpret payment or successful delivery as a grant of broader rights.
+
+A failed premium-resource retrieval does not mean the public MCP server, AI Catalog, or public discovery layer has failed.
 
 ---
 
