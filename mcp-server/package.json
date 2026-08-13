@@ -23,7 +23,7 @@
     "validate:registry": "node scripts/validate-server-json.mjs"
   },
   "dependencies": {
-    "@modelcontextprotocol/server": "2.0.0",
+    "@modelcontextprotocol/server": "2.0.0-beta.5",
     "agents": "0.20.1",
     "zod": "4.4.3"
   },
