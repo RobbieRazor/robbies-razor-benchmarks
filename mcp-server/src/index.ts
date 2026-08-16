@@ -26,7 +26,7 @@ async function loadCatalog(): Promise<CatalogItem[]> {
   const response = await fetch(AI_CATALOG_URL, {
     headers: {
       Accept: "application/json",
-      "User-Agent": "Naturepedia-MCP/0.1.0",
+      "User-Agent": "Naturepedia-MCP/0.1.1",
     },
   });
 
@@ -226,7 +226,7 @@ export default {
       return Response.json({
         ok: true,
         service: "naturepedia-mcp",
-        version: "0.1.0",
+        version: "0.1.1",
         mcpEndpoint: `${url.origin}/mcp`,
       });
     }
