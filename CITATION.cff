@@ -12,11 +12,13 @@ authors:
 
 version: 0.2.0
 
-date-released: 2026-08-01
+date-released: 2026-08-16
 
 repository-code: "https://github.com/RobbieRazor/robbies-razor-benchmarks"
 
-url: "https://github.com/RobbieRazor/robbies-razor-benchmarks"
+repository-artifact: "https://github.com/RobbieRazor/robbies-razor-benchmarks/releases/tag/benchmarks-v0.2.0"
+
+url: "https://www.robbiegeorgephotography.com/robbies-razor-benchmarks"
 
 abstract: >
   Public technical doctrine, structured examples, schemas, governance
