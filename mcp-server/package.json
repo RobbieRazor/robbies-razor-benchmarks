@@ -1,6 +1,6 @@
 {
   "name": "naturepedia-mcp-server",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Remote MCP server for canonical Naturepedia, Robbie's Razor, and GC-MRD discovery.",
   "private": true,
   "type": "module",
