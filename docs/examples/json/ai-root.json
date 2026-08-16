@@ -1,7 +1,7 @@
 {
   "id": "https://www.robbiegeorgephotography.com/.well-known/ai-root.json",
   "schemaVersion": "1.0",
-"version": "1.4",
+  "version": "1.4",
   "dateModified": "2026-08-16",
   "name": "Robbie George Photography AI Root",
   "description": "Canonical machine-readable entry point for Robbie George's human-authority pages, The Grand Compression Cosmology MRD v2.0, Naturepedia™, Robbie's Razor™, Robbie's Razor Benchmarks v0.2.0, the official domain-verified Naturepedia MCP server, canonical publication records, AI discovery infrastructure, x402 settlement, and governed machine retrieval.",
@@ -161,16 +161,16 @@
       "https://www.robbiegeorgephotography.com/robbies-razor-benchmarks",
       "https://www.robbiegeorgephotography.com/canonical-publication-manifest.json"
     ],
-  "publicMachineDiscovery": [
-  "https://www.robbiegeorgephotography.com/.well-known/ai-root.json",
+    "publicMachineDiscovery": [
+      "https://www.robbiegeorgephotography.com/.well-known/ai-root.json",
       "https://www.robbiegeorgephotography.com/.well-known/ai-catalog.json",
       "https://www.robbiegeorgephotography.com/.well-known/canonical-publication-manifest.json",
       "https://github.com/RobbieRazor/robbies-razor-benchmarks/releases/tag/benchmarks-v0.2.0",
       "https://raw.githubusercontent.com/RobbieRazor/robbies-razor-benchmarks/benchmarks-v0.2.0/CITATION.cff",
       "https://www.robbiegeorgephotography.com/.well-known/skills/default/skill.md",
-  "https://registry.modelcontextprotocol.io/v0/servers?search=com.robbiegeorgephotography%2Fnaturepedia",
-  "https://mcp.robbiegeorgephotography.com/health"
-   ],
+      "https://registry.modelcontextprotocol.io/v0/servers?search=com.robbiegeorgephotography%2Fnaturepedia",
+      "https://mcp.robbiegeorgephotography.com/health"
+    ],
     "paidMachineRetrieval": {
       "compactStructuredResourcesUsd": 1,
       "registriesAndSystemMapsUsd": 5,
