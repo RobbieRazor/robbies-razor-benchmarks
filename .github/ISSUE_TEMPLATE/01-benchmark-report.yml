@@ -29,7 +29,7 @@ body:
     attributes:
       label: Repository version or commit
       description: Provide the release version, branch, tag, or commit SHA used.
-      placeholder: Example: main, v2.0.0, or commit SHA
+      placeholder: "Example: main, v2.0.0, or commit SHA"
     validations:
       required: true
 
@@ -38,7 +38,7 @@ body:
     attributes:
       label: Model and environment
       description: Identify the model, provider, operating environment, and relevant tool versions.
-      placeholder: Example: model name, API version, Python version, operating system
+      placeholder: "Example: model name, API version, Python version, operating system"
     validations:
       required: true
 
