@@ -3,7 +3,7 @@
   "name": "com.robbiegeorgephotography/naturepedia",
   "title": "Naturepedia Canonical Discovery",
   "description": "Search and resolve Naturepedia, Robbie's Razor, and GC-MRD-v2.0 canonical resources.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://www.robbiegeorgephotography.com/naturepedia",
   "repository": {
     "url": "https://github.com/RobbieRazor/robbies-razor-benchmarks",
@@ -31,6 +31,17 @@
         "authentication": "none",
         "health": "https://mcp.robbiegeorgephotography.com/health",
         "discoveryCatalog": "https://www.robbiegeorgephotography.com/.well-known/ai-catalog.json"
+      },
+      "benchmark": {
+        "name": "Robbie's Razor Benchmarks",
+        "version": "0.2.0",
+        "releaseTag": "benchmarks-v0.2.0",
+        "governingAuthority": "GC-MRD-v2.0",
+        "canonicalPage": "https://www.robbiegeorgephotography.com/robbies-razor-benchmarks",
+        "release": "https://github.com/RobbieRazor/robbies-razor-benchmarks/releases/tag/benchmarks-v0.2.0",
+        "taggedCitation": "https://github.com/RobbieRazor/robbies-razor-benchmarks/blob/benchmarks-v0.2.0/CITATION.cff",
+        "canonicalPublicationManifest": "https://www.robbiegeorgephotography.com/canonical-publication-manifest.json",
+        "evidenceBoundary": "MCP availability and benchmark metadata do not establish independent empirical validation, universal validity, or model certification."
       },
       "rights": {
         "commercialLicense": "https://www.robbiegeorgephotography.com/commercial-data-license",
