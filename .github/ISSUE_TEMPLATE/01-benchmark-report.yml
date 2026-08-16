@@ -1,0 +1,87 @@
+name: Benchmark Reproducibility Report
+description: Report an unexpected benchmark result, reproducibility problem, protocol ambiguity, or integration issue.
+title: "[Benchmark Report]: "
+labels: []
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping evaluate the Robbie’s Razor™ benchmark suite. Please provide enough information for the result to be independently reviewed or reproduced.
+
+  - type: dropdown
+    id: report-type
+    attributes:
+      label: Report type
+      description: Select the category that best describes the issue.
+      options:
+        - Benchmark result discrepancy
+        - Reproducibility failure
+        - Protocol or documentation ambiguity
+        - MCP or API integration problem
+        - Other technical issue
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Repository version or commit
+      description: Provide the release version, branch, tag, or commit SHA used.
+      placeholder: Example: main, v2.0.0, or commit SHA
+    validations:
+      required: true
+
+  - type: input
+    id: environment
+    attributes:
+      label: Model and environment
+      description: Identify the model, provider, operating environment, and relevant tool versions.
+      placeholder: Example: model name, API version, Python version, operating system
+    validations:
+      required: true
+
+  - type: textarea
+    id: procedure
+    attributes:
+      label: Reproduction procedure
+      description: List the exact steps, commands, inputs, prompts, or benchmark configuration used.
+      placeholder: Provide a numbered sequence that another evaluator can follow.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+      description: Describe the result expected under the documented benchmark or protocol.
+    validations:
+      required: true
+
+  - type: textarea
+    id: observed
+    attributes:
+      label: Observed result
+      description: Describe what actually occurred and how it differed from the expected result.
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Supporting evidence
+      description: Include relevant logs, output excerpts, screenshots, hashes, or result files. Remove credentials and private information.
+      render: shell
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Submission confirmation
+      options:
+        - label: I searched existing issues for the same problem.
+          required: true
+        - label: I removed credentials, API keys, personal information, and other sensitive data.
+          required: true
