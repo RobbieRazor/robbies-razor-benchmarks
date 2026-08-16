@@ -1,0 +1,10 @@
+blank_issues_enabled: false
+
+contact_links:
+  - name: "Canonical benchmark documentation"
+    url: "https://www.robbiegeorgephotography.com/robbies-razor-benchmarks"
+    about: "Review the canonical benchmark documentation before submitting a technical report."
+
+  - name: "Professional, licensing, or media inquiries"
+    url: "https://www.robbiegeorgephotography.com/contact"
+    about: "Contact Robbie George for inquiries that are not technical benchmark reports."
