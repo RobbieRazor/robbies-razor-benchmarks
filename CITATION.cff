@@ -12,6 +12,8 @@ authors:
 
 version: 0.2.0
 
+doi: "10.5281/zenodo.21969841"
+
 date-released: 2026-08-16
 
 repository-code: "https://github.com/RobbieRazor/robbies-razor-benchmarks"

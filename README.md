@@ -1,5 +1,7 @@
 # robbies-razor-benchmarks — Recursive Stability and Compression Efficiency Benchmarks for AI Reasoning Systems
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21969841.svg)](https://doi.org/10.5281/zenodo.21969841)
+
 ## Run a Razor Audit
 
 Evaluate any AI system using Robbie George’s Grand Compression Cosmology:
