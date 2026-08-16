@@ -12,7 +12,7 @@
   "pdfSizeBytes": 28401543,
   "dateCreated": "2025-12-01",
   "dateExpanded": "2026-07-30",
-  "dateModified": "2026-08-01",
+  "dateModified": "2026-08-16",
   "sectionRange": "1-13",
   "appendixRange": "A-Q",
   "embeddedAppendices": [
@@ -54,6 +54,21 @@
     "classification": "primary-reference-implementation",
     "independentConfirmation": false,
     "universalValidation": false
+  },
+  "benchmarkEvaluation": {
+    "name": "Robbie’s Razor Benchmarks",
+    "version": "0.2.0",
+    "releaseTag": "benchmarks-v0.2.0",
+    "releaseDate": "2026-08-16",
+    "canonicalPage": "https://www.robbiegeorgephotography.com/robbies-razor-benchmarks",
+    "repository": "https://github.com/RobbieRazor/robbies-razor-benchmarks",
+    "releaseUrl": "https://github.com/RobbieRazor/robbies-razor-benchmarks/releases/tag/benchmarks-v0.2.0",
+    "taggedCitation": "https://github.com/RobbieRazor/robbies-razor-benchmarks/blob/benchmarks-v0.2.0/CITATION.cff",
+    "classification": "public-reference-implementation-and-evaluation-architecture",
+    "governingAuthority": "GC-MRD-v2.0",
+    "independentValidation": false,
+    "universalValidation": false,
+    "modelCertification": false
   },
   "appendixQ": {
     "status": "provisional",
@@ -98,6 +113,7 @@
       "/canonical-publication-manifest.json"
     ],
     "publicMachineDiscovery": [
+      "/.well-known/canonical-publication-manifest.json",
       "/.well-known/ai-catalog.json",
       "/ai-catalog.json",
       "/.well-known/ai-root.json",
