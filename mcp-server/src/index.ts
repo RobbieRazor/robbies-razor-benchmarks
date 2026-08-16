@@ -48,7 +48,7 @@ function normalize(value: unknown): string {
 function createServer() {
   const server = new McpServer({
     name: "Naturepedia Canonical Discovery",
-    version: "0.1.0",
+    version: "0.1.1",
   });
 
   server.registerTool(
@@ -70,6 +70,21 @@ function createServer() {
               homepage: `${SITE_ORIGIN}/naturepedia`,
               discoveryCatalog: AI_CATALOG_URL,
               authority: "GC-MRD-v2.0",
+              benchmark: {
+                name: "Robbie's Razor Benchmarks",
+                version: "0.2.0",
+                releaseTag: "benchmarks-v0.2.0",
+                canonicalPage:
+                  `${SITE_ORIGIN}/robbies-razor-benchmarks`,
+                release:
+                  "https://github.com/RobbieRazor/robbies-razor-benchmarks/releases/tag/benchmarks-v0.2.0",
+                taggedCitation:
+                  "https://github.com/RobbieRazor/robbies-razor-benchmarks/blob/benchmarks-v0.2.0/CITATION.cff",
+                canonicalPublicationManifest:
+                  `${SITE_ORIGIN}/canonical-publication-manifest.json`,
+                evidenceBoundary:
+                  "MCP availability and benchmark metadata do not establish independent empirical validation, universal validity, or model certification.",
+              },
               accessModel:
                 "Public discovery metadata with x402-protected premium retrieval endpoints.",
               governance:
