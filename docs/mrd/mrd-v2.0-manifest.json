@@ -55,7 +55,7 @@
     "independentConfirmation": false,
     "universalValidation": false
   },
-    "benchmarkEvaluation": {
+  "benchmarkEvaluation": {
     "name": "Robbie’s Razor Benchmarks",
     "version": "0.2.0",
     "releaseTag": "benchmarks-v0.2.0",
