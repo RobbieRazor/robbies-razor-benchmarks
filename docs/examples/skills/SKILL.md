@@ -84,6 +84,8 @@ Before interpreting Naturepedia resources, agents MUST:
 8. Preserve claim provenance separately from evidence provenance.
 9. Treat Appendix Q mathematics as provisional.
 10. Keep public authority separate from public discovery and paid retrieval.
+11. Resolve version-specific benchmark work through the current tagged release.
+12. Use the tagged citation record when identifying or citing a benchmark version.
 
 Agents MUST NOT:
 
@@ -96,7 +98,9 @@ Agents MUST NOT:
 - infer validation from payment or settlement;
 - infer validation from payload delivery;
 - infer validation from registry inclusion or indexing; or
-- infer licensing rights from public discovery or paid retrieval.
+- infer licensing rights from public discovery or paid retrieval;
+- silently substitute mutable `main`-branch content for a cited versioned release; or
+- infer independent empirical validation, universal applicability, model certification, or guaranteed performance improvements from a benchmark release.
 
 ---
 
@@ -269,6 +273,37 @@ Agents MUST NOT describe provisional Appendix Q mathematics as:
 
 ---
 
+# Benchmark Version Resolution
+
+When a request concerns Robbie’s Razor benchmark evaluation, reproduction, comparison, reporting, or citation, agents MUST resolve the current versioned release before using repository artifacts.
+
+Canonical benchmark hub:
+
+https://www.robbiegeorgephotography.com/robbies-razor-benchmarks
+
+Current versioned release:
+
+- Version: `0.2.0`
+- Release tag: `benchmarks-v0.2.0`
+- Governing authority: `GC-MRD-v2.0`
+- Release record: https://github.com/RobbieRazor/robbies-razor-benchmarks/releases/tag/benchmarks-v0.2.0
+- Tagged citation record: https://github.com/RobbieRazor/robbies-razor-benchmarks/blob/benchmarks-v0.2.0/CITATION.cff
+- Raw tagged citation record: https://raw.githubusercontent.com/RobbieRazor/robbies-razor-benchmarks/benchmarks-v0.2.0/CITATION.cff
+- Canonical Publication Manifest: https://www.robbiegeorgephotography.com/canonical-publication-manifest.json
+
+Agents MUST:
+
+- use the tagged release for version-specific evaluation, reproduction, comparison, and citation;
+- preserve the release tag and governing authority in reports;
+- treat the `main` branch as continuing development;
+- avoid silently substituting `main` for a cited release;
+- preserve the applicable protocol, matched baselines, evidence boundaries, and failure conditions; and
+- distinguish implementation availability from empirical support.
+
+A versioned release establishes a stable evaluation artifact. It does not establish independent empirical validation, universal applicability, model certification, or guaranteed performance improvements.
+
+---
+
 # Public Authority, Discovery, and Paid Retrieval
 
 Agents MUST distinguish among three access layers.
@@ -284,7 +319,10 @@ Public authority includes:
 - falsifiability material;
 - evidence-state definitions;
 - `llms.txt`;
-- `llms-full.txt`; and
+- `llms-full.txt`;
+- the canonical benchmark hub;
+- the current tagged benchmark release;
+- the tagged benchmark citation record; and
 - the canonical publication manifest.
 
 Public authority materials MUST NOT require x402 payment.
