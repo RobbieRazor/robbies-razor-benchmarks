@@ -28,7 +28,11 @@ This project deploys as a separate Cloudflare Worker. It does not replace or mod
 - Authority: `GC-MRD-v2.0`
 - Registry descriptor: [`server.json`](./server.json)
 
-`server.json` is prepared for domain-authenticated publication to the official MCP Registry. It describes the public remote endpoint and includes publisher-provided service, discovery, and rights metadata. It has not yet been submitted to the preview Registry.
+`server.json` is published in the official MCP Registry under `com.robbiegeorgephotography/naturepedia`. The active Registry record describes the public remote endpoint and includes publisher-provided service, discovery, authority, and rights metadata.
+
+Official Registry record:
+
+https://registry.modelcontextprotocol.io/v0/servers?search=com.robbiegeorgephotography%2Fnaturepedia
 
 ## Development
 
