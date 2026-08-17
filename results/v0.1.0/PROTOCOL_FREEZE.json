@@ -1,0 +1,32 @@
+{
+  "recordType": "protocol-freeze-record",
+  "protocol": "RR-BRP-0.1.0",
+  "resultsVersion": "0.1.0",
+  "protocolPath": "results/v0.1.0/RESULTS_PROTOCOL.md",
+  "protocolStatus": "frozen-preregistered",
+  "frozenProtocolCommit": "c6764fb8376d7ada10cb032137ec0c246483051d",
+  "protocolSha256": "85bf058948dd3112256107d72ef4cdd69564ad9ac71905165aa0edbb6870283f",
+  "frozenAt": "2026-08-17T11:01:13Z",
+  "authorAndEvaluator": "Robbie George",
+  "governingAuthority": "GC-MRD-v2.0",
+  "runner": {
+    "path": "results/v0.1.0/runner/run_openai_benchmark.mjs",
+    "implementationCommit": "f529c2f54041bda03ead3893a6c03d501d89d269",
+    "sha256": "6f9fdf648295259f13c2682e9916c6016f2e939d397ea42d43765a6a33214f9f"
+  },
+  "benchmark": {
+    "version": "0.2.0",
+    "releaseTag": "benchmarks-v0.2.0",
+    "releaseCommit": "a97c037a4509baee41f8ffa724f1d85e3e598421",
+    "doi": "10.5281/zenodo.21969841",
+    "doiUrl": "https://doi.org/10.5281/zenodo.21969841"
+  },
+  "executionAuthorized": false,
+  "pendingAuthorizationGates": [
+    "cost-ceiling-approved",
+    "provider-terms-reviewed",
+    "run-authorization-record-issued"
+  ],
+  "evidenceClassification": "first-party-bounded-evaluation",
+  "evidenceBoundary": "This freeze record establishes protocol provenance only. It does not authorize model execution, establish independent validation, confer universal validity, certify any model, or guarantee computational savings."
+}
