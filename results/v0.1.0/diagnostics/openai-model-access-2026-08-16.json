@@ -1,0 +1,74 @@
+{
+  "diagnosticType": "openai-model-access-verification",
+  "protocol": "RR-BRP-0.1.0",
+  "benchmarkRelease": "benchmarks-v0.2.0",
+  "benchmarkDoi": "10.5281/zenodo.21969841",
+  "results": [
+    {
+      "requestedModel": "gpt-5.6-luna",
+      "httpStatus": 200,
+      "startedAt": "2026-08-16T22:22:18.206Z",
+      "completedAt": "2026-08-16T22:22:20.434Z",
+      "responseId": "resp_00b2462ad90c136c016a82381b361c819c87cb80f476e18489",
+      "returnedModel": "gpt-5.6-luna",
+      "output": "OK",
+      "usage": {
+        "input_tokens": 17,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 5,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 22
+      },
+      "error": null
+    },
+    {
+      "requestedModel": "gpt-5.6-terra",
+      "httpStatus": 200,
+      "startedAt": "2026-08-16T22:22:20.435Z",
+      "completedAt": "2026-08-16T22:22:21.629Z",
+      "responseId": "resp_01f6fcee005a2cff016a82381c8f7887d29c2c4a0896930d9d",
+      "returnedModel": "gpt-5.6-terra",
+      "output": "OK",
+      "usage": {
+        "input_tokens": 17,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 5,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 22
+      },
+      "error": null
+    },
+    {
+      "requestedModel": "gpt-5.6-sol",
+      "httpStatus": 200,
+      "startedAt": "2026-08-16T22:22:21.629Z",
+      "completedAt": "2026-08-16T22:22:23.165Z",
+      "responseId": "resp_097a5bbadb427f32016a82381dbd14819e8fca1114207c0eea",
+      "returnedModel": "gpt-5.6-sol",
+      "output": "OK",
+      "usage": {
+        "input_tokens": 17,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 5,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 22
+      },
+      "error": null
+    }
+  ]
+}
