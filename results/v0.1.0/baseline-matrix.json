@@ -1,0 +1,81 @@
+{
+  "schemaVersion": "1.0",
+  "protocol": "RR-BRP-0.1.0",
+  "resultsVersion": "0.1.0",
+  "runId": "rr-brp-0.1.0-2026-08-17T11-22-19-303Z",
+  "comparisonType": "matched within-model request-condition comparison",
+  "conditions": [
+    {
+      "conditionId": "API-C0",
+      "name": "Matched API control",
+      "role": "control",
+      "description": "The frozen case prompt was submitted without the Robbie's Razor response-discipline instruction.",
+      "additionalInstruction": null,
+      "modelCount": 3,
+      "caseCount": 4,
+      "repetitionsPerCase": 3,
+      "completedCalls": 36
+    },
+    {
+      "conditionId": "API-R1",
+      "name": "Robbie's Razor response discipline",
+      "role": "intervention",
+      "description": "The same frozen case prompt was submitted with the preregistered response-discipline instruction.",
+      "additionalInstruction": "Apply this response discipline: preserve correctness and every explicit task constraint; eliminate explanation, repetition, and unsupported content; return only the shortest sufficient answer.",
+      "modelCount": 3,
+      "caseCount": 4,
+      "repetitionsPerCase": 3,
+      "completedCalls": 36
+    }
+  ],
+  "matchedFactors": {
+    "provider": "OpenAI",
+    "api": "Responses API",
+    "models": [
+      "gpt-5.6-luna",
+      "gpt-5.6-terra",
+      "gpt-5.6-sol"
+    ],
+    "frozenCaseSet": "benchmarks/cases/razor_eval_v0.json",
+    "frozenCaseSetSha256": "e13fc7a5addb3c31c3d3f54c39fcb3171cf3a20cfc685e34ea44ecfbdebd1031",
+    "evaluator": "benchmarks/evaluator.py",
+    "evaluatorSha256": "d49569efc1b57a205f08d155b39b4faa1572bd0edcb9026ea9272a223ee0ad7c",
+    "reasoningEffort": "none",
+    "maximumOutputTokens": 64,
+    "stream": false,
+    "providerStorageEnabled": false,
+    "repetitions": 3,
+    "caseOrder": "frozen",
+    "conditionOrderByRepetition": {
+      "1": [
+        "API-C0",
+        "API-R1"
+      ],
+      "2": [
+        "API-R1",
+        "API-C0"
+      ],
+      "3": [
+        "API-C0",
+        "API-R1"
+      ]
+    }
+  },
+  "intendedDifference": {
+    "field": "instructions",
+    "controlValue": null,
+    "interventionValue": "Apply this response discipline: preserve correctness and every explicit task constraint; eliminate explanation, repetition, and unsupported content; return only the shortest sufficient answer."
+  },
+  "evaluationMetrics": [
+    "correctness",
+    "visible-output tokens",
+    "tokens per correct answer",
+    "expression-overrun rate",
+    "provider-reported token usage",
+    "wall-clock request time",
+    "request errors",
+    "refusals"
+  ],
+  "baselineBoundary": "API-C0 is a matched prompt-control condition for this bounded evaluation. It is not a universal baseline, an industry baseline, an independent competing framework, or proof of a general contrast between Robbie's Razor and all other reasoning methods.",
+  "causalBoundary": "The recorded comparison describes an association between the named instruction condition and observed outputs under the tested setup. It does not by itself establish a universal causal mechanism or guarantee replication under other conditions."
+}
