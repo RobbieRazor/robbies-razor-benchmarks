@@ -12,7 +12,7 @@
   "pdfSizeBytes": 28401543,
   "dateCreated": "2025-12-01",
   "dateExpanded": "2026-07-30",
-  "dateModified": "2026-08-16",
+  "dateModified": "2026-08-17",
   "sectionRange": "1-13",
   "appendixRange": "A-Q",
   "embeddedAppendices": [
@@ -72,6 +72,26 @@
     "independentValidation": false,
     "universalValidation": false,
     "modelCertification": false
+  },
+    "benchmarkResults": {
+    "name": "Robbie’s Razor Benchmark Results",
+    "version": "0.1.0",
+    "protocol": "RR-BRP-0.1.0",
+    "releaseTag": "benchmark-results-v0.1.0",
+    "releaseDate": "2026-08-17",
+    "releaseCommit": "e2bd8df6b286f3818c5db5f26a76e60141bcdef6",
+    "doi": "10.5281/zenodo.21980302",
+    "doiUrl": "https://doi.org/10.5281/zenodo.21980302",
+    "zenodoRecord": "https://zenodo.org/records/21980302",
+    "githubRelease": "https://github.com/RobbieRazor/robbies-razor-benchmarks/releases/tag/benchmark-results-v0.1.0",
+    "resultsPath": "https://github.com/RobbieRazor/robbies-razor-benchmarks/tree/benchmark-results-v0.1.0/results/v0.1.0",
+    "archiveSha256": "93010c38e26292c30b337e23128727bb0cdf9640cbd2b355616310b6fcf84e4d",
+    "evidenceClassification": "first-party-bounded-evaluation",
+    "evidenceState": "first-party-observed",
+    "independentValidation": false,
+    "universalValidation": false,
+    "modelCertification": false,
+    "productionCertification": false
   },
   "appendixQ": {
     "status": "provisional",
