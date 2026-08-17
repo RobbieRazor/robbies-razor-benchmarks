@@ -1,0 +1,176 @@
+{
+  "protocol": "RR-BRP-0.1.0",
+  "resultsVersion": "0.1.0",
+  "evidenceClassification": "first-party-bounded-evaluation",
+  "runId": "rr-brp-0.1.0-2026-08-17T11-22-19-303Z",
+  "initialRunStartedAt": "2026-08-17T11:22:19.296Z",
+  "completedAt": "2026-08-17T11:30:29.340Z",
+  "benchmarkRelease": "benchmarks-v0.2.0",
+  "benchmarkDoi": "10.5281/zenodo.21969841",
+  "runnerCommit": "31d33c84811f85ee746f0436b8763dc336f9fda1",
+  "frozenProtocolCommit": "c6764fb8376d7ada10cb032137ec0c246483051d",
+  "finalizerCommit": "d2cb2a0c494c25b12761ed18576b9e46aba4a7f3",
+  "plannedLiveCalls": 72,
+  "rawAttemptCount": 72,
+  "completedLiveCalls": 72,
+  "liveModelRequestsRepeatedDuringRecovery": false,
+  "evaluationReports": [
+    {
+      "model": "gpt-5.6-luna",
+      "conditionId": "API-C0",
+      "repetition": 1,
+      "outputsPath": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/evaluations/gpt-5.6-luna__API-C0__r1.outputs.json",
+      "reportPath": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/evaluations/gpt-5.6-luna__API-C0__r1.report.json",
+      "stdoutPath": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/evaluations/gpt-5.6-luna__API-C0__r1.stdout.txt"
+    },
+    {
+      "model": "gpt-5.6-luna",
+      "conditionId": "API-C0",
+      "repetition": 2,
+      "outputsPath": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/evaluations/gpt-5.6-luna__API-C0__r2.outputs.json",
+      "reportPath": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/evaluations/gpt-5.6-luna__API-C0__r2.report.json",
+      "stdoutPath": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/evaluations/gpt-5.6-luna__API-C0__r2.stdout.txt"
+    },
+    {
+      "model": "gpt-5.6-luna",
+      "conditionId": "API-C0",
+      "repetition": 3,
+      "outputsPath": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/evaluations/gpt-5.6-luna__API-C0__r3.outputs.json",
+      "reportPath": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/evaluations/gpt-5.6-luna__API-C0__r3.report.json",
+      "stdoutPath": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/evaluations/gpt-5.6-luna__API-C0__r3.stdout.txt"
+    },
+    {
+      "model": "gpt-5.6-luna",
+      "conditionId": "API-R1",
+      "repetition": 1,
+      "outputsPath": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/evaluations/gpt-5.6-luna__API-R1__r1.outputs.json",
+      "reportPath": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/evaluations/gpt-5.6-luna__API-R1__r1.report.json",
+      "stdoutPath": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/evaluations/gpt-5.6-luna__API-R1__r1.stdout.txt"
+    },
+    {
+      "model": "gpt-5.6-luna",
+      "conditionId": "API-R1",
+      "repetition": 2,
+      "outputsPath": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/evaluations/gpt-5.6-luna__API-R1__r2.outputs.json",
+      "reportPath": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/evaluations/gpt-5.6-luna__API-R1__r2.report.json",
+      "stdoutPath": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/evaluations/gpt-5.6-luna__API-R1__r2.stdout.txt"
+    },
+    {
+      "model": "gpt-5.6-luna",
+      "conditionId": "API-R1",
+      "repetition": 3,
+      "outputsPath": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/evaluations/gpt-5.6-luna__API-R1__r3.outputs.json",
+      "reportPath": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/evaluations/gpt-5.6-luna__API-R1__r3.report.json",
+      "stdoutPath": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/evaluations/gpt-5.6-luna__API-R1__r3.stdout.txt"
+    },
+    {
+      "model": "gpt-5.6-terra",
+      "conditionId": "API-C0",
+      "repetition": 1,
+      "outputsPath": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/evaluations/gpt-5.6-terra__API-C0__r1.outputs.json",
+      "reportPath": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/evaluations/gpt-5.6-terra__API-C0__r1.report.json",
+      "stdoutPath": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/evaluations/gpt-5.6-terra__API-C0__r1.stdout.txt"
+    },
+    {
+      "model": "gpt-5.6-terra",
+      "conditionId": "API-C0",
+      "repetition": 2,
+      "outputsPath": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/evaluations/gpt-5.6-terra__API-C0__r2.outputs.json",
+      "reportPath": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/evaluations/gpt-5.6-terra__API-C0__r2.report.json",
+      "stdoutPath": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/evaluations/gpt-5.6-terra__API-C0__r2.stdout.txt"
+    },
+    {
+      "model": "gpt-5.6-terra",
+      "conditionId": "API-C0",
+      "repetition": 3,
+      "outputsPath": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/evaluations/gpt-5.6-terra__API-C0__r3.outputs.json",
+      "reportPath": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/evaluations/gpt-5.6-terra__API-C0__r3.report.json",
+      "stdoutPath": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/evaluations/gpt-5.6-terra__API-C0__r3.stdout.txt"
+    },
+    {
+      "model": "gpt-5.6-terra",
+      "conditionId": "API-R1",
+      "repetition": 1,
+      "outputsPath": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/evaluations/gpt-5.6-terra__API-R1__r1.outputs.json",
+      "reportPath": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/evaluations/gpt-5.6-terra__API-R1__r1.report.json",
+      "stdoutPath": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/evaluations/gpt-5.6-terra__API-R1__r1.stdout.txt"
+    },
+    {
+      "model": "gpt-5.6-terra",
+      "conditionId": "API-R1",
+      "repetition": 2,
+      "outputsPath": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/evaluations/gpt-5.6-terra__API-R1__r2.outputs.json",
+      "reportPath": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/evaluations/gpt-5.6-terra__API-R1__r2.report.json",
+      "stdoutPath": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/evaluations/gpt-5.6-terra__API-R1__r2.stdout.txt"
+    },
+    {
+      "model": "gpt-5.6-terra",
+      "conditionId": "API-R1",
+      "repetition": 3,
+      "outputsPath": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/evaluations/gpt-5.6-terra__API-R1__r3.outputs.json",
+      "reportPath": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/evaluations/gpt-5.6-terra__API-R1__r3.report.json",
+      "stdoutPath": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/evaluations/gpt-5.6-terra__API-R1__r3.stdout.txt"
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "conditionId": "API-C0",
+      "repetition": 1,
+      "outputsPath": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/evaluations/gpt-5.6-sol__API-C0__r1.outputs.json",
+      "reportPath": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/evaluations/gpt-5.6-sol__API-C0__r1.report.json",
+      "stdoutPath": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/evaluations/gpt-5.6-sol__API-C0__r1.stdout.txt"
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "conditionId": "API-C0",
+      "repetition": 2,
+      "outputsPath": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/evaluations/gpt-5.6-sol__API-C0__r2.outputs.json",
+      "reportPath": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/evaluations/gpt-5.6-sol__API-C0__r2.report.json",
+      "stdoutPath": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/evaluations/gpt-5.6-sol__API-C0__r2.stdout.txt"
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "conditionId": "API-C0",
+      "repetition": 3,
+      "outputsPath": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/evaluations/gpt-5.6-sol__API-C0__r3.outputs.json",
+      "reportPath": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/evaluations/gpt-5.6-sol__API-C0__r3.report.json",
+      "stdoutPath": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/evaluations/gpt-5.6-sol__API-C0__r3.stdout.txt"
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "conditionId": "API-R1",
+      "repetition": 1,
+      "outputsPath": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/evaluations/gpt-5.6-sol__API-R1__r1.outputs.json",
+      "reportPath": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/evaluations/gpt-5.6-sol__API-R1__r1.report.json",
+      "stdoutPath": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/evaluations/gpt-5.6-sol__API-R1__r1.stdout.txt"
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "conditionId": "API-R1",
+      "repetition": 2,
+      "outputsPath": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/evaluations/gpt-5.6-sol__API-R1__r2.outputs.json",
+      "reportPath": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/evaluations/gpt-5.6-sol__API-R1__r2.report.json",
+      "stdoutPath": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/evaluations/gpt-5.6-sol__API-R1__r2.stdout.txt"
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "conditionId": "API-R1",
+      "repetition": 3,
+      "outputsPath": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/evaluations/gpt-5.6-sol__API-R1__r3.outputs.json",
+      "reportPath": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/evaluations/gpt-5.6-sol__API-R1__r3.report.json",
+      "stdoutPath": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/evaluations/gpt-5.6-sol__API-R1__r3.stdout.txt"
+    }
+  ],
+  "aggregateSummaryPath": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/aggregate-summary.json",
+  "aggregateGroupCount": 6,
+  "syntheticTrack": {
+    "evidenceClassification": "synthetic-proxy",
+    "resultPath": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/synthetic-memory-gate/result.json",
+    "stdoutPath": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/synthetic-memory-gate/stdout.txt",
+    "stdoutSha256": "fef064bd212fee7b7cf310d11a02b92fefa8369d14370438f78525c711c3f2e1"
+  },
+  "deviationLogPath": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/deviations/deviation-log.json",
+  "deviationsRecorded": [
+    "RR-BRP-0.1.0-DEV-001"
+  ],
+  "evidenceBoundary": "These results apply only to the recorded models, cases, conditions, repetitions, configurations, dates, and environment. They do not establish independent validation, universal validity, model certification, or guaranteed computational savings."
+}

@@ -1,0 +1,73 @@
+{
+  "schemaVersion": "1.0",
+  "protocol": "RR-BRP-0.1.0",
+  "resultsVersion": "0.1.0",
+  "evidenceClassification": "first-party-bounded-evaluation",
+  "runId": "rr-brp-0.1.0-2026-08-17T11-22-19-303Z",
+  "recordedAt": "2026-08-17T11:22:19.296Z",
+  "provider": {
+    "name": "OpenAI",
+    "api": "Responses API",
+    "endpoint": "https://api.openai.com/v1/responses"
+  },
+  "runtime": {
+    "node": "v22.22.3",
+    "python": "Python 3.13.12",
+    "platform": "darwin",
+    "architecture": "x64"
+  },
+  "executionRepository": {
+    "url": "https://github.com/RobbieRazor/robbies-razor-benchmarks",
+    "branch": "results/execute-brp-0-1-0",
+    "checkoutCommit": "31d33c84811f85ee746f0436b8763dc336f9fda1",
+    "workingTreeDirtyAtStart": false,
+    "statusLines": []
+  },
+  "frozenBenchmark": {
+    "releaseTag": "benchmarks-v0.2.0",
+    "releaseCommit": "a97c037a4509baee41f8ffa724f1d85e3e598421",
+    "doi": "10.5281/zenodo.21969841",
+    "doiUrl": "https://doi.org/10.5281/zenodo.21969841",
+    "artifacts": {
+      "benchmarks/cases/razor_eval_v0.json": {
+        "sha256": "e13fc7a5addb3c31c3d3f54c39fcb3171cf3a20cfc685e34ea44ecfbdebd1031",
+        "verified": true
+      },
+      "benchmarks/evaluator.py": {
+        "sha256": "d49569efc1b57a205f08d155b39b4faa1572bd0edcb9026ea9272a223ee0ad7c",
+        "verified": true
+      },
+      "benchmarks/benchmark_memory_gate_savings.py": {
+        "sha256": "c584b675c2f0fca692105159d27f2281789859e55f75306940642efc32a1c938",
+        "verified": true
+      }
+    }
+  },
+  "executionMatrix": {
+    "models": [
+      "gpt-5.6-luna",
+      "gpt-5.6-terra",
+      "gpt-5.6-sol"
+    ],
+    "conditions": [
+      "API-C0",
+      "API-R1"
+    ],
+    "caseCount": 4,
+    "repetitionCount": 3,
+    "plannedLiveCalls": 72,
+    "completedLiveCalls": 72
+  },
+  "requestConfiguration": {
+    "reasoningEffort": "none",
+    "maximumOutputTokens": 64,
+    "stream": false,
+    "providerStorageEnabled": false
+  },
+  "credentialHandling": {
+    "authenticationMethod": "environment-variable bearer credential",
+    "credentialRecordedInPackage": false,
+    "authorizationHeaderRecordedInPackage": false
+  },
+  "evidenceBoundary": "This environment record describes one bounded first-party execution. It does not establish independent validation, universal validity, model certification, production certification, or guaranteed computational savings."
+}

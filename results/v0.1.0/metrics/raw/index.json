@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "1.0",
+  "protocol": "RR-BRP-0.1.0",
+  "resultsVersion": "0.1.0",
+  "evidenceClassification": "first-party-observed",
+  "runId": "rr-brp-0.1.0-2026-08-17T11-22-19-303Z",
+  "rawAttempts": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/raw/attempts.jsonl",
+  "rawAttemptCount": 72,
+  "evaluationDirectory": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/evaluations",
+  "evaluationReportCount": 18,
+  "note": "Raw observations remain preserved within the versioned run directory. Derived metrics are stored separately under metrics/derived."
+}

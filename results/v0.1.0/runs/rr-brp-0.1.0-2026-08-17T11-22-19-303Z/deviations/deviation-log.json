@@ -1,0 +1,24 @@
+{
+  "protocol": "RR-BRP-0.1.0",
+  "resultsVersion": "0.1.0",
+  "runId": "rr-brp-0.1.0-2026-08-17T11-22-19-303Z",
+  "deviations": [
+    {
+      "deviationId": "RR-BRP-0.1.0-DEV-001",
+      "date": "2026-08-17",
+      "affectedRunIds": [
+        "rr-brp-0.1.0-2026-08-17T11-22-19-303Z"
+      ],
+      "stage": "synthetic-memory-gate",
+      "description": "The initial synthetic-memory-gate invocation stopped after all 72 live API sequences and their evaluations completed.",
+      "reason": "The tagged benchmark imported src.razor.memory_bank, but the temporary tagged checkout root was not present on Python's module search path, producing ModuleNotFoundError: No module named 'src'.",
+      "expectedEffect": "No effect on the 72 completed live API records, model outputs, evaluation reports, or aggregate live-model summary. The synthetic proxy track is separate from live-model evidence.",
+      "correctiveAction": "Executed only the unchanged tagged synthetic benchmark with PYTHONPATH set to the temporary tagged checkout root, then generated the missing synthetic record and run manifest.",
+      "rerunsPerformed": false,
+      "liveModelRequestsRepeated": false,
+      "syntheticTrackRecovered": true,
+      "affectedObservationsRemainIncluded": true,
+      "evidenceClassification": "documented-protocol-deviation"
+    }
+  ]
+}

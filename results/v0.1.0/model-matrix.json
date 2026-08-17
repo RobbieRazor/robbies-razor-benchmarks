@@ -1,0 +1,72 @@
+{
+  "schemaVersion": "1.0",
+  "protocol": "RR-BRP-0.1.0",
+  "resultsVersion": "0.1.0",
+  "runId": "rr-brp-0.1.0-2026-08-17T11-22-19-303Z",
+  "provider": "OpenAI",
+  "api": "Responses API",
+  "models": [
+    {
+      "requestedModel": "gpt-5.6-luna",
+      "returnedModel": "gpt-5.6-luna",
+      "providerModelMatchVerified": true,
+      "conditions": [
+        "API-C0",
+        "API-R1"
+      ],
+      "caseCountPerCondition": 4,
+      "repetitionsPerCaseCondition": 3,
+      "plannedCalls": 24,
+      "completedCalls": 24,
+      "requestErrors": 0,
+      "refusals": 0
+    },
+    {
+      "requestedModel": "gpt-5.6-terra",
+      "returnedModel": "gpt-5.6-terra",
+      "providerModelMatchVerified": true,
+      "conditions": [
+        "API-C0",
+        "API-R1"
+      ],
+      "caseCountPerCondition": 4,
+      "repetitionsPerCaseCondition": 3,
+      "plannedCalls": 24,
+      "completedCalls": 24,
+      "requestErrors": 0,
+      "refusals": 0
+    },
+    {
+      "requestedModel": "gpt-5.6-sol",
+      "returnedModel": "gpt-5.6-sol",
+      "providerModelMatchVerified": true,
+      "conditions": [
+        "API-C0",
+        "API-R1"
+      ],
+      "caseCountPerCondition": 4,
+      "repetitionsPerCaseCondition": 3,
+      "plannedCalls": 24,
+      "completedCalls": 24,
+      "requestErrors": 0,
+      "refusals": 0
+    }
+  ],
+  "sharedRequestConfiguration": {
+    "reasoningEffort": "none",
+    "maximumOutputTokens": 64,
+    "stream": false,
+    "providerStorageEnabled": false
+  },
+  "totals": {
+    "modelCount": 3,
+    "conditionCount": 2,
+    "caseCount": 4,
+    "repetitionCount": 3,
+    "plannedCalls": 72,
+    "completedCalls": 72,
+    "requestErrors": 0,
+    "refusals": 0
+  },
+  "scopeBoundary": "Only the exact provider-returned model identifiers recorded here are represented. These results must not be generalized to other model versions, aliases, providers, configurations, dates, tasks, or deployment environments."
+}

@@ -1,0 +1,102 @@
+{
+  "schemaVersion": "1.0",
+  "identifier": "RR-BRP-RESULTS-0.1.0",
+  "name": "Robbie's Razor Benchmark Results v0.1.0",
+  "protocol": "RR-BRP-0.1.0",
+  "protocolStatus": "frozen-preregistered",
+  "resultsVersion": "0.1.0",
+  "packageStatus": "reviewed-prepublication",
+  "evidenceClassification": "first-party-bounded-evaluation",
+  "evidenceState": "first-party-observed",
+  "author": {
+    "type": "Person",
+    "name": "Robbie George",
+    "canonicalUrl": "https://www.robbiegeorgephotography.com/who-is-robbie-george"
+  },
+  "governingAuthority": "GC-MRD-v2.0",
+  "benchmark": {
+    "name": "Robbie's Razor Benchmarks",
+    "version": "0.2.0",
+    "releaseTag": "benchmarks-v0.2.0",
+    "releaseCommit": "a97c037a4509baee41f8ffa724f1d85e3e598421",
+    "repository": "https://github.com/RobbieRazor/robbies-razor-benchmarks",
+    "canonicalPage": "https://www.robbiegeorgephotography.com/robbies-razor-benchmarks",
+    "softwareDoi": "10.5281/zenodo.21969841",
+    "softwareDoiUrl": "https://doi.org/10.5281/zenodo.21969841",
+    "zenodoRecord": "https://zenodo.org/records/21969841"
+  },
+  "protocolFreeze": {
+    "commit": "c6764fb8376d7ada10cb032137ec0c246483051d",
+    "sha256": "85bf058948dd3112256107d72ef4cdd69564ad9ac71905165aa0edbb6870283f",
+    "record": "results/v0.1.0/PROTOCOL_FREEZE.json"
+  },
+  "authorization": {
+    "status": "authorized",
+    "record": "results/v0.1.0/RUN_AUTHORIZATION.json"
+  },
+  "execution": {
+    "runId": "rr-brp-0.1.0-2026-08-17T11-22-19-303Z",
+    "runDirectory": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z",
+    "runManifest": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/run-manifest.json",
+    "plannedLiveCalls": 72,
+    "completedLiveCalls": 72,
+    "liveModelRequestsRepeatedDuringRecovery": false,
+    "modelCount": 3,
+    "conditionCount": 2,
+    "caseCount": 4,
+    "repetitions": 3,
+    "aggregateGroupCount": 6,
+    "evaluationReportCount": 18
+  },
+  "packageDocuments": {
+    "readme": "results/v0.1.0/README.md",
+    "protocol": "results/v0.1.0/RESULTS_PROTOCOL.md",
+    "environment": "results/v0.1.0/environment.json",
+    "modelMatrix": "results/v0.1.0/model-matrix.json",
+    "baselineMatrix": "results/v0.1.0/baseline-matrix.json"
+  },
+  "evidenceArtifacts": {
+    "rawAttempts": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/raw/attempts.jsonl",
+    "aggregateSummary": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/aggregate-summary.json",
+    "evaluationDirectory": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/evaluations",
+    "syntheticResult": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/synthetic-memory-gate/result.json",
+    "syntheticStdout": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/synthetic-memory-gate/stdout.txt",
+    "deviationLog": "results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/deviations/deviation-log.json"
+  },
+  "deviations": [
+    {
+      "identifier": "RR-BRP-0.1.0-DEV-001",
+      "stage": "synthetic-memory-gate",
+      "liveModelEvidenceAffected": false,
+      "liveModelRequestsRepeated": false,
+      "syntheticTrackRecovered": true
+    }
+  ],
+  "integrity": {
+    "auditStatus": "passed",
+    "auditedFileCountBeforePackageChecksums": 63,
+    "successfulLiveSequenceCount": 72,
+    "possibleSecretsDetected": false,
+    "personalFilesystemPathsDetected": false,
+    "absoluteManifestPathsDetected": false,
+    "checksumsFile": "results/v0.1.0/checksums.sha256",
+    "checksumsStatus": "generated-and-verified",
+    "checksummedFileCount": 79
+  },
+  "publication": {
+    "plannedReleaseTag": "benchmark-results-v0.1.0",
+    "githubRelease": null,
+    "resultsDatasetDoi": null,
+    "resultsDatasetDoiUrl": null,
+    "zenodoDatasetRecord": null,
+    "note": "The result Dataset DOI must remain distinct from the benchmark Software DOI."
+  },
+  "evidenceBoundary": "These results apply only to the recorded models, frozen cases, conditions, repetitions, configurations, dates, and environment. They do not establish independent validation, universal validity, scientific consensus, model certification, production certification, or guaranteed reductions in tokens, latency, resource use, energy use, or cost.",
+  "packageArtifacts": {
+    "rawMetricsIndex": "results/v0.1.0/metrics/raw/index.json",
+    "liveModelMetrics": "results/v0.1.0/metrics/derived/live-model-aggregate.json",
+    "syntheticProxyMetrics": "results/v0.1.0/metrics/derived/synthetic-memory-gate.json",
+    "aggregateSummary": "results/v0.1.0/summaries/aggregate-summary.json",
+    "deviationLog": "results/v0.1.0/deviations/deviation-log.json"
+  }
+}
