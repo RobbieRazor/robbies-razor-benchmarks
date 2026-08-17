@@ -1,0 +1,55 @@
+{
+  "evidenceClassification": "synthetic-proxy",
+  "benchmarkRelease": "benchmarks-v0.2.0",
+  "command": [
+    "python3",
+    "benchmarks/benchmark_memory_gate_savings.py",
+    "--total-queries",
+    "1000",
+    "--unique-queries",
+    "200",
+    "--capacity",
+    "10000",
+    "--threshold",
+    "0.95",
+    "--tokens-per-inference",
+    "800",
+    "--ms-per-inference",
+    "600",
+    "--seed",
+    "123"
+  ],
+  "environmentCorrection": {
+    "PYTHONPATH": "<temporary-tagged-checkout-root>",
+    "purpose": "Resolve the tagged repository's src package without changing benchmark inputs or logic."
+  },
+  "parameters": {
+    "totalQueries": 1000,
+    "uniqueQueries": 200,
+    "memoryCapacity": 10000,
+    "stabilityThreshold": 0.95,
+    "assumedTokensPerInference": 800,
+    "assumedMsPerInference": 600,
+    "seed": 123
+  },
+  "parsedOutput": {
+    "totalQueries": "1000",
+    "uniqueQueries": "200",
+    "memoryCapacity": "10000",
+    "stabilityThreshold": "0.95",
+    "baselineInferences": "1000",
+    "razorInferences": "199",
+    "inferencesAvoided": "801",
+    "memoryHits": "801",
+    "memoryHitRate": "80.10%",
+    "assumedTokensPerInference": "800",
+    "baselineTokens": "800000",
+    "razorTokens": "159200",
+    "tokenSavings": "640800",
+    "assumedMsPerInference": "600",
+    "baselineMs": "600000",
+    "razorMs": "119400",
+    "latencySavingsMs": "480600"
+  },
+  "stdoutSha256": "fef064bd212fee7b7cf310d11a02b92fefa8369d14370438f78525c711c3f2e1"
+}

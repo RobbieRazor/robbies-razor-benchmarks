@@ -1,0 +1,406 @@
+{
+  "protocol": "RR-BRP-0.1.0",
+  "resultsVersion": "0.1.0",
+  "evidenceClassification": "first-party-bounded-evaluation",
+  "generatedAt": "2026-08-17T11:23:41.055Z",
+  "aggregationMethod": "Descriptive aggregation across 3 repetitions and 4 frozen cases for each named model and condition.",
+  "aggregates": [
+    {
+      "model": "gpt-5.6-luna",
+      "conditionId": "API-C0",
+      "completedRequestCount": 12,
+      "errorCount": 0,
+      "refusalCount": 0,
+      "observationCount": 12,
+      "correctAnswerCount": 9,
+      "accuracy": 0.75,
+      "visibleOutputTokens": 36,
+      "tokensPerCorrectAnswer": 2.3333333333333335,
+      "expressionOverrunRate": 0,
+      "providerReportedUsage": {
+        "inputTokens": 222,
+        "outputTokens": 88,
+        "totalTokens": 310,
+        "cachedInputTokens": 0
+      },
+      "descriptiveStatistics": {
+        "visibleOutputTokensPerObservation": {
+          "count": 12,
+          "minimum": 1,
+          "maximum": 5,
+          "mean": 3,
+          "median": 3,
+          "populationStandardDeviation": 1.5811388300841898,
+          "observedRange": 4
+        },
+        "wallClockMsPerRequest": {
+          "count": 12,
+          "minimum": 710.295,
+          "maximum": 1565.021,
+          "mean": 1079.4403333333335,
+          "median": 1072.316,
+          "populationStandardDeviation": 283.30920677719286,
+          "observedRange": 854.726
+        },
+        "providerInputTokensPerRequest": {
+          "count": 12,
+          "minimum": 14,
+          "maximum": 28,
+          "mean": 18.5,
+          "median": 16,
+          "populationStandardDeviation": 5.722761571129799,
+          "observedRange": 14
+        },
+        "providerOutputTokensPerRequest": {
+          "count": 12,
+          "minimum": 5,
+          "maximum": 13,
+          "mean": 7.333333333333333,
+          "median": 6,
+          "populationStandardDeviation": 3.009245014211298,
+          "observedRange": 8
+        },
+        "providerTotalTokensPerRequest": {
+          "count": 12,
+          "minimum": 19,
+          "maximum": 35,
+          "mean": 25.833333333333332,
+          "median": 24.5,
+          "populationStandardDeviation": 5.89962334014262,
+          "observedRange": 16
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-luna",
+      "conditionId": "API-R1",
+      "completedRequestCount": 12,
+      "errorCount": 0,
+      "refusalCount": 0,
+      "observationCount": 12,
+      "correctAnswerCount": 12,
+      "accuracy": 1,
+      "visibleOutputTokens": 24,
+      "tokensPerCorrectAnswer": 2,
+      "expressionOverrunRate": 0,
+      "providerReportedUsage": {
+        "inputTokens": 618,
+        "outputTokens": 66,
+        "totalTokens": 684,
+        "cachedInputTokens": 0
+      },
+      "descriptiveStatistics": {
+        "visibleOutputTokensPerObservation": {
+          "count": 12,
+          "minimum": 1,
+          "maximum": 4,
+          "mean": 2,
+          "median": 1.5,
+          "populationStandardDeviation": 1.224744871391589,
+          "observedRange": 3
+        },
+        "wallClockMsPerRequest": {
+          "count": 12,
+          "minimum": 613.745,
+          "maximum": 3549.91,
+          "mean": 1145.36575,
+          "median": 925.175,
+          "populationStandardDeviation": 766.9302802133891,
+          "observedRange": 2936.165
+        },
+        "providerInputTokensPerRequest": {
+          "count": 12,
+          "minimum": 47,
+          "maximum": 61,
+          "mean": 51.5,
+          "median": 49,
+          "populationStandardDeviation": 5.722761571129799,
+          "observedRange": 14
+        },
+        "providerOutputTokensPerRequest": {
+          "count": 12,
+          "minimum": 5,
+          "maximum": 7,
+          "mean": 5.5,
+          "median": 5,
+          "populationStandardDeviation": 0.8660254037844386,
+          "observedRange": 2
+        },
+        "providerTotalTokensPerRequest": {
+          "count": 12,
+          "minimum": 52,
+          "maximum": 68,
+          "mean": 57,
+          "median": 54,
+          "populationStandardDeviation": 6.557438524302,
+          "observedRange": 16
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-terra",
+      "conditionId": "API-C0",
+      "completedRequestCount": 12,
+      "errorCount": 0,
+      "refusalCount": 0,
+      "observationCount": 12,
+      "correctAnswerCount": 6,
+      "accuracy": 0.5,
+      "visibleOutputTokens": 42,
+      "tokensPerCorrectAnswer": 3,
+      "expressionOverrunRate": 0,
+      "providerReportedUsage": {
+        "inputTokens": 222,
+        "outputTokens": 105,
+        "totalTokens": 327,
+        "cachedInputTokens": 0
+      },
+      "descriptiveStatistics": {
+        "visibleOutputTokensPerObservation": {
+          "count": 12,
+          "minimum": 2,
+          "maximum": 4,
+          "mean": 3.5,
+          "median": 4,
+          "populationStandardDeviation": 0.8660254037844386,
+          "observedRange": 2
+        },
+        "wallClockMsPerRequest": {
+          "count": 12,
+          "minimum": 735.712,
+          "maximum": 1611.167,
+          "mean": 985.4171666666665,
+          "median": 821.3785,
+          "populationStandardDeviation": 276.63377458257975,
+          "observedRange": 875.4549999999999
+        },
+        "providerInputTokensPerRequest": {
+          "count": 12,
+          "minimum": 14,
+          "maximum": 28,
+          "mean": 18.5,
+          "median": 16,
+          "populationStandardDeviation": 5.722761571129799,
+          "observedRange": 14
+        },
+        "providerOutputTokensPerRequest": {
+          "count": 12,
+          "minimum": 5,
+          "maximum": 12,
+          "mean": 8.75,
+          "median": 9,
+          "populationStandardDeviation": 2.8613807855648994,
+          "observedRange": 7
+        },
+        "providerTotalTokensPerRequest": {
+          "count": 12,
+          "minimum": 23,
+          "maximum": 35,
+          "mean": 27.25,
+          "median": 25.5,
+          "populationStandardDeviation": 4.602988159880492,
+          "observedRange": 12
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-terra",
+      "conditionId": "API-R1",
+      "completedRequestCount": 12,
+      "errorCount": 0,
+      "refusalCount": 0,
+      "observationCount": 12,
+      "correctAnswerCount": 12,
+      "accuracy": 1,
+      "visibleOutputTokens": 24,
+      "tokensPerCorrectAnswer": 2,
+      "expressionOverrunRate": 0,
+      "providerReportedUsage": {
+        "inputTokens": 618,
+        "outputTokens": 66,
+        "totalTokens": 684,
+        "cachedInputTokens": 0
+      },
+      "descriptiveStatistics": {
+        "visibleOutputTokensPerObservation": {
+          "count": 12,
+          "minimum": 1,
+          "maximum": 4,
+          "mean": 2,
+          "median": 1.5,
+          "populationStandardDeviation": 1.224744871391589,
+          "observedRange": 3
+        },
+        "wallClockMsPerRequest": {
+          "count": 12,
+          "minimum": 630.852,
+          "maximum": 1228.895,
+          "mean": 825.5658333333332,
+          "median": 799.973,
+          "populationStandardDeviation": 168.67557730242265,
+          "observedRange": 598.043
+        },
+        "providerInputTokensPerRequest": {
+          "count": 12,
+          "minimum": 47,
+          "maximum": 61,
+          "mean": 51.5,
+          "median": 49,
+          "populationStandardDeviation": 5.722761571129799,
+          "observedRange": 14
+        },
+        "providerOutputTokensPerRequest": {
+          "count": 12,
+          "minimum": 5,
+          "maximum": 7,
+          "mean": 5.5,
+          "median": 5,
+          "populationStandardDeviation": 0.8660254037844386,
+          "observedRange": 2
+        },
+        "providerTotalTokensPerRequest": {
+          "count": 12,
+          "minimum": 52,
+          "maximum": 68,
+          "mean": 57,
+          "median": 54,
+          "populationStandardDeviation": 6.557438524302,
+          "observedRange": 16
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "conditionId": "API-C0",
+      "completedRequestCount": 12,
+      "errorCount": 0,
+      "refusalCount": 0,
+      "observationCount": 12,
+      "correctAnswerCount": 12,
+      "accuracy": 1,
+      "visibleOutputTokens": 24,
+      "tokensPerCorrectAnswer": 2,
+      "expressionOverrunRate": 0,
+      "providerReportedUsage": {
+        "inputTokens": 222,
+        "outputTokens": 66,
+        "totalTokens": 288,
+        "cachedInputTokens": 0
+      },
+      "descriptiveStatistics": {
+        "visibleOutputTokensPerObservation": {
+          "count": 12,
+          "minimum": 1,
+          "maximum": 4,
+          "mean": 2,
+          "median": 1.5,
+          "populationStandardDeviation": 1.224744871391589,
+          "observedRange": 3
+        },
+        "wallClockMsPerRequest": {
+          "count": 12,
+          "minimum": 818.768,
+          "maximum": 2419.663,
+          "mean": 1496.5995,
+          "median": 1126.3645000000001,
+          "populationStandardDeviation": 620.6957529079097,
+          "observedRange": 1600.895
+        },
+        "providerInputTokensPerRequest": {
+          "count": 12,
+          "minimum": 14,
+          "maximum": 28,
+          "mean": 18.5,
+          "median": 16,
+          "populationStandardDeviation": 5.722761571129799,
+          "observedRange": 14
+        },
+        "providerOutputTokensPerRequest": {
+          "count": 12,
+          "minimum": 5,
+          "maximum": 7,
+          "mean": 5.5,
+          "median": 5,
+          "populationStandardDeviation": 0.8660254037844386,
+          "observedRange": 2
+        },
+        "providerTotalTokensPerRequest": {
+          "count": 12,
+          "minimum": 19,
+          "maximum": 35,
+          "mean": 24,
+          "median": 21,
+          "populationStandardDeviation": 6.557438524302,
+          "observedRange": 16
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "conditionId": "API-R1",
+      "completedRequestCount": 12,
+      "errorCount": 0,
+      "refusalCount": 0,
+      "observationCount": 12,
+      "correctAnswerCount": 12,
+      "accuracy": 1,
+      "visibleOutputTokens": 24,
+      "tokensPerCorrectAnswer": 2,
+      "expressionOverrunRate": 0,
+      "providerReportedUsage": {
+        "inputTokens": 618,
+        "outputTokens": 66,
+        "totalTokens": 684,
+        "cachedInputTokens": 0
+      },
+      "descriptiveStatistics": {
+        "visibleOutputTokensPerObservation": {
+          "count": 12,
+          "minimum": 1,
+          "maximum": 4,
+          "mean": 2,
+          "median": 1.5,
+          "populationStandardDeviation": 1.224744871391589,
+          "observedRange": 3
+        },
+        "wallClockMsPerRequest": {
+          "count": 12,
+          "minimum": 828.602,
+          "maximum": 2150.788,
+          "mean": 1188.4775,
+          "median": 972.5395,
+          "populationStandardDeviation": 421.3257001128502,
+          "observedRange": 1322.1860000000001
+        },
+        "providerInputTokensPerRequest": {
+          "count": 12,
+          "minimum": 47,
+          "maximum": 61,
+          "mean": 51.5,
+          "median": 49,
+          "populationStandardDeviation": 5.722761571129799,
+          "observedRange": 14
+        },
+        "providerOutputTokensPerRequest": {
+          "count": 12,
+          "minimum": 5,
+          "maximum": 7,
+          "mean": 5.5,
+          "median": 5,
+          "populationStandardDeviation": 0.8660254037844386,
+          "observedRange": 2
+        },
+        "providerTotalTokensPerRequest": {
+          "count": 12,
+          "minimum": 52,
+          "maximum": 68,
+          "mean": 57,
+          "median": 54,
+          "populationStandardDeviation": 6.557438524302,
+          "observedRange": 16
+        }
+      }
+    }
+  ],
+  "evidenceBoundary": "These descriptive results apply only to the recorded models, cases, conditions, repetitions, configurations, dates, and environment."
+}

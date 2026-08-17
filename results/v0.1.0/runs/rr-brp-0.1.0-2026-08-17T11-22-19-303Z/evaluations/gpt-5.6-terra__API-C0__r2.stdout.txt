@@ -1,0 +1,14 @@
+
+=== Robbie’s Razor Evaluator Report (v0) ===
+
+Cases:                  4
+Correct:                2
+Accuracy:               50.00%
+TPCA (tokens/correct):  3.00
+Expression overrun rate:0.00%
+Total tokens (all):     14
+
+Report written to: results/v0.1.0/runs/rr-brp-0.1.0-2026-08-17T11-22-19-303Z/evaluations/gpt-5.6-terra__API-C0__r2.report.json
+
+Note: tiktoken not available; using deterministic token proxy (len(text)/4).
+

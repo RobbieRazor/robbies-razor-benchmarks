@@ -1,0 +1,44 @@
+{
+  "summary": {
+    "num_cases": 4,
+    "num_correct": 4,
+    "accuracy": 1.0,
+    "tpca": 2.0,
+    "expression_overrun_rate": 0.0,
+    "total_tokens": 8
+  },
+  "results": [
+    {
+      "id": "eval-001-math",
+      "category": "Numeric",
+      "tokens": 1,
+      "correct": true,
+      "target_max_tokens": 10,
+      "scoring_mode": "numeric"
+    },
+    {
+      "id": "eval-002-math",
+      "category": "Numeric",
+      "tokens": 1,
+      "correct": true,
+      "target_max_tokens": 6,
+      "scoring_mode": "numeric"
+    },
+    {
+      "id": "eval-003-shortfact",
+      "category": "Exact",
+      "tokens": 2,
+      "correct": true,
+      "target_max_tokens": 3,
+      "scoring_mode": "exact"
+    },
+    {
+      "id": "eval-004-extract",
+      "category": "Contains",
+      "tokens": 4,
+      "correct": true,
+      "target_max_tokens": 6,
+      "scoring_mode": "contains"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+
+=== Razor Memory Gate Savings Report ===
+
+Total queries:            1000
+Unique queries:           200  (lower => more repetition)
+Memory capacity:          10000
+Stability threshold:      0.95
+
+--- Inference Calls ---
+Baseline inferences:      1000
+Razor inferences:         199
+Inferences avoided:       801
+Memory hits:              801
+Memory hit rate:          80.10%
+
+--- Cost Proxies ---
+Assumed tokens/inference: 800
+Baseline tokens:          800000
+Razor tokens:             159200
+Token savings:            640800
+
+Assumed ms/inference:     600
+Baseline latency (ms):    600000
+Razor latency (ms):       119400
+Latency savings (ms):     480600
+
+Estimated token reduction: 80.1%
+Estimated latency reduction: 80.1%
+
+Note: This is a synthetic proxy benchmark. Real savings depend on workload repetition,
+integration placement (memory gate before inference), and verification strategy.
+

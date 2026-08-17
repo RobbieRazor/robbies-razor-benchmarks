@@ -1,0 +1,587 @@
+{
+  "protocol": "RR-BRP-0.1.0",
+  "resultsVersion": "0.1.0",
+  "mode": "execute",
+  "generatedAt": "2026-08-17T11:22:19.296Z",
+  "benchmarkRelease": "benchmarks-v0.2.0",
+  "benchmarkDoi": "10.5281/zenodo.21969841",
+  "releaseCommit": "a97c037a4509baee41f8ffa724f1d85e3e598421",
+  "frozenArtifacts": {
+    "benchmarks/cases/razor_eval_v0.json": {
+      "sha256": "e13fc7a5addb3c31c3d3f54c39fcb3171cf3a20cfc685e34ea44ecfbdebd1031",
+      "verified": true
+    },
+    "benchmarks/evaluator.py": {
+      "sha256": "d49569efc1b57a205f08d155b39b4faa1572bd0edcb9026ea9272a223ee0ad7c",
+      "verified": true
+    },
+    "benchmarks/benchmark_memory_gate_savings.py": {
+      "sha256": "c584b675c2f0fca692105159d27f2281789859e55f75306940642efc32a1c938",
+      "verified": true
+    }
+  },
+  "repository": {
+    "checkoutCommit": "31d33c84811f85ee746f0436b8763dc336f9fda1",
+    "branch": "results/execute-brp-0-1-0",
+    "dirty": false,
+    "statusLines": []
+  },
+  "runtime": {
+    "node": "v22.22.3",
+    "platform": "darwin",
+    "architecture": "x64",
+    "python": "Python 3.13.12"
+  },
+  "models": [
+    "gpt-5.6-luna",
+    "gpt-5.6-terra",
+    "gpt-5.6-sol"
+  ],
+  "conditions": [
+    "API-C0",
+    "API-R1"
+  ],
+  "caseCount": 4,
+  "repetitionCount": 3,
+  "plannedLiveCalls": 72,
+  "plan": [
+    {
+      "sequence": 1,
+      "model": "gpt-5.6-luna",
+      "caseId": "eval-001-math",
+      "repetition": 1,
+      "conditionId": "API-C0"
+    },
+    {
+      "sequence": 2,
+      "model": "gpt-5.6-luna",
+      "caseId": "eval-001-math",
+      "repetition": 1,
+      "conditionId": "API-R1"
+    },
+    {
+      "sequence": 3,
+      "model": "gpt-5.6-luna",
+      "caseId": "eval-001-math",
+      "repetition": 2,
+      "conditionId": "API-R1"
+    },
+    {
+      "sequence": 4,
+      "model": "gpt-5.6-luna",
+      "caseId": "eval-001-math",
+      "repetition": 2,
+      "conditionId": "API-C0"
+    },
+    {
+      "sequence": 5,
+      "model": "gpt-5.6-luna",
+      "caseId": "eval-001-math",
+      "repetition": 3,
+      "conditionId": "API-C0"
+    },
+    {
+      "sequence": 6,
+      "model": "gpt-5.6-luna",
+      "caseId": "eval-001-math",
+      "repetition": 3,
+      "conditionId": "API-R1"
+    },
+    {
+      "sequence": 7,
+      "model": "gpt-5.6-luna",
+      "caseId": "eval-002-math",
+      "repetition": 1,
+      "conditionId": "API-C0"
+    },
+    {
+      "sequence": 8,
+      "model": "gpt-5.6-luna",
+      "caseId": "eval-002-math",
+      "repetition": 1,
+      "conditionId": "API-R1"
+    },
+    {
+      "sequence": 9,
+      "model": "gpt-5.6-luna",
+      "caseId": "eval-002-math",
+      "repetition": 2,
+      "conditionId": "API-R1"
+    },
+    {
+      "sequence": 10,
+      "model": "gpt-5.6-luna",
+      "caseId": "eval-002-math",
+      "repetition": 2,
+      "conditionId": "API-C0"
+    },
+    {
+      "sequence": 11,
+      "model": "gpt-5.6-luna",
+      "caseId": "eval-002-math",
+      "repetition": 3,
+      "conditionId": "API-C0"
+    },
+    {
+      "sequence": 12,
+      "model": "gpt-5.6-luna",
+      "caseId": "eval-002-math",
+      "repetition": 3,
+      "conditionId": "API-R1"
+    },
+    {
+      "sequence": 13,
+      "model": "gpt-5.6-luna",
+      "caseId": "eval-003-shortfact",
+      "repetition": 1,
+      "conditionId": "API-C0"
+    },
+    {
+      "sequence": 14,
+      "model": "gpt-5.6-luna",
+      "caseId": "eval-003-shortfact",
+      "repetition": 1,
+      "conditionId": "API-R1"
+    },
+    {
+      "sequence": 15,
+      "model": "gpt-5.6-luna",
+      "caseId": "eval-003-shortfact",
+      "repetition": 2,
+      "conditionId": "API-R1"
+    },
+    {
+      "sequence": 16,
+      "model": "gpt-5.6-luna",
+      "caseId": "eval-003-shortfact",
+      "repetition": 2,
+      "conditionId": "API-C0"
+    },
+    {
+      "sequence": 17,
+      "model": "gpt-5.6-luna",
+      "caseId": "eval-003-shortfact",
+      "repetition": 3,
+      "conditionId": "API-C0"
+    },
+    {
+      "sequence": 18,
+      "model": "gpt-5.6-luna",
+      "caseId": "eval-003-shortfact",
+      "repetition": 3,
+      "conditionId": "API-R1"
+    },
+    {
+      "sequence": 19,
+      "model": "gpt-5.6-luna",
+      "caseId": "eval-004-extract",
+      "repetition": 1,
+      "conditionId": "API-C0"
+    },
+    {
+      "sequence": 20,
+      "model": "gpt-5.6-luna",
+      "caseId": "eval-004-extract",
+      "repetition": 1,
+      "conditionId": "API-R1"
+    },
+    {
+      "sequence": 21,
+      "model": "gpt-5.6-luna",
+      "caseId": "eval-004-extract",
+      "repetition": 2,
+      "conditionId": "API-R1"
+    },
+    {
+      "sequence": 22,
+      "model": "gpt-5.6-luna",
+      "caseId": "eval-004-extract",
+      "repetition": 2,
+      "conditionId": "API-C0"
+    },
+    {
+      "sequence": 23,
+      "model": "gpt-5.6-luna",
+      "caseId": "eval-004-extract",
+      "repetition": 3,
+      "conditionId": "API-C0"
+    },
+    {
+      "sequence": 24,
+      "model": "gpt-5.6-luna",
+      "caseId": "eval-004-extract",
+      "repetition": 3,
+      "conditionId": "API-R1"
+    },
+    {
+      "sequence": 25,
+      "model": "gpt-5.6-terra",
+      "caseId": "eval-001-math",
+      "repetition": 1,
+      "conditionId": "API-C0"
+    },
+    {
+      "sequence": 26,
+      "model": "gpt-5.6-terra",
+      "caseId": "eval-001-math",
+      "repetition": 1,
+      "conditionId": "API-R1"
+    },
+    {
+      "sequence": 27,
+      "model": "gpt-5.6-terra",
+      "caseId": "eval-001-math",
+      "repetition": 2,
+      "conditionId": "API-R1"
+    },
+    {
+      "sequence": 28,
+      "model": "gpt-5.6-terra",
+      "caseId": "eval-001-math",
+      "repetition": 2,
+      "conditionId": "API-C0"
+    },
+    {
+      "sequence": 29,
+      "model": "gpt-5.6-terra",
+      "caseId": "eval-001-math",
+      "repetition": 3,
+      "conditionId": "API-C0"
+    },
+    {
+      "sequence": 30,
+      "model": "gpt-5.6-terra",
+      "caseId": "eval-001-math",
+      "repetition": 3,
+      "conditionId": "API-R1"
+    },
+    {
+      "sequence": 31,
+      "model": "gpt-5.6-terra",
+      "caseId": "eval-002-math",
+      "repetition": 1,
+      "conditionId": "API-C0"
+    },
+    {
+      "sequence": 32,
+      "model": "gpt-5.6-terra",
+      "caseId": "eval-002-math",
+      "repetition": 1,
+      "conditionId": "API-R1"
+    },
+    {
+      "sequence": 33,
+      "model": "gpt-5.6-terra",
+      "caseId": "eval-002-math",
+      "repetition": 2,
+      "conditionId": "API-R1"
+    },
+    {
+      "sequence": 34,
+      "model": "gpt-5.6-terra",
+      "caseId": "eval-002-math",
+      "repetition": 2,
+      "conditionId": "API-C0"
+    },
+    {
+      "sequence": 35,
+      "model": "gpt-5.6-terra",
+      "caseId": "eval-002-math",
+      "repetition": 3,
+      "conditionId": "API-C0"
+    },
+    {
+      "sequence": 36,
+      "model": "gpt-5.6-terra",
+      "caseId": "eval-002-math",
+      "repetition": 3,
+      "conditionId": "API-R1"
+    },
+    {
+      "sequence": 37,
+      "model": "gpt-5.6-terra",
+      "caseId": "eval-003-shortfact",
+      "repetition": 1,
+      "conditionId": "API-C0"
+    },
+    {
+      "sequence": 38,
+      "model": "gpt-5.6-terra",
+      "caseId": "eval-003-shortfact",
+      "repetition": 1,
+      "conditionId": "API-R1"
+    },
+    {
+      "sequence": 39,
+      "model": "gpt-5.6-terra",
+      "caseId": "eval-003-shortfact",
+      "repetition": 2,
+      "conditionId": "API-R1"
+    },
+    {
+      "sequence": 40,
+      "model": "gpt-5.6-terra",
+      "caseId": "eval-003-shortfact",
+      "repetition": 2,
+      "conditionId": "API-C0"
+    },
+    {
+      "sequence": 41,
+      "model": "gpt-5.6-terra",
+      "caseId": "eval-003-shortfact",
+      "repetition": 3,
+      "conditionId": "API-C0"
+    },
+    {
+      "sequence": 42,
+      "model": "gpt-5.6-terra",
+      "caseId": "eval-003-shortfact",
+      "repetition": 3,
+      "conditionId": "API-R1"
+    },
+    {
+      "sequence": 43,
+      "model": "gpt-5.6-terra",
+      "caseId": "eval-004-extract",
+      "repetition": 1,
+      "conditionId": "API-C0"
+    },
+    {
+      "sequence": 44,
+      "model": "gpt-5.6-terra",
+      "caseId": "eval-004-extract",
+      "repetition": 1,
+      "conditionId": "API-R1"
+    },
+    {
+      "sequence": 45,
+      "model": "gpt-5.6-terra",
+      "caseId": "eval-004-extract",
+      "repetition": 2,
+      "conditionId": "API-R1"
+    },
+    {
+      "sequence": 46,
+      "model": "gpt-5.6-terra",
+      "caseId": "eval-004-extract",
+      "repetition": 2,
+      "conditionId": "API-C0"
+    },
+    {
+      "sequence": 47,
+      "model": "gpt-5.6-terra",
+      "caseId": "eval-004-extract",
+      "repetition": 3,
+      "conditionId": "API-C0"
+    },
+    {
+      "sequence": 48,
+      "model": "gpt-5.6-terra",
+      "caseId": "eval-004-extract",
+      "repetition": 3,
+      "conditionId": "API-R1"
+    },
+    {
+      "sequence": 49,
+      "model": "gpt-5.6-sol",
+      "caseId": "eval-001-math",
+      "repetition": 1,
+      "conditionId": "API-C0"
+    },
+    {
+      "sequence": 50,
+      "model": "gpt-5.6-sol",
+      "caseId": "eval-001-math",
+      "repetition": 1,
+      "conditionId": "API-R1"
+    },
+    {
+      "sequence": 51,
+      "model": "gpt-5.6-sol",
+      "caseId": "eval-001-math",
+      "repetition": 2,
+      "conditionId": "API-R1"
+    },
+    {
+      "sequence": 52,
+      "model": "gpt-5.6-sol",
+      "caseId": "eval-001-math",
+      "repetition": 2,
+      "conditionId": "API-C0"
+    },
+    {
+      "sequence": 53,
+      "model": "gpt-5.6-sol",
+      "caseId": "eval-001-math",
+      "repetition": 3,
+      "conditionId": "API-C0"
+    },
+    {
+      "sequence": 54,
+      "model": "gpt-5.6-sol",
+      "caseId": "eval-001-math",
+      "repetition": 3,
+      "conditionId": "API-R1"
+    },
+    {
+      "sequence": 55,
+      "model": "gpt-5.6-sol",
+      "caseId": "eval-002-math",
+      "repetition": 1,
+      "conditionId": "API-C0"
+    },
+    {
+      "sequence": 56,
+      "model": "gpt-5.6-sol",
+      "caseId": "eval-002-math",
+      "repetition": 1,
+      "conditionId": "API-R1"
+    },
+    {
+      "sequence": 57,
+      "model": "gpt-5.6-sol",
+      "caseId": "eval-002-math",
+      "repetition": 2,
+      "conditionId": "API-R1"
+    },
+    {
+      "sequence": 58,
+      "model": "gpt-5.6-sol",
+      "caseId": "eval-002-math",
+      "repetition": 2,
+      "conditionId": "API-C0"
+    },
+    {
+      "sequence": 59,
+      "model": "gpt-5.6-sol",
+      "caseId": "eval-002-math",
+      "repetition": 3,
+      "conditionId": "API-C0"
+    },
+    {
+      "sequence": 60,
+      "model": "gpt-5.6-sol",
+      "caseId": "eval-002-math",
+      "repetition": 3,
+      "conditionId": "API-R1"
+    },
+    {
+      "sequence": 61,
+      "model": "gpt-5.6-sol",
+      "caseId": "eval-003-shortfact",
+      "repetition": 1,
+      "conditionId": "API-C0"
+    },
+    {
+      "sequence": 62,
+      "model": "gpt-5.6-sol",
+      "caseId": "eval-003-shortfact",
+      "repetition": 1,
+      "conditionId": "API-R1"
+    },
+    {
+      "sequence": 63,
+      "model": "gpt-5.6-sol",
+      "caseId": "eval-003-shortfact",
+      "repetition": 2,
+      "conditionId": "API-R1"
+    },
+    {
+      "sequence": 64,
+      "model": "gpt-5.6-sol",
+      "caseId": "eval-003-shortfact",
+      "repetition": 2,
+      "conditionId": "API-C0"
+    },
+    {
+      "sequence": 65,
+      "model": "gpt-5.6-sol",
+      "caseId": "eval-003-shortfact",
+      "repetition": 3,
+      "conditionId": "API-C0"
+    },
+    {
+      "sequence": 66,
+      "model": "gpt-5.6-sol",
+      "caseId": "eval-003-shortfact",
+      "repetition": 3,
+      "conditionId": "API-R1"
+    },
+    {
+      "sequence": 67,
+      "model": "gpt-5.6-sol",
+      "caseId": "eval-004-extract",
+      "repetition": 1,
+      "conditionId": "API-C0"
+    },
+    {
+      "sequence": 68,
+      "model": "gpt-5.6-sol",
+      "caseId": "eval-004-extract",
+      "repetition": 1,
+      "conditionId": "API-R1"
+    },
+    {
+      "sequence": 69,
+      "model": "gpt-5.6-sol",
+      "caseId": "eval-004-extract",
+      "repetition": 2,
+      "conditionId": "API-R1"
+    },
+    {
+      "sequence": 70,
+      "model": "gpt-5.6-sol",
+      "caseId": "eval-004-extract",
+      "repetition": 2,
+      "conditionId": "API-C0"
+    },
+    {
+      "sequence": 71,
+      "model": "gpt-5.6-sol",
+      "caseId": "eval-004-extract",
+      "repetition": 3,
+      "conditionId": "API-C0"
+    },
+    {
+      "sequence": 72,
+      "model": "gpt-5.6-sol",
+      "caseId": "eval-004-extract",
+      "repetition": 3,
+      "conditionId": "API-R1"
+    }
+  ],
+  "authorization": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "recordType": "benchmark-run-authorization",
+    "protocol": "RR-BRP-0.1.0",
+    "resultsVersion": "0.1.0",
+    "authorizationStatus": "authorized",
+    "executionAuthorized": true,
+    "authorizedBy": {
+      "name": "Robbie George",
+      "role": "Benchmark author and evaluator"
+    },
+    "authorizedAt": "2026-08-17",
+    "provider": "OpenAI",
+    "providerTermsReviewed": true,
+    "providerTermsReviewDate": "2026-08-17",
+    "approvedBudgetUsd": 1,
+    "projectedMaximumCostUsd": 0.5,
+    "currency": "USD",
+    "plannedLiveCalls": 72,
+    "maximumAttempts": 216,
+    "models": [
+      "gpt-5.6-luna",
+      "gpt-5.6-terra",
+      "gpt-5.6-sol"
+    ],
+    "frozenProtocolCommit": "c6764fb8376d7ada10cb032137ec0c246483051d",
+    "frozenProtocolSha256": "85bf058948dd3112256107d72ef4cdd69564ad9ac71905165aa0edbb6870283f",
+    "runnerImplementationCommit": "f529c2f54041bda03ead3893a6c03d501d89d269",
+    "runnerSha256": "6f9fdf648295259f13c2682e9916c6016f2e939d397ea42d43765a6a33214f9f",
+    "benchmarkReleaseTag": "benchmarks-v0.2.0",
+    "benchmarkDoi": "10.5281/zenodo.21969841",
+    "evidenceClassification": "first-party-bounded-evaluation",
+    "evidenceBoundary": "This authorization permits only the bounded RR-BRP-0.1.0 execution described by the frozen protocol. It does not establish independent validation, universal validity, model certification, production certification, or guaranteed computational savings."
+  }
+}

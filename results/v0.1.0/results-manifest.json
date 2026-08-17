@@ -80,7 +80,8 @@
     "personalFilesystemPathsDetected": false,
     "absoluteManifestPathsDetected": false,
     "checksumsFile": "results/v0.1.0/checksums.sha256",
-    "checksumsStatus": "pending"
+    "checksumsStatus": "generated-and-verified",
+    "checksummedFileCount": 79
   },
   "publication": {
     "plannedReleaseTag": "benchmark-results-v0.1.0",
@@ -90,5 +91,12 @@
     "zenodoDatasetRecord": null,
     "note": "The result Dataset DOI must remain distinct from the benchmark Software DOI."
   },
-  "evidenceBoundary": "These results apply only to the recorded models, frozen cases, conditions, repetitions, configurations, dates, and environment. They do not establish independent validation, universal validity, scientific consensus, model certification, production certification, or guaranteed reductions in tokens, latency, resource use, energy use, or cost."
+  "evidenceBoundary": "These results apply only to the recorded models, frozen cases, conditions, repetitions, configurations, dates, and environment. They do not establish independent validation, universal validity, scientific consensus, model certification, production certification, or guaranteed reductions in tokens, latency, resource use, energy use, or cost.",
+  "packageArtifacts": {
+    "rawMetricsIndex": "results/v0.1.0/metrics/raw/index.json",
+    "liveModelMetrics": "results/v0.1.0/metrics/derived/live-model-aggregate.json",
+    "syntheticProxyMetrics": "results/v0.1.0/metrics/derived/synthetic-memory-gate.json",
+    "aggregateSummary": "results/v0.1.0/summaries/aggregate-summary.json",
+    "deviationLog": "results/v0.1.0/deviations/deviation-log.json"
+  }
 }
