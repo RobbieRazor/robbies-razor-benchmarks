@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "recordType": "benchmark-run-authorization",
+  "protocol": "RR-BRP-0.1.0",
+  "resultsVersion": "0.1.0",
+  "authorizationStatus": "authorized",
+  "executionAuthorized": true,
+  "authorizedBy": {
+    "name": "Robbie George",
+    "role": "Benchmark author and evaluator"
+  },
+  "authorizedAt": "2026-08-17",
+  "provider": "OpenAI",
+  "providerTermsReviewed": true,
+  "providerTermsReviewDate": "2026-08-17",
+  "approvedBudgetUsd": 1,
+  "projectedMaximumCostUsd": 0.5,
+  "currency": "USD",
+  "plannedLiveCalls": 72,
+  "maximumAttempts": 216,
+  "models": [
+    "gpt-5.6-luna",
+    "gpt-5.6-terra",
+    "gpt-5.6-sol"
+  ],
+  "frozenProtocolCommit": "c6764fb8376d7ada10cb032137ec0c246483051d",
+  "frozenProtocolSha256": "85bf058948dd3112256107d72ef4cdd69564ad9ac71905165aa0edbb6870283f",
+  "runnerImplementationCommit": "f529c2f54041bda03ead3893a6c03d501d89d269",
+  "runnerSha256": "6f9fdf648295259f13c2682e9916c6016f2e939d397ea42d43765a6a33214f9f",
+  "benchmarkReleaseTag": "benchmarks-v0.2.0",
+  "benchmarkDoi": "10.5281/zenodo.21969841",
+  "evidenceClassification": "first-party-bounded-evaluation",
+  "evidenceBoundary": "This authorization permits only the bounded RR-BRP-0.1.0 execution described by the frozen protocol. It does not establish independent validation, universal validity, model certification, production certification, or guaranteed computational savings."
+}
