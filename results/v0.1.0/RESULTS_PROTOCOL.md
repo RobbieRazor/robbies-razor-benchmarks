@@ -4,7 +4,7 @@
 
 **Protocol identifier:** RR-BRP-0.1.0
 **Results package version:** 0.1.0
-**Protocol status:** draft-preregistration
+**Protocol status:** frozen-preregistered
 **Execution authorized:** No
 **Date created:** 2026-08-16
 **Author and evaluator:** Robbie George
@@ -17,6 +17,10 @@
 **Repository:** https://github.com/RobbieRazor/robbies-razor-benchmarks
 **Canonical benchmark page:** https://www.robbiegeorgephotography.com/robbies-razor-benchmarks
 **Canonical Publication Manifest:** https://www.robbiegeorgephotography.com/canonical-publication-manifest.json
+**Runner path:** results/v0.1.0/runner/run_openai_benchmark.mjs
+**Runner implementation commit:** f529c2f54041bda03ead3893a6c03d501d89d269
+**Runner SHA-256:** 6f9fdf648295259f13c2682e9916c6016f2e939d397ea42d43765a6a33214f9f
+**Date frozen:** 2026-08-17
 
 ---
 
@@ -39,7 +43,7 @@ The purpose is to create a transparent first-party empirical record containing:
 * evidence-state classifications; and
 * bounded interpretations.
 
-No model execution governed by this protocol may begin while the protocol status remains `draft-preregistration`.
+No model execution governed by this protocol may begin unless the protocol status is `frozen-preregistered`, the frozen protocol commit SHA is recorded, and execution is separately authorized through the required authorization record.
 
 ---
 
@@ -730,18 +734,18 @@ After the first run:
 
 Execution remains prohibited until all of the following are complete:
 
-* [ ] Target model matrix completed
-* [ ] Baseline matrix completed
-* [ ] Benchmark commit SHA recorded
-* [ ] Evaluation cases selected
-* [ ] Run parameters frozen
-* [ ] Repetition count confirmed
-* [ ] Metrics and calculation methods confirmed
-* [ ] Exclusion rules confirmed
-* [ ] Trace-redaction policy confirmed
+* [x] Target model matrix completed
+* [x] Baseline matrix completed
+* [x] Benchmark commit SHA recorded
+* [x] Evaluation cases selected
+* [x] Run parameters frozen
+* [x] Repetition count confirmed
+* [x] Metrics and calculation methods confirmed
+* [x] Exclusion rules confirmed
+* [x] Trace-redaction policy confirmed
 * [ ] Cost ceiling approved
 * [ ] Provider terms reviewed
-* [ ] Protocol status changed to `frozen-preregistered`
+* [x] Protocol status changed to `frozen-preregistered`
 * [ ] Frozen protocol commit SHA recorded
 
 ---
@@ -749,7 +753,7 @@ Execution remains prohibited until all of the following are complete:
 ## 22. Current Status
 
 ```text
-Protocol status: draft-preregistration
+Protocol status: frozen-preregistered
 Execution authorized: No
 Canonical results published: No
 Independent reproduction completed: No
