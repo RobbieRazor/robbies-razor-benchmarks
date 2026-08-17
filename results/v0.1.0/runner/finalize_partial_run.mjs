@@ -115,6 +115,22 @@ function verifyRunDirectory(runDirectory) {
   return { resolvedRunDirectory, runId };
 }
 
+function toRepositoryPath(filePath) {
+  const repositoryRoot = path.resolve(process.cwd());
+  const resolvedPath = path.resolve(filePath);
+  const relativePath = path.relative(repositoryRoot, resolvedPath);
+
+  if (
+    relativePath === ".." ||
+    relativePath.startsWith(`..${path.sep}`) ||
+    path.isAbsolute(relativePath)
+  ) {
+    fail(`Artifact path is outside the repository: ${filePath}`);
+  }
+
+  return relativePath.split(path.sep).join("/");
+}
+
 function verifyLiveArtifacts(runDirectory, runId) {
   const preflightPath = path.join(runDirectory, "preflight.json");
   const tracePath = path.join(runDirectory, "raw", "attempts.jsonl");
@@ -290,6 +306,12 @@ function main() {
   const verified = verifyLiveArtifacts(runDirectory, runId);
   const evaluationReports = buildEvaluationReports(runDirectory);
   const synthetic = executeSyntheticRecovery(runDirectory);
+  const portableEvaluationReports = evaluationReports.map(report => ({
+    ...report,
+    outputsPath: toRepositoryPath(report.outputsPath),
+    reportPath: toRepositoryPath(report.reportPath),
+    stdoutPath: toRepositoryPath(report.stdoutPath)
+  }));
   const finalizerCommit = run("git", ["rev-parse", "HEAD"]).stdout.trim();
   const completedAt = new Date().toISOString();
 
@@ -336,16 +358,18 @@ function main() {
     rawAttemptCount: verified.attemptCount,
     completedLiveCalls: verified.completedLiveCalls,
     liveModelRequestsRepeatedDuringRecovery: false,
-    evaluationReports,
-    aggregateSummaryPath: path.join(runDirectory, "aggregate-summary.json"),
+    evaluationReports: portableEvaluationReports,
+    aggregateSummaryPath: toRepositoryPath(
+      path.join(runDirectory, "aggregate-summary.json")
+    ),
     aggregateGroupCount: verified.aggregateSummary.aggregates.length,
     syntheticTrack: {
       evidenceClassification: "synthetic-proxy",
-      resultPath: synthetic.resultPath,
-      stdoutPath: synthetic.stdoutPath,
+      resultPath: toRepositoryPath(synthetic.resultPath),
+      stdoutPath: toRepositoryPath(synthetic.stdoutPath),
       stdoutSha256: synthetic.stdoutSha256
     },
-    deviationLogPath,
+    deviationLogPath: toRepositoryPath(deviationLogPath),
     deviationsRecorded: ["RR-BRP-0.1.0-DEV-001"],
     evidenceBoundary:
       "These results apply only to the recorded models, cases, conditions, repetitions, configurations, dates, and environment. They do not establish independent validation, universal validity, model certification, or guaranteed computational savings."
