@@ -5,7 +5,7 @@
 **Protocol identifier:** RR-BRP-0.1.0
 **Results package version:** 0.1.0
 **Protocol status:** frozen-preregistered
-**Execution authorized:** No
+**Execution authorized:** Yes
 **Date created:** 2026-08-16
 **Author and evaluator:** Robbie George
 **Governing authority:** GC-MRD-v2.0
@@ -21,6 +21,7 @@
 **Runner implementation commit:** f529c2f54041bda03ead3893a6c03d501d89d269
 **Runner SHA-256:** 6f9fdf648295259f13c2682e9916c6016f2e939d397ea42d43765a6a33214f9f
 **Date frozen:** 2026-08-17
+**Run authorization record:** results/v0.1.0/RUN_AUTHORIZATION.json
 
 ---
 
@@ -743,10 +744,11 @@ Execution remains prohibited until all of the following are complete:
 * [x] Metrics and calculation methods confirmed
 * [x] Exclusion rules confirmed
 * [x] Trace-redaction policy confirmed
-* [ ] Cost ceiling approved
-* [ ] Provider terms reviewed
+* [x] Cost ceiling approved
+* [x] Provider terms reviewed
 * [x] Protocol status changed to `frozen-preregistered`
-* [ ] Frozen protocol commit SHA recorded
+* [x] Frozen protocol commit SHA recorded
+* [x] Run authorization record issued
 
 ---
 
@@ -754,10 +756,10 @@ Execution remains prohibited until all of the following are complete:
 
 ```text
 Protocol status: frozen-preregistered
-Execution authorized: No
+Execution authorized: Yes
 Canonical results published: No
 Independent reproduction completed: No
 Results DOI assigned: No
 ```
 
-This document establishes the initial governance structure for Robbie's Razor Benchmark Results v0.1.0. It does not contain benchmark results and does not authorize execution until the required preregistration gates are completed.
+This document establishes the initial governance structure for Robbie's Razor Benchmark Results v0.1.0. It does not contain benchmark results. Execution is authorized only within the frozen protocol, budget, provider, models, and evidence boundaries recorded in `RUN_AUTHORIZATION.json`.
