@@ -1059,13 +1059,17 @@ ocean-systems#naturepedia-ocean-mesh-plate
 ocean-systems#future-ocean-plate
 ```
 
-Machine retrieval pricing:
+Machine retrieval pricing under pricing manifest v3.0.0:
+
+https://www.robbiegeorgephotography.com/.well-known/x402-pricing.json
 
 ```txt
-Registry: $5 USDC
-System Map: $5 USDC
-Knowledge Mesh: $25 USDC
+Ocean Registry: $5.00 USDC — active subtree class
+Ocean System Map: $5.00 USDC — active subtree class
+Ocean Knowledge Mesh: $25.00 USDC — active snapshot class
 ```
+
+Production `402` responses must use the exact deterministic price declared by the endpoint challenge. An x402 payment grants one endpoint-level retrieval only and does not grant commercial data reuse or framework implementation rights.
 
 Agents MUST:
 
