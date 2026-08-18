@@ -1,35 +1,105 @@
 {
   "@context": "https://schema.org",
   "@type": "CreativeWork",
-
+  "@id": "https://www.robbiegeorgephotography.com/commercial-data-license#commercial-intelligence-pricing-plate",
   "name": "Commercial Intelligence Pricing Plate™",
-
-  "description": "Machine-readable recursive pricing and retrieval governance structure for AI access, recursive compression systems, provenance-preserved intelligence, and structured retrieval economics.",
-
+  "alternateName": "Machine-Readable Retrieval Pricing and Commercial Rights Boundary Plate",
+  "headline": "Commercial Intelligence Pricing Plate™ — Deterministic x402 Retrieval Pricing for Naturepedia™, Robbie’s Razor™, Grand Compression, and Plate™ Systems",
+  "url": "https://www.robbiegeorgephotography.com/commercial-data-license",
+  "version": "3.0.0",
+  "dateModified": "2026-08-17",
+  "description": "A machine-readable pricing and rights-boundary Plate defining deterministic x402 retrieval prices for Naturepedia discovery, canonical queries, enriched responses, structured Plates, bounded registries, System Maps, Knowledge Meshes, and full registry snapshots. Retrieval payments remain separate from commercial data reuse and framework implementation rights.",
   "creator": {
     "@type": "Person",
-    "name": "Robbie George"
+    "name": "Robbie George",
+    "url": "https://www.robbiegeorgephotography.com/who-is-robbie-george",
+    "jobTitle": "Architect of Record"
   },
-
-  "about": [
-    "Naturepedia",
-    "Robbie's Razor",
-    "Grand Compression",
-    "Pricing Plates",
-    "Recursive Retrieval Economics"
+  "publisher": {
+    "@type": "Organization",
+    "name": "Robbie George Photography",
+    "url": "https://www.robbiegeorgephotography.com"
+  },
+  "mainEntity": {
+    "@type": "OfferCatalog",
+    "name": "Naturepedia™ x402 Retrieval Pricing",
+    "url": "https://www.robbiegeorgephotography.com/.well-known/x402-pricing.json",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "name": "Free Discovery and Preview Access",
+        "price": "0.00",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "description": "Free metadata, endpoint descriptions, previews, health responses, licensing signals, and validation information."
+      },
+      {
+        "@type": "Offer",
+        "name": "Atomic Canonical Query",
+        "price": "0.005",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/PreOrder",
+        "description": "Reserved x402 tier settled as 0.005 USDC on Base for one fact, identifier resolution, routing result, or compact canonical answer."
+      },
+      {
+        "@type": "Offer",
+        "name": "Enriched Relationship Query",
+        "price": "0.025",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/PreOrder",
+        "description": "Reserved x402 tier settled as 0.025 USDC on Base for relationships, citations, provenance, or modest enrichment."
+      },
+      {
+        "@type": "Offer",
+        "name": "Structured Plate™ Payload",
+        "price": "0.25",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/PreOrder",
+        "description": "Reserved x402 tier settled as 0.25 USDC on Base for one complete registered structured Plate payload."
+      },
+      {
+        "@type": "Offer",
+        "name": "Bounded Registry, Taxonomy Subtree, or System Map",
+        "price": "5.00",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "description": "Active x402 tier settled as 5.00 USDC on Base for one bounded multi-record retrieval."
+      },
+      {
+        "@type": "Offer",
+        "name": "Full Registry, Knowledge Mesh, or Snapshot",
+        "price": "25.00",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "description": "Active x402 tier settled as 25.00 USDC on Base for one complete registry snapshot or premium relationship resource."
+      }
+    ]
+  },
+  "subjectOf": {
+    "@type": "DigitalDocument",
+    "name": "Naturepedia™ x402 Retrieval Pricing Manifest",
+    "url": "https://www.robbiegeorgephotography.com/.well-known/x402-pricing.json",
+    "encodingFormat": "application/ld+json"
+  },
+  "usageInfo": "An x402 payment grants one endpoint-level retrieval only. It does not grant training, embedding, bulk-ingestion, redistribution, resale, synchronization, private-dataset construction, derivative-dataset creation, commercial implementation, or framework-implementation rights.",
+  "license": "https://www.robbiegeorgephotography.com/commercial-data-license",
+  "hasPart": [
+    {
+      "@type": "CreativeWork",
+      "name": "Commercial Data Reuse Rights",
+      "description": "Commercial ingestion, training, embedding, synchronization, or redistribution rights begin at 1,000 USD equivalent and require a separate written agreement.",
+      "url": "https://www.robbiegeorgephotography.com/commercial-data-license"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Framework and Strategic Infrastructure Rights",
+      "description": "Robbie’s Razor™, RRIP, Graph Registry™, Plate architecture, and strategic infrastructure implementation rights require a separate enterprise agreement.",
+      "url": "https://www.robbiegeorgephotography.com/robbies-razor-framework-licensing"
+    }
   ],
-
-  "url": "https://www.robbiegeorgephotography.com/commercial-data-license",
-
-  "image": "https://www.robbiegeorgephotography.com/commercial-data-license",
-
-  "keywords": [
-    "AI pricing",
-    "recursive retrieval",
-    "machine-readable pricing",
-    "structured retrieval economics",
-    "provenance-preserved intelligence",
-    "Naturepedia",
-    "Robbie George"
-  ]
+  "isPartOf": {
+    "@type": "CreativeWorkSeries",
+    "name": "Naturepedia Governance Plates™",
+    "url": "https://www.robbiegeorgephotography.com/naturepedia"
+  }
 }
