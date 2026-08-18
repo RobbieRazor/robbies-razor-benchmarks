@@ -245,18 +245,26 @@ Provides:
 
 Future agent workflows may compare registry state before retrieval occurs, allowing cache-aware synchronization and reducing unnecessary machine retrieval requests.
 
-## Pricing Tiers
+## Production Retrieval Pricing
 
-| Gateway Tier | Path Family | Price | Asset | Use Case |
-|--------------|-------------|------:|-------|----------|
-| taxonomy | `/v1/taxonomy/*` | 1.00 | USDC | Discovery metadata, taxonomy pings, lightweight registry lookup |
-| plates | `/v1/plates/*` | 5.00 | USDC | Compiled Knowledge Plate™ and system-map retrieval |
-| sovereign | `/v1/sovereign/*` | 25.00 | USDC | Enterprise reasoning, licensing, governance, and high-value architecture layers |
-| legacy | `/x402/*` | 5.00 | USDC | Backward-compatible protected machine access |
-| v2 naturepedia | `/api/v2/naturepedia/*` | 1.00 | USDC | Current registry discovery and Naturepedia system-map retrieval |
-| v2 plates | `/api/v2/plates/*` | 5.00 | USDC | Current Plate™ registry and Graph Registry™ retrieval |
-| v2 rrip | `/api/v2/rrip/*` | 25.00 | USDC | RRIP runtime resolution, registry traversal, and inheritance-path validation |
-| v2 razor | `/api/v2/razor/*` | 25.00 | USDC | Robbie's Razor™ state-token validation, registry-state signaling, and lattice grounding |
+Authoritative pricing manifest:
+
+https://www.robbiegeorgephotography.com/.well-known/x402-pricing.json
+
+Production `402` responses use deterministic Base USDC prices. Pricing is assigned by the delivered resource class—not solely by its URL family.
+
+| Access class | Price | Atomic units | Route status |
+|---|---:|---:|---|
+| Discovery and previews | Free | 0 | Active |
+| Atomic canonical query | $0.005 USDC | 5000 | Reserved |
+| Enriched relationship query | $0.025 USDC | 25000 | Reserved |
+| Structured Plate™ payload | $0.25 USDC | 250000 | Reserved |
+| Bounded subtree, registry, or System Map | $5.00 USDC | 5000000 | Active |
+| Full registry or Knowledge Mesh snapshot | $25.00 USDC | 25000000 | Active |
+
+Reserved routes must not issue payment challenges until their complete governed payloads are registered and available.
+
+Exact public discovery and control-plane endpoints may remain free even when related protected payload routes require payment. The current production `402` response and pricing manifest are authoritative if older documentation conflicts.
 
 ## Verified Route
 
@@ -555,7 +563,15 @@ Connects:
 
 Amount:
 
-`75000`
+`5000000`
+
+Reference price:
+
+`5.00 USDC`
+
+Pricing class:
+
+`subtree`
 
 MIME:
 
@@ -571,29 +587,25 @@ Live
 
 ## RRIP Resolution Endpoint
 
-Endpoint:
-https://www.robbiegeorgephotography.com/x402/rrip-resolve.json
+Free control-plane endpoint:
 
-Preferred v2 route:
 https://www.robbiegeorgephotography.com/api/v2/rrip/resolve
 
+Protected snapshot endpoint:
+
+https://www.robbiegeorgephotography.com/x402/rrip-resolve.json
+
 Purpose:
-Paid Recursive Registry Inheritance Principle resolution endpoint for registry traversal, inheritance-path validation, compression-state grounding, and Authorship Conservation Rule compliance signaling.
 
-Connects:
+Recursive Registry Inheritance Principle resolution for registry traversal, inheritance-path validation, compression-state grounding, and Authorship Conservation Rule compliance signaling.
 
-- Recursive Registry Inheritance Principle
-- Robbie's Razor™
-- Plate™ Architecture
-- Graph Registries™
-- Knowledge Mesh
-- Authorship Conservation Rules™
-- Commercial Data License
-- Robbie's Razor™ Framework Licensing
+The exact `/api/v2/rrip/resolve` control-plane route remains available for free discovery and resolution signaling.
 
-Amount:
+The protected `/x402/rrip-resolve.json` payload is classified as a full snapshot resource.
 
-`250000`
+Protected snapshot amount:
+
+`25000000`
 
 Reference price:
 
@@ -607,35 +619,33 @@ Governance:
 
 `Gr <= Es`
 
-Status:
+Protected route status:
 
-Live
+Active
+
+An x402 payment grants one retrieval of the protected payload only. It does not grant framework implementation, training, embedding, synchronization, redistribution, or derivative-dataset rights.
 
 ## Robbie's Razor State Token
 
-Endpoint:
-https://www.robbiegeorgephotography.com/x402/state-token.json
+Free control-plane endpoint:
 
-Preferred v2 route:
 https://www.robbiegeorgephotography.com/api/v2/razor/state-token
 
+Protected snapshot endpoint:
+
+https://www.robbiegeorgephotography.com/x402/state-token.json
+
 Purpose:
-Paid Robbie's Razor™ state-token endpoint for current registry-state validation, lattice grounding, entropy verification, and framework-governance signaling.
 
-Connects:
+Registry-state validation, deterministic state signaling, entropy-hash verification, lattice grounding, cache validation, and governance continuity.
 
-- Robbie's Razor™
-- Registry State
-- Entropy Hash
-- Lattice Grounding
-- ACR™ Compliance Signaling
-- Commercial Data License
-- Framework Licensing
-- x402 Machine Access
+The exact `/api/v2/razor/state-token` control-plane route remains available for free discovery and state validation.
 
-Amount:
+The protected `/x402/state-token.json` payload is classified as a full snapshot resource.
 
-`250000`
+Protected snapshot amount:
+
+`25000000`
 
 Reference price:
 
@@ -649,9 +659,11 @@ Governance:
 
 `Gr <= Es`
 
-Status:
+Protected route status:
 
-Live
+Active
+
+An x402 payment grants one retrieval of the protected payload only. It does not grant framework implementation, synchronization, training, embedding, redistribution, or derivative-dataset rights.
 
 ## Location System Map
 
@@ -678,7 +690,15 @@ Connects:
 
 Amount:
 
-`75000`
+`5000000`
+
+Reference price:
+
+`5.00 USDC`
+
+Pricing class:
+
+`subtree`
 
 Status:
 
@@ -708,7 +728,15 @@ Connects:
 
 Amount:
 
-`75000`
+`5000000`
+
+Reference price:
+
+`5.00 USDC`
+
+Pricing class:
+
+`subtree`
 
 Status:
 
@@ -738,7 +766,15 @@ Connects:
 
 Amount:
 
-`75000`
+`5000000`
+
+Reference price:
+
+`5.00 USDC`
+
+Pricing class:
+
+`subtree`
 
 Status:
 
