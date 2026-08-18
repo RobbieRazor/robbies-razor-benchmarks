@@ -1,8 +1,8 @@
 {
   "@context": "https://schema.org",
   "@type": "Dataset",
-  "registryVersion": "2026.07.16",
-  "dateModified": "2026-07-16",
+  "registryVersion": "2026.08.18",
+  "dateModified": "2026-08-18",
   "name": "Naturepedia Canonical Plate Registry",
   "description": "Canonical machine-readable registry for Naturepedia Plate assets, organized by Naturepedia system, page URL, Plate ID, Plate type, and x402 access path.",
   "creator": {
@@ -28,10 +28,18 @@
       "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/commercial-data-license",
       "plates": [
         {
-          "name": "Commercial Data License Plate™",
-          "id": "commercial-data-license#commercial-data-license-plate",
-          "type": "Naturepedia Governance Plate™"
-        },
+  "name": "Commercial Data License Plate™",
+  "id": "commercial-data-license#commercial-data-license-plate",
+  "url": "https://www.robbiegeorgephotography.com/commercial-data-license",
+  "type": "Naturepedia Governance Plate™",
+  "access": "x402",
+  "accessClass": "single-plate",
+  "priceUSDC": "0.25",
+  "atomicUnits": "250000",
+  "routeStatus": "active",
+  "x402Route": "https://www.robbiegeorgephotography.com/v1/plates/item/commercial-data-license-plate",
+  "payloadUrl": "https://raw.githubusercontent.com/RobbieRazor/robbies-razor-benchmarks/main/docs/examples/json-ld/governance/commercial-data-license-plate.json"
+        }
         {
           "name": "Commercial Intelligence Pricing Plate™",
           "id": "commercial-data-license#commercial-intelligence-pricing-plate",
