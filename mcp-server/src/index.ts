@@ -4,6 +4,8 @@ import { z } from "zod";
 
 const SITE_ORIGIN = "https://www.robbiegeorgephotography.com";
 const AI_CATALOG_URL = `${SITE_ORIGIN}/.well-known/ai-catalog.json`;
+const PRICING_MANIFEST_URL =
+  `${SITE_ORIGIN}/.well-known/x402-pricing.json`;
 
 type CatalogItem = {
   id?: string;
@@ -26,7 +28,7 @@ async function loadCatalog(): Promise<CatalogItem[]> {
   const response = await fetch(AI_CATALOG_URL, {
     headers: {
       Accept: "application/json",
-      "User-Agent": "Naturepedia-MCP/0.1.1",
+      "User-Agent": "Naturepedia-MCP/0.1.2",
     },
   });
 
@@ -48,7 +50,7 @@ function normalize(value: unknown): string {
 function createServer() {
   const server = new McpServer({
     name: "Naturepedia Canonical Discovery",
-    version: "0.1.1",
+    version: "0.1.2",
   });
 
   server.registerTool(
@@ -86,9 +88,21 @@ function createServer() {
                   "MCP availability and benchmark metadata do not establish independent empirical validation, universal validity, or model certification.",
               },
               accessModel:
-                "Public discovery metadata with x402-protected premium retrieval endpoints.",
+                "MCP discovery and resolution remain public and read-only. Separate protected machine-readable endpoints may require class-specific x402 payments.",
+              pricing: {
+                manifest: PRICING_MANIFEST_URL,
+                version: "3.0.0",
+                paymentProtocol: "x402",
+                network: "eip155:8453",
+                asset: "USDC",
+                paidMcpTools: false,
+              },
               governance:
-                "Payment grants endpoint-level retrieval only and does not grant training, resale, embedding, derivative-dataset, or framework-implementation rights.",
+                "An x402 payment grants one endpoint-level retrieval only. It does not grant training, embedding, bulk-ingestion, redistribution, resale, synchronization, private-dataset construction, derivative-dataset creation, commercial implementation, or framework-implementation rights.",
+              commercialLicense:
+                `${SITE_ORIGIN}/commercial-data-license`,
+              frameworkLicense:
+                `${SITE_ORIGIN}/robbies-razor-framework-licensing`,
             },
             null,
             2,
@@ -183,8 +197,13 @@ function createServer() {
                     canonicalSource: AI_CATALOG_URL,
                     resource: match,
                     rightsNotice:
-                      "x402 payment grants endpoint-level retrieval only. Consult the commercial license for all other uses.",
-                    commercialLicense: `${SITE_ORIGIN}/commercial-data-license`,
+                      "An x402 payment grants one endpoint-level retrieval only. It does not grant training, embedding, bulk-ingestion, redistribution, resale, synchronization, private-dataset construction, derivative-dataset creation, commercial implementation, or framework-implementation rights.",
+                    pricingManifest: PRICING_MANIFEST_URL,
+                    pricingVersion: "3.0.0",
+                    commercialLicense:
+                      `${SITE_ORIGIN}/commercial-data-license`,
+                    frameworkLicense:
+                      `${SITE_ORIGIN}/robbies-razor-framework-licensing`,
                   }
                 : {
                     resolved: false,
@@ -226,7 +245,7 @@ export default {
       return Response.json({
         ok: true,
         service: "naturepedia-mcp",
-        version: "0.1.1",
+        version: "0.1.2",
         mcpEndpoint: `${url.origin}/mcp`,
       });
     }
