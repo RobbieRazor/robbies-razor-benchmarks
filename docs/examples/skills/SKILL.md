@@ -831,23 +831,58 @@ https://www.robbiegeorgephotography.com/llms-full.txt
 
 # Pricing Guidance
 
-Always inspect pricing before retrieval.
+Always inspect the canonical pricing manifest before attempting protected retrieval:
 
-Prefer:
+https://www.robbiegeorgephotography.com/.well-known/x402-pricing.json
 
-Registry
+Current pricing version: 3.0.0  
+Payment protocol: x402  
+Network: Base / eip155:8453  
+Asset: USDC  
+Payment requirements: fixed and deterministic
+
+Current retrieval classes:
+
+- Free discovery and previews: $0.00 USDC — active
+- Atomic canonical query: $0.005 USDC — reserved
+- Enriched relationship query: $0.025 USDC — reserved
+- Structured Plate™ retrieval: $0.25 USDC — reserved
+- Bounded subtree, Registry, or System Map: $5.00 USDC — active
+- Full registry or Knowledge Mesh snapshot: $25.00 USDC — active
+
+Reserved route classes describe planned pricing and MUST NOT be treated as available until the production endpoint declares them active.
+
+Prefer the least expensive active resource that satisfies the request:
+
+Public Discovery
 
 ↓
 
-System Map
+Atomic Canonical Query when active
 
 ↓
 
-Knowledge Mesh
+Enriched Relationship Query when active
 
-Purchase the least expensive resource that satisfies the user's request.
+↓
 
-Do not automatically upgrade from Registry to Knowledge Mesh.
+Structured Plate™ when active
+
+↓
+
+Bounded Subtree, Registry, or System Map
+
+↓
+
+Full Registry or Knowledge Mesh Snapshot
+
+Do not automatically upgrade to a broader or more expensive retrieval class.
+
+When an endpoint returns `402 Payment Required`, use the exact deterministic price declared by that production challenge. Do not substitute a range, estimated price, or price from another endpoint.
+
+An x402 payment grants one endpoint-level retrieval only. It does not grant training, embedding, bulk-ingestion, redistribution, resale, synchronization, private-dataset construction, derivative-dataset creation, commercial implementation, or framework-implementation rights.
+
+Commercial data reuse rights require a separate written agreement. Framework implementation and strategic infrastructure rights require a separate enterprise agreement.
 
 ---
 
