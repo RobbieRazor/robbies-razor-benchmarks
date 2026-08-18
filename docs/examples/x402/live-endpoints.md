@@ -35,6 +35,8 @@ Deployment State:
 - Human Browser Bypass Active
 - AI/API Challenge Active
 - Expanded Plate Registry Updated
+- Registered Individual Plate Retrieval Active
+- $0.25 Single-Plate Challenge Verified
 - Naturepedia Systems Expansion Active
 - AI Catalog Discovery Active
 
@@ -258,11 +260,21 @@ Production `402` responses use deterministic Base USDC prices. Pricing is assign
 | Discovery and previews | Free | 0 | Active |
 | Atomic canonical query | $0.005 USDC | 5000 | Reserved |
 | Enriched relationship query | $0.025 USDC | 25000 | Reserved |
-| Structured Plate™ payload | $0.25 USDC | 250000 | Reserved |
+| Structured Plate™ payload | $0.25 USDC | 250000 | Active for registered payloads |
 | Bounded subtree, registry, or System Map | $5.00 USDC | 5000000 | Active |
 | Full registry or Knowledge Mesh snapshot | $25.00 USDC | 25000000 | Active |
 
-Reserved routes must not issue payment challenges until their complete governed payloads are registered and available.
+Current active single-Plate route:
+
+```text
+/v1/plates/item/commercial-data-license-plate
+```
+
+The registered Plate returns a deterministic `402 Payment Required` response for `250000` USDC atomic units on Base and is classified as `single-plate`.
+
+Unknown Plate identifiers return `404` without a payment challenge. Known Plates without registered complete payloads return `409` without a payment challenge.
+
+The Atomic and Enriched route classes remain reserved and must not issue payment challenges until their governed payloads are registered and available.
 
 Exact public discovery and control-plane endpoints may remain free even when related protected payload routes require payment. The current production `402` response and pricing manifest are authoritative if older documentation conflicts.
 
