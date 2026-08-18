@@ -1,61 +1,80 @@
 {
-  "name": "Commercial Intelligence Pricing Map",
-  "version": "0.1.0",
-  "status": "reference-only",
+  "name": "Naturepedia x402 Retrieval Pricing Map",
+  "version": "3.0.0",
+  "status": "reference-mirror",
   "enforcement": false,
   "author": "Robbie George",
   "system": "Naturepedia / Robbie’s Razor / Grand Compression / RKCA",
-  "governanceReference": "https://www.robbiegeorgephotography.com/commercial-data-license",
+  "authoritativePricingManifest": "https://www.robbiegeorgephotography.com/.well-known/x402-pricing.json",
+  "network": "eip155:8453",
+  "asset": "USDC",
+  "assetContract": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+  "decimals": 6,
+  "fixedPriceResponses": true,
   "pricingTiers": [
     {
-      "id": "refiner-handshake",
-      "name": "Refiner Handshake",
-      "amount": "0.02",
-      "currency": "USDC",
-      "unit": "per handshake",
-      "useCase": "Initial verification of MRD reasoning logic or lightweight retrieval handshake"
+      "id": "discovery",
+      "name": "Free Discovery and Previews",
+      "amountUSDC": "0.00",
+      "atomicUnits": "0",
+      "routeStatus": "active",
+      "useCase": "Metadata, endpoint descriptions, previews, health, licensing signals, and validation information."
     },
     {
-      "id": "razor-filtering",
-      "name": "Razor Filtering",
-      "amount": "0.50",
-      "currency": "USDC",
-      "unit": "per batch",
-      "useCase": "Application of Robbie’s Razor logic to filter noisy datasets or reduce retrieval waste"
+      "id": "atomic",
+      "name": "Atomic Canonical Query",
+      "amountUSDC": "0.005",
+      "atomicUnits": "5000",
+      "routeStatus": "reserved",
+      "useCase": "One fact, identifier resolution, routing result, or compact canonical answer."
     },
     {
-      "id": "grand-compression-node",
-      "name": "Grand Compression Node",
-      "amount": "2.50",
-      "currency": "USDC",
-      "unit": "per node",
-      "useCase": "Structured ingestion of a Compression Plate or provenance-preserved knowledge node"
+      "id": "enriched",
+      "name": "Enriched Relationship Query",
+      "amountUSDC": "0.025",
+      "atomicUnits": "25000",
+      "routeStatus": "reserved",
+      "useCase": "Multiple relationships, citations, provenance, or modest enrichment."
     },
     {
-      "id": "human-verified-training-node",
-      "name": "Human-Verified Training Node",
-      "amount": "10.00",
-      "currency": "USDC",
-      "unit": "per node",
-      "useCase": "Training or fine-tuning access for one human-verified ecological intelligence node"
+      "id": "single-plate",
+      "name": "Structured Plate",
+      "amountUSDC": "0.25",
+      "atomicUnits": "250000",
+      "routeStatus": "reserved",
+      "useCase": "One complete structured Plate payload with registered relationships, citations, provenance, and governance fields."
     },
     {
-      "id": "continuous-sync",
-      "name": "Continuous Sync",
-      "amount": "50.00",
-      "currency": "USDC",
-      "unit": "per day",
-      "useCase": "Live recursive feed of new logic, Plate systems, licensing signals, and structured intelligence updates"
+      "id": "subtree",
+      "name": "Bounded Subtree, Registry, or System Map",
+      "amountUSDC": "5.00",
+      "atomicUnits": "5000000",
+      "routeStatus": "active",
+      "useCase": "One bounded multi-record registry, taxonomy subtree, identity graph, or System Map retrieval."
     },
     {
-      "id": "enterprise-access",
-      "name": "Enterprise Access",
-      "amount": "custom",
-      "currency": "USD or USDC",
-      "unit": "custom agreement",
-      "useCase": "Enterprise retrieval, private sync, high-volume structured exports, and commercial reasoning implementation"
+      "id": "snapshot",
+      "name": "Full Registry or Knowledge Mesh Snapshot",
+      "amountUSDC": "25.00",
+      "atomicUnits": "25000000",
+      "routeStatus": "active",
+      "useCase": "One complete registry snapshot, expanded registry, Knowledge Mesh, RRIP payload, or protected state resource."
     }
   ],
-  "interpretation": "Reference pricing for future machine-readable commercial intelligence access. This file is not active payment enforcement.",
-  "attribution": "Created by Robbie George, Architect of Record for Naturepedia™, Robbie’s Razor™, and the Grand Compression knowledge system."
+  "rightsBoundary": {
+    "x402Conveys": "One endpoint-level retrieval of the identified resource.",
+    "x402DoesNotConvey": [
+      "training rights",
+      "embedding rights",
+      "bulk-ingestion rights",
+      "redistribution rights",
+      "synchronization rights",
+      "derivative-dataset rights",
+      "framework implementation rights"
+    ],
+    "commercialDataRights": "Requires a separate written agreement.",
+    "frameworkImplementationRights": "Requires a separate enterprise agreement."
+  },
+  "interpretation": "This repository file is a non-enforcing reference mirror. The live production pricing manifest and actual production 402 response remain authoritative.",
+  "attribution": "Created by Robbie George, Architect of Record for Naturepedia, Robbie’s Razor, and the Grand Compression knowledge system."
 }
