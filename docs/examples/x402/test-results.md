@@ -1,8 +1,14 @@
 # x402 Test Results
 
-## Deployment Date
+## Test Record Status
 
-2026-06-11
+Historical verification date: `2026-06-11`
+
+Pricing manifest v3 production deployment: `2026-08-17`
+
+The original payment challenge, settlement, and payload-delivery test remains part of the historical verification record.
+
+The pricing v3 manifest is live in production. Post-deployment challenge-header and settlement testing for pricing version `3.0.0` must be recorded separately rather than rewriting the historical results as though they were newly observed.
 
 ## Worker
 
@@ -31,9 +37,9 @@ Protected Resource:
 Naturepedia Tree System Map
 ```
 
-## Verified API / Agent Challenge Test
+## Historical Verified API / Agent Challenge Test — 2026-06-11
 
-Request:
+Historical request:
 
 ```javascript
 fetch("https://www.robbiegeorgephotography.com/v1/plates/tree-system-map", {
@@ -43,7 +49,7 @@ fetch("https://www.robbiegeorgephotography.com/v1/plates/tree-system-map", {
 })
 ```
 
-Result:
+Historical observed result:
 
 ```text
 402 Payment Required
@@ -52,6 +58,24 @@ X-402-Provider: Base-USDC
 X-402-Amount: 5.00
 X-402-Gateway-Tier: plates
 ```
+
+These headers are preserved as part of the original production test and do not describe the current gateway classification.
+
+## Pricing v3 Expected Challenge Headers — Pending Re-verification
+
+The same protected System Map route is now expected to return:
+
+```text
+402 Payment Required
+
+X-402-Provider: Base-USDC
+X-402-Amount: 5000000
+X-402-Gateway-Tier: subtree
+X-Robbie-Pricing-Version: 3.0.0
+X-Robbie-Pricing-Manifest: https://www.robbiegeorgephotography.com/.well-known/x402-pricing.json
+```
+
+The amount `5000000` represents `5.00 USDC` using six-decimal USDC atomic units. This expected result must be recorded as verified only after a new production challenge test.
 
 ## Cloudflare Log Confirmation
 
@@ -64,7 +88,9 @@ x402 human/search bypass
 x402 returning payment challenge
 ```
 
-## Pricing Verification
+## Historical Pricing Verification — 2026-06-11
+
+The original production test verified the prior gateway architecture:
 
 ```text
 taxonomy  = $1.00
@@ -72,6 +98,25 @@ plates    = $5.00
 sovereign = $25.00
 legacy    = $5.00
 ```
+
+These historical tier names and values are retained only as part of the original test record and are no longer the production pricing authority.
+
+## Current Pricing v3 Configuration — 2026-08-17
+
+| Access class | Price | Atomic units | Route status |
+|---|---:|---:|---|
+| Discovery and previews | Free | `0` | Active |
+| Atomic canonical query | `$0.005 USDC` | `5000` | Reserved |
+| Enriched relationship query | `$0.025 USDC` | `25000` | Reserved |
+| Structured Plate™ payload | `$0.25 USDC` | `250000` | Reserved |
+| Bounded subtree, registry, or System Map | `$5.00 USDC` | `5000000` | Active |
+| Full registry or Knowledge Mesh snapshot | `$25.00 USDC` | `25000000` | Active |
+
+Authoritative pricing manifest:
+
+https://www.robbiegeorgephotography.com/.well-known/x402-pricing.json
+
+Status: Pricing manifest version `3.0.0` is live. Post-deployment challenge-header and settlement re-verification must be recorded as a new observation.
 
 ## Governance Header Verification
 
@@ -176,11 +221,13 @@ v2 alias routing verified
 ```text
 Production infrastructure live.
 
-Production x402 challenge verified.
+Historical x402 challenge verified.
+
+Historical Base USDC settlement verified.
+
+Historical protected payload delivery verified.
 
 Human browser bypass verified.
-
-AI/API challenge verified.
 
 Discovery Plane live.
 
@@ -190,28 +237,40 @@ RRIP Resolution Plane live.
 
 State Validation Plane live.
 
-Registry-state synchronization active.
-
 v1 compatibility architecture active.
 
 v2 machine retrieval architecture active.
 
-Payment settlement infrastructure configured.
+Pricing manifest version 3.0.0 live.
 
-First live paid settlement pending verification.
+New deterministic pricing variables configured.
+
+Analytics Engine binding configured.
+
+Privacy-preserving analytics salt configured.
+
+Pricing-v3 challenge-header re-verification pending.
+
+Pricing-v3 paid settlement and payload-delivery re-verification pending.
 ```
 
 ## Validation Checklist
 
-* Human browser bypass verified
-* API challenge verified
-* Base network configured
-* USDC settlement configured
-* Governance header verified
-* Legacy endpoint family active
-* v1 endpoint families active
-* v2 endpoint families active
-* RRIP endpoint verified
-* State-token endpoint verified
-* Registry-state architecture documented
-* Settlement verification pending
+* Historical human-browser bypass verified
+* Historical API payment challenge verified
+* Historical Base USDC settlement verified
+* Historical protected payload delivery verified
+* Base network configured as `eip155:8453`
+* USDC settlement infrastructure configured
+* Governance headers enabled
+* Pricing manifest version `3.0.0` live
+* Atomic price configured as `5000`
+* Enriched price configured as `25000`
+* Structured Plate™ price configured as `250000`
+* Subtree price configured as `5000000`
+* Snapshot price configured as `25000000`
+* Analytics Engine binding configured
+* Privacy-preserving analytics salt configured
+* Pricing-v3 challenge-header verification pending
+* Pricing-v3 settlement verification pending
+* Pricing-v3 payload-delivery verification pending
