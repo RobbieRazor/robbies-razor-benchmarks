@@ -80,6 +80,33 @@ Link: <https://www.robbiegeorgephotography.com/.well-known/x402-pricing.json>; r
 Cache-Control: no-store
 ```
 
+### Pricing v3 Snapshot Challenge Verification — 2026-08-18
+
+A second unpaid production request tested the protected Geology Knowledge Mesh endpoint:
+
+```text
+https://www.robbiegeorgephotography.com/v1/knowledge-mesh/geology
+```
+
+Observed result:
+
+```text
+402 Payment Required
+
+Payment-Required: present
+X-402-Provider: Base-USDC
+X-402-Amount: 25000000
+X-402-Gateway-Tier: snapshot
+X-Robbie-Pricing-Version: 3.0.0
+X-Robbie-Pricing-Manifest: https://www.robbiegeorgephotography.com/.well-known/x402-pricing.json
+Link: <https://www.robbiegeorgephotography.com/.well-known/x402-pricing.json>; rel="describedby"; type="application/ld+json"
+Cache-Control: no-store
+```
+
+The amount `25000000` represents `25.00 USDC` using six-decimal USDC atomic units. This verifies the active snapshot and Knowledge Mesh challenge class.
+
+No payment was authorized, no settlement was attempted, and protected payload delivery was not tested during this observation.
+
 ## Cloudflare Log Confirmation
 
 Observed log messages:
