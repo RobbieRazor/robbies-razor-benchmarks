@@ -364,6 +364,7 @@ Plant Intelligence™
 Primary discovery endpoints:
 
 * https://www.robbiegeorgephotography.com/.well-known/ai-catalog.json
+* https://www.robbiegeorgephotography.com/.well-known/x402-pricing.json — authoritative fixed-price x402 pricing manifest, version 3.0.0
 * https://www.robbiegeorgephotography.com/api/v2/naturepedia/index.md
 * https://www.robbiegeorgephotography.com/api/v2/plates/registry.md
 * https://www.robbiegeorgephotography.com/llms-full.txt
