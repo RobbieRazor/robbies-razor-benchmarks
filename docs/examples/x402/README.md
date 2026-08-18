@@ -467,10 +467,14 @@ Expected challenge headers:
 ```http
 HTTP/2 402
 X-402-Provider: Base-USDC
-X-402-Amount: 5.00
-X-402-Gateway-Tier: plates
+X-402-Amount: 5000000
+X-402-Gateway-Tier: subtree
+X-Robbie-Pricing-Version: 3.0.0
+X-Robbie-Pricing-Manifest: https://www.robbiegeorgephotography.com/.well-known/x402-pricing.json
 X-Robbie-Razor-Governance: Gr <= Es
 ```
+
+The amount `5000000` represents `5.00 USDC` using six-decimal USDC atomic units. The live pricing manifest and production `402` response remain authoritative.
 
 ## Governance
 
