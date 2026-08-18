@@ -24,13 +24,29 @@ X402_NETWORK=eip155:8453
 X402_PAY_TO
 ```
 
-Pricing:
+Pricing variables use six-decimal USDC atomic units:
 
 ```text
-X402_DISCOVERY_PRICE=1.00
-X402_PLATE_PRICE=5.00
-X402_SOVEREIGN_PRICE=25.00
-X402_LEGACY_PRICE=5.00
+X402_ATOMIC_PRICE=5000
+X402_ENRICHED_PRICE=25000
+X402_SINGLE_PLATE_PRICE=250000
+X402_SUBTREE_PRICE=5000000
+X402_SNAPSHOT_PRICE=25000000
+```
+
+Public discovery remains free and does not require a pricing variable.
+
+Privacy-preserving telemetry requires:
+
+```text
+X402_ANALYTICS_SALT
+```
+
+Cloudflare Analytics Engine binding:
+
+```text
+Variable name: X402_ANALYTICS
+Dataset: naturepedia_x402_pricing_v3
 ```
 
 ## Routing Logic
@@ -188,19 +204,26 @@ Additional protected v2 route roles:
 /api/v2/razor/* -> Robbie's Razor™ state-token validation and registry-state signaling
 ```
 
-## Tier Logic
+## Pricing Class Logic
 
-```text
-taxonomy -> 1.00 USDC
-plates -> 5.00 USDC
-sovereign -> 25.00 USDC
-legacy -> 5.00 USDC
+Pricing is assigned by the delivered resource class rather than solely by its URL prefix.
 
-v2 naturepedia -> taxonomy tier -> 1.00 USDC
-v2 plates -> plates tier -> 5.00 USDC
-v2 rrip -> sovereign tier -> 25.00 USDC
-v2 razor -> sovereign tier -> 25.00 USDC
-```
+| Access class | Price | Atomic units | Route status |
+|---|---:|---:|---|
+| Discovery and previews | Free | `0` | Active |
+| Atomic canonical query | `$0.005 USDC` | `5000` | Reserved |
+| Enriched relationship query | `$0.025 USDC` | `25000` | Reserved |
+| Structured Plate™ payload | `$0.25 USDC` | `250000` | Reserved |
+| Bounded subtree, registry, or System Map | `$5.00 USDC` | `5000000` | Active |
+| Full registry or Knowledge Mesh snapshot | `$25.00 USDC` | `25000000` | Active |
+
+The exact `/api/v2/rrip/resolve` and `/api/v2/razor/state-token` control-plane routes remain free. Related protected snapshot payloads may require the `$25.00 USDC` snapshot price.
+
+Reserved routes must not issue payment challenges until their complete governed payloads are registered and available.
+
+Authoritative pricing manifest:
+
+https://www.robbiegeorgephotography.com/.well-known/x402-pricing.json
 
 ## Human Bypass
 
@@ -323,7 +346,10 @@ Accept: application/json
 402 Payment Required
 
 X-402-Provider: Base-USDC
-X-402-Gateway-Tier: taxonomy | plates | sovereign | legacy
+X-402-Amount: <USDC atomic units>
+X-402-Gateway-Tier: atomic | enriched | single-plate | subtree | snapshot
+X-Robbie-Pricing-Version: 3.0.0
+X-Robbie-Pricing-Manifest: https://www.robbiegeorgephotography.com/.well-known/x402-pricing.json
 ```
 
 Current status:
