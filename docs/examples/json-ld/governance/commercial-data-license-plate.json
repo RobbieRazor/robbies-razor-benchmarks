@@ -1,34 +1,66 @@
 {
   "@context": "https://schema.org",
   "@type": "CreativeWork",
-
+  "@id": "https://www.robbiegeorgephotography.com/commercial-data-license#commercial-data-license-plate",
   "name": "Commercial Data License Plate™",
-
-  "description": "Machine-readable governance and licensing plate for Naturepedia™, Robbie’s Razor™, Grand Compression, and Plate™ systems.",
-
+  "alternateName": "Naturepedia Governance, Retrieval Rights, and Commercial Data Licensing Plate",
+  "headline": "Commercial Data License Plate™ — Retrieval, Training, Embedding, Ingestion, Synchronization, Redistribution, and Framework Rights",
+  "url": "https://www.robbiegeorgephotography.com/commercial-data-license",
+  "version": "3.0.0",
+  "dateModified": "2026-08-17",
+  "description": "A machine-readable governance and licensing Plate separating endpoint-level x402 retrieval from commercial training, embedding, bulk ingestion, synchronization, redistribution, private-dataset construction, derivative-dataset creation, and Robbie’s Razor framework implementation rights.",
   "creator": {
+    "@type": "Person",
+    "name": "Robbie George",
+    "url": "https://www.robbiegeorgephotography.com/who-is-robbie-george",
+    "jobTitle": "Architect of Record"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Robbie George",
+    "url": "https://www.robbiegeorgephotography.com/who-is-robbie-george"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Robbie George Photography",
+    "url": "https://www.robbiegeorgephotography.com"
+  },
+  "copyrightHolder": {
     "@type": "Person",
     "name": "Robbie George"
   },
-
-  "about": [
-    "Naturepedia",
-    "Robbie's Razor",
-    "Grand Compression",
-    "Governance Plates",
-    "Recursive Compression Interface"
+  "conditionsOfAccess": "Public discovery is free. An x402 payment grants one endpoint-level retrieval of the identified resource only. Commercial reuse and framework implementation require separate written agreements.",
+  "usageInfo": "Payment for machine retrieval does not grant training, embedding, bulk-ingestion, redistribution, resale, synchronization, private-dataset construction, derivative-dataset creation, commercial implementation, or framework-implementation rights.",
+  "license": "https://www.robbiegeorgephotography.com/commercial-data-license",
+  "subjectOf": {
+    "@type": "DigitalDocument",
+    "name": "Naturepedia™ x402 Retrieval Pricing Manifest",
+    "url": "https://www.robbiegeorgephotography.com/.well-known/x402-pricing.json",
+    "encodingFormat": "application/ld+json"
+  },
+  "hasPart": [
+    {
+      "@type": "CreativeWork",
+      "name": "Endpoint-Level Machine Retrieval",
+      "description": "Class-specific fixed x402 retrieval prices are defined by the authoritative production pricing manifest and convey one retrieval of the identified resource only.",
+      "url": "https://www.robbiegeorgephotography.com/.well-known/x402-pricing.json"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Commercial Data Reuse Rights",
+      "description": "Training, embedding, commercial ingestion, synchronization, redistribution, and derivative-dataset rights begin at 1,000 USD equivalent and are granted only through a separate written agreement.",
+      "url": "https://www.robbiegeorgephotography.com/commercial-data-license"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Framework and Strategic Infrastructure Rights",
+      "description": "Robbie’s Razor™, RRIP, Graph Registry™, Plate architecture, deployment, and strategic infrastructure implementation rights require a separate enterprise agreement.",
+      "url": "https://www.robbiegeorgephotography.com/robbies-razor-framework-licensing"
+    }
   ],
-
-  "url": "https://www.robbiegeorgephotography.com/commercial-data-license",
-
-  "image": "https://www.robbiegeorgephotography.com/commercial-data-license",
-
-  "keywords": [
-    "commercial data license",
-    "AI governance",
-    "machine-readable governance",
-    "recursive governance",
-    "Naturepedia",
-    "Robbie George"
-  ]
+  "isPartOf": {
+    "@type": "CreativeWorkSeries",
+    "name": "Naturepedia Governance Plates™",
+    "url": "https://www.robbiegeorgephotography.com/naturepedia"
+  }
 }
