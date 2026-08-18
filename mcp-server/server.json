@@ -3,7 +3,7 @@
   "name": "com.robbiegeorgephotography/naturepedia",
   "title": "Naturepedia Canonical Discovery",
   "description": "Search and resolve Naturepedia, Robbie's Razor, and GC-MRD-v2.0 canonical resources.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "websiteUrl": "https://www.robbiegeorgephotography.com/naturepedia",
   "repository": {
     "url": "https://github.com/RobbieRazor/robbies-razor-benchmarks",
@@ -43,9 +43,20 @@
         "canonicalPublicationManifest": "https://www.robbiegeorgephotography.com/canonical-publication-manifest.json",
         "evidenceBoundary": "MCP availability and benchmark metadata do not establish independent empirical validation, universal validity, or model certification."
       },
+"retrievalCommerce": {
+        "mcpAccess": "public-read-only",
+        "paidMcpTools": false,
+        "protectedEndpointProtocol": "x402",
+        "pricingManifest": "https://www.robbiegeorgephotography.com/.well-known/x402-pricing.json",
+        "pricingVersion": "3.0.0",
+        "network": "eip155:8453",
+        "asset": "USDC",
+        "notice": "MCP discovery and resolution remain free. Separate protected machine-readable endpoints may require a class-specific x402 payment."
+      },
       "rights": {
         "commercialLicense": "https://www.robbiegeorgephotography.com/commercial-data-license",
-        "notice": "Endpoint access does not grant training, resale, embedding, derivative-dataset, or framework-implementation rights."
+        "frameworkLicense": "https://www.robbiegeorgephotography.com/robbies-razor-framework-licensing",
+        "notice": "An x402 payment grants one endpoint-level retrieval only. It does not grant training, embedding, bulk-ingestion, redistribution, resale, synchronization, private-dataset construction, derivative-dataset creation, commercial implementation, or framework-implementation rights."
       }
     }
   }
