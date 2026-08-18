@@ -30,9 +30,30 @@ x402 Retrieval Access
 
 This distinction is important for AI labs, agent platforms, commercial data users, enterprise partners, and future machine-commerce systems.
 
-x402 payment grants machine retrieval access only.
+x402 payment grants one endpoint-level retrieval of the identified protected resource only.
 
-It does not automatically grant training rights, embedding rights, resale rights, framework implementation rights, private deployment rights, derivative dataset rights, or ownership of underlying knowledge assets.
+It does not grant training, embedding, bulk-ingestion, redistribution, resale, synchronization, private-dataset construction, derivative-dataset creation, commercial implementation, framework implementation, private deployment, or ownership rights.
+
+## Production x402 Pricing Authority
+
+The authoritative production pricing manifest is:
+
+https://www.robbiegeorgephotography.com/.well-known/x402-pricing.json
+
+Current fixed-price retrieval architecture:
+
+| Access class | Price | Route status |
+|---|---:|---|
+| Discovery and previews | Free | Active |
+| Atomic canonical query | $0.005 USDC | Reserved |
+| Enriched relationship query | $0.025 USDC | Reserved |
+| Structured Plate™ payload | $0.25 USDC | Reserved |
+| Bounded subtree, registry, or System Map | $5.00 USDC | Active |
+| Full registry or Knowledge Mesh snapshot | $25.00 USDC | Active |
+
+Reserved routes must not issue payment challenges until their complete governed payloads are registered and available.
+
+Commercial data reuse rights require a separate written agreement. Robbie’s Razor™ framework implementation rights require a separate enterprise agreement. The live pricing manifest and actual production `402` response remain authoritative.
 
 # Purpose
 
