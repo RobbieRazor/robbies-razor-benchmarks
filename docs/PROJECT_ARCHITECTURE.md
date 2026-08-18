@@ -363,13 +363,26 @@ flowchart TD
     G --> H[Verified delivery]
 ```
 
-Protected-resource prices currently follow the governed tier structure:
+Protected-resource pricing is governed by the canonical Naturepedia™ x402 Pricing Manifest:
 
-- `$1` for compact or taxonomy-level resources
-- `$5` for registries and System Maps
-- `$25` for Knowledge Mesh resources
+https://www.robbiegeorgephotography.com/.well-known/x402-pricing.json
 
-These prices, route classifications, and settlement behaviors must not be changed silently.
+Current pricing version: `3.0.0`
+
+- Free discovery and previews: `$0.00 USDC` — active
+- Atomic canonical query: `$0.005 USDC` — reserved
+- Enriched relationship query: `$0.025 USDC` — reserved
+- Structured Plate™ retrieval: `$0.25 USDC` — reserved
+- Bounded subtree, registry, or System Map: `$5.00 USDC` — active
+- Full registry or Knowledge Mesh snapshot: `$25.00 USDC` — active
+
+Reserved route classes define planned deterministic prices but must not issue payment challenges until their production endpoints are activated.
+
+Production `402` responses must declare one fixed price in six-decimal USDC atomic units. Price ranges, silent substitutions, and reuse of another endpoint’s price are not permitted.
+
+An x402 payment grants one endpoint-level retrieval only. Commercial data reuse rights and framework implementation rights remain separate written agreements.
+
+These prices, route classifications, rights boundaries, and settlement behaviors must not be changed silently.
 
 The Worker’s governance response header remains:
 
