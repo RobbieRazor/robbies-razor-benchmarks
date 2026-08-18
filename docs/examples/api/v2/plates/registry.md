@@ -236,7 +236,15 @@ Governance Principle:
 Gr <= Es
 ```
 
-Commercial use, structured extraction, embeddings, dataset construction, autonomous retrieval, enterprise synchronization, and machine-readable commercial reuse may require licensing or written permission.
+Public discovery, registry navigation, endpoint descriptions, validation signals, and licensing signals remain free.
+
+Protected machine-readable payloads may require a class-specific x402 payment defined by the authoritative production pricing manifest:
+
+https://www.robbiegeorgephotography.com/.well-known/x402-pricing.json
+
+An x402 payment grants one endpoint-level retrieval of the identified protected resource only. It does not grant training, embedding, bulk-ingestion, redistribution, resale, synchronization, private-dataset construction, derivative-dataset creation, commercial implementation, or framework-implementation rights.
+
+Commercial data reuse rights require a separate written agreement. Robbie’s Razor™ framework implementation and strategic infrastructure rights require a separate enterprise agreement.
 
 Commercial layers are separated as:
 
