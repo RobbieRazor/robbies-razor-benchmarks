@@ -61,21 +61,24 @@ X-402-Gateway-Tier: plates
 
 These headers are preserved as part of the original production test and do not describe the current gateway classification.
 
-## Pricing v3 Expected Challenge Headers — Pending Re-verification
+## Pricing v3 Verified Challenge Headers — 2026-08-18
 
-The same protected System Map route is now expected to return:
+A new unpaid production request was made to the protected Tree System Map route using an API-oriented Accept header and a non-browser audit user agent.
+
+Observed result:
 
 ```text
 402 Payment Required
 
+Payment-Required: present
 X-402-Provider: Base-USDC
 X-402-Amount: 5000000
 X-402-Gateway-Tier: subtree
 X-Robbie-Pricing-Version: 3.0.0
 X-Robbie-Pricing-Manifest: https://www.robbiegeorgephotography.com/.well-known/x402-pricing.json
+Link: <https://www.robbiegeorgephotography.com/.well-known/x402-pricing.json>; rel="describedby"; type="application/ld+json"
+Cache-Control: no-store
 ```
-
-The amount `5000000` represents `5.00 USDC` using six-decimal USDC atomic units. This expected result must be recorded as verified only after a new production challenge test.
 
 ## Cloudflare Log Confirmation
 
@@ -249,7 +252,7 @@ Analytics Engine binding configured.
 
 Privacy-preserving analytics salt configured.
 
-Pricing-v3 challenge-header re-verification pending.
+Pricing-v3 challenge-header verification completed on 2026-08-18.
 
 Pricing-v3 paid settlement and payload-delivery re-verification pending.
 ```
@@ -271,6 +274,6 @@ Pricing-v3 paid settlement and payload-delivery re-verification pending.
 * Snapshot price configured as `25000000`
 * Analytics Engine binding configured
 * Privacy-preserving analytics salt configured
-* Pricing-v3 challenge-header verification pending
+* Pricing-v3 challenge-header verification completed on 2026-08-18
 * Pricing-v3 settlement verification pending
 * Pricing-v3 payload-delivery verification pending
