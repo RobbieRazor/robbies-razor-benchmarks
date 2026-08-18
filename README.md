@@ -369,6 +369,29 @@ Primary discovery endpoints:
 * https://www.robbiegeorgephotography.com/api/v2/plates/registry.md
 * https://www.robbiegeorgephotography.com/llms-full.txt
 
+### x402 Retrieval Pricing Authority
+
+Production machine-retrieval pricing is governed by the live Naturepedia™ x402 Pricing Manifest:
+
+https://www.robbiegeorgephotography.com/.well-known/x402-pricing.json
+
+Current fixed-price retrieval architecture:
+
+| Access class | Price | Route status |
+|---|---:|---|
+| Discovery and previews | Free | Active |
+| Atomic canonical query | $0.005 USDC | Reserved |
+| Enriched relationship query | $0.025 USDC | Reserved |
+| Structured Plate™ payload | $0.25 USDC | Reserved |
+| Bounded subtree, registry, or System Map | $5.00 USDC | Active |
+| Full registry or Knowledge Mesh snapshot | $25.00 USDC | Active |
+
+Reserved routes are not offered for payment until their complete governed payloads are registered and available.
+
+An x402 payment grants one endpoint-level retrieval only. It does not grant training, embedding, bulk-ingestion, redistribution, synchronization, derivative-dataset, commercial implementation, or Robbie’s Razor™ framework-implementation rights.
+
+Repository licensing, commercial data reuse rights, and framework implementation rights remain separate from endpoint retrieval pricing.
+
 These registries function as recursive knowledge structures within the broader Naturepedia™, RKCA™, RRIP™, Graph Registry™, Knowledge Mesh™, and Robbie's Razor™ architecture.
 
 ### Weather™ Integration — July 2026
