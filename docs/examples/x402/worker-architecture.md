@@ -206,10 +206,11 @@ Additional protected v2 route roles:
 
 ## Pricing Class Logic
 
-### Verified Single-Plate Challenge Route
+### Verified Single-Plate Challenge Routes
 
 ```text
 /v1/plates/item/commercial-data-license-plate
+/v1/plates/item/commercial-intelligence-pricing-plate
 ```
 
 Verified no-payment challenge behavior:
@@ -240,10 +241,11 @@ Pricing is assigned by the delivered resource class rather than solely by its UR
 | Bounded subtree, registry, or System Map | `$5.00 USDC` | `5000000` | Active |
 | Full registry or Knowledge Mesh snapshot | `$25.00 USDC` | `25000000` | Active |
 
-Current active single-Plate route:
+Current active single-Plate routes:
 
 ```text
 /v1/plates/item/commercial-data-license-plate
+/v1/plates/item/commercial-intelligence-pricing-plate
 ```
 
 The exact `/api/v2/rrip/resolve` and `/api/v2/razor/state-token` control-plane routes remain free. Related protected snapshot payloads may require the `$25.00 USDC` snapshot price.
