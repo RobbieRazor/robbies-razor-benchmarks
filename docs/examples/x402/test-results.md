@@ -156,7 +156,6 @@ https://www.robbiegeorgephotography.com/.well-known/x402-pricing.json
 
 Status: Pricing manifest version `3.0.0` is live. All three active Structured Plate™ routes returned unpaid `402` challenges with amount `250000` and gateway tier `single-plate`. An unknown Plate returned `404` without a payment challenge. The known but unregistered `robbies-razor-plate` returned `409` without a payment challenge. No new `$0.25` settlement or protected payload-delivery test was performed.
 
-Status: Pricing manifest version `3.0.0` is live. Both active Structured Plate™ routes returned unpaid `402` challenges with amount `250000` and gateway tier `single-plate`. An unknown Plate returned `404` without a payment challenge. The known but unregistered `robbie-george-biography-plate` returned `409` without a payment challenge. No new `$0.25` settlement or protected payload-delivery test was performed.
 
 ## Governance Header Verification
 
