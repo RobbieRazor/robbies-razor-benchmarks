@@ -40,11 +40,19 @@
   "x402Route": "https://www.robbiegeorgephotography.com/v1/plates/item/commercial-data-license-plate",
   "payloadUrl": "https://raw.githubusercontent.com/RobbieRazor/robbies-razor-benchmarks/main/docs/examples/json-ld/governance/commercial-data-license-plate.json"
         },
-        {
-          "name": "Commercial Intelligence Pricing Plate™",
-          "id": "commercial-data-license#commercial-intelligence-pricing-plate",
-          "type": "Naturepedia Governance Pricing Plate™"
-        }
+       {
+  "name": "Commercial Intelligence Pricing Plate™",
+  "id": "commercial-data-license#commercial-intelligence-pricing-plate",
+  "url": "https://www.robbiegeorgephotography.com/commercial-data-license",
+  "type": "Naturepedia Governance Pricing Plate™",
+  "access": "x402",
+  "accessClass": "single-plate",
+  "priceUSDC": "0.25",
+  "atomicUnits": "250000",
+  "routeStatus": "active",
+  "x402Route": "https://www.robbiegeorgephotography.com/v1/plates/item/commercial-intelligence-pricing-plate",
+  "payloadUrl": "https://raw.githubusercontent.com/RobbieRazor/robbies-razor-benchmarks/main/docs/examples/json-ld/governance/commercial-intelligence-pricing-plate.json"
+}
       ]
     },
     {
