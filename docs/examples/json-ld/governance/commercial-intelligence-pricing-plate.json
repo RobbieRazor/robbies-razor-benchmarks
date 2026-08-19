@@ -55,8 +55,8 @@
   "price": "0.25",
   "priceCurrency": "USD",
   "availability": "https://schema.org/InStock",
-  "url": "https://www.robbiegeorgephotography.com/v1/plates/item/commercial-data-license-plate",
-  "description": "Active x402 tier settled as 0.25 USDC on Base for one registered and validated structured Plate payload. Payment grants one endpoint-level retrieval only."
+  "url": "https://www.robbiegeorgephotography.com/v1/plates/item/commercial-intelligence-pricing-plate",
+  "description": "Active x402 tier priced at 0.25 USDC on Base for one registered and validated structured Plate payload. Payment grants one endpoint-level retrieval only."
 },
       {
         "@type": "Offer",
