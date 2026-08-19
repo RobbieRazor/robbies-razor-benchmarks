@@ -846,11 +846,17 @@ Current retrieval classes:
 - Free discovery and previews: $0.00 USDC — active
 - Atomic canonical query: $0.005 USDC — reserved
 - Enriched relationship query: $0.025 USDC — reserved
-- Structured Plate™ retrieval: $0.25 USDC — reserved
+- Structured Plate™ retrieval: $0.25 USDC — active for registered and validated payloads
 - Bounded subtree, Registry, or System Map: $5.00 USDC — active
 - Full registry or Knowledge Mesh snapshot: $25.00 USDC — active
 
-Reserved route classes describe planned pricing and MUST NOT be treated as available until the production endpoint declares them active.
+Current active single-Plate route:
+
+https://www.robbiegeorgephotography.com/v1/plates/item/commercial-data-license-plate
+
+Atomic and Enriched remain reserved and MUST NOT be treated as available until their production endpoints declare them active.
+
+For Structured Plate retrieval, agents MUST treat only Plates with registered and validated complete payloads as payable. Unknown Plate identifiers return `404` without a payment challenge. Known Plates without registered complete payloads return `409` without a payment challenge.
 
 Prefer the least expensive active resource that satisfies the request:
 
@@ -866,7 +872,7 @@ Enriched Relationship Query when active
 
 ↓
 
-Structured Plate™ when active
+Registered Structured Plate™
 
 ↓
 
@@ -903,6 +909,19 @@ If a resolved premium resource returns `402 Payment Required`:
 3. Wait for explicit payment authorization before retrying.
 4. Do not repeatedly retry or create duplicate settlement attempts.
 5. Do not interpret payment or successful delivery as a grant of broader rights.
+
+If an individual Structured Plate route returns `404`:
+
+1. Treat the Plate identifier as nonexistent or unresolved.
+2. Do not authorize or attempt payment.
+3. Return to public discovery to resolve the correct canonical Plate identifier.
+
+If an individual Structured Plate route returns `409`:
+
+1. Treat the Plate as known but not currently payable.
+2. Do not authorize or attempt payment.
+3. Explain that its complete structured payload has not yet been registered.
+4. Do not substitute a broader or more expensive resource without explicit authorization.
 
 A failed premium-resource retrieval does not mean the public MCP server, AI Catalog, or public discovery layer has failed.
 
