@@ -51,7 +51,7 @@
     "knownUnregisteredPlate": "409 without payment challenge"
   },
   "useCase": "One complete structured Plate payload with registered relationships, citations, provenance, and governance fields."
-}
+},
     {
       "id": "subtree",
       "name": "Bounded Subtree, Registry, or System Map",
