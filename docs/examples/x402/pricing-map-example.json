@@ -37,13 +37,21 @@
       "useCase": "Multiple relationships, citations, provenance, or modest enrichment."
     },
     {
-      "id": "single-plate",
-      "name": "Structured Plate",
-      "amountUSDC": "0.25",
-      "atomicUnits": "250000",
-      "routeStatus": "reserved",
-      "useCase": "One complete structured Plate payload with registered relationships, citations, provenance, and governance fields."
-    },
+  "id": "single-plate",
+  "name": "Structured Plate",
+  "amountUSDC": "0.25",
+  "atomicUnits": "250000",
+  "routeStatus": "active",
+  "activeRoutes": [
+    "/v1/plates/item/commercial-data-license-plate"
+  ],
+  "availabilityPolicy": "Payment challenges are issued only for registered and validated complete Plate payloads.",
+  "failureBehavior": {
+    "unknownPlate": "404 without payment challenge",
+    "knownUnregisteredPlate": "409 without payment challenge"
+  },
+  "useCase": "One complete structured Plate payload with registered relationships, citations, provenance, and governance fields."
+}
     {
       "id": "subtree",
       "name": "Bounded Subtree, Registry, or System Map",
