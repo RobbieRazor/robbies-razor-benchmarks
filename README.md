@@ -391,6 +391,7 @@ Current active single-Plate routes:
 ```text
 https://www.robbiegeorgephotography.com/v1/plates/item/commercial-data-license-plate
 https://www.robbiegeorgephotography.com/v1/plates/item/commercial-intelligence-pricing-plate
+https://www.robbiegeorgephotography.com/v1/plates/item/robbie-george-biography-plate
 ```
 
 Atomic and Enriched routes remain reserved. Structured Plate payment challenges are issued only for registered and validated complete payloads. Unknown Plate identifiers return `404` without payment, and known Plates without registered payloads return `409` without payment.
