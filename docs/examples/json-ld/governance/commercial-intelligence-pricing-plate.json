@@ -7,7 +7,7 @@
   "headline": "Commercial Intelligence Pricing Plate™ — Deterministic x402 Retrieval Pricing for Naturepedia™, Robbie’s Razor™, Grand Compression, and Plate™ Systems",
   "url": "https://www.robbiegeorgephotography.com/commercial-data-license",
   "version": "3.0.0",
-  "dateModified": "2026-08-17",
+  "dateModified": "2026-08-19",
   "description": "A machine-readable pricing and rights-boundary Plate defining deterministic x402 retrieval prices for Naturepedia discovery, canonical queries, enriched responses, structured Plates, bounded registries, System Maps, Knowledge Meshes, and full registry snapshots. Retrieval payments remain separate from commercial data reuse and framework implementation rights.",
   "creator": {
     "@type": "Person",
@@ -50,13 +50,14 @@
         "description": "Reserved x402 tier settled as 0.025 USDC on Base for relationships, citations, provenance, or modest enrichment."
       },
       {
-        "@type": "Offer",
-        "name": "Structured Plate™ Payload",
-        "price": "0.25",
-        "priceCurrency": "USD",
-        "availability": "https://schema.org/PreOrder",
-        "description": "Reserved x402 tier settled as 0.25 USDC on Base for one complete registered structured Plate payload."
-      },
+  "@type": "Offer",
+  "name": "Structured Plate™ Payload",
+  "price": "0.25",
+  "priceCurrency": "USD",
+  "availability": "https://schema.org/InStock",
+  "url": "https://www.robbiegeorgephotography.com/v1/plates/item/commercial-data-license-plate",
+  "description": "Active x402 tier settled as 0.25 USDC on Base for one registered and validated structured Plate payload. Payment grants one endpoint-level retrieval only."
+},
       {
         "@type": "Offer",
         "name": "Bounded Registry, Taxonomy Subtree, or System Map",
