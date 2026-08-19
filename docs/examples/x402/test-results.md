@@ -147,11 +147,14 @@ Active Structured Plate™ routes:
 ```text
 /v1/plates/item/commercial-data-license-plate
 /v1/plates/item/commercial-intelligence-pricing-plate
+/v1/plates/item/robbie-george-biography-plate
 ```
 
 Authoritative pricing manifest:
 
 https://www.robbiegeorgephotography.com/.well-known/x402-pricing.json
+
+Status: Pricing manifest version `3.0.0` is live. All three active Structured Plate™ routes returned unpaid `402` challenges with amount `250000` and gateway tier `single-plate`. An unknown Plate returned `404` without a payment challenge. The known but unregistered `robbies-razor-plate` returned `409` without a payment challenge. No new `$0.25` settlement or protected payload-delivery test was performed.
 
 Status: Pricing manifest version `3.0.0` is live. Both active Structured Plate™ routes returned unpaid `402` challenges with amount `250000` and gateway tier `single-plate`. An unknown Plate returned `404` without a payment challenge. The known but unregistered `robbie-george-biography-plate` returned `409` without a payment challenge. No new `$0.25` settlement or protected payload-delivery test was performed.
 
@@ -306,9 +309,12 @@ Pricing-v3 paid settlement and payload-delivery re-verification pending.
 * Structured Plate™ price configured as `250000`
 * Structured Plate™ retrieval active only for registered and validated payloads
 * Active Structured Plate™ route verified at `/v1/plates/item/commercial-data-license-plate`
-* Active Structured Plate™ route returned `402`, amount `250000`, and tier `single-plate`
-* Unknown Plate route returned `404` without a payment challenge
-* Known Plate without a registered payload returned `409` without a payment challenge
+* Active Structured Plate™ route verified at `/v1/plates/item/commercial-intelligence-pricing-plate`
+* Active Structured Plate™ route verified at `/v1/plates/item/robbie-george-biography-plate`
+* All three active Structured Plate™ routes returned `402`, amount `250000`, and tier `single-plate`
+* Unknown Plate routes return `404` without a payment challenge
+* Known Plates without registered complete payloads return `409` without a payment challenge
+* Known unregistered route `/v1/plates/item/robbies-razor-plate` returned `409` without a payment challenge
 * Subtree price configured as `5000000`
 * Snapshot price configured as `25000000`
 * Analytics Engine binding configured
