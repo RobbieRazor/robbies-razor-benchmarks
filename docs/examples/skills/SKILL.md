@@ -850,9 +850,12 @@ Current retrieval classes:
 - Bounded subtree, Registry, or System Map: $5.00 USDC — active
 - Full registry or Knowledge Mesh snapshot: $25.00 USDC — active
 
-Current active single-Plate route:
+Current active single-Plate routes:
 
+```text
 https://www.robbiegeorgephotography.com/v1/plates/item/commercial-data-license-plate
+https://www.robbiegeorgephotography.com/v1/plates/item/commercial-intelligence-pricing-plate
+```
 
 Atomic and Enriched remain reserved and MUST NOT be treated as available until their production endpoints declare them active.
 
