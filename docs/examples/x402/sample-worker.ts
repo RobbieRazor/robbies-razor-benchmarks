@@ -120,6 +120,10 @@ const PROTECTED_ROUTE_EXAMPLES: Array<{
   accessClass: "single-plate"
 },
 {
+  prefix: "/v1/plates/item/commercial-intelligence-pricing-plate",
+  accessClass: "single-plate"
+},
+{
   prefix: "/v1/plates/tree-system-map",
   accessClass: "subtree"
 },
