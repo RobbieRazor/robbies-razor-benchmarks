@@ -381,6 +381,7 @@ Current active single-Plate routes:
 ```text
 /v1/plates/item/commercial-data-license-plate
 /v1/plates/item/commercial-intelligence-pricing-plate
+/v1/plates/item/robbie-george-biography-plate
 ```
 
 The Atomic and Enriched route classes remain reserved and must not issue payment challenges until their production endpoints are activated.
