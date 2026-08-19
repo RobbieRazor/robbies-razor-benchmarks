@@ -56,7 +56,10 @@ Current active Structured Plate™ routes:
 ```text
 /v1/plates/item/commercial-data-license-plate
 /v1/plates/item/commercial-intelligence-pricing-plate
+/v1/plates/item/robbie-george-biography-plate
 ```
+
+Structured Plate™ payment challenges are issued only when a complete governed payload has been registered and validated. The Commercial Data License Plate™, Commercial Intelligence Pricing Plate™, and Robbie George Biography Plate™ are currently active at `$0.25 USDC` per endpoint retrieval. Unknown Plate identifiers return `404` without a payment challenge. Known Plates without registered structured payloads return `409` without a payment challenge.
 
 Structured Plate™ payment challenges are issued only when a complete governed payload has been registered and validated. The Commercial Data License Plate™ and Commercial Intelligence Pricing Plate™ are currently active at `$0.25 USDC` per endpoint retrieval. Unknown Plate identifiers return `404` without a payment challenge. Known Plates without registered structured payloads return `409` without a payment challenge.
 
