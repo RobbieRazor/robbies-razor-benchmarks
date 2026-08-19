@@ -39,7 +39,7 @@
   "routeStatus": "active",
   "x402Route": "https://www.robbiegeorgephotography.com/v1/plates/item/commercial-data-license-plate",
   "payloadUrl": "https://raw.githubusercontent.com/RobbieRazor/robbies-razor-benchmarks/main/docs/examples/json-ld/governance/commercial-data-license-plate.json"
-        }
+        },
         {
           "name": "Commercial Intelligence Pricing Plate™",
           "id": "commercial-data-license#commercial-intelligence-pricing-plate",
