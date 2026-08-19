@@ -372,11 +372,19 @@ Current pricing version: `3.0.0`
 - Free discovery and previews: `$0.00 USDC` — active
 - Atomic canonical query: `$0.005 USDC` — reserved
 - Enriched relationship query: `$0.025 USDC` — reserved
-- Structured Plate™ retrieval: `$0.25 USDC` — reserved
+- Structured Plate™ retrieval: `$0.25 USDC` — active for registered and validated payloads
 - Bounded subtree, registry, or System Map: `$5.00 USDC` — active
 - Full registry or Knowledge Mesh snapshot: `$25.00 USDC` — active
 
-Reserved route classes define planned deterministic prices but must not issue payment challenges until their production endpoints are activated.
+Current active single-Plate route:
+
+```text
+/v1/plates/item/commercial-data-license-plate
+```
+
+The Atomic and Enriched route classes remain reserved and must not issue payment challenges until their production endpoints are activated.
+
+Registered and validated Structured Plate payloads may issue deterministic `$0.25 USDC` payment challenges. Unknown Plate identifiers return `404` without a payment challenge. Known Plates without registered complete payloads return `409` without a payment challenge.
 
 Production `402` responses must declare one fixed price in six-decimal USDC atomic units. Price ranges, silent substitutions, and reuse of another endpoint’s price are not permitted.
 
@@ -400,6 +408,7 @@ The implementation must preserve:
 - request binding
 - governed pricing
 - strict `404` behavior for nonexistent routes
+- strict `409` behavior for registered Plates without complete payloads
 - deterministic failure behavior
 
 ---
