@@ -66,15 +66,14 @@ const PRICING: Record<AccessClass, PricingTier> = {
   },
 
   "single-plate": {
-    accessClass: "single-plate",
-    priceUSDC: "0.25",
-    atomicUnits: "250000",
-    currency: "USDC",
-    routeStatus: "reserved",
-    description:
-      "One complete structured Plate payload with registered relationships, citations, provenance, and governance fields."
-  },
-
+  accessClass: "single-plate",
+  priceUSDC: "0.25",
+  atomicUnits: "250000",
+  currency: "USDC",
+  routeStatus: "active",
+  description:
+    "One complete structured Plate payload with registered relationships, citations, provenance, and governance fields. Payment challenges are issued only for registered and validated Plate payloads."
+},
   subtree: {
     accessClass: "subtree",
     priceUSDC: "5.00",
@@ -117,9 +116,13 @@ const PROTECTED_ROUTE_EXAMPLES: Array<{
     accessClass: "snapshot"
   },
   {
-    prefix: "/v1/plates/tree-system-map",
-    accessClass: "subtree"
-  },
+  prefix: "/v1/plates/item/commercial-data-license-plate",
+  accessClass: "single-plate"
+},
+{
+  prefix: "/v1/plates/tree-system-map",
+  accessClass: "subtree"
+},
   {
     prefix: "/x402/tree-system-map.json",
     accessClass: "subtree"
