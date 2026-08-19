@@ -382,11 +382,15 @@ Current fixed-price retrieval architecture:
 | Discovery and previews | Free | Active |
 | Atomic canonical query | $0.005 USDC | Reserved |
 | Enriched relationship query | $0.025 USDC | Reserved |
-| Structured Plate™ payload | $0.25 USDC | Reserved |
+| Structured Plate™ payload | $0.25 USDC | Active for registered payloads |
 | Bounded subtree, registry, or System Map | $5.00 USDC | Active |
 | Full registry or Knowledge Mesh snapshot | $25.00 USDC | Active |
 
-Reserved routes are not offered for payment until their complete governed payloads are registered and available.
+Current active single-Plate route:
+
+https://www.robbiegeorgephotography.com/v1/plates/item/commercial-data-license-plate
+
+Atomic and Enriched routes remain reserved. Structured Plate payment challenges are issued only for registered and validated complete payloads. Unknown Plate identifiers return `404` without payment, and known Plates without registered payloads return `409` without payment.
 
 An x402 payment grants one endpoint-level retrieval only. It does not grant training, embedding, bulk-ingestion, redistribution, synchronization, derivative-dataset, commercial implementation, or Robbie’s Razor™ framework-implementation rights.
 
