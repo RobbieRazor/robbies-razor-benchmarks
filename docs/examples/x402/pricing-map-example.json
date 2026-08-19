@@ -43,8 +43,9 @@
   "atomicUnits": "250000",
   "routeStatus": "active",
   "activeRoutes": [
-    "/v1/plates/item/commercial-data-license-plate"
-  ],
+  "/v1/plates/item/commercial-data-license-plate",
+  "/v1/plates/item/commercial-intelligence-pricing-plate"
+],
   "availabilityPolicy": "Payment challenges are issued only for registered and validated complete Plate payloads.",
   "failureBehavior": {
     "unknownPlate": "404 without payment challenge",
