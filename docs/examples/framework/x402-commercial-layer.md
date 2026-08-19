@@ -47,11 +47,19 @@ Current fixed-price retrieval architecture:
 | Discovery and previews | Free | Active |
 | Atomic canonical query | $0.005 USDC | Reserved |
 | Enriched relationship query | $0.025 USDC | Reserved |
-| Structured Plate™ payload | $0.25 USDC | Reserved |
+| Structured Plate™ payload | $0.25 USDC | Active for registered and validated payloads |
 | Bounded subtree, registry, or System Map | $5.00 USDC | Active |
 | Full registry or Knowledge Mesh snapshot | $25.00 USDC | Active |
 
-Reserved routes must not issue payment challenges until their complete governed payloads are registered and available.
+Current active Structured Plate™ route:
+
+```text
+/v1/plates/item/commercial-data-license-plate
+```
+
+Structured Plate™ payment challenges are issued only when a complete governed payload has been registered and validated. Unknown Plate identifiers return `404` without a payment challenge. Known Plates without registered structured payloads return `409` without a payment challenge.
+
+Atomic and enriched routes remain reserved and must not issue payment challenges until their complete governed endpoints and payloads are activated.
 
 Commercial data reuse rights require a separate written agreement. Robbie’s Razor™ framework implementation rights require a separate enterprise agreement. The live pricing manifest and actual production `402` response remain authoritative.
 
