@@ -269,9 +269,12 @@ Current active single-Plate routes:
 ```text
 /v1/plates/item/commercial-data-license-plate
 /v1/plates/item/commercial-intelligence-pricing-plate
+/v1/plates/item/robbie-george-biography-plate
 ```
 
-Both registered Plates return deterministic `402 Payment Required` responses for `250000` USDC atomic units on Base and are classified as `single-plate`. These tests verified the payment challenges only; no new `$0.25` settlement or protected payload-delivery test was performed.
+All three registered Plates return deterministic `402 Payment Required` responses for `250000` USDC atomic units on Base and are classified as `single-plate`. These tests verified the payment challenges only; no new `$0.25` settlement or protected payload-delivery test was performed.
+
+Unknown Plate identifiers return `404` without a payment challenge. Known Plates without registered complete payloads return `409` without a payment challenge.
 
 Unknown Plate identifiers return `404` without a payment challenge. Known Plates without registered complete payloads return `409` without a payment challenge.
 
