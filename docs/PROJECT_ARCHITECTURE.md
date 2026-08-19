@@ -376,10 +376,11 @@ Current pricing version: `3.0.0`
 - Bounded subtree, registry, or System Map: `$5.00 USDC` — active
 - Full registry or Knowledge Mesh snapshot: `$25.00 USDC` — active
 
-Current active single-Plate route:
+Current active single-Plate routes:
 
 ```text
 /v1/plates/item/commercial-data-license-plate
+/v1/plates/item/commercial-intelligence-pricing-plate
 ```
 
 The Atomic and Enriched route classes remain reserved and must not issue payment challenges until their production endpoints are activated.
