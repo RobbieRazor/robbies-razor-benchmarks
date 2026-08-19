@@ -4635,10 +4635,19 @@
       "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/robbie-george",
       "plates": [
         {
-          "name": "Robbie George Biography Plate™",
-          "id": "robbie-george#robbie-george-biography-plate",
-          "type": "Naturepedia Biography Plate™"
-        }
+  "name": "Robbie George Biography Plate™",
+  "id": "robbie-george#robbie-george-biography-plate",
+  "url": "https://www.robbiegeorgephotography.com/who-is-robbie-george",
+  "type": "Naturepedia Biography Plate™",
+  "category": "Biography & Identity Plates",
+  "access": "x402",
+  "accessClass": "single-plate",
+  "priceUSDC": "0.25",
+  "atomicUnits": "250000",
+  "routeStatus": "active",
+  "x402Route": "https://www.robbiegeorgephotography.com/v1/plates/item/robbie-george-biography-plate",
+  "payloadUrl": "https://raw.githubusercontent.com/RobbieRazor/robbies-razor-benchmarks/main/docs/examples/json-ld/plates/robbie-george-biography-plate.json"
+}
       ]
     },
     {
