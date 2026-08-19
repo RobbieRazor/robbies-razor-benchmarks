@@ -142,17 +142,18 @@ These historical tier names and values are retained only as part of the original
 | Bounded subtree, registry, or System Map | `$5.00 USDC` | `5000000` | Active |
 | Full registry or Knowledge Mesh snapshot | `$25.00 USDC` | `25000000` | Active |
 
-Active Structured Plate™ route:
+Active Structured Plate™ routes:
 
 ```text
 /v1/plates/item/commercial-data-license-plate
+/v1/plates/item/commercial-intelligence-pricing-plate
 ```
 
 Authoritative pricing manifest:
 
 https://www.robbiegeorgephotography.com/.well-known/x402-pricing.json
 
-Status: Pricing manifest version `3.0.0` is live. The active Structured Plate™ route returned an unpaid `402` challenge with amount `250000` and gateway tier `single-plate`. An unknown Plate returned `404` without a payment challenge, while a known Plate without a registered structured payload returned `409` without a payment challenge. No new `$0.25` settlement or protected payload-delivery test was performed.
+Status: Pricing manifest version `3.0.0` is live. Both active Structured Plate™ routes returned unpaid `402` challenges with amount `250000` and gateway tier `single-plate`. An unknown Plate returned `404` without a payment challenge. The known but unregistered `robbie-george-biography-plate` returned `409` without a payment challenge. No new `$0.25` settlement or protected payload-delivery test was performed.
 
 ## Governance Header Verification
 
