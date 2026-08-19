@@ -115,14 +115,18 @@ const PROTECTED_ROUTE_EXAMPLES: Array<{
     prefix: "/x402/state-token.json",
     accessClass: "snapshot"
   },
+   {
+    prefix: "/v1/plates/item/commercial-data-license-plate",
+    accessClass: "single-plate"
+  },
   {
-  prefix: "/v1/plates/item/commercial-data-license-plate",
-  accessClass: "single-plate"
-},
-{
-  prefix: "/v1/plates/item/commercial-intelligence-pricing-plate",
-  accessClass: "single-plate"
-},
+    prefix: "/v1/plates/item/commercial-intelligence-pricing-plate",
+    accessClass: "single-plate"
+  },
+  {
+    prefix: "/v1/plates/item/robbie-george-biography-plate",
+    accessClass: "single-plate"
+  },
 {
   prefix: "/v1/plates/tree-system-map",
   accessClass: "subtree"
