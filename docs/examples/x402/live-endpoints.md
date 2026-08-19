@@ -264,13 +264,14 @@ Production `402` responses use deterministic Base USDC prices. Pricing is assign
 | Bounded subtree, registry, or System Map | $5.00 USDC | 5000000 | Active |
 | Full registry or Knowledge Mesh snapshot | $25.00 USDC | 25000000 | Active |
 
-Current active single-Plate route:
+Current active single-Plate routes:
 
 ```text
 /v1/plates/item/commercial-data-license-plate
+/v1/plates/item/commercial-intelligence-pricing-plate
 ```
 
-The registered Plate returns a deterministic `402 Payment Required` response for `250000` USDC atomic units on Base and is classified as `single-plate`.
+Both registered Plates return deterministic `402 Payment Required` responses for `250000` USDC atomic units on Base and are classified as `single-plate`. These tests verified the payment challenges only; no new `$0.25` settlement or protected payload-delivery test was performed.
 
 Unknown Plate identifiers return `404` without a payment challenge. Known Plates without registered complete payloads return `409` without a payment challenge.
 
