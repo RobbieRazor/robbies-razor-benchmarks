@@ -211,6 +211,7 @@ Additional protected v2 route roles:
 ```text
 /v1/plates/item/commercial-data-license-plate
 /v1/plates/item/commercial-intelligence-pricing-plate
+/v1/plates/item/robbie-george-biography-plate
 ```
 
 Verified no-payment challenge behavior:
@@ -246,6 +247,7 @@ Current active single-Plate routes:
 ```text
 /v1/plates/item/commercial-data-license-plate
 /v1/plates/item/commercial-intelligence-pricing-plate
+/v1/plates/item/robbie-george-biography-plate
 ```
 
 The exact `/api/v2/rrip/resolve` and `/api/v2/razor/state-token` control-plane routes remain free. Related protected snapshot payloads may require the `$25.00 USDC` snapshot price.
