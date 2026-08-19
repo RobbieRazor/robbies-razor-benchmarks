@@ -206,6 +206,29 @@ Additional protected v2 route roles:
 
 ## Pricing Class Logic
 
+### Verified Single-Plate Challenge Route
+
+```text
+/v1/plates/item/commercial-data-license-plate
+```
+
+Verified no-payment challenge behavior:
+
+- HTTP status: `402 Payment Required`
+- Access class: `single-plate`
+- Price: `$0.25 USDC`
+- Atomic units: `250000`
+- Network: Base / `eip155:8453`
+- Asset: USDC
+- Payload source: GitHub canonical Plate registry
+- Rights conveyed: one endpoint-level retrieval only
+
+Verified safety behavior:
+
+- Unknown Plate identifiers return `404` without a payment challenge.
+- Known Plates without registered complete payloads return `409` without a payment challenge.
+- No `$0.25` settlement was executed during these challenge and failure-boundary tests.
+
 Pricing is assigned by the delivered resource class rather than solely by its URL prefix.
 
 | Access class | Price | Atomic units | Route status |
@@ -213,13 +236,21 @@ Pricing is assigned by the delivered resource class rather than solely by its UR
 | Discovery and previews | Free | `0` | Active |
 | Atomic canonical query | `$0.005 USDC` | `5000` | Reserved |
 | Enriched relationship query | `$0.025 USDC` | `25000` | Reserved |
-| Structured Plate™ payload | `$0.25 USDC` | `250000` | Reserved |
+| Structured Plate™ payload | `$0.25 USDC` | `250000` | Active for registered payloads |
 | Bounded subtree, registry, or System Map | `$5.00 USDC` | `5000000` | Active |
 | Full registry or Knowledge Mesh snapshot | `$25.00 USDC` | `25000000` | Active |
 
+Current active single-Plate route:
+
+```text
+/v1/plates/item/commercial-data-license-plate
+```
+
 The exact `/api/v2/rrip/resolve` and `/api/v2/razor/state-token` control-plane routes remain free. Related protected snapshot payloads may require the `$25.00 USDC` snapshot price.
 
-Reserved routes must not issue payment challenges until their complete governed payloads are registered and available.
+Atomic and Enriched routes remain reserved. Structured Plate challenges are issued only when a complete registered payload passes preflight validation.
+
+Unknown Plate identifiers return `404` without a payment challenge. Known Plates without registered complete payloads return `409` without a payment challenge.
 
 Authoritative pricing manifest:
 
