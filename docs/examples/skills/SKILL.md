@@ -855,6 +855,7 @@ Current active single-Plate routes:
 ```text
 https://www.robbiegeorgephotography.com/v1/plates/item/commercial-data-license-plate
 https://www.robbiegeorgephotography.com/v1/plates/item/commercial-intelligence-pricing-plate
+https://www.robbiegeorgephotography.com/v1/plates/item/robbie-george-biography-plate
 ```
 
 Atomic and Enriched remain reserved and MUST NOT be treated as available until their production endpoints declare them active.
