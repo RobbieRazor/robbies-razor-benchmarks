@@ -386,9 +386,12 @@ Current fixed-price retrieval architecture:
 | Bounded subtree, registry, or System Map | $5.00 USDC | Active |
 | Full registry or Knowledge Mesh snapshot | $25.00 USDC | Active |
 
-Current active single-Plate route:
+Current active single-Plate routes:
 
+```text
 https://www.robbiegeorgephotography.com/v1/plates/item/commercial-data-license-plate
+https://www.robbiegeorgephotography.com/v1/plates/item/commercial-intelligence-pricing-plate
+```
 
 Atomic and Enriched routes remain reserved. Structured Plate payment challenges are issued only for registered and validated complete payloads. Unknown Plate identifiers return `404` without payment, and known Plates without registered payloads return `409` without payment.
 
