@@ -131,22 +131,28 @@ legacy    = $5.00
 
 These historical tier names and values are retained only as part of the original test record and are no longer the production pricing authority.
 
-## Current Pricing v3 Configuration — 2026-08-17
+## Current Pricing v3 Configuration — 2026-08-19
 
 | Access class | Price | Atomic units | Route status |
 |---|---:|---:|---|
 | Discovery and previews | Free | `0` | Active |
 | Atomic canonical query | `$0.005 USDC` | `5000` | Reserved |
 | Enriched relationship query | `$0.025 USDC` | `25000` | Reserved |
-| Structured Plate™ payload | `$0.25 USDC` | `250000` | Reserved |
+| Structured Plate™ payload | `$0.25 USDC` | `250000` | Active for registered and validated payloads |
 | Bounded subtree, registry, or System Map | `$5.00 USDC` | `5000000` | Active |
 | Full registry or Knowledge Mesh snapshot | `$25.00 USDC` | `25000000` | Active |
+
+Active Structured Plate™ route:
+
+```text
+/v1/plates/item/commercial-data-license-plate
+```
 
 Authoritative pricing manifest:
 
 https://www.robbiegeorgephotography.com/.well-known/x402-pricing.json
 
-Status: Pricing manifest version `3.0.0` is live. Post-deployment challenge-header and settlement re-verification must be recorded as a new observation.
+Status: Pricing manifest version `3.0.0` is live. The active Structured Plate™ route returned an unpaid `402` challenge with amount `250000` and gateway tier `single-plate`. An unknown Plate returned `404` without a payment challenge, while a known Plate without a registered structured payload returned `409` without a payment challenge. No new `$0.25` settlement or protected payload-delivery test was performed.
 
 ## Governance Header Verification
 
@@ -294,13 +300,18 @@ Pricing-v3 paid settlement and payload-delivery re-verification pending.
 * USDC settlement infrastructure configured
 * Governance headers enabled
 * Pricing manifest version `3.0.0` live
-* Atomic price configured as `5000`
-* Enriched price configured as `25000`
+* Atomic canonical-query price configured as `5000` and remains reserved
+* Enriched relationship-query price configured as `25000` and remains reserved
 * Structured Plate™ price configured as `250000`
+* Structured Plate™ retrieval active only for registered and validated payloads
+* Active Structured Plate™ route verified at `/v1/plates/item/commercial-data-license-plate`
+* Active Structured Plate™ route returned `402`, amount `250000`, and tier `single-plate`
+* Unknown Plate route returned `404` without a payment challenge
+* Known Plate without a registered payload returned `409` without a payment challenge
 * Subtree price configured as `5000000`
 * Snapshot price configured as `25000000`
 * Analytics Engine binding configured
 * Privacy-preserving analytics salt configured
-* Pricing-v3 challenge-header verification completed on 2026-08-18
-* Pricing-v3 settlement verification pending
-* Pricing-v3 payload-delivery verification pending
+* Pricing-v3 challenge-header verification completed
+* New `$0.25` Structured Plate™ settlement verification pending
+* New `$0.25` protected payload-delivery verification pending
