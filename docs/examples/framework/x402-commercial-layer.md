@@ -51,15 +51,14 @@ Current fixed-price retrieval architecture:
 | Bounded subtree, registry, or System Map | $5.00 USDC | Active |
 | Full registry or Knowledge Mesh snapshot | $25.00 USDC | Active |
 
-Current active Structured Plate™ route:
+Current active Structured Plate™ routes:
 
 ```text
 /v1/plates/item/commercial-data-license-plate
+/v1/plates/item/commercial-intelligence-pricing-plate
 ```
 
-Structured Plate™ payment challenges are issued only when a complete governed payload has been registered and validated. Unknown Plate identifiers return `404` without a payment challenge. Known Plates without registered structured payloads return `409` without a payment challenge.
-
-Atomic and enriched routes remain reserved and must not issue payment challenges until their complete governed endpoints and payloads are activated.
+Structured Plate™ payment challenges are issued only when a complete governed payload has been registered and validated. The Commercial Data License Plate™ and Commercial Intelligence Pricing Plate™ are currently active at `$0.25 USDC` per endpoint retrieval. Unknown Plate identifiers return `404` without a payment challenge. Known Plates without registered structured payloads return `409` without a payment challenge.
 
 Commercial data reuse rights require a separate written agreement. Robbie’s Razor™ framework implementation rights require a separate enterprise agreement. The live pricing manifest and actual production `402` response remain authoritative.
 
