@@ -44,7 +44,8 @@
   "routeStatus": "active",
   "activeRoutes": [
   "/v1/plates/item/commercial-data-license-plate",
-  "/v1/plates/item/commercial-intelligence-pricing-plate"
+  "/v1/plates/item/commercial-intelligence-pricing-plate",
+  "/v1/plates/item/robbie-george-biography-plate"
 ],
   "availabilityPolicy": "Payment challenges are issued only for registered and validated complete Plate payloads.",
   "failureBehavior": {
