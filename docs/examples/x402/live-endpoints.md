@@ -55,17 +55,81 @@ Legacy routes remain active for continuity:
 
 ### Current v1 Endpoint Families
 
-```text
-/v1/taxonomy/*
-/v1/plates/*
-/v1/sovereign/*
-```
+The production v1 machine-retrieval namespace includes:
 
-The v1 endpoint family maps to existing x402 payloads through Cloudflare Worker alias routing.
+    /v1/query/atomic/*
+    /v1/taxonomy/*
+    /v1/plates/*
+    /v1/registries/*
+    /v1/knowledge-mesh/*
+    /v1/sovereign/*
+
+#### Atomic Query Family
+
+Public route template:
+
+    /v1/query/atomic/{resource}
+
+Canonical internal route template:
+
+    /x402/query/atomic/{resource}
+
+Current active Atomic route:
+
+    /v1/query/atomic/robbie-george-biography-plate
+
+Canonical internal route:
+
+    /x402/query/atomic/robbie-george-biography-plate
+
+Current Atomic production state:
+
+    Access class: atomic
+    Price: 0.005 USDC
+    Atomic units: 5000
+    Resource class: atomic-query
+    Schema version: naturepedia.atomic-query.v1
+    Route status: active for registered deterministic payloads
+
+The Atomic route family uses explicit resource registration and does not treat the existence of the route pattern as proof that a payable resource exists.
+
+Production behavior:
+
+    Registered + complete Atomic resource
+    → 402 Payment Required
+    → amount 5000
+    → tier atomic
+
+    Known + incomplete Atomic resource
+    → 409
+    → no payment challenge
+
+    Unknown Atomic resource
+    → 404
+    → no payment challenge
+
+The current active route was production-validated on 2026-08-20.
+
+No Atomic payment or post-settlement Atomic HTTP 200 payload-delivery test was performed during that activation validation.
+
+#### Other v1 Retrieval Families
+
+The remaining v1 route families provide compatibility and public aliases for protected Naturepedia resources including:
+
+- taxonomy and identity resources
+- Structured Plate™ resources
+- bounded registries
+- System Maps
+- Knowledge Meshes
+- higher-order protected resources
+
+Applicable v1 routes normalize to their canonical internal resource paths through the Cloudflare Worker before pricing, availability validation, payment enforcement, and protected delivery.
 
 Legacy `/x402/*` paths remain active for backward compatibility and historical route continuity.
 
-First live x402 settlement has been successfully completed and verified.
+The first historical live x402 settlement has been successfully completed and verified on an existing protected route.
+
+That historical settlement must not be interpreted as a completed settlement for every current pricing class or every newly activated endpoint.
 
 ### Current v2 Endpoint Families
 
