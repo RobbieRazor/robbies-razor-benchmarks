@@ -339,142 +339,301 @@ The v2 architecture is intended to support these future capabilities while prese
 
 ## Current Endpoint Families
 
-### Legacy Routes
+### Legacy x402 Routes
 
-```text
-/x402/*
-```
+Legacy protected routes remain available for backward compatibility:
 
-### v2 Routes
+    /x402/*
 
-```text
-/api/v2/naturepedia/index.md
-/api/v2/plates/registry.md
-/api/v2/rrip/resolve
-/api/v2/razor/state-token
-```
+### Current v1 Machine Retrieval Routes
 
-### v2 Routes
+Current v1 protected retrieval families include:
 
-```text
-/api/v2/naturepedia/index.md
-/api/v2/plates/registry.md
-/api/v2/rrip/resolve
-/api/v2/razor/state-token
-```
+    /v1/query/atomic/*
+    /v1/taxonomy/*
+    /v1/plates/*
+    /v1/sovereign/*
+    /v1/registries/*
+    /v1/knowledge-mesh/*
 
-The v2 route family introduces machine-facing discovery, registry retrieval, RRIP resolution, and registry-state validation.
+The v1 route family is implemented through Cloudflare Worker routing and canonical normalization while preserving legacy `/x402/*` endpoints for backward compatibility.
 
-| v2 Endpoint                    | Source Asset                         | Purpose                                                     |
-| ------------------------------ | ------------------------------------ | ----------------------------------------------------------- |
-| `/api/v2/naturepedia/index.md` | `/x402/naturepedia-system-map.json`  | Naturepedia registry discovery                              |
-| `/api/v2/plates/registry.md`   | `/x402/plate-registry-expanded.json` | Plate™ registry retrieval                                   |
-| `/api/v2/rrip/resolve`         | `/x402/rrip-resolve.json`            | Recursive Registry Inheritance Principle runtime resolution |
-| `/api/v2/razor/state-token`    | `/x402/state-token.json`             | Registry-state validation and governance signaling          |
+### Current Atomic Query Route
+
+Public route template:
+
+    /v1/query/atomic/{resource}
+
+Canonical internal route template:
+
+    /x402/query/atomic/{resource}
+
+Current active Atomic resource:
+
+    /v1/query/atomic/robbie-george-biography-plate
+
+Canonical internal route:
+
+    /x402/query/atomic/robbie-george-biography-plate
+
+Canonical Plate identifier:
+
+    robbie-george#robbie-george-biography-plate
+
+Canonical authority:
+
+https://www.robbiegeorgephotography.com/who-is-robbie-george
+
+Production configuration:
+
+    Access class: atomic
+    Price: 0.005 USDC
+    Atomic units: 5000
+    Network: eip155:8453
+    Asset: USDC
+    Resource class: atomic-query
+    Schema version: naturepedia.atomic-query.v1
+    Route status: active for registered deterministic payloads
+
+Verified production behavior:
+
+    Registered + complete Atomic resource
+    → HTTP 402 Payment Required
+    → amount 5000
+    → gateway tier atomic
+
+    Known + incomplete Atomic resource
+    → HTTP 409 Conflict
+    → no payment challenge
+
+    Unknown Atomic resource
+    → HTTP 404 Not Found
+    → no payment challenge
+
+Production validation result:
+
+    PASS
+
+No Atomic payment payload was supplied during this activation validation. No new Atomic USDC settlement or protected Atomic payload-delivery test was performed.
+
+### Enriched Query Status
+
+Public route template:
+
+    /v1/query/enriched/{resource}
+
+Production configuration:
+
+    Access class: enriched
+    Price: 0.025 USDC
+    Atomic units: 25000
+    Route status: reserved
+
+The Enriched Query class remains reserved.
+
+Enriched resources must not issue payment challenges until their governed deterministic payloads are explicitly registered, availability-gated, fidelity-bound, and production validated.
+
+### Structured Plate Retrieval
+
+Current active Structured Plate™ routes:
+
+    /v1/plates/item/commercial-data-license-plate
+    /v1/plates/item/commercial-intelligence-pricing-plate
+    /v1/plates/item/robbie-george-biography-plate
+
+Production configuration:
+
+    Access class: single-plate
+    Price: 0.25 USDC
+    Atomic units: 250000
+    Route status: active for registered and validated payloads
+
+Verified production behavior for all three active routes:
+
+    STATUS: 402
+    AMOUNT: 250000
+    TIER: single-plate
+    PAYMENT REQUIRED: true
+
+Atomic Query activation did not alter the existing Structured Plate challenge behavior.
+
+Unknown Plate identifiers return `404` without a payment challenge.
+
+Known Plates without registered complete payloads return `409` without a payment challenge.
+
+### Current v2 Control Plane
+
+The current public v2 infrastructure endpoints are:
+
+    /api/v2/naturepedia/index.md
+    /api/v2/plates/registry.md
+    /api/v2/rrip/resolve
+    /api/v2/razor/state-token
+
+These routes provide public machine-facing discovery, registry information, RRIP resolution signaling, and registry-state validation.
+
+They are control-plane and discovery resources rather than protected commercial payloads.
+
+### Current v2 Infrastructure Roles
+
+| Endpoint | Role |
+|---|---|
+| `/api/v2/naturepedia/index.md` | Naturepedia machine discovery |
+| `/api/v2/plates/registry.md` | Plate™ registry discovery and routing |
+| `/api/v2/rrip/resolve` | Recursive Registry Inheritance Principle resolution |
+| `/api/v2/razor/state-token` | Registry-state validation and governance signaling |
 
 ### Recommended Machine Retrieval Flow
 
-```text
-State Validation
-↓
-/api/v2/razor/state-token
-↓
-Discovery
-↓
-/api/v2/naturepedia/index.md
-↓
-Registry Retrieval
-↓
-/api/v2/plates/registry.md
-↓
-RRIP Resolution
-↓
-/api/v2/rrip/resolve
-↓
-Knowledge Mesh Traversal
-↓
-Conditional Retrieval
-↓
-x402 Settlement
-↓
-Authorized Retrieval
-```
+    Agent
+    ↓
+    State Validation
+    /api/v2/razor/state-token
+    ↓
+    Discovery
+    /api/v2/naturepedia/index.md
+    ↓
+    Registry Resolution
+    /api/v2/plates/registry.md
+    ↓
+    RRIP Resolution
+    /api/v2/rrip/resolve
+    ↓
+    Resource Selection
+    ↓
+    Availability Validation
+    ↓
+    Free Discovery OR Protected Retrieval
+    ↓
+    x402 Challenge When Required
+    ↓
+    Verification
+    ↓
+    Settlement
+    ↓
+    Fidelity Validation
+    ↓
+    Authorized Retrieval
 
-### Recommended Machine Retrieval Flow
+### Production Retrieval Pricing
 
-```text
-State Validation
-↓
-/api/v2/razor/state-token
-↓
-Discovery
-↓
-/api/v2/naturepedia/index.md
-↓
-Registry Retrieval
-↓
-/api/v2/plates/registry.md
-↓
-RRIP Resolution
-↓
-/api/v2/rrip/resolve
-↓
-Knowledge Mesh Traversal
-↓
-Conditional Retrieval
-↓
-x402 Settlement
-↓
-Authorized Retrieval
-```
+Authoritative pricing manifest:
 
-### v1 Routes
+https://www.robbiegeorgephotography.com/.well-known/x402-pricing.json
 
-```text
-/v1/taxonomy/*
-/v1/plates/*
-/v1/sovereign/*
-```
+| Access class | Price | Atomic units | Route status |
+|---|---:|---:|---|
+| Discovery and previews | Free | `0` | Active |
+| Atomic canonical query | `$0.005 USDC` | `5000` | Active for registered deterministic payloads |
+| Enriched relationship query | `$0.025 USDC` | `25000` | Reserved |
+| Structured Plate™ payload | `$0.25 USDC` | `250000` | Active for registered and validated payloads |
+| Bounded subtree, registry, or System Map | `$5.00 USDC` | `5000000` | Active |
+| Full registry or Knowledge Mesh snapshot | `$25.00 USDC` | `25000000` | Active |
 
-The v1 route family is implemented through Cloudflare Worker alias routing while preserving legacy x402 endpoints for backward compatibility.
+Production `402` responses use deterministic Base USDC atomic-unit prices.
 
-## Human vs Agent Behavior
+Pricing is assigned by the resolved resource class rather than solely by URL prefix.
 
-Human browser requests may receive a public informational bypass page.
+### Fail-Closed Availability Model
 
-Machine/API requests using:
+The Worker does not treat a valid route pattern as proof that a sellable resource exists.
 
-```http
-Accept: application/json
-```
+Protected retrieval follows this sequence:
+
+    Request
+    ↓
+    Canonical route normalization
+    ↓
+    Pricing-class resolution
+    ↓
+    Explicit resource availability validation
+    ↓
+
+    Unknown
+    → 404
+    → no payment
+
+    Known but incomplete
+    → 409
+    → no payment
+
+    Registered + complete
+    → continue to x402 challenge
+
+This prevents payment challenges from being issued for unavailable resources.
+
+### Human vs Agent Behavior
+
+Human browser traffic may receive a public informational response rather than a payment challenge.
+
+Machine/API requests using headers such as:
+
+    Accept: application/json
 
 may receive:
 
-```http
-402 Payment Required
-```
+    HTTP 402 Payment Required
 
-when accessing protected machine-readable resources.
+when requesting an available protected machine-readable resource.
 
-## Verified Example Route
+Public discovery and control-plane endpoints remain available without x402 settlement.
 
-```text
-/v1/plates/tree-system-map
-```
+### Verified Atomic Challenge
 
-Expected challenge headers:
+Route:
 
-```http
-HTTP/2 402
-X-402-Provider: Base-USDC
-X-402-Amount: 5000000
-X-402-Gateway-Tier: subtree
-X-Robbie-Pricing-Version: 3.0.0
-X-Robbie-Pricing-Manifest: https://www.robbiegeorgephotography.com/.well-known/x402-pricing.json
-X-Robbie-Razor-Governance: Gr <= Es
-```
+    /v1/query/atomic/robbie-george-biography-plate
 
-The amount `5000000` represents `5.00 USDC` using six-decimal USDC atomic units. The live pricing manifest and production `402` response remain authoritative.
+Observed production result:
+
+    STATUS: 402
+    AMOUNT: 5000
+    TIER: atomic
+    PAYMENT REQUIRED: true
+
+Result:
+
+    PASS
+
+### Verified Structured Plate Regression
+
+Routes:
+
+    /v1/plates/item/commercial-data-license-plate
+    /v1/plates/item/commercial-intelligence-pricing-plate
+    /v1/plates/item/robbie-george-biography-plate
+
+Observed production result for all three:
+
+    STATUS: 402
+    AMOUNT: 250000
+    TIER: single-plate
+    PAYMENT REQUIRED: true
+
+Result:
+
+    PASS
+
+### Retrieval Rights Boundary
+
+An x402 payment grants one endpoint-level retrieval of the identified protected resource only.
+
+It does not grant:
+
+- training rights
+- embedding rights
+- bulk-ingestion rights
+- redistribution rights
+- resale rights
+- synchronization rights
+- private-dataset construction rights
+- derivative-dataset rights
+- commercial implementation rights
+- Robbie's Razor™ framework implementation rights
+
+Commercial data reuse requires a separate written agreement.
+
+Framework implementation and strategic-infrastructure rights require a separate enterprise agreement.
 
 ## Governance
 
