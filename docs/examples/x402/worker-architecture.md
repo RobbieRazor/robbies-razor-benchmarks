@@ -353,22 +353,115 @@ Result:
 
 Unknown Atomic resources are rejected before payment.
 
-### Enriched Query Architecture
+### Active Enriched Query Architecture
 
 Public route template:
 
     /v1/query/enriched/{resource}
 
-Production configuration:
+Canonical internal route template:
+
+    /x402/query/enriched/{resource}
+
+Current active Enriched route:
+
+    /v1/query/enriched/robbie-george-biography-plate
+
+Canonical internal route:
+
+    /x402/query/enriched/robbie-george-biography-plate
+
+Canonical Plate identifier:
+
+    robbie-george#robbie-george-biography-plate
+
+Canonical authority:
+
+https://www.robbiegeorgephotography.com/who-is-robbie-george
+
+Production Enriched configuration:
 
     Access class: enriched
     Price: 0.025 USDC
     Atomic units: 25000
-    Route status: reserved
+    Network: eip155:8453
+    Asset: USDC
+    Resource class: enriched-query
+    Schema version: naturepedia.enriched-query.v1
+    Route status: active
 
-The Enriched Query class remains reserved.
+Enriched `/v1` requests normalize to their canonical internal `/x402/query/enriched/` path before pricing, resource availability, payment verification, settlement, and payload-fidelity validation.
 
-Enriched resources must not issue payment challenges until their governed deterministic payloads are explicitly registered, availability-gated, fidelity-bound, and production validated.
+Enriched route classification occurs before broader `/x402/` fallback routing so an Enriched resource cannot fall through into another pricing class.
+
+### Enriched Resource Availability Boundary
+
+Enriched resources use the same explicit fail-closed registration model as Atomic Query resources.
+
+Required behavior:
+
+    Registered + complete governed deterministic Enriched payload
+    → eligible for payment challenge
+    → HTTP 402
+    → amount 25000
+    → gateway tier enriched
+
+    Known but incomplete Enriched resource
+    → HTTP 409
+    → no payment challenge
+
+    Unknown Enriched resource
+    → HTTP 404
+    → no payment challenge
+
+This boundary prevents payment from being requested for unavailable or unregistered Enriched deliverables.
+
+### Verified Enriched Production Challenge
+
+Verified active route:
+
+    /v1/query/enriched/robbie-george-biography-plate
+
+Observed production result:
+
+    STATUS: 402
+    AMOUNT: 25000
+    TIER: enriched
+    PAYMENT REQUIRED HEADER: true
+    PAYMENT REQUIRED: true
+    ERROR: Payment Required
+
+Result:
+
+    PASS
+
+This verifies the deterministic `0.025 USDC` Enriched Query challenge class.
+
+No payment payload was supplied during this validation. No new Enriched USDC settlement or post-settlement Enriched HTTP 200 protected-payload delivery test was performed.
+
+### Enriched Control-Plane Synchronization
+
+The Enriched class is synchronized across the production control plane:
+
+    Pricing Manifest: active
+    AI Root: active
+    AI Catalog: active
+    OpenAPI: active
+    MCP Server Card: active
+    Canonical Publication Manifest: active
+    v2 Plate Registry: active
+    State Token: active
+
+Current state-token baseline:
+
+    Registry version: 2026.08.20-v3
+    Synchronization: x402-v3-atomic-enriched-and-structured-plate-synchronized
+
+Production synchronization audit:
+
+    PASS: 12
+    FAIL: 0
+    FINAL RESULT: ENRICHED CONTROL PLANE SYNCHRONIZED
 
 ### Verified Single-Plate Challenge Routes
 
