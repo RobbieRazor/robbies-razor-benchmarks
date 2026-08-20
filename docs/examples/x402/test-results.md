@@ -131,30 +131,262 @@ legacy    = $5.00
 
 These historical tier names and values are retained only as part of the original test record and are no longer the production pricing authority.
 
-## Current Pricing v3 Configuration — 2026-08-19
+## Current Pricing v3 Configuration — 2026-08-20
 
 | Access class | Price | Atomic units | Route status |
 |---|---:|---:|---|
 | Discovery and previews | Free | `0` | Active |
-| Atomic canonical query | `$0.005 USDC` | `5000` | Reserved |
+| Atomic canonical query | `$0.005 USDC` | `5000` | Active for registered deterministic payloads |
 | Enriched relationship query | `$0.025 USDC` | `25000` | Reserved |
 | Structured Plate™ payload | `$0.25 USDC` | `250000` | Active for registered and validated payloads |
 | Bounded subtree, registry, or System Map | `$5.00 USDC` | `5000000` | Active |
 | Full registry or Knowledge Mesh snapshot | `$25.00 USDC` | `25000000` | Active |
 
-Active Structured Plate™ routes:
-
-```text
-/v1/plates/item/commercial-data-license-plate
-/v1/plates/item/commercial-intelligence-pricing-plate
-/v1/plates/item/robbie-george-biography-plate
-```
-
 Authoritative pricing manifest:
 
 https://www.robbiegeorgephotography.com/.well-known/x402-pricing.json
 
-Status: Pricing manifest version `3.0.0` is live. All three active Structured Plate™ routes returned unpaid `402` challenges with amount `250000` and gateway tier `single-plate`. An unknown Plate returned `404` without a payment challenge. The known but unregistered `robbies-razor-plate` returned `409` without a payment challenge. No new `$0.25` settlement or protected payload-delivery test was performed.
+### Atomic Query Production Activation — 2026-08-20
+
+Atomic Query was activated in production for explicitly registered deterministic resources.
+
+Current active route:
+
+    /v1/query/atomic/robbie-george-biography-plate
+
+Canonical internal route:
+
+    /x402/query/atomic/robbie-george-biography-plate
+
+Canonical resolved Plate identifier:
+
+    robbie-george#robbie-george-biography-plate
+
+Canonical authority:
+
+https://www.robbiegeorgephotography.com/who-is-robbie-george
+
+Production pricing:
+
+    Access class: atomic
+    Price: 0.005 USDC
+    Atomic units: 5000
+    Network: eip155:8453
+    Asset: USDC
+
+### Atomic Available-Resource Challenge Test
+
+Observed production result:
+
+    STATUS: 402
+    AMOUNT: 5000
+    TIER: atomic
+    PAYMENT REQUIRED HEADER: true
+    PAYMENT REQUIRED: true
+    ERROR: Payment Required
+
+Result:
+
+    PASS
+
+This verified that a registered Atomic Query resource with a complete deterministic payload issues the correct fixed `402 Payment Required` challenge at `5000` USDC atomic units.
+
+No payment payload was supplied, no USDC payment was authorized, no settlement was attempted, and protected Atomic payload delivery was not tested during this challenge observation.
+
+### Atomic Known-but-Incomplete Safety Test
+
+Test route:
+
+    /v1/query/atomic/robbies-razor-plate
+
+Observed production result:
+
+    STATUS: 409
+    AMOUNT: null
+    TIER: null
+    PAYMENT REQUIRED HEADER: false
+    PAYMENT REQUIRED: false
+    CODE: ATOMIC_PAYLOAD_NOT_REGISTERED
+    ROUTE STATUS: reserved
+
+Result:
+
+    PASS
+
+This verified that a recognized Atomic resource without a complete registered deterministic payload is rejected before payment.
+
+The route returned `409 Conflict` and did not expose an x402 amount, pricing tier, or payment challenge.
+
+### Atomic Unknown-Resource Safety Test
+
+Test route:
+
+    /v1/query/atomic/definitely-not-a-real-atomic-resource-20260820
+
+Observed production result:
+
+    STATUS: 404
+    AMOUNT: null
+    TIER: null
+    PAYMENT REQUIRED HEADER: false
+    PAYMENT REQUIRED: false
+    CODE: ATOMIC_RESOURCE_NOT_FOUND
+    ERROR: Atomic Query resource not found
+
+Result:
+
+    PASS
+
+This verified that an unknown Atomic resource is rejected before payment.
+
+The route returned `404 Not Found` and did not expose an x402 amount, pricing tier, or payment challenge.
+
+### Atomic Production Safety Matrix
+
+    Registered + complete Atomic resource
+    → 402 Payment Required
+    → amount 5000
+    → tier atomic
+
+    Known + incomplete Atomic resource
+    → 409 Conflict
+    → no payment challenge
+
+    Unknown Atomic resource
+    → 404 Not Found
+    → no payment challenge
+
+Status:
+
+    PASS
+
+### Atomic Discovery-Surface Validation — 2026-08-20
+
+A consolidated production validation was performed after deployment of the synchronized machine-discovery metadata.
+
+Observed results:
+
+    PASS — Pricing manifest HTTP 200 — status=200
+    PASS — Atomic pricing active — status=active, price=0.005, units=5000
+    PASS — Atomic active route registered — /v1/query/atomic/robbie-george-biography-plate
+    PASS — Enriched remains reserved — status=reserved, price=0.025, units=25000
+
+    PASS — AI Catalog HTTP 200 — status=200
+    PASS — Atomic resource in AI Catalog — status=active, price=0.005, units=5000
+
+    PASS — OpenAPI HTTP 200 — status=200
+    PASS — Atomic OpenAPI route present — getNaturepediaAtomicQuery
+    PASS — OpenAPI Atomic price correct
+
+    PASS — Canonical Publication Manifest HTTP 200 — status=200
+    PASS — CPM Atomic active
+    PASS — CPM Enriched reserved
+
+    PASS — AI Root HTTP 200 — status=200
+    PASS — AI Root Atomic active
+    PASS — AI Root Enriched reserved
+
+    PASS — MCP server card HTTP 200 — status=200
+    PASS — MCP Atomic active
+    PASS — MCP Enriched reserved
+
+    PASS — Atomic live challenge — status=402, amount=5000, tier=atomic
+
+Overall result:
+
+    PASS
+
+This confirms that the active Atomic Query class is synchronized across:
+
+- production Worker routing
+- x402 pricing manifest
+- AI Catalog
+- OpenAPI service description
+- Canonical Publication Manifest
+- AI Root
+- MCP server-card metadata
+- live x402 challenge behavior
+
+The Enriched Query class remains reserved at `0.025 USDC` / `25000` atomic units.
+
+### Structured Plate Regression Verification — 2026-08-20
+
+The three existing registered Structured Plate™ routes were retested after Atomic activation.
+
+Routes:
+
+    /v1/plates/item/commercial-data-license-plate
+    /v1/plates/item/commercial-intelligence-pricing-plate
+    /v1/plates/item/robbie-george-biography-plate
+
+Observed result for all three:
+
+    STATUS: 402
+    AMOUNT: 250000
+    TIER: single-plate
+    PAYMENT REQUIRED: true
+
+Result:
+
+    PASS
+
+Atomic Query activation did not alter the existing `$0.25` Structured Plate challenge behavior.
+
+No new `$0.25` settlement or protected Structured Plate payload-delivery test was performed during this regression validation.
+
+Unknown Plate identifiers continue to return `404` without a payment challenge.
+
+Known Plates without complete registered payloads continue to return `409` without a payment challenge.
+
+### Current Production Retrieval State
+
+    Discovery
+    Free
+    Active
+
+    Atomic Query
+    0.005 USDC
+    5000 atomic units
+    Active for explicitly registered deterministic payloads
+
+    Enriched Query
+    0.025 USDC
+    25000 atomic units
+    Reserved
+
+    Structured Plate
+    0.25 USDC
+    250000 atomic units
+    Active for registered and validated payloads
+
+    Bounded Registry / Taxonomy / System Map
+    5.00 USDC
+    5000000 atomic units
+    Active
+
+    Full Registry / Knowledge Mesh / Snapshot
+    25.00 USDC
+    25000000 atomic units
+    Active
+
+### Retrieval Rights Boundary
+
+An x402 payment grants one endpoint-level retrieval of the identified resource only.
+
+Payment does not grant:
+
+- training rights
+- embedding rights
+- bulk-ingestion rights
+- redistribution rights
+- resale rights
+- synchronization rights
+- private-dataset construction rights
+- derivative-dataset rights
+- commercial implementation rights
+- Robbie's Razor™ framework implementation rights
+
+Commercial reuse and framework implementation remain subject to separate written licensing agreements.
 
 
 ## Governance Header Verification
