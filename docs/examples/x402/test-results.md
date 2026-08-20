@@ -399,131 +399,221 @@ X-Robbie-Razor-Governance: Gr <= Es
 
 ### Legacy x402 Routes
 
-```text
-/x402/*
-```
+Legacy protected-resource routes remain available for backward compatibility:
 
-Verified endpoint count:
+    /x402/*
 
-```text
-14
-```
+The historical endpoint count recorded before Atomic Query activation was:
 
-### v1 Compatibility Routes
+    14
 
-```text
-/v1/taxonomy/*
-/v1/plates/*
-/v1/sovereign/*
-```
+This historical count is retained as provenance and should not be interpreted as the current total production route count.
 
-Verified endpoint count:
+### Current v1 Machine Retrieval Families
 
-```text
-12
-```
+Current v1 machine-retrieval families include:
 
-### v2 Infrastructure and Retrieval Routes
+    /v1/query/atomic/*
+    /v1/taxonomy/*
+    /v1/plates/*
+    /v1/registries/*
+    /v1/knowledge-mesh/*
+    /v1/sovereign/*
 
-```text
-/api/v2/naturepedia/*
-/api/v2/plates/*
-/api/v2/rrip/*
-/api/v2/razor/*
-```
+The current production v1 architecture includes both canonical route families and resource-specific aliases.
 
-Verified endpoint count:
+Because route registration continues to evolve, this test record does not assert a new aggregate v1 route count without a dedicated inventory test.
 
-```text
-8
-```
+### Atomic Query Family
 
-### Core v2 Infrastructure Endpoints Verified
+Public route template:
 
-```text
-/api/v2/naturepedia/index.md
-/api/v2/plates/registry.md
-/api/v2/rrip/resolve
-/api/v2/razor/state-token
-```
+    /v1/query/atomic/{resource}
+
+Canonical internal route template:
+
+    /x402/query/atomic/{resource}
+
+Current active Atomic route:
+
+    /v1/query/atomic/robbie-george-biography-plate
+
+Production state:
+
+    Access class: atomic
+    Price: 0.005 USDC
+    Atomic units: 5000
+    Resource class: atomic-query
+    Schema version: naturepedia.atomic-query.v1
+    Route status: active for registered deterministic payloads
 
 Verified behavior:
 
-```text
-200 OK
-Worker-served
-Machine-readable
-Governance-enabled
-```
+    Registered + complete
+    → 402
+    → amount 5000
+    → tier atomic
+    → payment challenge present
 
-### Machine-Facing Architecture Inventory
+    Known + incomplete
+    → 409
+    → no payment challenge
 
-```text
-x402 Routes: 14
-v1 Routes:   12
-v2 Routes:    8
-----------------
-Total:       34
-```
+    Unknown
+    → 404
+    → no payment challenge
+
+Result:
+
+    PASS
+
+### v2 Infrastructure and Retrieval Routes
+
+Current v2 families:
+
+    /api/v2/naturepedia/*
+    /api/v2/plates/*
+    /api/v2/rrip/*
+    /api/v2/razor/*
+
+Core v2 infrastructure endpoints verified:
+
+    /api/v2/naturepedia/index.md
+    /api/v2/plates/registry.md
+    /api/v2/rrip/resolve
+    /api/v2/razor/state-token
+
+Verified behavior:
+
+    200 OK
+    Worker-served
+    Machine-readable
+    Governance-enabled
+
+The historical v2 endpoint count recorded before the current Atomic activation remains:
+
+    8
+
+This value is retained as a historical inventory observation rather than a claim about every currently registered Worker route.
+
+### Current Machine-Facing Architecture
+
+The production architecture should now be interpreted by functional layer rather than relying on the older aggregate route-count total:
+
+    Public Authority
+    ↓
+    Public Discovery
+    ↓
+    Registry
+    ↓
+    Resolution
+    ↓
+    State Validation
+    ↓
+    Resource Availability Validation
+    ↓
+    Retrieval Class Resolution
+    ↓
+    x402 Challenge when required
+    ↓
+    Verification
+    ↓
+    Settlement
+    ↓
+    Fidelity Validation
+    ↓
+    Authorized Retrieval
 
 ### Architecture Layers Verified
 
-```text
-Discovery
-Registry
-Resolution
-Validation
-Settlement
-```
+    Discovery
+    Registry
+    Resolution
+    Validation
+    Availability gating
+    Deterministic pricing
+    Settlement infrastructure
+    Fidelity validation
 
 ### Registry-State Synchronization Verified
 
-```text
-State-token endpoint deployed
-RRIP endpoint deployed
-Registry endpoint deployed
-Discovery endpoint deployed
-Worker routing verified
-v2 alias routing verified
-```
+    State-token endpoint deployed
+    RRIP endpoint deployed
+    Registry endpoint deployed
+    Discovery endpoint deployed
+    Worker routing verified
+    v2 alias routing verified
+    Atomic route normalization verified
+    Atomic availability boundary verified
+    Atomic pricing classification verified
 
 ## Current Status
 
-```text
-Production infrastructure live.
+    Production infrastructure live.
 
-Historical x402 challenge verified.
+    Historical x402 challenge verified.
 
-Historical Base USDC settlement verified.
+    Historical Base USDC settlement verified.
 
-Historical protected payload delivery verified.
+    Historical protected payload delivery verified.
 
-Human browser bypass verified.
+    Human browser bypass verified.
 
-Discovery Plane live.
+    Discovery Plane live.
 
-Registry Plane live.
+    Registry Plane live.
 
-RRIP Resolution Plane live.
+    RRIP Resolution Plane live.
 
-State Validation Plane live.
+    State Validation Plane live.
 
-v1 compatibility architecture active.
+    v1 compatibility architecture active.
 
-v2 machine retrieval architecture active.
+    v2 machine retrieval architecture active.
 
-Pricing manifest version 3.0.0 live.
+    Pricing manifest version 3.0.0 live.
 
-New deterministic pricing variables configured.
+    Deterministic pricing variables configured.
 
-Analytics Engine binding configured.
+    Atomic Query active for explicitly registered deterministic payloads.
 
-Privacy-preserving analytics salt configured.
+    Atomic Query price:
+    0.005 USDC / 5000 atomic units.
 
-Pricing-v3 challenge-header verification completed on 2026-08-18.
+    Atomic production challenge:
+    402 / 5000 / atomic — PASS.
 
-Pricing-v3 paid settlement and payload-delivery re-verification pending.
-```
+    Atomic known-incomplete boundary:
+    409 / no payment challenge — PASS.
+
+    Atomic unknown-resource boundary:
+    404 / no payment challenge — PASS.
+
+    Enriched Query remains reserved:
+    0.025 USDC / 25000 atomic units.
+
+    Structured Plate retrieval active for registered and validated payloads.
+
+    Structured Plate regression validation:
+    402 / 250000 / single-plate — PASS.
+
+    Subtree retrieval active:
+    5.00 USDC / 5000000 atomic units.
+
+    Snapshot retrieval active:
+    25.00 USDC / 25000000 atomic units.
+
+    Analytics Engine binding configured.
+
+    Privacy-preserving analytics salt configured.
+
+    Pricing-v3 challenge-header verification completed.
+
+    Atomic discovery-surface synchronization validated on 2026-08-20.
+
+    New Atomic paid settlement and HTTP 200 protected payload-delivery verification pending.
+
+    New Structured Plate paid settlement and protected payload-delivery re-verification pending.
 
 ## Validation Checklist
 
@@ -535,8 +625,21 @@ Pricing-v3 paid settlement and payload-delivery re-verification pending.
 * USDC settlement infrastructure configured
 * Governance headers enabled
 * Pricing manifest version `3.0.0` live
-* Atomic canonical-query price configured as `5000` and remains reserved
-* Enriched relationship-query price configured as `25000` and remains reserved
+* Atomic canonical-query price configured as `5000`
+* Atomic canonical-query production class is active for explicitly registered deterministic payloads
+* Active Atomic route verified at `/v1/query/atomic/robbie-george-biography-plate`
+* Active Atomic route returned `402`, amount `5000`, and tier `atomic`
+* Atomic `PAYMENT-REQUIRED` challenge behavior verified
+* Known incomplete Atomic route `/v1/query/atomic/robbies-razor-plate` returned `409` without a payment challenge
+* Unknown Atomic resource returned `404` without a payment challenge
+* Atomic pricing synchronized with the production pricing manifest
+* Atomic route synchronized with the AI Catalog
+* Atomic route synchronized with OpenAPI
+* Atomic state synchronized with the Canonical Publication Manifest
+* Atomic state synchronized with AI Root
+* Atomic state synchronized with MCP server-card metadata
+* Enriched relationship-query price configured as `25000`
+* Enriched relationship-query class remains reserved
 * Structured Plate™ price configured as `250000`
 * Structured Plate™ retrieval active only for registered and validated payloads
 * Active Structured Plate™ route verified at `/v1/plates/item/commercial-data-license-plate`
@@ -545,11 +648,21 @@ Pricing-v3 paid settlement and payload-delivery re-verification pending.
 * All three active Structured Plate™ routes returned `402`, amount `250000`, and tier `single-plate`
 * Unknown Plate routes return `404` without a payment challenge
 * Known Plates without registered complete payloads return `409` without a payment challenge
-* Known unregistered route `/v1/plates/item/robbies-razor-plate` returned `409` without a payment challenge
+* Known incomplete Plate route `/v1/plates/item/robbies-razor-plate` returned `409` without a payment challenge
 * Subtree price configured as `5000000`
 * Snapshot price configured as `25000000`
 * Analytics Engine binding configured
 * Privacy-preserving analytics salt configured
 * Pricing-v3 challenge-header verification completed
+* New Atomic paid settlement verification pending
+* New Atomic protected HTTP `200` payload-delivery verification pending
 * New `$0.25` Structured Plate™ settlement verification pending
-* New `$0.25` protected payload-delivery verification pending
+* New `$0.25` protected Structured Plate payload-delivery verification pending
+
+## Rights and Evidence Boundary
+
+Successful x402 challenge behavior, payment settlement, or protected payload delivery does not establish scientific validation, canonical truth, authorship transfer, or broader licensing rights.
+
+An x402 payment grants one endpoint-level retrieval only.
+
+Commercial data reuse and Robbie's Razor™ framework implementation require separate written agreements.
