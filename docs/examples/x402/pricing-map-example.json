@@ -25,8 +25,23 @@
       "name": "Atomic Canonical Query",
       "amountUSDC": "0.005",
       "atomicUnits": "5000",
-      "routeStatus": "reserved",
-      "useCase": "One fact, identifier resolution, routing result, or compact canonical answer."
+      "routeStatus": "active",
+      "routeTemplate": "/v1/query/atomic/{resource}",
+      "activeRoutes": [
+        "/v1/query/atomic/robbie-george-biography-plate"
+      ],
+      "canonicalInternalRoutes": [
+        "/x402/query/atomic/robbie-george-biography-plate"
+      ],
+      "availabilityPolicy": "Payment challenges are issued only for explicitly registered Atomic Query resources with complete deterministic payloads.",
+      "failureBehavior": {
+        "unknownResource": "404 without payment challenge",
+        "knownIncompleteResource": "409 without payment challenge",
+        "registeredCompleteResource": "402 Payment Required with amount 5000 and gateway tier atomic"
+      },
+      "resourceClass": "atomic-query",
+      "schemaVersion": "naturepedia.atomic-query.v1",
+      "useCase": "One narrowly bounded canonical fact, identifier resolution, routing result, or compact canonical answer."
     },
     {
       "id": "enriched",
@@ -34,26 +49,27 @@
       "amountUSDC": "0.025",
       "atomicUnits": "25000",
       "routeStatus": "reserved",
+      "routeTemplate": "/v1/query/enriched/{resource}",
       "useCase": "Multiple relationships, citations, provenance, or modest enrichment."
     },
     {
-  "id": "single-plate",
-  "name": "Structured Plate",
-  "amountUSDC": "0.25",
-  "atomicUnits": "250000",
-  "routeStatus": "active",
-  "activeRoutes": [
-  "/v1/plates/item/commercial-data-license-plate",
-  "/v1/plates/item/commercial-intelligence-pricing-plate",
-  "/v1/plates/item/robbie-george-biography-plate"
-],
-  "availabilityPolicy": "Payment challenges are issued only for registered and validated complete Plate payloads.",
-  "failureBehavior": {
-    "unknownPlate": "404 without payment challenge",
-    "knownUnregisteredPlate": "409 without payment challenge"
-  },
-  "useCase": "One complete structured Plate payload with registered relationships, citations, provenance, and governance fields."
-},
+      "id": "single-plate",
+      "name": "Structured Plate",
+      "amountUSDC": "0.25",
+      "atomicUnits": "250000",
+      "routeStatus": "active",
+      "activeRoutes": [
+        "/v1/plates/item/commercial-data-license-plate",
+        "/v1/plates/item/commercial-intelligence-pricing-plate",
+        "/v1/plates/item/robbie-george-biography-plate"
+      ],
+      "availabilityPolicy": "Payment challenges are issued only for registered and validated complete Plate payloads.",
+      "failureBehavior": {
+        "unknownPlate": "404 without payment challenge",
+        "knownUnregisteredPlate": "409 without payment challenge"
+      },
+      "useCase": "One complete structured Plate payload with registered relationships, citations, provenance, and governance fields."
+    },
     {
       "id": "subtree",
       "name": "Bounded Subtree, Registry, or System Map",
@@ -78,12 +94,48 @@
       "embedding rights",
       "bulk-ingestion rights",
       "redistribution rights",
+      "resale rights",
       "synchronization rights",
+      "private-dataset construction rights",
       "derivative-dataset rights",
+      "commercial implementation rights",
       "framework implementation rights"
     ],
     "commercialDataRights": "Requires a separate written agreement.",
     "frameworkImplementationRights": "Requires a separate enterprise agreement."
+  },
+  "productionValidation": {
+    "date": "2026-08-20",
+    "atomicAvailableResource": {
+      "route": "/v1/query/atomic/robbie-george-biography-plate",
+      "status": 402,
+      "amountAtomicUnits": "5000",
+      "gatewayTier": "atomic",
+      "paymentRequired": true,
+      "result": "PASS"
+    },
+    "atomicKnownIncompleteResource": {
+      "route": "/v1/query/atomic/robbies-razor-plate",
+      "status": 409,
+      "paymentRequired": false,
+      "result": "PASS"
+    },
+    "atomicUnknownResource": {
+      "status": 404,
+      "paymentRequired": false,
+      "result": "PASS"
+    },
+    "structuredPlateRegression": {
+      "routesTested": [
+        "/v1/plates/item/commercial-data-license-plate",
+        "/v1/plates/item/commercial-intelligence-pricing-plate",
+        "/v1/plates/item/robbie-george-biography-plate"
+      ],
+      "status": 402,
+      "amountAtomicUnits": "250000",
+      "gatewayTier": "single-plate",
+      "result": "PASS"
+    }
   },
   "interpretation": "This repository file is a non-enforcing reference mirror. The live production pricing manifest and actual production 402 response remain authoritative.",
   "attribution": "Created by Robbie George, Architect of Record for Naturepedia, Robbie’s Razor, and the Grand Compression knowledge system."
