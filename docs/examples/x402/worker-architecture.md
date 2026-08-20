@@ -206,59 +206,295 @@ Additional protected v2 route roles:
 
 ## Pricing Class Logic
 
-### Verified Single-Plate Challenge Routes
-
-```text
-/v1/plates/item/commercial-data-license-plate
-/v1/plates/item/commercial-intelligence-pricing-plate
-/v1/plates/item/robbie-george-biography-plate
-```
-
-Verified no-payment challenge behavior:
-
-- HTTP status: `402 Payment Required`
-- Access class: `single-plate`
-- Price: `$0.25 USDC`
-- Atomic units: `250000`
-- Network: Base / `eip155:8453`
-- Asset: USDC
-- Payload source: GitHub canonical Plate registry
-- Rights conveyed: one endpoint-level retrieval only
-
-Verified safety behavior:
-
-- Unknown Plate identifiers return `404` without a payment challenge.
-- Known Plates without registered complete payloads return `409` without a payment challenge.
-- No `$0.25` settlement was executed during these challenge and failure-boundary tests.
-
 Pricing is assigned by the delivered resource class rather than solely by its URL prefix.
-
-| Access class | Price | Atomic units | Route status |
-|---|---:|---:|---|
-| Discovery and previews | Free | `0` | Active |
-| Atomic canonical query | `$0.005 USDC` | `5000` | Reserved |
-| Enriched relationship query | `$0.025 USDC` | `25000` | Reserved |
-| Structured Plate™ payload | `$0.25 USDC` | `250000` | Active for registered payloads |
-| Bounded subtree, registry, or System Map | `$5.00 USDC` | `5000000` | Active |
-| Full registry or Knowledge Mesh snapshot | `$25.00 USDC` | `25000000` | Active |
-
-Current active single-Plate routes:
-
-```text
-/v1/plates/item/commercial-data-license-plate
-/v1/plates/item/commercial-intelligence-pricing-plate
-/v1/plates/item/robbie-george-biography-plate
-```
-
-The exact `/api/v2/rrip/resolve` and `/api/v2/razor/state-token` control-plane routes remain free. Related protected snapshot payloads may require the `$25.00 USDC` snapshot price.
-
-Atomic and Enriched routes remain reserved. Structured Plate challenges are issued only when a complete registered payload passes preflight validation.
-
-Unknown Plate identifiers return `404` without a payment challenge. Known Plates without registered complete payloads return `409` without a payment challenge.
 
 Authoritative pricing manifest:
 
 https://www.robbiegeorgephotography.com/.well-known/x402-pricing.json
+
+| Access class | Price | Atomic units | Route status |
+|---|---:|---:|---|
+| Discovery and previews | Free | `0` | Active |
+| Atomic canonical query | `$0.005 USDC` | `5000` | Active for registered deterministic payloads |
+| Enriched relationship query | `$0.025 USDC` | `25000` | Reserved |
+| Structured Plate™ payload | `$0.25 USDC` | `250000` | Active for registered and validated payloads |
+| Bounded subtree, registry, or System Map | `$5.00 USDC` | `5000000` | Active |
+| Full registry or Knowledge Mesh snapshot | `$25.00 USDC` | `25000000` | Active |
+
+### Active Atomic Query Architecture
+
+Public route template:
+
+    /v1/query/atomic/{resource}
+
+Canonical internal route template:
+
+    /x402/query/atomic/{resource}
+
+Current active Atomic route:
+
+    /v1/query/atomic/robbie-george-biography-plate
+
+Canonical internal route:
+
+    /x402/query/atomic/robbie-george-biography-plate
+
+Canonical Plate identifier:
+
+    robbie-george#robbie-george-biography-plate
+
+Canonical authority:
+
+https://www.robbiegeorgephotography.com/who-is-robbie-george
+
+Production Atomic configuration:
+
+    Access class: atomic
+    Price: 0.005 USDC
+    Atomic units: 5000
+    Network: eip155:8453
+    Asset: USDC
+    Resource class: atomic-query
+    Schema version: naturepedia.atomic-query.v1
+    Route status: active
+
+Atomic `/v1` requests normalize to their canonical internal `/x402/query/atomic/` path before pricing, resource availability, payment verification, settlement, and payload-fidelity validation.
+
+Atomic route classification occurs before broader `/x402/` fallback routing so an Atomic resource cannot fall through into subtree or snapshot pricing.
+
+### Atomic Resource Availability Boundary
+
+Atomic resources use an explicit registration model.
+
+A route pattern alone is not proof that a sellable resource exists.
+
+Required behavior:
+
+    Registered + complete deterministic Atomic payload
+    → eligible for payment challenge
+    → HTTP 402
+    → amount 5000
+    → gateway tier atomic
+
+    Known but incomplete Atomic resource
+    → HTTP 409
+    → no payment challenge
+
+    Unknown Atomic resource
+    → HTTP 404
+    → no payment challenge
+
+This fail-closed boundary ensures the Worker does not request payment for an unavailable or unregistered Atomic deliverable.
+
+### Verified Atomic Production Challenge
+
+Verified active route:
+
+    /v1/query/atomic/robbie-george-biography-plate
+
+Observed production result:
+
+    STATUS: 402
+    AMOUNT: 5000
+    TIER: atomic
+    PAYMENT REQUIRED HEADER: true
+    PAYMENT REQUIRED: true
+    ERROR: Payment Required
+
+Result:
+
+    PASS
+
+This verifies the deterministic `$0.005 USDC` Atomic Query challenge class.
+
+No payment payload was supplied during this validation. No new Atomic USDC settlement or protected Atomic payload-delivery test was performed.
+
+### Verified Atomic Known-Incomplete Boundary
+
+Verified route:
+
+    /v1/query/atomic/robbies-razor-plate
+
+Observed result:
+
+    STATUS: 409
+    AMOUNT: null
+    TIER: null
+    PAYMENT REQUIRED HEADER: false
+    PAYMENT REQUIRED: false
+    CODE: ATOMIC_PAYLOAD_NOT_REGISTERED
+    ROUTE STATUS: reserved
+
+Result:
+
+    PASS
+
+The recognized resource is not charged because a complete deterministic Atomic payload is not registered.
+
+### Verified Atomic Unknown-Resource Boundary
+
+Verified route:
+
+    /v1/query/atomic/definitely-not-a-real-atomic-resource-20260820
+
+Observed result:
+
+    STATUS: 404
+    AMOUNT: null
+    TIER: null
+    PAYMENT REQUIRED HEADER: false
+    PAYMENT REQUIRED: false
+    CODE: ATOMIC_RESOURCE_NOT_FOUND
+    ERROR: Atomic Query resource not found
+
+Result:
+
+    PASS
+
+Unknown Atomic resources are rejected before payment.
+
+### Enriched Query Architecture
+
+Public route template:
+
+    /v1/query/enriched/{resource}
+
+Production configuration:
+
+    Access class: enriched
+    Price: 0.025 USDC
+    Atomic units: 25000
+    Route status: reserved
+
+The Enriched Query class remains reserved.
+
+Enriched resources must not issue payment challenges until their governed deterministic payloads are explicitly registered, availability-gated, fidelity-bound, and production validated.
+
+### Verified Single-Plate Challenge Routes
+
+Current active Structured Plate™ routes:
+
+    /v1/plates/item/commercial-data-license-plate
+    /v1/plates/item/commercial-intelligence-pricing-plate
+    /v1/plates/item/robbie-george-biography-plate
+
+Verified no-payment challenge behavior for all three:
+
+    HTTP status: 402 Payment Required
+    Access class: single-plate
+    Price: 0.25 USDC
+    Atomic units: 250000
+    Network: Base / eip155:8453
+    Asset: USDC
+    Rights conveyed: one endpoint-level retrieval only
+
+Observed regression result:
+
+    STATUS: 402
+    AMOUNT: 250000
+    TIER: single-plate
+    PAYMENT REQUIRED: true
+
+Result:
+
+    PASS
+
+Atomic activation did not alter the existing Structured Plate challenge class.
+
+Verified Structured Plate safety behavior:
+
+- Unknown Plate identifiers return `404` without a payment challenge.
+- Known Plates without registered complete payloads return `409` without a payment challenge.
+- Structured Plate challenges are issued only when a complete registered payload passes availability and payload-source preflight validation.
+- No new `$0.25 USDC` settlement was executed during the Atomic production validation round.
+
+### Other Active Pricing Classes
+
+Bounded Registry, Taxonomy Subtree, and System Map retrieval:
+
+    Access class: subtree
+    Price: 5.00 USDC
+    Atomic units: 5000000
+    Route status: active
+
+Full Registry, Knowledge Mesh, RRIP protected resource, state-token protected resource, and premium snapshot retrieval:
+
+    Access class: snapshot
+    Price: 25.00 USDC
+    Atomic units: 25000000
+    Route status: active
+
+The exact public control-plane endpoints:
+
+    /api/v2/rrip/resolve
+    /api/v2/razor/state-token
+
+remain free discovery and validation surfaces.
+
+Related protected snapshot payloads may require the `$25.00 USDC` snapshot price.
+
+### Protected Retrieval Safety Sequence
+
+The Worker uses a fail-closed retrieval sequence:
+
+    Request
+    ↓
+    Canonical route normalization
+    ↓
+    Gateway-tier classification
+    ↓
+    Explicit resource availability check
+    ↓
+    Unknown → 404 / no payment
+    Known but incomplete → 409 / no payment
+    Registered + complete → continue
+    ↓
+    Deterministic x402 challenge
+    ↓
+    Payment verification
+    ↓
+    Settlement
+    ↓
+    Exact protected payload construction
+    ↓
+    Tollbooth boundary fidelity validation
+    ↓
+    Canonical payload hash
+    ↓
+    Request-binding hash
+    ↓
+    Authorized response
+
+For Atomic Query delivery, fidelity validation requires:
+
+    Resource class: atomic-query
+    Gateway tier: atomic
+    Schema version: naturepedia.atomic-query.v1
+    Canonical /x402/ path
+    Registered Canonical Publication Manifest record
+
+This prevents an Atomic payload from being delivered under the wrong price class or resource class.
+
+### Retrieval Rights Boundary
+
+x402 payment grants one endpoint-level retrieval of the identified protected resource only.
+
+It does not grant:
+
+- training rights
+- embedding rights
+- bulk-ingestion rights
+- redistribution rights
+- resale rights
+- synchronization rights
+- private-dataset construction rights
+- derivative-dataset rights
+- commercial implementation rights
+- Robbie's Razor™ framework implementation rights
+
+Commercial data reuse requires a separate written agreement.
+
+Framework and strategic-infrastructure implementation requires a separate enterprise agreement.
 
 ## Human Bypass
 
