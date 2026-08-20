@@ -7,8 +7,8 @@
   "headline": "Commercial Intelligence Pricing Plate™ — Deterministic x402 Retrieval Pricing for Naturepedia™, Robbie’s Razor™, Grand Compression, and Plate™ Systems",
   "url": "https://www.robbiegeorgephotography.com/commercial-data-license",
   "version": "3.0.0",
-  "dateModified": "2026-08-19",
-  "description": "A machine-readable pricing and rights-boundary Plate defining deterministic x402 retrieval prices for Naturepedia discovery, canonical queries, enriched responses, structured Plates, bounded registries, System Maps, Knowledge Meshes, and full registry snapshots. Retrieval payments remain separate from commercial data reuse and framework implementation rights.",
+  "dateModified": "2026-08-20",
+  "description": "A machine-readable pricing and rights-boundary Plate defining deterministic x402 retrieval prices for Naturepedia discovery, active Atomic Queries, reserved Enriched Queries, Structured Plates, bounded registries, System Maps, Knowledge Meshes, and full registry snapshots. Retrieval payments remain separate from commercial data reuse and framework implementation rights.",
   "creator": {
     "@type": "Person",
     "name": "Robbie George",
@@ -31,15 +31,43 @@
         "price": "0.00",
         "priceCurrency": "USD",
         "availability": "https://schema.org/InStock",
-        "description": "Free metadata, endpoint descriptions, previews, health responses, licensing signals, and validation information."
+        "description": "Free metadata, endpoint descriptions, previews, health responses, licensing signals, authority pointers, and validation information."
       },
       {
         "@type": "Offer",
         "name": "Atomic Canonical Query",
         "price": "0.005",
         "priceCurrency": "USD",
-        "availability": "https://schema.org/PreOrder",
-        "description": "Reserved x402 tier settled as 0.005 USDC on Base for one fact, identifier resolution, routing result, or compact canonical answer."
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.robbiegeorgephotography.com/v1/query/atomic/robbie-george-biography-plate",
+        "description": "Active x402 tier settled as 0.005 USDC on Base for one narrowly bounded canonical fact, identifier resolution, routing result, or compact canonical answer. Availability is limited to explicitly registered deterministic Atomic Query payloads.",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "x402 access class",
+            "value": "atomic"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "USDC atomic units",
+            "value": "5000"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "resource class",
+            "value": "atomic-query"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "schema version",
+            "value": "naturepedia.atomic-query.v1"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "route status",
+            "value": "active for registered deterministic payloads"
+          }
+        ]
       },
       {
         "@type": "Offer",
@@ -47,24 +75,70 @@
         "price": "0.025",
         "priceCurrency": "USD",
         "availability": "https://schema.org/PreOrder",
-        "description": "Reserved x402 tier settled as 0.025 USDC on Base for relationships, citations, provenance, or modest enrichment."
+        "description": "Reserved x402 tier priced at 0.025 USDC on Base for multiple relationships, citations, provenance, or modest enrichment. This class remains unavailable for payment challenges until governed deterministic Enriched Query payloads are explicitly registered and production validated.",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "x402 access class",
+            "value": "enriched"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "USDC atomic units",
+            "value": "25000"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "route status",
+            "value": "reserved"
+          }
+        ]
       },
       {
-  "@type": "Offer",
-  "name": "Structured Plate™ Payload",
-  "price": "0.25",
-  "priceCurrency": "USD",
-  "availability": "https://schema.org/InStock",
-  "url": "https://www.robbiegeorgephotography.com/v1/plates/item/commercial-intelligence-pricing-plate",
-  "description": "Active x402 tier priced at 0.25 USDC on Base for one registered and validated structured Plate payload. Payment grants one endpoint-level retrieval only."
-},
+        "@type": "Offer",
+        "name": "Structured Plate™ Payload",
+        "price": "0.25",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.robbiegeorgephotography.com/v1/plates/item/commercial-intelligence-pricing-plate",
+        "description": "Active x402 tier priced at 0.25 USDC on Base for one registered and validated Structured Plate payload. Payment grants one endpoint-level retrieval only.",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "x402 access class",
+            "value": "single-plate"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "USDC atomic units",
+            "value": "250000"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "route status",
+            "value": "active for registered and validated payloads"
+          }
+        ]
+      },
       {
         "@type": "Offer",
         "name": "Bounded Registry, Taxonomy Subtree, or System Map",
         "price": "5.00",
         "priceCurrency": "USD",
         "availability": "https://schema.org/InStock",
-        "description": "Active x402 tier settled as 5.00 USDC on Base for one bounded multi-record retrieval."
+        "description": "Active x402 tier settled as 5.00 USDC on Base for one bounded multi-record registry, taxonomy subtree, identity graph, or System Map retrieval.",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "x402 access class",
+            "value": "subtree"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "USDC atomic units",
+            "value": "5000000"
+          }
+        ]
       },
       {
         "@type": "Offer",
@@ -72,7 +146,19 @@
         "price": "25.00",
         "priceCurrency": "USD",
         "availability": "https://schema.org/InStock",
-        "description": "Active x402 tier settled as 25.00 USDC on Base for one complete registry snapshot or premium relationship resource."
+        "description": "Active x402 tier settled as 25.00 USDC on Base for one complete registry snapshot, Knowledge Mesh, expanded registry, or other premium protected relationship resource.",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "x402 access class",
+            "value": "snapshot"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "USDC atomic units",
+            "value": "25000000"
+          }
+        ]
       }
     ]
   },
@@ -82,13 +168,30 @@
     "url": "https://www.robbiegeorgephotography.com/.well-known/x402-pricing.json",
     "encodingFormat": "application/ld+json"
   },
-  "usageInfo": "An x402 payment grants one endpoint-level retrieval only. It does not grant training, embedding, bulk-ingestion, redistribution, resale, synchronization, private-dataset construction, derivative-dataset creation, commercial implementation, or framework-implementation rights.",
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "Atomic Query Production Activation",
+      "description": "The Atomic Query class is active for explicitly registered deterministic payloads. The production Robbie George Biography Plate identifier-resolution route was verified to return HTTP 402 with amount 5000 and gateway tier atomic."
+    },
+    {
+      "@type": "Thing",
+      "name": "Atomic Query Fail-Closed Availability Boundary",
+      "description": "Registered and complete Atomic resources may issue a 402 payment challenge. Known but incomplete Atomic resources return 409 without a payment challenge. Unknown Atomic resources return 404 without a payment challenge."
+    },
+    {
+      "@type": "Thing",
+      "name": "Enriched Query Reservation",
+      "description": "The Enriched Query class remains reserved at 0.025 USDC or 25000 USDC atomic units and must not issue payment challenges until governed deterministic payloads are registered and available."
+    }
+  ],
+  "usageInfo": "An x402 payment grants one endpoint-level retrieval only. It does not grant training, embedding, bulk ingestion, redistribution, resale, synchronization, private-dataset construction, derivative-dataset creation, commercial implementation, or framework-implementation rights.",
   "license": "https://www.robbiegeorgephotography.com/commercial-data-license",
   "hasPart": [
     {
       "@type": "CreativeWork",
       "name": "Commercial Data Reuse Rights",
-      "description": "Commercial ingestion, training, embedding, synchronization, or redistribution rights begin at 1,000 USD equivalent and require a separate written agreement.",
+      "description": "Commercial data reuse rights require a separate written agreement and are not conveyed by an x402 endpoint retrieval payment.",
       "url": "https://www.robbiegeorgephotography.com/commercial-data-license"
     },
     {
