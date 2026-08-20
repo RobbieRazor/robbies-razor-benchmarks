@@ -258,29 +258,133 @@ Production `402` responses use deterministic Base USDC prices. Pricing is assign
 | Access class | Price | Atomic units | Route status |
 |---|---:|---:|---|
 | Discovery and previews | Free | 0 | Active |
-| Atomic canonical query | $0.005 USDC | 5000 | Reserved |
+| Atomic canonical query | $0.005 USDC | 5000 | Active for registered payloads |
 | Enriched relationship query | $0.025 USDC | 25000 | Reserved |
 | Structured Plate™ payload | $0.25 USDC | 250000 | Active for registered payloads |
 | Bounded subtree, registry, or System Map | $5.00 USDC | 5000000 | Active |
 | Full registry or Knowledge Mesh snapshot | $25.00 USDC | 25000000 | Active |
 
+### Active Atomic Query Route
+
+Current active Atomic route:
+
+    /v1/query/atomic/robbie-george-biography-plate
+
+Reference price:
+
+    0.005 USDC
+
+Atomic units:
+
+    5000
+
+Access class:
+
+    atomic
+
+Verified production behavior:
+
+- Registered and complete Atomic resource → `402 Payment Required`
+- Amount → `5000` USDC atomic units
+- Access class → `atomic`
+- Reference price → `0.005 USDC`
+- `PAYMENT-REQUIRED` challenge header → present
+- Known but incomplete Atomic resource → `409` with no payment challenge
+- Unknown Atomic resource → `404` with no payment challenge
+
+The active Atomic route resolves the registered Robbie George Biography Plate™ identifier to its canonical authority at:
+
+https://www.robbiegeorgephotography.com/who-is-robbie-george
+
+Payment grants one endpoint-level retrieval of the registered Atomic Query result only. It does not grant training, embedding, bulk ingestion, redistribution, resale, synchronization, private-dataset construction, derivative-dataset creation, commercial implementation, or framework implementation rights.
+
+### Enriched Query Status
+
+The Enriched Query class remains reserved.
+
+    Price: 0.025 USDC
+    Atomic units: 25000
+    Access class: enriched
+    Route status: reserved
+
+Enriched Query routes must not issue payment challenges until their governed deterministic payloads are explicitly registered and available.
+
+### Active Structured Plate Routes
+
 Current active single-Plate routes:
 
-```text
-/v1/plates/item/commercial-data-license-plate
-/v1/plates/item/commercial-intelligence-pricing-plate
-/v1/plates/item/robbie-george-biography-plate
-```
+    /v1/plates/item/commercial-data-license-plate
+    /v1/plates/item/commercial-intelligence-pricing-plate
+    /v1/plates/item/robbie-george-biography-plate
 
-All three registered Plates return deterministic `402 Payment Required` responses for `250000` USDC atomic units on Base and are classified as `single-plate`. These tests verified the payment challenges only; no new `$0.25` settlement or protected payload-delivery test was performed.
+All three registered Plates return deterministic `402 Payment Required` responses for `250000` USDC atomic units on Base and are classified as `single-plate`.
 
-Unknown Plate identifiers return `404` without a payment challenge. Known Plates without registered complete payloads return `409` without a payment challenge.
+Verified Structured Plate challenge behavior:
 
-Unknown Plate identifiers return `404` without a payment challenge. Known Plates without registered complete payloads return `409` without a payment challenge.
+    STATUS: 402
+    AMOUNT: 250000
+    TIER: single-plate
+    PAYMENT REQUIRED: true
 
-The Atomic and Enriched route classes remain reserved and must not issue payment challenges until their governed payloads are registered and available.
+These tests verified payment challenges only; no new `$0.25` settlement or protected payload-delivery test was performed during this validation round.
 
-Exact public discovery and control-plane endpoints may remain free even when related protected payload routes require payment. The current production `402` response and pricing manifest are authoritative if older documentation conflicts.
+Unknown Plate identifiers return `404` without a payment challenge.
+
+Known Plates without registered complete payloads return `409` without a payment challenge.
+
+### Current Retrieval Safety Model
+
+Naturepedia x402 retrieval follows a fail-closed availability model:
+
+    Registered + complete resource
+    ↓
+    Correct resource class
+    ↓
+    Correct deterministic pricing tier
+    ↓
+    402 Payment Required
+    ↓
+    Verification
+    ↓
+    Settlement
+    ↓
+    Fidelity validation
+    ↓
+    Authorized payload delivery
+
+Unavailable resources are rejected before payment:
+
+    Known but incomplete
+    → 409
+    → no payment challenge
+
+    Unknown
+    → 404
+    → no payment challenge
+
+The Atomic Query production validation confirmed:
+
+    Available Atomic
+    STATUS: 402
+    AMOUNT: 5000
+    TIER: atomic
+    PAYMENT REQUIRED: true
+
+    Known incomplete Atomic
+    STATUS: 409
+    AMOUNT: null
+    TIER: null
+    PAYMENT REQUIRED: false
+
+    Unknown Atomic
+    STATUS: 404
+    AMOUNT: null
+    TIER: null
+    PAYMENT REQUIRED: false
+
+Exact public discovery and control-plane endpoints may remain free even when related protected payload routes require payment.
+
+The current production `402` response and the machine-readable pricing manifest are authoritative if older documentation conflicts.
 
 ## Verified Route
 
