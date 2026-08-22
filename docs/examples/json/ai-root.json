@@ -1,8 +1,8 @@
 {
   "id": "https://www.robbiegeorgephotography.com/.well-known/ai-root.json",
   "schemaVersion": "1.0",
-  "version": "1.4",
-  "dateModified": "2026-08-16",
+  "version": "1.5",
+  "dateModified": "2026-08-22",
   "name": "Robbie George Photography AI Root",
   "description": "Canonical machine-readable entry point for Robbie George's human-authority pages, The Grand Compression Cosmology MRD v2.0, Naturepedia™, Robbie's Razor™, Robbie's Razor Benchmarks v0.2.0, the official domain-verified Naturepedia MCP server, canonical publication records, AI discovery infrastructure, x402 settlement, and governed machine retrieval.",
   "creator": {
@@ -89,6 +89,32 @@
     "catalog": "https://www.robbiegeorgephotography.com/.well-known/ai-catalog.json",
     "naturepediaIndex": "https://www.robbiegeorgephotography.com/naturepedia-index.json",
     "geometryIndex": "https://www.robbiegeorgephotography.com/geometry-index.json",
+"geometryDiscovery": {
+  "parentSystem": "Geometry of Nature™",
+  "parentUrl": "https://www.robbiegeorgephotography.com/geometry-of-nature",
+  "index": "https://www.robbiegeorgephotography.com/geometry-index.json",
+  "mathematicalReferences": [
+    {
+      "name": "Hopf Fibration",
+      "slug": "hopf-fibration",
+      "url": "https://www.robbiegeorgephotography.com/hopf-fibration",
+      "domain": "Mathematics / Topology / Fiber Bundles / State-Space Geometry",
+      "evidenceClass": "established-mathematics",
+      "ccgRelationship": "bounded-structural-comparison-class",
+      "frameworkRole": "comparative-only",
+      "governingRelationship": "MRD v2.0 §12.9 — Comparative Compression Geometry™",
+      "establishedStructure": "S¹ ↪ S³ → S²",
+      "requiresPayment": false
+    },
+    {
+      "name": "E8 Lattice™",
+      "slug": "e8-lattice",
+      "url": "https://www.robbiegeorgephotography.com/e8-lattice",
+      "classification": "bounded-mathematical-reference"
+    }
+  ],
+  "interpretationBoundary": "Hopf Fibration and E8 are distinct mathematical reference classes. Their inclusion within Naturepedia and Comparative Compression Geometry™ does not establish universal physical identity, shared mechanism, causation, or independent empirical validation of the Grand Compression Framework."
+},
     "changeLog": "https://www.robbiegeorgephotography.com/change-log.json",
     "canonicalPublicationManifest": "https://www.robbiegeorgephotography.com/canonical-publication-manifest.json",
     "canonicalPublicationManifestAlias": "https://www.robbiegeorgephotography.com/.well-known/canonical-publication-manifest.json"
