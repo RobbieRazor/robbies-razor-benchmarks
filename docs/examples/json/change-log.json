@@ -17,7 +17,8 @@
   "canonical": "https://www.robbiegeorgephotography.com/change-log.json",
   "lastUpdated": "2026-08-22",
   "currentCanonicalPlateCount": 757,
-  "entries": {
+  "entries": [
+  {
   "id": "2026-08-22-hopf-fibration-integration",
   "date": "2026-08-22",
   "version": "1.3.1",
