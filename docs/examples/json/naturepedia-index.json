@@ -1,8 +1,8 @@
 {
   "@context": "https://schema.org",
   "@type": "Dataset",
-  "version": "1.0",
-  "dateModified": "2026-07-16",
+  "version": "1.1",
+  "dateModified": "2026-08-22",
   "name": "Naturepedia™ Index",
   "description": "Top-level machine-readable discovery index for Naturepedia™, organizing major knowledge systems, semantic families, AI discovery pathways, and recursive retrieval architecture.",
   "creator": {
@@ -18,32 +18,48 @@
   "canonical": "https://www.robbiegeorgephotography.com/naturepedia-index.json",
   "systemFamilies": [
     {
-      "name": "Geometry Systems",
-      "description": "Mathematical organization, natural geometry, recursive patterns, and living mathematics.",
-      "index": "https://www.robbiegeorgephotography.com/geometry-index.json",
-      "systems": [
-        {
-          "name": "Geometry of Nature™",
-          "url": "https://www.robbiegeorgephotography.com/geometry-of-nature",
-          "slug": "geometry-of-nature"
-        },
-        {
-          "name": "E8 Lattice™",
-          "url": "https://www.robbiegeorgephotography.com/e8-lattice",
-          "slug": "e8-lattice"
-        },
-        {
-          "name": "Fractals™",
-          "url": "https://www.robbiegeorgephotography.com/fractals",
-          "slug": "fractals"
-        },
-        {
-          "name": "Fibonacci™",
-          "url": "https://www.robbiegeorgephotography.com/fibonacci",
-          "slug": "fibonacci"
-        }
-      ]
+  "name": "Geometry Systems",
+  "description": "Naturepedia mathematical and geometrical reference systems, including established mathematics, natural geometry, topology, symmetry, scaling, pattern formation, and bounded Comparative Compression Geometry™ reference classes.",
+  "systems": [
+    {
+      "name": "Geometry of Nature™",
+      "url": "https://www.robbiegeorgephotography.com/geometry-of-nature",
+      "slug": "geometry-of-nature",
+      "role": "parent-geometry-system"
     },
+    {
+      "name": "Hopf Fibration",
+      "url": "https://www.robbiegeorgephotography.com/hopf-fibration",
+      "slug": "hopf-fibration",
+      "parent": "Geometry of Nature™",
+      "domain": "Mathematics / Topology / Fiber Bundles / State-Space Geometry",
+      "evidenceClass": "established-mathematics",
+      "ccgRelationship": "bounded-structural-comparison-class",
+      "frameworkRole": "comparative-only",
+      "governingRelationship": "MRD v2.0 §12.9 — Comparative Compression Geometry™",
+      "establishedStructure": "S¹ ↪ S³ → S²",
+      "interpretationBoundary": "The Hopf fibration is established mathematics. Its relationship to Comparative Compression Geometry™ and Grand Compression is comparative only and does not independently validate the framework, establish universal Hopf topology in nature, or establish shared physical mechanism or material identity."
+    },
+    {
+      "name": "E8 Lattice™",
+      "url": "https://www.robbiegeorgephotography.com/e8-lattice",
+      "slug": "e8-lattice",
+      "role": "bounded-mathematical-reference"
+    },
+    {
+      "name": "Fractals™",
+      "url": "https://www.robbiegeorgephotography.com/fractals",
+      "slug": "fractals",
+      "role": "mathematical-and-natural-pattern-reference"
+    },
+    {
+      "name": "Fibonacci™",
+      "url": "https://www.robbiegeorgephotography.com/fibonacci",
+      "slug": "fibonacci",
+      "role": "mathematical-and-growth-pattern-reference"
+    }
+  ]
+},
         {
       "name": "Earth Systems",
       "description": "Planetary systems, atmospheric processes, weather, oceans, geology, climate, water, soils, carbon, and ecosystem relationships.",
