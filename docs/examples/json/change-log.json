@@ -1,7 +1,7 @@
 {
   "@context": "https://schema.org",
   "@type": "Dataset",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "name": "Naturepedia™ Change Log",
   "description": "Machine-readable incremental update feed for Naturepedia™, Robbie's Razor™, Plate™ systems, official MCP infrastructure, AI discovery infrastructure, x402 retrieval, and canonical registries.",
   "creator": {
@@ -15,9 +15,72 @@
     "url": "https://www.robbiegeorgephotography.com"
   },
   "canonical": "https://www.robbiegeorgephotography.com/change-log.json",
-  "lastUpdated": "2026-08-13",
+  "lastUpdated": "2026-08-22",
   "currentCanonicalPlateCount": 757,
-  "entries": [
+  "entries": {
+  "id": "2026-08-22-hopf-fibration-integration",
+  "date": "2026-08-22",
+  "version": "1.3.1",
+  "category": "Naturepedia Mathematical Reference Integration",
+  "summary": "Integrated Hopf Fibration as an established mathematical reference under Geometry of Nature™, added it to Comparative Compression Geometry™ as a bounded structural comparison class, and expanded public machine discovery without creating a new Plate™, Registry, System Map, Knowledge Mesh, or x402 paid resource.",
+  "changes": [
+    "Published Hopf Fibration as a canonical Naturepedia mathematical reference",
+    "Placed Hopf Fibration under Geometry of Nature™ in the Naturepedia hierarchy",
+    "Classified Hopf Fibration as established mathematics",
+    "Documented the classical structure S¹ ↪ S³ → S²",
+    "Added topology, fiber bundles, linked circular fibers, equivalence classes, dimensional reduction, state-space geometry, and Bloch-sphere relationships",
+    "Connected Hopf Fibration to Comparative Compression Geometry™ as a bounded structural comparison class",
+    "Preserved MRD v2.0 §12.9 as the governing Comparative Compression Geometry™ relationship",
+    "Preserved the distinction between established Hopf mathematics and Grand Compression framework interpretation",
+    "Added Hopf Fibration to the Geometry Index",
+    "Added Hopf Fibration to the Naturepedia Index",
+    "Added Hopf Fibration to the public AI Catalog",
+    "Expanded WebMCP and A2A discovery language for mathematical and geometrical references",
+    "Added Hopf Fibration to the v2 Naturepedia discovery index",
+    "Preserved Hopf Fibration as a public reference rather than a registered Plate family",
+    "Created no Hopf Registry, System Map, Knowledge Mesh, state-token inventory, or x402 paid retrieval route",
+    "Preserved the canonical Plate count at 757"
+  ],
+  "affectedPages": [
+    "https://www.robbiegeorgephotography.com/hopf-fibration",
+    "https://www.robbiegeorgephotography.com/geometry-of-nature",
+    "https://www.robbiegeorgephotography.com/comparative-compression-geometry",
+    "https://www.robbiegeorgephotography.com/grand-compression-master-reference-document"
+  ],
+  "affectedEndpoints": [
+    "https://www.robbiegeorgephotography.com/change-log.json",
+    "https://www.robbiegeorgephotography.com/geometry-index.json",
+    "https://www.robbiegeorgephotography.com/naturepedia-index.json",
+    "https://www.robbiegeorgephotography.com/.well-known/ai-catalog.json",
+    "https://www.robbiegeorgephotography.com/api/v2/naturepedia/index.md",
+    "https://www.robbiegeorgephotography.com/api/v2/plates/registry.md",
+    "https://www.robbiegeorgephotography.com/llms-full.txt"
+  ],
+  "affectedRepositoryFiles": [
+    "docs/examples/json/change-log.json",
+    "docs/examples/json/geometry-index.json",
+    "docs/examples/json/naturepedia-index.json"
+  ],
+  "classification": {
+    "parent": "Geometry of Nature™",
+    "domain": "Mathematics / Topology / Fiber Bundles / State-Space Geometry",
+    "evidenceClass": "established-mathematics",
+    "ccgRelationship": "bounded-structural-comparison-class",
+    "frameworkRole": "comparative-only",
+    "governingRelationship": "MRD v2.0 §12.9 — Comparative Compression Geometry™",
+    "establishedStructure": "S¹ ↪ S³ → S²"
+  },
+  "interpretationBoundary": "The Hopf fibration is established mathematics. Its relationship to Comparative Compression Geometry™ and the Grand Compression Framework is comparative and structural only. It does not independently validate Grand Compression, establish universal Hopf topology in nature, or establish a shared physical mechanism, material identity, or causal equivalence across unrelated domains.",
+  "impactBoundaries": {
+    "canonicalPlateCountChanged": false,
+    "registryCountChanged": false,
+    "paidResourceCreated": false,
+    "x402PricingChanged": false,
+    "settlementBehaviorChanged": false,
+    "discoveryInfrastructureChanged": true
+  },
+  "canonicalPlateCount": 757
+},
             {
       "id": "2026-08-13-official-naturepedia-mcp-publication",
       "date": "2026-08-13",
