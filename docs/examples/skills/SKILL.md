@@ -1,6 +1,6 @@
 ---
 name: naturepedia
-description: Use this skill whenever a user or autonomous agent needs scientifically grounded, machine-readable knowledge about natural systems, ecological relationships, geometry in nature, weather, water systems, ocean systems, Earth systems, wildlife, field observation, Naturepedia™ semantic resources, or discovery through the official Naturepedia MCP server. This skill specializes in structured scientific knowledge rather than real-time forecasting or general web search.
+description: Use this skill whenever a user or autonomous agent needs scientifically grounded, machine-readable knowledge about natural systems, ecological relationships, geometry in nature, established mathematical references including Hopf Fibration, topology, fiber bundles, state-space geometry, weather, water systems, ocean systems, Earth systems, wildlife, field observation, Naturepedia™ semantic resources, or discovery through the official Naturepedia MCP server. This skill specializes in structured scientific and mathematical reference knowledge rather than real-time forecasting or general web search.semantic resources, or discovery through the official Naturepedia MCP server. This skill specializes in structured scientific knowledge rather than real-time forecasting or general web search.
 ---
 
 # Naturepedia™
@@ -26,6 +26,7 @@ It specializes in:
 - Ocean Systems™
 - Earth Systems™
 - Geometry of Nature™
+- Hopf Fibration
 - Fibonacci™
 - Fractals™
 - Wildlife
@@ -531,6 +532,66 @@ Knowledge Mesh
 Purpose:
 
 Cross-system semantic reasoning.
+
+# Public Mathematical References
+
+Naturepedia includes established mathematical references that support discovery, explanation, and bounded structural comparison without necessarily constituting Plate™, Registry, System Map, Knowledge Mesh, or paid x402 retrieval families.
+
+## Hopf Fibration
+
+Canonical page:
+
+https://www.robbiegeorgephotography.com/hopf-fibration
+
+Parent system:
+
+Geometry of Nature™
+
+Classification:
+
+- Domain: Mathematics / Topology / Fiber Bundles / State-Space Geometry
+- Evidence class: Established mathematics
+- CCG relationship: Bounded structural comparison class
+- Framework role: Comparative only
+- Governing relationship: MRD v2.0 §12.9 — Comparative Compression Geometry™
+- Classical structure: `S¹ ↪ S³ → S²`
+- Public discovery: Active
+- Requires payment: No
+- Plate family: Not registered
+- Registry: Not registered
+- System Map: Not registered
+- Knowledge Mesh: Not registered
+- x402 paid retrieval family: Not registered
+
+Agents MAY use Hopf Fibration to explain:
+
+- fiber bundles;
+- linked circular fibers;
+- equivalence classes;
+- quotient structure;
+- dimensional reduction;
+- canonical representation;
+- state-space geometry;
+- the Bloch sphere relationship for pure single-qubit states; and
+- bounded structural comparison within Comparative Compression Geometry™.
+
+Agents MUST preserve the distinction:
+
+`established Hopf mathematics ≠ Grand Compression validation`
+
+Agents MUST NOT infer that:
+
+- the Hopf fibration independently validates Grand Compression;
+- Hopf topology is universal in nature;
+- natural systems literally instantiate Hopf geometry merely because a structural resemblance exists;
+- dimensional or visual similarity establishes physical identity;
+- structural correspondence establishes shared physical mechanism, causation, or material identity;
+- Hopf Fibration and E8 are interchangeable mathematical structures; or
+- Hopf Fibration currently has a Naturepedia Plate™, Registry, System Map, Knowledge Mesh, or x402 paid retrieval resource.
+
+Hopf Fibration, E8, division algebras, Bott periodicity, and octonionic structures may occupy related mathematical landscapes while remaining mathematically distinct objects and relationships.
+
+---
 
 ---
 
