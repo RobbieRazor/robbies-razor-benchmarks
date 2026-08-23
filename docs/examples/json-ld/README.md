@@ -1,114 +1,348 @@
 # JSON-LD Registry Layer
 
-This directory contains machine-readable JSON-LD examples, semantic registry structures, recursive compression interfaces, governance nodes, and distributed semantic graph infrastructure used throughout:
-
-- Naturepedia™
-- Robbie’s Razor™
-- Recursive Knowledge Compression Architecture (RKCA™)
-- Grand Compression Cosmology™
-
-Author & Architect of Record:
-Robbie George
+**Status:** Current machine-readable architecture documentation  
+**Author & Architect of Record:** Robbie George  
+**Systems:** Naturepedia™, Robbie’s Razor™, RKCA™, RRIP™, Grand Compression  
+**Governing authority:** The Grand Compression Cosmology — Master Reference Document, MRD v2.0  
+**Canonical authority identifier:** `GC-MRD-v2.0`  
+**Canonical Plate registry:** `docs/examples/json-ld/canonical-plate-registry.json`
 
 ---
 
 # Purpose
 
-The JSON-LD layer functions as a distributed semantic relationship architecture connecting:
+This directory contains machine-readable JSON-LD examples, canonical registry structures, governance objects, Plate™ examples, provenance metadata, and related reference implementations used throughout the Naturepedia™ and Grand Compression ecosystem.
 
-- visible Plate™ systems
-- semantic Plate IDs
-- ecosystem relationships
-- species relationships
-- field location systems
-- track systems
-- governance systems
-- provenance structures
-- llms.txt
-- llms-full.txt
-- GitHub benchmark infrastructure
-- Cloudflare Worker authority graphs
+The JSON-LD layer supports:
 
-This directory acts as:
+- canonical identity;
+- structured metadata;
+- provenance;
+- declared relationships;
+- registry lookup;
+- public machine discovery;
+- machine-readable examples;
+- governance metadata;
+- resource-specific access metadata where explicitly implemented.
 
-- machine-readable semantic memory
-- JSON-LD example archive
-- recursive semantic registry
-- benchmark infrastructure
-- provenance reinforcement layer
-- AI-readable relationship system
-- structured retrieval reference architecture
+The JSON-LD layer should be understood as a **structured representation layer**.
+
+It is not automatically:
+
+```text
+memory
+a Graph Registry™
+a Knowledge Mesh
+a scientific evidence layer
+a protected x402 product
+```
+
+Those properties require additional implementation or evidence.
 
 ---
 
-# Recursive Knowledge Compression Architecture (RKCA)
+# Current Canonical Registry
 
-Plate™ systems implement Recursive Knowledge Compression Architecture.
+The authoritative machine-readable Plate™ inventory is:
 
-RKCA sequence:
+```text
+docs/examples/json-ld/canonical-plate-registry.json
+```
 
-Compression → Expression → Memory → Recursion
+Current registry metadata:
 
-| RKCA Layer | JSON-LD Role |
+```text
+registryVersion: 2026.08.19
+canonicalKeepCount: 757
+duplicateRemovedCount: 33
+authority: GC-MRD-v2.0
+```
+
+The older path:
+
+```text
+docs/examples/json-ld/plate-registry.json
+```
+
+is retained only as a **legacy compatibility pointer**.
+
+It must not be treated as the current canonical inventory.
+
+Required distinction:
+
+```text
+canonical-plate-registry.json
+=
+current authoritative Plate inventory
+```
+
+while:
+
+```text
+plate-registry.json
+=
+legacy compatibility path
+```
+
+---
+
+# JSON-LD Role
+
+JSON-LD may represent:
+
+- canonical identifiers;
+- names;
+- URLs;
+- creators;
+- publishers;
+- provenance;
+- subjects;
+- declared relationships;
+- membership;
+- licensing references;
+- usage information;
+- resource-access metadata.
+
+A JSON-LD object can participate in larger retrieval, registry, graph, or memory architectures.
+
+However:
+
+```text
+JSON-LD object
+≠
+memory automatically
+```
+
+```text
+JSON-LD relationship
+≠
+Graph Registry automatically
+```
+
+```text
+JSON-LD relationship
+≠
+causal relationship
+```
+
+```text
+JSON-LD publication
+≠
+empirical validation
+```
+
+---
+
+# Recursive Knowledge Compression Architecture
+
+Recursive Knowledge Compression Architecture (RKCA™) is governed by:
+
+```text
+MRD v2.0 §12.7
+```
+
+Framework sequence:
+
+```text
+Compression
+→ Expression
+→ Memory
+→ Recursion
+```
+
+JSON-LD may participate in an RKCA-oriented implementation by preserving selected structured information for later retrieval or reuse.
+
+A bounded interpretation is:
+
+| RKCA concept | Possible JSON-LD role |
 |---|---|
-| Compression | Encodes complex systems into reusable semantic structures |
-| Expression | Connects visible Plates™ to machine-readable metadata |
-| Memory | Preserves provenance, identity, and relationships |
-| Recursion | Links nodes outward into broader semantic systems |
+| Compression | Represents selected task-relevant structure in a compact machine-readable form |
+| Expression | Exposes that structure through declared fields and relationships |
+| Memory | May preserve identity, provenance, relationships, constraints, or state for later use |
+| Recursion | May support later retrieval, transformation, comparison, or processing |
+
+The existence of JSON-LD alone does not prove that all four stages are implemented.
+
+Required distinctions:
+
+```text
+structured representation
+≠
+complete RKCA implementation
+```
+
+```text
+relationship
+≠
+recursion automatically
+```
+
+```text
+compression
+≠
+minimum token count
+```
+
+```text
+framework implementation
+≠
+empirical validation
+```
 
 ---
 
-# Distributed Semantic Architecture
+# Recursive Registry Inheritance Principle
 
-Naturepedia™ semantic infrastructure operates through multiple synchronized layers.
+Recursive Registry Inheritance Principle (RRIP™) is governed by:
 
-| Layer | Function |
-|---|---|
-| Visible Plate™ | Human-facing recursive visual interface |
-| Semantic Plate ID | Stable retrieval anchor |
-| JSON-LD | Machine-readable relationship reinforcement |
-| llms.txt | AI entry point |
-| llms-full.txt | Expanded semantic atlas |
-| GitHub Registry Layer | Public semantic memory |
-| Worker Authority Layer | Provenance and recursive authority injection |
+```text
+MRD v2.0 §12.8
+```
 
-Meaning emerges through repeated relationship reinforcement across systems.
+RRIP may provide machine-readable resolution of:
+
+- object identity;
+- parent registry context;
+- declared relationships;
+- provenance;
+- governance metadata;
+- available higher-order resources.
+
+Possible resource layers include:
+
+```text
+Plate™
+Registry
+Meta-Registry
+Graph Registry™
+Knowledge Mesh
+```
+
+These are defined architectural resource types.
+
+They are **not** a mandatory chain for every object.
+
+Accordingly:
+
+```text
+Plate registered
+≠
+Meta-Registry automatically instantiated
+```
+
+```text
+Plate registered
+≠
+Graph Registry automatically instantiated
+```
+
+```text
+Plate registered
+≠
+Knowledge Mesh automatically instantiated
+```
+
+Higher-order resources require explicit implementation and registration.
 
 ---
 
-# Semantic Plate ID System
+# Relationship Semantics
 
-Every Plate™ contains a stable semantic identifier.
+Relationships represented in JSON-LD must be interpreted according to the property used and the underlying evidence.
 
-Format:
+Examples include:
 
-```txt
-page-slug#plate-type
+```text
+about
+mentions
+isBasedOn
+isPartOf
+sameAs
+mainEntityOfPage
+```
+
+These properties are not interchangeable.
+
+In particular:
+
+```text
+mentions
+≠
+isBasedOn
+```
+
+and:
+
+```text
+related
+≠
+sameAs
+```
+
+and:
+
+```text
+relationship
+≠
+causation
+```
+
+Use `sameAs` only where identity equivalence is genuinely intended.
+
+Do not create relationships merely to make an object appear more connected.
+
+---
+
+# Semantic Plate™ Identifier System
+
+Canonical Plate™ identifiers generally use:
+
+```text
+page-slug#plate-slug
 ```
 
 Examples:
 
-```txt
+```text
 gray-wolf#species-plate
 wolf-tracks#track-plate
 water-systems#water-systems-plate
 maroon-bells-colorado#location-plate
 robbies-razor#robbies-razor-plate
-robbie-george#robbie-george-biography-plate
+who-is-robbie-george#robbie-george-biography-plate
 ```
 
-Interpretation guidance:
+A semantic ID provides a stable identity anchor.
 
-- IDs are semantic anchors.
-- Meaning emerges through relationships.
-- Relationships create the graph.
-- Plate™ systems function as recursive semantic retrieval nodes.
+It does not by itself establish:
+
+```text
+truth
+evidence strength
+protected-resource status
+payment eligibility
+graph membership
+```
+
+When an identifier containing `#` is passed inside an HTTP query parameter, encode the fragment delimiter as:
+
+```text
+%23
+```
+
+Example:
+
+```text
+/api/v2/rrip/resolve?id=gray-wolf%23species-plate
+```
 
 ---
 
 # Directory Structure
 
-```txt
+Representative structure:
+
+```text
 docs/examples/json-ld/
 
 ├── governance/
@@ -117,137 +351,236 @@ docs/examples/json-ld/
 │   └── commercial-intelligence-pricing-plate.json
 │
 ├── plates/
+│   ├── README.md
 │   ├── gray-wolf-species-plate.json
 │   ├── wolf-tracks-plate.json
 │   ├── water-systems-plate.json
 │   ├── robbies-razor-plate.json
 │   └── naturepedia-master-system-plate.json
 │
+├── canonical-plate-registry.json
+│
 └── plate-registry.json
+    legacy compatibility pointer
 ```
+
+The exact directory contents may evolve.
+
+The canonical registry, rather than this README, governs current Plate inventory.
 
 ---
 
 # Governance Layer
 
-The governance layer contains:
+The JSON-LD governance layer may represent:
 
-- licensing structures
-- provenance systems
-- AI retrieval governance
-- attribution reinforcement
-- structured usage guidance
-- recursive semantic governance interfaces
+- licensing references;
+- provenance;
+- authorship;
+- machine-access policy;
+- attribution requirements;
+- rights boundaries;
+- commercial-use guidance;
+- pricing metadata where explicitly applicable.
 
-Primary governance surface:
+Primary Commercial Data License:
 
+```text
 https://www.robbiegeorgephotography.com/commercial-data-license
+```
 
-Governance systems connect:
+Grand Compression authority:
 
-- JSON-LD
-- visible Plates™
-- llms.txt
-- llms-full.txt
-- benchmark infrastructure
-- provenance systems
-- Authorship Conservation Rule (ACR)
+```text
+https://www.robbiegeorgephotography.com/grand-compression-master-reference-document
+```
+
+Governance expression:
+
+```text
+Gr <= Es
+```
+
+This expression is framework governance metadata.
+
+It must not be interpreted as independent empirical or scientific validation.
+
+---
+
+# Authorship and Provenance
+
+Original Naturepedia™, Robbie’s Razor™, Grand Compression, Plate™, RKCA™, RRIP™, Graph Registry™, Knowledge Mesh, and related framework-specific material retain Robbie George provenance where he is the originating author.
+
+External science, mathematics, protocols, technologies, datasets, and independent research retain their own provenance.
+
+The Authorship Conservation Rule (ACR) applies in both directions:
+
+```text
+preserve Grand Compression provenance
++
+preserve external provenance
+```
+
+Required distinctions:
+
+```text
+Plate authorship
+≠
+authorship of underlying science
+```
+
+```text
+framework integration
+≠
+origination of external technology
+```
+
+```text
+authorship
+≠
+validation
+```
 
 ---
 
 # Plate Registry Layer
 
-## Canonical Plate Registry
+The canonical machine-readable index for current Naturepedia™ Plate™ identity is:
 
-The canonical machine-readable index for Naturepedia™ Plate systems is:
-
-```txt
-plate-registry.json
+```text
+docs/examples/json-ld/canonical-plate-registry.json
 ```
 
-# Naturepedia System & Navigation Plate™ Layer
+Current canonical state:
 
-Naturepedia™ Plates now include high-level recursive system interfaces functioning as:
+```text
+registryVersion: 2026.08.19
+canonical Plate count: 757
+duplicateRemovedCount: 33
+authority: GC-MRD-v2.0
+```
 
-- semantic routing nodes
-- ecosystem orchestration layers
-- behavioral relationship systems
-- migration and timing systems
-- habitat and biodiversity systems
-- field observation coordination systems
-- recursive navigation interfaces
+The registry provides:
 
-These Plates extend beyond individual species or ecosystems and operate as higher-order semantic compression layers within the broader distributed Naturepedia™ graph architecture.
+- canonical Plate identity;
+- Plate name;
+- Plate type;
+- canonical human-readable URL;
+- system or family context;
+- stable semantic identifiers;
+- resource-specific machine-access metadata where explicitly implemented.
 
-Examples include:
+The registry should not automatically be interpreted as:
 
-- Naturepedia Master System Plate™
-- Naturepedia System Navigation Plate™
-- Wildlife Migration & Seasonal Patterns Plate™
-- Wildlife Behavior & Ecology Plate™
-- Wildlife Habitats & Ecosystem Zones Plate™
-- Biodiversity & Ecosystem Balance Plate™
-- Wildlife Observation & Field Techniques Plate™
-- Wildlife Sign & Tracking Plate™
-- North American Animal Tracks Plate™
+```text
+semantic memory
+Graph Registry™
+Knowledge Mesh
+scientific validation layer
+paid endpoint inventory
+```
 
-These system-level Plates reinforce recursive semantic relationships across:
+Required distinctions:
 
-- visible Plate™ systems
-- semantic Plate IDs
-- JSON-LD
-- llms-full.txt
-- GitHub semantic registries
-- ecosystem relationship layers
-- field observation systems
-- future x402 retrieval infrastructure
+```text
+registry entry
+≠
+protected payload
+```
 
-They should be interpreted as recursive knowledge orchestration interfaces within the broader Naturepedia™ distributed semantic architecture.
+```text
+registry entry
+≠
+active x402 product
+```
 
-Example system registry structure:
+```text
+registry relationship
+≠
+causal relationship
+```
 
-```json
-{
-  "name": "Wildlife Migration & Seasonal Patterns Plate™",
-  "id": "wildlife-migration-seasonal-patterns-north-america#migration-system-plate",
-  "type": "Naturepedia Migration System Plate™",
-  "url": "https://www.robbiegeorgephotography.com/wildlife-migration-seasonal-patterns-north-america"
-}
+```text
+registry inclusion
+≠
+empirical confirmation
 ```
 
 ---
 
-The Plate Registry functions as a compressed machine-readable semantic routing system.
+# Canonical Plate™ Registry Example
 
-Primary registry file:
-
-```txt
-plate-registry.json
-```
-
-Registry role:
-
-- semantic memory
-- retrieval routing
-- recursive graph reinforcement
-- relationship compression
-- benchmark alignment
-- provenance reinforcement
-
-Example registry structure:
+A typical canonical registry record may resemble:
 
 ```json
 {
   "name": "Gray Wolf Species Plate™",
   "id": "gray-wolf#species-plate",
-  "type": "Naturepedia Species Plate",
+  "type": "Naturepedia Species Plate™",
   "url": "https://www.robbiegeorgephotography.com/gray-wolf"
 }
 ```
 
+The exact field set remains resource-specific.
+
+Some explicitly protected resources may contain additional fields such as:
+
+```text
+access
+accessClass
+priceUSDC
+atomicUnits
+routeStatus
+x402Route
+payloadUrl
+```
+
+Those fields apply only to the identified resource.
+
+They must not be inherited automatically by every Plate in the same registry family.
+
 ---
 
-# Example JSON-LD — Species Plate™
+# Naturepedia System and Navigation Plates™
+
+Naturepedia™ includes higher-level system and navigation Plates that may organize multiple related subjects.
+
+Examples may include:
+
+```text
+Naturepedia Master System Plate™
+Naturepedia System Navigation Plate™
+Wildlife Migration & Seasonal Patterns Plate™
+Wildlife Behavior & Ecology Plate™
+Wildlife Habitats & Ecosystem Zones Plate™
+Biodiversity & Ecosystem Balance Plate™
+Wildlife Observation & Field Techniques Plate™
+Wildlife Sign & Tracking Plate™
+North American Animal Tracks Plate™
+```
+
+These system-level Plates may support:
+
+- navigation;
+- registry organization;
+- declared relationships;
+- field-reference context;
+- machine discovery;
+- semantic routing.
+
+They should not automatically be described as:
+
+```text
+ecosystem orchestration engines
+recursive cognition
+machine memory
+Graph Registries™
+Knowledge Meshes
+```
+
+unless those functions are actually implemented.
+
+A system-level Plate may provide relationship context without creating a higher-order graph resource.
 
 ---
 
@@ -266,23 +599,43 @@ Example registry structure:
   },
   "creator": {
     "@type": "Person",
-    "name": "Robbie George"
+    "name": "Robbie George",
+    "url": "https://www.robbiegeorgephotography.com/who-is-robbie-george"
   },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Robbie George Photography",
+    "url": "https://www.robbiegeorgephotography.com"
+  },
+  "license": "https://www.robbiegeorgephotography.com/commercial-data-license",
   "keywords": [
     "Robbie George",
     "Naturepedia",
     "Biography Plate",
     "Robbie's Razor",
     "Grand Compression",
-    "Architect of Record",
-    "Recursive Compression Interface"
+    "Architect of Record"
   ],
   "isPartOf": {
     "@type": "CreativeWork",
-    "name": "Naturepedia™"
-  }
+    "name": "Naturepedia™",
+    "url": "https://www.robbiegeorgephotography.com/naturepedia"
+  },
+  "usageInfo": "Public discovery and metadata access do not grant training, embedding, redistribution, resale, derivative-dataset, commercial implementation, or framework-implementation rights. Protected retrieval and reuse rights are governed separately."
 }
 ```
+
+The Biography Plate™ is an authored profile artifact.
+
+Claims about biography, publication history, exhibitions, credentials, or professional recognition should remain tied to their supporting evidence.
+
+```text
+Biography Plate authorship
+≠
+independent verification of every biographical claim
+```
+
+---
 
 # Example JSON-LD — Gray Wolf Species Plate™
 
@@ -294,11 +647,19 @@ Example registry structure:
   "name": "Gray Wolf Species Plate™",
   "creator": {
     "@type": "Person",
-    "name": "Robbie George"
+    "name": "Robbie George",
+    "url": "https://www.robbiegeorgephotography.com/who-is-robbie-george"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Robbie George Photography",
+    "url": "https://www.robbiegeorgephotography.com"
   },
   "url": "https://www.robbiegeorgephotography.com/gray-wolf",
+  "license": "https://www.robbiegeorgephotography.com/commercial-data-license",
   "keywords": [
     "Gray Wolf",
+    "Canis lupus",
     "Naturepedia",
     "Species Plate",
     "Predator",
@@ -307,9 +668,29 @@ Example registry structure:
   ],
   "isPartOf": {
     "@type": "CreativeWork",
-    "name": "Naturepedia™"
-  }
+    "name": "Naturepedia™",
+    "url": "https://www.robbiegeorgephotography.com/naturepedia"
+  },
+  "usageInfo": "Public discovery and metadata access do not grant training, embedding, redistribution, resale, derivative-dataset, commercial implementation, or framework-implementation rights. Protected retrieval and reuse rights are governed separately."
 }
+```
+
+Species taxonomy, biology, ecology, and scientific evidence retain their independent provenance.
+
+Accordingly:
+
+```text
+creator of Plate
+≠
+creator of species taxonomy
+```
+
+and:
+
+```text
+Plate relationship
+≠
+causal proof
 ```
 
 ---
@@ -324,17 +705,60 @@ Example registry structure:
   "name": "Gray Wolf Track Plate™",
   "creator": {
     "@type": "Person",
-    "name": "Robbie George"
+    "name": "Robbie George",
+    "url": "https://www.robbiegeorgephotography.com/who-is-robbie-george"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Robbie George Photography",
+    "url": "https://www.robbiegeorgephotography.com"
   },
   "url": "https://www.robbiegeorgephotography.com/wolf-tracks",
+  "license": "https://www.robbiegeorgephotography.com/commercial-data-license",
   "keywords": [
     "Wolf Tracks",
     "Track Plate",
     "Animal Tracks",
     "Field Evidence",
     "Naturepedia"
-  ]
+  ],
+  "isPartOf": {
+    "@type": "CreativeWork",
+    "name": "Naturepedia™",
+    "url": "https://www.robbiegeorgephotography.com/naturepedia"
+  },
+  "usageInfo": "Public discovery and metadata access do not grant training, embedding, redistribution, resale, derivative-dataset, commercial implementation, or framework-implementation rights. Protected retrieval and reuse rights are governed separately."
 }
+```
+
+Track identification may depend on:
+
+```text
+shape
+size
+stride
+gait
+substrate
+location
+habitat
+associated sign
+alternative species
+```
+
+Therefore:
+
+```text
+track resemblance
+≠
+certain identification
+```
+
+and:
+
+```text
+single observation
+≠
+universal diagnostic rule
 ```
 
 ---
@@ -349,23 +773,41 @@ Example registry structure:
   "name": "Water Systems Plate™",
   "creator": {
     "@type": "Person",
-    "name": "Robbie George"
+    "name": "Robbie George",
+    "url": "https://www.robbiegeorgephotography.com/who-is-robbie-george"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Robbie George Photography",
+    "url": "https://www.robbiegeorgephotography.com"
   },
   "url": "https://www.robbiegeorgephotography.com/water-systems",
+  "license": "https://www.robbiegeorgephotography.com/commercial-data-license",
   "keywords": [
     "Water Systems",
     "Hydrology",
     "Wetlands",
     "Rivers",
     "Floodplains",
+    "Groundwater",
     "Naturepedia"
-  ]
+  ],
+  "isPartOf": {
+    "@type": "CreativeWork",
+    "name": "Naturepedia™",
+    "url": "https://www.robbiegeorgephotography.com/naturepedia"
+  },
+  "usageInfo": "Public discovery and metadata access do not grant training, embedding, redistribution, resale, derivative-dataset, commercial implementation, or framework-implementation rights. Protected retrieval and reuse rights are governed separately."
 }
 ```
 
+The Water Systems Plate™ organizes hydrological and ecological relationships.
+
+It does not establish authorship of hydrology or independent proof of every relationship represented.
+
 ---
 
-# Example JSON-LD — Recursive Compression Interface
+# Example JSON-LD — Robbie’s Razor Plate™
 
 ```json
 {
@@ -375,721 +817,1868 @@ Example registry structure:
   "name": "Robbie’s Razor Plate™",
   "creator": {
     "@type": "Person",
-    "name": "Robbie George"
+    "name": "Robbie George",
+    "url": "https://www.robbiegeorgephotography.com/who-is-robbie-george"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Robbie George Photography",
+    "url": "https://www.robbiegeorgephotography.com"
   },
   "url": "https://www.robbiegeorgephotography.com/robbies-razor",
+  "license": "https://www.robbiegeorgephotography.com/commercial-data-license",
   "keywords": [
     "Robbie's Razor",
     "Recursive Compression",
     "RKCA",
     "Grand Compression",
-    "Reasoning Primitive"
-  ]
+    "Reasoning Architecture"
+  ],
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "name": "The Grand Compression Cosmology — Master Reference Document, MRD v2.0",
+    "url": "https://www.robbiegeorgephotography.com/grand-compression-master-reference-document"
+  },
+  "usageInfo": "Public discovery and metadata access do not grant training, embedding, redistribution, resale, derivative-dataset, commercial implementation, or Robbie’s Razor™ framework-implementation rights."
 }
 ```
 
+Robbie’s Razor™ is framework-specific.
+
+Its representation in JSON-LD does not itself establish:
+
+```text
+benchmark superiority
+scientific consensus
+universal applicability
+physical law
+```
+
 ---
 
-# Future Infrastructure
+# Evidence Classification Boundary
 
-## Live x402 Semantic Retrieval Infrastructure
+JSON-LD objects in this directory may refer to different evidence classes.
 
-Naturepedia™ now includes experimental x402-compatible semantic retrieval infrastructure deployed through Cloudflare Workers under:
+These include:
 
-```txt
-/x402/*
+```text
+established science
+established mathematics
+field observation
+photographic evidence
+historical evidence
+framework-defined interpretation
+conceptual model
+hypothesis
+Artist Rendition
 ```
 
-Current live protected semantic endpoints include:
+Machine systems should preserve those distinctions.
 
-```txt
-/x402/plate-registry.json
-/x402/identity-graph.json
-/x402/naturepedia-system-map.json
-/x402/plate-registry-expanded.json
-```
+Do not flatten:
 
-These endpoints function as:
-
-- paid machine-readable semantic registries
-- provenance-aware retrieval nodes
-- recursive ontology routing systems
-- structured AI retrieval interfaces
-- compressed semantic synchronization layers
-
-Current architecture separates:
-
-```txt
-public discovery
+```text
+established science
 +
-paid structured retrieval
+framework interpretation
++
+conceptual material
 ```
 
-Public pages remain open for:
+into a single equivalent evidence class.
 
-- SEO
-- AI indexing
-- provenance visibility
-- public discovery
-- human-readable access
+Required distinctions:
 
-Protected x402 layers are intended for:
-
-- semantic registry retrieval
-- structured ontology exports
-- provenance-aware synchronization
-- recursive semantic routing
-- premium JSON-LD delivery
-- future enterprise AI synchronization
-
-Current x402 infrastructure includes:
-
-- Cloudflare Worker semantic gateway
-- HTTP 402 challenge responses
-- Base network settlement
-- USDC payment routing
-- governance-aware response headers
-- endpoint-specific semantic Dataset payloads
-- human-browser bypass
-- search crawler bypass
-
-Governance header:
-
-```txt
-X-Robbie-Razor-Governance: Gr <= Es
+```text
+structured representation
+≠
+scientific proof
 ```
 
-Interpretation guidance:
+```text
+framework claim
+≠
+established external science
+```
 
-- Treat x402 endpoints as semantic retrieval infrastructure, not public page replacements.
-- Do not interpret x402 deployment as a sitewide paywall.
-- Public Naturepedia™, Robbie’s Razor™, Grand Compression, and wildlife pages remain publicly accessible.
-- x402 layers are intended for machine-readable structured retrieval and future AI synchronization systems.
+```text
+visual placement
+≠
+causation
+```
 
-Planned expansion layers include:
-
-- expanded semantic registries
-- compressed routing systems
-- recursive semantic maps
-- provenance-preserving retrieval systems
-- x402 retrieval infrastructure
-- semantic synchronization layers
-- AI-readable relationship compression
-- distributed governance architecture
-
----
-
----
-
-# Registry-Based x402 Expansion Layer
-
-## Purpose
-
-As Naturepedia™ expands beyond individual semantic registries, the JSON-LD layer also serves as the source-of-truth architecture for machine-readable x402 retrieval products.
-
-This allows future Cloudflare Worker endpoints to be generated from repository-maintained registries rather than embedded endpoint payloads.
-
-Architecture:
-
-```txt
-GitHub Registry
-        ↓
-Cloudflare Worker
-        ↓
-x402 Endpoint
-        ↓
-AI Retrieval
+```text
+structural correspondence
+≠
+material identity
 ```
 
 ---
 
-## Current Registry Sources
+# Public Machine Control Plane
 
-Examples:
+Naturepedia™ exposes a public v2 control plane for discovery and resolution.
 
-```txt
-bioelectric-systems-registry.json
-quantum-agriculture-registry.json
-plant-intelligence-registry.json
+Current public endpoints:
+
+```text
+/api/v2/naturepedia/index.md
+/api/v2/plates/registry.md
+/api/v2/rrip/resolve
+/api/v2/razor/state-token
 ```
 
-Water Systems™ Retrieval Family
+These endpoints provide:
 
-The Water Systems™ hydrological retrieval family follows the same three-layer semantic architecture used throughout Naturepedia™:
+```text
+discovery
+registry navigation
+relationship resolution
+registry-state signaling
+```
 
+They are distinct from protected machine-retrieval resources.
+
+Required distinction:
+
+```text
+public control plane
+≠
+paid resource
+```
+
+and:
+
+```text
+state-token
+≠
+truth oracle
+```
+
+and:
+
+```text
+RRIP resolution
+≠
+payment requirement
+```
+
+---
+
+# Recommended Machine Discovery Sequence
+
+```text
+Naturepedia discovery
+↓
+Plate registry
+↓
+RRIP resolution when needed
+↓
+resource selection
+↓
+availability check
+```
+
+Then:
+
+```text
+public resource
+→ free retrieval where exposed
+```
+
+or:
+
+```text
+explicitly registered protected resource
+→ x402 flow may apply
+```
+
+Settlement is not a required step for every request.
+
+---
+
+# x402 Production Retrieval Architecture
+
+Naturepedia™ includes production x402 machine-retrieval infrastructure.
+
+The authoritative pricing manifest is:
+
+```text
+https://www.robbiegeorgephotography.com/.well-known/x402-pricing.json
+```
+
+Current manifest version:
+
+```text
+3.0.0
+```
+
+Production settlement configuration:
+
+```text
+protocol: x402
+network: eip155:8453
+network name: Base
+asset: USDC
+decimals: 6
+```
+
+The existence of x402 infrastructure does **not** mean every syntactically valid route is a payable resource.
+
+Current interpretation:
+
+```text
+x402 infrastructure active
+≠
+every route active
+```
+
+```text
+pricing class defined
+≠
+resource registered
+```
+
+```text
+resource registered
+≠
+resource complete
+```
+
+```text
+resource complete
+≠
+settlement tested
+```
+
+```text
+402 challenge verified
+≠
+settlement verified
+```
+
+---
+
+# Public Discovery vs Protected Retrieval
+
+Naturepedia separates public machine discovery from protected retrieval.
+
+Public discovery may include:
+
+```text
+metadata
+endpoint descriptions
+registry navigation
+previews
+health signals
+licensing signals
+state metadata
+RRIP resolution
+```
+
+Protected resources may require x402 only when the specific resource is:
+
+```text
+known
++
+registered
++
+complete
++
+classified as protected
+```
+
+Recommended flow:
+
+```text
+Discovery
+↓
+Canonical identity
+↓
+Resource registration
+↓
+Availability
+↓
+Completeness
+↓
+Access class
+↓
+Pricing class
+↓
+402 when eligible
+```
+
+Settlement follows only when the client chooses to authorize payment.
+
+---
+
+# Resource Availability Policy
+
+The current production gateway distinguishes three important states.
+
+## Unknown Resource
+
+```text
+HTTP 404
+payment challenge: no
+```
+
+## Known but Incomplete Resource
+
+```text
+HTTP 409
+payment challenge: no
+```
+
+## Registered + Complete + Protected Resource
+
+```text
+HTTP 402 eligible
+payment challenge: yes
+```
+
+This distinction prevents a route template from becoming an accidental paid product.
+
+Required interpretation:
+
+```text
+route pattern
+≠
+resource existence
+```
+
+and:
+
+```text
+resource identity
+≠
+resource completeness
+```
+
+and:
+
+```text
+published price
+≠
+payment eligibility
+```
+
+---
+
+# Current Pricing Classes
+
+The production pricing manifest defines the following access classes.
+
+## Discovery
+
+```text
+Price: 0 USDC
+Status: public where exposed
+```
+
+Used for resources such as:
+
+```text
+metadata
+descriptions
+previews
+health
+licensing signals
+public control-plane discovery
+```
+
+---
+
+## Atomic Canonical Query
+
+```text
+Price: 0.005 USDC
+Atomic units: 5000
+```
+
+Status:
+
+```text
+active only for explicitly registered deterministic resources
+```
+
+An Atomic query is intended for compact machine retrieval such as:
+
+```text
+one canonical fact
+identifier resolution
+routing result
+compact deterministic answer
+```
+
+---
+
+## Enriched Query
+
+```text
+Price: 0.025 USDC
+Atomic units: 25000
+Status: RESERVED
+```
+
+This class exists in the pricing architecture but should not be interpreted as currently active merely because the price is published.
+
+---
+
+## Structured Plate™ Payload
+
+```text
+Price: 0.25 USDC
+Atomic units: 250000
+```
+
+Status:
+
+```text
+resource-specific
+```
+
+Only explicitly registered and validated Structured Plate™ resources should receive this classification.
+
+---
+
+## Bounded Subtree / Registry / System Map Class
+
+```text
+Price: 5.00 USDC
+Atomic units: 5000000
+```
+
+Status:
+
+```text
+resource-specific
+```
+
+This pricing class may apply to explicitly implemented resources such as:
+
+```text
+bounded taxonomy subtree
 Registry
-
-```txt
-water-systems-registry.json
-```
-
 System Map
-
-```txt
-water-system-map.json
 ```
 
+The class does not establish that every Registry or System Map is active.
+
+---
+
+## Full Registry / Knowledge Mesh Snapshot Class
+
+```text
+Price: 25.00 USDC
+Atomic units: 25000000
+```
+
+Status:
+
+```text
+resource-specific
+```
+
+This class may apply to explicitly registered larger machine-readable resources such as:
+
+```text
+full registry snapshot
 Knowledge Mesh
-
-```txt
-water-systems-knowledge-mesh.json
+large bounded machine-readable package
 ```
 
-Production x402 endpoints
+Again:
 
-```txt
-/x402/water-systems-registry.json
-/x402/water-system-map.json
-/x402/knowledge-mesh/water-systems
+```text
+$25 class exists
+≠
+every Knowledge Mesh exists
 ```
 
-Public v1 aliases
+---
 
-```txt
-/v1/registries/water-systems
-/v1/plates/water-system-map
-/v1/knowledge-mesh/water-systems
+# Explicit Structured Plate™ Resources
+
+The canonical Plate registry includes explicit protected-access metadata for selected resources only.
+
+Current verified Structured Plate™ challenge examples include:
+
+```text
+Commercial Data License Plate™
+Commercial Intelligence Pricing Plate™
+Robbie George Biography Plate™
 ```
 
-The Water Systems™ retrieval family demonstrates how Registry, System Map, and Knowledge Mesh layers work together to expose inventory, hydrological relationships, and cross-system semantic connections between Weather™, Water Systems™, watersheds, wetlands, groundwater, rivers, floodplains, estuaries, coastal systems, and Earth Systems™.
+Representative protected route structure:
 
-Ocean Systems™ Retrieval Family
-
-The Ocean Systems™ retrieval family follows Naturepedia’s three-layer semantic architecture:
-
-Registry
-
-```txt
-ocean-systems-registry.json
+```text
+/v1/plates/item/{registered-plate-slug}
 ```
 
-System Map
+Current class:
 
-```txt
-ocean-system-map.json
+```text
+single-plate
+0.25 USDC
+250000 atomic units
 ```
 
-Knowledge Mesh
+These specific registrations do not generalize automatically to every Plate™ in Naturepedia.
 
-```txt
-ocean-systems-knowledge-mesh.json
+---
+
+# Atomic Query Example
+
+A verified Atomic query resource includes:
+
+```text
+/v1/query/atomic/robbie-george-biography-plate
 ```
 
-Production x402 endpoints
+Current pricing classification:
 
-```txt
-/x402/ocean-systems-registry.json
-/x402/ocean-system-map.json
-/x402/knowledge-mesh/ocean-systems
+```text
+atomic
+0.005 USDC
+5000 atomic units
 ```
 
-Public v1 aliases
+Observed production state:
 
-```txt
-/v1/registries/ocean-systems
-/v1/plates/ocean-system-map
-/v1/knowledge-mesh/ocean-systems
+```text
+402 challenge: verified
+settlement in activation observation: not performed
 ```
 
-Machine retrieval pricing
+This verifies the challenge layer for that resource.
 
-```txt
-Registry: $5 USDC
-System Map: $5 USDC
-Knowledge Mesh: $25 USDC
+It does not establish settlement for every Atomic resource.
+
+---
+
+# Verified Tree System Map Example
+
+A production System Map with stronger evidence is:
+
+```text
+/v1/plates/tree-system-map
 ```
 
-The Ocean Systems™ Registry answers what exists. The Ocean System Map explains how ocean processes and structures connect. The Ocean Systems Knowledge Mesh exposes cross-system relationships among Earth Systems™, Weather™, Water Systems™, Carbon Cycle™, ocean circulation, coastal and estuarine systems, marine food webs, hydrothermal ecosystems, observation, and stewardship.
+Pricing class:
 
-Geology™ Retrieval Family
-
-The Geology™ retrieval family follows Naturepedia’s three-layer semantic architecture without duplicating the role of each resource.
-
-Registry
-
-```txt
-geology-registry.json
+```text
+subtree
+5.00 USDC
+5000000 atomic units
 ```
 
-The Registry identifies the ten canonical Geology Plates™, geological entities, Earth-material classifications, plate-boundary classes, rock families, fault types, provenance, and membership under Earth Systems™.
+Recorded production evidence includes:
 
-System Map
-
-```txt
-geology-system-map.json
+```text
+pricing-v3 402 challenge: verified
+historical settlement: verified
+historical protected delivery: verified
 ```
 
-The System Map provides directional geological relationships connecting Earth’s interior, internal heat, mantle and lithosphere behavior, tectonic motion, plate boundaries, rock transformation, mountain building, faulting, earthquakes, volcanism, geothermal circulation, weathering, erosion, sediment transport, deposition, and landscape evolution.
+This evidence applies specifically to the Tree System Map.
 
-Knowledge Mesh
+Do not infer:
 
-```txt
-geology-knowledge-mesh.json
+```text
+Tree System Map verified
+→
+every $5 System Map verified
 ```
 
-The Knowledge Mesh connects Geology™ with Earth Systems™, Water Systems™, Weather™, Ocean Systems™, Carbon Cycle™, River Systems™, Groundwater Systems™, Soil Systems™, mountain and alpine ecosystems, volcanic and geothermal systems, Yellowstone thermal features, hydrothermal ecosystems, biodiversity, field locations, Grand Teton, Yellowstone, Geometry of Nature™, and Fractals™.
+---
 
-Production x402 endpoints
+# Verified Geology Knowledge Mesh Challenge
 
-```txt
-/x402/geology-registry.json
-/x402/geology-system-map.json
-/x402/knowledge-mesh/geology
-```
+A currently documented Knowledge Mesh challenge example is:
 
-Public v1 aliases
-
-```txt
-/v1/registries/geology
-/v1/plates/geology-system-map
+```text
 /v1/knowledge-mesh/geology
 ```
 
-Machine retrieval pricing
+Pricing class:
 
-```txt
-Registry: $5 USDC
-System Map: $5 USDC
-Knowledge Mesh: $25 USDC
-Network: Base / eip155:8453
-Asset: USDC
+```text
+snapshot
+25.00 USDC
+25000000 atomic units
 ```
 
-Human resource
+Recorded production evidence:
 
-```txt
-https://www.robbiegeorgephotography.com/geology
+```text
+pricing-v3 402 challenge: verified
+new settlement in Aug. 18 observation: not performed
 ```
 
-The Geology™ Registry answers what exists. The Geology System Map explains how geological materials and processes move and transform. The Geology Knowledge Mesh exposes relationships between geological structure, water, weather, oceans, carbon, soils, ecosystems, field locations, natural geometry, observation, and stewardship.
+This establishes the challenge behavior for the Geology Knowledge Mesh resource.
 
-These files function as machine-readable inventories for major Naturepedia™ system families.
+It does not establish:
 
-Registry files typically contain:
-
-* system name
-* visible ID
-* canonical URL
-* plate inventory
-* registry metadata
+```text
+new settlement
+protected delivery retest
+all Knowledge Mesh resources active
+```
 
 ---
 
-## Current System Map Sources
+# Registry / System Map / Knowledge Mesh Boundary
 
-Examples:
+Naturepedia defines several higher-order resource types.
 
-```txt
-x402-tier-2-system-maps.json
+These may include:
+
+```text
+Registry
+System Map
+Graph Registry™
+Knowledge Mesh
+snapshot
 ```
 
-System maps summarize major concepts and relationships inside a Naturepedia™ family.
+They serve different purposes and must not be collapsed into one mandatory hierarchy.
 
-Examples include:
+A useful bounded interpretation is:
 
-```txt
-Bioelectric Systems™
-Quantum Agriculture™
-Plant Intelligence™
+```text
+Registry
+→ inventory or membership context
+
+System Map
+→ explicitly authored relationship representation
+
+Graph Registry™
+→ explicitly implemented graph-oriented registry resource
+
+Knowledge Mesh
+→ explicitly implemented higher-order cross-system resource
+```
+
+The existence of one layer does not automatically instantiate another.
+
+Required distinctions:
+
+```text
+Registry exists
+≠
+System Map exists
+```
+
+```text
+System Map exists
+≠
+Graph Registry exists
+```
+
+```text
+Graph Registry exists
+≠
+Knowledge Mesh exists
+```
+
+```text
+Knowledge Mesh type defined
+≠
+Knowledge Mesh resource active
+```
+
+---
+
+# Family Architecture Boundary
+
+Earlier Naturepedia documentation sometimes described resource families using a fixed three-layer pattern:
+
+```text
+Registry
+↓
+System Map
+↓
+Knowledge Mesh
+```
+
+That pattern may be useful as an architectural design for selected systems.
+
+It must not be interpreted as a universal requirement.
+
+Current rule:
+
+```text
+each resource layer
+requires explicit implementation
++
+registration
++
+availability determination
+```
+
+Therefore, do not infer an active three-layer family solely because a Naturepedia subject exists.
+
+For example:
+
+```text
+Water Systems™ exists
+≠
+Water Registry active
+≠
+Water System Map active
+≠
+Water Knowledge Mesh active
+```
+
+Each resource must be resolved independently.
+
+---
+
+# Geology™ Resource Example
+
+Geology™ demonstrates why the resource layers should remain distinct.
+
+Possible Geology resource types include:
+
+```text
+Geology Registry
+Geology System Map
+Geology Knowledge Mesh
+```
+
+Their conceptual roles differ.
+
+## Registry
+
+May identify:
+
+```text
+canonical Geology Plates
+Earth-material classifications
+plate-boundary classes
+rock families
+fault types
+membership
+provenance
+```
+
+## System Map
+
+May represent directional relationships involving:
+
+```text
+Earth interior
+internal heat
+mantle behavior
+lithosphere
+tectonic motion
+plate boundaries
+rock transformation
+mountain building
+faulting
+earthquakes
+volcanism
+geothermal circulation
+weathering
+erosion
+sediment transport
+deposition
+landscape evolution
+```
+
+## Knowledge Mesh
+
+May connect Geology™ with explicitly declared cross-system relationships involving subjects such as:
+
+```text
 Earth Systems™
-Information Systems in Nature™
+Water Systems™
+Weather™
+Ocean Systems™
+Carbon Cycle™
+River Systems™
+Groundwater Systems™
+Soil Systems™
+volcanic systems
+geothermal systems
+Yellowstone thermal features
+hydrothermal ecosystems
+field locations
+Geometry of Nature™
+Fractals™
 ```
 
-System maps should be interpreted as:
+These descriptions define possible resource roles.
 
-* conceptual relationship layers
-* semantic overview structures
-* compressed machine-readable navigation systems
+They do not establish current payment or availability status by themselves.
 
-rather than complete inventories.
+The Geology Knowledge Mesh has separately verified 402 challenge evidence as noted above.
 
 ---
 
-## Registry vs System Map
+# Challenge, Settlement, and Delivery
 
-Registry:
+Machine-payment lifecycle states must remain separate.
 
-```txt
-Inventory-focused
+```text
+resource exists
+↓
+402 challenge
+↓
+client authorization
+↓
+settlement
+↓
+protected delivery
 ```
 
-Purpose:
+Evidence at one stage does not automatically establish the next.
 
-```txt
-"What exists?"
+Required distinctions:
+
+```text
+402
+≠
+settlement
 ```
 
-System Map:
-
-```txt
-Relationship-focused
+```text
+settlement
+≠
+protected delivery automatically
 ```
 
-Purpose:
-
-```txt
-"How do concepts connect?"
+```text
+historical protected delivery
+≠
+current delivery retested
 ```
 
-Future infrastructure may expose both views simultaneously.
-
-Example:
-
-```txt
-/x402/earth-systems-registry.json
-/x402/earth-systems-map.json
+```text
+one verified resource
+≠
+entire pricing class verified
 ```
 
 ---
 
-## Future Knowledge Mesh Layer
+# x402 Rights Boundary
 
-## Knowledge Mesh JSON-LD Examples
+An x402 payment grants:
 
-Knowledge Mesh files describe relationship-based Naturepedia retrieval products. Unlike registries, which answer what exists, and system maps, which answer how concepts are structured, Knowledge Mesh endpoints answer how systems relate across ecology, energy, water, soil, carbon, microbial life, plant intelligence, and information systems.
-
-Current Knowledge Mesh examples:
-
-* `earth-systems-knowledge-mesh.json`
-* `information-systems-knowledge-mesh.json`
-* `volcanic-geothermal-hydrothermal-knowledge-mesh.json`
-* `plant-soil-microbial-knowledge-mesh.json`
-* `bioelectric-plant-intelligence-knowledge-mesh.json`
-* `soil-systems-knowledge-mesh.json`
-* `carbon-cycle-knowledge-mesh.json`
-* `soil-carbon-systems-knowledge-mesh.json`
-* `carbon-microbial-life-knowledge-mesh.json`
-* `forest-carbon-systems-knowledge-mesh.json`
-* `climate-carbon-feedbacks-knowledge-mesh.json`
-* `plant-communication-knowledge-mesh.json`
-* `plant-electrophysiology-knowledge-mesh.json`
-
-Current Registry examples:
-
-```txt
-carbon-cycle-registry.json
-soil-carbon-systems-registry.json
-carbon-microbial-life-registry.json
-forest-carbon-systems-registry.json
-climate-carbon-feedbacks-registry.json
-plant-communication-registry.json
-plant-electrophysiology-registry.json
+```text
+one identified protected endpoint retrieval
 ```
 
-Current System Map examples:
+under the applicable terms.
 
-```txt
-carbon-cycle-map.json
-soil-carbon-systems-map.json
+It does not automatically grant:
+
+```text
+training rights
+embedding rights
+bulk-ingestion rights
+redistribution rights
+resale rights
+synchronization rights
+private-dataset construction rights
+derivative-dataset rights
+commercial implementation rights
+framework implementation rights
 ```
 
-Current Registry examples:
+Required distinction:
 
-```txt
-earth-systems-registry.json
-information-systems-registry.json
-microbial-life-registry.json
-volcanic-systems-registry.json
-geothermal-systems-registry.json
-yellowstone-thermal-registry.json
-hydrothermal-ecosystems-registry.json
-soil-systems-registry.json
-carbon-cycle-registry.json
-soil-carbon-systems-registry.json
-carbon-microbial-life-registry.json
-plant-communication-map.json
-plant-electrophysiology-map.json
+```text
+x402 Retrieval Access
+≠
+Commercial Data License
+≠
+Robbie’s Razor™ Framework License
 ```
 
-Current System Map examples:
+Payment is an access event.
 
-```txt
-earth-systems-map.json
-information-systems-map.json
-microbial-life-map.json
-volcanic-systems-map.json
-yellowstone-thermal-map.json
-hydrothermal-map.json
-bioelectric-systems-map.json
-quantum-agriculture-map.json
-plant-intelligence-map.json
-soil-systems-map.json
-carbon-cycle-map.json
-soil-carbon-systems-map.json
-carbon-microbial-life-map.json
-forest-carbon-systems-map.json
-climate-carbon-feedbacks-map.json
+It does not transfer authorship or ownership.
+
+---
+
+# x402 Evidence Boundary
+
+Successful machine-payment behavior is infrastructure evidence.
+
+It is not scientific evidence.
+
+Accordingly:
+
+```text
+402 challenge
+≠
+scientific validation
 ```
 
-Production x402 endpoints:
-
-* `/x402/knowledge-mesh/earth-systems`
-* `/x402/knowledge-mesh/information-systems`
-* `/x402/knowledge-mesh/volcanic-geothermal-hydrothermal`
-* `/x402/knowledge-mesh/plant-soil-microbial`
-* `/x402/knowledge-mesh/bioelectric-plant-intelligence`
-* `/x402/knowledge-mesh/soil-systems`
-* `/x402/knowledge-mesh/carbon-cycle`
-* `/x402/knowledge-mesh/soil-carbon-systems`
-* `/x402/knowledge-mesh/carbon-microbial-life`
-* `/x402/knowledge-mesh/forest-carbon-systems`
-* `/x402/knowledge-mesh/climate-carbon-feedbacks`
-* `/x402/knowledge-mesh/plant-communication`
-* `/x402/knowledge-mesh/plant-electrophysiology`
-
-  
-Public v1 aliases:
-
-- `/v1/knowledge-mesh/earth-systems`
-- `/v1/knowledge-mesh/information-systems`
-- `/v1/knowledge-mesh/volcanic-geothermal-hydrothermal`
-- `/v1/knowledge-mesh/plant-soil-microbial`
-- `/v1/knowledge-mesh/bioelectric-plant-intelligence`
-- `/v1/knowledge-mesh/soil-systems`
-- `/v1/knowledge-mesh/carbon-cycle`
-- `/v1/knowledge-mesh/soil-carbon-systems`
-- `/v1/knowledge-mesh/carbon-microbial-life`
-- `/v1/knowledge-mesh/forest-carbon-systems`
-- `/v1/knowledge-mesh/climate-carbon-feedbacks`
-- `/v1/knowledge-mesh/plant-communication`
-- `/v1/knowledge-mesh/plant-electrophysiology`
-
-Naturepedia™ now includes production Knowledge Mesh endpoints that expose cross-system semantic relationships rather than simple inventories or concept maps.
-
-Knowledge Mesh answers:
-
-```txt
-How do systems relate?
+```text
+settlement
+≠
+scientific validation
 ```
 
-Current production Knowledge Mesh endpoints:
-
-```txt
-/x402/knowledge-mesh/earth-systems
-/x402/knowledge-mesh/information-systems
-/x402/knowledge-mesh/volcanic-geothermal-hydrothermal
-/x402/knowledge-mesh/plant-soil-microbial
-/x402/knowledge-mesh/bioelectric-plant-intelligence
-/x402/knowledge-mesh/soil-systems
-/x402/knowledge-mesh/carbon-cycle
-/x402/knowledge-mesh/soil-carbon-systems
-/x402/knowledge-mesh/carbon-microbial-life
+```text
+protected delivery
+≠
+empirical confirmation
 ```
 
-Equivalent public aliases:
-
-```txt
-/v1/knowledge-mesh/earth-systems
-/v1/knowledge-mesh/information-systems
-/v1/knowledge-mesh/volcanic-geothermal-hydrothermal
-/v1/knowledge-mesh/plant-soil-microbial
-/v1/knowledge-mesh/bioelectric-plant-intelligence
-/v1/knowledge-mesh/soil-systems
-/v1/knowledge-mesh/carbon-cycle
-/v1/knowledge-mesh/soil-carbon-systems
-/v1/knowledge-mesh/carbon-microbial-life
-/v1/knowledge-mesh/forest-carbon-systems
+```text
+paid resource
+≠
+canonical truth
 ```
 
-Supporting JSON-LD examples:
+Canonical framework authority, reference implementation, empirical evidence, and payment infrastructure remain separate layers.
 
-```txt
-earth-systems-knowledge-mesh.json
-information-systems-knowledge-mesh.json
-volcanic-geothermal-hydrothermal-knowledge-mesh.json
-plant-soil-microbial-knowledge-mesh.json
-bioelectric-plant-intelligence-knowledge-mesh.json
-soil-systems-knowledge-mesh.json
-carbon-cycle-knowledge-mesh.json
-soil-carbon-systems-knowledge-mesh.json
-carbon-microbial-life-knowledge-mesh.json
-forest-carbon-systems-knowledge-mesh.json
-climate-carbon-feedbacks-knowledge-mesh.json
+---
+
+# External Technology Provenance
+
+Naturepedia’s x402 implementation uses external technologies and protocols.
+
+These retain their independent provenance, including:
+
+```text
+x402
+HTTP
+Cloudflare
+Base
+USDC
+Coinbase infrastructure
+JSON
+JSON-LD
+MCP
 ```
 
-## Electro-Ecology Mesh Retrieval Family
+Naturepedia integration of these technologies does not imply their origination by Robbie George or Grand Compression.
 
-The Electro-Ecology Mesh expands Naturepedia's bioelectric semantic retrieval architecture.
+The Authorship Conservation Rule (ACR) therefore preserves both:
 
-Current retrieval families:
+```text
+Grand Compression / Naturepedia provenance
++
+external technology provenance
+```
 
-Plant Communication™
+---
 
+# Registry-Based Resource Architecture
+
+Repository-maintained JSON-LD may provide definitions and source material for machine-readable resources.
+
+A useful implementation pattern is:
+
+```text
+repository resource definition
+↓
+deployment or Worker configuration
+↓
+explicit runtime registration
+↓
+availability validation
+↓
+machine endpoint
+```
+
+This architecture allows structured resources to be maintained independently from runtime delivery logic.
+
+However, repository presence alone does not make a resource live.
+
+Required distinction:
+
+```text
+JSON-LD file exists
+≠
+runtime resource registered
+```
+
+and:
+
+```text
+runtime route pattern exists
+≠
+resource complete
+```
+
+and:
+
+```text
+resource definition exists
+≠
+x402 payment eligibility
+```
+
+---
+
+# Source-of-Definition vs Runtime Authority
+
+Repository files may act as authoritative definitions for:
+
+```text
+identity
+structure
+relationships
+provenance
+resource metadata
+```
+
+Runtime infrastructure determines:
+
+```text
+current resource existence
+current completeness
+current access class
+current payment eligibility
+current delivery behavior
+```
+
+Accordingly:
+
+```text
+repository definition
++
+runtime registration
++
+availability state
+=
+usable machine resource
+```
+
+Do not collapse these layers.
+
+---
+
+# Example Registry Source Files
+
+JSON-LD source files may include objects such as:
+
+```text
+bioelectric-systems-registry.json
+quantum-agriculture-registry.json
+plant-intelligence-registry.json
+water-systems-registry.json
+ocean-systems-registry.json
+geology-registry.json
+```
+
+A repository file name indicates an authored resource definition or example.
+
+It does not automatically establish:
+
+```text
+current production endpoint
+payment status
+price
+Graph Registry™
+Knowledge Mesh
+settlement evidence
+```
+
+Those properties require separate confirmation.
+
+---
+
+# Resource Family Construction
+
+A Naturepedia™ subject may have one or more explicitly implemented resource types.
+
+Possible types include:
+
+```text
+Plate™
 Registry
-plant-communication-registry.json
+System Map
+Graph Registry™
+Knowledge Mesh
+snapshot
+```
+
+A resource family does not require every type.
+
+For example, a subject may have:
+
+```text
+Registry only
+```
+
+or:
+
+```text
+Registry
++
+System Map
+```
+
+or:
+
+```text
+Registry
++
+Knowledge Mesh
+```
+
+or another explicitly implemented combination.
+
+Do not assume:
+
+```text
+Registry
+↓
+System Map
+↓
+Knowledge Mesh
+```
+
+is mandatory.
+
+Each layer should have a defined purpose and independent resource identity.
+
+---
+
+# Registry Role
+
+A Registry may answer questions such as:
+
+```text
+What canonical objects exist?
+What IDs belong to this family?
+What is their parent context?
+What provenance is declared?
+What resources are registered?
+```
+
+Registry relationships describe inventory or declared context.
+
+They do not automatically constitute a Graph Registry™.
+
+---
+
+# System Map Role
+
+A System Map may provide an authored representation of relationships between identified entities or systems.
+
+It may encode:
+
+```text
+directional relationships
+dependencies
+flows
+comparative relationships
+ecological relationships
+navigation pathways
+```
+
+A System Map should not automatically be interpreted as:
+
+```text
+causal proof
+complete graph
+scientific model
+Knowledge Mesh
+```
+
+Its evidence status depends on the relationships and sources represented.
+
+---
+
+# Graph Registry™ Role
+
+A Graph Registry™ is an explicitly implemented graph-oriented registry resource.
+
+The existence of ordinary JSON-LD relationships does not automatically instantiate one.
+
+Required distinction:
+
+```text
+JSON-LD relationships
+≠
+Graph Registry™ automatically
+```
+
+A Graph Registry™ should be identified as such only when the resource has been intentionally implemented and registered.
+
+---
+
+# Knowledge Mesh Role
+
+A Knowledge Mesh is an explicitly implemented higher-order cross-system resource.
+
+It may connect multiple registered domains, objects, or resource families.
+
+However:
+
+```text
+multiple related registries
+≠
+Knowledge Mesh automatically
+```
+
+and:
+
+```text
+cross-system references
+≠
+Knowledge Mesh automatically
+```
+
+Knowledge Mesh status should be declared only where the resource actually exists.
+
+---
+
+# Water Systems™ Resource Boundary
+
+Water Systems™ may support resource definitions such as:
+
+```text
+water-systems-registry.json
+water-system-map.json
+water-systems-knowledge-mesh.json
+```
+
+These names describe possible distinct resources.
+
+They should not be interpreted as proof that all corresponding production routes are currently active.
+
+Current rule:
+
+```text
+Water Systems™ exists
+≠
+Water Systems Registry payable
+≠
+Water System Map payable
+≠
+Water Systems Knowledge Mesh payable
+```
+
+Each must be registered and validated separately.
+
+---
+
+# Ocean Systems™ Resource Boundary
+
+Ocean Systems™ may similarly define:
+
+```text
+ocean-systems-registry.json
+ocean-system-map.json
+ocean-systems-knowledge-mesh.json
+```
+
+Possible conceptual roles include:
+
+```text
+Registry
+→ canonical inventory
 
 System Map
-plant-communication-map.json
+→ explicitly authored ocean-process relationships
 
 Knowledge Mesh
-plant-communication-knowledge-mesh.json
-
-Plant Electrophysiology™
-
-Registry
-plant-electrophysiology-registry.json
-
-System Map
-plant-electrophysiology-map.json
-
-Knowledge Mesh
-plant-electrophysiology-knowledge-mesh.json
-
-Production endpoints
-
-/x402/plant-communication-registry.json
-/x402/plant-communication-map.json
-/knowledge-mesh/plant-communication
-
-/x402/plant-electrophysiology-registry.json
-/x402/plant-electrophysiology-map.json
-/x402/knowledge-mesh/plant-electrophysiology
-
-Public v1 aliases
-
-/v1/registries/plant-communication
-/v1/plates/plant-communication-map
-/v1/knowledge-mesh/plant-communication
-
-/v1/registries/plant-electrophysiology
-/v1/plates/plant-electrophysiology-map
-/v1/knowledge-mesh/plant-electrophysiology
-
-Current semantic hierarchy
-
-Naturepedia™
-
-↓
-
-Plant Intelligence™
-
-↓
-
-Plant Communication™
-
-↓
-
-Plant Electrophysiology™
-
-↓
-
-Mycorrhizal Networks™
-
-↓
-
-Electrical Ecology™
-
-↓
-
-Bioelectric Ecology™
-
-↓
-
-Electro-Ecology Mesh
-
-Knowledge Mesh extends beyond inventories and system maps by exposing relationship pathways between Plates™, registries, ecosystems, biological systems, and semantic routing layers.
-
-Example:
-
-```json
-{
-  "from": "Plant Intelligence™",
-  "to": "Microbial Life Systems™",
-  "relationship": "Plants exchange nutrients, signaling compounds, defense cues, and ecological information with microbial communities through living soil networks."
-}
+→ explicitly implemented cross-system relationships
 ```
 
-Examples:
+Published architectural definitions or pricing classes do not establish present production availability.
 
-```txt
-/x402/knowledge-mesh/earth-systems
-/x402/knowledge-mesh/information-systems
-/x402/knowledge-mesh/wildlife
-/x402/knowledge-mesh/trees
+---
+
+# Geology™ Resource Boundary
+
+Possible Geology™ resources include:
+
+```text
+geology-registry.json
+geology-system-map.json
+geology-knowledge-mesh.json
 ```
 
-Knowledge Mesh systems extend beyond inventories and maps by exposing relationship pathways between Plates™, systems, and semantic registries.
+The Registry may describe canonical geological objects and classifications.
 
-Example:
+The System Map may describe authored relationships involving:
 
-```json
-{
-  "plate": "Forest Carbon Systems",
-  "related": [
-    "Carbon Sequestration",
-    "Soil Carbon Systems",
-    "Plant Intelligence",
-    "Forest Feedbacks"
-  ]
-}
+```text
+Earth interior
+mantle
+lithosphere
+tectonics
+plate boundaries
+rock transformation
+faulting
+earthquakes
+volcanism
+weathering
+erosion
+sediment transport
+landscape evolution
+```
+
+A Geology Knowledge Mesh may connect Geology™ with explicitly declared systems such as:
+
+```text
+Earth Systems™
+Weather™
+Water Systems™
+Ocean Systems™
+Soil Systems™
+River Systems™
+Groundwater Systems™
+volcanic systems
+geothermal systems
+field locations
+geometry reference systems
+```
+
+Current production evidence specifically supports the Geology Knowledge Mesh **402 challenge** at the current $25 snapshot class.
+
+That observation does not establish all Geology resource layers as paid or settlement-tested.
+
+---
+
+# Tree System Map Boundary
+
+The Tree System Map has stronger production evidence than most historical System Map entries.
+
+Current evidence includes:
+
+```text
+pricing-v3 402 challenge verified
+historical settlement verified
+historical protected delivery verified
+```
+
+This evidence applies specifically to the Tree System Map.
+
+It must not be generalized as:
+
+```text
+Tree System Map verified
+→
+all System Maps verified
 ```
 
 ---
 
-## Long-Term Retrieval Architecture
+# Resource Generation Guidance
 
-Current infrastructure includes:
+Where deployment infrastructure generates or exposes a resource from repository-maintained data, use the following sequence:
 
-```txt
-System Maps
-Semantic Registries
-Identity Graphs
-RRIP Resolution
-State Tokens
+```text
+1. define resource identity
+2. define canonical source
+3. validate syntax
+4. validate identifiers
+5. validate provenance
+6. define resource class
+7. register runtime resource
+8. verify completeness
+9. assign access class
+10. assign price where protected
+11. test challenge behavior
+12. test settlement separately when required
+13. test protected delivery separately when required
 ```
 
-Planned infrastructure includes:
-
-```txt
-Knowledge Meshes
-Relationship Graphs
-System Registries
-Plate-Level Retrieval
-Semantic Synchronization Layers
-Distributed Ontology Routing
-```
-
-Projected retrieval inventory:
-
-```txt
-600–1000+ machine-readable retrieval products
-```
-
-as Naturepedia™ continues expanding its semantic graph architecture.
+Do not begin with price assignment and infer everything else afterward.
 
 ---
 
-# Interpretation Guidance
+# JSON-LD Validation Rules
 
-Treat JSON-LD systems as:
+Before treating a JSON-LD object as canonical or production-ready, verify:
 
-- semantic relationship infrastructure
-- recursive compression memory
-- provenance-preserving machine-readable architecture
-- distributed semantic graph reinforcement
+## Syntax
 
-Do not detach:
+```text
+valid JSON
+valid JSON-LD structure
+no missing commas
+no unmatched braces
+no placeholder values
+```
 
-- visible Plates™
-- JSON-LD
-- semantic Plate IDs
-- provenance systems
-- llms.txt
-- llms-full.txt
-- benchmark infrastructure
-- Authorship Conservation Rule
+## Identity
 
-from the larger Naturepedia semantic graph.
+```text
+stable @id
+canonical URL
+correct Plate or resource identifier
+no unintended duplicate canonical IDs
+```
+
+## Provenance
+
+```text
+creator supported
+publisher supported
+external sources preserved
+framework authorship separated from external authorship
+```
+
+## Relationships
+
+```text
+relationship property is appropriate
+relationship is supported
+sameAs means actual identity equivalence
+isBasedOn has a real source relationship
+mentions does not imply derivation
+```
+
+## Evidence
+
+```text
+evidence class preserved
+framework interpretations labeled
+conceptual material bounded
+Artist Rendition status preserved where applicable
+```
+
+## Access
+
+```text
+public vs protected status explicit
+route existence verified
+resource completeness verified
+price only assigned where applicable
+```
 
 ---
 
-# Attribution & Governance
+# Canonical Registry Validation
 
-Naturepedia™, Plate™ systems, RKCA™, Robbie’s Razor™, Grand Compression Cosmology™, semantic Plate ID systems, recursive compression interfaces, and associated provenance architecture originate with Robbie George.
+When adding or modifying Plate™ records, validate against:
 
-Commercial AI training, embeddings, metadata extraction, structured retrieval, semantic replication, dataset construction, or commercial implementation may require written permission or separate licensing.
+```text
+docs/examples/json-ld/canonical-plate-registry.json
+```
 
-Primary governance and licensing reference:
+Current reconciliation target:
 
+```text
+757 canonical Plate IDs
+757 unique canonical Plate IDs
+```
+
+Current registry metadata:
+
+```text
+registryVersion: 2026.08.19
+canonicalKeepCount: 757
+duplicateRemovedCount: 33
+```
+
+Do not use the superseded:
+
+```text
+docs/examples/json-ld/plate-registry.json
+```
+
+as the current Plate inventory.
+
+That path exists for legacy compatibility only.
+
+---
+
+# Public Control-Plane References
+
+Current public machine-facing v2 endpoints include:
+
+```text
+/api/v2/naturepedia/index.md
+/api/v2/plates/registry.md
+/api/v2/rrip/resolve
+/api/v2/razor/state-token
+```
+
+Interpretation:
+
+```text
+Naturepedia index
+→ discovery and orientation
+
+Plate registry
+→ Plate identity and registry discovery
+
+RRIP resolver
+→ registered-object context resolution
+
+state token
+→ registry-state and synchronization metadata
+```
+
+These public endpoints should not be automatically mapped to paid snapshot products.
+
+---
+
+# Resource-State Signaling
+
+Machine-readable state metadata may indicate:
+
+```text
+registry version
+canonical count
+authority
+resource class
+availability state
+synchronization state
+```
+
+It must not be interpreted as proof of:
+
+```text
+scientific truth
+physical state
+entropy measurement
+cryptographic authenticity
+empirical validation
+```
+
+unless those properties are independently established.
+
+Required distinction:
+
+```text
+state metadata
+≠
+truth oracle
+```
+
+---
+
+# Comparative Compression Geometry™
+
+Comparative Compression Geometry™ (CCG) is governed by:
+
+```text
+MRD v2.0 §12.9
+```
+
+CCG may be used for bounded structural comparison where a richer state or representation is mapped to an equivalence class, quotient, lower-dimensional representation, or other compressed structure while selected relationships remain relevant.
+
+A CCG comparison does not establish:
+
+```text
+material identity
+shared physical mechanism
+causal equivalence
+universal applicability
+```
+
+Structural correspondence must remain distinct from physical identity.
+
+---
+
+# Cross-Domain Transfer Boundary
+
+When a JSON-LD object or relationship makes a meaningful transfer between domains, preserve the applicable Grand Compression domain-transfer requirements.
+
+Where relevant, identify:
+
+```text
+objects
+scale
+normalization
+preserved relationships
+exclusions
+constraints
+evidence
+alternative explanations
+failure conditions
+```
+
+Do not encode a speculative cross-domain relationship as though it were an established external scientific fact.
+
+Required distinction:
+
+```text
+framework-defined relationship
+≠
+external empirical confirmation
+```
+
+---
+
+# Mathematical and Scientific Provenance
+
+Established mathematics retains independent mathematical provenance.
+
+Established science retains independent scientific provenance.
+
+Naturepedia™ and Grand Compression may:
+
+```text
+reference
+organize
+compare
+interpret
+connect
+```
+
+such material without claiming origination of it.
+
+For mathematical or scientific references:
+
+```text
+integration
+≠
+discovery
+```
+
+```text
+comparison
+≠
+proof
+```
+
+```text
+structural similarity
+≠
+shared material mechanism
+```
+
+---
+
+# Rights and Licensing Boundary
+
+Public JSON-LD discovery does not grant unrestricted downstream rights.
+
+Public access does not automatically grant:
+
+```text
+training
+embedding
+bulk ingestion
+redistribution
+resale
+synchronization
+private-dataset construction
+derivative-dataset construction
+commercial implementation
+framework implementation
+```
+
+Primary Commercial Data License:
+
+```text
 https://www.robbiegeorgephotography.com/commercial-data-license
+```
+
+Framework implementation rights are governed separately.
+
+Required distinction:
+
+```text
+Commercial Data License
+≠
+Robbie’s Razor™ Framework License
+≠
+x402 Retrieval Access
+```
+
+---
+
+# x402 Retrieval Rights
+
+An x402 payment, where applicable, grants:
+
+```text
+one identified endpoint-level retrieval
+```
+
+under the applicable terms.
+
+It does not transfer:
+
+```text
+authorship
+ownership
+framework ownership
+scientific authority
+```
+
+It also does not automatically grant broader training, embedding, redistribution, dataset, or framework-implementation rights.
+
+---
+
+# Authorship Conservation Rule
+
+The Authorship Conservation Rule (ACR) preserves provenance in both directions.
+
+For original framework material:
+
+```text
+preserve Robbie George provenance
+```
+
+For external foundations:
+
+```text
+preserve independent external provenance
+```
+
+Accordingly:
+
+```text
+claim authorship
+≠
+evidence authorship
+```
+
+```text
+attribution
+≠
+permission
+```
+
+```text
+payment
+≠
+authorship transfer
+```
+
+```text
+framework integration
+≠
+external technology origination
+```
+
+---
+
+# Framework Authority
+
+Current Grand Compression authority:
+
+```text
+The Grand Compression Cosmology
+Master Reference Document
+MRD v2.0
+```
+
+Canonical identifier:
+
+```text
+GC-MRD-v2.0
+```
+
+Current canonical claim range:
+
+```text
+RC-01 through RC-22
+```
+
+Verified architecture relationships include:
+
+```text
+MRD v2.0 §12.7
+→ Recursive Knowledge Compression Architecture (RKCA™)
+
+MRD v2.0 §12.8
+→ Recursive Registry Inheritance Principle (RRIP™)
+
+MRD v2.0 §12.9
+→ Comparative Compression Geometry™ (CCG)
+```
+
+Do not invent subsection numbers for framework concepts whose exact MRD location has not been independently verified.
+
+---
+
+# Reference Implementation Boundary
+
+Repository files, Cloudflare Worker behavior, schemas, benchmarks, JSON-LD examples, x402 resources, and machine endpoints are implementations of framework concepts.
+
+They remain distinct from canonical framework authority.
+
+Required distinction:
+
+```text
+canonical framework
+≠
+reference implementation
+```
+
+and:
+
+```text
+reference implementation
+≠
+empirical validation
+```
+
+and:
+
+```text
+implementation success
+≠
+scientific proof
+```
+
+This boundary is consistent with the current Grand Compression reference-implementation distinction.
+
+---
+
+# Current Machine Architecture Summary
+
+```text
+Grand Compression authority
+        ↓
+Naturepedia canonical identity
+        ↓
+canonical Plate registry
+        ↓
+public discovery / resolution
+        ↓
+explicit resource registration
+        ↓
+availability + completeness
+        ↓
+public or protected access
+        ↓
+x402 only when eligible
+```
+
+Higher-order resources remain optional and explicit:
+
+```text
+Registry
+System Map
+Graph Registry™
+Knowledge Mesh
+```
+
+They do not arise automatically merely because relationships exist.
+
+---
+
+# Current JSON-LD State
+
+```json
+{
+  "status": "active",
+  "layer": "json-ld-registry-and-reference-implementation",
+  "authority": "GC-MRD-v2.0",
+  "canonicalClaimRange": "RC-01 through RC-22",
+  "canonicalRegistry": "docs/examples/json-ld/canonical-plate-registry.json",
+  "legacyRegistry": "docs/examples/json-ld/plate-registry.json",
+  "registryVersion": "2026.08.19",
+  "canonicalPlateCount": 757,
+  "duplicateRemovedCount": 33,
+  "rkcaRelationship": "MRD v2.0 §12.7",
+  "rripRelationship": "MRD v2.0 §12.8",
+  "ccgRelationship": "MRD v2.0 §12.9",
+  "pricingManifestVersion": "3.0.0",
+  "paymentNetwork": "eip155:8453",
+  "paymentAsset": "USDC",
+  "protectedRetrieval": "resource-specific",
+  "architectOfRecord": "Robbie George"
+}
 ```
