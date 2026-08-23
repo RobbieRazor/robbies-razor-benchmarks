@@ -1117,435 +1117,1185 @@ x402, Base, USDC, Cloudflare, HTTP, MCP, JSON, and related external protocols an
 
 ## Legacy x402 Endpoint Inventory
 
+> **Historical / compatibility documentation**
+>
+> The entries below preserve earlier x402 endpoint design, deployment, and registry-expansion documentation.
+>
+> They are **not the authoritative current production-status matrix**.
+>
+> For current production interpretation, use the verified production sections above together with the authoritative pricing manifest:
+>
+> `https://www.robbiegeorgephotography.com/.well-known/x402-pricing.json`
+>
+> Historical route documentation does not establish that the same resource is currently registered, complete, protected, payable, settlement-tested, or deliverable.
+
+Required interpretation:
+
+```text
+historically documented route
+≠
+currently active protected resource
+```
+
+```text
+historical price
+≠
+current resource availability
+```
+
+```text
+historical "Live" label
+≠
+current independent verification
+```
+
+```text
+route pattern
+≠
+resource existence
+```
+
+The current production availability model remains:
+
+```text
+unknown resource
+→ 404
+→ no payment challenge
+
+known but incomplete resource
+→ 409
+→ no payment challenge
+
+registered + complete + protected resource
+→ eligible for 402
+```
+
+---
+
+# Historical Core x402 Route Inventory
+
+The following endpoint names are retained as historical architecture references.
+
 ## Plate Registry
 
-Endpoint:
-https://www.robbiegeorgephotography.com/x402/plate-registry.json
+Historical endpoint:
 
-Purpose:
+```text
+https://www.robbiegeorgephotography.com/x402/plate-registry.json
+```
+
+Historical purpose:
+
+```text
 Compressed semantic registry retrieval.
+```
+
+Current interpretation:
+
+The route name is preserved as historical documentation only. Current canonical Plate inventory authority is:
+
+```text
+docs/examples/json-ld/canonical-plate-registry.json
+```
+
+The older:
+
+```text
+docs/examples/json-ld/plate-registry.json
+```
+
+is a superseded compatibility pointer and should not be treated as the current canonical inventory.
+
+---
 
 ## Identity Graph
 
-Endpoint:
-https://www.robbiegeorgephotography.com/x402/identity-graph.json
+Historical endpoint:
 
-Purpose:
-Identity, authorship, provenance, governance retrieval.
+```text
+https://www.robbiegeorgephotography.com/x402/identity-graph.json
+```
+
+Historical purpose:
+
+```text
+Identity, authorship, provenance, and governance retrieval.
+```
+
+Current interpretation:
+
+```text
+historical endpoint documentation
+≠
+current protected-resource verification
+```
+
+Any present-day paid status must be established independently through current resource registration and gateway behavior.
+
+---
 
 ## Naturepedia System Map
 
-Endpoint:
-https://www.robbiegeorgephotography.com/x402/naturepedia-system-map.json
+Historical endpoint:
 
-Purpose:
-Species → Ecosystem → Location → Season relationship retrieval.
+```text
+https://www.robbiegeorgephotography.com/x402/naturepedia-system-map.json
+```
+
+Historical purpose:
+
+```text
+Species
+→ Ecosystem
+→ Location
+→ Season
+relationship retrieval
+```
+
+Current interpretation:
+
+This preserves the earlier System Map concept.
+
+It does not establish current registration, completeness, price eligibility, or settlement status for this specific resource.
+
+---
 
 ## Expanded Plate Registry
 
-Endpoint:
+Historical endpoint:
+
+```text
 https://www.robbiegeorgephotography.com/x402/plate-registry-expanded.json
+```
 
-Purpose:
-Species → Tree Families → Plant Communities → Ecosystems → Geography / Locations → Time / Migration / Seasons → Conservation relationship retrieval.
+Historical purpose:
 
-June 2026 Registry Expansion:
+```text
+Species
+→ Tree Families
+→ Plant Communities
+→ Ecosystems
+→ Geography / Locations
+→ Time / Migration / Seasons
+→ Conservation
+```
 
-- plateCount: 163
-- lastExpansion: Soil, Carbon, Feedbacks, Bioelectric, Quantum Agriculture, and Plant Intelligence Expansion June 2026
+### June 2026 Historical Expansion Snapshot
 
-New systems included:
+Earlier documentation recorded:
 
-- Soil Systems™ — https://www.robbiegeorgephotography.com/soil-systems
-- Carbon Cycle™ — https://www.robbiegeorgephotography.com/carbon-cycle
-- Ecosystem Feedbacks™ — https://www.robbiegeorgephotography.com/ecosystem-feedbacks
-- Bioelectric Systems™ — https://www.robbiegeorgephotography.com/bioelectric-systems
-- Quantum Agriculture™ — https://www.robbiegeorgephotography.com/naturepedia-quantum-agriculture
-- Plant Intelligence™ — https://www.robbiegeorgephotography.com/naturepedia-plant-intelligence
+```text
+plateCount: 163
+```
 
-New Plate™ entries added:
+and:
 
-- Soil Systems Plates: 11
-- Carbon Cycle Plates: 10
-- Ecosystem Feedbacks Plates: 10
-- Bioelectric Systems Plates: 10
-- Quantum Agriculture Plates: 12
-- Plant Intelligence Plates: 10
+```text
+lastExpansion:
+Soil, Carbon, Feedbacks, Bioelectric,
+Quantum Agriculture, and Plant Intelligence
+Expansion — June 2026
+```
 
-Total new Plates™ added:
+Systems documented in that expansion included:
 
-63
+```text
+Soil Systems™
+Carbon Cycle™
+Ecosystem Feedbacks™
+Bioelectric Systems™
+Quantum Agriculture™
+Plant Intelligence™
+```
 
-Status:
+Historical added-Plate counts were documented as:
 
-Live
+```text
+Soil Systems: 11
+Carbon Cycle: 10
+Ecosystem Feedbacks: 10
+Bioelectric Systems: 10
+Quantum Agriculture: 12
+Plant Intelligence: 10
+
+Total historical addition: 63
+```
+
+This `163` count is a **historical inventory snapshot**.
+
+It has been superseded by the current canonical registry state:
+
+```text
+canonical Plate count: 757
+registryVersion: 2026.08.19
+duplicateRemovedCount: 33
+```
+
+Do not use the historical `163` count for current registry calculations.
+
+---
+
+# Historical Relationship-Map Routes
 
 ## Pollinator System Map
 
-Endpoint:
-https://www.robbiegeorgephotography.com/x402/pollinator-system-map.json
+Historical endpoint:
 
-Purpose:
-Relationship map connecting floral resources, pollinators, plant communities, soil microbiomes, mycelial networks, and seasonal timing.
+```text
+https://www.robbiegeorgephotography.com/x402/pollinator-system-map.json
+```
+
+Historical purpose:
+
+```text
+Floral resources
+↔ Pollinators
+↔ Plant communities
+↔ Soil microbiomes
+↔ Mycelial networks
+↔ Seasonal timing
+```
+
+Current status interpretation:
+
+```text
+historically documented
+current protected-resource state: requires independent verification
+```
+
+---
 
 ## Wildlife System Map
 
-Endpoint:
+Historical endpoint:
+
+```text
 https://www.robbiegeorgephotography.com/x402/wildlife-system-map.json
+```
 
-Purpose:
-Relationship map connecting wildlife species, tracks, behavior, habitats, ecosystems, field locations, seasonal timing, and conservation systems.
+Historical purpose:
 
-## Water Systems™ Retrieval Family
+```text
+Wildlife species
+↔ Tracks
+↔ Behavior
+↔ Habitats
+↔ Ecosystems
+↔ Field locations
+↔ Seasonal timing
+↔ Conservation systems
+```
 
-Status:
+Current status interpretation:
 
-Live
+```text
+historically documented
+current protected-resource state: requires independent verification
+```
 
-Network:
+---
 
-Base — `eip155:8453`
+# Historical Water Systems™ Retrieval Family
 
-Asset:
+Earlier documentation described a Water Systems™ protected retrieval family on:
 
+```text
+Base
+eip155:8453
 USDC
+```
 
-Governance:
+with governance metadata:
 
-`Gr <= Es`
+```text
+Gr <= Es
+```
 
-### Water Systems Registry
+That historical design information is preserved below.
 
-Endpoint:
+It must not be interpreted as proof that all three Water Systems resources remain currently registered and payable.
 
+---
+
+## Water Systems Registry
+
+Historical endpoint:
+
+```text
 https://www.robbiegeorgephotography.com/x402/water-systems-registry.json
+```
 
-v1 alias:
+Historical v1 alias:
 
+```text
 https://www.robbiegeorgephotography.com/v1/registries/water-systems
+```
 
-Purpose:
+Historical purpose:
 
-Entity-resolved Water Systems™ registry connecting wetlands, river systems, floodplains, groundwater systems, estuaries, coastal systems, watersheds, surface water, subsurface water, hydrological storage, and ecological flow.
+```text
+Entity-resolved Water Systems™ registry connecting
+wetlands,
+river systems,
+floodplains,
+groundwater systems,
+estuaries,
+coastal systems,
+watersheds,
+surface water,
+subsurface water,
+hydrological storage,
+and ecological flow.
+```
 
-Amount:
+Historical pricing classification:
 
-`5000000`
+```text
+5000000 atomic units
+5.00 USDC
+subtree / registry class
+```
 
-Reference price:
+Current interpretation:
 
-`5.00 USDC`
+```text
+pricing class remains defined
+≠
+this specific resource is currently verified active
+```
 
-### Water System Map
+---
 
-Endpoint:
+## Water System Map
 
+Historical endpoint:
+
+```text
 https://www.robbiegeorgephotography.com/x402/water-system-map.json
+```
 
-v1 alias:
+Historical v1 alias:
 
+```text
 https://www.robbiegeorgephotography.com/v1/plates/water-system-map
+```
 
-Purpose:
+Historical purpose:
 
-Hydrological interaction map connecting precipitation, runoff, infiltration, groundwater recharge, river discharge, wetlands, floodplain inundation, estuarine exchange, coastal systems, watershed behavior, and wildlife habitat.
+```text
+Hydrological interaction map connecting
+precipitation,
+runoff,
+infiltration,
+groundwater recharge,
+river discharge,
+wetlands,
+floodplain inundation,
+estuarine exchange,
+coastal systems,
+watershed behavior,
+and wildlife habitat.
+```
 
-Amount:
+Historical pricing classification:
 
-`5000000`
+```text
+5000000 atomic units
+5.00 USDC
+subtree / System Map class
+```
 
-Reference price:
+Current interpretation:
 
-`5.00 USDC`
+Current availability of this specific resource must be determined independently.
 
-### Water Systems Knowledge Mesh
+Do not infer its active status from the current $5 pricing class alone.
 
-Endpoint:
+---
 
+## Water Systems Knowledge Mesh
+
+Historical endpoint:
+
+```text
 https://www.robbiegeorgephotography.com/x402/knowledge-mesh/water-systems
+```
 
-v1 alias:
+Historical v1 alias:
 
+```text
 https://www.robbiegeorgephotography.com/v1/knowledge-mesh/water-systems
+```
 
-Purpose:
+Historical purpose:
 
-Premium Water Systems™ Knowledge Mesh binding Weather™ precipitation, storm, temperature, snowpack, and evaporation constraints to rivers, wetlands, floodplains, groundwater systems, estuaries, coastal systems, seasonal ecology, and surface-subsurface water behavior.
+```text
+Water Systems™ Knowledge Mesh connecting weather,
+precipitation,
+storm,
+temperature,
+snowpack,
+evaporation,
+rivers,
+wetlands,
+floodplains,
+groundwater,
+estuaries,
+coastal systems,
+seasonal ecology,
+and surface-subsurface water behavior.
+```
 
-Amount:
+Historical pricing classification:
 
-`25000000`
+```text
+25000000 atomic units
+25.00 USDC
+snapshot / Knowledge Mesh class
+```
 
-Reference price:
+An earlier documented conceptual pathway was:
 
-`25.00 USDC`
+```text
+Weather Registry
+↓
+Weather System Map
+↓
+Water Systems Registry
+↓
+Water System Map
+↓
+Water Systems Knowledge Mesh
+↓
+Conditional x402 Retrieval
+```
 
-Hydrological retrieval pathway:
+This sequence is retained as historical architecture documentation.
 
-    Weather Registry
-    ↓
-    Weather System Map
-    ↓
-    Water Systems Registry
-    ↓
-    Water System Map
-    ↓
-    Water Systems Knowledge Mesh
-    ↓
-    Conditional x402 Retrieval
+It must **not** be interpreted as a mandatory current retrieval sequence or as proof that each listed higher-order resource is currently instantiated.
 
-Verified browser behavior:
+Current interpretation:
 
-`200 OK` human-bypass gateway
+```text
+$25 Knowledge Mesh pricing class exists
+≠
+Water Systems Knowledge Mesh currently verified active
+```
 
-Expected API behavior without settlement:
+---
 
-`402 Payment Required`
+# Historical Plant Community System Map
 
-## Plant Community System Map
+Historical endpoint:
 
-Endpoint:
+```text
 https://www.robbiegeorgephotography.com/x402/plant-community-system-map.json
+```
 
-Purpose:
-Relationship map connecting plant communities, pollinators, soil microbiomes, mycelial networks, native habitat, ecological succession, and carbon storage.
+Historical purpose:
 
-## Tree System Map
+```text
+Plant communities
+↔ Pollinators
+↔ Soil microbiomes
+↔ Mycelial networks
+↔ Native habitat
+↔ Ecological succession
+↔ Carbon storage
+```
+
+Current status interpretation:
+
+```text
+historically documented
+current protected-resource state: requires independent verification
+```
+
+---
+
+# Tree System Map — Historical and Current Evidence
 
 Endpoint:
+
+```text
 https://www.robbiegeorgephotography.com/x402/tree-system-map.json
+```
 
-Purpose:
-Paid compressed relationship map connecting trees, tree families, forest communities, mycelial networks, wildlife relationships, carbon storage, watersheds, and seasonal ecology.
+Historical purpose:
 
-Connects:
+```text
+Compressed relationship map connecting trees,
+tree families,
+forest communities,
+mycelial networks,
+wildlife relationships,
+carbon storage,
+watersheds,
+and seasonal ecology.
+```
 
-- Trees of North America
-- Birches of North America
-- Oaks of North America
-- Maples of North America
-- Aspens of North America
-- Pines of North America
-- Plant Communities
-- Mycelial Networks
-- Soil Microbiome
-- Ecological Restoration & Habitat Recovery
+Earlier documented relationships included:
 
-Amount:
+```text
+Trees of North America
+Birches of North America
+Oaks of North America
+Maples of North America
+Aspens of North America
+Pines of North America
+Plant Communities
+Mycelial Networks
+Soil Microbiome
+Ecological Restoration & Habitat Recovery
+```
 
-`5000000`
+Current pricing-v3 classification:
 
-Reference price:
+```text
+5000000 atomic units
+5.00 USDC
+subtree class
+```
 
-`5.00 USDC`
+Unlike most resources in this legacy section, the Tree System Map has additional production evidence recorded in the current verification section above:
 
-Pricing class:
+```text
+pricing-v3 402 challenge: verified
+historical settlement: verified
+historical protected delivery: verified
+```
 
-`subtree`
+This supports the Tree System Map specifically.
 
-MIME:
+It does not generalize automatically to other $5 System Map resources.
 
-`application/ld+json`
+---
 
-Governance:
+# Historical RRIP Protected Snapshot
 
-`Gr <= Es`
+Free public control-plane endpoint:
 
-Status:
-
-Live
-
-## RRIP Resolution Endpoint
-
-Free control-plane endpoint:
-
+```text
 https://www.robbiegeorgephotography.com/api/v2/rrip/resolve
+```
 
-Protected snapshot endpoint:
+Historical protected snapshot endpoint:
 
+```text
 https://www.robbiegeorgephotography.com/x402/rrip-resolve.json
+```
 
-Purpose:
+Historical purpose:
 
-Recursive Registry Inheritance Principle resolution for registry traversal, inheritance-path validation, compression-state grounding, and Authorship Conservation Rule compliance signaling.
+```text
+Recursive Registry Inheritance Principle resolution,
+registry traversal,
+inheritance-path context,
+provenance signaling,
+governance signaling,
+and machine-readable relationship resolution.
+```
 
-The exact `/api/v2/rrip/resolve` control-plane route remains available for free discovery and resolution signaling.
+The public endpoint remains conceptually distinct from any protected snapshot resource.
 
-The protected `/x402/rrip-resolve.json` payload is classified as a full snapshot resource.
+Required distinction:
 
-Protected snapshot amount:
+```text
+/api/v2/rrip/resolve
+=
+public control-plane resolution
+```
 
-`25000000`
+while:
 
-Reference price:
+```text
+/x402/rrip-resolve.json
+=
+historically documented protected snapshot path
+```
 
-`25.00 USDC`
+Earlier documentation classified the protected snapshot as:
 
-MIME:
+```text
+25000000 atomic units
+25.00 USDC
+snapshot class
+```
 
-`application/ld+json`
+Earlier documentation also labeled the protected route:
 
-Governance:
-
-`Gr <= Es`
-
-Protected route status:
-
+```text
 Active
+```
 
-An x402 payment grants one retrieval of the protected payload only. It does not grant framework implementation, training, embedding, synchronization, redistribution, or derivative-dataset rights.
+That historical label must not be interpreted as current independent production verification.
 
-## Robbie's Razor State Token
+Current interpretation:
 
-Free control-plane endpoint:
+```text
+historical protected route documentation
+≠
+currently verified protected resource
+```
 
+and:
+
+```text
+$25 snapshot pricing class
+≠
+current RRIP snapshot availability
+```
+
+Any current paid status must be established through explicit resource registration, completeness, and observed gateway behavior.
+
+An x402 payment, where applicable, grants only the rights attached to the identified protected retrieval.
+
+It does not automatically grant:
+
+```text
+framework implementation
+training
+embedding
+synchronization
+redistribution
+derivative-dataset rights
+```
+
+---
+
+# Historical Robbie’s Razor State Snapshot
+
+Free public control-plane endpoint:
+
+```text
 https://www.robbiegeorgephotography.com/api/v2/razor/state-token
+```
 
-Protected snapshot endpoint:
+Historical protected snapshot endpoint:
 
+```text
 https://www.robbiegeorgephotography.com/x402/state-token.json
+```
 
-Purpose:
+Historical purpose included:
 
-Registry-state validation, deterministic state signaling, entropy-hash verification, lattice grounding, cache validation, and governance continuity.
+```text
+registry-state signaling
+state synchronization
+cache awareness
+governance continuity
+machine-readable state metadata
+```
 
-The exact `/api/v2/razor/state-token` control-plane route remains available for free discovery and state validation.
+Earlier descriptions also used stronger language such as:
 
-The protected `/x402/state-token.json` payload is classified as a full snapshot resource.
+```text
+entropy-hash verification
+lattice grounding
+state validation
+```
 
-Protected snapshot amount:
+Those descriptions should be interpreted as historical framework or implementation terminology, not as proof of:
 
-`25000000`
+```text
+scientific truth
+physical entropy measurement
+cryptographic validity
+empirical validation
+```
 
-Reference price:
+The current public state-token resource should be interpreted as:
 
-`25.00 USDC`
+```text
+registry-state metadata
++
+synchronization signaling
+```
 
-MIME:
+not as a truth oracle.
 
-`application/ld+json`
+Earlier protected-snapshot classification:
 
-Governance:
+```text
+25000000 atomic units
+25.00 USDC
+snapshot class
+```
 
-`Gr <= Es`
+Earlier route status:
 
-Protected route status:
-
+```text
 Active
+```
 
-An x402 payment grants one retrieval of the protected payload only. It does not grant framework implementation, synchronization, training, embedding, redistribution, or derivative-dataset rights.
+Current interpretation:
 
-## Location System Map
+```text
+historically documented protected state snapshot
+≠
+currently verified active protected resource
+```
 
-Endpoint:
+and:
 
-`/x402/location-system-map.json`
+```text
+state token
+≠
+scientific validation
+```
 
-Purpose:
+and:
 
-Paid compressed relationship map connecting major Naturepedia field locations, wildlife systems, habitats, seasonal timing, water systems, and applied observation guides.
+```text
+state signature
+≠
+truth
+```
 
-Connects:
+and:
 
-- Field Locations
-- Yellowstone Wildlife Guide
-- Grand Teton Wildlife Guide
-- Blackwater Wildlife Guide
-- Chesapeake Bay Wildlife System
-- Lake Mattamuskeet Wildlife System
-- Machias Seal Island
-- Water Systems
-- Seasonal Wildlife Calendar
-- Wildlife Species
+```text
+state metadata
+≠
+physical entropy evidence
+```
 
-Amount:
+Current protected availability must be verified independently before presenting this specific snapshot as a live paid resource.
 
-`5000000`
+---
 
-Reference price:
+# Historical Location System Map
 
-`5.00 USDC`
+Historical endpoint:
 
-Pricing class:
+```text
+/x402/location-system-map.json
+```
 
-`subtree`
+Historical purpose:
 
-Status:
+```text
+Compressed relationship map connecting
+major Naturepedia field locations,
+wildlife systems,
+habitats,
+seasonal timing,
+water systems,
+and applied observation guides.
+```
 
+Historically documented connections included resources such as:
+
+```text
+Field Locations
+Yellowstone Wildlife Guide
+Grand Teton Wildlife Guide
+Blackwater Wildlife Guide
+Chesapeake Bay Wildlife System
+Lake Mattamuskeet Wildlife System
+Machias Seal Island
+Water Systems
+Seasonal Wildlife Calendar
+Wildlife Species
+```
+
+Historical pricing classification:
+
+```text
+5000000 atomic units
+5.00 USDC
+subtree / System Map class
+```
+
+Earlier documentation labeled this resource:
+
+```text
 Live
+```
 
-## Conservation System Map
+Current interpretation:
 
-Endpoint:
+```text
+historical "Live" label
+≠
+current verified protected-resource status
+```
 
-`/x402/conservation-system-map.json`
+The current $5 pricing class remains a valid class-level concept.
 
-Purpose:
+It does not prove that this specific Location System Map is presently registered and complete.
 
-Paid compressed relationship map connecting conservation, habitat protection, biodiversity, water systems, pollinators, plant communities, wildlife movement, and restoration systems.
+---
 
-Connects:
+# Historical Conservation System Map
 
-- Wildlife Conservation & Habitat
-- Wildlife Species
-- Ecosystems of North America
-- Water Systems
-- Plant Communities
-- Floral Resource Networks
-- Seasonal Wildlife Calendar
-- Field Locations
-- Wildlife Migration & Seasonal Patterns
+Historical endpoint:
 
-Amount:
+```text
+/x402/conservation-system-map.json
+```
 
-`5000000`
+Historical purpose:
 
-Reference price:
+```text
+Compressed relationship map connecting
+conservation,
+habitat protection,
+biodiversity,
+water systems,
+pollinators,
+plant communities,
+wildlife movement,
+and ecological restoration.
+```
 
-`5.00 USDC`
+Historically documented connections included:
 
-Pricing class:
+```text
+Wildlife Conservation & Habitat
+Wildlife Species
+Ecosystems of North America
+Water Systems
+Plant Communities
+Floral Resource Networks
+Seasonal Wildlife Calendar
+Field Locations
+Wildlife Migration & Seasonal Patterns
+```
 
-`subtree`
+Historical pricing classification:
 
-Status:
+```text
+5000000 atomic units
+5.00 USDC
+subtree / System Map class
+```
 
+Earlier documentation labeled this resource:
+
+```text
 Live
+```
 
-## Species Intelligence Map
+Current interpretation:
 
-Endpoint:
+```text
+historically documented route
+≠
+currently verified active resource
+```
 
-`/x402/species-intelligence-map.json`
+Any current protected status should be established through present-day resource registration and gateway behavior.
 
-Purpose:
+---
 
-Paid compressed relationship map connecting wildlife species, Species Plates, tracks, behavior, habitat, field locations, seasonal timing, and conservation context.
+# Historical Species Intelligence Map
 
-Connects:
+Historical endpoint:
 
-- Wildlife Species
-- Species Plates
-- North American Animal Tracks
-- Wildlife Behavior & Ecology
-- Wildlife Conservation & Habitat
-- Field Locations
-- Seasonal Wildlife Calendar
-- Ecosystems of North America
-- Wildlife Migration & Seasonal Patterns
+```text
+/x402/species-intelligence-map.json
+```
 
-Amount:
+Historical purpose:
 
-`5000000`
+```text
+Compressed relationship map connecting
+wildlife species,
+Species Plates,
+tracks,
+behavior,
+habitat,
+field locations,
+seasonal timing,
+and conservation context.
+```
 
-Reference price:
+Historically documented connections included:
 
-`5.00 USDC`
+```text
+Wildlife Species
+Species Plates
+North American Animal Tracks
+Wildlife Behavior & Ecology
+Wildlife Conservation & Habitat
+Field Locations
+Seasonal Wildlife Calendar
+Ecosystems of North America
+Wildlife Migration & Seasonal Patterns
+```
 
-Pricing class:
+Historical pricing classification:
 
-`subtree`
+```text
+5000000 atomic units
+5.00 USDC
+subtree / System Map class
+```
 
-Status:
+Earlier documentation labeled this resource:
 
+```text
 Live
+```
+
+Current interpretation:
+
+```text
+historical route documentation
+≠
+current protected-resource verification
+```
+
+The existence of the $5 pricing class does not establish the current existence or completeness of this specific map.
+
+---
+
+# Legacy Resource Interpretation Rules
+
+All legacy routes above should be interpreted using the following rules.
+
+```text
+historical documentation
+≠
+current production state
+```
+
+```text
+historical "Live"
+≠
+currently independently verified
+```
+
+```text
+historical "Active"
+≠
+currently independently verified
+```
+
+```text
+route template
+≠
+resource existence
+```
+
+```text
+resource existence
+≠
+resource completeness
+```
+
+```text
+resource completeness
+≠
+protected status
+```
+
+```text
+protected status
+≠
+settlement verified
+```
+
+```text
+settlement verified historically
+≠
+settlement retested today
+```
+
+```text
+published class price
+≠
+specific resource activation
+```
+
+---
+
+# Current Authority Over Legacy Entries
+
+Where a legacy statement conflicts with a current production statement, prefer the current verified production sections above.
+
+Current governing sources include:
+
+```text
+Grand Compression Master Reference Document
+MRD v2.0
+Canonical identifier: GC-MRD-v2.0
+```
+
+```text
+https://www.robbiegeorgephotography.com/.well-known/x402-pricing.json
+pricing manifest version: 3.0.0
+```
+
+```text
+docs/examples/json-ld/canonical-plate-registry.json
+canonical Plate count: 757
+```
+
+```text
+/api/v2/naturepedia/index.md
+/api/v2/plates/registry.md
+/api/v2/rrip/resolve
+/api/v2/razor/state-token
+```
+
+The current production resource model is:
+
+```text
+public discovery
+↓
+explicit resource identity
+↓
+availability
+↓
+completeness
+↓
+access class
+↓
+price
+↓
+402 only when eligible
+↓
+settlement when authorized
+↓
+protected retrieval
+```
+
+---
+
+# Legacy Rights Boundary
+
+Historical protected-route documentation does not expand rights.
+
+An x402 payment, where applicable, grants only the identified retrieval under the applicable terms.
+
+It does not automatically grant:
+
+```text
+training rights
+embedding rights
+bulk-ingestion rights
+redistribution rights
+resale rights
+synchronization rights
+private-dataset rights
+derivative-dataset rights
+commercial implementation rights
+Robbie’s Razor™ framework implementation rights
+```
+
+Required distinction:
+
+```text
+x402 Retrieval Access
+≠
+Commercial Data License
+≠
+Robbie’s Razor™ Framework License
+```
+
+---
+
+# Legacy Evidence Boundary
+
+Legacy x402 documentation describes machine infrastructure and historical deployment state.
+
+It must not be interpreted as independent evidence for:
+
+```text
+scientific validity
+mathematical proof
+physical universality
+cross-domain causality
+framework correctness
+```
+
+Required distinctions:
+
+```text
+payment success
+≠
+scientific validation
+```
+
+```text
+retrieval success
+≠
+canonical truth
+```
+
+```text
+route existence
+≠
+empirical evidence
+```
+
+```text
+machine-readable state
+≠
+physical state
+```
+
+---
+
+# Legacy Provenance Boundary
+
+Naturepedia™, Robbie’s Razor™, Plate™ architecture, RRIP™, Graph Registry™, Knowledge Mesh, and other original Grand Compression framework-specific terminology retain Robbie George provenance where they originate within the framework.
+
+External technologies and protocols retain their own independent provenance.
+
+This includes:
+
+```text
+x402
+HTTP
+JSON
+JSON-LD
+MCP
+Cloudflare
+Base
+USDC
+Coinbase infrastructure
+```
+
+Use within Naturepedia or Grand Compression does not imply origination of those external technologies by Robbie George.
+
+The Authorship Conservation Rule (ACR) applies in both directions:
+
+```text
+preserve Grand Compression provenance
++
+preserve external provenance
+```
+
+---
+
+# Final Legacy Status
+
+This legacy inventory is retained for:
+
+```text
+historical traceability
+architecture evolution
+compatibility references
+prior deployment context
+```
+
+It is not the current machine-verifiable source of truth for resource availability.
+
+For current status, always resolve:
+
+```text
+canonical identity
+↓
+current registry
+↓
+current gateway behavior
+↓
+current pricing manifest
+↓
+current resource-specific evidence
+```
+
+before declaring a protected resource active.
