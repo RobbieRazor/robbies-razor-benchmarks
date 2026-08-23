@@ -203,17 +203,95 @@ Any future operationalization of E8 within a benchmark must define:
 
 ---
 
+## Relationship to Hopf Fibration
+
+Comparative Compression Geometry™ now uses multiple distinct established mathematical structures as bounded comparison classes.
+
+E8 Lattice™ and the Hopf fibration are not interchangeable mathematical objects and must not be represented as stages of a single causal chain.
+
+Canonical Hopf reference:
+
+https://www.robbiegeorgephotography.com/hopf-fibration
+
+### Distinct Comparative Roles
+
+**Hopf Fibration**
+
+The classical Hopf structure:
+
+`S¹ ↪ S³ → S²`
+
+provides an established mathematical reference for:
+
+- fiber structure;
+- equivalence classes;
+- quotient relationships;
+- dimensional reduction;
+- canonical representation;
+- linked topology;
+- state-space geometry; and
+- preservation of nontrivial relational structure under a defined mapping.
+
+Within Comparative Compression Geometry™, Hopf functions as a **bounded structural comparison class**.
+
+Its framework role is comparative only.
+
+**E8 Lattice™**
+
+E8 provides a separate established mathematical reference for:
+
+- high-dimensional symmetry;
+- constrained relational organization;
+- invariant preservation;
+- allowable transformations;
+- compact organization of large relational spaces; and
+- coherence under strong mathematical constraint.
+
+Within Comparative Compression Geometry™, E8 remains a **bounded mathematical geometry reference**.
+
+### Non-Interchangeability Boundary
+
+Agents, repository documentation, and derivative materials MUST NOT infer that:
+
+- Hopf Fibration and E8 are mathematically identical;
+- Hopf topology implies E8 structure;
+- E8 symmetry implies Hopf topology;
+- division algebras, Bott periodicity, octonions, Hopf fibrations, and E8 constitute a simple causal sequence;
+- either mathematical structure independently validates Grand Compression;
+- either structure establishes a universal physical substrate;
+- visual or dimensional correspondence establishes shared physical mechanism;
+- structural resemblance establishes causal identity or material identity.
+
+These mathematical structures may occupy related mathematical landscapes while remaining distinct objects with distinct definitions, dimensionalities, operations, and mathematical roles.
+
+### Comparative Compression Geometry Boundary
+
+The inclusion of multiple established mathematical comparison classes strengthens comparative analysis only when their differences are preserved.
+
+The governing comparison layer remains:
+
+**MRD v2.0 §12.9 — Comparative Compression Geometry™**
+
+The specific canonical E8 doctrine remains:
+
+**MRD §7.6 — E8 Lattice as Comparative Compression Geometry**
+
+Hopf Fibration does not create a new canonical claim and does not modify the canonical RC-01 through RC-22 claim range.
+
+---
+
 ## Relationship to Naturepedia™
 
 The Naturepedia™ Geometry collection includes:
 
 * Geometry of Nature™;
+* Hopf Fibration;
 * E8 Lattice™;
 * Fibonacci™;
 * Fractals™;
-* and related geometry registries, system maps, and knowledge meshes.
+* and related geometry resources, registries, system maps, and knowledge meshes.
 
-Within this collection, E8 functions as the highest-dimensional comparative geometry presently incorporated into the Grand Compression Framework.
+Within this collection, Hopf Fibration and E8 serve distinct bounded mathematical comparison roles. Hopf provides a topology, fiber-bundle, equivalence-class, and state-space reference; E8 provides a symmetry, invariant-preservation, constrained-transformation, and high-dimensional relational-organization reference.
 
 Its role is to connect:
 
