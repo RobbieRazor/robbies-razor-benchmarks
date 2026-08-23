@@ -1636,15 +1636,74 @@ This repository evaluates *whether* reasoning systems avoid Recursive Objective
 Interference under constraint.  
 It does **not** define, reinterpret, or remediate the failure mode.
 
-## Canonical Update (MRD v1.9)
+## Razor Consistency Theorem — Current Authority
 
-As of MRD v1.8, the Grand Compression Cosmology includes a new canonical closure theorem:
+The **Razor Consistency Theorem (Deterministic Semantic Consistency Under Recursive Compression)** was introduced during the MRD v1.9 development cycle and remains governed by the current:
 
-**The Razor Consistency Theorem (Deterministic Semantic Consistency Under Recursive Compression)**
+**The Grand Compression Cosmology — Master Reference Document, MRD v2.0**
 
-This theorem formalizes the condition under which recursive systems remain semantically stable and non-hallucinatory as coherence approaches unity.
+Current canonical location:
 
-📄 This theorem was introduced under MRD v1.9 and remains governed by the current **Master Reference Document (MRD v2.0), Section 11.8**.
+**MRD v2.0 §11.8**
+
+Canonical identifier:
+
+```text
+GC-MRD-v2.0
+```
+
+Within the Grand Compression Framework, the theorem addresses the conditions under which recursive compression may preserve semantic consistency across repeated reuse.
+
+Its repository interpretation must remain bounded.
+
+The theorem does **not** mean that:
+
+- increasing coherence automatically guarantees factual truth;
+- a recursively stable system cannot hallucinate;
+- semantic consistency independently establishes empirical correctness;
+- internal consistency establishes external validity;
+- benchmark conformance proves the theorem universally;
+- or a reference implementation independently validates the complete Grand Compression Framework.
+
+The required distinction is:
+
+```text
+recursive consistency
+≠
+factual correctness
+≠
+empirical validation
+```
+
+Likewise:
+
+```text
+coherence
+≠
+truth
+```
+
+A system may preserve an internally consistent representation while still preserving an incorrect premise, incomplete evidence, or invalid external assumption.
+
+Accordingly, evaluation of the Razor Consistency Theorem must distinguish among:
+
+- semantic consistency;
+- state preservation;
+- recursive stability;
+- factual accuracy;
+- evidence quality;
+- external validation.
+
+Repository implementations and benchmarks may test operational consequences associated with the theorem, but those results remain bounded to their declared systems, datasets, baselines, metrics, thresholds, and failure conditions.
+
+This distinction is governed by the current MRD v2.0 evidence architecture, including:
+
+- **RC-21 — Reference Implementation Distinction**
+- **RC-22 — Domain Transfer Constraint**
+
+Historical MRD v1.9 materials remain part of the framework’s development provenance.
+
+Current canonical authority is **MRD v2.0**.
 
 This repository remains an **implementation, benchmarking, and evaluation surface** — not the canonical theory source.
 
