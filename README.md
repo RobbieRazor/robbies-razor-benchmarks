@@ -29,20 +29,164 @@ compression → expression → memory → recursion
 
 ## Grand Compression Law of Intelligence
 
-Intelligence emerges when compressed structure is recursively reused to predict future states under bounded energy and stabilization constraints.
+Within the **Grand Compression Cosmology**, intelligence is modeled through the reuse of preserved compressed structure across recursive cycles under finite resource and stabilization constraints.
 
-Within the Grand Compression Cosmology, stable intelligence systems therefore follow the cycle:
+The framework proposition can be summarized as:
 
+```text
+preserved structure
+→ expression
+→ memory
+→ recursive reuse
+→ prediction / adaptation
+```
+
+The core Robbie’s Razor™ sequence is:
+
+```text
 compression → expression → memory → recursion
+```
 
-Recursive performance is bounded by two structural ceilings:
+This sequence is a **framework architecture**.
 
-- **Energetic Recursion Ceiling** — limited by available energy and Joules per Coherent Transition (JCT)
-- **Governance Recursion Ceiling** — limited by stabilization bandwidth and correction demand per transition
+It should not be interpreted as a claim that every biological, computational, physical, ecological, or social intelligence system has been empirically demonstrated to operate through an identical mechanism.
 
-Stable recursive systems operate inside the **Safe Recursion Envelope** defined in MRD §11:
+Accordingly:
 
-R ≤ min(E/JCT , S/C)
+```text
+Grand Compression framework proposition
+≠
+universally established law of intelligence
+```
+
+and:
+
+```text
+recursive reuse
+≠
+automatic intelligence
+```
+
+A system must still be evaluated according to its declared task, preserved structure, prediction quality, correctness, resource constraints, and failure conditions.
+
+### Recursive Constraint Model
+
+Within the framework, recursive performance may be analyzed using two conceptual constraint classes:
+
+- **Energetic Recursion Ceiling** — the available energetic budget relative to the cost of coherent transitions;
+- **Governance Recursion Ceiling** — the available stabilization or correction capacity relative to correction demand.
+
+A conceptual energetic ceiling may be written as:
+
+```text
+R ≤ E / JCT
+```
+
+A conceptual governance ceiling may be written as:
+
+```text
+R × C ≤ S
+```
+
+Combining the two produces the framework-level **Safe Recursion Envelope**:
+
+```text
+R ≤ min(E / JCT, S / C)
+```
+
+Where:
+
+- **R** = recursion rate;
+- **E** = available energy within the declared system boundary;
+- **JCT** = Joules per Coherent Transition;
+- **S** = available stabilization or governance bandwidth;
+- **C** = correction demand per transition.
+
+These expressions are architectural research relations.
+
+Quantitative application requires operational definitions for every variable, compatible units, measurement procedures, system boundaries, baselines, uncertainty, and falsification conditions.
+
+Without those declarations:
+
+```text
+R ≤ E / JCT
+```
+
+```text
+R × C ≤ S
+```
+
+and:
+
+```text
+R ≤ min(E / JCT, S / C)
+```
+
+must not be represented as universally validated physical laws.
+
+### Intelligence Interpretation Boundary
+
+The framework motivates the hypothesis that useful intelligence may depend not only on computation, but on the ability to preserve and recursively reuse structure that remains valid for later tasks.
+
+Possible relevant properties include:
+
+- compression efficiency;
+- retained identity;
+- preserved relationships;
+- provenance;
+- memory;
+- retrieval fidelity;
+- prediction;
+- correction;
+- adaptation;
+- resource cost.
+
+The presence of these properties in an implementation does not independently establish a universal theory of intelligence.
+
+Likewise:
+
+```text
+compression
+≠
+understanding
+```
+
+```text
+memory
+≠
+truth
+```
+
+```text
+prediction
+≠
+causal explanation
+```
+
+```text
+recursive stability
+≠
+factual correctness
+```
+
+### Current Governance
+
+Current interpretation is governed by:
+
+**The Grand Compression Cosmology — Master Reference Document, MRD v2.0**
+
+Canonical identifier:
+
+```text
+GC-MRD-v2.0
+```
+
+Repository implementations and benchmark results remain subject to:
+
+- **RC-21 — Reference Implementation Distinction**
+- **RC-22 — Domain Transfer Constraint**
+
+The repository may test bounded consequences of the Grand Compression Law of Intelligence, but implementation or benchmark success must not be represented as universal empirical confirmation of the law.
 
 ### Constraint-Bounded Recursive Intelligence
 
