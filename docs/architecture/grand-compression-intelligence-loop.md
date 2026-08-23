@@ -421,31 +421,342 @@ Its effectiveness must be evaluated within the relevant implementation boundary.
 
 ## Naturepedia™ Reference Implementation
 
-Naturepedia is the primary reference implementation of the Grand Compression architecture.
+Naturepedia™ is the primary reference implementation used within this repository to demonstrate how portions of the Grand Compression architecture can be translated into human-readable and machine-readable infrastructure.
 
-Its implementation sequence includes:
+Reference-implementation status means:
 
 ```text
-Plate™ → Registry → System Map → Knowledge Mesh
+framework concept
+→ bounded implementation
+→ observable implementation behavior
 ```
 
-Naturepedia demonstrates how the loop may be supported through:
+It does **not** mean:
 
-- human-readable knowledge interfaces
-- machine-readable resources
-- stable identifiers
-- preserved relationships
-- provenance
-- constraints
-- version state
-- retrieval paths
-- public and protected delivery
+```text
+implementation
+→ independent framework validation
+```
 
-Reference-implementation status demonstrates architectural translation.
+Canonical orientation:
 
-It does not establish universal validity or independent empirical confirmation.
+```text
+MRD v2.0
+RC-21 — Reference-Implementation Boundary
+```
 
-Canonical orientation: MRD v2.0 and RC-21.
+---
+
+### Resource Types
+
+Naturepedia may use resource types including:
+
+- Plate™
+- Registry
+- Meta-Registry
+- Graph Registry™
+- System Map
+- Knowledge Mesh
+
+These terms do not all describe the same architectural relationship.
+
+In particular:
+
+```text
+System Map
+```
+
+should not automatically be inserted as a required inheritance layer between:
+
+```text
+Registry
+```
+
+and:
+
+```text
+Knowledge Mesh
+```
+
+A System Map may instead provide a bounded relationship or navigation representation for a particular implemented domain.
+
+---
+
+### RKCA Structural Orientation
+
+The broader RKCA structural orientation may include:
+
+```text
+Plate™
+→ Registry
+→ Meta-Registry
+→ Graph Registry™
+→ Knowledge Mesh
+```
+
+Canonical orientation:
+
+```text
+MRD v2.0 §12.7
+→ Recursive Knowledge Compression Architecture (RKCA™)
+```
+
+This sequence describes an architectural progression of possible resource organization.
+
+It does not establish that every Naturepedia subject currently has every layer instantiated.
+
+Required distinction:
+
+```text
+architectural resource type defined
+≠
+resource instantiated
+```
+
+---
+
+### RRIP Relationship
+
+Where registry inheritance is explicitly implemented, RRIP may provide a governed relationship among registry layers.
+
+Canonical orientation:
+
+```text
+MRD v2.0 §12.8
+→ Recursive Registry Inheritance Principle (RRIP™)
+```
+
+Required distinction:
+
+```text
+RRIP relationship defined
+≠
+every resource participates in an RRIP chain
+```
+
+A resource must have an actual governed relationship record before inheritance should be inferred.
+
+---
+
+### System Map Boundary
+
+A System Map may represent relationships such as:
+
+```text
+entity
+→ system
+→ location
+→ season
+→ related structure
+```
+
+or another declared domain-specific relationship graph.
+
+A System Map may be useful for:
+
+- navigation;
+- bounded multi-record retrieval;
+- relationship visualization;
+- machine routing.
+
+But:
+
+```text
+System Map
+≠
+Meta-Registry
+```
+
+```text
+System Map
+≠
+Graph Registry™ automatically
+```
+
+```text
+System Map
+≠
+Knowledge Mesh automatically
+```
+
+The returned resource contract determines what the resource actually implements.
+
+---
+
+### Knowledge Mesh Boundary
+
+A Knowledge Mesh is a higher-order relationship-aware resource class within the Naturepedia architecture.
+
+The existence of the Knowledge Mesh concept does not imply that every:
+
+- Plate;
+- Registry;
+- System Map;
+- Naturepedia branch;
+
+has a corresponding Knowledge Mesh.
+
+Required distinction:
+
+```text
+Knowledge Mesh class exists
+≠
+Knowledge Mesh resource exists for every subject
+```
+
+A Knowledge Mesh should be described as implemented only when the specific resource is actually registered and available.
+
+---
+
+### Public and Protected Resources
+
+Naturepedia includes both:
+
+```text
+public machine-readable resources
+```
+
+and:
+
+```text
+protected machine-readable resources
+```
+
+depending on the resource.
+
+Public discovery does not imply payment.
+
+Likewise:
+
+```text
+pricing class exists
+≠
+resource requires payment
+```
+
+Actual protected-resource availability requires explicit registration.
+
+Current production availability follows:
+
+```text
+unknown
+→ 404
+→ no payment challenge
+
+known but incomplete
+→ 409
+→ no payment challenge
+
+registered + complete + protected
+→ eligible for 402
+```
+
+---
+
+### Hopf Fibration Example
+
+Hopf Fibration illustrates the importance of separating architectural discovery from resource-product inference.
+
+Within Naturepedia it is classified as:
+
+```text
+Parent:
+Geometry of Nature™
+
+Domain:
+Mathematics / Topology / Fiber Bundles / State-Space Geometry
+
+Evidence class:
+Established mathematics
+
+Framework relationship:
+Comparative Compression Geometry™
+MRD v2.0 §12.9
+
+requiresPayment:
+false
+```
+
+Hopf does not automatically acquire:
+
+```text
+Registry
+System Map
+Knowledge Mesh
+x402 product
+```
+
+counterparts merely because those resource classes exist elsewhere in Naturepedia.
+
+Required distinction:
+
+```text
+discoverable subject
+≠
+paid resource family
+```
+
+---
+
+### Implementation Capabilities
+
+Naturepedia demonstrates implementation patterns involving:
+
+- human-readable knowledge interfaces;
+- machine-readable structured resources;
+- stable identifiers;
+- provenance;
+- version state;
+- relationship records;
+- retrieval paths;
+- governance metadata;
+- public discovery;
+- selectively protected retrieval.
+
+These capabilities demonstrate architectural translation.
+
+They do not establish:
+
+- universal applicability;
+- scientific confirmation of framework propositions;
+- independent validation;
+- existence of every possible higher-order resource.
+
+---
+
+### Reference-Implementation Evidence Boundary
+
+The strongest defensible interpretation is:
+
+```text
+Naturepedia implements selected Grand Compression architectural concepts
+```
+
+not:
+
+```text
+Naturepedia proves the Grand Compression architecture
+```
+
+A successful:
+
+- endpoint response;
+- schema validation;
+- Registry lookup;
+- RRIP resolution;
+- state-token comparison;
+- x402 challenge;
+- settlement;
+
+establishes the corresponding implementation behavior only.
+
+It does not independently establish the empirical validity of the complete Grand Compression Framework.
+
+Canonical orientation:
+
+```text
+RC-21 — Reference-Implementation Boundary
+```
 
 ---
 
