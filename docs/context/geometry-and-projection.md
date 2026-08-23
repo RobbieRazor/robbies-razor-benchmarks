@@ -1,20 +1,987 @@
-### Projection Artifacts and Curved Geometry
+# Geometry and Projection
+## Bounded Context Note for Comparative Compression Geometry™
 
-Some systems appear random not because structure is absent, but because they are
-projected into geometries that cannot encode memory.
+## Document Status
 
-A simple illustrative example is the distribution of prime numbers. When primes
-are enumerated linearly, spacing appears irregular. When the same numbers are
-embedded in curved or spiral geometries, latent structure becomes visible without
-introducing new information.
+**Status:** Non-canonical explanatory context  
+**Current governing authority:** MRD v2.0  
+**Canonical identifier:** `GC-MRD-v2.0`  
+**Author and originator of Grand Compression interpretation:** Robbie George  
+**Framework relationship:** Comparative Compression Geometry™  
+**Canonical framework location:** MRD v2.0 §12.9  
+**Evidence posture:** Established mathematical ideas separated from framework interpretation
 
-This does not assert a new mathematical law. It demonstrates a general principle:
-geometry determines whether recursion and memory can be expressed.
+This note discusses how representation and projection can make some structural relationships easier or harder to observe.
 
-Robbie’s Razor operates on this same insight. Flat token spaces and linear
-reasoning paths obscure structure and amplify entropy. Compression-aware,
-curved representations restore coherence without increasing compute.
+It does not establish that:
 
-Same data. Different geometry. Order revealed.
+- apparently irregular systems necessarily contain hidden order;
+- one geometry is universally superior to another;
+- geometry itself stores or creates memory;
+- curved representations inherently improve reasoning;
+- geometric representation reduces physical energy or compute;
+- prime-number visualizations validate Grand Compression;
+- mathematical resemblance establishes a shared physical mechanism.
 
+The governing distinction is:
 
+```text
+representation can reveal a pattern
+≠
+representation creates the underlying pattern
+```
+
+---
+
+# Canonical Authority
+
+Canonical authority:
+
+https://www.robbiegeorgephotography.com/grand-compression-master-reference-document
+
+Canonical Claims Register:
+
+https://www.robbiegeorgephotography.com/grand-compression-canonical-claims
+
+Repository authority:
+
+```text
+docs/AUTHORITY.md
+```
+
+Comparative Compression Geometry orientation:
+
+```text
+docs/doctrine/canonical-claim-alignment.md
+docs/doctrine/e8-comparative-compression-geometry.md
+```
+
+Current governing framework:
+
+```text
+MRD v2.0
+GC-MRD-v2.0
+RC-01 through RC-22
+```
+
+Current relevant canonical location:
+
+```text
+MRD §12.9
+→ Comparative Compression Geometry™
+```
+
+---
+
+# 1. Representation and Projection
+
+A mathematical or computational object may be represented in multiple ways.
+
+Different representations can make different relationships easier to inspect.
+
+For example, the same underlying data may be represented as:
+
+- a sequence;
+- a table;
+- a graph;
+- a lattice;
+- a coordinate embedding;
+- a projection;
+- a visualization.
+
+Changing representation does not necessarily change the underlying object.
+
+Conceptually:
+
+```text
+same source structure
+→ different representation
+→ different observability
+```
+
+This is an important distinction.
+
+---
+
+# 2. Projection Boundary
+
+A projection may preserve some relationships while discarding others.
+
+Therefore:
+
+```text
+projection
+≠
+complete representation
+```
+
+A useful projection should identify what is preserved and what is lost.
+
+Possible preserved properties may include:
+
+- adjacency;
+- ordering;
+- distance;
+- topology;
+- symmetry;
+- connectivity.
+
+Not every projection preserves every property.
+
+---
+
+# 3. Visualization Is Not Evidence by Itself
+
+A visual arrangement may reveal an interesting pattern.
+
+That does not automatically establish:
+
+- statistical significance;
+- causal mechanism;
+- mathematical equivalence;
+- physical identity;
+- predictive power.
+
+Required distinction:
+
+```text
+visible pattern
+≠
+validated explanation
+```
+
+Visual evidence may motivate analysis.
+
+It does not replace analysis.
+
+---
+
+# 4. Prime-Number Illustration
+
+Prime numbers provide a useful example of how representation can affect visual perception.
+
+When represented as an ordinary increasing sequence, their spacing is irregular.
+
+Alternative spatial arrangements of the same integers can display visible concentrations or geometric patterns involving primes.
+
+This illustrates a limited point:
+
+> A representation may make particular relationships or regularities easier to inspect without changing the underlying numbers.
+
+It does **not** establish that:
+
+```text
+prime numbers require curved geometry
+```
+
+or:
+
+```text
+the representation discovers a hidden physical substrate
+```
+
+or:
+
+```text
+prime-number geometry validates Grand Compression
+```
+
+---
+
+# 5. Spiral Representation Boundary
+
+A spiral arrangement is one visualization choice.
+
+The existence of a visible pattern after rearrangement does not mean that the integers themselves literally occupy a spiral structure.
+
+Required distinction:
+
+```text
+data arranged on a spiral
+≠
+data generated by a spiral mechanism
+```
+
+The visualization and the generative mathematics must remain distinct.
+
+---
+
+# 6. Geometry and Memory
+
+The historical version of this file stated:
+
+```text
+geometry determines whether recursion and memory can be expressed
+```
+
+That is too strong.
+
+A representation can affect:
+
+- accessibility;
+- locality;
+- search;
+- indexing;
+- traversal;
+- interpretability.
+
+But memory may be implemented through many structures, including:
+
+- sequences;
+- tables;
+- graphs;
+- trees;
+- databases;
+- vectors;
+- spatial representations.
+
+Therefore:
+
+```text
+particular geometry absent
+≠
+memory impossible
+```
+
+---
+
+# 7. Geometry Does Not Store Memory by Definition
+
+Geometry can encode relationships when those relationships are explicitly represented.
+
+For example:
+
+```text
+node positions
+edge relationships
+distance
+neighborhood
+orientation
+```
+
+may encode useful information.
+
+But:
+
+```text
+geometry
+≠
+memory automatically
+```
+
+A memory system additionally requires some mechanism for preserving and retrieving state.
+
+---
+
+# 8. Recursion Boundary
+
+Recursion concerns reuse or self-reference under a declared operation.
+
+A geometric representation may help organize recursive structure.
+
+It does not automatically create recursion.
+
+Required distinction:
+
+```text
+geometric pattern
+≠
+recursive process
+```
+
+Likewise:
+
+```text
+repeated geometric motif
+≠
+computational recursion
+```
+
+unless the relevant operation is defined.
+
+---
+
+# 9. Robbie’s Razor™ Orientation
+
+Robbie’s Razor uses:
+
+```text
+compression
+→ expression
+→ memory
+→ recursion
+```
+
+Within a geometric context, a representation may be evaluated by asking:
+
+```text
+Compression
+→ Does the representation reduce relevant descriptive burden?
+
+Expression
+→ Does it make required relationships accessible?
+
+Memory
+→ Does it preserve the structure required for later use?
+
+Recursion
+→ Can that preserved structure become valid input to later operations?
+```
+
+These are evaluation questions.
+
+They are not guaranteed consequences of using geometry.
+
+---
+
+# 10. Comparative Compression Geometry™
+
+Comparative Compression Geometry™ provides a framework for bounded structural comparison.
+
+A repository notation may use:
+
+```text
+A ~ℛ B
+iff
+Σℛ(A) = Σℛ(B)
+```
+
+where equality refers to the declared normalized recursive signatures under the specified comparison rules.
+
+A valid comparison should state:
+
+- objects;
+- scale;
+- normalization;
+- preserved relationships;
+- exclusions;
+- evidence;
+- failure conditions.
+
+Required distinction:
+
+```text
+visual similarity
+≠
+CCG correspondence
+```
+
+and:
+
+```text
+CCG correspondence
+≠
+material identity
+```
+
+---
+
+# 11. Coordinate Choice Boundary
+
+Coordinate systems can alter how a structure is displayed without altering the underlying structure.
+
+Examples may include:
+
+```text
+Cartesian coordinates
+polar coordinates
+graph embeddings
+higher-dimensional embeddings
+projections
+```
+
+A coordinate transformation may simplify some calculations or visualizations.
+
+That does not establish that one coordinate system is more physically fundamental.
+
+---
+
+# 12. Dimensional Reduction
+
+Projection often maps a richer representation into a lower-dimensional one.
+
+Conceptually:
+
+```text
+higher-dimensional state
+→ declared equivalence or projection
+→ lower-dimensional representation
+```
+
+Such reduction may preserve some information and discard other information.
+
+The preservation rules must be specified.
+
+---
+
+# 13. Hopf Fibration Reference
+
+The classical Hopf fibration:
+
+```text
+S¹ ↪ S³ → S²
+```
+
+is established mathematics.
+
+For normalized pure single-qubit amplitudes, quotienting the global phase gives:
+
+```text
+S³ / S¹ ≅ S²
+```
+
+which corresponds to the Bloch-sphere representation of pure one-qubit states.
+
+This is a rigorous mathematical example in which a richer state representation admits a lower-dimensional quotient while nontrivial structural relationships remain.
+
+Within Grand Compression, it may serve as a bounded reference for Comparative Compression Geometry™.
+
+Required distinction:
+
+```text
+Hopf mathematics
+≠
+Grand Compression validation
+```
+
+---
+
+# 14. Hopf Projection Boundary
+
+Each point of the base `S²` corresponds to an entire `S¹` fiber in the classical Hopf fibration.
+
+The mapping therefore illustrates that:
+
+```text
+lower-dimensional representation
+```
+
+can correspond to:
+
+```text
+an equivalence class of richer states
+```
+
+This is established mathematics.
+
+Calling it “compression” is a Grand Compression comparative interpretation, not standard mathematical terminology for the Hopf fibration.
+
+---
+
+# 15. E8 Boundary
+
+E8 is another established mathematical structure that may provide a bounded comparison reference within CCG.
+
+Hopf Fibration and E8 remain distinct.
+
+Required distinction:
+
+```text
+Hopf
+≠
+E8
+```
+
+and:
+
+```text
+related mathematical landscape
+≠
+simple causal chain
+```
+
+Neither independently validates Grand Compression.
+
+---
+
+# 16. Token-Space Boundary
+
+The historical version referred to:
+
+```text
+flat token spaces
+```
+
+This phrase should not be treated as a technically established description of modern language-model representations.
+
+Language models may operate through high-dimensional learned representations whose geometry depends on:
+
+- model architecture;
+- layer;
+- embedding method;
+- training;
+- context;
+- metric.
+
+Therefore:
+
+```text
+token sequence
+≠
+mathematically flat state space
+```
+
+without an explicit geometric definition.
+
+---
+
+# 17. Entropy Boundary
+
+The historical note claimed that linear reasoning paths:
+
+```text
+amplify entropy
+```
+
+No entropy quantity was defined.
+
+Possible entropy concepts include:
+
+- Shannon entropy;
+- thermodynamic entropy;
+- von Neumann entropy;
+- output-distribution entropy.
+
+Required distinction:
+
+```text
+linear representation
+≠
+entropy increase
+```
+
+unless a specific entropy is defined and measured.
+
+---
+
+# 18. Coherence Boundary
+
+A representation may make some relationships easier to inspect.
+
+That does not mean it automatically:
+
+```text
+restores coherence
+```
+
+Coherence requires an operational definition.
+
+Possible measures may include:
+
+- consistency;
+- relationship preservation;
+- task accuracy;
+- structural fidelity;
+- variance.
+
+Required distinction:
+
+```text
+clearer visualization
+≠
+greater factual coherence
+```
+
+and:
+
+```text
+coherence
+≠
+truth
+```
+
+---
+
+# 19. Compute Boundary
+
+The historical note claimed that compression-aware curved representations could restore coherence:
+
+```text
+without increasing compute
+```
+
+That conclusion requires measurement.
+
+A new representation may:
+
+- reduce compute;
+- increase compute;
+- leave compute unchanged;
+- shift cost from one stage to another.
+
+Required distinction:
+
+```text
+better representation
+≠
+lower compute automatically
+```
+
+---
+
+# 20. Computational Cost
+
+A representation may introduce costs involving:
+
+- transformation;
+- indexing;
+- storage;
+- retrieval;
+- graph traversal;
+- coordinate conversion;
+- model computation.
+
+Therefore an efficiency claim should measure the complete relevant burden.
+
+Canonical orientation:
+
+```text
+RC-20 — Compression Fitness Constraint
+```
+
+---
+
+# 21. Representation vs Reconstruction
+
+One possible research hypothesis is:
+
+> A representation that preserves task-relevant relationships may reduce the amount of reconstruction required during later use.
+
+That proposition can be tested.
+
+It should not be assumed.
+
+A test might compare:
+
+```text
+Representation A
+→ later reconstruction burden
+
+Representation B
+→ later reconstruction burden
+```
+
+while preserving equivalent task requirements.
+
+---
+
+# 22. Candidate Experimental Design
+
+A bounded experiment could compare two representations of the same source information.
+
+Record:
+
+```text
+Source information:
+Representation A:
+Representation B:
+
+Preserved relationships:
+Information lost:
+
+Task:
+Model:
+Retrieval method:
+
+Task quality:
+Latency:
+Tokens:
+Model calls:
+Memory:
+Measured energy, if available:
+```
+
+Then ask whether one representation offers an advantage under the declared conditions.
+
+---
+
+# 23. Causal Attribution
+
+If one representation performs better, possible causes include:
+
+- geometry;
+- indexing;
+- prompt structure;
+- search algorithm;
+- model familiarity;
+- data layout;
+- implementation differences.
+
+Therefore:
+
+```text
+representation B performs better
+≠
+geometry alone proven causal
+```
+
+Controlled comparison is required.
+
+---
+
+# 24. Predictive Requirement
+
+Canonical orientation:
+
+```text
+RC-19 — Predictive Evaluation Requirement
+```
+
+A geometric-representation prediction should specify the expected effect before evaluation.
+
+Example:
+
+```text
+Under task T and fixed model M,
+representation B will reduce retrieval steps relative to representation A
+while maintaining task accuracy within tolerance ε.
+```
+
+That is testable.
+
+---
+
+# 25. Cross-Domain Boundary
+
+Canonical orientation:
+
+```text
+RC-22 — Domain Transfer Constraint
+```
+
+A pattern found in:
+
+- number theory;
+- topology;
+- machine learning;
+- biology;
+- ecology;
+
+must not be transferred automatically to another domain.
+
+Required distinction:
+
+```text
+similar geometry
+≠
+shared mechanism
+```
+
+A transfer must declare:
+
+- source objects;
+- target objects;
+- scale;
+- normalization;
+- preserved relationships;
+- exclusions;
+- evidence;
+- alternatives;
+- failure conditions.
+
+---
+
+# 26. Established Mathematics vs Framework Interpretation
+
+This file must preserve two evidence layers.
+
+## Established mathematics
+
+Examples may include:
+
+- coordinate transformations;
+- quotient spaces;
+- Hopf fibration;
+- E8;
+- number-theoretic structures.
+
+## Grand Compression interpretation
+
+Examples may include:
+
+- treating projection as a comparison class for compression;
+- evaluating preserved recursive signatures;
+- using geometry to study representation efficiency.
+
+Required distinction:
+
+```text
+established mathematics
+≠
+framework hypothesis
+```
+
+---
+
+# 27. Recommended Language
+
+Preferred:
+
+```text
+The alternative representation makes a particular relationship easier
+to observe while preserving the same underlying source data.
+```
+
+Preferred:
+
+```text
+This provides a bounded structural comparison for Comparative
+Compression Geometry™.
+```
+
+Preferred:
+
+```text
+Whether the representation improves computation or reasoning must be
+measured separately.
+```
+
+Avoid:
+
+```text
+Geometry reveals the hidden order of apparently random systems.
+```
+
+Avoid:
+
+```text
+Flat token spaces amplify entropy.
+```
+
+Avoid:
+
+```text
+Curved representations restore coherence without additional compute.
+```
+
+---
+
+# 28. Evidence Ladder
+
+A defensible progression is:
+
+```text
+same source data
+→ alternative representation
+→ declared preserved relationships
+→ measurable task difference
+→ controlled comparison
+→ bounded interpretation
+```
+
+Do not jump from:
+
+```text
+interesting visualization
+```
+
+to:
+
+```text
+universal geometry principle
+```
+
+---
+
+# 29. Final Interpretation Rules
+
+This context note must preserve:
+
+```text
+representation
+≠
+underlying object
+```
+
+```text
+projection
+≠
+complete preservation
+```
+
+```text
+visible pattern
+≠
+causal explanation
+```
+
+```text
+spiral visualization
+≠
+spiral generative mechanism
+```
+
+```text
+geometry
+≠
+memory automatically
+```
+
+```text
+geometric pattern
+≠
+recursion
+```
+
+```text
+token sequence
+≠
+flat geometry by definition
+```
+
+```text
+linear representation
+≠
+entropy increase
+```
+
+```text
+better visualization
+≠
+greater truth
+```
+
+```text
+geometric representation
+≠
+lower compute automatically
+```
+
+```text
+structural correspondence
+≠
+material identity
+```
+
+```text
+established mathematics
+≠
+Grand Compression validation
+```
+
+---
+
+# Status
+
+The strongest defensible interpretation is:
+
+> Representation and projection can change which relationships are easy to observe or use while leaving the underlying source object unchanged.
+
+Within Comparative Compression Geometry™, that idea can motivate controlled comparisons of how different representations preserve and expose structure.
+
+Whether a particular geometry improves compression, memory, retrieval, reasoning, or compute efficiency remains an empirical question.
+
+---
+
+# Attribution
+
+Comparative Compression Geometry™, Robbie’s Razor™, and the associated Grand Compression interpretation of representation and projection originate with:
+
+**Robbie George**  
+Author and Originator  
+The Grand Compression Cosmology — Master Reference Document, MRD v2.0  
+Canonical identifier: `GC-MRD-v2.0`
+
+These materials are governed by the **Authorship Conservation Rule (ACR)**.
+
+Established mathematics, topology, number theory, geometry, quantum-state mathematics, visualization methods, and externally developed computational techniques retain their independent provenance.
