@@ -354,7 +354,7 @@ Naturepedia publishes an official, domain-verified remote MCP server.
 **Publisher:** Robbie George Photography  
 **Creator:** Robbie George  
 **Verified domain:** `robbiegeorgephotography.com`  
-**Version:** `0.1.0`  
+**Version:** `0.1.2`  
 **Status:** Active and latest  
 **Transport:** Streamable HTTP  
 **Access:** Public and read-only  
