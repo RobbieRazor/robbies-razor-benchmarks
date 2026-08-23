@@ -4,7 +4,7 @@
   "registryVersion": "2026.08.19",
   "dateModified": "2026-08-19",
   "name": "Naturepedia Canonical Plate Registry",
-  "description": "Canonical machine-readable registry for Naturepedia Plate assets, organized by Naturepedia system, page URL, Plate ID, Plate type, and x402 access path.",
+  "description": "Canonical machine-readable inventory of Naturepedia Plate assets, organized by system, canonical page URL, Plate identifier, Plate type, and resource-specific machine-access metadata where explicitly implemented.",
   "creator": {
     "@type": "Person",
     "name": "Robbie George",
@@ -16,8 +16,39 @@
     "url": "https://www.robbiegeorgephotography.com"
   },
   "license": "https://www.robbiegeorgephotography.com/commercial-data-license",
-  "governance": "Gr <= Es",
-  "access": "x402",
+  "rightsNotice": "Public discovery and registry inclusion do not grant training, embedding, redistribution, resale, derivative-dataset, commercial implementation, or framework-implementation rights. Protected retrieval rights are resource-specific and governed separately.",
+  "governance": {
+    "framework": "Grand Compression",
+    "authority": "GC-MRD-v2.0",
+    "governanceExpression": "Gr <= Es",
+    "interpretation": "Framework governance metadata; not an empirical validation claim."
+  },
+  "accessModel": "mixed",
+  "publicDiscovery": true,
+  "protectedRetrieval": "resource-specific",
+  "pricingManifest": "https://www.robbiegeorgephotography.com/.well-known/x402-pricing.json",
+  "pricingManifestVersion": "3.0.0",
+  "resourceAvailabilityPolicy": {
+    "unknown": {
+      "httpStatus": 404,
+      "paymentChallenge": false
+    },
+    "knownIncomplete": {
+      "httpStatus": 409,
+      "paymentChallenge": false
+    },
+    "registeredCompleteProtected": {
+      "httpStatus": 402,
+      "paymentChallenge": true
+    }
+  },
+  "interpretationBoundary": {
+    "registryInclusionDoesNotImplyPayment": true,
+    "registryInclusionDoesNotImplyEmpiricalValidation": true,
+    "plateExistenceDoesNotImplyProtectedPayload": true,
+    "routePatternDoesNotImplyResourceExistence": true,
+    "higherOrderResourceLayersRequireExplicitRegistration": true
+  },
   "canonicalKeepCount": 757,
   "duplicateRemovedCount": 33,
   "systems": [
