@@ -49,106 +49,106 @@
     "routePatternDoesNotImplyResourceExistence": true,
     "higherOrderResourceLayersRequireExplicitRegistration": true
   },
-  "canonicalKeepCount": 757,
+    "canonicalKeepCount": 757,
   "duplicateRemovedCount": 33,
   "systems": [
     {
       "name": "Governance Plates",
       "slug": "commercial-data-license",
       "url": "https://www.robbiegeorgephotography.com/commercial-data-license",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/commercial-data-license",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/commercial-data-license",
       "plates": [
         {
-  "name": "Commercial Data License Plate™",
-  "id": "commercial-data-license#commercial-data-license-plate",
-  "url": "https://www.robbiegeorgephotography.com/commercial-data-license",
-  "type": "Naturepedia Governance Plate™",
-  "access": "x402",
-  "accessClass": "single-plate",
-  "priceUSDC": "0.25",
-  "atomicUnits": "250000",
-  "routeStatus": "active",
-  "x402Route": "https://www.robbiegeorgephotography.com/v1/plates/item/commercial-data-license-plate",
-  "payloadUrl": "https://raw.githubusercontent.com/RobbieRazor/robbies-razor-benchmarks/main/docs/examples/json-ld/governance/commercial-data-license-plate.json"
+          "name": "Commercial Data License Plate™",
+          "id": "commercial-data-license#commercial-data-license-plate",
+          "url": "https://www.robbiegeorgephotography.com/commercial-data-license",
+          "type": "Naturepedia Governance Plate™",
+          "access": "x402",
+          "accessClass": "single-plate",
+          "priceUSDC": "0.25",
+          "atomicUnits": "250000",
+          "routeStatus": "active",
+          "x402Route": "https://www.robbiegeorgephotography.com/v1/plates/item/commercial-data-license-plate",
+          "payloadUrl": "https://raw.githubusercontent.com/RobbieRazor/robbies-razor-benchmarks/main/docs/examples/json-ld/governance/commercial-data-license-plate.json"
         },
-       {
-  "name": "Commercial Intelligence Pricing Plate™",
-  "id": "commercial-data-license#commercial-intelligence-pricing-plate",
-  "url": "https://www.robbiegeorgephotography.com/commercial-data-license",
-  "type": "Naturepedia Governance Pricing Plate™",
-  "access": "x402",
-  "accessClass": "single-plate",
-  "priceUSDC": "0.25",
-  "atomicUnits": "250000",
-  "routeStatus": "active",
-  "x402Route": "https://www.robbiegeorgephotography.com/v1/plates/item/commercial-intelligence-pricing-plate",
-  "payloadUrl": "https://raw.githubusercontent.com/RobbieRazor/robbies-razor-benchmarks/main/docs/examples/json-ld/governance/commercial-intelligence-pricing-plate.json"
-}
+        {
+          "name": "Commercial Intelligence Pricing Plate™",
+          "id": "commercial-data-license#commercial-intelligence-pricing-plate",
+          "url": "https://www.robbiegeorgephotography.com/commercial-data-license",
+          "type": "Naturepedia Governance Pricing Plate™",
+          "access": "x402",
+          "accessClass": "single-plate",
+          "priceUSDC": "0.25",
+          "atomicUnits": "250000",
+          "routeStatus": "active",
+          "x402Route": "https://www.robbiegeorgephotography.com/v1/plates/item/commercial-intelligence-pricing-plate",
+          "payloadUrl": "https://raw.githubusercontent.com/RobbieRazor/robbies-razor-benchmarks/main/docs/examples/json-ld/governance/commercial-intelligence-pricing-plate.json"
+        }
       ]
     },
     {
-"name": "Carbon Cycle Plates",
-"slug": "carbon-cycle",
-"url": "https://www.robbiegeorgephotography.com/carbon-cycle",
-"x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/carbon-cycle",
-"plates": [
-{
-"name": "Carbon Cycle Plate™",
-"id": "carbon-cycle#carbon-cycle-plate",
-"type": "Naturepedia Systems Plate™"
-},
-{
-"name": "Photosynthesis Plate™",
-"id": "carbon-cycle#photosynthesis-plate",
-"type": "Naturepedia Energy Flow Plate™"
-},
-{
-"name": "Respiration Plate™",
-"id": "carbon-cycle#respiration-plate",
-"type": "Naturepedia Biological Processes Plate™"
-},
-{
-"name": "Decomposition Plate™",
-"id": "carbon-cycle#decomposition-plate",
-"type": "Naturepedia Ecosystem Processes Plate™"
-},
-{
-"name": "Forest Carbon Plate™",
-"id": "carbon-cycle#forest-carbon-plate",
-"type": "Naturepedia Forest Systems Plate™"
-},
-{
-"name": "Soil Carbon Plate™",
-"id": "carbon-cycle#soil-carbon-plate",
-"type": "Naturepedia Soil Systems Plate™"
-},
-{
-"name": "Wetlands & Peat Plate™",
-"id": "carbon-cycle#wetlands-carbon-plate",
-"type": "Naturepedia Wetland Systems Plate™"
-},
-{
-"name": "Ocean Carbon Plate™",
-"id": "carbon-cycle#ocean-carbon-plate",
-"type": "Naturepedia Ocean Systems Plate™"
-},
-{
-"name": "Carbon Sequestration Plate™",
-"id": "carbon-cycle#carbon-sequestration-plate",
-"type": "Naturepedia Climate Systems Plate™"
-},
-{
-"name": "Regenerative Carbon Systems Plate™",
-"id": "carbon-cycle#regenerative-carbon-systems-plate",
-"type": "Naturepedia Human-Earth Systems Plate™"
-}
-]
-},
-    {
+      "name": "Carbon Cycle Plates",
+      "slug": "carbon-cycle",
+      "url": "https://www.robbiegeorgephotography.com/carbon-cycle",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/carbon-cycle",
+      "plates": [
+        {
+          "name": "Carbon Cycle Plate™",
+          "id": "carbon-cycle#carbon-cycle-plate",
+          "type": "Naturepedia Systems Plate™"
+        },
+        {
+          "name": "Photosynthesis Plate™",
+          "id": "carbon-cycle#photosynthesis-plate",
+          "type": "Naturepedia Energy Flow Plate™"
+        },
+        {
+          "name": "Respiration Plate™",
+          "id": "carbon-cycle#respiration-plate",
+          "type": "Naturepedia Biological Processes Plate™"
+        },
+        {
+          "name": "Decomposition Plate™",
+          "id": "carbon-cycle#decomposition-plate",
+          "type": "Naturepedia Ecosystem Processes Plate™"
+        },
+        {
+          "name": "Forest Carbon Plate™",
+          "id": "carbon-cycle#forest-carbon-plate",
+          "type": "Naturepedia Forest Systems Plate™"
+        },
+        {
+          "name": "Soil Carbon Plate™",
+          "id": "carbon-cycle#soil-carbon-plate",
+          "type": "Naturepedia Soil Systems Plate™"
+        },
+        {
+          "name": "Wetlands & Peat Plate™",
+          "id": "carbon-cycle#wetlands-carbon-plate",
+          "type": "Naturepedia Wetland Systems Plate™"
+        },
+        {
+          "name": "Ocean Carbon Plate™",
+          "id": "carbon-cycle#ocean-carbon-plate",
+          "type": "Naturepedia Ocean Systems Plate™"
+        },
+        {
+          "name": "Carbon Sequestration Plate™",
+          "id": "carbon-cycle#carbon-sequestration-plate",
+          "type": "Naturepedia Climate Systems Plate™"
+        },
+        {
+          "name": "Regenerative Carbon Systems Plate™",
+          "id": "carbon-cycle#regenerative-carbon-systems-plate",
+          "type": "Naturepedia Human-Earth Systems Plate™"
+        }
+      ]
+    },
+       {
       "name": "Soil Carbon Systems Plates",
       "slug": "soil-carbon-systems",
       "url": "https://www.robbiegeorgephotography.com/soil-carbon-systems",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/soil-carbon-systems",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/soil-carbon-systems",
       "plates": [
         {
           "name": "Soil Carbon Systems Plate™",
@@ -211,7 +211,7 @@
       "name": "Carbon & Microbial Life Plates",
       "slug": "carbon-microbial-life",
       "url": "https://www.robbiegeorgephotography.com/carbon-microbial-life",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/carbon-microbial-life",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/carbon-microbial-life",
       "plates": [
         {
           "name": "Carbon & Microbial Life Plate™",
@@ -270,74 +270,74 @@
         }
       ]
     },
-    {
-"name": "Forest Carbon Systems Plates",
-"slug": "forest-carbon-systems",
-"url": "https://www.robbiegeorgephotography.com/forest-carbon-systems",
-"x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/forest-carbon-systems",
-"plates": [
-{
-"name": "Forest Carbon Systems Plate™",
-"id": "forest-carbon-systems#forest-carbon-systems-plate",
-"type": "Naturepedia™ Forest Carbon Systems Plate™"
-},
-{
-"name": "Forest Carbon Storage Plate™",
-"id": "forest-carbon-systems#forest-carbon-storage-plate",
-"type": "Naturepedia™ Forest Carbon Storage Plate™"
-},
-{
-"name": "Living Biomass Plate™",
-"id": "forest-carbon-systems#living-biomass-plate",
-"type": "Naturepedia™ Living Biomass Plate™"
-},
-{
-"name": "Deadwood Carbon Plate™",
-"id": "forest-carbon-systems#deadwood-carbon-plate",
-"type": "Naturepedia™ Deadwood Carbon Plate™"
-},
-{
-"name": "Forest Litter Plate™",
-"id": "forest-carbon-systems#forest-litter-plate",
-"type": "Naturepedia™ Forest Litter Plate™"
-},
-{
-"name": "Forest Soil Carbon Plate™",
-"id": "forest-carbon-systems#forest-soil-carbon-plate",
-"type": "Naturepedia™ Forest Soil Carbon Plate™"
-},
-{
-"name": "Old-Growth Carbon Plate™",
-"id": "forest-carbon-systems#old-growth-carbon-plate",
-"type": "Naturepedia™ Old-Growth Carbon Plate™"
-},
-{
-"name": "Forest Carbon Sequestration Plate™",
-"id": "forest-carbon-systems#forest-carbon-sequestration-plate",
-"type": "Naturepedia™ Forest Carbon Sequestration Plate™"
-},
-{
-"name": "Forest Resilience Plate™",
-"id": "forest-carbon-systems#forest-resilience-plate",
-"type": "Naturepedia™ Forest Resilience Plate™"
-},
-{
-"name": "Regenerative Forestry Plate™",
-"id": "forest-carbon-systems#regenerative-forestry-plate",
-"type": "Naturepedia™ Regenerative Forestry Plate™"
-},
-{
-"name": "Forest Carbon Feedbacks Plate™",
-"id": "forest-carbon-systems#forest-carbon-feedbacks-plate",
-"type": "Naturepedia™ Forest Carbon Feedbacks Plate™"
-}
-]
-},
+        {
+      "name": "Forest Carbon Systems Plates",
+      "slug": "forest-carbon-systems",
+      "url": "https://www.robbiegeorgephotography.com/forest-carbon-systems",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/forest-carbon-systems",
+      "plates": [
+        {
+          "name": "Forest Carbon Systems Plate™",
+          "id": "forest-carbon-systems#forest-carbon-systems-plate",
+          "type": "Naturepedia™ Forest Carbon Systems Plate™"
+        },
+        {
+          "name": "Forest Carbon Storage Plate™",
+          "id": "forest-carbon-systems#forest-carbon-storage-plate",
+          "type": "Naturepedia™ Forest Carbon Storage Plate™"
+        },
+        {
+          "name": "Living Biomass Plate™",
+          "id": "forest-carbon-systems#living-biomass-plate",
+          "type": "Naturepedia™ Living Biomass Plate™"
+        },
+        {
+          "name": "Deadwood Carbon Plate™",
+          "id": "forest-carbon-systems#deadwood-carbon-plate",
+          "type": "Naturepedia™ Deadwood Carbon Plate™"
+        },
+        {
+          "name": "Forest Litter Plate™",
+          "id": "forest-carbon-systems#forest-litter-plate",
+          "type": "Naturepedia™ Forest Litter Plate™"
+        },
+        {
+          "name": "Forest Soil Carbon Plate™",
+          "id": "forest-carbon-systems#forest-soil-carbon-plate",
+          "type": "Naturepedia™ Forest Soil Carbon Plate™"
+        },
+        {
+          "name": "Old-Growth Carbon Plate™",
+          "id": "forest-carbon-systems#old-growth-carbon-plate",
+          "type": "Naturepedia™ Old-Growth Carbon Plate™"
+        },
+        {
+          "name": "Forest Carbon Sequestration Plate™",
+          "id": "forest-carbon-systems#forest-carbon-sequestration-plate",
+          "type": "Naturepedia™ Forest Carbon Sequestration Plate™"
+        },
+        {
+          "name": "Forest Resilience Plate™",
+          "id": "forest-carbon-systems#forest-resilience-plate",
+          "type": "Naturepedia™ Forest Resilience Plate™"
+        },
+        {
+          "name": "Regenerative Forestry Plate™",
+          "id": "forest-carbon-systems#regenerative-forestry-plate",
+          "type": "Naturepedia™ Regenerative Forestry Plate™"
+        },
+        {
+          "name": "Forest Carbon Feedbacks Plate™",
+          "id": "forest-carbon-systems#forest-carbon-feedbacks-plate",
+          "type": "Naturepedia™ Forest Carbon Feedbacks Plate™"
+        }
+      ]
+    },
     {
       "name": "Climate Carbon Feedbacks Plates",
       "slug": "climate-carbon-feedbacks",
       "url": "https://www.robbiegeorgephotography.com/climate-carbon-feedbacks",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/climate-carbon-feedbacks",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/climate-carbon-feedbacks",
       "plates": [
         {
           "name": "Climate Carbon Feedbacks Plate™",
@@ -396,11 +396,11 @@
         }
       ]
     },
-    {
+        {
       "name": "Earth Systems Plates",
       "slug": "earth-systems",
       "url": "https://www.robbiegeorgephotography.com/earth-systems",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/earth-systems",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/earth-systems",
       "plates": [
         {
           "name": "Earth Systems Plate™",
@@ -474,11 +474,11 @@
         }
       ]
     },
-        {
+    {
       "name": "Weather Plates",
       "slug": "weather",
       "url": "https://www.robbiegeorgephotography.com/weather",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/registries/weather",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/registries/weather",
       "plates": [
         {
           "name": "Weather Plate™",
@@ -532,11 +532,11 @@
         }
       ]
     },
-    {
+        {
       "name": "Soil Systems Plates",
       "slug": "soil-systems",
       "url": "https://www.robbiegeorgephotography.com/soil-systems",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/soil-systems",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/soil-systems",
       "plates": [
         {
           "name": "Soil Systems Plate™",
@@ -599,7 +599,7 @@
       "name": "Information Systems in Nature Plates",
       "slug": "information-systems-in-nature",
       "url": "https://www.robbiegeorgephotography.com/information-systems-in-nature",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/information-systems-in-nature",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/information-systems-in-nature",
       "plates": [
         {
           "name": "Information Systems in Nature Plate™",
@@ -653,11 +653,11 @@
         }
       ]
     },
-    {
+        {
       "name": "Bioelectric Systems Plates",
       "slug": "bioelectric-systems",
       "url": "https://www.robbiegeorgephotography.com/bioelectric-systems",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/bioelectric-systems",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/bioelectric-systems",
       "plates": [
         {
           "name": "Bioelectric Systems Plate™",
@@ -711,11 +711,11 @@
         }
       ]
     },
-    {
+        {
       "name": "Quantum Agriculture Plates",
       "slug": "quantum-agriculture",
       "url": "https://www.robbiegeorgephotography.com/naturepedia-quantum-agriculture",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/quantum-agriculture",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/quantum-agriculture",
       "plates": [
         {
           "name": "Quantum Agriculture Plate™",
@@ -779,11 +779,11 @@
         }
       ]
     },
-    {
+        {
       "name": "Birches of North America Plates",
       "slug": "birches-of-north-america",
       "url": "https://www.robbiegeorgephotography.com/birches-of-north-america",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/birches-of-north-america",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/birches-of-north-america",
       "plates": [
         {
           "name": "Birch Identification Plate™",
@@ -848,181 +848,181 @@
       ]
     },
     {
-  "name": "Oaks of North America Plates",
-  "slug": "oaks-of-north-america",
-  "url": "https://www.robbiegeorgephotography.com/oaks-of-north-america",
-  "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/oaks-of-north-america",
-  "plates": [
-    {
-      "name": "Oak Systems Plate™",
-      "id": "oaks-of-north-america#oak-systems-plate",
-      "type": "Naturepedia Tree Systems Plate™"
+      "name": "Oaks of North America Plates",
+      "slug": "oaks-of-north-america",
+      "url": "https://www.robbiegeorgephotography.com/oaks-of-north-america",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/oaks-of-north-america",
+      "plates": [
+        {
+          "name": "Oak Systems Plate™",
+          "id": "oaks-of-north-america#oak-systems-plate",
+          "type": "Naturepedia Tree Systems Plate™"
+        },
+        {
+          "name": "Oak Identification Plate™",
+          "id": "oaks-of-north-america#oak-identification-plate",
+          "type": "Naturepedia Tree Identification Plate™"
+        },
+        {
+          "name": "Oak Leaf & Acorn Plate™",
+          "id": "oaks-of-north-america#oak-leaf-and-acorn-plate",
+          "type": "Naturepedia Tree Identification Plate™"
+        },
+        {
+          "name": "White Oak Plate™",
+          "id": "oaks-of-north-america#white-oak-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Red Oak Plate™",
+          "id": "oaks-of-north-america#red-oak-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Bur Oak Plate™",
+          "id": "oaks-of-north-america#bur-oak-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Live Oak Plate™",
+          "id": "oaks-of-north-america#live-oak-plate",
+          "type": "Naturepedia Species Plate™"
+        },
+        {
+          "name": "Oak Wildlife Relationships Plate™",
+          "id": "oaks-of-north-america#oak-wildlife-relationships-plate",
+          "type": "Naturepedia Wildlife Relationships Plate™"
+        },
+        {
+          "name": "Oak Keystone Species Plate™",
+          "id": "oaks-of-north-america#oak-keystone-species-plate",
+          "type": "Naturepedia Ecological Intelligence Plate™"
+        },
+        {
+          "name": "Oak Pollinator & Insect Plate™",
+          "id": "oaks-of-north-america#oak-pollinator-and-insect-plate",
+          "type": "Naturepedia Pollinator & Insect Plate™"
+        },
+        {
+          "name": "Oak Forest Community Plate™",
+          "id": "oaks-of-north-america#oak-forest-community-plate",
+          "type": "Naturepedia Forest Community Plate™"
+        },
+        {
+          "name": "Oak Carbon Storage Plate™",
+          "id": "oaks-of-north-america#oak-carbon-storage-plate",
+          "type": "Naturepedia Climate & Carbon Plate™"
+        },
+        {
+          "name": "Oak Forest Artist Rendition Plate™",
+          "id": "oaks-of-north-america#oak-forest-artist-rendition-plate",
+          "type": "Naturepedia Artist Rendition Plate™"
+        },
+        {
+          "name": "Acorn Ecology Artist Rendition Plate™",
+          "id": "oaks-of-north-america#acorn-ecology-artist-rendition-plate",
+          "type": "Naturepedia Artist Rendition Plate™"
+        }
+      ]
     },
-    {
-      "name": "Oak Identification Plate™",
-      "id": "oaks-of-north-america#oak-identification-plate",
-      "type": "Naturepedia Tree Identification Plate™"
+        {
+      "name": "Maples of North America Plates",
+      "slug": "maples-of-north-america",
+      "url": "https://www.robbiegeorgephotography.com/maples-of-north-america",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/maples-of-north-america",
+      "plates": [
+        {
+          "name": "Maple Systems Plate™",
+          "id": "maples-of-north-america#maple-systems-plate",
+          "type": "Naturepedia Tree Family Plate™"
+        },
+        {
+          "name": "Maple Identification Plate™",
+          "id": "maples-of-north-america#maple-identification-plate",
+          "type": "Naturepedia Tree Identification Plate™"
+        },
+        {
+          "name": "Maple Leaf Plate™",
+          "id": "maples-of-north-america#maple-leaf-plate",
+          "type": "Naturepedia Leaf Identification Plate™"
+        },
+        {
+          "name": "Sugar Maple Plate™",
+          "id": "maples-of-north-america#sugar-maple-plate",
+          "type": "Naturepedia Tree Species Plate™"
+        },
+        {
+          "name": "Red Maple Plate™",
+          "id": "maples-of-north-america#red-maple-plate",
+          "type": "Naturepedia Tree Species Plate™"
+        },
+        {
+          "name": "Silver Maple Plate™",
+          "id": "maples-of-north-america#silver-maple-plate",
+          "type": "Naturepedia Tree Species Plate™"
+        },
+        {
+          "name": "Bigleaf Maple Plate™",
+          "id": "maples-of-north-america#bigleaf-maple-plate",
+          "type": "Naturepedia Tree Species Plate™"
+        },
+        {
+          "name": "Striped Maple Plate™",
+          "id": "maples-of-north-america#striped-maple-plate",
+          "type": "Naturepedia Tree Species Plate™"
+        },
+        {
+          "name": "Maple Sap Flow Plate™",
+          "id": "maples-of-north-america#maple-sap-flow-plate",
+          "type": "Naturepedia Tree Physiology Plate™"
+        },
+        {
+          "name": "Maple Autumn Color Plate™",
+          "id": "maples-of-north-america#maple-autumn-color-plate",
+          "type": "Naturepedia Seasonal Ecology Plate™"
+        },
+        {
+          "name": "Maple Wildlife Relationships Plate™",
+          "id": "maples-of-north-america#maple-wildlife-relationships-plate",
+          "type": "Naturepedia Ecology Relationships Plate™"
+        },
+        {
+          "name": "Maple Forest Community Plate™",
+          "id": "maples-of-north-america#maple-forest-community-plate",
+          "type": "Naturepedia Forest Community Plate™"
+        },
+        {
+          "name": "Maple Seed & Samara Plate™",
+          "id": "maples-of-north-america#maple-seed-samara-plate",
+          "type": "Naturepedia Seed Identification & Life Cycle Plate™"
+        },
+        {
+          "name": "Maple Carbon Storage Plate™",
+          "id": "maples-of-north-america#maple-carbon-storage-plate",
+          "type": "Naturepedia Climate & Carbon Plate™"
+        },
+        {
+          "name": "Maple Forest Artist Rendition Plate™",
+          "id": "maples-of-north-america#maple-forest-artist-rendition-plate",
+          "type": "Naturepedia Artist Rendition Plate™"
+        },
+        {
+          "name": "Maple Sap Flow Artist Rendition Plate™",
+          "id": "maples-of-north-america#maple-sap-flow-artist-rendition-plate",
+          "type": "Naturepedia Artist Rendition Plate™"
+        },
+        {
+          "name": "Autumn Maple Canopy Artist Rendition Plate™",
+          "id": "maples-of-north-america#autumn-maple-canopy-artist-rendition-plate",
+          "type": "Naturepedia Artist Rendition Plate™"
+        }
+      ]
     },
-    {
-      "name": "Oak Leaf & Acorn Plate™",
-      "id": "oaks-of-north-america#oak-leaf-and-acorn-plate",
-      "type": "Naturepedia Tree Identification Plate™"
-    },
-    {
-      "name": "White Oak Plate™",
-      "id": "oaks-of-north-america#white-oak-plate",
-      "type": "Naturepedia Species Plate™"
-    },
-    {
-      "name": "Red Oak Plate™",
-      "id": "oaks-of-north-america#red-oak-plate",
-      "type": "Naturepedia Species Plate™"
-    },
-    {
-      "name": "Bur Oak Plate™",
-      "id": "oaks-of-north-america#bur-oak-plate",
-      "type": "Naturepedia Species Plate™"
-    },
-    {
-      "name": "Live Oak Plate™",
-      "id": "oaks-of-north-america#live-oak-plate",
-      "type": "Naturepedia Species Plate™"
-    },
-    {
-      "name": "Oak Wildlife Relationships Plate™",
-      "id": "oaks-of-north-america#oak-wildlife-relationships-plate",
-      "type": "Naturepedia Wildlife Relationships Plate™"
-    },
-    {
-      "name": "Oak Keystone Species Plate™",
-      "id": "oaks-of-north-america#oak-keystone-species-plate",
-      "type": "Naturepedia Ecological Intelligence Plate™"
-    },
-    {
-      "name": "Oak Pollinator & Insect Plate™",
-      "id": "oaks-of-north-america#oak-pollinator-and-insect-plate",
-      "type": "Naturepedia Pollinator & Insect Plate™"
-    },
-    {
-      "name": "Oak Forest Community Plate™",
-      "id": "oaks-of-north-america#oak-forest-community-plate",
-      "type": "Naturepedia Forest Community Plate™"
-    },
-    {
-      "name": "Oak Carbon Storage Plate™",
-      "id": "oaks-of-north-america#oak-carbon-storage-plate",
-      "type": "Naturepedia Climate & Carbon Plate™"
-    },
-    {
-      "name": "Oak Forest Artist Rendition Plate™",
-      "id": "oaks-of-north-america#oak-forest-artist-rendition-plate",
-      "type": "Naturepedia Artist Rendition Plate™"
-    },
-    {
-      "name": "Acorn Ecology Artist Rendition Plate™",
-      "id": "oaks-of-north-america#acorn-ecology-artist-rendition-plate",
-      "type": "Naturepedia Artist Rendition Plate™"
-    }
-  ]
-},
-    {
-  "name": "Maples of North America Plates",
-  "slug": "maples-of-north-america",
-  "url": "https://www.robbiegeorgephotography.com/maples-of-north-america",
-  "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/maples-of-north-america",
-  "plates": [
-    {
-      "name": "Maple Systems Plate™",
-      "id": "maples-of-north-america#maple-systems-plate",
-      "type": "Naturepedia Tree Family Plate™"
-    },
-    {
-      "name": "Maple Identification Plate™",
-      "id": "maples-of-north-america#maple-identification-plate",
-      "type": "Naturepedia Tree Identification Plate™"
-    },
-    {
-      "name": "Maple Leaf Plate™",
-      "id": "maples-of-north-america#maple-leaf-plate",
-      "type": "Naturepedia Leaf Identification Plate™"
-    },
-    {
-      "name": "Sugar Maple Plate™",
-      "id": "maples-of-north-america#sugar-maple-plate",
-      "type": "Naturepedia Tree Species Plate™"
-    },
-    {
-      "name": "Red Maple Plate™",
-      "id": "maples-of-north-america#red-maple-plate",
-      "type": "Naturepedia Tree Species Plate™"
-    },
-    {
-      "name": "Silver Maple Plate™",
-      "id": "maples-of-north-america#silver-maple-plate",
-      "type": "Naturepedia Tree Species Plate™"
-    },
-    {
-      "name": "Bigleaf Maple Plate™",
-      "id": "maples-of-north-america#bigleaf-maple-plate",
-      "type": "Naturepedia Tree Species Plate™"
-    },
-    {
-      "name": "Striped Maple Plate™",
-      "id": "maples-of-north-america#striped-maple-plate",
-      "type": "Naturepedia Tree Species Plate™"
-    },
-    {
-      "name": "Maple Sap Flow Plate™",
-      "id": "maples-of-north-america#maple-sap-flow-plate",
-      "type": "Naturepedia Tree Physiology Plate™"
-    },
-    {
-      "name": "Maple Autumn Color Plate™",
-      "id": "maples-of-north-america#maple-autumn-color-plate",
-      "type": "Naturepedia Seasonal Ecology Plate™"
-    },
-    {
-      "name": "Maple Wildlife Relationships Plate™",
-      "id": "maples-of-north-america#maple-wildlife-relationships-plate",
-      "type": "Naturepedia Ecology Relationships Plate™"
-    },
-    {
-      "name": "Maple Forest Community Plate™",
-      "id": "maples-of-north-america#maple-forest-community-plate",
-      "type": "Naturepedia Forest Community Plate™"
-    },
-    {
-      "name": "Maple Seed & Samara Plate™",
-      "id": "maples-of-north-america#maple-seed-samara-plate",
-      "type": "Naturepedia Seed Identification & Life Cycle Plate™"
-    },
-    {
-      "name": "Maple Carbon Storage Plate™",
-      "id": "maples-of-north-america#maple-carbon-storage-plate",
-      "type": "Naturepedia Climate & Carbon Plate™"
-    },
-    {
-      "name": "Maple Forest Artist Rendition Plate™",
-      "id": "maples-of-north-america#maple-forest-artist-rendition-plate",
-      "type": "Naturepedia Artist Rendition Plate™"
-    },
-    {
-      "name": "Maple Sap Flow Artist Rendition Plate™",
-      "id": "maples-of-north-america#maple-sap-flow-artist-rendition-plate",
-      "type": "Naturepedia Artist Rendition Plate™"
-    },
-    {
-      "name": "Autumn Maple Canopy Artist Rendition Plate™",
-      "id": "maples-of-north-america#autumn-maple-canopy-artist-rendition-plate",
-      "type": "Naturepedia Artist Rendition Plate™"
-    }
-  ]
-},
-    {
+        {
       "name": "Aspens of North America Plates",
       "slug": "aspens-of-north-america",
       "url": "https://www.robbiegeorgephotography.com/aspens-of-north-america",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/aspens-of-north-america",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/aspens-of-north-america",
       "plates": [
         {
           "name": "Aspen Systems Plate™",
@@ -1101,11 +1101,11 @@
         }
       ]
     },
-    {
+        {
       "name": "Pines of North America Plates",
       "slug": "pines-of-north-america",
       "url": "https://www.robbiegeorgephotography.com/pines-of-north-america",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/pines-of-north-america",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/pines-of-north-america",
       "plates": [
         {
           "name": "Pine Systems Plate™",
@@ -1194,11 +1194,11 @@
         }
       ]
     },
-    {
+        {
       "name": "Spruces of North America Plates",
       "slug": "spruces-of-north-america",
       "url": "https://www.robbiegeorgephotography.com/spruces-of-north-america",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/spruces-of-north-america",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/spruces-of-north-america",
       "plates": [
         {
           "name": "Spruce Systems Plate™",
@@ -1272,11 +1272,11 @@
         }
       ]
     },
-    {
+        {
       "name": "Firs of North America Plates",
       "slug": "firs-of-north-america",
       "url": "https://www.robbiegeorgephotography.com/firs-of-north-america",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/firs-of-north-america",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/firs-of-north-america",
       "plates": [
         {
           "name": "Fir Systems Plate™",
@@ -1360,11 +1360,11 @@
         }
       ]
     },
-    {
+        {
       "name": "Hemlocks of North America Plates",
       "slug": "hemlocks-of-north-america",
       "url": "https://www.robbiegeorgephotography.com/hemlocks-of-north-america",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/hemlocks-of-north-america",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/hemlocks-of-north-america",
       "plates": [
         {
           "name": "Hemlock Systems Plate™",
@@ -1438,11 +1438,11 @@
         }
       ]
     },
-    {
+        {
       "name": "Cedars of North America Plates",
       "slug": "cedars-of-north-america",
       "url": "https://www.robbiegeorgephotography.com/cedars-of-north-america",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/cedars-of-north-america",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/cedars-of-north-america",
       "plates": [
         {
           "name": "Cedar Systems Plate™",
@@ -1516,11 +1516,11 @@
         }
       ]
     },
-    {
+        {
       "name": "Cypress Trees of North America Plates",
       "slug": "cypress-trees-of-north-america",
       "url": "https://www.robbiegeorgephotography.com/cypress-trees-of-north-america",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/cypress-trees-of-north-america",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/cypress-trees-of-north-america",
       "plates": [
         {
           "name": "Cypress Systems Plate™",
@@ -1604,11 +1604,11 @@
         }
       ]
     },
-    {
+        {
       "name": "Willows of North America Plates",
       "slug": "willows-of-north-america",
       "url": "https://www.robbiegeorgephotography.com/willows-of-north-america",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/willows-of-north-america",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/willows-of-north-america",
       "plates": [
         {
           "name": "Willow Systems Plate™",
@@ -1682,11 +1682,11 @@
         }
       ]
     },
-    {
+        {
       "name": "Cottonwoods of North America Plates",
       "slug": "cottonwoods-of-north-america",
       "url": "https://www.robbiegeorgephotography.com/cottonwoods-of-north-america",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/cottonwoods-of-north-america",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/cottonwoods-of-north-america",
       "plates": [
         {
           "name": "Cottonwood Systems Plate™",
@@ -1760,11 +1760,11 @@
         }
       ]
     },
-    {
+        {
       "name": "Hickories of North America Plates",
       "slug": "hickories-of-north-america",
       "url": "https://www.robbiegeorgephotography.com/hickories-of-north-america",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/hickories-of-north-america",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/hickories-of-north-america",
       "plates": [
         {
           "name": "Hickory Systems Plate™",
@@ -1843,11 +1843,11 @@
         }
       ]
     },
-    {
+        {
       "name": "Yellowstone Thermal Features Plates",
       "slug": "yellowstone-thermal-features",
       "url": "https://www.robbiegeorgephotography.com/yellowstone-thermal-features",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/yellowstone-thermal-features",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/yellowstone-thermal-features",
       "plates": [
         {
           "name": "Yellowstone Thermal Systems Plate™",
@@ -1926,11 +1926,11 @@
         }
       ]
     },
-    {
+        {
       "name": "Geothermal Ecosystems Plates",
       "slug": "geothermal-ecosystems",
       "url": "https://www.robbiegeorgephotography.com/geothermal-ecosystems",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/geothermal-ecosystems",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/geothermal-ecosystems",
       "plates": [
         {
           "name": "Geothermal Ecosystems Plate™",
@@ -1999,12 +1999,12 @@
         }
       ]
     },
-    {
-  "name": "Hydrothermal Ecosystems Plates",
-  "slug": "hydrothermal-ecosystems",
-  "url": "https://www.robbiegeorgephotography.com/hydrothermal-ecosystems",
-  "x402Registry": "https://www.robbiegeorgephotography.com/v1/registries/hydrothermal-ecosystems",
-  "plates": [
+        {
+      "name": "Hydrothermal Ecosystems Plates",
+      "slug": "hydrothermal-ecosystems",
+      "url": "https://www.robbiegeorgephotography.com/hydrothermal-ecosystems",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/registries/hydrothermal-ecosystems",
+      "plates": [
     {
       "name": "Hydrothermal Ecosystems Plate™",
       "id": "hydrothermal-ecosystems#hydrothermal-ecosystems-plate",
@@ -2057,11 +2057,11 @@
     }
   ]
 },
-    {
+        {
       "name": "Microbial Life Systems Plates",
       "slug": "microbial-life-systems",
       "url": "https://www.robbiegeorgephotography.com/microbial-life-systems",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/microbial-life-systems",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/microbial-life-systems",
       "plates": [
         {
           "name": "Microbial Life Systems Plate™",
@@ -2145,11 +2145,11 @@
         }
       ]
     },
-    {
+        {
       "name": "Volcanic Landscapes Plates",
       "slug": "volcanic-landscapes",
       "url": "https://www.robbiegeorgephotography.com/volcanic-landscapes",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/volcanic-landscapes",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/volcanic-landscapes",
       "plates": [
         {
           "name": "Volcanic Landscapes Plate™",
@@ -2238,11 +2238,11 @@
         }
       ]
     },
-    {
+        {
       "name": "Plant Intelligence Plates",
       "slug": "plant-intelligence",
       "url": "https://www.robbiegeorgephotography.com/naturepedia-plant-intelligence",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/plant-intelligence",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/plant-intelligence",
       "plates": [
         {
           "name": "Plant Intelligence Plate™",
@@ -2296,11 +2296,11 @@
         }
       ]
     },
-        {
+            {
       "name": "Plant Communication Plates",
       "slug": "plant-communication",
       "url": "https://www.robbiegeorgephotography.com/plant-communication",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/plant-communication",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/plant-communication",
       "plates": [
         {
           "name": "Plant Communication Plate™",
@@ -2354,12 +2354,12 @@
         }
       ]
     },
-    {
-  "name": "Mycorrhizal Networks Plates",
-  "slug": "mycorrhizal-networks",
-  "url": "https://www.robbiegeorgephotography.com/mycorrhizal-networks",
-  "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/mycorrhizal-networks",
-  "plates": [
+        {
+      "name": "Mycorrhizal Networks Plates",
+      "slug": "mycorrhizal-networks",
+      "url": "https://www.robbiegeorgephotography.com/mycorrhizal-networks",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/mycorrhizal-networks",
+      "plates": [
     {
       "name": "Mycorrhizal Networks Plate™",
       "id": "mycorrhizal-networks#mycorrhizal-networks-plate",
@@ -2412,12 +2412,12 @@
     }
   ]
 },
-    {
-  "name": "Electrical Ecology Plates",
-  "slug": "electrical-ecology",
-  "url": "https://www.robbiegeorgephotography.com/electrical-ecology",
-  "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/electrical-ecology",
-  "plates": [
+        {
+      "name": "Electrical Ecology Plates",
+      "slug": "electrical-ecology",
+      "url": "https://www.robbiegeorgephotography.com/electrical-ecology",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/electrical-ecology",
+      "plates": [
     {
       "name": "Electrical Ecology Plate™",
       "id": "electrical-ecology#electrical-ecology-plate",
@@ -2470,11 +2470,11 @@
     }
   ]
 },
-        {
+            {
       "name": "Geometry of Nature Plates",
       "slug": "geometry-of-nature",
       "url": "https://www.robbiegeorgephotography.com/geometry-of-nature",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/geometry-of-nature",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/geometry-of-nature",
       "plates": [
         {
           "name": "Geometry of Nature Plate™",
@@ -2528,11 +2528,11 @@
         }
       ]
     },
-    {
+        {
       "name": "E8 Lattice Plates",
       "slug": "e8-lattice",
       "url": "https://www.robbiegeorgephotography.com/e8-lattice",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/e8-lattice",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/e8-lattice",
       "plates": [
         {
           "name": "E8 Lattice Plate™",
@@ -2586,12 +2586,12 @@
         }
       ]
     },
-    {
-  "name": "Fractals Plates",
-  "slug": "fractals",
-  "url": "https://www.robbiegeorgephotography.com/fractals",
-  "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/fractals",
-  "plates": [
+        {
+      "name": "Fractals Plates",
+      "slug": "fractals",
+      "url": "https://www.robbiegeorgephotography.com/fractals",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/fractals",
+      "plates": [
     {
       "name": "Fractals Plate™",
       "id": "fractals#fractals-plate",
@@ -2644,12 +2644,12 @@
     }
   ]
 },
-    {
-  "name": "Fibonacci Plates",
-  "slug": "fibonacci",
-  "url": "https://www.robbiegeorgephotography.com/fibonacci",
-  "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/fibonacci",
-  "plates": [
+        {
+      "name": "Fibonacci Plates",
+      "slug": "fibonacci",
+      "url": "https://www.robbiegeorgephotography.com/fibonacci",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/fibonacci",
+      "plates": [
     {
       "name": "Fibonacci Plate™",
       "id": "fibonacci#fibonacci-plate",
@@ -2702,11 +2702,11 @@
     }
   ]
 },
-    {
+        {
       "name": "Water Systems Plates",
       "slug": "water-systems",
       "url": "https://www.robbiegeorgephotography.com/water-systems",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/water-systems",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/water-systems",
       "plates": [
         {
           "name": "Water Systems Plate™",
@@ -2719,7 +2719,7 @@
   "name": "Ocean Systems Plates",
   "slug": "ocean-systems",
   "url": "https://www.robbiegeorgephotography.com/ocean-systems",
-  "x402Registry": "https://www.robbiegeorgephotography.com/v1/registries/ocean-systems",
+  "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/registries/ocean-systems",
   "plates": [
     {
       "name": "Ocean Systems Plate™",
@@ -2777,7 +2777,7 @@
   "name": "Geology Plates",
   "slug": "geology",
   "url": "https://www.robbiegeorgephotography.com/geology",
-  "x402Registry": "https://www.robbiegeorgephotography.com/v1/registries/geology",
+  "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/registries/geology",
   "plates": [
     {
       "name": "Geology Plate™",
@@ -2831,11 +2831,11 @@
     }
   ]
 },
-    {
+        {
       "name": "River Systems Plates",
       "slug": "river-systems",
       "url": "https://www.robbiegeorgephotography.com/river-systems",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/river-systems",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/river-systems",
       "plates": [
         {
           "name": "River Systems Plate™",
@@ -2848,7 +2848,7 @@
   "name": "Plant Electrophysiology Plates",
   "slug": "plant-electrophysiology",
   "url": "https://www.robbiegeorgephotography.com/plant-electrophysiology",
-  "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/plant-electrophysiology",
+  "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/plant-electrophysiology",
   "plates": [
     {
       "name": "Plant Electrophysiology Plate™",
@@ -2902,11 +2902,11 @@
     }
   ]
 },
-    {
+        {
       "name": "Wetland Ecosystems Plates",
       "slug": "wetland-ecosystems",
       "url": "https://www.robbiegeorgephotography.com/wetland-ecosystems",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/wetland-ecosystems",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/wetland-ecosystems",
       "plates": [
         {
           "name": "Wetland Ecosystem Plate™",
@@ -2915,11 +2915,11 @@
         }
       ]
     },
-    {
+        {
       "name": "Forest Ecosystems Plates",
       "slug": "forest-ecosystems",
       "url": "https://www.robbiegeorgephotography.com/forest-ecosystems",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/forest-ecosystems",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/forest-ecosystems",
       "plates": [
         {
           "name": "Forest Ecosystems Plate™",
@@ -2928,11 +2928,11 @@
         }
       ]
     },
-    {
+        {
       "name": "Grassland Ecosystems Plates",
       "slug": "grassland-ecosystems",
       "url": "https://www.robbiegeorgephotography.com/grassland-ecosystems",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/grassland-ecosystems",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/grassland-ecosystems",
       "plates": [
         {
           "name": "Grassland Ecosystems Plate™",
@@ -2941,11 +2941,11 @@
         }
       ]
     },
-    {
+        {
       "name": "Mountain & Alpine Ecosystems Plates",
       "slug": "mountain-alpine-ecosystems",
       "url": "https://www.robbiegeorgephotography.com/mountain-alpine-ecosystems",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/mountain-alpine-ecosystems",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/mountain-alpine-ecosystems",
       "plates": [
         {
           "name": "Mountain & Alpine Ecosystems Plate™",
@@ -2954,11 +2954,11 @@
         }
       ]
     },
-    {
+        {
       "name": "Floodplains Plates",
       "slug": "floodplains",
       "url": "https://www.robbiegeorgephotography.com/floodplains",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/floodplains",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/floodplains",
       "plates": [
         {
           "name": "Floodplains Ecosystems Plate™",
@@ -2967,11 +2967,11 @@
         }
       ]
     },
-    {
+        {
       "name": "Groundwater Systems Plates",
       "slug": "groundwater-systems",
       "url": "https://www.robbiegeorgephotography.com/groundwater-systems",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/groundwater-systems",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/groundwater-systems",
       "plates": [
         {
           "name": "Groundwater Systems Plate™",
@@ -2980,11 +2980,11 @@
         }
       ]
     },
-    {
+        {
       "name": "Estuaries & Coastal Systems Plates",
       "slug": "estuaries-coastal-systems",
       "url": "https://www.robbiegeorgephotography.com/estuaries-coastal-systems",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/estuaries-coastal-systems",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/estuaries-coastal-systems",
       "plates": [
         {
           "name": "Estuaries & Coastal Systems Plate™",
@@ -2993,11 +2993,11 @@
         }
       ]
     },
-    {
+        {
       "name": "Coastal & Estuary Wildlife Systems Plates",
       "slug": "coastal-island-ecosystems",
       "url": "https://www.robbiegeorgephotography.com/coastal-island-ecosystems",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/coastal-island-ecosystems",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/coastal-island-ecosystems",
       "plates": [
         {
           "name": "Coastal & Estuary Wildlife Systems Plate™",
@@ -3006,11 +3006,11 @@
         }
       ]
     },
-    {
+        {
       "name": "Arctic, Tundra & Boreal Ecosystems Plates",
       "slug": "tundra-boreal-ecosystems",
       "url": "https://www.robbiegeorgephotography.com/tundra-boreal-ecosystems",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/tundra-boreal-ecosystems",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/tundra-boreal-ecosystems",
       "plates": [
         {
           "name": "Arctic, Tundra & Boreal Ecosystems Plate™",
@@ -3019,11 +3019,11 @@
         }
       ]
     },
-    {
+        {
       "name": "Hydrogen, Water & Soil Systems Plates",
       "slug": "hydrogen-water-soil-systems",
       "url": "https://www.robbiegeorgephotography.com/hydrogen-water-soil-systems",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/hydrogen-water-soil-systems",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/hydrogen-water-soil-systems",
       "plates": [
         {
           "name": "Hydrogen, Water & Soil Systems Plate™",
@@ -3032,11 +3032,11 @@
         }
       ]
     },
-    {
+        {
       "name": "Quantum & Elemental Intelligence Plates",
       "slug": "naturepedia-quantum-elemental-intelligence",
       "url": "https://www.robbiegeorgephotography.com/naturepedia-quantum-elemental-intelligence",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/naturepedia-quantum-elemental-intelligence",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/naturepedia-quantum-elemental-intelligence",
       "plates": [
         {
           "name": "Quantum & Elemental Intelligence Plate™",
@@ -3045,11 +3045,11 @@
         }
       ]
     },
-    {
+        {
       "name": "Field Location Plates",
       "slug": "field-locations",
       "url": "https://www.robbiegeorgephotography.com/field-locations",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/field-locations",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/field-locations",
       "plates": [
         {
           "name": "Field Locations Plate™",
@@ -3108,11 +3108,11 @@
         }
       ]
     },
-    {
+        {
       "name": "Wildlife Species Plates",
       "slug": "wildlife-species",
       "url": "https://www.robbiegeorgephotography.com/wildlife",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/wildlife-species",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/wildlife-species",
       "plates": [
         {
           "name": "Wildlife Species Plate™",
@@ -3281,11 +3281,11 @@
         }
       ]
     },
-    {
+        {
       "name": "Track Plates",
       "slug": "north-american-animal-tracks",
       "url": "https://www.robbiegeorgephotography.com/north-american-animal-tracks",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/north-american-animal-tracks",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/north-american-animal-tracks",
       "plates": [
         {
           "name": "North American Animal Tracks Plate™",
@@ -3364,11 +3364,11 @@
         }
       ]
     },
-    {
+        {
       "name": "Photography Guide Plates",
       "slug": "photography-guides",
       "url": "https://www.robbiegeorgephotography.com",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/photography-guides",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/photography-guides",
       "plates": [
         {
           "name": "Grand Teton Photography Guide Plate™",
@@ -3412,44 +3412,24 @@
         }
       ]
     },
+        {
+  "name": "Pollinator Systems Plates",
+  "slug": "pollinator-systems",
+  "url": "https://www.robbiegeorgephotography.com/floral-resource-networks",
+  "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/pollinator-systems",
+  "plates": [
     {
-      "name": "Pollinator Systems Plates",
-      "slug": "pollinator-systems",
-      "url": "https://www.robbiegeorgephotography.com/floral-resource-networks",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/pollinator-systems",
-      "plates": [
+      "name": "Floral Resource Networks™ System Plate™",
+      "id": "floral-resource-networks#floral-resource-networks-system-plate",
+      "type": "Naturepedia Ecology System Plate™"
+    }
+  ]
+},
         {
-          "name": "Floral Resource Networks™ System Plate™",
-          "id": "floral-resource-networks#floral-resource-networks-system-plate",
-          "type": "Naturepedia Ecology System Plate™"
-        },
-        {
-          "name": "Bees of North America System Plate™",
-          "id": "bees-of-north-america#bees-of-north-america-system-plate",
-          "type": "Naturepedia Species System Plate™"
-        },
-        {
-          "name": "Butterflies of North America System Plate™",
-          "id": "butterflies-of-north-america#butterflies-of-north-america-system-plate",
-          "type": "Naturepedia Species System Plate™"
-        },
-        {
-          "name": "Moths of North America System Plate™",
-          "id": "naturepedia-moths#moths-of-north-america-system-plate",
-          "type": "Naturepedia Species System Plate™"
-        },
-        {
-          "name": "Hummingbirds of North America System Plate™",
-          "id": "hummingbirds-of-north-america#hummingbirds-of-north-america-system-plate",
-          "type": "Naturepedia Species System Plate™"
-        }
-      ]
-    },
-    {
       "name": "Bees of North America Plates",
       "slug": "bees-of-north-america",
       "url": "https://www.robbiegeorgephotography.com/bees-of-north-america",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/bees-of-north-america",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/bees-of-north-america",
       "plates": [
         {
           "name": "Bees of North America System Plate™",
@@ -3548,11 +3528,11 @@
         }
       ]
     },
-    {
+        {
       "name": "Butterflies of North America Plates",
       "slug": "butterflies-of-north-america",
       "url": "https://www.robbiegeorgephotography.com/butterflies-of-north-america",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/butterflies-of-north-america",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/butterflies-of-north-america",
       "plates": [
         {
           "name": "Butterflies of North America System Plate™",
@@ -3646,11 +3626,11 @@
         }
       ]
     },
-    {
+        {
       "name": "Moths of North America Plates",
       "slug": "naturepedia-moths",
       "url": "https://www.robbiegeorgephotography.com/naturepedia-moths",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/naturepedia-moths",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/naturepedia-moths",
       "plates": [
         {
           "name": "Moths of North America System Plate™",
@@ -3734,11 +3714,11 @@
         }
       ]
     },
-    {
+        {
       "name": "Hummingbirds of North America Plates",
       "slug": "hummingbirds-of-north-america",
       "url": "https://www.robbiegeorgephotography.com/hummingbirds-of-north-america",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/hummingbirds-of-north-america",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/hummingbirds-of-north-america",
       "plates": [
         {
           "name": "Hummingbirds of North America System Plate™",
@@ -3822,11 +3802,11 @@
         }
       ]
     },
-    {
+        {
       "name": "Trees of North America Plates",
       "slug": "trees-of-north-america",
       "url": "https://www.robbiegeorgephotography.com/trees-of-north-america",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/trees-of-north-america",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/trees-of-north-america",
       "plates": [
         {
           "name": "Tree Systems Plate™",
@@ -3915,11 +3895,11 @@
         }
       ]
     },
-    {
+        {
       "name": "Ecological Restoration & Habitat Recovery Plates",
       "slug": "ecological-restoration-habitat-recovery",
       "url": "https://www.robbiegeorgephotography.com/ecological-restoration-habitat-recovery",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/ecological-restoration-habitat-recovery",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/ecological-restoration-habitat-recovery",
       "plates": [
         {
           "name": "Ecological Restoration Plate™",
@@ -3973,11 +3953,11 @@
         }
       ]
     },
-    {
+        {
       "name": "Plant Communities / Native Habitat Systems Plates",
       "slug": "plant-communities-native-habitat-systems",
       "url": "https://www.robbiegeorgephotography.com/plant-communities-native-habitat-systems",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/plant-communities-native-habitat-systems",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/plant-communities-native-habitat-systems",
       "plates": [
         {
           "name": "Plant Community System Plate™",
@@ -4056,11 +4036,11 @@
         }
       ]
     },
-    {
+        {
       "name": "Biodiversity & Ecosystem Balance Plates",
       "slug": "biodiversity-ecosystem-balance",
       "url": "https://www.robbiegeorgephotography.com/biodiversity-ecosystem-balance",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/biodiversity-ecosystem-balance",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/biodiversity-ecosystem-balance",
       "plates": [
         {
           "name": "Biodiversity & Ecosystem Balance Plate™",
@@ -4084,11 +4064,11 @@
         }
       ]
     },
-    {
+        {
       "name": "Wildlife Habitats & Ecosystem Zones Plates",
       "slug": "wildlife-habitats-ecosystem-zones-north-america",
       "url": "https://www.robbiegeorgephotography.com/wildlife-habitats-ecosystem-zones-north-america",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/wildlife-habitats-ecosystem-zones-north-america",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/wildlife-habitats-ecosystem-zones-north-america",
       "plates": [
         {
           "name": "Wildlife Habitats & Ecosystem Zones Plate™",
@@ -4112,11 +4092,11 @@
         }
       ]
     },
-    {
+        {
       "name": "Robbie's Razor™ Framework Licensing Plates",
       "slug": "robbies-razor-framework-licensing",
       "url": "https://www.robbiegeorgephotography.com/robbies-razor-framework-licensing",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/robbies-razor-framework-licensing",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/robbies-razor-framework-licensing",
       "plates": [
         {
           "name": "Robbie's Razor™ Systems Plate™",
@@ -4160,11 +4140,11 @@
         }
       ]
     },
-    {
+        {
       "name": "Naturepedia Master System Plates",
       "slug": "naturepedia",
       "url": "https://www.robbiegeorgephotography.com/naturepedia",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/naturepedia",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/naturepedia",
       "plates": [
         {
           "name": "Naturepedia Master System Plate™",
@@ -4178,11 +4158,11 @@
         }
       ]
     },
-    {
+        {
       "name": "Hydrogen Plates",
       "slug": "naturepedia-hydrogen",
       "url": "https://www.robbiegeorgephotography.com/naturepedia-hydrogen",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/naturepedia-hydrogen",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/naturepedia-hydrogen",
       "plates": [
         {
           "name": "Hydrogen Plate™",
@@ -4191,11 +4171,11 @@
         }
       ]
     },
-    {
+        {
       "name": "Photon Plates",
       "slug": "naturepedia-photons",
       "url": "https://www.robbiegeorgephotography.com/naturepedia-photons",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/naturepedia-photons",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/naturepedia-photons",
       "plates": [
         {
           "name": "Photon Plate™",
@@ -4204,11 +4184,11 @@
         }
       ]
     },
-    {
+        {
       "name": "Resonance Plates",
       "slug": "naturepedia-resonance",
       "url": "https://www.robbiegeorgephotography.com/naturepedia-resonance",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/naturepedia-resonance",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/naturepedia-resonance",
       "plates": [
         {
           "name": "Resonance Plate™",
@@ -4221,7 +4201,7 @@
       "name": "Vibration Plates",
       "slug": "naturepedia-vibration",
       "url": "https://www.robbiegeorgephotography.com/naturepedia-vibration",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/naturepedia-vibration",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/naturepedia-vibration",
       "plates": [
         {
           "name": "Vibration Plate™",
@@ -4234,7 +4214,7 @@
       "name": "Quantum Fields Plates",
       "slug": "naturepedia-quantum-fields",
       "url": "https://www.robbiegeorgephotography.com/naturepedia-quantum-fields",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/naturepedia-quantum-fields",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/naturepedia-quantum-fields",
       "plates": [
         {
           "name": "Quantum Fields Plate™",
@@ -4247,7 +4227,7 @@
       "name": "Magnetism & Polarity Plates",
       "slug": "naturepedia-magnetism-polarity",
       "url": "https://www.robbiegeorgephotography.com/naturepedia-magnetism-polarity",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/naturepedia-magnetism-polarity",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/naturepedia-magnetism-polarity",
       "plates": [
         {
           "name": "Magnetism & Polarity Plate™",
@@ -4260,7 +4240,7 @@
       "name": "Plasma Plates",
       "slug": "naturepedia-plasma",
       "url": "https://www.robbiegeorgephotography.com/naturepedia-plasma",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/naturepedia-plasma",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/naturepedia-plasma",
       "plates": [
         {
           "name": "Plasma Plate™",
@@ -4273,7 +4253,7 @@
       "name": "Gravitons Plates",
       "slug": "naturepedia-gravitons",
       "url": "https://www.robbiegeorgephotography.com/naturepedia-gravitons",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/naturepedia-gravitons",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/naturepedia-gravitons",
       "plates": [
         {
           "name": "Gravitons Plate™",
@@ -4286,7 +4266,7 @@
       "name": "Wildlife Systems & Ecology Plates",
       "slug": "wildlife-systems-ecology",
       "url": "https://www.robbiegeorgephotography.com/wildlife-systems-ecology-north-america",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/wildlife-systems-ecology",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/wildlife-systems-ecology",
       "plates": [
         {
           "name": "Wildlife Systems & Ecology Plate™",
@@ -4299,7 +4279,7 @@
       "name": "Wildlife Conservation & Habitat Plates",
       "slug": "wildlife-conservation-habitat",
       "url": "https://www.robbiegeorgephotography.com/wildlife-conservation-habitat",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/wildlife-conservation-habitat",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/wildlife-conservation-habitat",
       "plates": [
         {
           "name": "Wildlife Conservation & Habitat Plate™",
@@ -4312,7 +4292,7 @@
       "name": "Wildlife Migration & Seasonal Patterns Plates",
       "slug": "wildlife-migration-seasonal-patterns-north-america",
       "url": "https://www.robbiegeorgephotography.com/wildlife-migration-seasonal-patterns-north-america",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/wildlife-migration-seasonal-patterns-north-america",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/wildlife-migration-seasonal-patterns-north-america",
       "plates": [
         {
           "name": "Wildlife Migration & Seasonal Patterns Plate™",
@@ -4325,7 +4305,7 @@
       "name": "Wildlife Behavior & Ecology Plates",
       "slug": "wildlife-behavior-ecology-north-america",
       "url": "https://www.robbiegeorgephotography.com/wildlife-behavior-ecology-north-america",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/wildlife-behavior-ecology-north-america",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/wildlife-behavior-ecology-north-america",
       "plates": [
         {
           "name": "Wildlife Behavior & Ecology Plate™",
@@ -4338,7 +4318,7 @@
       "name": "Wildlife Observation & Field Techniques Plates",
       "slug": "wildlife-observation-field-techniques",
       "url": "https://www.robbiegeorgephotography.com/wildlife-observation-field-techniques",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/wildlife-observation-field-techniques",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/wildlife-observation-field-techniques",
       "plates": [
         {
           "name": "Wildlife Observation & Field Techniques Plate™",
@@ -4351,7 +4331,7 @@
       "name": "Wildlife Sign & Tracking Plates",
       "slug": "wildlife-sign-tracking",
       "url": "https://www.robbiegeorgephotography.com/wildlife-sign-tracking-north-america",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/wildlife-sign-tracking",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/wildlife-sign-tracking",
       "plates": [
         {
           "name": "Wildlife Sign & Tracking Plate™",
@@ -4364,7 +4344,7 @@
       "name": "Animal Scat Identification Plates",
       "slug": "animal-scat-identification-guide",
       "url": "https://www.robbiegeorgephotography.com/animal-scat-identification-guide-north-america",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/animal-scat-identification-guide",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/animal-scat-identification-guide",
       "plates": [
         {
           "name": "Animal Scat Identification Plate™",
@@ -4377,7 +4357,7 @@
       "name": "Keystone Species & Trophic Cascades Plates",
       "slug": "keystone-species-trophic-cascades",
       "url": "https://www.robbiegeorgephotography.com/keystone-species-trophic-cascades",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/keystone-species-trophic-cascades",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/keystone-species-trophic-cascades",
       "plates": [
         {
           "name": "Keystone Species & Trophic Cascades Plate™",
@@ -4390,7 +4370,7 @@
       "name": "Food Webs & Ecological Relationships Plates",
       "slug": "food-webs-ecological-relationships",
       "url": "https://www.robbiegeorgephotography.com/food-webs-ecological-relationships-north-america",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/food-webs-ecological-relationships",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/food-webs-ecological-relationships",
       "plates": [
         {
           "name": "Food Webs & Ecological Relationships Plate™",
@@ -4403,7 +4383,7 @@
       "name": "Wildlife Adaptation & Survival Plates",
       "slug": "wildlife-adaptation-survival",
       "url": "https://www.robbiegeorgephotography.com/wildlife-adaptation-survival",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/wildlife-adaptation-survival",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/wildlife-adaptation-survival",
       "plates": [
         {
           "name": "Wildlife Adaptation & Survival Plate™",
@@ -4416,7 +4396,7 @@
       "name": "Birds of Prey Plates",
       "slug": "birds-of-prey",
       "url": "https://www.robbiegeorgephotography.com/birds-of-prey",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/birds-of-prey",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/birds-of-prey",
       "plates": [
         {
           "name": "Birds of Prey Plate™",
@@ -4429,7 +4409,7 @@
       "name": "Waterfowl & Wetland Birds Plates",
       "slug": "waterfowl-wetland-birds",
       "url": "https://www.robbiegeorgephotography.com/waterfowl-wetland-birds",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/waterfowl-wetland-birds",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/waterfowl-wetland-birds",
       "plates": [
         {
           "name": "Waterfowl & Wetland Birds Plate™",
@@ -4442,7 +4422,7 @@
       "name": "Songbirds, Seabirds & Other Birds Plates",
       "slug": "songbirds-seabirds-other-birds",
       "url": "https://www.robbiegeorgephotography.com/songbirds-seabirds-and-other-birds",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/songbirds-seabirds-other-birds",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/songbirds-seabirds-other-birds",
       "plates": [
         {
           "name": "Songbirds, Seabirds & Other Birds Plate™",
@@ -4455,7 +4435,7 @@
       "name": "Mammals of North America Plates",
       "slug": "mammals-of-north-america",
       "url": "https://www.robbiegeorgephotography.com/mammals-of-north-america",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/mammals-of-north-america",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/mammals-of-north-america",
       "plates": [
         {
           "name": "Mammals of North America Plate™",
@@ -4468,7 +4448,7 @@
   "name": "Mycelial Networks — Nature’s Internet Plates",
   "slug": "naturepedia-mycelial-networks",
   "url": "https://www.robbiegeorgephotography.com/naturepedia-mycelial-networks",
-  "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/naturepedia-mycelial-networks",
+  "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/naturepedia-mycelial-networks",
   "plates": [
     {
       "name": "Mycelial Networks — Nature’s Internet Plate™",
@@ -4481,7 +4461,7 @@
   "name": "Naturepedia Carbon Cycle Plates",
   "slug": "naturepedia-carbon-cycle",
   "url": "https://www.robbiegeorgephotography.com/naturepedia-carbon-cycle",
-  "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/naturepedia-carbon-cycle",
+  "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/naturepedia-carbon-cycle",
   "plates": [
     {
       "name": "Carbon Cycle Plate™",
@@ -4494,7 +4474,7 @@
   "name": "Soil Microbiome Plates",
   "slug": "naturepedia-soil-microbiome",
   "url": "https://www.robbiegeorgephotography.com/naturepedia-soil-microbiome",
-  "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/naturepedia-soil-microbiome",
+  "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/naturepedia-soil-microbiome",
   "plates": [
     {
       "name": "Soil Microbiome Plate™",
@@ -4507,7 +4487,7 @@
       "name": "Water Memory Plates",
       "slug": "water-memory",
       "url": "https://www.robbiegeorgephotography.com/water-memory",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/water-memory",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/water-memory",
       "plates": [
         {
           "name": "Water Memory Plate™",
@@ -4520,7 +4500,7 @@
       "name": "Seasonal Wildlife Calendar Plates",
       "slug": "seasonal-wildlife-calendar",
       "url": "https://www.robbiegeorgephotography.com/seasonal-wildlife-calendar",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/seasonal-wildlife-calendar",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/seasonal-wildlife-calendar",
       "plates": [
         {
           "name": "Seasonal Compression Plate™",
@@ -4533,7 +4513,7 @@
   "name": "Acadia Coastal Wildlife System Plates",
   "slug": "acadia-national-park-wildlife-photography-guide",
   "url": "https://www.robbiegeorgephotography.com/acadia-national-park-wildlife-photography-guide",
-  "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/acadia-national-park-wildlife-photography-guide",
+  "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/acadia-national-park-wildlife-photography-guide",
   "plates": [
     {
       "name": "Acadia Coastal Wildlife System Plate™",
@@ -4546,7 +4526,7 @@
   "name": "Grand Teton Wildlife System Plates",
   "slug": "grand-teton-wildlife-photography-guide",
   "url": "https://www.robbiegeorgephotography.com/grand-teton-wildlife-photography-guide",
-  "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/grand-teton-wildlife-photography-guide",
+  "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/grand-teton-wildlife-photography-guide",
   "plates": [
     {
       "name": "Grand Teton Wildlife System Plate™",
@@ -4559,7 +4539,7 @@
   "name": "Yellowstone National Park Wildlife System Plates",
   "slug": "yellowstone-wildlife-photography-guide",
   "url": "https://www.robbiegeorgephotography.com/yellowstone-wildlife-photography-guide",
-  "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/yellowstone-wildlife-photography-guide",
+  "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/yellowstone-wildlife-photography-guide",
   "plates": [
     {
       "name": "Yellowstone National Park Wildlife System Plate™",
@@ -4572,7 +4552,7 @@
   "name": "Bosque del Apache Wildlife System Plates",
   "slug": "bosque-del-apache-wildlife-photography-guide",
   "url": "https://www.robbiegeorgephotography.com/bosque-del-apache-wildlife-photography-guide",
-  "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/bosque-del-apache-wildlife-photography-guide",
+  "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/bosque-del-apache-wildlife-photography-guide",
   "plates": [
     {
       "name": "Bosque del Apache National Wildlife Refuge Wildlife System Plate™",
@@ -4585,7 +4565,7 @@
   "name": "Aransas Wildlife System Plates",
   "slug": "aransas-wildlife-photography-guide",
   "url": "https://www.robbiegeorgephotography.com/aransas-wildlife-photography-guide",
-  "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/aransas-wildlife-photography-guide",
+  "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/aransas-wildlife-photography-guide",
   "plates": [
     {
       "name": "Aransas National Wildlife Refuge Wildlife System Plate™",
@@ -4598,7 +4578,7 @@
   "name": "Machias Seal Island Seabird Wildlife System Plates",
   "slug": "machias-seal-island-seabird-wildlife-system",
   "url": "https://www.robbiegeorgephotography.com/machias-seal-island-seabird-wildlife-system",
-  "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/machias-seal-island-seabird-wildlife-system",
+  "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/machias-seal-island-seabird-wildlife-system",
   "plates": [
     {
       "name": "Machias Seal Island Seabird Wildlife System Plate™",
@@ -4611,7 +4591,7 @@
   "name": "Blackwater Wildlife System Plates",
   "slug": "blackwater-wildlife-photography-guide",
   "url": "https://www.robbiegeorgephotography.com/blackwater-wildlife-photography-guide",
-  "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/blackwater-wildlife-photography-guide",
+  "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/blackwater-wildlife-photography-guide",
   "plates": [
     {
       "name": "Blackwater National Wildlife Refuge Wildlife System Plate™",
@@ -4624,7 +4604,7 @@
   "name": "Chincoteague Barrier Island Wildlife System Plates",
   "slug": "chincoteague-wildlife-system",
   "url": "https://www.robbiegeorgephotography.com/chincoteague-wildlife-system",
-  "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/chincoteague-wildlife-system",
+  "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/chincoteague-wildlife-system",
   "plates": [
     {
       "name": "Chincoteague Barrier Island Wildlife System Plate™",
@@ -4637,7 +4617,7 @@
   "name": "Lake Mattamuskeet Wildlife System Plates",
   "slug": "lake-mattamuskeet-wildlife-system",
   "url": "https://www.robbiegeorgephotography.com/lake-mattamuskeet-wildlife-system",
-  "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/lake-mattamuskeet-wildlife-system",
+  "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/lake-mattamuskeet-wildlife-system",
   "plates": [
     {
       "name": "Lake Mattamuskeet Wildlife System Plate™",
@@ -4650,7 +4630,7 @@
       "name": "Chesapeake Bay Wildlife System Plates",
       "slug": "chesapeake-bay-wildlife-system",
       "url": "https://www.robbiegeorgephotography.com/chesapeake-bay-wildlife-system",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/chesapeake-bay-wildlife-system",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/chesapeake-bay-wildlife-system",
       "plates": [
         {
           "name": "Chesapeake Bay System Plate™",
@@ -4663,7 +4643,7 @@
       "name": "Robbie George Biography Plates",
       "slug": "robbie-george",
       "url": "https://www.robbiegeorgephotography.com/who-is-robbie-george",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/robbie-george",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/robbie-george",
       "plates": [
         {
   "name": "Robbie George Biography Plate™",
@@ -4685,7 +4665,7 @@
       "name": "Ecosystem Feedbacks Plates",
       "slug": "ecosystem-feedbacks",
       "url": "https://www.robbiegeorgephotography.com/ecosystem-feedbacks",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/ecosystem-feedbacks",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/ecosystem-feedbacks",
       "plates": [
         {
           "name": "Ecosystem Feedbacks Plate™",
@@ -4743,7 +4723,7 @@
       "name": "Robbie's Razor Plates",
       "slug": "robbies-razor",
       "url": "https://www.robbiegeorgephotography.com/robbies-razor",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/robbies-razor",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/robbies-razor",
       "plates": [
         {
           "name": "Robbie’s Razor Plate™",
@@ -4756,7 +4736,7 @@
       "name": "Grand Compression Plates",
       "slug": "the-grand-compression",
       "url": "https://www.robbiegeorgephotography.com/the-grand-compression",
-      "x402Registry": "https://www.robbiegeorgephotography.com/v1/plates/the-grand-compression",
+      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/the-grand-compression",
       "plates": [
         {
           "name": "The Grand Compression Cosmology Plate™",
