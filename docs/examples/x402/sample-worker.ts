@@ -4,19 +4,43 @@
  * Reference-only Cloudflare Worker pattern aligned with the Naturepedia™
  * x402 Retrieval Pricing Manifest, version 3.0.0.
  *
- * This file is NOT production code and does not verify or settle payments.
- * Do not deploy it without implementing current facilitator verification,
- * settlement, wallet, replay protection, payload delivery, canonical binding,
- * fidelity validation, and failure-handling requirements.
+ * IMPORTANT
+ * ---------
+ * This file is NOT production code.
  *
- * Authoritative pricing:
+ * It intentionally does NOT implement:
+ * - facilitator payment verification
+ * - settlement
+ * - wallet authorization
+ * - replay protection
+ * - protected payload delivery
+ * - canonical payload hashing
+ * - request-binding hashes
+ * - production telemetry
+ * - production licensing enforcement
+ * - payload fidelity enforcement
+ *
+ * Its purpose is to demonstrate one important production principle:
+ *
+ *   route syntax
+ *   ≠
+ *   resource existence
+ *
+ *   pricing class
+ *   ≠
+ *   resource registration
+ *
+ *   only an explicitly registered + complete + protected resource
+ *   may become eligible for an x402 payment challenge
+ *
+ * Authoritative production pricing:
  * https://www.robbiegeorgephotography.com/.well-known/x402-pricing.json
  *
- * Production implementation:
- * Cloudflare Worker cold-bird-7036
+ * Production Worker:
+ * cold-bird-7036
  *
- * Production validation date:
- * 2026-08-20
+ * Current governing framework authority:
+ * GC-MRD-v2.0
  */
 
 type AccessClass =
@@ -27,35 +51,73 @@ type AccessClass =
   | "subtree"
   | "snapshot";
 
-type RouteStatus = "active" | "reserved";
+type PricingClassStatus =
+  | "active"
+  | "reserved"
+  | "pricing-class-defined";
+
+type ResourceState =
+  | "registered-complete"
+  | "known-incomplete";
 
 type PricingTier = {
   accessClass: AccessClass;
   priceUSDC: string;
   atomicUnits: string;
   currency: "USDC";
-  routeStatus: RouteStatus;
+  classStatus: PricingClassStatus;
+  availabilityMode:
+    | "public"
+    | "explicit-registration-required"
+    | "reserved";
   description: string;
 };
 
-type RouteDefinition = {
-  path: string;
+type ResourceRecord = {
+  id: string;
+  canonicalAuthority: string;
   accessClass: AccessClass;
-  match: "exact" | "prefix";
+  state: ResourceState;
+  paths: string[];
+  schemaVersion?: string;
+  productionChallengeValidation?: {
+    date: string;
+    status: 402;
+    amountAtomicUnits: string;
+    gatewayTier: AccessClass;
+    paymentRequired: true;
+    settlementTestedInThisValidation: boolean;
+    protectedPayloadDeliveryTestedInThisValidation: boolean;
+    result: "PASS";
+  };
 };
 
 const PRICING_MANIFEST =
   "https://www.robbiegeorgephotography.com/.well-known/x402-pricing.json";
 
+const GOVERNING_AUTHORITY = "GC-MRD-v2.0";
+
+const NETWORK = "eip155:8453";
+
+const ASSET = "USDC";
+
+/**
+ * Pricing-class configuration.
+ *
+ * NOTE:
+ * "pricing-class-defined" does NOT mean that every resource that could
+ * theoretically belong to that class exists or is payment-eligible.
+ */
 const PRICING: Record<AccessClass, PricingTier> = {
   discovery: {
     accessClass: "discovery",
     priceUSDC: "0.00",
     atomicUnits: "0",
     currency: "USDC",
-    routeStatus: "active",
+    classStatus: "active",
+    availabilityMode: "public",
     description:
-      "Metadata, endpoint descriptions, previews, health, licensing signals, and validation information."
+      "Public metadata, discovery, previews, health information, licensing signals, and control-plane resources where exposed."
   },
 
   atomic: {
@@ -63,9 +125,10 @@ const PRICING: Record<AccessClass, PricingTier> = {
     priceUSDC: "0.005",
     atomicUnits: "5000",
     currency: "USDC",
-    routeStatus: "active",
+    classStatus: "active",
+    availabilityMode: "explicit-registration-required",
     description:
-      "One narrowly bounded canonical fact, identifier resolution, routing result, or compact canonical answer. Active only for explicitly registered deterministic payloads."
+      "One narrowly bounded canonical fact, identifier resolution, routing result, or compact canonical answer. Only explicitly registered deterministic payloads are payment-eligible."
   },
 
   enriched: {
@@ -73,9 +136,10 @@ const PRICING: Record<AccessClass, PricingTier> = {
     priceUSDC: "0.025",
     atomicUnits: "25000",
     currency: "USDC",
-    routeStatus: "reserved",
+    classStatus: "reserved",
+    availabilityMode: "reserved",
     description:
-      "Multiple relationships, citations, provenance, or modest enrichment. Reserved until governed deterministic payloads are explicitly registered and production validated."
+      "Multiple relationships, citations, provenance, or modest enrichment. The class is reserved and must not issue payment challenges until governed payloads are explicitly registered and production validated."
   },
 
   "single-plate": {
@@ -83,9 +147,10 @@ const PRICING: Record<AccessClass, PricingTier> = {
     priceUSDC: "0.25",
     atomicUnits: "250000",
     currency: "USDC",
-    routeStatus: "active",
+    classStatus: "active",
+    availabilityMode: "explicit-registration-required",
     description:
-      "One complete structured Plate payload with registered relationships, citations, provenance, and governance fields. Payment challenges are issued only for registered and validated Plate payloads."
+      "One complete Structured Plate™ payload. Only explicitly registered, validated, complete Plate payloads are payment-eligible."
   },
 
   subtree: {
@@ -93,9 +158,10 @@ const PRICING: Record<AccessClass, PricingTier> = {
     priceUSDC: "5.00",
     atomicUnits: "5000000",
     currency: "USDC",
-    routeStatus: "active",
+    classStatus: "pricing-class-defined",
+    availabilityMode: "explicit-registration-required",
     description:
-      "One bounded multi-record registry, taxonomy subtree, identity graph, or System Map retrieval."
+      "Pricing class for qualifying bounded multi-record resources such as a taxonomy subtree, Registry, identity graph, or System Map. Individual resource availability is registration-specific."
   },
 
   snapshot: {
@@ -103,116 +169,323 @@ const PRICING: Record<AccessClass, PricingTier> = {
     priceUSDC: "25.00",
     atomicUnits: "25000000",
     currency: "USDC",
-    routeStatus: "active",
+    classStatus: "pricing-class-defined",
+    availabilityMode: "explicit-registration-required",
     description:
-      "One complete registry snapshot, expanded registry, Knowledge Mesh, RRIP payload, or protected state resource."
+      "Pricing class for qualifying explicitly registered large resources such as a full Registry or Knowledge Mesh snapshot. The class does not imply that every possible snapshot resource exists."
   }
 };
 
 /**
- * Production-tested Atomic route.
+ * Explicit protected-resource registry.
  *
- * Public route:
- * /v1/query/atomic/robbie-george-biography-plate
+ * This is the key safety pattern demonstrated by this example.
  *
- * Canonical internal route:
- * /x402/query/atomic/robbie-george-biography-plate
+ * Do NOT derive sellable resources from:
+ * - path prefixes
+ * - taxonomy names
+ * - framework terminology
+ * - pricing tiers
+ * - architectural diagrams
  *
- * Verified production challenge:
- * status 402
- * amount 5000
- * gateway tier atomic
+ * Every protected resource must have an explicit record.
  */
-const ACTIVE_ATOMIC_ROUTES = new Set([
-  "/v1/query/atomic/robbie-george-biography-plate",
-  "/x402/query/atomic/robbie-george-biography-plate"
-]);
-
-/**
- * Recognized Atomic resource without a complete deterministic payload.
- *
- * Production behavior:
- * 409 Conflict
- * no payment challenge
- */
-const KNOWN_INCOMPLETE_ATOMIC_ROUTES = new Set([
-  "/v1/query/atomic/robbies-razor-plate",
-  "/x402/query/atomic/robbies-razor-plate"
-]);
-
-const PROTECTED_ROUTE_EXAMPLES: RouteDefinition[] = [
+const PROTECTED_RESOURCES: ResourceRecord[] = [
   {
-    path: "/v1/query/atomic/robbie-george-biography-plate",
+    id: "robbie-george-biography-atomic-query",
+    canonicalAuthority:
+      "https://www.robbiegeorgephotography.com/who-is-robbie-george",
     accessClass: "atomic",
-    match: "exact"
+    state: "registered-complete",
+    schemaVersion: "naturepedia.atomic-query.v1",
+    paths: [
+      "/v1/query/atomic/robbie-george-biography-plate",
+      "/x402/query/atomic/robbie-george-biography-plate"
+    ],
+    productionChallengeValidation: {
+      date: "2026-08-20",
+      status: 402,
+      amountAtomicUnits: "5000",
+      gatewayTier: "atomic",
+      paymentRequired: true,
+      settlementTestedInThisValidation: false,
+      protectedPayloadDeliveryTestedInThisValidation: false,
+      result: "PASS"
+    }
   },
+
   {
-    path: "/x402/query/atomic/robbie-george-biography-plate",
+    id: "robbies-razor-atomic-query",
+    canonicalAuthority:
+      "https://www.robbiegeorgephotography.com/robbies-razor",
     accessClass: "atomic",
-    match: "exact"
+    state: "known-incomplete",
+    schemaVersion: "naturepedia.atomic-query.v1",
+    paths: [
+      "/v1/query/atomic/robbies-razor-plate",
+      "/x402/query/atomic/robbies-razor-plate"
+    ]
   },
+
   {
-    path: "/v1/plates/item/commercial-data-license-plate",
+    id: "commercial-data-license-plate",
+    canonicalAuthority:
+      "https://www.robbiegeorgephotography.com/commercial-data-license",
     accessClass: "single-plate",
-    match: "exact"
+    state: "registered-complete",
+    paths: [
+      "/v1/plates/item/commercial-data-license-plate"
+    ],
+    productionChallengeValidation: {
+      date: "2026-08-20",
+      status: 402,
+      amountAtomicUnits: "250000",
+      gatewayTier: "single-plate",
+      paymentRequired: true,
+      settlementTestedInThisValidation: false,
+      protectedPayloadDeliveryTestedInThisValidation: false,
+      result: "PASS"
+    }
   },
+
   {
-    path: "/v1/plates/item/commercial-intelligence-pricing-plate",
+    id: "commercial-intelligence-pricing-plate",
+    canonicalAuthority:
+      "https://www.robbiegeorgephotography.com/commercial-data-license",
     accessClass: "single-plate",
-    match: "exact"
+    state: "registered-complete",
+    paths: [
+      "/v1/plates/item/commercial-intelligence-pricing-plate"
+    ],
+    productionChallengeValidation: {
+      date: "2026-08-20",
+      status: 402,
+      amountAtomicUnits: "250000",
+      gatewayTier: "single-plate",
+      paymentRequired: true,
+      settlementTestedInThisValidation: false,
+      protectedPayloadDeliveryTestedInThisValidation: false,
+      result: "PASS"
+    }
   },
+
   {
-    path: "/v1/plates/item/robbie-george-biography-plate",
+    id: "robbie-george-biography-plate",
+    canonicalAuthority:
+      "https://www.robbiegeorgephotography.com/who-is-robbie-george",
     accessClass: "single-plate",
-    match: "exact"
-  },
-  {
-    path: "/x402/knowledge-mesh/",
-    accessClass: "snapshot",
-    match: "prefix"
-  },
-  {
-    path: "/x402/plate-registry-expanded.json",
-    accessClass: "snapshot",
-    match: "exact"
-  },
-  {
-    path: "/x402/rrip-resolve.json",
-    accessClass: "snapshot",
-    match: "exact"
-  },
-  {
-    path: "/x402/state-token.json",
-    accessClass: "snapshot",
-    match: "exact"
-  },
-  {
-    path: "/v1/plates/tree-system-map",
-    accessClass: "subtree",
-    match: "exact"
-  },
-  {
-    path: "/x402/tree-system-map.json",
-    accessClass: "subtree",
-    match: "exact"
+    state: "registered-complete",
+    paths: [
+      "/v1/plates/item/robbie-george-biography-plate"
+    ],
+    productionChallengeValidation: {
+      date: "2026-08-20",
+      status: 402,
+      amountAtomicUnits: "250000",
+      gatewayTier: "single-plate",
+      paymentRequired: true,
+      settlementTestedInThisValidation: false,
+      protectedPayloadDeliveryTestedInThisValidation: false,
+      result: "PASS"
+    }
   }
 ];
 
-function matchesRoute(
-  pathname: string,
-  route: RouteDefinition
-): boolean {
-  if (route.match === "exact") {
-    return pathname === route.path;
-  }
+/**
+ * Public control-plane endpoints.
+ *
+ * These are intentionally modeled separately from protected resources.
+ *
+ * In particular:
+ *
+ * /api/v2/rrip/resolve
+ * and
+ * /api/v2/razor/state-token
+ *
+ * must NOT become $25 products merely because a snapshot pricing class exists.
+ */
+const PUBLIC_CONTROL_PLANE = new Set([
+  "/api/v2/naturepedia/index.md",
+  "/api/v2/plates/registry.md",
+  "/api/v2/rrip/resolve",
+  "/api/v2/razor/state-token"
+]);
 
-  return pathname.startsWith(route.path);
+/**
+ * Reserved route families.
+ *
+ * A published route family and published price do not make a protected
+ * resource active.
+ */
+function isReservedEnrichedPath(pathname: string): boolean {
+  return (
+    pathname.startsWith("/v1/query/enriched/") ||
+    pathname.startsWith("/x402/query/enriched/")
+  );
 }
 
-function isAtomicPath(pathname: string): boolean {
+function isAtomicFamily(pathname: string): boolean {
   return (
     pathname.startsWith("/v1/query/atomic/") ||
     pathname.startsWith("/x402/query/atomic/")
+  );
+}
+
+function isSinglePlateFamily(pathname: string): boolean {
+  return pathname.startsWith("/v1/plates/item/");
+}
+
+function findProtectedResource(
+  pathname: string
+): ResourceRecord | undefined {
+  return PROTECTED_RESOURCES.find((resource) =>
+    resource.paths.includes(pathname)
+  );
+}
+
+function jsonResponse(
+  body: unknown,
+  status: number,
+  extraHeaders: Record<string, string> = {}
+): Response {
+  return new Response(
+    JSON.stringify(body, null, 2),
+    {
+      status,
+      headers: {
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "no-store",
+        "X-Reference-Only": "true",
+        "X-Robbie-Governing-Authority": GOVERNING_AUTHORITY,
+        "X-Robbie-Pricing-Version": "3.0.0",
+        "X-Robbie-Pricing-Manifest": PRICING_MANIFEST,
+        ...extraHeaders
+      }
+    }
+  );
+}
+
+function unknownResourceResponse(
+  pathname: string,
+  accessClass?: AccessClass
+): Response {
+  return jsonResponse(
+    {
+      status: "reference-only",
+      enforcement: false,
+      error: "Protected resource not registered",
+      code: "RESOURCE_NOT_FOUND",
+      route: pathname,
+      accessClass: accessClass ?? null,
+      paymentRequired: false,
+
+      productionRule:
+        "Unknown protected resources return HTTP 404 without a payment challenge.",
+
+      interpretation:
+        "A route template, URL prefix, pricing tier, or architecture label does not establish that a sellable resource exists."
+    },
+    404
+  );
+}
+
+function incompleteResourceResponse(
+  resource: ResourceRecord,
+  pathname: string
+): Response {
+  return jsonResponse(
+    {
+      status: "reference-only",
+      enforcement: false,
+      error: "Protected payload not registered as complete",
+      code: "PAYLOAD_NOT_REGISTERED",
+      route: pathname,
+      resourceId: resource.id,
+      canonicalAuthority: resource.canonicalAuthority,
+      accessClass: resource.accessClass,
+      resourceState: resource.state,
+      paymentRequired: false,
+
+      productionRule:
+        "Known but incomplete protected resources return HTTP 409 without a payment challenge."
+    },
+    409
+  );
+}
+
+function reservedEnrichedResponse(
+  pathname: string
+): Response {
+  return jsonResponse(
+    {
+      status: "reference-only",
+      enforcement: false,
+      error: "Enriched Query class is reserved",
+      code: "ENRICHED_CLASS_RESERVED",
+      route: pathname,
+      accessClass: "enriched",
+      pricing: PRICING.enriched,
+      paymentRequired: false,
+
+      productionRule:
+        "Published Enriched pricing does not activate an Enriched resource. Payment challenges remain disabled until a governed resource is explicitly registered and production validated."
+    },
+    409
+  );
+}
+
+function registeredReferenceResponse(
+  resource: ResourceRecord,
+  pathname: string
+): Response {
+  const tier = PRICING[resource.accessClass];
+
+  /**
+   * 501 is intentional.
+   *
+   * This file does not implement a real x402 challenge, payment verification,
+   * settlement, or protected payload delivery.
+   */
+  return jsonResponse(
+    {
+      status: "reference-only",
+      enforcement: false,
+
+      message:
+        "This sample found an explicitly registered and complete protected resource. The production Worker may proceed to the real x402 challenge flow. This reference file intentionally stops before payment enforcement.",
+
+      route: pathname,
+      resourceId: resource.id,
+      canonicalAuthority: resource.canonicalAuthority,
+      resourceState: resource.state,
+
+      pricingVersion: "3.0.0",
+      pricingManifest: PRICING_MANIFEST,
+      network: NETWORK,
+      asset: ASSET,
+
+      tier,
+
+      schemaVersion:
+        resource.schemaVersion ?? null,
+
+      productionChallengeValidation:
+        resource.productionChallengeValidation ?? null,
+
+      referenceBehavior:
+        "registered-complete resource → production system may become eligible for 402",
+
+      rightsScope:
+        "One endpoint-level retrieval only; no training, embedding, bulk ingestion, redistribution, resale, synchronization, private-dataset construction, derivative-dataset creation, commercial implementation, or framework implementation rights.",
+
+      evidenceBoundary: [
+        "resource registration does not establish empirical validation",
+        "402 challenge does not equal settlement",
+        "settlement does not transfer authorship",
+        "payment does not grant broader commercial or framework rights"
+      ]
+    },
+    501
   );
 }
 
@@ -221,160 +494,98 @@ export default {
     const url = new URL(request.url);
 
     if (request.method !== "GET") {
-      return new Response(
-        JSON.stringify(
-          {
-            error: "method_not_allowed",
-            allowedMethods: ["GET"]
-          },
-          null,
-          2
-        ),
+      return jsonResponse(
         {
-          status: 405,
-          headers: {
-            "content-type": "application/json; charset=utf-8",
-            allow: "GET"
-          }
+          error: "method_not_allowed",
+          allowedMethods: ["GET"]
+        },
+        405,
+        {
+          allow: "GET"
         }
       );
     }
 
     /**
-     * Reference mirror of the production Atomic availability boundary.
+     * Public control plane.
      *
-     * This sample does not issue payment challenges or settle payments.
+     * A real production implementation would return the actual public
+     * resource here.
+     *
+     * This example simply passes the request through.
      */
-
-    if (isAtomicPath(url.pathname)) {
-      if (KNOWN_INCOMPLETE_ATOMIC_ROUTES.has(url.pathname)) {
-        return new Response(
-          JSON.stringify(
-            {
-              status: "reference-only",
-              enforcement: false,
-              error: "Atomic Query payload not available",
-              code: "ATOMIC_PAYLOAD_NOT_REGISTERED",
-              route: url.pathname,
-              accessClass: "atomic",
-              routeStatus: "reserved",
-              paymentRequired: false,
-              productionBehavior:
-                "Known but incomplete Atomic resources return HTTP 409 without a payment challenge."
-            },
-            null,
-            2
-          ),
-          {
-            status: 409,
-            headers: {
-              "content-type": "application/json; charset=utf-8",
-              "cache-control": "no-store"
-            }
-          }
-        );
-      }
-
-      if (!ACTIVE_ATOMIC_ROUTES.has(url.pathname)) {
-        return new Response(
-          JSON.stringify(
-            {
-              status: "reference-only",
-              enforcement: false,
-              error: "Atomic Query resource not found",
-              code: "ATOMIC_RESOURCE_NOT_FOUND",
-              route: url.pathname,
-              accessClass: "atomic",
-              paymentRequired: false,
-              productionBehavior:
-                "Unknown Atomic resources return HTTP 404 without a payment challenge."
-            },
-            null,
-            2
-          ),
-          {
-            status: 404,
-            headers: {
-              "content-type": "application/json; charset=utf-8",
-              "cache-control": "no-store"
-            }
-          }
-        );
-      }
-    }
-
-    const route = PROTECTED_ROUTE_EXAMPLES.find((candidate) =>
-      matchesRoute(url.pathname, candidate)
-    );
-
-    if (!route) {
+    if (PUBLIC_CONTROL_PLANE.has(url.pathname)) {
       return fetch(request);
     }
 
-    const tier = PRICING[route.accessClass];
+    /**
+     * Enriched is currently RESERVED.
+     *
+     * Most importantly, no route is allowed to become a payable Enriched
+     * resource merely because:
+     *
+     * X402_ENRICHED_PRICE = 25000
+     *
+     * or because its path matches the Enriched route template.
+     */
+    if (isReservedEnrichedPath(url.pathname)) {
+      return reservedEnrichedResponse(url.pathname);
+    }
 
-    return new Response(
-      JSON.stringify(
-        {
-          status: "reference-only",
-          enforcement: false,
+    /**
+     * Explicit resource lookup occurs BEFORE pricing.
+     */
+    const resource = findProtectedResource(url.pathname);
 
-          message:
-            "This sample documents production pricing classification and availability boundaries only. Payment verification, settlement, protected payload delivery, and fidelity enforcement are intentionally not implemented here.",
-
-          pricingVersion: "3.0.0",
-
-          pricingManifest: PRICING_MANIFEST,
-
-          network: "eip155:8453",
-
-          asset: "USDC",
-
-          route: url.pathname,
-
-          tier,
-
-          productionValidation:
-            route.accessClass === "atomic"
-              ? {
-                  date: "2026-08-20",
-                  productionStatus: 402,
-                  amountAtomicUnits: "5000",
-                  gatewayTier: "atomic",
-                  paymentRequired: true,
-                  result: "PASS"
-                }
-              : route.accessClass === "single-plate"
-                ? {
-                    date: "2026-08-20",
-                    productionStatus: 402,
-                    amountAtomicUnits: "250000",
-                    gatewayTier: "single-plate",
-                    paymentRequired: true,
-                    result: "PASS"
-                  }
-                : null,
-
-          rightsScope:
-            "One endpoint-level retrieval only; no training, embedding, bulk ingestion, redistribution, resale, synchronization, private-dataset construction, derivative-dataset creation, commercial implementation, or framework implementation rights."
-        },
-        null,
-        2
-      ),
-      {
-        /**
-         * 501 is intentional here because this is a reference-only example.
-         * The production Worker returns the real x402 behavior.
-         */
-        status: 501,
-        headers: {
-          "content-type": "application/json; charset=utf-8",
-          "cache-control": "no-store",
-          "X-Robbie-Pricing-Version": "3.0.0",
-          "X-Robbie-Pricing-Manifest": PRICING_MANIFEST,
-          "X-Reference-Only": "true"
-        }
+    if (resource) {
+      if (resource.state === "known-incomplete") {
+        return incompleteResourceResponse(
+          resource,
+          url.pathname
+        );
       }
-    );
+
+      if (resource.state === "registered-complete") {
+        return registeredReferenceResponse(
+          resource,
+          url.pathname
+        );
+      }
+    }
+
+    /**
+     * If the request clearly targets a protected route family but no
+     * explicit resource record exists, fail closed with 404.
+     */
+    if (isAtomicFamily(url.pathname)) {
+      return unknownResourceResponse(
+        url.pathname,
+        "atomic"
+      );
+    }
+
+    if (isSinglePlateFamily(url.pathname)) {
+      return unknownResourceResponse(
+        url.pathname,
+        "single-plate"
+      );
+    }
+
+    /**
+     * IMPORTANT:
+     *
+     * We intentionally DO NOT use rules such as:
+     *
+     *   /x402/knowledge-mesh/* → snapshot
+     *   /v1/taxonomy/*        → subtree
+     *   /api/v2/rrip/*        → snapshot
+     *
+     * because a URL prefix does not prove that a protected product exists.
+     *
+     * $5 and $25 remain pricing classes whose individual resources must be
+     * explicitly registered.
+     */
+
+    return fetch(request);
   }
 };
