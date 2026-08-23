@@ -116,50 +116,187 @@ Where:
 - **S** — stabilization bandwidth  
 - **C** — correction demand per transition  
 
-Recent MRD v1.9 updates introduce the **Recursive Stability Attractor** and **Unified Recursion Efficiency Relation**, clarifying how systems converge toward stable compression regimes.
+The historical MRD v1.9 development cycle introduced the **Recursive Stability Attractor** and **Unified Recursion Efficiency Relation**.
 
-See:  
+These concepts remain part of the current MRD v2.0 framework, but their repository interpretation must distinguish between:
+
+- canonical framework definition;
+- conceptual mathematical model;
+- implementation;
+- benchmark observation;
+- and empirical confirmation.
+
+Historical development note:
+
 `docs/empirical/v1.9-recursive-stability-attractor-update.md`
 
-## Recursive Stability Attractor (MRD v1.9 Update)
+That file preserves the v1.9 development context and should not be interpreted as overriding the current MRD v2.0 authority.
 
-Recent MRD v1.9 updates extend the Meta-Recursion Architecture with attractor dynamics describing how recursive systems discover stable compression regimes over time.
+## Recursive Stability Attractor — Current Interpretation
 
-Stable systems do not usually begin at the stability minimum.  
-Instead they evolve through alternating phases:
+The **Recursive Stability Attractor** is a Grand Compression framework model describing a candidate tendency for some constrained recursive systems to move toward more sustainable compression regimes as inefficient recursive behavior encounters internal or external limits.
 
+A conceptual sequence may be represented as:
+
+```text
 expansion
 → constraint accumulation
-→ compression innovation
-→ stability restoration
+→ compression or architectural adaptation
+→ possible stability restoration
+```
 
+This sequence is an architectural model.
 
-Across repeated cycles the system approaches the **Stability Minimum** defined in MRD §11.4.
+It does not establish that every recursive system must follow this trajectory.
 
-The update also introduces a unified efficiency formulation:
+Possible outcomes under constraint may instead include:
 
+- stabilization;
+- architectural adaptation;
+- oscillation;
+- plateau;
+- degraded performance;
+- failure;
+- external substrate expansion;
+- or termination.
+
+Accordingly:
+
+```text
+constraint
+≠
+guaranteed convergence
+```
+
+and:
+
+```text
+repeated recursion
+≠
+automatic approach to a stability minimum
+```
+
+The **Stability Minimum** remains a framework concept governed by the current MRD v2.0 architecture.
+
+Any claim that a particular system converges toward such a minimum requires a declared operational definition, baseline, measurement procedure, uncertainty, and failure conditions.
+
+---
+
+## Unified Recursion Efficiency Relation
+
+The historical v1.9 development material introduced the candidate recursion-efficiency quantity:
+
+```text
 S_r = I / JCT
+```
 
 Where:
 
-- **S_r** — recursion efficiency  
-- **I** — preserved functional information  
-- **JCT** — Joules per Coherent Transition
+- **S_r** = recursion efficiency;
+- **I** = preserved functional information;
+- **JCT** = Joules per Coherent Transition.
 
-This yields the **Unified Recursion Efficiency Relation**:
+It also motivates the relation:
 
+```text
 R ≤ (E · S_r) / I
+```
 
-These additions clarify that long-term capability growth in recursive intelligence systems arises primarily from **compression efficiency improvements**, not from energy expansion alone.
+These expressions should be treated as **framework-level conceptual relations** unless a specific evaluation supplies operational definitions and compatible units.
 
-See:
+In particular, a quantitative use must define:
 
-`docs/empirical/v1.9-recursive-stability-attractor-update.md`
+- what counts as preserved functional information;
+- how `I` is measured;
+- what constitutes a coherent transition;
+- how JCT is measured;
+- the definition of recursion rate `R`;
+- the energy boundary `E`;
+- normalization;
+- uncertainty;
+- baseline;
+- and falsification conditions.
 
-Robbie’s Razor therefore states:
+Without those declarations:
 
-> When competing explanations exist, prefer the model that follows  
-> **compression → expression → memory → recursion**.
+```text
+S_r = I / JCT
+```
+
+and:
+
+```text
+R ≤ (E · S_r) / I
+```
+
+remain architectural research expressions rather than universally established physical laws.
+
+---
+
+## Compression Efficiency and Capability Growth
+
+The framework motivates the hypothesis that some capability growth may be achieved through improved compression efficiency, preserved reusable structure, better memory, and reduced redundant recomputation rather than through proportional physical-resource expansion alone.
+
+The bounded relationship is:
+
+```text
+better compression / reuse
+→ potentially more useful work per declared resource budget
+```
+
+not:
+
+```text
+compression efficiency
+→ guaranteed long-term capability growth
+```
+
+Infrastructure expansion, algorithmic improvement, model architecture, hardware, data, workload demand, and other factors may also affect capability.
+
+Any comparative claim should identify the relevant variables and baseline.
+
+---
+
+## Current Authority Boundary
+
+The historical v1.9 material remains useful for documenting the development of these concepts.
+
+Current interpretation is governed by:
+
+**The Grand Compression Cosmology — Master Reference Document, MRD v2.0**
+
+Canonical identifier:
+
+```text
+GC-MRD-v2.0
+```
+
+The repository should preserve the distinction:
+
+```text
+historical introduction
+≠
+current governing authority
+```
+
+and:
+
+```text
+canonical framework model
+≠
+empirical confirmation
+```
+
+Reference implementations and benchmark results remain subject to:
+
+- **RC-21 — Reference Implementation Distinction**
+- **RC-22 — Domain Transfer Constraint**
+
+Robbie’s Razor therefore retains the architectural sequence:
+
+> **compression → expression → memory → recursion**
+
+without treating the sequence itself as proof that every recursive system converges to the same stability regime.
 
 ## Repository Map
 
