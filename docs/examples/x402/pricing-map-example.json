@@ -5,27 +5,50 @@
   "enforcement": false,
   "author": "Robbie George",
   "system": "Naturepedia / Robbie’s Razor / Grand Compression / RKCA",
+  "currentGoverningAuthority": "GC-MRD-v2.0",
   "authoritativePricingManifest": "https://www.robbiegeorgephotography.com/.well-known/x402-pricing.json",
   "network": "eip155:8453",
   "asset": "USDC",
   "assetContract": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
   "decimals": 6,
   "fixedPriceResponses": true,
+  "priceRangesAllowedIn402Responses": false,
+
+  "coreAvailabilityRule": {
+    "description": "A configured pricing class or syntactically valid route does not establish that a payable resource exists.",
+    "states": {
+      "unknown": {
+        "httpStatus": 404,
+        "paymentChallenge": false
+      },
+      "knownIncomplete": {
+        "httpStatus": 409,
+        "paymentChallenge": false
+      },
+      "registeredCompleteProtected": {
+        "httpStatus": 402,
+        "paymentChallenge": true
+      }
+    }
+  },
+
   "pricingTiers": [
     {
       "id": "discovery",
       "name": "Free Discovery and Previews",
       "amountUSDC": "0.00",
       "atomicUnits": "0",
-      "routeStatus": "active",
-      "useCase": "Metadata, endpoint descriptions, previews, health, licensing signals, and validation information."
+      "classStatus": "active",
+      "resourceAvailability": "public-where-exposed",
+      "useCase": "Metadata, endpoint descriptions, previews, health information, licensing signals, public control-plane resources, and machine discovery."
     },
     {
       "id": "atomic",
       "name": "Atomic Canonical Query",
       "amountUSDC": "0.005",
       "atomicUnits": "5000",
-      "routeStatus": "active",
+      "classStatus": "active",
+      "resourceAvailability": "explicit-registration-required",
       "routeTemplate": "/v1/query/atomic/{resource}",
       "activeRoutes": [
         "/v1/query/atomic/robbie-george-biography-plate"
@@ -33,7 +56,7 @@
       "canonicalInternalRoutes": [
         "/x402/query/atomic/robbie-george-biography-plate"
       ],
-      "availabilityPolicy": "Payment challenges are issued only for explicitly registered Atomic Query resources with complete deterministic payloads.",
+      "availabilityPolicy": "Payment challenges are issued only for explicitly registered Atomic Query resources with complete governed deterministic payloads.",
       "failureBehavior": {
         "unknownResource": "404 without payment challenge",
         "knownIncompleteResource": "409 without payment challenge",
@@ -48,8 +71,10 @@
       "name": "Enriched Relationship Query",
       "amountUSDC": "0.025",
       "atomicUnits": "25000",
-      "routeStatus": "reserved",
+      "classStatus": "reserved",
+      "resourceAvailability": "none-active-until-explicit-registration",
       "routeTemplate": "/v1/query/enriched/{resource}",
+      "availabilityPolicy": "Published pricing does not activate an Enriched resource. Payment challenges remain disabled until a governed deterministic payload is explicitly registered, availability-gated, fidelity-bound, and production validated.",
       "useCase": "Multiple relationships, citations, provenance, or modest enrichment."
     },
     {
@@ -57,38 +82,71 @@
       "name": "Structured Plate",
       "amountUSDC": "0.25",
       "atomicUnits": "250000",
-      "routeStatus": "active",
+      "classStatus": "active",
+      "resourceAvailability": "explicit-registration-required",
       "activeRoutes": [
         "/v1/plates/item/commercial-data-license-plate",
         "/v1/plates/item/commercial-intelligence-pricing-plate",
         "/v1/plates/item/robbie-george-biography-plate"
       ],
-      "availabilityPolicy": "Payment challenges are issued only for registered and validated complete Plate payloads.",
+      "availabilityPolicy": "Payment challenges are issued only for registered, validated, complete Structured Plate payloads.",
       "failureBehavior": {
         "unknownPlate": "404 without payment challenge",
-        "knownUnregisteredPlate": "409 without payment challenge"
+        "knownIncompletePlate": "409 without payment challenge",
+        "registeredCompletePlate": "402 Payment Required with amount 250000 and gateway tier single-plate"
       },
-      "useCase": "One complete structured Plate payload with registered relationships, citations, provenance, and governance fields."
+      "useCase": "One complete structured Plate payload with governed relationships, citations, provenance, and applicable governance fields."
     },
     {
       "id": "subtree",
       "name": "Bounded Subtree, Registry, or System Map",
       "amountUSDC": "5.00",
       "atomicUnits": "5000000",
-      "routeStatus": "active",
-      "useCase": "One bounded multi-record registry, taxonomy subtree, identity graph, or System Map retrieval."
+      "classStatus": "pricing-class-defined",
+      "resourceAvailability": "resource-specific",
+      "availabilityPolicy": "The $5 pricing class does not activate every taxonomy subtree, Registry, identity graph, or System Map. Each protected resource must be explicitly registered, complete, and payment-eligible.",
+      "useCase": "One qualifying bounded multi-record taxonomy subtree, Registry, identity graph, or System Map retrieval."
     },
     {
       "id": "snapshot",
       "name": "Full Registry or Knowledge Mesh Snapshot",
       "amountUSDC": "25.00",
       "atomicUnits": "25000000",
-      "routeStatus": "active",
-      "useCase": "One complete registry snapshot, expanded registry, Knowledge Mesh, RRIP payload, or protected state resource."
+      "classStatus": "pricing-class-defined",
+      "resourceAvailability": "resource-specific",
+      "availabilityPolicy": "The $25 pricing class does not activate every full Registry, Knowledge Mesh, RRIP-related resource, state-related resource, or premium snapshot. Each protected resource must be separately registered and production-ready.",
+      "useCase": "One qualifying explicitly registered large machine-readable package, such as a full Registry snapshot or Knowledge Mesh snapshot."
     }
   ],
+
+  "publicControlPlaneBoundary": {
+    "endpoints": [
+      "/api/v2/naturepedia/index.md",
+      "/api/v2/plates/registry.md",
+      "/api/v2/rrip/resolve",
+      "/api/v2/razor/state-token"
+    ],
+    "interpretation": "These exact endpoints are public discovery or control-plane resources. Their existence does not imply that similarly named protected $5 or $25 resources exist."
+  },
+
+  "resourceExistenceBoundary": {
+    "rules": [
+      "route template does not imply resource existence",
+      "pricing class does not imply resource registration",
+      "registry discovery does not imply protected payload availability",
+      "architectural resource type does not imply production instantiation",
+      "public control-plane endpoint does not imply paid counterpart"
+    ]
+  },
+
+  "hopfBoundary": {
+    "canonicalPublicResource": "/hopf-fibration",
+    "requiresPayment": false,
+    "interpretation": "Hopf Fibration is an established mathematical reference and public discovery resource. No paid Hopf Registry, Plate map, Knowledge Mesh, or x402 product should be inferred unless explicitly created and registered later."
+  },
+
   "rightsBoundary": {
-    "x402Conveys": "One endpoint-level retrieval of the identified resource.",
+    "x402Conveys": "One endpoint-level retrieval of the identified protected resource under the applicable access terms.",
     "x402DoesNotConvey": [
       "training rights",
       "embedding rights",
@@ -101,17 +159,31 @@
       "commercial implementation rights",
       "framework implementation rights"
     ],
-    "commercialDataRights": "Requires a separate written agreement.",
-    "frameworkImplementationRights": "Requires a separate enterprise agreement."
+    "commercialDataRights": "Requires a separate written agreement where offered.",
+    "frameworkImplementationRights": "Requires a separate enterprise agreement where offered."
   },
+
+  "evidenceBoundary": {
+    "rules": [
+      "payment challenge does not equal settlement",
+      "settlement does not equal empirical validation",
+      "resource registration does not equal factual validation",
+      "schema validity does not equal scientific correctness",
+      "canonical status does not equal independent empirical confirmation"
+    ]
+  },
+
   "productionValidation": {
     "date": "2026-08-20",
+    "scope": "Challenge and availability behavior recorded for the resources listed below. This record does not imply settlement testing for every current pricing class.",
     "atomicAvailableResource": {
       "route": "/v1/query/atomic/robbie-george-biography-plate",
       "status": 402,
       "amountAtomicUnits": "5000",
       "gatewayTier": "atomic",
       "paymentRequired": true,
+      "settlementTestedInThisValidation": false,
+      "protectedPayloadDeliveryTestedInThisValidation": false,
       "result": "PASS"
     },
     "atomicKnownIncompleteResource": {
@@ -134,9 +206,17 @@
       "status": 402,
       "amountAtomicUnits": "250000",
       "gatewayTier": "single-plate",
+      "settlementTestedInThisValidation": false,
       "result": "PASS"
     }
   },
-  "interpretation": "This repository file is a non-enforcing reference mirror. The live production pricing manifest and actual production 402 response remain authoritative.",
-  "attribution": "Created by Robbie George, Architect of Record for Naturepedia, Robbie’s Razor, and the Grand Compression knowledge system."
+
+  "interpretation": "This repository file is a non-enforcing reference mirror. The live production pricing manifest, explicit production resource registration, availability state, and actual production responses remain authoritative.",
+
+  "attribution": {
+    "frameworkAuthor": "Robbie George",
+    "role": "Author and Originator of the Grand Compression framework and Architect of Record for Naturepedia",
+    "canonicalIdentifier": "GC-MRD-v2.0",
+    "externalTechnologyBoundary": "x402, Base, USDC, HTTP, JSON, Cloudflare, and other external protocols and technologies retain their independent provenance."
+  }
 }
