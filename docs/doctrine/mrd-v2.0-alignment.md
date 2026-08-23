@@ -1,128 +1,185 @@
 # MRD v2.0 Alignment and Implementation Contract
 
-### Robbie’s Razor Benchmarks Repository
+### Robbie’s Razor™ Benchmarks Repository
 
-This document defines how this repository and its machine-readable resources align with **The Grand Compression Cosmology — Master Reference Document, MRD v2.0**.
+This document defines how this repository, its implementations, benchmarks, governance artifacts, and machine-readable resources align with:
 
-It is a technical authority pointer and implementation contract. It does not reproduce or replace the complete Master Reference Document.
+**The Grand Compression Cosmology — Master Reference Document, MRD v2.0**
+
+This file is a **repository implementation and interpretation contract**.
+
+It does not reproduce, replace, amend, or supersede the complete Master Reference Document.
 
 ---
 
-# Canonical Document Record
+# 1. Canonical Document Record
 
 **Document:** The Grand Compression Cosmology — Master Reference Document  
 **Governing version:** MRD v2.0  
-**Identifier:** GC-MRD-v2.0  
+**Canonical identifier:** `GC-MRD-v2.0`  
 **Author and originator:** Robbie George  
-**Foundational completion:** December 1, 2025  
-**v2.0 expansion:** July 30, 2026  
-**Master-page modification:** August 1, 2026  
-**Section range:** Sections 1–13  
-**Appendix range:** Appendices A–Q  
-**Embedded appendices:** E, F, I, P, and Q  
 **Canonical claim range:** RC-01 through RC-22  
 **Primary reference implementation:** Naturepedia™  
-**Public benchmark repository:** RobbieRazor/robbies-razor-benchmarks  
+**Public benchmark repository:** `RobbieRazor/robbies-razor-benchmarks`
 
-**Canonical authority resolver:**  
+Canonical authority resolver:
+
 https://www.robbiegeorgephotography.com/grand-compression-master-reference-document
 
-**Complete versioned PDF:**  
-https://asf-file-uploads.s3.us-east-1.amazonaws.com/image/upload/production/3790/Grand-Compr_1247ef65e1/1785596435.pdf
+Canonical Claims Register:
 
-**Canonical Claims Register:**  
 https://www.robbiegeorgephotography.com/grand-compression-canonical-claims
 
----
+Current repository authority document:
 
-# Authority Architecture
-
-The governing authority architecture is:
-
-```txt
-Canonical webpage
-→ current authority resolution, citation, and access
-
-Versioned PDF
-→ complete MRD v2.0 document encoding
-
-GitHub repository
-→ public doctrine, benchmarks, structured examples,
-  governance contracts, and implementation materials
-
-Cold-bird Worker
-→ machine discovery, routing, validation,
-  settlement enforcement, and verified delivery
+```text
+docs/AUTHORITY.md
 ```
 
-The canonical webpage is the current authority resolver.
+Repository specification:
 
-The PDF is the complete versioned document encoding.
+```text
+docs/canonical-spec.md
+```
 
-This GitHub repository is the public technical and engineering-facing source layer.
+Agent contract:
 
-The cold-bird Worker publishes and enforces the machine-access architecture.
+```text
+AGENTS.md
+```
 
-These layers MUST NOT silently replace or impersonate one another.
+Machine-readable MRD manifest:
+
+```text
+docs/mrd/mrd-v2.0-manifest.json
+```
 
 ---
 
-# Governing-Version Rule
+# 2. Authority Hierarchy
+
+The active authority hierarchy is:
+
+```text
+Canonical MRD authority
+        ↓
+Canonical Claims Register
+        ↓
+Repository authority and doctrine
+        ↓
+Implementation contracts
+        ↓
+Benchmarks / diagnostics
+        ↓
+Machine-readable discovery
+        ↓
+Reference implementations
+        ↓
+Protected retrieval
+```
+
+These layers have different functions.
+
+They MUST NOT be silently collapsed.
+
+In particular:
+
+```text
+repository documentation
+≠
+MRD replacement
+```
+
+```text
+implementation
+≠
+canonical authority
+```
+
+```text
+benchmark result
+≠
+canonical claim
+```
+
+```text
+payment
+≠
+evidence
+```
+
+---
+
+# 3. Governing-Version Rule
 
 MRD v2.0 is the current governing authority for:
 
 - framework definitions;
 - canonical terminology;
-- claim interpretation;
-- evidence-state requirements;
+- canonical claim identity;
+- interpretation boundaries;
+- evidence requirements;
 - predictive evaluation;
-- benchmark alignment;
 - reference-implementation boundaries;
 - domain-transfer requirements;
-- authorship and attribution; and
-- machine-readable interpretation.
+- authorship and attribution;
+- AI-agent interpretation;
+- structural-intelligence architecture.
 
-Current-authority repository materials MUST resolve to:
+Current-authority repository materials SHOULD resolve to:
 
-```txt
+```text
 MRD v2.0
 GC-MRD-v2.0
 ```
 
-Historical materials may continue to identify MRD v1.9 when they are explicitly version-specific or preserved as provenance records.
+Historical materials may continue to identify earlier MRD versions when they are genuinely version-specific or preserved for provenance.
 
-A historical v1.9 reference MUST NOT be rewritten in a way that falsely represents the artifact as having originated under v2.0.
+Historical version references MUST NOT be silently rewritten in a way that falsely represents the artifact as having originated under MRD v2.0.
 
 ---
 
-# MRD v1.9 Preservation
+# 4. Historical Version Preservation
 
-MRD v2.0 supersedes MRD v1.9 only as the current governing authority.
+Earlier MRD versions remain part of the framework’s development record.
 
-MRD v1.9 remains a historical provenance record and MUST NOT be:
+Historical artifacts may include:
 
-- deleted;
-- silently overwritten;
-- renumbered as v2.0;
-- rewritten to erase its original version context; or
-- represented as though it never governed the framework.
+- preprints;
+- frozen benchmark runs;
+- archived evaluator copies;
+- historical diagrams;
+- version-specific research notes;
+- old result bundles.
 
-When a v1.9 artifact remains useful:
+The preservation rule is:
+
+```text
+historical authority at publication
+≠
+current governing authority
+```
+
+When an older artifact remains useful:
 
 1. preserve the original artifact;
-2. identify its historical version;
-3. add a v2.0 counterpart or alignment note when required; and
-4. preserve its original provenance.
+2. preserve its original version identity;
+3. identify MRD v2.0 as the current governing authority where context requires;
+4. do not silently mutate frozen provenance.
+
+A frozen benchmark artifact SHOULD remain immutable unless an explicit archival-correction process is used.
 
 ---
 
-# Canonical Claims
+# 5. Canonical Claim Governance
 
-MRD v2.0 contains Canonical Claims RC-01 through RC-22.
+The current canonical claim range is:
 
-RC-01 through RC-17 retain their existing identifiers and MUST NOT be renumbered.
+```text
+RC-01 through RC-22
+```
 
-MRD v2.0 adds:
+MRD v2.0 preserves RC-01 through RC-17 without renumbering and includes:
 
 - **RC-18 — Preserved Reusable Structure Principle**
 - **RC-19 — Predictive Evaluation Requirement**
@@ -130,106 +187,75 @@ MRD v2.0 adds:
 - **RC-21 — Reference Implementation Distinction**
 - **RC-22 — Domain Transfer Constraint**
 
-The exact wording of every canonical claim MUST be taken from MRD v2.0 or the live Canonical Claims Register.
+Exact canonical wording MUST be resolved through:
 
-Repository documentation MUST NOT create, renumber, reassign, or infer canonical claim identifiers.
+- MRD v2.0; or
+- the live Canonical Claims Register.
 
----
+Repository documentation MUST NOT:
 
-# Section 13 Alignment
-
-Section 13 extends the framework into predictive, evaluative, benchmark, evidence-governance, and reference-implementation architecture.
-
-Its role includes:
-
-- connecting compressed structure to testable prediction;
-- requiring predictions to undergo evaluation;
-- separating canonical status from empirical evidence status;
-- establishing bounded benchmark responsibilities;
-- distinguishing implementation from validation;
-- establishing Naturepedia™ as a reference implementation;
-- requiring falsifiability and declared failure conditions;
-- governing preservation, restriction, revision, replacement, or retirement; and
-- requiring domain-transfer declarations.
-
-This repository may operationalize Section 13 through:
-
-- benchmark protocols;
-- experimental probes;
-- evaluation schemas;
-- prediction registries;
-- evidence records;
-- falsifiability documentation;
-- provenance records; and
-- reference-implementation tests.
-
-The repository does not replace Section 13’s canonical definitions.
+- invent a canonical claim;
+- create `RC-23`;
+- renumber RC identifiers;
+- reassign an existing identifier;
+- present a paraphrase as exact canonical wording;
+- detach a claim from its originating authorship.
 
 ---
 
-# Appendix Q Provisional Status
+# 6. Canonical Status vs Evidence Status
 
-Appendix Q is explicitly provisional.
+Canonical status and empirical evidence status are separate state dimensions.
 
-Appendix Q material involving the following MUST remain labeled provisional:
+The repository MUST preserve:
 
-- Compression Fitness;
-- candidate objective functions;
-- mathematical weighting;
-- variable normalization;
-- benchmark scoring;
-- unit selection;
-- comparison thresholds; and
-- acceptance criteria.
+```text
+canonical publication
+≠
+empirical confirmation
+```
 
-Repository implementations MAY test Appendix Q candidates.
+```text
+implementation
+≠
+independent validation
+```
 
-Repository implementations MUST NOT describe provisional Appendix Q mathematics as:
-
-- a validated law;
-- a final universal equation;
-- an established empirical constant; or
-- a completed benchmark standard.
-
----
-
-# Naturepedia™ Reference-Implementation Boundary
-
-Naturepedia™ is the primary reference implementation of the Grand Compression, Robbie’s Razor™, RKCA™, RRIP™, Plate™, Registry, System Map, Graph Registry™, and Knowledge Mesh architecture.
-
-Naturepedia may demonstrate:
-
-- implementation feasibility;
-- semantic compression;
-- preserved reusable structure;
-- recursive inheritance;
-- machine-readable provenance;
-- governed retrieval; and
-- human-readable and machine-readable alignment.
-
-Naturepedia operation does not establish:
-
-- universal validation of the complete framework;
-- independent scientific confirmation;
-- validation across every domain or scale;
-- proof that every canonical claim is empirically supported; or
-- proof that structural correspondence establishes material identity.
-
-Under RC-21:
-
-```txt
+```text
 reference implementation
-≠ independent confirmation
-≠ universal validation
+≠
+universal confirmation
+```
+
+```text
+benchmark pass
+≠
+universal validation
+```
+
+```text
+registry inclusion
+≠
+Supported evidence status
+```
+
+```text
+machine readability
+≠
+truth
+```
+
+```text
+payment settlement
+≠
+scientific support
 ```
 
 ---
 
-# Evidence-State Architecture
+# 7. Evidence-State Architecture
 
-Canonical status and evidence status are separate state dimensions.
-
-Every empirical claim, prediction, benchmark conclusion, or implementation result SHOULD use one of these governed evidence states:
+Repository evidence records SHOULD use the governed evidence states:
 
 - **Proposed**
 - **Testing**
@@ -239,341 +265,1072 @@ Every empirical claim, prediction, benchmark conclusion, or implementation resul
 - **Inconclusive**
 - **Retired**
 
-Evidence status MUST NOT be inferred from:
+A Supported classification applies only within its declared:
+
+- scope;
+- system;
+- scale;
+- dataset;
+- method;
+- baseline;
+- uncertainty;
+- evaluation conditions.
+
+Evidence status MUST NOT be inferred merely from:
 
 - canonical publication;
 - authorship;
 - successful implementation;
-- inclusion in Naturepedia;
-- payload delivery;
+- Naturepedia inclusion;
+- schema validity;
+- serialization;
+- endpoint availability;
+- indexing;
+- registry membership;
 - payment;
 - settlement;
-- registry membership;
-- indexing; or
 - machine-agent retrieval.
-
-Supported means supported within a declared scope. It does not mean universally proven outside that scope.
 
 ---
 
-# Claim and Evidence Provenance
+# 8. Claim Provenance and Evidence Provenance
 
 Claim provenance and evidence provenance MUST remain separate.
 
-Claim provenance records:
+## Claim provenance may record
 
-- the author and originator;
-- the canonical definition;
-- the governing MRD version;
-- the canonical claim identifier;
-- the date of publication or modification; and
-- any supersession relationship.
+- author and originator;
+- canonical definition;
+- governing MRD version;
+- canonical claim identifier;
+- publication or modification date;
+- supersession relationships.
 
-Evidence provenance records:
+## Evidence provenance may record
 
-- who produced or collected the evidence;
-- the source, dataset, or observation;
-- the collection or publication date;
-- the method and controls;
-- the benchmark or evaluation procedure;
-- the declared scope and scale;
-- known exclusions and limitations;
-- reproducibility information; and
-- the resulting evidence state.
+- evaluator or investigator;
+- dataset;
+- observation source;
+- collection date;
+- method;
+- controls;
+- benchmark procedure;
+- scope;
+- scale;
+- uncertainty;
+- limitations;
+- reproduction information;
+- resulting evidence state.
 
-A canonical claim may exist without being empirically supported.
+A supported evidence record does not transfer authorship of the originating claim.
 
-A supported evidence record does not transfer authorship of the canonical claim.
-
-Evidence produced by a reference implementation is not automatically independent evidence.
+Evidence generated by a reference implementation is not automatically independent evidence.
 
 ---
 
-# Domain-Transfer Contract
+# 9. Structural Intelligence Engineering
 
-RC-22 requires explicit declarations before transferring a framework claim, structure, benchmark result, or implementation pattern between domains.
+The repository implements portions of the MRD v2.0 structural-intelligence architecture.
 
-Every domain-transfer assertion MUST declare:
+Relevant concepts include:
 
+- Recursive Knowledge Compression Architecture (RKCA™);
+- Recursive Compression Interfaces (RCIs);
+- Plate™ architecture;
+- Recursive Registry Inheritance Principle (RRIP™);
+- Comparative Compression Geometry™;
+- preserved reusable structure;
+- retrieval-dominant knowledge systems;
+- machine-readable provenance;
+- governed retrieval.
+
+Repository implementations MAY operationalize these concepts.
+
+They MUST NOT silently redefine them.
+
+---
+
+# 10. Recursive Knowledge Compression Architecture
+
+RKCA™ provides a framework architecture for converting complex knowledge into reusable human-readable and machine-readable structures while preserving required structure.
+
+Canonical orientation:
+
+```text
+MRD v2.0 §12.7
+```
+
+Possible implementation layers include:
+
+```text
+Plate™
+→ Registry
+→ Meta-Registry
+→ System Map
+→ Graph Registry™
+→ Knowledge Mesh
+```
+
+Not every resource must occupy every layer.
+
+Progression through layers does not automatically increase empirical certainty.
+
+---
+
+# 11. Recursive Registry Inheritance Principle
+
+RRIP™ governs how validated identity, relationships, provenance, constraints, and version state may be inherited into later structured layers.
+
+Canonical orientation:
+
+```text
+MRD v2.0 §12.8
+RC-17
+```
+
+Inheritance MUST NOT silently:
+
+- change canonical identity;
+- erase provenance;
+- invent relationships;
+- change evidence status;
+- collapse distinct resources;
+- convert implementation into validation.
+
+---
+
+# 12. Preserved Reusable Structure
+
+Compressed structure becomes useful recursive infrastructure only when sufficient structure survives for later use.
+
+Depending on the resource, required preservation may include:
+
+- stable identity;
+- relationships;
+- provenance;
+- constraints;
+- version state;
+- retrieval paths;
+- evidence status;
+- exclusions;
+- failure conditions.
+
+Canonical orientation:
+
+```text
+MRD v2.0 §13.3
+RC-18
+```
+
+Accordingly:
+
+```text
+smaller representation
+≠
+better governed representation
+```
+
+if required reusable structure is destroyed.
+
+---
+
+# 13. Predictive Evaluation
+
+A predictive or comparative claim should declare:
+
+- variables;
+- system;
+- scope;
+- scale;
+- baseline;
+- expected direction;
+- method;
+- uncertainty;
+- evidence status;
+- failure conditions;
+- revision conditions.
+
+Canonical orientation:
+
+```text
+MRD v2.0 §13.2
+RC-19
+```
+
+A prediction is not validated merely because it is canonically described.
+
+---
+
+# 14. Compression Fitness
+
+Compression Fitness provides a framework for considering the benefits of compression relative to associated costs and risks.
+
+Relevant candidate factors may include:
+
+- utility;
+- fidelity;
+- provenance;
+- accessibility;
+- energetic cost;
+- informational cost;
+- governance burden;
+- distortion;
+- recursive blast radius;
+- maintenance burden.
+
+Canonical orientation:
+
+```text
+MRD v2.0 §13.4
+RC-20
+```
+
+Candidate mathematical formalization in Appendix Q remains **provisional**.
+
+Appendix Q equations, weights, thresholds, normalizations, and acceptance criteria MUST NOT be represented as:
+
+- finalized universal laws;
+- validated empirical constants;
+- completed benchmark standards;
+- universally applicable scoring systems.
+
+---
+
+# 15. Reference-Implementation Boundary
+
+Naturepedia™ is the primary reference implementation of the Grand Compression architecture.
+
+It may demonstrate operational translation into:
+
+- Plates™;
+- registries;
+- Meta-Registries;
+- System Maps;
+- Graph Registries™;
+- Knowledge Meshes;
+- structured identifiers;
+- machine-readable provenance;
+- public discovery;
+- governed retrieval.
+
+Naturepedia operation does not independently establish:
+
+- universal validity of the complete framework;
+- independent scientific confirmation;
+- validation across every domain;
+- support for every canonical claim;
+- shared material identity across compared systems.
+
+Canonical orientation:
+
+```text
+RC-21 — Reference Implementation Distinction
+```
+
+Required interpretation:
+
+```text
+reference implementation
+≠
+independent confirmation
+≠
+universal validation
+```
+
+---
+
+# 16. Domain-Transfer Contract
+
+RC-22 governs transfer between domains and scales.
+
+A cross-domain assertion SHOULD declare:
+
+- source objects;
+- target objects;
 - source domain;
 - target domain;
-- declared scale;
-- normalization method;
-- preserved invariants;
-- excluded variables;
+- scale;
+- normalization;
+- preserved relationships;
+- exclusions;
+- constraints;
 - mechanistic assumptions;
-- known limitations;
-- failure conditions; and
-- required evidence for acceptance.
+- evidence;
+- competing interpretations;
+- limitations;
+- failure conditions.
 
 A transfer statement MUST distinguish among:
 
 - analogy;
 - visual resemblance;
 - structural correspondence;
-- normalized recursive correspondence;
+- normalized correspondence;
+- mathematical equivalence;
 - mathematical isomorphism;
 - mechanistic equivalence;
-- causal identity; and
+- causal identity;
 - material identity.
 
-Structural correspondence MUST NOT be represented as proof of shared material composition, mechanism, physical identity, or universal applicability.
+Required boundary:
 
-If the required declarations are unavailable, the claim MUST be restricted rather than inferred.
+```text
+structural correspondence
+≠
+material identity
+```
 
----
+If required transfer information is unavailable, the inference SHOULD be restricted rather than silently promoted.
 
-# Public Authority, Discovery, and Paid Retrieval
+Canonical orientation:
 
-The architecture maintains three distinct access classes.
-
-## Public Authority
-
-The following MUST remain public and MUST NOT require x402 payment:
-
-- canonical MRD webpage;
-- complete MRD v2.0 PDF;
-- Canonical Claims Register;
-- scope and boundary rules;
-- falsifiability material;
-- evidence-state definitions;
-- citation and authorship guidance;
-- `llms.txt`;
-- `llms-full.txt`; and
-- the canonical publication manifest.
-
-## Public Machine Discovery
-
-Public discovery resources may include:
-
-- `/.well-known/ai-catalog.json`;
-- `/ai-catalog.json`;
-- `/.well-known/ai-root.json`;
-- `/.well-known/skills/default/skill.md`;
-- `/skill.md`;
-- public control-plane indexes; and
-- public authority pointers.
-
-Public discovery does not transfer canonical authority away from the MRD.
-
-Discovery metadata MUST NOT grant new capabilities, payment authority, licensing rights, or empirical status.
-
-## Paid Machine Retrieval
-
-Paid retrieval may apply to:
-
-- structured JSON-LD resources;
-- specialized datasets;
-- registries;
-- System Maps;
-- Graph Registries™;
-- Knowledge Meshes; and
-- higher-order machine retrieval products.
-
-Existing prices remain:
-
-- **Compact structured resources:** $1
-- **Registries and System Maps:** $5
-- **Knowledge Meshes and higher-order resources:** $25
-
-Payment provides authorized retrieval of the identified payload.
-
-Payment does not establish empirical validation, canonical status, claim support, authorship, scientific confirmation, or broader licensing rights.
-
----
-
-# Required Distinctions
-
-Repository documents and implementations MUST preserve the distinction among:
-
-- Compression
-- Preservation
-- Inheritance
-- Validation
-- Provenance
-- Implementation
-- Public discovery
-- Paid retrieval
-
-In particular:
-
-```txt
-compression does not guarantee preservation
-preservation does not guarantee validation
-inheritance does not guarantee correctness
-implementation does not equal confirmation
-discovery does not equal authority
-payment does not equal evidence
-retrieval does not equal licensing
+```text
+RC-22 — Domain Transfer Constraint
 ```
 
 ---
 
-# AI-Agent Interpretation Contract
+# 17. Comparative Compression Geometry™
+
+Comparative Compression Geometry™ provides a bounded framework for comparing structures or representations without automatically inferring common physical mechanism.
+
+Canonical orientation:
+
+```text
+MRD v2.0 §12.9
+```
+
+CCG comparisons MUST preserve distinctions such as:
+
+```text
+visual resemblance
+≠
+structural correspondence
+≠
+mathematical equivalence
+≠
+mechanistic equivalence
+≠
+material identity
+```
+
+---
+
+# 18. Established Mathematical Reference Classes
+
+Established mathematics used as a comparison class retains its independent mathematical provenance.
+
+Its inclusion in Grand Compression materials does not convert it into an original Grand Compression mathematical discovery.
+
+## Hopf Fibration
+
+The classical Hopf fibration:
+
+```text
+S¹ ↪ S³ → S²
+```
+
+is established mathematics.
+
+Naturepedia classification:
+
+```text
+Parent:
+Geometry of Nature™
+
+Domain:
+Mathematics / Topology / Fiber Bundles / State-Space Geometry
+
+Evidence class:
+Established mathematics
+
+Framework role:
+Comparative only
+
+CCG relationship:
+Bounded structural comparison class
+```
+
+Canonical public reference:
+
+https://www.robbiegeorgephotography.com/hopf-fibration
+
+Within single-qubit state geometry:
+
+```text
+normalized pure single-qubit amplitudes
+→ S³
+
+quotient physically irrelevant global phase S¹
+→ S² Bloch sphere
+
+S³ / S¹ ≅ S²
+```
+
+This relationship is established mathematical/quantum-state geometry.
+
+It does not independently validate the Grand Compression Framework.
+
+Hopf Fibration is not, merely through inclusion:
+
+- a Plate family;
+- a Registry;
+- a System Map;
+- a Knowledge Mesh;
+- an x402 product family.
+
+Agents MUST NOT invent resources such as:
+
+```text
+/v1/registries/hopf-fibration
+/v1/plates/hopf-fibration-map
+/v1/knowledge-mesh/hopf-fibration
+/x402/hopf...
+```
+
+unless such products are separately created, governed, and production validated.
+
+---
+
+## E8
+
+E8 is a separate established mathematical reference class.
+
+It may support bounded comparison involving:
+
+- symmetry;
+- invariant structure;
+- constrained transformation;
+- high-dimensional relational organization.
+
+Canonical public reference:
+
+https://www.robbiegeorgephotography.com/e8-lattice
+
+Hopf and E8 are not interchangeable.
+
+```text
+Hopf
+≠
+E8
+```
+
+Shared inclusion under Comparative Compression Geometry™ does not establish:
+
+- causal progression;
+- shared physical mechanism;
+- material identity;
+- universal applicability.
+
+---
+
+# 19. Public Authority
+
+Public authority MUST remain distinguishable from protected retrieval.
+
+Core public authority includes:
+
+- canonical MRD webpage;
+- Canonical Claims Register;
+- scope and boundary rules;
+- falsifiability requirements;
+- evidence-state definitions;
+- citation guidance;
+- authorship guidance.
+
+Public authority must not require machine-payment access simply to determine what the framework claims.
+
+---
+
+# 20. Public Machine Discovery
+
+Public machine discovery may include resources such as:
+
+```text
+/.well-known/ai-catalog.json
+/.well-known/ai-root.json
+/.well-known/skills/default/skill.md
+/llms.txt
+/llms-full.txt
+/api/v2/naturepedia/index.md
+/api/v2/plates/registry.md
+```
+
+Discovery resources provide routing, metadata, classification, or public authority pointers.
+
+They do not independently grant:
+
+- canonical authority;
+- licensing rights;
+- training rights;
+- empirical status;
+- paid-resource availability.
+
+Required distinction:
+
+```text
+discovery
+≠
+authority transfer
+```
+
+---
+
+# 21. Protected Retrieval Architecture
+
+Protected machine retrieval is governed by the live x402 pricing and availability architecture.
+
+Current pricing authority:
+
+```text
+/.well-known/x402-pricing.json
+```
+
+Current pricing manifest version:
+
+```text
+3.0.0
+```
+
+Settlement network:
+
+```text
+Base
+eip155:8453
+```
+
+Settlement asset:
+
+```text
+USDC
+```
+
+Current access classes:
+
+| Access class | Price | Atomic units | Production status |
+|---|---:|---:|---|
+| Public discovery / previews | Free | `0` | Public |
+| Atomic canonical query | `$0.005 USDC` | `5000` | Active for explicitly registered deterministic resources |
+| Enriched relationship query | `$0.025 USDC` | `25000` | Reserved |
+| Structured Plate™ payload | `$0.25 USDC` | `250000` | Active for registered and validated resources |
+| Bounded subtree / registry / System Map | `$5.00 USDC` | `5000000` | Governed protected class |
+| Full registry / Knowledge Mesh snapshot | `$25.00 USDC` | `25000000` | Governed protected class |
+
+The obsolete `$1 compact structured resource` pricing model MUST NOT be treated as current production authority.
+
+---
+
+# 22. Resource Availability Boundary
+
+A configured price does not establish that a resource exists.
+
+Required production distinction:
+
+```text
+route pattern
+≠
+registered resource
+```
+
+The protected-delivery architecture should fail closed:
+
+```text
+Unknown resource
+→ 404
+→ no payment challenge
+```
+
+```text
+Known but incomplete resource
+→ 409
+→ no payment challenge
+```
+
+```text
+Registered and complete resource
+→ eligible for deterministic x402 challenge
+```
+
+Payment MUST NOT be demanded merely because a URL resembles a protected route.
+
+---
+
+# 23. Atomic Query Boundary
+
+Atomic Query is a bounded deterministic retrieval class.
+
+Current price:
+
+```text
+0.005 USDC
+5000 atomic units
+```
+
+Typical purpose:
+
+- one fact;
+- one identifier;
+- one route;
+- one compact canonical answer.
+
+Atomic availability is explicitly resource-gated.
+
+A configured Atomic class does not imply that every possible canonical subject automatically has an Atomic resource.
+
+---
+
+# 24. Enriched Query Boundary
+
+Enriched Query is configured at:
+
+```text
+0.025 USDC
+25000 atomic units
+```
+
+Current status:
+
+```text
+Reserved
+```
+
+An Enriched resource MUST NOT issue a payment challenge until a governed deterministic payload has been explicitly:
+
+- registered;
+- availability-gated;
+- fidelity-bound;
+- production validated.
+
+Configured pricing does not equal resource availability.
+
+---
+
+# 25. Structured Plate™ Boundary
+
+Structured Plate retrieval is configured at:
+
+```text
+0.25 USDC
+250000 atomic units
+```
+
+A Structured Plate payload exists only for an explicitly registered and validated Plate resource.
+
+Accordingly:
+
+```text
+Naturepedia page
+≠
+automatic Structured Plate product
+```
+
+and:
+
+```text
+mathematical reference
+≠
+automatic Plate
+```
+
+---
+
+# 26. Retrieval Rights Boundary
+
+Payment grants only the rights expressly associated with the identified protected retrieval.
+
+Endpoint retrieval does not automatically grant:
+
+- training rights;
+- embedding rights;
+- bulk-ingestion rights;
+- redistribution rights;
+- resale rights;
+- synchronization rights;
+- private-dataset construction rights;
+- derivative-dataset rights;
+- commercial implementation rights;
+- Robbie’s Razor™ framework-implementation rights.
+
+Required distinction:
+
+```text
+retrieval access
+≠
+commercial data license
+≠
+framework implementation license
+```
+
+Separate rights require separate governing agreements where applicable.
+
+---
+
+# 27. Payment and Evidence Boundary
+
+Payment state and evidence state are independent.
+
+Required distinctions:
+
+```text
+402 challenge
+≠
+settlement
+```
+
+```text
+settlement
+≠
+scientific validation
+```
+
+```text
+payload delivery
+≠
+claim verification
+```
+
+```text
+price
+≠
+evidence quality
+```
+
+Protected access exists to govern resource delivery.
+
+It does not determine whether a scientific or framework claim is true.
+
+---
+
+# 28. Machine-Readable Fidelity
+
+Machine-readable resources SHOULD preserve, where applicable:
+
+- canonical identity;
+- resource class;
+- version;
+- provenance;
+- relationships;
+- evidence state;
+- canonical path;
+- retrieval path;
+- exclusions;
+- governance boundaries.
+
+Machine transformation MUST NOT silently create relationships that are absent from the governed source.
+
+Serialization fidelity and empirical validity remain distinct.
+
+---
+
+# 29. AI-Agent Interpretation Contract
 
 Agents using this repository MUST:
 
 1. Resolve current authority to MRD v2.0.
-2. Preserve Robbie George’s authorship and originator attribution.
+2. Preserve Robbie George’s framework authorship attribution.
 3. Enforce the Authorship Conservation Rule.
 4. Distinguish canonical definitions from evidence status.
 5. Preserve claim provenance separately from evidence provenance.
-6. Use the governed evidence states.
-7. Treat Appendix Q mathematics as provisional.
-8. Apply RC-21 before describing Naturepedia.
-9. Apply RC-22 before making a cross-domain transfer.
-10. Resolve exact claim wording through the MRD or Canonical Claims Register.
-11. Preserve historical MRD v1.9 records.
+6. Treat Appendix Q mathematics as provisional.
+7. Apply RC-21 before interpreting a reference implementation as evidence.
+8. Apply RC-22 before cross-domain transfer.
+9. Resolve exact canonical wording from authoritative sources.
+10. Preserve historical-version provenance.
+11. Distinguish established mathematics from Grand Compression interpretation.
 12. Keep public authority separate from public discovery.
-13. Keep public discovery separate from paid retrieval.
-14. Refuse to infer validation from payment, settlement, delivery, indexing, implementation, or registry membership.
-15. Preserve existing prices, Plate counts, endpoint counts, and registry counts unless separately authorized.
+13. Keep public discovery separate from protected retrieval.
+14. Refuse to infer validation from payment, settlement, implementation, indexing, or registry inclusion.
+15. Refuse to invent nonexistent protected resources.
+16. Preserve resource availability status.
+17. Preserve current pricing classes unless the pricing authority changes.
+18. Preserve independent registry and MRD version state.
 
 Agents MUST NOT:
 
-- invent canonical claims;
-- renumber RC identifiers;
-- assign evidence status without an evidence record;
-- convert provisional mathematics into validated doctrine;
+- invent RC identifiers;
+- create `RC-23`;
+- assign evidence status without support;
+- convert provisional mathematics into established law;
 - treat Naturepedia as independent confirmation of itself;
-- erase historical provenance; or
-- infer missing domain-transfer declarations.
+- erase historical provenance;
+- infer missing domain-transfer declarations;
+- represent Hopf or E8 as original Grand Compression mathematics;
+- invent a Hopf Plate family, Registry, System Map, Knowledge Mesh, or x402 route.
 
 ---
 
-# Authorship Conservation Rule
+# 30. Required Conceptual Distinctions
 
-All concepts, claims, terminology, and structures originating in the Grand Compression Cosmology and Robbie’s Razor™ retain their original authorship attribution.
+Repository documents and implementations MUST preserve:
 
-**Author and originator:** Robbie George
-
-Implementations, evaluations, mirrors, datasets, benchmarks, agents, and derivative documentation MUST preserve:
-
-- original authorship;
-- canonical claim provenance;
-- framework terminology;
-- version identity;
-- source links; and
-- the distinction between originating a claim and producing evidence about it.
-
-Implementation, testing, criticism, or machine transformation does not transfer or erase authorship.
-
----
-
-# Evaluation Sequence
-
-The MRD v2.0 evaluation sequence is:
-
-```txt
-Grand Compression Framework
-→ Robbie’s Razor
-→ RKCA candidate structure
-→ Preserved Reusable Structure validation
-→ RRIP inheritance
-→ prediction and benchmark evaluation
-→ evidence record
-→ preserve / restrict / revise / replace / retire
-→ governed human and machine retrieval
+```text
+compression
+≠
+preservation
 ```
 
-Implementation, inheritance, publication, and retrieval MUST NOT be mistaken for validation.
+```text
+preservation
+≠
+validation
+```
+
+```text
+inheritance
+≠
+correctness
+```
+
+```text
+implementation
+≠
+confirmation
+```
+
+```text
+canonical publication
+≠
+empirical confirmation
+```
+
+```text
+discovery
+≠
+authority
+```
+
+```text
+payment
+≠
+evidence
+```
+
+```text
+retrieval
+≠
+licensing
+```
+
+```text
+established mathematics
+≠
+Grand Compression validation
+```
+
+```text
+structural correspondence
+≠
+material identity
+```
 
 ---
 
-# Infrastructure Boundaries
+# 31. Infrastructure Boundaries
 
-MRD v2.0 propagation MUST NOT independently change:
+Propagation of MRD v2.0 interpretation MUST NOT independently modify:
 
-- canonical Plate™ counts;
-- endpoint counts;
+- canonical Plate™ count;
 - registry counts;
-- paid-resource paths;
+- endpoint counts;
 - route aliases;
+- protected-resource paths;
 - x402 pricing;
 - wallet configuration;
 - facilitator configuration;
 - settlement verification;
-- human browser bypass;
-- existing Plate™ payloads;
-- strict 404 handling; or
-- the governance header:
+- browser bypass behavior;
+- existing payloads;
+- availability gates;
+- strict 404 / 409 behavior.
 
-```txt
+MRD version and registry version remain separate state dimensions.
+
+The MRD version MUST NOT overwrite an independent `registry_version` field.
+
+---
+
+# 32. Delivery Boundary
+
+A governed protected-delivery sequence may be represented as:
+
+```text
+Request
+→ canonical route normalization
+→ resource classification
+→ explicit availability validation
+→ deterministic payment challenge when eligible
+→ payment verification
+→ settlement
+→ payload construction
+→ boundary-fidelity validation
+→ canonical serialization
+→ hash / request binding
+→ governed delivery
+```
+
+Each stage has distinct evidence.
+
+A successful earlier stage does not prove completion of later stages.
+
+For example:
+
+```text
+402 challenge observed
+≠
+settlement completed
+```
+
+---
+
+# 33. Governance Header
+
+The primary Grand Compression governance response header currently includes:
+
+```text
 X-Robbie-Razor-Governance: Gr <= Es
 ```
 
-MRD version and registry version are separate state dimensions.
+This header communicates framework governance metadata.
 
-The MRD version MUST NOT overwrite the independent `registry_version` field.
-
-The existing delivery boundary remains:
-
-```txt
-Request
-→ route validation
-→ resource validation
-→ 402 challenge when applicable
-→ settlement verification
-→ payload construction
-→ boundary validation
-→ canonical serialization
-→ hash generation
-→ verified delivery
-```
-
-MRD v2.0 strengthens authority, provenance, evidence, and metadata fidelity. It does not alter settlement mechanics.
+It does not independently establish that the relation represented by the header has been empirically validated as a universal physical law.
 
 ---
 
-# Canonical Status Is Not Empirical Confirmation
+# 34. Authorship Conservation Rule
 
-```txt
-canonical publication ≠ empirical confirmation
-reference implementation ≠ independent validation
-successful implementation ≠ universal validation
-payment ≠ evidence
-settlement ≠ scientific support
-payload delivery ≠ claim verification
-registry inclusion ≠ supported evidence status
-machine readability ≠ truth
-```
+The Grand Compression Cosmology, Robbie’s Razor™, Comparative Compression Geometry™, RKCA™, RRIP™, Plates™, and associated original framework terminology originate with:
 
-Canonical authority establishes what the framework states.
+**Robbie George**
 
-Evidence governance records whether a claim is supported, challenged, inconclusive, or otherwise classified within a declared scope.
+Implementations, evaluations, datasets, benchmarks, agents, machine-readable transformations, and derivative explanations MUST preserve:
+
+- originating authorship;
+- conceptual provenance;
+- version identity;
+- canonical claim provenance;
+- source links where applicable;
+- distinction between claim authorship and evidence production.
+
+Implementation, testing, criticism, or machine transformation does not transfer authorship of the originating framework.
+
+Established mathematics and external science retain their independent historical provenance.
 
 ---
 
-# Citation
+# 35. Evaluation Sequence
+
+A governed repository evaluation sequence may be represented as:
+
+```text
+Grand Compression framework
+→ declared framework proposition
+→ implementation candidate
+→ preservation / fidelity evaluation
+→ benchmark or prediction
+→ evidence record
+→ evidence-state assignment
+→ preserve / restrict / revise / replace / retire
+→ governed publication and retrieval
+```
+
+No stage may be silently promoted into another.
+
+In particular:
+
+```text
+publication
+≠
+validation
+```
+
+```text
+inheritance
+≠
+validation
+```
+
+```text
+retrieval
+≠
+validation
+```
+
+---
+
+# 36. Final Epistemic Boundary
+
+The repository MUST preserve:
+
+```text
+canonical authority
+≠
+empirical confirmation
+```
+
+```text
+reference implementation
+≠
+independent validation
+```
+
+```text
+successful benchmark
+≠
+universal law
+```
+
+```text
+machine readability
+≠
+truth
+```
+
+```text
+payment
+≠
+scientific support
+```
+
+```text
+established mathematics
+≠
+framework validation
+```
+
+Canonical authority establishes what the Grand Compression Framework states.
+
+Evidence governance records what has or has not been supported under declared conditions.
+
+---
+
+# 37. Citation
 
 Robbie George.  
 **The Grand Compression Cosmology — Master Reference Document, MRD v2.0.**  
-Identifier: GC-MRD-v2.0.  
-Foundational completion: December 1, 2025.  
-Expanded July 30, 2026.
+Canonical identifier: `GC-MRD-v2.0`.
 
 Canonical authority:
 
 https://www.robbiegeorgephotography.com/grand-compression-master-reference-document
 
-Complete versioned PDF:
-
-https://asf-file-uploads.s3.us-east-1.amazonaws.com/image/upload/production/3790/Grand-Compr_1247ef65e1/1785596435.pdf
-
-For claim-level citation:
+Canonical Claims Register:
 
 https://www.robbiegeorgephotography.com/grand-compression-canonical-claims
 
 ---
 
-# Status
+# 38. Status
 
 **Current governing authority:** MRD v2.0  
-**Identifier:** GC-MRD-v2.0  
-**Repository role:** Public technical, benchmark, doctrine, governance, and implementation-alignment layer  
-**Reference implementation:** Naturepedia™  
-**Appendix Q status:** Provisional  
-**Historical version preserved:** MRD v1.9  
+**Canonical identifier:** `GC-MRD-v2.0`  
 **Canonical claim range:** RC-01 through RC-22  
+**Repository role:** Technical, benchmark, doctrine, governance, and implementation-alignment layer  
+**Primary reference implementation:** Naturepedia™  
+**Appendix Q status:** Provisional  
+**Historical versions:** Preserve genuine provenance  
+**Hopf Fibration:** Established mathematics / bounded CCG comparison class  
+**E8:** Established mathematics / separate bounded CCG reference  
+**Enriched Query:** Reserved  
+**Current x402 pricing authority:** `/.well-known/x402-pricing.json` version 3.0.0
 
-Canonical definitions remain governed by MRD v2.0 and the public Canonical Claims Register.
+Canonical definitions remain governed by MRD v2.0 and the Canonical Claims Register.
