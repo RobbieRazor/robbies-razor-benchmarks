@@ -593,8 +593,6 @@ Hopf Fibration, E8, division algebras, Bott periodicity, and octonionic structur
 
 ---
 
----
-
 # Current Retrieval Families
 
 Weather™
