@@ -72,7 +72,9 @@ Agents MUST NOT:
 - treat Appendix Q as finalized mathematics;
 - infer validation from x402 payment or delivery;
 - infer licensing rights from public discovery or paid retrieval;
-- treat structural correspondence as proof of material identity; or
+- treat structural correspondence as proof of material identity;
+- treat established mathematical references such as Hopf Fibration or E8 as independent empirical validation of Grand Compression;
+- infer nonexistent Plate™, Registry, System Map, Knowledge Mesh, or x402 resources from public discovery records; or
 - infer missing domain-transfer declarations.
 
 ## Canonical Claim Range
@@ -199,6 +201,85 @@ Agents MUST distinguish among:
 - material identity.
 
 If the required declarations are unavailable, the transfer MUST be restricted rather than inferred.
+
+## Comparative Compression Geometry — Mathematical Reference Contract
+
+Comparative Compression Geometry™ is governed by **MRD v2.0 §12.9**.
+
+Agents MUST distinguish established mathematical reference structures from Grand Compression framework interpretation.
+
+### Hopf Fibration
+
+Canonical public reference:
+
+https://www.robbiegeorgephotography.com/hopf-fibration
+
+Classification:
+
+- Parent system: Geometry of Nature™
+- Domain: Mathematics / Topology / Fiber Bundles / State-Space Geometry
+- Evidence class: Established mathematics
+- CCG relationship: Bounded structural comparison class
+- Framework role: Comparative only
+- Classical structure: `S¹ ↪ S³ → S²`
+- Public discovery: Active
+- Payment required: No
+- Plate family: Not registered
+- Registry: Not registered
+- System Map: Not registered
+- Knowledge Mesh: Not registered
+- x402 retrieval family: Not registered
+
+Agents MAY use the Hopf fibration as an established mathematical reference for:
+
+- fiber structure;
+- equivalence classes;
+- quotient structure;
+- dimensional reduction;
+- canonical representation;
+- linked topology;
+- state-space geometry;
+- Bloch-sphere relationships for pure single-qubit states; and
+- bounded structural comparison within Comparative Compression Geometry™.
+
+Agents MUST preserve:
+
+`established Hopf mathematics ≠ Grand Compression validation`
+
+Agents MUST NOT infer that:
+
+- the Hopf fibration independently validates Grand Compression;
+- Hopf topology is universal in nature;
+- natural systems literally instantiate Hopf geometry because of visual or structural resemblance;
+- dimensional similarity establishes physical identity;
+- structural correspondence establishes shared mechanism, causation, or material identity;
+- Hopf Fibration and E8 are interchangeable mathematical objects;
+- Hopf Fibration, division algebras, Bott periodicity, octonions, and E8 form a simple causal chain; or
+- public Hopf discovery implies the existence of a Plate™, Registry, System Map, Knowledge Mesh, or x402 paid resource.
+
+### E8 Boundary
+
+E8 Lattice™ remains a separate bounded mathematical reference within Comparative Compression Geometry™.
+
+Agents MUST NOT interpret E8 as:
+
+- a universal physical substrate;
+- proof that natural systems literally instantiate E8;
+- empirical validation of Grand Compression; or
+- mathematically interchangeable with Hopf Fibration.
+
+Hopf Fibration and E8 may occupy related mathematical landscapes while remaining distinct mathematical structures.
+
+### Endpoint Integrity Rule
+
+Agents MUST NOT invent or infer any of the following unless a later governed production record explicitly creates them:
+
+```text
+/v1/registries/hopf-fibration
+/v1/plates/hopf-fibration-map
+/v1/knowledge-mesh/hopf-fibration
+/x402/hopf...
+```
 
 ## Required Conceptual Distinctions
 
