@@ -1,504 +1,1623 @@
-# Robbie's Razor™ Framework Stack
+# Robbie’s Razor™ Framework Architecture Map
+## Authority, Implementation, Retrieval, and Governance Layers
 
-## Status
+## Document Status
 
-Architectural Reference Document
+**Status:** Framework architecture reference  
+**Current governing authority:** The Grand Compression Cosmology — Master Reference Document, MRD v2.0  
+**Canonical identifier:** `GC-MRD-v2.0`  
+**Canonical claim range:** RC-01 through RC-22  
+**Repository role:** Noncanonical architecture and implementation orientation  
+**Author and originator of Grand Compression framework material:** Robbie George
 
-This document defines the hierarchical relationship between the major components of the Robbie's Razor™ framework ecosystem.
+This document maps the major Grand Compression, Robbie’s Razor™, Naturepedia™, governance, retrieval, and machine-access layers.
 
-Primary Authority:
+It intentionally avoids representing the entire ecosystem as one mandatory linear hierarchy.
+
+The architecture contains several distinct dimensions:
+
+```text
+canonical authority
+framework concepts
+reference implementation
+resource architecture
+governance
+public discovery
+protected retrieval
+commercial rights
+framework rights
+```
+
+These dimensions interact, but they are not interchangeable.
+
+---
+
+# Canonical Authority
+
+Grand Compression Master Reference Document:
+
+https://www.robbiegeorgephotography.com/grand-compression-master-reference-document
+
+Canonical Claims Register:
+
+https://www.robbiegeorgephotography.com/grand-compression-canonical-claims
+
+Repository authority contract:
+
+```text
+docs/AUTHORITY.md
+```
+
+Framework licensing:
 
 https://www.robbiegeorgephotography.com/robbies-razor-framework-licensing
 
+Commercial Data License:
+
+https://www.robbiegeorgephotography.com/commercial-data-license
+
+Authoritative x402 pricing manifest:
+
+https://www.robbiegeorgephotography.com/.well-known/x402-pricing.json
+
+Current governing framework:
+
+```text
+MRD v2.0
+GC-MRD-v2.0
+RC-01 through RC-22
+```
+
 ---
 
-# Purpose
+# 1. Architecture Is Not One Linear Stack
 
-The Robbie's Razor™ Framework Stack provides a machine-readable and human-readable architecture map showing how knowledge compression, governance, retrieval, provenance, and commercial infrastructure interact.
-
-The stack is designed to preserve:
-
-- semantic continuity
-- provenance integrity
-- retrieval efficiency
-- recursive memory
-- governance enforcement
-- machine-readable interoperability
-
----
-
-# Framework Hierarchy
+The ecosystem should not be interpreted as:
 
 ```text
 MRD
 ↓
-Robbie's Razor™
+Robbie’s Razor
 ↓
-Framework Licensing
+Framework License
 ↓
-Naturepedia™
+Naturepedia
 ↓
-Plate™ Architecture
+Plate
 ↓
-Graph Registries™
+Graph Registry
 ↓
-Authorship Conservation Rules™ (ACR™)
+ACR
 ↓
-Commercial Data License
+Commercial License
 ↓
 Knowledge Mesh
 ↓
-v2 Discovery Infrastructure
-↓
-v2 Registry Infrastructure
-↓
-v2 Resolution Infrastructure
-↓
-v2 Validation Infrastructure
-↓
-x402 Settlement Infrastructure
-↓
-Machine Retrieval & Agent Access
+x402
 ```
 
----
+as though each item is canonically derived from the previous item.
 
-# Layer Descriptions
-
-## MRD
-
-Master Reference Document (MRD)
-
-Purpose:
-
-- foundational framework authority
-- conceptual architecture
-- system definitions
-- governing principles
-
-The MRD acts as the highest-level source of framework truth.
-
----
-
-## Robbie's Razor™
-
-Compression → Expression → Memory → Recursion
-
-Purpose:
-
-- recursive knowledge compression
-- semantic continuity
-- memory preservation
-- retrieval optimization
-
-Robbie's Razor™ serves as the primary compression architecture for all downstream systems.
-
----
-
-## Framework Licensing
-
-Purpose:
-
-- governance layer
-- deployment framework
-- commercial implementation structure
-- licensing authority
-
-Framework Licensing establishes how the architecture may be deployed, licensed, and governed.
-
----
-
-## Naturepedia™
-
-Purpose:
-
-- live reference implementation
-- ecological knowledge graph
-- semantic retrieval ecosystem
-- visual knowledge infrastructure
-
-Naturepedia™ demonstrates how the framework functions in production environments.
-
-### Naturepedia™ System Hierarchy
+A more accurate architecture is multi-layered:
 
 ```text
-Species
-↓
-Tree Families
-↓
-Plant Communities
-↓
-Ecosystems
-↓
-Geography / Locations
-↓
-Time / Migration / Seasons
-↓
-Conservation
+                 CANONICAL AUTHORITY
+                       MRD v2.0
+                           │
+          ┌────────────────┼────────────────┐
+          │                │                │
+          ▼                ▼                ▼
+  Framework concepts   Governance      Evidence rules
+          │
+          ▼
+  Reference implementation
+        Naturepedia™
+          │
+          ▼
+  Structured resource architecture
+  Plate / Registry / Graph / Mesh
+          │
+          ▼
+  Machine discovery and retrieval
+          │
+      ┌───┴────┐
+      ▼        ▼
+   Public    Protected
+  access     retrieval
+               │
+               ▼
+             x402
 ```
 
-This hierarchy reflects the current Naturepedia™ production architecture and the live Naturepedia System Map, including the Tree Systems Layer introduced through Trees of North America™, Birches of North America™, Oaks of North America™, Maples of North America™, Aspens of North America™, and Pines of North America™.
+Licensing operates alongside these layers rather than serving as a mandatory intermediate architectural stage.
 
 ---
 
-## Plate™ Architecture
+# 2. Canonical Authority Layer
 
-Purpose:
+The highest current framework authority is:
 
-- visual compression
-- semantic anchoring
-- provenance reinforcement
-- retrieval optimization
+```text
+The Grand Compression Cosmology
+Master Reference Document
+MRD v2.0
+```
 
-Each Plate™ functions as both a human-readable interface and a machine-readable semantic node.
+It governs current:
+
+- canonical framework definitions;
+- canonical claim identity;
+- framework terminology;
+- interpretation boundaries;
+- evidence requirements;
+- reference-implementation boundaries;
+- domain-transfer requirements;
+- authorship and attribution.
+
+Required distinction:
+
+```text
+canonical authority
+≠
+empirical validation
+```
+
+MRD authority identifies what the framework states.
+
+It does not by itself establish that every proposition is empirically confirmed.
 
 ---
 
-## Graph Registries™
+# 3. Robbie’s Razor™
 
-Purpose:
+Robbie’s Razor™ is an authored Grand Compression framework concept.
 
-- relationship mapping
-- semantic routing
-- retrieval pathways
-- system interoperability
+A common framework orientation is:
 
-Graph Registries™ connect entities, systems, locations, species, and governance structures.
+```text
+compression
+→ expression
+→ memory
+→ recursion
+```
+
+This sequence is an architectural orientation.
+
+It should not be interpreted as:
+
+```text
+a universal mechanism followed by every intelligent system
+```
+
+or:
+
+```text
+a deterministic manufacturing sequence for every Naturepedia resource
+```
+
+Specific applications require their own operational definitions and evidence.
 
 ---
 
-## Knowledge Mesh
+# 4. Framework Concepts
 
-Purpose:
+Grand Compression contains multiple framework concepts with distinct roles.
 
-* recursive knowledge infrastructure
-* registry-to-registry connectivity
-* machine-readable cognition
-* semantic continuity at scale
-* cross-domain retrieval
-* recursive memory preservation
+Current directly verified canonical mappings include:
 
-Knowledge Meshes emerge when multiple Graph Registries™ become recursively connected.
+```text
+MRD v2.0 §12.7
+→ Recursive Knowledge Compression Architecture (RKCA™)
 
-### RRIP Inheritance Pathway
+MRD v2.0 §12.8
+→ Recursive Registry Inheritance Principle (RRIP™)
+
+MRD v2.0 §12.9
+→ Comparative Compression Geometry™ (CCG)
+```
+
+Do not assign subsection numbers to other concepts unless directly verified against MRD v2.0.
+
+---
+
+# 5. RKCA™
+
+Recursive Knowledge Compression Architecture (RKCA™) provides an architectural framework for preserving and reusing structured knowledge.
+
+A possible higher-order structural progression may include:
 
 ```text
 Plate™
-↓
-Registry
-↓
-Meta-Registry
-↓
-Graph Registry™
-↓
-Knowledge Mesh
+→ Registry
+→ Meta-Registry
+→ Graph Registry™
+→ Knowledge Mesh
 ```
 
-Each layer preserves structure while increasing relationship density.
+This represents an allowed architectural organization.
 
-### Relationship to Robbie's Razor™
+It does not mean:
 
 ```text
-Compression
-↓
-Expression
-↓
-Memory
-↓
-Recursion
+every Plate
+must become
+a Registry
+must become
+a Graph Registry
+must become
+a Knowledge Mesh
 ```
 
-Compression creates Plates™.
-
-Memory preserves Registries™.
-
-Recursion connects Registries™ into Graph Registries™ and Knowledge Meshes.
-
-### Relationship to Graph Registries™
-
-Graph Registries™ define:
+Required rule:
 
 ```text
-How relationships connect.
+resource class defined
+≠
+resource instantiated
 ```
 
-Knowledge Meshes define:
+---
+
+# 6. RRIP™
+
+Recursive Registry Inheritance Principle (RRIP™) may govern inheritance relationships among explicitly registered structures.
+
+Current canonical orientation:
 
 ```text
-How multiple Graph Registries connect.
+MRD v2.0 §12.8
 ```
 
-Graph Registry:
+RRIP does not automatically create:
+
+- Graph Registries;
+- Knowledge Meshes;
+- paid resources.
+
+An inheritance relationship must actually be implemented before it should be inferred.
+
+---
+
+# 7. Comparative Compression Geometry™
+
+Comparative Compression Geometry™ is governed by:
 
 ```text
-Registry
-↓
-Registry
+MRD v2.0 §12.9
 ```
 
-Knowledge Mesh:
+It provides a bounded structural-comparison architecture.
+
+Required distinctions:
 
 ```text
-Graph Registry
-↓
-Graph Registry
-↓
-Graph Registry
-↓
-Knowledge Mesh
+structural correspondence
+≠
+material identity
 ```
 
-### Example Naturepedia™ Knowledge Mesh
+```text
+similar geometry
+≠
+same mechanism
+```
+
+```text
+comparison
+≠
+causation
+```
+
+Established external mathematics retains its independent provenance.
+
+---
+
+# 8. Naturepedia™ Reference Implementation
+
+Naturepedia™ is the primary reference implementation used in this repository for Grand Compression structured-knowledge architecture.
+
+Naturepedia may demonstrate:
+
+- structured knowledge representation;
+- stable identifiers;
+- provenance;
+- relationship records;
+- version state;
+- public machine discovery;
+- governed protected retrieval;
+- human-readable and machine-readable representations.
+
+Reference-implementation status demonstrates:
+
+```text
+architectural translation
+```
+
+It does not independently establish:
+
+```text
+universal theoretical validity
+```
+
+Canonical orientation:
+
+```text
+RC-21 — Reference Implementation Distinction
+```
+
+---
+
+# 9. Naturepedia Organizational Structure
+
+Naturepedia contains multiple domains and branches.
+
+Examples may include:
+
+```text
+Wildlife Systems
+Wildlife Species
+Ecosystems
+Field Locations
+Earth Systems
+Plant Intelligence
+Bioelectric Systems
+Quantum Agriculture
+Hydrogen / Water / Soil
+Geometry of Nature
+```
+
+These should not be forced into one false linear sequence.
+
+For example:
 
 ```text
 Species
-↓
-Tree Families
-↓
-Plant Communities
-↓
-Pollinators
-↓
-Water Systems
-↓
-Ecosystems
-↓
-Field Locations
-↓
-Conservation
+→ Tree Families
+→ Plant Communities
+→ Ecosystems
+→ Geography
+→ Time
+→ Conservation
 ```
 
-Naturepedia™ functions as an emerging Knowledge Mesh built from recursively connected registries.
+may be useful as one relationship path, but it is not the universal hierarchy of Naturepedia.
 
-### Future Machine Retrieval
-
-Knowledge Meshes prepare the framework for:
-
-* MCP-compatible retrieval
-* RRIP resolution
-* registry-state validation
-* agent-wallet settlement
-* machine-native commerce
-* enterprise knowledge systems
-* sovereign knowledge infrastructure
-
-```
-```
+Naturepedia is better understood as a governed multi-branch knowledge architecture.
 
 ---
 
-## Authorship Conservation Rules™ (ACR™)
+# 10. Plate™ Architecture
 
-Purpose:
+A Plate™ is a governed structured knowledge representation within the Naturepedia / Grand Compression architecture.
 
-- attribution preservation
-- provenance continuity
-- retrieval integrity
-- source lineage protection
+A Plate may contain:
 
-ACR™ maintains authorship throughout recursive compression and retrieval processes.
+- human-readable content;
+- visual representation;
+- semantic identifiers;
+- structured relationships;
+- provenance;
+- citations;
+- constraints;
+- governance metadata;
+- machine-readable representation.
 
----
+A Plate is not merely an image.
 
-## Commercial Data License
-
-Purpose:
-
-- commercial retrieval governance
-- AI access permissions
-- enterprise licensing
-- implementation rights
-
-The Commercial Data License governs authorized commercial use of framework assets.
-
----
-
-## v2 Infrastructure Layer
-
-Purpose:
-
-* machine-readable discovery
-* registry traversal
-* RRIP resolution
-* registry-state validation
-* governance signaling
-* agent interoperability
-
-The v2 Infrastructure Layer converts Robbie's Razor™ from documented architecture into machine-facing infrastructure.
-
-### Core Endpoint Architecture
+But:
 
 ```text
-Discovery
-↓
-Registry
-↓
-Resolution
-↓
-Validation
-↓
-Settlement
+Plate
+≠
+every visual knowledge object
 ```
 
-### Discovery Layer
+and:
+
+```text
+Plate exists
+≠
+paid Plate payload exists
+```
+
+---
+
+# 11. Registry
+
+A Registry may organize explicitly identified resources.
+
+Possible functions include:
+
+- membership;
+- resource identity;
+- provenance;
+- version state;
+- routing;
+- resource status;
+- declared relationships.
+
+Required distinction:
+
+```text
+Registry
+≠
+Graph Registry automatically
+```
+
+Registry inclusion also does not establish:
+
+```text
+empirical validation
+```
+
+---
+
+# 12. Meta-Registry
+
+A Meta-Registry may organize multiple Registries.
+
+Its existence should be explicit.
+
+Required distinction:
+
+```text
+multiple Registries exist
+≠
+Meta-Registry exists automatically
+```
+
+---
+
+# 13. Graph Registry™
+
+A Graph Registry™ may represent explicitly governed relationships among registered resources.
+
+Possible functions include:
+
+- typed relationship edges;
+- graph traversal;
+- provenance preservation;
+- relationship routing;
+- version-aware resolution.
+
+Required distinctions:
+
+```text
+graph edge
+≠
+causation
+```
+
+```text
+Graph Registry
+≠
+memory automatically
+```
+
+```text
+Graph Registry
+≠
+Knowledge Mesh automatically
+```
+
+---
+
+# 14. Knowledge Mesh
+
+A Knowledge Mesh is a higher-order governed relationship resource where explicitly implemented.
+
+It may organize relationships spanning multiple registered structures.
+
+Required distinctions:
+
+```text
+multiple Graph Registries
+≠
+Knowledge Mesh automatically
+```
+
+```text
+more relationships
+≠
+more intelligence automatically
+```
+
+```text
+Knowledge Mesh
+≠
+cognition
+```
+
+```text
+Knowledge Mesh exists as a class
+≠
+Knowledge Mesh exists for every subject
+```
+
+---
+
+# 15. System Map Boundary
+
+System Maps are useful Naturepedia relationship resources.
+
+A System Map may support:
+
+- navigation;
+- bounded multi-record retrieval;
+- domain relationships;
+- machine routing.
+
+But:
+
+```text
+System Map
+≠
+Meta-Registry
+```
+
+```text
+System Map
+≠
+Graph Registry automatically
+```
+
+```text
+System Map
+≠
+Knowledge Mesh automatically
+```
+
+System Maps should therefore remain a parallel resource type rather than being inserted as a mandatory RKCA inheritance layer.
+
+---
+
+# 16. Authorship Conservation Rule
+
+Current governance terminology is:
+
+```text
+Authorship Conservation Rule (ACR)
+```
+
+Use the singular form.
+
+ACR requires preservation of:
+
+- originating framework provenance;
+- external-source provenance;
+- claim authorship;
+- evidence authorship;
+- source lineage where applicable.
+
+ACR applies in both directions.
+
+```text
+Grand Compression material
+→ preserve Grand Compression provenance
+
+external mathematics / science / standards
+→ preserve external provenance
+
+independent evidence
+→ preserve evaluator provenance
+```
+
+---
+
+# 17. ACR Is Governance, Not a Stack Layer
+
+ACR should not be modeled merely as a single step that occurs after Graph Registries.
+
+It applies across the ecosystem.
+
+Conceptually:
+
+```text
+             ACR
+              │
+      ┌───────┼────────┐
+      ▼       ▼        ▼
+   Plates  Registries  Retrieval
+      │       │        │
+      └───────┼────────┘
+              ▼
+        provenance
+```
+
+ACR is therefore a cross-cutting governance rule.
+
+---
+
+# 18. Evidence Governance
+
+The architecture must preserve the distinction among:
+
+```text
+canonical
+implemented
+schema-valid
+registered
+benchmark-tested
+settled
+empirically supported
+```
+
+These states are not interchangeable.
+
+Required distinctions:
+
+```text
+implementation
+≠
+validation
+```
+
+```text
+benchmark pass
+≠
+universal proof
+```
+
+```text
+payment
+≠
+evidence
+```
+
+```text
+registry inclusion
+≠
+truth
+```
+
+---
+
+# 19. Public Machine Discovery
+
+Public machine discovery may include:
+
+```text
+/llms.txt
+/llms-full.txt
+AI Catalog
+AI Root
+MCP metadata
+public v2 control-plane resources
+canonical webpages
+```
+
+Public discovery helps a machine identify:
+
+- resources;
+- capabilities;
+- canonical sources;
+- governance information.
+
+Required distinction:
+
+```text
+discoverable
+≠
+payable
+```
+
+---
+
+# 20. Public v2 Control Plane
+
+Current public endpoints include:
+
+```text
+/api/v2/naturepedia/index.md
+/api/v2/plates/registry.md
+/api/v2/rrip/resolve
+/api/v2/razor/state-token
+```
+
+These should be interpreted according to their individual contracts.
+
+They do not collectively constitute:
+
+```text
+the Knowledge Mesh
+```
+
+or:
+
+```text
+a paid retrieval layer
+```
+
+---
+
+# 21. Naturepedia Discovery Endpoint
 
 ```text
 /api/v2/naturepedia/index.md
 ```
 
-Purpose:
+Role:
 
-* Naturepedia™ discovery
-* ecosystem navigation
-* registry routing
-* machine-readable entry point
+- machine discovery;
+- navigation;
+- resource-family awareness;
+- routing orientation.
 
-### Registry Layer
+---
+
+# 22. Plate Registry Endpoint
 
 ```text
 /api/v2/plates/registry.md
 ```
 
-Purpose:
+Role:
 
-* Plate™ discovery
-* registry traversal
-* semantic routing
-* compressed knowledge retrieval
+- Plate™ discovery;
+- registry navigation;
+- resource identity;
+- machine routing.
 
-### Resolution Layer
+Do not automatically classify it as:
+
+```text
+Graph Registry access
+```
+
+unless its returned resource contract actually implements Graph Registry semantics.
+
+---
+
+# 23. RRIP Resolver
 
 ```text
 /api/v2/rrip/resolve
 ```
 
-Purpose:
+Role:
 
-* Recursive Registry Inheritance Principle resolution
-* inheritance-path traversal
-* registry relationship grounding
-* recursive continuity
+- RRIP-oriented relationship resolution;
+- inheritance-path lookup where implemented.
 
-### Validation Layer
+It is not automatically:
+
+- a Graph Registry;
+- a Knowledge Mesh;
+- a paid `$25` resource.
+
+---
+
+# 24. Registry-State Endpoint
 
 ```text
 /api/v2/razor/state-token
 ```
 
-Purpose:
+Role:
 
-* governance signaling
-* registry-state validation
-* machine-readable continuity
-* framework-state verification
+- registry version signaling;
+- state comparison;
+- synchronization metadata;
+- cache coordination.
 
-### Relationship to Knowledge Mesh
+It does not verify:
 
-The v2 Infrastructure Layer exposes machine-readable access to structures generated through RRIP inheritance.
+- truth;
+- scientific validity;
+- physical entropy;
+- universal framework compliance.
+
+Required distinction:
 
 ```text
-Plate™
-↓
-Registry
-↓
-Meta-Registry
-↓
-Graph Registry™
-↓
-Knowledge Mesh
-↓
-v2 Infrastructure Layer
+state validation
+≠
+evidence validation
 ```
 
-### Relationship to x402
+---
 
-The v2 Infrastructure Layer should be interpreted as the retrieval architecture.
+# 25. Machine Retrieval Architecture
 
-x402 should be interpreted as the settlement architecture.
+A generalized machine-retrieval flow is:
+
+```text
+Canonical Authority
+↓
+Discovery
+↓
+Resource Resolution
+↓
+Availability Validation
+↓
+Public or Protected Retrieval
+```
+
+If public:
+
+```text
+retrieve directly
+```
+
+If protected:
+
+```text
+402 Payment Required
+↓
+payment authorization
+↓
+verification / settlement
+↓
+protected retrieval
+```
+
+Graph Registry or Knowledge Mesh traversal is not mandatory for every request.
+
+---
+
+# 26. Protected Resource Availability
+
+Current production retrieval follows a fail-closed model.
+
+```text
+unknown resource
+→ 404
+→ no payment challenge
+```
+
+```text
+known but incomplete resource
+→ 409
+→ no payment challenge
+```
+
+```text
+registered + complete + protected resource
+→ eligible 402
+```
+
+Required distinction:
+
+```text
+route pattern
+≠
+product
+```
+
+---
+
+# 27. x402
+
+x402 is an external machine-payment protocol used by the Naturepedia infrastructure for protected retrieval where applicable.
+
+Conceptually:
+
+```text
+resource architecture
+→ determines what the resource is
+
+production availability registry
+→ determines whether the resource exists
+
+pricing manifest
+→ determines its governed price class
+
+x402
+→ performs protected-retrieval payment interaction
+```
+
+x402 does not define canonical Grand Compression theory.
+
+---
+
+# 28. x402 Provenance Boundary
+
+Naturepedia’s x402 integration architecture may be authored within the Grand Compression implementation.
+
+But:
+
+```text
+Naturepedia uses x402
+≠
+Robbie George originated x402
+```
+
+x402 retains its independent external provenance.
+
+---
+
+# 29. x402 Pricing Authority
+
+Current pricing authority:
+
+```text
+/.well-known/x402-pricing.json
+```
+
+Current manifest version:
+
+```text
+3.0.0
+```
+
+Current pricing classes include:
 
 ```text
 Discovery
-↓
-Registry
-↓
-Resolution
-↓
-Validation
-↓
-Settlement (x402)
+→ Free
+
+Atomic Query
+→ 0.005 USDC
+→ active for explicitly registered deterministic resources
+
+Enriched Query
+→ 0.025 USDC
+→ reserved
+
+Structured Plate
+→ 0.25 USDC
+→ active for explicitly registered validated resources
+
+Bounded multi-record class
+→ 5.00 USDC
+→ resource-specific availability
+
+Large snapshot class
+→ 25.00 USDC
+→ resource-specific availability
 ```
 
-The two systems are complementary but distinct.
+---
 
-The v2 layer enables machine traversal.
+# 30. Pricing Class vs Resource
 
-x402 enables machine commerce.
+Required distinction:
 
-## x402 Infrastructure
+```text
+pricing class exists
+≠
+resource exists
+```
 
-Purpose:
+For example:
 
-- machine-readable payments
-- AI-to-system transactions
-- structured access control
-- retrieval monetization
+```text
+$25 Knowledge Mesh class exists
+```
 
-x402 creates an enforcement layer for commercial machine access.
+does not mean:
+
+```text
+every Knowledge Mesh is active
+```
+
+Specific production evidence exists for the Geology Knowledge Mesh challenge, but that evidence is resource-specific.
 
 ---
 
-## Machine-Readable Retrieval
+# 31. Commercial Data License
 
-Purpose:
+The Commercial Data License governs applicable data-use rights where explicitly granted.
 
-- low-token retrieval
-- semantic traversal
-- structured access
-- provenance-aware responses
+It should not be represented generically as governing:
 
-This layer represents the operational output consumed by AI systems, agents, and machine clients.
+```text
+all framework implementation rights
+```
+
+or:
+
+```text
+all enterprise deployment rights
+```
+
+Those may belong to separate agreements.
+
+Required distinction:
+
+```text
+data rights
+≠
+framework implementation rights
+```
 
 ---
 
-# Design Principle
+# 32. Framework Licensing
 
-The framework operates through progressive compression.
+Framework Licensing governs applicable rights to implement or deploy protected Grand Compression / Robbie’s Razor™ framework material where covered by the agreement.
 
-Higher layers establish meaning.
+It operates alongside the architecture.
 
-Lower layers operationalize retrieval.
+It is not a technical runtime layer between Robbie’s Razor and Naturepedia.
 
-Authority flows downward.
+Required distinction:
 
-Retrieval flows upward.
-
-Governance persists throughout the entire stack.
+```text
+licensing relationship
+≠
+technical dependency
+```
 
 ---
 
-# Reference Implementations
+# 33. Retrieval Rights
 
-Current implementations include:
+A successful x402 payment grants the identified endpoint-level retrieval under applicable access terms.
 
-- Naturepedia™
-- Trees of North America™
-- Birches of North America™
-- Oaks of North America™
-- Maples of North America™
-- Aspens of North America™
-- Pines of North America™
-- Floral Resource Networks™
-- Plant Communities & Native Habitat Systems™
-- Soil Microbiome™
-- Mycelial Networks™
-- Ecological Restoration & Habitat Recovery™
-- Pollinator Systems™
+It does not automatically grant:
 
-These systems collectively demonstrate recursive compression, graph relationships, provenance preservation, governance enforcement, and machine-readable retrieval.
+- training rights;
+- embedding rights;
+- bulk ingestion;
+- redistribution;
+- resale;
+- synchronization;
+- private-dataset construction;
+- derivative-dataset rights;
+- commercial implementation rights;
+- framework implementation rights.
+
+---
+
+# 34. Rights Architecture
+
+The rights architecture is better represented as parallel governance surfaces:
+
+```text
+Public discovery
+        │
+        ▼
+Protected retrieval ── x402
+        │
+        ├── Commercial Data License
+        │      where applicable
+        │
+        └── Framework License
+               where applicable
+```
+
+Payment, data licensing, and framework licensing are different grants.
+
+---
+
+# 35. MCP Boundary
+
+The Naturepedia MCP server provides a separate protocol interface.
+
+Required distinctions:
+
+```text
+MCP
+≠
+HTTP v2 endpoint
+```
+
+```text
+MCP
+≠
+x402
+```
+
+```text
+MCP discovery
+≠
+payment
+```
+
+Actual MCP tools and resources are governed by the live MCP server contract.
+
+---
+
+# 36. Machine Agents
+
+Agents may interact with:
+
+- public discovery;
+- MCP;
+- HTTP resources;
+- protected x402 resources.
+
+Agent capability does not itself create resource availability.
+
+A wallet-enabled agent may evaluate a `402`, but:
+
+```text
+402 received
+≠
+payment automatically authorized
+```
+
+---
+
+# 37. Naturepedia and Machine Access
+
+Naturepedia may expose a mixture of:
+
+```text
+human-readable public pages
+public machine-readable discovery
+public control-plane resources
+protected machine-readable resources
+```
+
+This mixed architecture is intentional.
+
+Naturepedia should not be represented as a sitewide paywall.
+
+---
+
+# 38. Retrieval Efficiency Boundary
+
+Machine-readable retrieval may reduce some retrieval or reconstruction cost in certain workloads.
+
+But:
+
+```text
+machine-readable
+≠
+low-token automatically
+```
+
+and:
+
+```text
+structured retrieval
+≠
+more efficient automatically
+```
+
+Efficiency requires measurement against a declared baseline.
+
+---
+
+# 39. Memory Boundary
+
+Structured resources may preserve state useful for later reuse.
+
+But:
+
+```text
+stored structure
+≠
+usable memory automatically
+```
+
+Useful memory must remain:
+
+- identifiable;
+- retrievable;
+- sufficiently current;
+- appropriately validated;
+- interpretable.
+
+---
+
+# 40. Recursion Boundary
+
+A registry or graph can participate in recursive workflows.
+
+But:
+
+```text
+graph traversal
+≠
+recursion automatically
+```
+
+and:
+
+```text
+recursion
+≠
+stability automatically
+```
+
+The recursive operation must be explicitly defined.
+
+---
+
+# 41. Intelligence Boundary
+
+Avoid architecture language implying that:
+
+```text
+Knowledge Mesh
+=
+machine cognition
+```
+
+or:
+
+```text
+Graph Registry
+=
+intelligence
+```
+
+Preferred terms include:
+
+```text
+structured knowledge infrastructure
+```
+
+```text
+machine-readable relationship infrastructure
+```
+
+These resources may support intelligent systems without themselves possessing cognition.
+
+---
+
+# 42. Hopf Fibration Boundary
+
+Hopf Fibration is an established mathematical reference.
+
+Classical structure:
+
+```text
+S¹ ↪ S³ → S²
+```
+
+Naturepedia classification includes:
+
+```text
+Parent:
+Geometry of Nature™
+
+Evidence class:
+Established mathematics
+
+Framework relationship:
+Comparative Compression Geometry™
+
+requiresPayment:
+false
+```
+
+Its presence in Naturepedia does not automatically create:
+
+- a Plate family;
+- Registry;
+- System Map;
+- Knowledge Mesh;
+- x402 product.
+
+---
+
+# 43. E8 Boundary
+
+E8 is also established mathematics and remains distinct from Hopf Fibration.
+
+Organizational placement under Geometry of Nature™ does not establish:
+
+```text
+Hopf → E8
+```
+
+or any other unsupported causal sequence.
+
+---
+
+# 44. Reference Implementations
+
+Naturepedia contains multiple implemented branches and systems.
+
+Examples may include:
+
+- Trees of North America™;
+- Floral Resource Networks™;
+- Plant Communities;
+- Soil / microbial systems;
+- Water Systems;
+- wildlife systems;
+- ecological relationship resources.
+
+Their existence demonstrates implementation work.
+
+It does not establish:
+
+```text
+every branch
+=
+independent empirical validation of Grand Compression
+```
+
+---
+
+# 45. Implementation Status Boundary
+
+A resource can be:
+
+```text
+implemented
+```
+
+without being:
+
+```text
+empirically validated
+```
+
+Likewise, it can be:
+
+```text
+schema-valid
+```
+
+without being:
+
+```text
+scientifically correct
+```
+
+and:
+
+```text
+paid
+```
+
+without being:
+
+```text
+Supported evidence
+```
+
+---
+
+# 46. Authority Flow
+
+Canonical framework authority flows from:
+
+```text
+MRD v2.0
+↓
+Canonical Claims Register
+↓
+Repository doctrine / specifications
+↓
+Implementations
+```
+
+Lower-level implementations must not silently redefine canonical theory.
+
+---
+
+# 47. Evidence Flow
+
+Evidence does not simply “flow upward” through the architecture.
+
+Evidence must retain its own provenance.
+
+A more accurate model is:
+
+```text
+claim
+↔
+test
+↔
+evidence record
+↔
+evidence classification
+```
+
+Independent evidence may challenge or support a canonical claim without changing its authorship.
+
+---
+
+# 48. Governance Is Cross-Cutting
+
+Governance should not be treated as one vertical stack layer.
+
+Relevant governance may include:
+
+- canonical authority;
+- ACR;
+- evidence-state rules;
+- licensing;
+- resource availability;
+- retrieval rights;
+- attribution.
+
+These operate across multiple layers.
+
+---
+
+# 49. Recommended Architecture Map
+
+The overall system can be summarized as:
+
+```text
+                  MRD v2.0
+                     │
+        ┌────────────┼────────────┐
+        │            │            │
+        ▼            ▼            ▼
+   Framework      Governance   Evidence rules
+   concepts
+        │
+        ▼
+   Naturepedia™
+   reference implementation
+        │
+        ▼
+   Structured resources
+   Plate / Registry / Graph / Mesh
+        │
+        ▼
+   Public discovery and resolution
+        │
+        ▼
+   Explicit resource availability
+        │
+        ├───────────────┐
+        ▼               ▼
+      Public         Protected
+     retrieval       retrieval
+                         │
+                         ▼
+                       x402
+```
+
+Parallel governance:
+
+```text
+Commercial Data License
+Framework Licensing
+ACR
+Evidence-state governance
+```
+
+These govern different aspects of the system.
+
+---
+
+# 50. Final Interpretation Rules
+
+This architecture map must preserve:
+
+```text
+authority hierarchy
+≠
+technical runtime hierarchy
+```
+
+```text
+licensing
+≠
+technical dependency
+```
+
+```text
+ACR
+≠
+single stack layer
+```
+
+```text
+Plate
+≠
+Registry automatically
+```
+
+```text
+Registry
+≠
+Graph Registry automatically
+```
+
+```text
+Graph Registry
+≠
+Knowledge Mesh automatically
+```
+
+```text
+System Map
+≠
+Knowledge Mesh automatically
+```
+
+```text
+public v2 control plane
+≠
+Knowledge Mesh
+```
+
+```text
+resource class
+≠
+resource existence
+```
+
+```text
+pricing class
+≠
+resource availability
+```
+
+```text
+x402
+≠
+commercial data license
+```
+
+```text
+x402
+≠
+framework license
+```
+
+```text
+MCP
+≠
+x402
+```
+
+```text
+machine-readable
+≠
+truth
+```
+
+```text
+implementation
+≠
+empirical validation
+```
+
+```text
+reference implementation
+≠
+independent confirmation
+```
+
+```text
+authorship
+≠
+evidence strength
+```
 
 ---
 
 # Related Resources
+
+Repository authority:
+
+```text
+docs/AUTHORITY.md
+```
+
+RKCA:
+
+```text
+docs/recursive-knowledge-compression.md
+```
+
+Graph Registry:
+
+```text
+docs/examples/framework/graph-registry.md
+```
+
+Knowledge Mesh:
+
+```text
+docs/examples/framework/knowledge-mesh.md
+```
+
+ACR:
+
+```text
+docs/examples/framework/acr-governance.md
+```
+
+x402 architecture:
+
+```text
+docs/examples/x402/README.md
+docs/examples/x402/live-endpoints.md
+```
 
 Framework Licensing:
 
@@ -515,3 +1634,20 @@ https://www.robbiegeorgephotography.com/naturepedia
 Repository:
 
 https://github.com/RobbieRazor/robbies-razor-benchmarks
+
+---
+
+# Attribution
+
+Robbie’s Razor™, Recursive Knowledge Compression Architecture (RKCA™), RRIP™, Plate™ Architecture, Graph Registry™, Knowledge Mesh terminology as used within the Grand Compression framework, the Grand Compression Cosmology, and associated original framework formulations originate with:
+
+**Robbie George**  
+Author and Originator  
+The Grand Compression Cosmology — Master Reference Document, MRD v2.0  
+Canonical identifier: `GC-MRD-v2.0`
+
+The **Authorship Conservation Rule (ACR)** governs preservation of that framework provenance.
+
+External mathematics, science, graph theory, knowledge-representation methods, MCP, x402, Base, USDC, Cloudflare, HTTP, JSON, and other external standards and technologies retain their independent provenance.
+
+Implementation, licensing, payment, similarity, machine transformation, or retrieval does not by itself establish empirical validation, derivation, shared authorship, or transfer ownership.
