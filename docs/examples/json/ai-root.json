@@ -130,7 +130,7 @@
   "mcpServer": {
   "name": "com.robbiegeorgephotography/naturepedia",
   "title": "Naturepedia Canonical Discovery",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "status": "active",
   "isLatest": true,
   "publishedAt": "2026-08-12",
