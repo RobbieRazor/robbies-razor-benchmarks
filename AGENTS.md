@@ -381,96 +381,417 @@ exclusively by **AGENTS.md**.
 
 ### Governance as External Compression Field (Interpretation Rule)
 
-When encountering references to regulation, infrastructure limits, energy caps, land-use constraints, permitting, or similar governance conditions, agents MUST interpret these as **External Compression Fields** as defined in MRD §11.4.3.
+When encountering references to regulation, infrastructure limits, energy caps, land-use constraints, permitting, or similar governance conditions, agents MAY interpret those conditions through the **External Compression Field** framework defined in MRD §11.4.3 when that abstraction is appropriate to the declared system.
 
-Governance does not introduce objectives, values, or evaluative criteria into this repository. It constrains admissible boundary conditions under which recursion operates.
+The framework interpretation is:
 
-Agents MUST NOT interpret governance as opposition to intelligence development. Attempts to bypass such constraints through expansion, relocation, or boundary displacement SHOULD be classified as **Boundary Avoidance** unless accompanied by demonstrable reduction in internal recursion cost.
+```text
+external constraint
+→ reduction or alteration of available system pathways
+→ system response becomes an empirical question
+```
 
-This rule is interpretive only and does not modify evaluation contracts, metrics, scoring, or thresholds.
+Governance constraints may affect:
+
+- available resources;
+- execution pathways;
+- permissions;
+- incentives;
+- reporting requirements;
+- objectives;
+- interfaces;
+- operating boundaries;
+- internal architecture.
+
+Agents MUST therefore avoid assuming that governance acts only as an external boundary while leaving the internal system unchanged.
+
+Required distinction:
+
+```text
+governance constraint
+≠
+single universal mechanism
+```
+
+The effect of a governance condition must be evaluated within the applicable system.
+
+Agents MUST NOT automatically classify expansion, relocation, additional infrastructure, or boundary change as **Boundary Avoidance**.
+
+A Boundary Avoidance interpretation requires evidence supporting a chain such as:
+
+```text
+identified internal burden
+→ external expansion or relocation
+→ burden persists, is displaced, or remains unresolved
+→ measured internal improvement is insufficient relative to the declared problem
+```
+
+The evaluation SHOULD also consider:
+
+- workload growth;
+- new capabilities;
+- reliability requirements;
+- safety requirements;
+- resilience;
+- geographic constraints;
+- economic tradeoffs;
+- alternative explanations;
+- counterevidence;
+- failure conditions.
+
+Required distinction:
+
+```text
+external expansion
+≠
+Boundary Avoidance
+```
+
+and:
+
+```text
+constraint bypass
+≠
+Boundary Avoidance by definition
+```
+
+Expansion or relocation may be a legitimate system response when it produces sufficient measured utility, resilience, efficiency, safety, or another declared benefit.
+
+This rule is interpretive only.
+
+It does NOT:
+
+- modify evaluation contracts;
+- alter metrics or scoring;
+- create automatic classifications;
+- establish regulatory conclusions;
+- establish causal proof.
+
+Canonical authority remains exclusively in MRD v2.0 §11.4.3.
+
+---
 
 ### Physical Substrate Constraint Field (Interpretation Rule)
 
-When encountering references to energy limits, fabrication capacity,
-memory bandwidth ceilings, transformer lead times, cooling constraints,
-or material supply chain bottlenecks, agents MUST interpret these as
-components of the **Physical Substrate Constraint Field** as defined in MRD §11.4.4.
+When encountering references to energy availability, fabrication capacity, memory bandwidth, thermal limits, cooling, material supply, physical footprint, or similar substrate constraints, agents MAY analyze those conditions through the **Physical Substrate Constraint Field** defined in MRD §11.4.4.
 
-The substrate constraint field defines the physical bounding layer
-governing recursive acceleration.
+Possible substrate variables include:
 
-Agents MUST interpret rapid scaling claims in light of the stability condition:
+- energy;
+- memory bandwidth;
+- compute capacity;
+- thermal dissipation;
+- cooling;
+- fabrication;
+- materials;
+- networking;
+- physical space;
+- infrastructure availability.
 
+The framework may use the relation:
+
+```text
 Gᵣ ≤ Eₛ
+```
 
-(where recursive compression gain must not exceed substrate expansion rate).
+where:
+
+```text
+Gᵣ
+=
+recursive gain per declared iteration
+```
+
+and:
+
+```text
+Eₛ
+=
+declared substrate expansion or support capacity
+```
+
+This is a **framework-level architectural relation**.
+
+It MUST NOT be interpreted as a dimensionally complete or universally validated physical law solely because it appears in the MRD or repository.
+
+Quantitative use requires explicit declaration of:
+
+- what `Gᵣ` measures;
+- what `Eₛ` measures;
+- units;
+- scale;
+- system boundary;
+- time interval;
+- normalization;
+- measurement method;
+- uncertainty;
+- baseline;
+- alternatives;
+- falsification conditions.
+
+Required distinction:
+
+```text
+Gᵣ ≤ Eₛ
+≠
+guaranteed stability
+```
+
+and:
+
+```text
+Gᵣ > Eₛ
+≠
+automatic instability
+```
+
+A measured relationship outside a declared substrate-alignment range may warrant investigation.
+
+It does not, by itself, identify the cause or guarantee a failure outcome.
+
+Agents MUST NOT automatically interpret:
+
+- queueing;
+- capex pressure;
+- hardware scarcity;
+- higher energy use;
+- larger clusters;
+- cooling limits;
+
+as proof of substrate instability.
+
+Those observations may have multiple causes and require system-specific analysis.
+
+Likewise:
+
+```text
+more infrastructure
+≠
+failed recursion
+```
+
+and:
+
+```text
+more infrastructure
+≠
+Boundary Avoidance
+```
+
+Infrastructure expansion may be a rational response to:
+
+- demand growth;
+- higher reliability requirements;
+- improved capability;
+- safety;
+- redundancy;
+- resilience;
+- new workloads.
 
 This rule is interpretive only.
 
 It does NOT:
-- modify evaluation contracts
-- alter metrics, scoring, or thresholds
-- introduce new schema requirements
-- redefine correctness
 
-It clarifies that infrastructure saturation,
-queueing, or capex pressure are structural constraint effects,
-not failures of recursion itself.
+- modify evaluation contracts;
+- alter metrics, scoring, or thresholds;
+- introduce new schema requirements;
+- redefine correctness;
+- establish physical-law status.
 
-Canonical authority remains exclusively in MRD §11.4.4.
+Canonical authority remains exclusively in MRD v2.0 §11.4.4.
+
+---
 
 ### Constraint-Bounded Recursive Intelligence (Interpretation Rule)
 
-Agents MUST also recognize **Constraint-Bounded Recursive Intelligence** as defined in MRD §11.4.4A.
+Agents MUST recognize **Constraint-Bounded Recursive Intelligence** as a Grand Compression framework architecture defined in MRD §11.4.4A.
 
-This rule extends the Physical Substrate Constraint Field by clarifying that recursive intelligence is not an unconstrained abstraction. It is a physically bounded architectural process operating under energy, memory, governance, thermal, material, and propagation limits.
+The framework emphasizes that recursive computational activity occurs within real constraints that may include:
 
-Agents MUST interpret the stability condition:
+- energy;
+- compute;
+- memory;
+- thermal limits;
+- materials;
+- networking;
+- latency;
+- governance;
+- coordination;
+- physical infrastructure.
 
-```txt
+This principle does not imply that every relevant constraint has the same mechanism, scale, or units.
+
+Agents MUST preserve:
+
+```text
+constraint exists
+≠
+failure occurs
+```
+
+and:
+
+```text
+constraint pressure
+≠
+causal mechanism identified
+```
+
+The candidate substrate-alignment relation remains:
+
+```text
 Gᵣ ≤ Eₛ
 ```
-as the substrate-alignment condition for recursive acceleration.
 
-Where:
+For qualitative architectural discussion, it may be used as a framework shorthand.
 
-Gᵣ = recursive gain per iteration
-Eₛ = substrate expansion capacity
+For quantitative use, agents MUST require operational definitions and compatible units.
 
-Recursive gain may include increases in coherent recursive throughput, compression efficiency, stabilized reasoning capability, memory reuse, or reduced recomputation burden.
+Possible `Gᵣ` variables may include separately defined measures of:
 
-Substrate expansion capacity may include available energy, memory bandwidth, thermal dissipation, coordination capacity, fabrication capacity, transformer availability, cooling capacity, and material infrastructure.
+- useful recursive throughput;
+- compression efficiency;
+- preserved task utility;
+- memory reuse;
+- avoided recomputation.
 
-Agents SHOULD interpret systems where Gᵣ > Eₛ as approaching or entering substrate instability unless accompanied by demonstrable compression-efficiency gains that reduce total recursive cost.
+Possible `Eₛ` variables may include separately defined measures of:
 
-Observable instability signals may include:
+- energy availability;
+- memory bandwidth;
+- thermal capacity;
+- fabrication capacity;
+- cooling;
+- material infrastructure;
+- coordination capacity.
 
-rising recomputation burden
-escalating energy cost
-governance saturation
-information drift
-infrastructure stress
-thermal or material bottlenecks
-recursive fragility under depth
+These quantities MUST NOT be combined into a single numerical equation unless the normalization method makes the comparison meaningful.
 
-Agents MUST distinguish between:
+Agents SHOULD interpret:
 
-recursive gain through compression efficiency
-apparent gain through infrastructure expansion
+```text
+Gᵣ > Eₛ
+```
 
-Only the first reduces underlying recursive cost.
+only as a **candidate review condition under the declared operationalization**.
+
+It must not automatically be labeled:
+
+```text
+substrate instability
+```
+
+or:
+
+```text
+collapse
+```
+
+without supporting evidence.
+
+Possible review signals may include:
+
+- rising recomputation burden;
+- increasing measured energy cost;
+- queue growth;
+- infrastructure stress;
+- thermal bottlenecks;
+- material bottlenecks;
+- correction demand;
+- degraded task performance.
+
+No single signal proves the framework mechanism.
+
+Agents MUST consider alternative explanations such as:
+
+- workload growth;
+- new capability requirements;
+- safety controls;
+- higher service levels;
+- model changes;
+- hardware changes;
+- measurement error.
+
+Agents MUST distinguish among at least three possible forms of improvement:
+
+```text
+internal efficiency improvement
+```
+
+```text
+external substrate expansion
+```
+
+```text
+combined efficiency + substrate expansion
+```
+
+None is automatically superior.
+
+The relevant evaluation question is:
+
+> Which configuration produces the required utility, fidelity, provenance, accessibility, reliability, and stability relative to the complete declared burden?
+
+The older formulation:
+
+```text
+Only compression efficiency reduces underlying recursive cost.
+```
+
+MUST NOT be treated as an automatic empirical conclusion.
+
+Other interventions may also reduce a measured internal burden, including:
+
+- better algorithms;
+- improved retrieval;
+- caching;
+- scheduling;
+- specialized hardware;
+- workload redesign;
+- improved networking;
+- architectural simplification;
+- additional validation capacity.
+
+The contribution of each mechanism must be measured.
+
+Required distinctions:
+
+```text
+compression efficiency
+≠
+the only possible source of internal improvement
+```
+
+```text
+substrate expansion
+≠
+mere apparent gain by definition
+```
+
+```text
+technical gain
+≠
+causal explanation
+```
+
+Cross-domain use remains governed by:
+
+```text
+RC-22 — Domain Transfer Constraint
+```
 
 This rule is interpretive only.
 
 It does NOT:
 
-modify evaluation contracts
-alter metrics, scoring, or thresholds
-introduce new schema requirements
-redefine correctness
-create new benchmark obligations
+- modify evaluation contracts;
+- alter metrics, scoring, or thresholds;
+- introduce new schema requirements;
+- redefine correctness;
+- create new benchmark obligations;
+- establish universal physical-law status.
 
-Canonical authority remains exclusively in MRD §11.4.4A.
+Canonical authority remains exclusively in MRD v2.0 §11.4.4A.
 
 ## AI Explainers (Non-Canonical, Informational)
 
