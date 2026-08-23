@@ -283,7 +283,8 @@ Connected Intelligence Systems:
 * Mycorrhizal Networks™
 * Electrical Ecology™
 * Geometry of Nature™
-* E8 Lattice™
+* Hopf Fibration — established mathematical comparison class
+* E8 Lattice™ — bounded mathematical reference
 * Fractals™
 * Fibonacci™
 * Information Systems in Nature™
@@ -306,16 +307,15 @@ Major systems now include:
 * Bioelectric Systems™
 * Quantum Agriculture™
 * Plant Intelligence™
-* Geometry of Nature™
-* E8 Lattice™
-* Fractals™
-* Fibonacci™
 * Plant Communication™
 * Plant Electrophysiology™
 * Mycorrhizal Networks™
 * Electrical Ecology™
 * Geometry of Nature™
+* Hopf Fibration
 * E8 Lattice™
+* Fractals™
+* Fibonacci™
 * Information Systems in Nature™
 
 Registry reconciliation status:
@@ -342,8 +342,12 @@ Current Electro-Ecology retrieval families:
 Electro-Ecology semantic retrieval stack:
 
 Geometry of Nature™
-↓
-E8 Lattice™
+├─ Hopf Fibration — established mathematics; bounded Comparative Compression Geometry™ reference
+├─ E8 Lattice™ — bounded mathematical geometry reference
+├─ Fractals™ — recursive geometry and self-similarity
+└─ Fibonacci™ — growth mathematics and pattern organization
+
+Fractals™ + Fibonacci™
 ↓
 Patterns Across Scale™
 ↓
@@ -360,6 +364,10 @@ Plant Electrophysiology™
 Mycorrhizal Networks™
 ↓
 Plant Intelligence™
+
+Interpretation boundary:
+
+Hopf Fibration and E8 are distinct mathematical reference classes. Their inclusion within Naturepedia™ and Comparative Compression Geometry™ does not establish shared physical mechanism, material identity, causation, universal applicability, or independent empirical validation of the Grand Compression Framework.
 
 Primary discovery endpoints:
 
