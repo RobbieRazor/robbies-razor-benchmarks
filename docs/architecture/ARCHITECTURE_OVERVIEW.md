@@ -421,7 +421,7 @@ Its candidate objective function must not be described as a finalized universal 
 
 ## Comparative Compression Geometry™
 
-Comparative Compression Geometry provides a bounded framework for comparing normalized structural relationships across systems.
+Comparative Compression Geometry™ provides a bounded framework for comparing normalized structural relationships across systems.
 
 It must preserve explicit distinctions among:
 
@@ -444,9 +444,81 @@ Before comparing systems across domains or scales, the analysis must declare:
 - alternatives
 - failure conditions
 
-E8 Lattice™ may be used as one bounded mathematical example. It must not be represented as the universal physical substrate or literal geometry of nature without independent evidence supporting that claim.
+### Established Mathematical Reference Classes
 
-Canonical orientation: MRD v2.0 and RC-22.
+Comparative Compression Geometry™ may use established mathematical structures as bounded comparison classes without treating those structures as proof of the Grand Compression Framework.
+
+#### Hopf Fibration
+
+Canonical public reference:
+
+https://www.robbiegeorgephotography.com/hopf-fibration
+
+Classification:
+
+- Parent: Geometry of Nature™
+- Domain: Mathematics / Topology / Fiber Bundles / State-Space Geometry
+- Evidence class: Established mathematics
+- CCG relationship: Bounded structural comparison class
+- Framework role: Comparative only
+- Classical structure: `S¹ ↪ S³ → S²`
+- Public discovery: Active
+- Payment required: No
+
+The Hopf fibration may be used as a bounded mathematical comparison for:
+
+- fiber structure;
+- equivalence classes;
+- quotient structure;
+- dimensional reduction;
+- canonical representation;
+- linked topology;
+- state-space geometry;
+- Bloch-sphere relationships for pure single-qubit states; and
+- preservation of nontrivial relational structure under a defined mapping.
+
+The Hopf fibration is established mathematics.
+
+Its inclusion within Comparative Compression Geometry™ does not independently establish:
+
+- validation of Grand Compression;
+- universal Hopf topology in nature;
+- shared physical mechanism across compared systems;
+- material identity;
+- causal equivalence; or
+- universal applicability.
+
+Hopf Fibration currently does not constitute a Naturepedia Plate™, Registry, System Map, Knowledge Mesh, or x402 paid retrieval family.
+
+#### E8 Lattice™
+
+E8 Lattice™ remains a separate bounded mathematical reference within Comparative Compression Geometry™.
+
+It must not be represented as:
+
+- the universal physical substrate;
+- literal geometry instantiated by natural systems without independent evidence;
+- empirical validation of Grand Compression; or
+- mathematically interchangeable with Hopf Fibration.
+
+Hopf Fibration and E8 may occupy related mathematical landscapes while remaining distinct mathematical structures.
+
+Agents and implementations must not collapse Hopf Fibration, division algebras, Bott periodicity, octonions, and E8 into a simple causal or identity chain.
+
+### Interpretation Boundary
+
+Mathematical correspondence does not by itself establish physical identity.
+
+Structural similarity does not establish shared mechanism.
+
+Dimensional or visual resemblance does not establish causation.
+
+A bounded mathematical comparison must remain within the declared objects, scale, normalization, evidence, constraints, and failure conditions required by the Domain Transfer Constraint.
+
+Canonical orientation:
+
+- MRD v2.0 §12.9 — Comparative Compression Geometry™
+- RC-22 — Domain Transfer Constraint
 
 ---
 
