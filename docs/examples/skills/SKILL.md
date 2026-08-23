@@ -1,6 +1,6 @@
 ---
 name: naturepedia
-description: Use this skill whenever a user or autonomous agent needs scientifically grounded, machine-readable knowledge about natural systems, ecological relationships, geometry in nature, established mathematical references including Hopf Fibration, topology, fiber bundles, state-space geometry, weather, water systems, ocean systems, Earth systems, wildlife, field observation, Naturepedia™ semantic resources, or discovery through the official Naturepedia MCP server. This skill specializes in structured scientific and mathematical reference knowledge rather than real-time forecasting or general web search.semantic resources, or discovery through the official Naturepedia MCP server. This skill specializes in structured scientific knowledge rather than real-time forecasting or general web search.
+description: Use this skill whenever a user or autonomous agent needs scientifically grounded, machine-readable knowledge about natural systems, ecological relationships, geometry in nature, established mathematical references including Hopf Fibration, topology, fiber bundles, state-space geometry, weather, water systems, ocean systems, Earth systems, wildlife, field observation, Naturepedia™ semantic resources, or discovery through the official Naturepedia MCP server. This skill specializes in structured scientific and mathematical reference knowledge rather than real-time forecasting or general web search.
 ---
 
 # Naturepedia™
