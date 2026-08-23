@@ -1,124 +1,200 @@
 {
   "version": "2.0.0",
   "endpoint": "/api/v2/rrip/resolve",
+  "endpointClass": "public-control-plane",
+  "requiresPayment": false,
+
   "principle": "Recursive Registry Inheritance Principle",
   "abbreviation": "RRIP",
-  "architect_of_record": "Robbie George",
-  "framework": "Robbie's Razor",
+
+  "authority": {
+    "framework": "Grand Compression",
+    "masterReferenceDocument": "MRD v2.0",
+    "canonicalIdentifier": "GC-MRD-v2.0",
+    "canonicalRelationship": "MRD v2.0 §12.8",
+    "canonicalClaimRange": "RC-01 through RC-22",
+    "architectOfRecord": "Robbie George",
+    "website": "https://www.robbiegeorgephotography.com"
+  },
+
+  "purpose": "Public machine-facing resolution of registered object identity, parent registry context, provenance, governance metadata, and available relationship context.",
+
   "primitive": [
     "compression",
     "expression",
     "memory",
     "recursion"
   ],
-  "canonical_pathway": [
-    "Plate™",
-    "Registry",
-    "Meta-Registry",
-    "Graph Registry™",
-    "Knowledge Mesh"
-  ],
-  "retrieval_sequence": [
-    "State Validation",
-    "Discovery",
-    "Registry",
-    "Resolution",
-    "Conditional Retrieval",
-    "Settlement"
-  ],
-  "relationship_to_robbies_razor": {
-    "compression": "Knowledge compressed into reusable structures",
-    "expression": "Structures expressed as Plates™ and registries",
-    "memory": "Knowledge preserved through inheritance pathways",
-    "recursion": "Compressed structures become substrates for future compression cycles"
+
+  "frameworkInterpretation": {
+    "compression": "Structure may be reduced or organized while preserving information required for the declared purpose.",
+    "expression": "Preserved structure may be represented through Plates, registries, or other declared interfaces.",
+    "memory": "Relevant identity, relationships, provenance, constraints, or state may be preserved for later retrieval or reuse.",
+    "recursion": "Preserved structure may be reused or transformed across subsequent processing cycles."
   },
-  "interpretation": "Compressed registries may become the substrate for future compression cycles through recursive inheritance, state validation, and machine-readable retrieval.",
-  "governance_principle": "Gr <= Es",
-  "registry_layers": {
-    "plate": "Foundational knowledge asset",
-    "registry": "Collection of related Plates™",
-    "meta_registry": "Registry of registries",
-    "graph_registry": "Relationship-aware registry layer",
-    "knowledge_mesh": "Highest-order knowledge structure currently defined"
+
+  "registryArchitecture": {
+    "plate": {
+      "defined": true,
+      "role": "Registered knowledge object or interface"
+    },
+    "registry": {
+      "defined": true,
+      "role": "Collection or routing context for registered objects"
+    },
+    "metaRegistry": {
+      "defined": true,
+      "instantiation": "resource-specific"
+    },
+    "graphRegistry": {
+      "defined": true,
+      "instantiation": "resource-specific"
+    },
+    "knowledgeMesh": {
+      "defined": true,
+      "instantiation": "resource-specific"
+    }
   },
-  "resolution_mode": "static_with_initial_query_examples",
-  "supported_query_parameter": "id",
-  "example_resolution": {
+
+  "interpretationBoundary": {
+    "plateDoesNotImplyMetaRegistry": true,
+    "plateDoesNotImplyGraphRegistry": true,
+    "plateDoesNotImplyKnowledgeMesh": true,
+    "registryRelationshipDoesNotImplyCausation": true,
+    "resolutionDoesNotImplyPayment": true,
+    "resolutionDoesNotImplyProtectedResource": true,
+    "resolutionDoesNotImplyEmpiricalValidation": true,
+    "higherOrderLayersRequireExplicitImplementation": true
+  },
+
+  "resolutionMode": "registered-object-resolution",
+  "supportedQueryParameter": "id",
+
+  "queryEncoding": {
+    "identifierFormat": "page-slug#plate-slug",
+    "httpQueryRule": "Encode # as %23 when the identifier is supplied inside a URL query parameter.",
+    "example": "/api/v2/rrip/resolve?id=willows-of-north-america%23willow-biodiversity-plate"
+  },
+
+  "resolutionProcess": [
+    "Receive registered object identifier",
+    "Resolve canonical registry entry",
+    "Resolve directly declared parent context",
+    "Resolve available relationships",
+    "Resolve governance and provenance metadata",
+    "Return public machine-readable resolution context"
+  ],
+
+  "retrievalRelationship": {
+    "publicSequence": [
+      "Discovery",
+      "Registry",
+      "RRIP Resolution",
+      "Resource Selection",
+      "Availability Check"
+    ],
+    "afterAvailabilityCheck": {
+      "publicResource": "free retrieval where exposed",
+      "registeredProtectedResource": "x402 flow may apply",
+      "unknownResource": "404 without payment challenge",
+      "knownIncompleteResource": "409 without payment challenge"
+    }
+  },
+
+  "canonicalRegistry": {
+    "path": "docs/examples/json-ld/canonical-plate-registry.json",
+    "registryVersion": "2026.08.19",
+    "canonicalPlateCount": 757
+  },
+
+  "exampleResolution": {
     "input": "willows-of-north-america#willow-biodiversity-plate",
-    "resolved_path": [
+    "query": "/api/v2/rrip/resolve?id=willows-of-north-america%23willow-biodiversity-plate",
+    "resolvedPath": [
       "Willow Biodiversity Plate™",
-      "Willows of North America™ Registry",
-      "Naturepedia™ Registry",
-      "Graph Registry™",
-      "Knowledge Mesh"
-    ]
+      "Willows of North America Plates",
+      "Naturepedia™"
+    ],
+    "higherOrderResources": "resolve only when explicitly implemented and registered",
+    "paymentRequiredForResolution": false
   },
-  "initial_query_examples": [
+
+  "initialQueryExamples": [
     {
-      "query": "/api/v2/rrip/resolve?id=willows-of-north-america#willow-biodiversity-plate",
+      "query": "/api/v2/rrip/resolve?id=willows-of-north-america%23willow-biodiversity-plate",
       "input": "willows-of-north-america#willow-biodiversity-plate",
-      "resolved_path": [
+      "resolvedPath": [
         "Willow Biodiversity Plate™",
-        "Willows of North America™ Registry",
-        "Naturepedia™ Registry",
-        "Graph Registry™",
-        "Knowledge Mesh"
+        "Willows of North America Plates",
+        "Naturepedia™"
       ]
     },
     {
-      "query": "/api/v2/rrip/resolve?id=cedars-of-north-america#cedar-identification-plate",
+      "query": "/api/v2/rrip/resolve?id=cedars-of-north-america%23cedar-identification-plate",
       "input": "cedars-of-north-america#cedar-identification-plate",
-      "resolved_path": [
+      "resolvedPath": [
         "Cedar Identification Plate™",
-        "Cedars of North America™ Registry",
-        "Naturepedia™ Registry",
-        "Graph Registry™",
-        "Knowledge Mesh"
+        "Cedars of North America Plates",
+        "Naturepedia™"
       ]
     },
     {
-      "query": "/api/v2/rrip/resolve?id=firs-of-north-america#fir-carbon-storage-plate",
+      "query": "/api/v2/rrip/resolve?id=firs-of-north-america%23fir-carbon-storage-plate",
       "input": "firs-of-north-america#fir-carbon-storage-plate",
-      "resolved_path": [
+      "resolvedPath": [
         "Fir Carbon Storage Plate™",
-        "Firs of North America™ Registry",
-        "Naturepedia™ Registry",
-        "Graph Registry™",
-        "Knowledge Mesh"
+        "Firs of North America Plates",
+        "Naturepedia™"
       ]
     },
     {
-      "query": "/api/v2/rrip/resolve?id=hickories-of-north-america#hickory-biodiversity-plate",
+      "query": "/api/v2/rrip/resolve?id=hickories-of-north-america%23hickory-biodiversity-plate",
       "input": "hickories-of-north-america#hickory-biodiversity-plate",
-      "resolved_path": [
+      "resolvedPath": [
         "Hickory Biodiversity Plate™",
-        "Hickories of North America™ Registry",
-        "Naturepedia™ Registry",
-        "Graph Registry™",
-        "Knowledge Mesh"
+        "Hickories of North America Plates",
+        "Naturepedia™"
       ]
     }
   ],
-  "future_capabilities": [
+
+  "governance": {
+    "expression": "Gr <= Es",
+    "interpretation": "Framework governance metadata; not an empirical validation claim."
+  },
+
+  "commercialBoundary": {
+    "rripResolution": "public control-plane operation",
+    "x402Retrieval": "applies only to explicitly registered protected resources",
+    "commercialDataLicense": "separate rights layer",
+    "frameworkLicense": "separate implementation-rights layer",
+    "paymentDoesNotGrantTrainingRights": true,
+    "paymentDoesNotGrantEmbeddingRights": true,
+    "paymentDoesNotGrantRedistributionRights": true,
+    "paymentDoesNotGrantFrameworkImplementationRights": true
+  },
+
+  "relatedEndpoints": {
+    "discovery": "/api/v2/naturepedia/index.md",
+    "registry": "/api/v2/plates/registry.md",
+    "stateValidation": "/api/v2/razor/state-token"
+  },
+
+  "futureCapabilities": [
     "Dynamic registry lookup",
     "Registry lineage inspection",
-    "Plate inheritance resolution",
-    "Registry graph traversal",
+    "Expanded relationship resolution",
     "Machine-readable provenance tracing",
-    "x402-enabled retrieval settlement",
+    "Explicit Graph Registry traversal where implemented",
+    "Explicit Knowledge Mesh traversal where implemented",
     "MCP-compatible registry navigation"
   ],
-  "authority": {
-    "master_reference_document": "Grand Compression Master Reference Document v1.9",
-    "website": "https://www.robbiegeorgephotography.com",
-    "discovery_endpoint": "/api/v2/naturepedia/index.md",
-    "registry_endpoint": "/api/v2/plates/registry.md",
-    "state_validation_endpoint": "/api/v2/razor/state-token"
-  },
+
   "status": {
     "rrip": "active",
-    "registry_state": "synchronized",
-    "resolution_mode": "static_with_initial_query_examples",
-    "x402_ready": true
+    "controlPlane": "public",
+    "resolutionMode": "registered-object-resolution",
+    "higherOrderResources": "resource-specific",
+    "x402ProtectedRetrieval": "resource-specific"
   }
 }
