@@ -1,35 +1,109 @@
 # Master Naturepedia Registry Reconciliation™
+## Historical Registry Reconciliation Record
 
-**Status:** Canonical Registry Audit In Progress
+**Status:** Historical / Completed Registry-Reconciliation Working Record  
+**Author & Architect of Record:** Robbie George  
+**Current governing framework:** The Grand Compression Cosmology — Master Reference Document, MRD v2.0  
+**Canonical identifier:** `GC-MRD-v2.0`  
+**Current inventory authority:** `docs/examples/json-ld/canonical-plate-registry.json`
 
-**Author & Architect of Record:** Robbie George
+---
+
+# Current Status Notice
+
+This document preserves the historical reconciliation process used to classify and reconcile Naturepedia™ Plate assets across earlier registry, discovery, Worker, and documentation surfaces.
+
+It is **not the current authoritative machine-readable Plate inventory**.
+
+The current canonical machine-readable registry is:
+
+```text
+docs/examples/json-ld/canonical-plate-registry.json
+```
+
+Current canonical registry metadata records:
+
+```text
+registryVersion: 2026.08.19
+canonicalKeepCount: 757
+duplicateRemovedCount: 33
+```
+
+The historical classifications and family lists below remain useful as provenance and audit material.
+
+Required distinction:
+
+```text
+historical reconciliation record
+≠
+current canonical inventory
+```
 
 ---
 
 # Purpose
 
-This document serves as the final reconciliation layer between:
+This document is retained to preserve the reconciliation process among historical resources including:
 
-* MasterPlateList.txt
-* master-naturepedia-plate-census.md
-* plate-registry-expanded.json
-* llms.txt
-* llms-full.txt
-* Cloudflare Worker (cold-bird)
-* README.md
-* AGENTS.md
-* plate_examples_index.md
-* x402 documentation
+- `MasterPlateList.txt`
+- `master-naturepedia-plate-census.md`
+- earlier Plate registry files
+- `llms.txt`
+- `llms-full.txt`
+- Cloudflare Worker registry state
+- repository documentation
+- human-readable Plate indexes
+- historical x402 documentation
 
-This file exists to determine the final canonical Naturepedia™ inventory before any registry counts are updated.
+Its purpose is now:
+
+```text
+historical audit
++
+reconciliation provenance
+```
+
+rather than:
+
+```text
+current production authority
+```
+
+When exact current Plate identity or inventory state is required, resolve against:
+
+```text
+docs/examples/json-ld/canonical-plate-registry.json
+```
 
 ---
 
-# Registry Reconciliation Rules
+# Authority Hierarchy
 
-Every file from MasterPlateList.txt must appear in exactly one category.
+For current interpretation:
 
-Categories:
+```text
+MRD v2.0
+↓
+Canonical Claims Register
+↓
+Repository authority / doctrine
+↓
+Canonical machine-readable Plate registry
+↓
+Human-readable indexes
+↓
+Historical census / reconciliation records
+```
+
+This document belongs to the final category.
+
+It does not override the current canonical registry.
+
+---
+
+# Historical Reconciliation Rules
+
+The historical reconciliation process classified source assets into categories including:
 
 1. KEEP
 2. DUPLICATE
@@ -37,35 +111,360 @@ Categories:
 4. ARTIST RENDITION
 5. DRAFT
 
-No file should remain unclassified.
+The purpose of those categories was inventory reconciliation.
+
+They should not be confused with:
+
+- scientific evidence state;
+- machine-resource availability;
+- payment eligibility;
+- licensing status;
+- Graph Registry™ membership;
+- RRIP™ inheritance;
+- Knowledge Mesh membership.
+
+---
+
+# Classification Boundary
+
+Required distinctions:
+
+```text
+KEEP
+≠
+scientifically validated
+```
+
+```text
+KEEP
+≠
+paid resource automatically
+```
+
+```text
+KEEP
+≠
+RRIP object automatically
+```
+
+```text
+KEEP
+≠
+Graph Registry node automatically
+```
+
+```text
+KEEP
+≠
+Knowledge Mesh node automatically
+```
+
+The historical census classification answers:
+
+```text
+Was this asset retained in the Plate inventory at that reconciliation stage?
+```
+
+It does not answer:
+
+```text
+What current machine products exist for it?
+```
 
 ---
 
 # KEEP
 
-Definition:
+Historical definition:
 
-Canonical Naturepedia™ Plates that remain part of the live registry.
+A `KEEP` classification identifies a Plate that the reconciliation process determined should remain part of the canonical Naturepedia™ Plate collection.
 
-These plates:
+Examples may include:
 
-* represent active system plates
-* species plates
-* track plates
-* field location plates
-* photography guide plates
-* governance plates
-* framework plates
-* relationship plates
-* machine-readable infrastructure plates
+- system Plates™;
+- species Plates™;
+- track Plates™;
+- field-location Plates™;
+- photography-guide Plates™;
+- governance Plates™;
+- framework Plates™;
+- relationship Plates™;
+- other retained Plate families.
 
-KEEP plates are eligible for:
+A `KEEP` Plate may be eligible for inclusion in appropriate discovery or registry surfaces.
 
-* Worker registry inclusion
-* llms-full inclusion
-* AI catalog inclusion
-* RRIP resolution
-* x402 registry exposure
+However, every downstream status must be resolved independently.
+
+Do **not** infer:
+
+```text
+KEEP
+→ Worker paid payload
+```
+
+```text
+KEEP
+→ x402 resource
+```
+
+```text
+KEEP
+→ RRIP relationship
+```
+
+```text
+KEEP
+→ Graph Registry membership
+```
+
+```text
+KEEP
+→ Knowledge Mesh membership
+```
+
+Current resource existence requires explicit implementation and registration.
+
+---
+
+# Current Machine-Resource Boundary
+
+For a current machine resource, resolve separately:
+
+```text
+Plate identity
+↓
+current registry membership
+↓
+resource implementation
+↓
+availability
+↓
+access class
+↓
+pricing if protected
+```
+
+Current protected-resource behavior is:
+
+```text
+unknown
+→ 404
+→ no payment challenge
+```
+
+```text
+known but incomplete
+→ 409
+→ no payment challenge
+```
+
+```text
+registered + complete + protected
+→ eligible 402
+```
+
+Historical `KEEP` status alone is insufficient to reach the final state.
+
+---
+
+# Current x402 Boundary
+
+A Plate retained in the canonical inventory does not automatically have:
+
+- an Atomic Query;
+- a Structured Plate™ payload;
+- a `$5` Registry or System Map product;
+- a `$25` Knowledge Mesh or snapshot product.
+
+Required distinction:
+
+```text
+canonical Plate
+≠
+paid machine resource
+```
+
+Production pricing and availability are governed separately.
+
+---
+
+# RKCA / RRIP Boundary
+
+Current canonical orientations include:
+
+```text
+MRD v2.0 §12.7
+→ Recursive Knowledge Compression Architecture (RKCA™)
+
+MRD v2.0 §12.8
+→ Recursive Registry Inheritance Principle (RRIP™)
+
+MRD v2.0 §12.9
+→ Comparative Compression Geometry™ (CCG)
+```
+
+A possible RKCA architecture may include:
+
+```text
+Plate™
+→ Registry
+→ Meta-Registry
+→ Graph Registry™
+→ Knowledge Mesh
+```
+
+But historical Plate retention does not prove that every higher-order layer exists.
+
+Required rule:
+
+```text
+Plate retained
+≠
+higher-order resource instantiated
+```
+
+---
+
+# Evidence Boundary
+
+Inventory reconciliation is not scientific evaluation.
+
+A retained Plate may contain:
+
+- established external knowledge;
+- field observations;
+- framework interpretation;
+- hypotheses;
+- canonical Grand Compression claims;
+- visual or conceptual material.
+
+Those components retain their own evidence classifications.
+
+Required distinction:
+
+```text
+inventory state
+≠
+evidence state
+```
+
+---
+
+# Artist Rendition Boundary
+
+Historical `ARTIST RENDITION` classification indicates an authored conceptual or illustrative representation.
+
+It does not independently establish:
+
+- causal relationships;
+- scientific support;
+- universality;
+- material identity.
+
+Visual interpretation remains separate from evidentiary support.
+
+---
+
+# Duplicate and Supersession Boundary
+
+Historical:
+
+```text
+DUPLICATE
+```
+
+and:
+
+```text
+SUPERSEDED
+```
+
+classifications preserve reconciliation history.
+
+They should not be rewritten merely because the current canonical registry has evolved.
+
+Historical classification records are useful provenance.
+
+---
+
+# Current Count Boundary
+
+The current canonical machine registry records:
+
+```text
+canonicalKeepCount: 757
+duplicateRemovedCount: 33
+```
+
+Future registry versions may supersede these values.
+
+Agents should therefore prefer:
+
+```text
+latest canonical registry metadata
+```
+
+over:
+
+```text
+hard-coded counts in historical reconciliation documents
+```
+
+---
+
+# Authorship Conservation Rule
+
+Current governance terminology is:
+
+```text
+Authorship Conservation Rule (ACR)
+```
+
+ACR preserves provenance in both directions:
+
+```text
+Grand Compression framework material
+→ preserve Grand Compression authorship
+```
+
+```text
+external mathematics / science
+→ preserve external provenance
+```
+
+```text
+independent evidence
+→ preserve evaluator provenance
+```
+
+Historical reconciliation does not transfer authorship of underlying external knowledge.
+
+---
+
+# Agent Interpretation Guidance
+
+Agents reading the family inventories below should:
+
+1. Treat `KEEP`, `DUPLICATE`, `SUPERSEDED`, `ARTIST RENDITION`, and `DRAFT` as historical reconciliation classifications.
+2. Preserve the historical lists rather than silently modernizing them.
+3. Resolve current Plate existence against the canonical machine-readable registry.
+4. Resolve current machine-resource availability separately.
+5. Resolve RRIP, Graph Registry, and Knowledge Mesh relationships separately.
+6. Resolve x402 payment eligibility separately.
+7. Preserve evidence and provenance boundaries.
+
+The governing interpretation is:
+
+```text
+historical reconciliation
+→ provenance
+
+canonical registry
+→ current inventory
+
+resource registry / Worker
+→ current machine availability
+```
 
 ---
 
