@@ -1,83 +1,409 @@
 # Naturepedia Master Plate Census™
+## Historical Census Working Record and Current Registry Pointer
 
-**Status:** Canonical Inventory Under Construction
-**Author & Architect of Record:** Robbie George
+**Status:** Historical / Legacy Census Working Record  
+**Current governing framework:** The Grand Compression Cosmology — Master Reference Document, MRD v2.0  
+**Canonical identifier:** `GC-MRD-v2.0`  
+**Author & Architect of Record:** Robbie George  
+**Current inventory authority:** `docs/examples/json-ld/canonical-plate-registry.json`
+
+---
+
+## Current Status Notice
+
+This file preserves an earlier Naturepedia™ Plate census and family-by-family inventory-building process.
+
+It is **not the current authoritative machine-readable Plate inventory**.
+
+The current canonical machine-readable registry is:
+
+```text
+docs/examples/json-ld/canonical-plate-registry.json
+```
+
+Current canonical registry metadata records:
+
+```text
+registryVersion: 2026.08.19
+canonicalKeepCount: 757
+duplicateRemovedCount: 33
+```
+
+Therefore, historical counts or family totals appearing later in this file must not be interpreted as the current production Plate count.
+
+Required distinction:
+
+```text
+historical census record
+≠
+current canonical inventory
+```
 
 ---
 
 ## Purpose
 
-This file serves as the authoritative inventory of all Naturepedia™ Plate assets.
+This document is retained to preserve:
 
-It exists to synchronize:
+- historical Plate census work;
+- earlier family classifications;
+- KEEP / DUPLICATE / SUPERSEDED / ARTIST RENDITION / DRAFT decisions;
+- historical system-family organization;
+- registry-building provenance;
+- earlier inventory methodology.
 
-* Cloudflare Worker registries
-* plate-registry-expanded.json
-* llms-full.txt
-* plate_examples_index.md
-* x402 endpoint documentation
-* future AI discovery systems
+It may still be useful for:
+
+- audit;
+- reconciliation;
+- historical comparison;
+- tracing how the Naturepedia Plate registry expanded.
+
+It should not be used as the primary source for determining whether a Plate currently exists.
 
 ---
 
-## Registry Status
+## Current Inventory Authority
 
+When exact current Plate identity, count, type, or machine-resource metadata is required, resolve against:
+
+```text
+docs/examples/json-ld/canonical-plate-registry.json
+```
+
+Current canonical registry:
+
+```text
+Naturepedia Canonical Plate Registry
+registryVersion: 2026.08.19
+canonicalKeepCount: 757
+duplicateRemovedCount: 33
+```
+
+The canonical registry supersedes the earlier:
+
+```text
 Current Worker Registry Count:
-
 163 Plates™
+```
 
-Current Census Status:
-
-Inventory Audit In Progress
+record preserved in the historical census process.
 
 ---
 
-## Canonical Classification Rules
+## Authority Hierarchy
+
+For current interpretation:
+
+```text
+MRD v2.0
+↓
+Canonical Claims Register
+↓
+Repository authority / doctrine
+↓
+Canonical machine-readable Plate registry
+↓
+Human-readable indexes and historical census records
+```
+
+This file occupies the final category:
+
+```text
+historical census / reconciliation record
+```
+
+It does not supersede the canonical machine-readable registry.
+
+---
+
+## Historical Count Boundary
+
+Any Plate count appearing later in this document should be interpreted according to the date and census stage in which it was recorded.
+
+Do not infer:
+
+```text
+historical count
+=
+current count
+```
+
+Do not manually update every historical count merely to match the present registry.
+
+Doing so would destroy useful provenance.
+
+Instead:
+
+```text
+preserve historical count
++
+identify current authoritative count separately
+```
+
+---
+
+## Classification Vocabulary
+
+The historical census uses categories including:
 
 ### KEEP
 
-Final live Plates™
-
-Examples:
-
-* Species Plates™
-* Track Plates™
-* System Plates™
-* Field Location Plates™
-* Governance Plates™
-* Photography Guide Plates™
+A Plate identified during that census stage as intended to remain in the live canonical collection.
 
 ### DUPLICATE
 
-Files containing:
+A duplicate or redundant representation identified during census review.
 
-* copy
-* copy 2
-* duplicate jpg/png versions
+Examples historically included:
+
+- copied files;
+- duplicate image exports;
+- duplicate JPG / PNG representations.
 
 ### SUPERSEDED
 
-Older versions replaced by:
-
-* _v2
+An older version replaced by a newer governed representation.
 
 ### ARTIST RENDITION
 
-Conceptual support plates.
+An authored conceptual or illustrative representation.
 
-Examples:
-
-* artist-rendition-plate
-* interpretation-plate
+Artist Rendition status does not itself establish scientific evidence.
 
 ### DRAFT
 
-Temporary design files.
+A temporary, incomplete, test, or design-stage artifact.
 
-Examples:
+These classifications document the historical census process.
 
-* ChatGPT Image
-* test files
+Current resource state should be resolved against the current canonical registry.
+
+---
+
+## Evidence Boundary
+
+Plate census status is an inventory classification.
+
+It does not independently establish:
+
+```text
+scientific validity
+```
+
+```text
+empirical support
+```
+
+```text
+causal validity
+```
+
+```text
+commercial availability
+```
+
+```text
+x402 availability
+```
+
+Required distinctions:
+
+```text
+KEEP
+≠
+scientifically validated
+```
+
+```text
+registered
+≠
+empirically Supported
+```
+
+```text
+Plate exists
+≠
+protected payload exists
+```
+
+---
+
+## Resource-Existence Boundary
+
+A Plate appearing in this historical census does not automatically establish the current existence of:
+
+- a Structured Plate™ x402 payload;
+- an Atomic Query;
+- a Registry child;
+- a Graph Registry™ node;
+- an RRIP™ relationship;
+- a System Map;
+- a Knowledge Mesh;
+- another paid machine resource.
+
+Each current machine-resource layer requires its own explicit registration.
+
+Required distinction:
+
+```text
+Plate census entry
+≠
+machine product
+```
+
+---
+
+## Higher-Order Architecture Boundary
+
+A possible RKCA™ architecture may include:
+
+```text
+Plate™
+→ Registry
+→ Meta-Registry
+→ Graph Registry™
+→ Knowledge Mesh
+```
+
+Current canonical orientations include:
+
+```text
+MRD v2.0 §12.7
+→ Recursive Knowledge Compression Architecture (RKCA™)
+
+MRD v2.0 §12.8
+→ Recursive Registry Inheritance Principle (RRIP™)
+
+MRD v2.0 §12.9
+→ Comparative Compression Geometry™ (CCG)
+```
+
+The existence of a Plate in this census does not prove that every later architecture layer exists for that Plate.
+
+---
+
+## Relationship Boundary
+
+Many historical family sections below contain relationship arrows such as:
+
+```text
+Earth Systems
+→ Water Systems
+→ Climate Systems
+```
+
+These should generally be interpreted as:
+
+```text
+documented organizational or semantic relationships
+```
+
+unless a stronger relationship is explicitly supported.
+
+Do not automatically interpret arrows as:
+
+- causal proof;
+- RRIP inheritance;
+- Graph Registry edges;
+- mechanistic identity;
+- material identity.
+
+Required distinction:
+
+```text
+relationship notation
+≠
+causation
+```
+
+---
+
+## Authorship Conservation Rule
+
+Current governance terminology is:
+
+```text
+Authorship Conservation Rule (ACR)
+```
+
+ACR preserves both:
+
+```text
+Grand Compression framework provenance
+```
+
+and:
+
+```text
+independent provenance of external science,
+mathematics, evidence, and technologies
+```
+
+Historical census inclusion does not imply that every underlying scientific concept originated with Robbie George.
+
+---
+
+## Reference-Implementation Boundary
+
+Naturepedia™ remains the primary reference implementation used in this repository.
+
+Its Plate registry demonstrates implemented structured knowledge architecture.
+
+It does not independently establish universal validity of the complete Grand Compression framework.
+
+Canonical orientation:
+
+```text
+RC-21 — Reference Implementation Distinction
+```
+
+---
+
+## Current Canonical Count
+
+As of canonical registry version:
+
+```text
+2026.08.19
+```
+
+the current machine-readable registry records:
+
+```text
+canonicalKeepCount: 757
+duplicateRemovedCount: 33
+```
+
+This value should be used when a current canonical Plate count is required.
+
+Future registry versions may supersede it.
+
+Agents should always prefer the latest canonical registry metadata over a hard-coded count in historical documentation.
+
+---
+
+## Agent Interpretation Guidance
+
+Agents reading this file should:
+
+1. Treat the family census below as historical inventory and reconciliation material.
+2. Preserve its historical classification decisions.
+3. Do not rewrite old census totals merely to match the latest registry.
+4. Resolve current Plate existence against the canonical machine-readable registry.
+5. Resolve current paid-resource availability separately.
+6. Preserve evidence and provenance boundaries.
+7. Avoid inferring Graph Registry, RRIP, Knowledge Mesh, or x402 status from census inclusion alone.
+
+The governing rule is:
+
+```text
+historical census
+→ provenance
+
+canonical registry
+→ current inventory
+```
 
 ---
 
