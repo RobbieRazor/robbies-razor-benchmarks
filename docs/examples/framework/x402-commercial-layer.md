@@ -1,981 +1,44 @@
 # x402 Commercial Infrastructure Layer
+## Protected Retrieval, Pricing, Rights, and Settlement Boundaries
 
-## Status
+## Document Status
 
-Commercial Infrastructure Reference
+**Status:** Production commercial-infrastructure reference  
+**Current governing framework:** MRD v2.0  
+**Canonical identifier:** `GC-MRD-v2.0`  
+**Production pricing manifest:** v3.0.0  
+**Network:** Base — `eip155:8453`  
+**Asset:** USDC  
+**Settlement protocol:** x402-compatible protected retrieval  
+**Production posture:** Fail closed
 
-This document defines the x402 commercial access layer within the Robbie's Razor™ framework ecosystem.
+This document explains how x402 protected retrieval fits into the Naturepedia™ / Robbie’s Razor™ infrastructure.
 
-Primary Authority:
-
-https://www.robbiegeorgephotography.com/robbies-razor-framework-licensing
-
-Commercial Licensing Authority:
-
-https://www.robbiegeorgephotography.com/commercial-data-license
-
----
-
-# Commercial, Framework, and x402 Retrieval Separation
-
-This document now formally separates three different kinds of access:
+The core distinction is:
 
 ```text
+Public Discovery
+≠
+Protected Retrieval
+≠
 Commercial Data License
 ≠
-Robbie's Razor Framework License
-≠
-x402 Retrieval Access
+Framework License
 ```
 
-This distinction is important for AI labs, agent platforms, commercial data users, enterprise partners, and future machine-commerce systems.
-
-x402 payment grants one endpoint-level retrieval of the identified protected resource only.
-
-It does not grant training, embedding, bulk-ingestion, redistribution, resale, synchronization, private-dataset construction, derivative-dataset creation, commercial implementation, framework implementation, private deployment, or ownership rights.
-
-## Production x402 Pricing Authority
-
-The authoritative production pricing manifest is:
-
-https://www.robbiegeorgephotography.com/.well-known/x402-pricing.json
-
-Current pricing version:
-
-    3.0.0
-
-Payment protocol:
-
-    x402
-
-Settlement network:
-
-    Base / eip155:8453
-
-Settlement asset:
-
-    USDC
-
-Production payment requirements are fixed and deterministic.
-
-Current retrieval architecture:
-
-| Access class | Price | Atomic units | Route status |
-|---|---:|---:|---|
-| Discovery and previews | Free | `0` | Active |
-| Atomic canonical query | `$0.005 USDC` | `5000` | Active for registered deterministic payloads |
-| Enriched relationship query | `$0.025 USDC` | `25000` | Reserved |
-| Structured Plate™ payload | `$0.25 USDC` | `250000` | Active for registered and validated payloads |
-| Bounded subtree, registry, or System Map | `$5.00 USDC` | `5000000` | Active |
-| Full registry or Knowledge Mesh snapshot | `$25.00 USDC` | `25000000` | Active |
-
-### Atomic Query Production Access
-
-Public route template:
-
-    /v1/query/atomic/{resource}
-
-Canonical internal route template:
-
-    /x402/query/atomic/{resource}
-
-Current active Atomic route:
-
-    /v1/query/atomic/robbie-george-biography-plate
-
-Canonical internal route:
-
-    /x402/query/atomic/robbie-george-biography-plate
-
-Canonical Plate identifier:
-
-    robbie-george#robbie-george-biography-plate
-
-Canonical authority:
-
-https://www.robbiegeorgephotography.com/who-is-robbie-george
-
-Atomic production configuration:
-
-    Access class: atomic
-    Price: 0.005 USDC
-    Atomic units: 5000
-    Resource class: atomic-query
-    Schema version: naturepedia.atomic-query.v1
-    Route status: active for explicitly registered deterministic payloads
-
-Verified production behavior:
-
-    Registered + complete Atomic resource
-    → HTTP 402 Payment Required
-    → amount 5000
-    → gateway tier atomic
-
-    Known + incomplete Atomic resource
-    → HTTP 409 Conflict
-    → no payment challenge
-
-    Unknown Atomic resource
-    → HTTP 404 Not Found
-    → no payment challenge
-
-Verified active Atomic challenge:
-
-    STATUS: 402
-    AMOUNT: 5000
-    TIER: atomic
-    PAYMENT REQUIRED: true
-    RESULT: PASS
-
-The known-but-incomplete Atomic route:
-
-    /v1/query/atomic/robbies-razor-plate
-
-was verified to return:
-
-    STATUS: 409
-    PAYMENT REQUIRED: false
-    CODE: ATOMIC_PAYLOAD_NOT_REGISTERED
-    RESULT: PASS
-
-An unknown Atomic resource was verified to return:
-
-    STATUS: 404
-    PAYMENT REQUIRED: false
-    CODE: ATOMIC_RESOURCE_NOT_FOUND
-    RESULT: PASS
-
-No Atomic payment payload was supplied during this production activation validation.
-
-No new Atomic USDC settlement or protected Atomic HTTP `200` payload-delivery test was performed.
-
-The successful Atomic `402` challenge must not be represented as a newly completed paid Atomic settlement.
-
-### Enriched Query Status
-
-The Enriched Query class remains reserved.
-
-Current configuration:
-
-    Access class: enriched
-    Price: 0.025 USDC
-    Atomic units: 25000
-    Route status: reserved
-
-Enriched resources must not issue payment challenges until governed deterministic payloads are explicitly registered, availability-gated, fidelity-bound, and production validated.
-
-A configured Enriched price does not by itself establish that an Enriched resource is available for purchase.
-
-### Structured Plate™ Production Access
-
-Current active Structured Plate™ routes:
-
-    /v1/plates/item/commercial-data-license-plate
-    /v1/plates/item/commercial-intelligence-pricing-plate
-    /v1/plates/item/robbie-george-biography-plate
-
-Structured Plate configuration:
-
-    Access class: single-plate
-    Price: 0.25 USDC
-    Atomic units: 250000
-    Route status: active for registered and validated payloads
-
-Verified production challenge behavior for all three active Structured Plate routes:
-
-    STATUS: 402
-    AMOUNT: 250000
-    TIER: single-plate
-    PAYMENT REQUIRED: true
-    RESULT: PASS
-
-Structured Plate™ payment challenges are issued only when a complete governed payload has been registered and validated.
-
-Unknown Plate identifiers return `404` without a payment challenge.
-
-Known Plates without registered complete payloads return `409` without a payment challenge.
-
-Atomic Query activation did not alter the existing Structured Plate payment-challenge behavior.
-
-### Fail-Closed Commercial Availability Boundary
-
-A recognized URL pattern does not by itself establish that a sellable resource exists.
-
-Protected retrieval follows this boundary:
-
-    Unknown resource
-    → 404
-    → no payment challenge
-
-    Known but incomplete resource
-    → 409
-    → no payment challenge
-
-    Registered + complete resource
-    → eligible for deterministic x402 challenge
-
-This prevents an agent from being asked to pay for a resource that cannot be delivered.
-
-### Retrieval Rights Boundary
-
-x402 payment grants one endpoint-level retrieval of the identified protected resource only.
-
-It does not grant:
-
-- training rights
-- embedding rights
-- bulk-ingestion rights
-- redistribution rights
-- resale rights
-- synchronization rights
-- private-dataset construction rights
-- derivative-dataset creation rights
-- commercial implementation rights
-- Robbie's Razor™ framework implementation rights
-- private deployment rights
-- ownership rights
-
-Commercial data reuse requires a separate written agreement.
-
-Robbie's Razor™ framework implementation and strategic-infrastructure rights require a separate enterprise agreement.
-
-The following layers must remain distinct:
-
-    x402 Retrieval Access
-    ≠ Commercial Data License
-    ≠ Robbie's Razor Framework License
-    ≠ Scientific Validation
-
-Payment, settlement, or successful retrieval does not establish empirical validation, canonical truth, authorship transfer, or broader licensing rights.
-
-The live pricing manifest and actual production `402` response remain authoritative if older documentation conflicts.
-
-# Purpose
-
-x402 provides machine-readable commercial access infrastructure for AI systems, agents, applications, and machine clients.
-
-The purpose of x402 is to allow structured retrieval while preserving:
-
-- provenance
-- governance
-- attribution
-- licensing boundaries
-- commercial access controls
-
-x402 transforms retrieval from an informal scraping model into a governed machine-to-machine transaction model.
+These layers may interact, but they grant different forms of access and authority.
 
 ---
 
-# Core Principle
+# Canonical and Production Authority
 
-```text
-Knowledge may remain publicly visible.
+Grand Compression Master Reference Document:
 
-Structured machine retrieval may require authorization,
-licensing, payment, or both.
-```
+https://www.robbiegeorgephotography.com/grand-compression-master-reference-document
 
-x402 creates a commercial settlement layer for machine-readable access.
+Canonical Claims Register:
 
----
-
-# Framework Position
-
-```text
-Robbie's Razor™
-↓
-Framework Licensing
-↓
-Naturepedia™
-↓
-Plate™ Architecture
-↓
-Graph Registries™
-↓
-ACR™
-↓
-Commercial Data License
-↓
-x402 Infrastructure
-↓
-Machine Retrieval
-```
-
-x402 is the enforcement layer positioned beneath governance and licensing systems.
-
----
-
-# Why x402 Exists
-
-Traditional websites were designed primarily for human visitors.
-
-AI systems retrieve information differently.
-
-Modern retrieval may involve:
-
-- automated extraction
-- semantic retrieval
-- graph traversal
-- agent workflows
-- structured API consumption
-- machine-to-machine communication
-
-x402 creates a framework where retrieval can be governed rather than merely observed.
-
----
-
-# Infrastructure Objectives
-
-The x402 layer supports:
-
-- machine-readable licensing
-- structured access control
-- retrieval monetization
-- enterprise access management
-- AI-native commerce
-- provenance-aware retrieval
-- commercial governance enforcement
-
----
-
-# Relationship to ACR™
-
-Authorship Conservation Rules™ (ACR™) preserve:
-
-- authorship
-- provenance
-- attribution
-- source lineage
-
-x402 preserves:
-
-- access permissions
-- commercial rights
-- payment enforcement
-- retrieval authorization
-
-Together:
-
-```text
-ACR™ = provenance governance
-
-x402 = commercial governance
-```
-
-Both layers are required for responsible machine retrieval.
-
----
-
-# Three-Layer Governance Model
-
-| Layer | Governs | Examples | Does Not Automatically Grant |
-|---|---|---|---|
-| Commercial Data License | Access to knowledge assets | Naturepedia™, Plate™ systems, JSON-LD, registries, relationship maps, structured data | Framework implementation rights |
-| Robbie's Razor Framework License | Architecture implementation rights | Robbie's Razor™, RRIP, Plate™ Architecture, Graph Registries™, ACR™, Knowledge Mesh, private deployments | Ownership of knowledge assets |
-| x402 Retrieval Access | Machine endpoint retrieval | `/api/v2/naturepedia/index.md`, `/api/v2/plates/registry.md`, `/api/v2/rrip/resolve`, `/api/v2/razor/state-token` | Training rights, embedding rights, resale rights, framework rights, private deployment rights, derivative dataset rights |
-
----
-
-# Layer 1: Commercial Data License
-
-The Commercial Data License governs access to Robbie George Photography knowledge assets and structured machine-readable data.
-
-Authority:
-
-```text
-https://www.robbiegeorgephotography.com/commercial-data-license
-```
-
-This layer controls access to:
-
-- Naturepedia™
-- Plate™ assets
-- JSON-LD
-- system maps
-- registries
-- relationship maps
-- structured ecological data
-- commercial data ingestion rights
-
-This license governs the use of knowledge assets.
-
-It does not automatically grant implementation rights to Robbie's Razor™, RRIP, Plate™ Architecture, Graph Registries™, ACR™, or private framework deployments.
-
----
-
-# Layer 2: Robbie's Razor Framework License
-
-The Robbie's Razor Framework License governs architecture implementation rights.
-
-Authority:
-
-```text
-https://www.robbiegeorgephotography.com/robbies-razor-framework-licensing
-```
-
-This layer controls use or implementation of:
-
-- Robbie's Razor™
-- Recursive Registry Inheritance Principle
-- RRIP
-- Plate™ Architecture
-- Graph Registries™
-- Authorship Conservation Rules™
-- ACR™
-- Knowledge Mesh
-- private deployments
-- framework integrations
-- recursive registry systems
-
-This license governs the architecture itself.
-
-It does not automatically grant commercial data access, ownership of knowledge assets, or unrestricted use of Naturepedia™ registries.
-
----
-
-# Layer 3: x402 Retrieval Access
-
-x402 governs paid machine retrieval access to protected endpoints.
-
-Examples:
-
-```text
-/api/v2/naturepedia/index.md
-/api/v2/plates/registry.md
-/api/v2/rrip/resolve
-/api/v2/razor/state-token
-```
-
-This layer controls:
-
-- endpoint access
-- machine retrieval
-- registry access
-- system map access
-- programmable retrieval flows
-
-x402 payment grants retrieval access only.
-
-It does not automatically grant:
-
-- training rights
-- embedding rights
-- resale rights
-- commercial reuse rights
-- framework implementation rights
-- private graph deployment rights
-- derivative dataset rights
-- ownership of source data
-- waiver of attribution requirements
-- waiver of governance requirements
-
----
-
-# Relationship to RRIP and Knowledge Mesh Architecture
-
-The Recursive Registry Inheritance Principle (RRIP) defines how compressed structures evolve into larger machine-readable knowledge infrastructure.
-
-RRIP inheritance pathway:
-
-```text
-Plate™
-↓
-Registry
-↓
-Meta-Registry
-↓
-Graph Registry™
-↓
-Knowledge Mesh
-```
-
-The purpose of RRIP is to allow preserved compressed structures to become reusable cognitive infrastructure.
-
-Registries are not merely storage.
-
-Registries function as machine-readable memory structures.
-
-Graph Registries™ are higher-order relationship architectures built from those preserved registries.
-
-Knowledge Meshes emerge from recursively connected Graph Registries™.
-
-## Relationship to x402
-
-x402 should be interpreted as the retrieval and settlement layer operating beneath RRIP-enabled infrastructure.
-
-RRIP determines:
-
-```text
-What relationships exist.
-```
-
-Graph Registries™ determine:
-
-```text
-How those relationships are organized.
-```
-
-Knowledge Meshes determine:
-
-```text
-How large-scale recursive knowledge systems emerge.
-```
-
-x402 determines:
-
-```text
-How protected machine retrieval occurs.
-```
-
-## Registry-State Synchronization Model
-
-The v2 architecture is evolving beyond document retrieval and toward registry-state synchronization.
-
-Traditional model:
-
-```text
-Document
-↓
-Download
-↓
-Consume
-```
-
-Registry model:
-
-```text
-Discovery
-↓
-Registry
-↓
-Resolution
-↓
-Validation
-↓
-Authorized Retrieval
-```
-
-Registry-State model:
-
-```text
-Agent
-↓
-State Validation
-↓
-Registry Changed?
-
-No
-↓
-Use Cache
-
-Yes
-↓
-Discovery
-↓
-Registry
-↓
-Resolution
-↓
-Authorized Retrieval
-```
-
-In this architecture:
-
-### Registry-State Control Plane
-
-```text
-/api/v2/razor/state-token
-```
-
-Provides:
-
-- registry version metadata
-- registry hash metadata
-- deterministic state signatures
-- registry counts
-- synchronization status
-
-### Registry Data Plane
-
-```text
-/api/v2/plates/registry.md
-```
-
-Provides:
-
-- registry retrieval
-- Graph Registry™ access
-- Plate™ discovery
-
-### Resolution Plane
-
-```text
-/api/v2/rrip/resolve
-```
-
-Provides:
-
-- inheritance resolution
-- registry traversal
-- Knowledge Mesh navigation
-
-### Settlement Plane
-
-```text
-x402
-```
-
-Provides:
-
-- retrieval authorization
-- machine payment settlement
-- commercial access routing
-
-The registry becomes the primary machine-facing substrate while the state-token becomes the synchronization layer that coordinates retrieval.
-
-## Future RRIP Services
-
-Future RRIP-compatible services may expose:
-
-* inheritance-chain retrieval
-* registry traversal
-* graph-state resolution
-* registry-state validation
-* graph inheritance verification
-* Knowledge Mesh discovery
-* recursive registry synchronization
-
-These services are expected to become foundational components of future MCP-compatible agent systems, enterprise retrieval systems, sovereign knowledge systems, and machine-native commercial infrastructure.
-
-## Architectural Interpretation
-
-RRIP provides the inheritance mechanism.
-
-Graph Registries™ provide the relationship architecture.
-
-Knowledge Meshes provide the large-scale intelligence structure.
-
-x402 provides the retrieval and settlement layer.
-
-Together they form the machine-readable infrastructure stack beneath Robbie's Razor™, Naturepedia™, Plate™ Architecture, and future agent-wallet ecosystems.
-
-# Relationship to Graph Registries™
-
-Graph Registries™ determine:
-
-- what can be retrieved
-- how systems connect
-- semantic routing pathways
-
-x402 may govern:
-
-- endpoint access
-- registry access
-- graph traversal permissions
-- machine-readable datasets
-
-The registry provides the map.
-
-x402 governs access to the map.
-
----
-
-# Current Deployment
-
-Current deployment is implemented through Cloudflare Workers.
-
-Supported functions include:
-
-- machine-readable endpoint protection
-- payment validation
-- access verification
-- governance-aware retrieval
-- AI agent access control
-
-The system supports both public human access and protected machine retrieval.
-
----
-
-# Current v2 Machine Retrieval Endpoints
-
-The v2 machine retrieval layer introduces preferred machine-facing routes for discovery, registry retrieval, RRIP resolution, and registry-state validation.
-
-```text
-/api/v2/naturepedia/index.md
-/api/v2/plates/registry.md
-/api/v2/rrip/resolve
-/api/v2/razor/state-token
-```
-
-Endpoint mapping:
-
-| v2 Endpoint | Source Asset | Purpose |
-|---|---|---|
-| `/api/v2/naturepedia/index.md` | `/x402/naturepedia-system-map.json` | Naturepedia registry discovery |
-| `/api/v2/plates/registry.md` | `/x402/plate-registry-expanded.json` | Plate™ registry retrieval |
-| `/api/v2/rrip/resolve` | `/x402/rrip-resolve.json` | Recursive Registry Inheritance Principle runtime resolution |
-| `/api/v2/razor/state-token` | `/x402/state-token.json` | Registry-state validation and governance signaling |
-
-Recommended machine retrieval flow:
-
-```text
-Agent
-↓
-State Validation
-/api/v2/razor/state-token
-↓
-Registry Changed?
-
-No
-↓
-Use Cached Registry
-
-Yes
-↓
-Discovery
-/api/v2/naturepedia/*
-↓
-Registry Retrieval
-/api/v2/plates/*
-↓
-RRIP Resolution
-/api/v2/rrip/*
-↓
-x402 Settlement
-↓
-Base USDC
-```
-
-# Current Naturepedia™ Endpoints
-
-Examples include:
-
-```text
-/x402/plate-registry.json
-
-/x402/identity-graph.json
-
-/x402/naturepedia-system-map.json
-
-/x402/plate-registry-expanded.json
-
-/x402/pollinator-system-map.json
-
-/x402/wildlife-system-map.json
-
-/x402/water-system-map.json
-
-/x402/plant-community-system-map.json
-
-/x402/tree-system-map.json
-
-/x402/location-system-map.json
-
-/x402/conservation-system-map.json
-
-/x402/species-intelligence-map.json
-```
-### Tree System Retrieval
-
-The Naturepedia Tree System Map provides structured retrieval across:
-
-```text
-Trees
-↓
-Tree Families
-↓
-Forest Communities
-↓
-Wildlife Relationships
-↓
-Carbon Storage
-↓
-Watersheds
-↓
-Seasonal Ecology
-↓
-Ecological Restoration
-```
-
-The Tree System Map extends Naturepedia™ retrieval beyond individual species and into higher-order ecological infrastructure.
-
-These endpoints expose structured machine-readable knowledge assets.
-
----
-
-# Retrieval Model
-
-Traditional Web Model:
-
-```text
-Human
-↓
-Website
-↓
-Content
-```
-
-Machine Retrieval Model:
-
-```text
-Agent
-↓
-x402 Endpoint
-↓
-Authorization
-↓
-Governance Validation
-↓
-Structured Retrieval
-↓
-Response
-```
-
-The retrieval process becomes explicit, auditable, and commercially governable.
-
----
-
-# Example Retrieval Flow
-
-```text
-AI Agent
-↓
-Requests Graph Registry
-↓
-x402 Validates Access
-↓
-Registry Retrieved
-↓
-ACR™ Preserved
-↓
-Structured Response Returned
-```
-
-The response remains connected to:
-
-- authorship
-- provenance
-- licensing
-- governance
-
----
-
-# Commercial Access Categories
-
-Potential categories include:
-
-## Public Access
-
-Open retrieval.
-
-No payment required.
-
----
-
-## Licensed Access
-
-Access governed by commercial licensing terms.
-
----
-
-## Enterprise Access
-
-Institutional deployments.
-
-May include:
-
-- custom retrieval layers
-- expanded registries
-- enterprise graph systems
-- dedicated infrastructure
-
----
-
-## Agent-to-Agent Access
-
-Future machine commerce environments where:
-
-- agents negotiate access
-- retrieval is authenticated
-- payments occur automatically
-- provenance remains attached
-
----
-
-# Machine Commerce Vision
-
-The long-term vision is a machine-readable knowledge economy.
-
-```text
-Knowledge
-↓
-Governance
-↓
-Licensing
-↓
-x402 Settlement
-↓
-Authorized Retrieval
-```
-
-The objective is to support sustainable knowledge systems without requiring advertising, scraping, or attribution loss.
-
----
-
-# Design Principles
-
-x402 Infrastructure should:
-
-- preserve provenance
-- respect licensing
-- support machine interoperability
-- remain auditable
-- support enterprise deployment
-- enable machine commerce
-- minimize retrieval friction
-- protect authorship and governance layers
-
----
-
-# Future Development
-
-The x402 commercial layer is intentionally moving toward:
-
-```text
-Discovery
-↓
-Registry
-↓
-Resolution
-↓
-Validation
-```
-
-rather than simple document download.
-
-Future versions may expose:
-
-- registry state
-- inheritance paths
-- resolution results
-- state hashes
-- validation tokens
-- governance artifacts
-- RRIP runtime services
-- registry-state retrieval
-- agent-wallet payment flows
-- MCP-compatible retrieval services
-- institutional licensing infrastructure
-- enterprise graph deployment
-- sovereign knowledge networks
-- machine-to-machine settlement systems
-- AI-native commercial ecosystems
-
-This structure prepares the Robbie George machine-readable ecosystem for agent wallets, MCP, machine commerce, RRIP runtime services, registry-state retrieval, and enterprise synchronization layers.
-
----
-
-# Related Resources
+https://www.robbiegeorgephotography.com/grand-compression-canonical-claims
 
 Framework Licensing:
 
@@ -985,18 +48,1610 @@ Commercial Data License:
 
 https://www.robbiegeorgephotography.com/commercial-data-license
 
-ACR™ Governance:
+Authoritative production pricing manifest:
 
+https://www.robbiegeorgephotography.com/.well-known/x402-pricing.json
+
+Repository authority:
+
+```text
+docs/AUTHORITY.md
+```
+
+---
+
+# 1. x402 Role
+
+x402 is used as a machine-payment and protected-retrieval layer for explicitly registered resources.
+
+Conceptually:
+
+```text
+resource identity
+↓
+availability validation
+↓
+access class
+↓
+fixed price
+↓
+402 challenge
+↓
+payment authorization
+↓
+verification / settlement
+↓
+protected retrieval
+```
+
+x402 does not determine:
+
+- canonical framework truth;
+- scientific validity;
+- authorship;
+- resource existence by itself;
+- framework implementation rights.
+
+---
+
+# 2. External Technology Boundary
+
+x402 is an external protocol.
+
+Naturepedia’s integration, routing, resource governance, pricing architecture, and protected-delivery implementation may be authored within the Grand Compression / Naturepedia system.
+
+But:
+
+```text
+Naturepedia uses x402
+≠
+Robbie George originated x402
+```
+
+Likewise, Base, USDC, Cloudflare, HTTP, JSON, and related technologies retain their independent provenance.
+
+---
+
+# 3. Four Distinct Access Layers
+
+The system should preserve four distinct layers.
+
+## Public Discovery
+
+May expose:
+
+- metadata;
+- indexes;
+- endpoint descriptions;
+- public pages;
+- AI discovery files;
+- public control-plane resources.
+
+Public discovery normally requires no x402 payment.
+
+---
+
+## Protected Retrieval
+
+Provides one governed machine-readable retrieval of an explicitly registered protected resource.
+
+This is the primary role of x402.
+
+---
+
+## Commercial Data License
+
+May govern broader commercial use of applicable data assets where explicitly granted.
+
+The written license controls.
+
+---
+
+## Framework License
+
+May govern implementation or deployment rights for protected Grand Compression / Robbie’s Razor™ framework material where explicitly granted.
+
+The written agreement controls.
+
+---
+
+# 4. Core Separation Rule
+
+Required distinction:
+
+```text
+x402 Retrieval Access
+≠
+Commercial Data License
+≠
+Robbie’s Razor™ Framework License
+```
+
+Also:
+
+```text
+payment
+≠
+ownership
+```
+
+```text
+payment
+≠
+training rights
+```
+
+```text
+payment
+≠
+framework implementation rights
+```
+
+```text
+payment
+≠
+empirical validation
+```
+
+---
+
+# 5. Production Pricing Authority
+
+The authoritative production manifest is:
+
+```text
+https://www.robbiegeorgephotography.com/.well-known/x402-pricing.json
+```
+
+Current version:
+
+```text
+3.0.0
+```
+
+Network:
+
+```text
+eip155:8453
+```
+
+Asset:
+
+```text
+USDC
+```
+
+Current production pricing uses fixed prices.
+
+A repository document must not create a second independent pricing authority.
+
+---
+
+# 6. Current Pricing Classes
+
+| Access class | Price | Atomic units | Production interpretation |
+|---|---:|---:|---|
+| Public discovery / previews | Free | `0` | Public where exposed |
+| Atomic canonical query | `$0.005 USDC` | `5000` | Active only for explicitly registered deterministic resources |
+| Enriched relationship query | `$0.025 USDC` | `25000` | Reserved |
+| Structured Plate™ payload | `$0.25 USDC` | `250000` | Active only for explicitly registered and validated Plate payloads |
+| Bounded subtree / Registry / System Map class | `$5.00 USDC` | `5000000` | Pricing class defined; individual resource availability is registration-specific |
+| Full Registry / Knowledge Mesh snapshot class | `$25.00 USDC` | `25000000` | Pricing class defined; individual resource availability is registration-specific |
+
+Required distinction:
+
+```text
+pricing class exists
+≠
+specific resource exists
+```
+
+---
+
+# 7. Resource Before Price
+
+The production gateway should resolve:
+
+```text
+resource identity
+before
+price
+```
+
+not:
+
+```text
+URL resembles paid route
+→ assign price
+→ assume resource exists
+```
+
+The correct order is:
+
+```text
+canonical resource
+↓
+availability
+↓
+access class
+↓
+price
+```
+
+---
+
+# 8. Fail-Closed Availability Model
+
+Protected retrieval must fail closed.
+
+## Unknown Resource
+
+```text
+HTTP 404 Not Found
+payment challenge: no
+```
+
+## Known but Incomplete Resource
+
+```text
+HTTP 409 Conflict
+payment challenge: no
+```
+
+## Registered + Complete + Protected Resource
+
+```text
+eligible for HTTP 402 Payment Required
+```
+
+This protects agents from paying for unavailable resources.
+
+---
+
+# 9. Atomic Canonical Query
+
+Public route template:
+
+```text
+/v1/query/atomic/{resource}
+```
+
+Current verified Atomic resource:
+
+```text
+/v1/query/atomic/robbie-george-biography-plate
+```
+
+Canonical internal compatibility route:
+
+```text
+/x402/query/atomic/robbie-george-biography-plate
+```
+
+Canonical identifier:
+
+```text
+robbie-george#robbie-george-biography-plate
+```
+
+Canonical authority:
+
+https://www.robbiegeorgephotography.com/who-is-robbie-george
+
+Configuration:
+
+```text
+Access class: atomic
+Price: 0.005 USDC
+Atomic units: 5000
+Schema: naturepedia.atomic-query.v1
+```
+
+---
+
+# 10. Verified Atomic Challenge
+
+Observed production result:
+
+```text
+STATUS: 402
+AMOUNT: 5000
+TIER: atomic
+PAYMENT REQUIRED: true
+```
+
+Result:
+
+```text
+PASS
+```
+
+This establishes the payment challenge for that registered resource.
+
+During that activation validation:
+
+```text
+new Atomic payment: not supplied
+new Atomic settlement: not performed
+protected Atomic HTTP 200 delivery: not retested
+```
+
+Therefore:
+
+```text
+Atomic challenge verified
+≠
+new Atomic settlement verified
+```
+
+---
+
+# 11. Atomic Safety Tests
+
+Known but incomplete resource:
+
+```text
+/v1/query/atomic/robbies-razor-plate
+```
+
+Observed:
+
+```text
+409
+no payment challenge
+```
+
+Unknown Atomic resource:
+
+```text
+404
+no payment challenge
+```
+
+Current Atomic safety model:
+
+```text
+registered + complete
+→ 402 / 5000 / atomic
+
+known incomplete
+→ 409 / no payment
+
+unknown
+→ 404 / no payment
+```
+
+---
+
+# 12. Enriched Query
+
+Current pricing:
+
+```text
+0.025 USDC
+25000 atomic units
+```
+
+Current state:
+
+```text
+RESERVED
+```
+
+A published price does not activate an Enriched resource.
+
+Required rule:
+
+```text
+Enriched pricing class exists
+≠
+Enriched product exists
+```
+
+Activation requires:
+
+- explicit registration;
+- governed deterministic payload;
+- availability gating;
+- fidelity requirements;
+- production validation.
+
+---
+
+# 13. Structured Plate™ Retrieval
+
+Current verified Structured Plate routes include:
+
+```text
+/v1/plates/item/commercial-data-license-plate
+/v1/plates/item/commercial-intelligence-pricing-plate
+/v1/plates/item/robbie-george-biography-plate
+```
+
+Configuration:
+
+```text
+Access class: single-plate
+Price: 0.25 USDC
+Atomic units: 250000
+```
+
+Observed challenge result for the tested resources:
+
+```text
+STATUS: 402
+AMOUNT: 250000
+TIER: single-plate
+PAYMENT REQUIRED: true
+```
+
+Unknown Plates:
+
+```text
+404
+no payment
+```
+
+Known but incomplete Plates:
+
+```text
+409
+no payment
+```
+
+---
+
+# 14. `$5` Bounded-Resource Class
+
+Current price:
+
+```text
+5.00 USDC
+5000000 atomic units
+```
+
+This pricing class may apply to qualifying:
+
+- taxonomy subtrees;
+- Registries;
+- identity graphs;
+- System Maps.
+
+But:
+
+```text
+$5 class exists
+≠
+every bounded resource is active
+```
+
+Specific resource availability must be registered.
+
+---
+
+# 15. Verified `$5` Resource
+
+Production evidence includes the specific:
+
+```text
+/v1/plates/tree-system-map
+```
+
+resource.
+
+Pricing-v3 challenge:
+
+```text
+402 Payment Required
+5000000 atomic units
+tier: subtree
+```
+
+Historical testing also recorded successful settlement and protected delivery on the Tree System Map route.
+
+Therefore:
+
+```text
+Tree System Map
+→ resource-specific $5 evidence exists
+```
+
+but:
+
+```text
+Tree System Map verified
+≠
+every $5-class resource verified
+```
+
+---
+
+# 16. `$25` Snapshot Class
+
+Current price:
+
+```text
+25.00 USDC
+25000000 atomic units
+```
+
+This pricing class may apply to qualifying explicitly registered:
+
+- full Registry snapshots;
+- Knowledge Mesh snapshots;
+- other governed large protected resources.
+
+But:
+
+```text
+$25 class exists
+≠
+every Knowledge Mesh is active
+```
+
+---
+
+# 17. Verified `$25` Resource
+
+Production evidence includes:
+
+```text
+/v1/knowledge-mesh/geology
+```
+
+Observed pricing-v3 challenge:
+
+```text
+402 Payment Required
+25000000 atomic units
+tier: snapshot
+```
+
+This supports:
+
+```text
+Geology Knowledge Mesh
+→ challenge-verified under $25 class
+```
+
+It does not establish:
+
+```text
+all Knowledge Meshes active
+```
+
+---
+
+# 18. Public v2 Control Plane
+
+Current public machine-facing endpoints include:
+
+```text
+/api/v2/naturepedia/index.md
+/api/v2/plates/registry.md
+/api/v2/rrip/resolve
+/api/v2/razor/state-token
+```
+
+These exact endpoints are public control-plane resources.
+
+They should **not** be listed as examples of paid x402 retrieval.
+
+Required distinction:
+
+```text
+public control-plane endpoint
+≠
+protected x402 resource
+```
+
+---
+
+# 19. Naturepedia Discovery Endpoint
+
+```text
+/api/v2/naturepedia/index.md
+```
+
+Role:
+
+- machine discovery;
+- ecosystem navigation;
+- resource-family awareness;
+- routing orientation.
+
+Payment:
+
+```text
+public
+```
+
+unless a future production change explicitly states otherwise.
+
+---
+
+# 20. Plate Registry Endpoint
+
+```text
+/api/v2/plates/registry.md
+```
+
+Role:
+
+- Plate™ discovery;
+- registry navigation;
+- resource identity;
+- machine routing.
+
+It should not automatically be described as:
+
+- Graph Registry access;
+- paid Registry retrieval;
+- Knowledge Mesh traversal.
+
+Its current public endpoint contract governs.
+
+---
+
+# 21. RRIP Resolver
+
+```text
+/api/v2/rrip/resolve
+```
+
+Role:
+
+- RRIP-oriented relationship resolution;
+- inheritance-path lookup where implemented.
+
+Current canonical orientation:
+
+```text
+MRD v2.0 §12.8
+```
+
+The public resolver itself is not automatically a `$25` product.
+
+---
+
+# 22. State Token
+
+```text
+/api/v2/razor/state-token
+```
+
+Role:
+
+- registry-state signaling;
+- version comparison;
+- synchronization metadata;
+- cache coordination.
+
+It does not independently verify:
+
+- truth;
+- scientific validity;
+- physical entropy;
+- substantive framework compliance.
+
+Required distinction:
+
+```text
+state agreement
+≠
+evidence validation
+```
+
+---
+
+# 23. Public vs Protected Resource
+
+A client may discover a protected resource through the public control plane.
+
+Conceptually:
+
+```text
+public discovery
+↓
+resource resolution
+↓
+availability check
+↓
+public or protected
+```
+
+If public:
+
+```text
+retrieve directly
+```
+
+If protected:
+
+```text
+402
+↓
+payment authorization
+↓
+settlement
+↓
+protected retrieval
+```
+
+---
+
+# 24. x402 Is Not a Sitewide Paywall
+
+Naturepedia contains both:
+
+```text
+public human-readable content
+```
+
+and:
+
+```text
+public machine-readable discovery
+```
+
+alongside:
+
+```text
+selected protected machine resources
+```
+
+x402 should therefore be interpreted as:
+
+```text
+resource-specific protected retrieval
+```
+
+not:
+
+```text
+sitewide access control
+```
+
+---
+
+# 25. Commercial Data License
+
+The Commercial Data License governs applicable commercial data-use rights where explicitly granted.
+
+It may govern uses such as:
+
+- structured-data reuse;
+- commercial dataset use;
+- certain ingestion or redistribution rights;
+- other rights expressly described by the agreement.
+
+The written license controls.
+
+Do not infer rights merely from this repository document.
+
+---
+
+# 26. Commercial Data License Boundary
+
+The Commercial Data License should not be represented as automatically controlling:
+
+- every Naturepedia page;
+- every public discovery resource;
+- all framework implementation;
+- all private deployments;
+- all x402 retrieval.
+
+Required distinction:
+
+```text
+data-use rights
+≠
+framework implementation rights
+```
+
+---
+
+# 27. Framework Licensing
+
+Framework Licensing may govern protected implementation rights for Grand Compression / Robbie’s Razor™ architecture where the agreement applies.
+
+Potentially covered framework-specific concepts may include:
+
+- Robbie’s Razor™;
+- RKCA™;
+- RRIP™;
+- Plate™ Architecture;
+- Graph Registry™ architecture;
+- Knowledge Mesh architecture;
+- ACR governance.
+
+The exact agreement governs.
+
+---
+
+# 28. Framework License Boundary
+
+Framework Licensing is not a technical runtime layer.
+
+Required distinction:
+
+```text
+framework license
+≠
+API gateway
+```
+
+and:
+
+```text
+framework license
+≠
+payment protocol
+```
+
+It is a rights/governance layer operating alongside implementation.
+
+---
+
+# 29. Authorship Conservation Rule
+
+Current doctrine name:
+
+```text
+Authorship Conservation Rule (ACR)
+```
+
+Use the singular form.
+
+ACR governs provenance preservation.
+
+x402 governs protected retrieval payment where applicable.
+
+Conceptually:
+
+```text
+ACR
+→ provenance governance
+
+x402
+→ protected-retrieval settlement
+```
+
+Neither replaces the other.
+
+---
+
+# 30. ACR Is Not Required Because x402 Exists
+
+Avoid the deterministic claim:
+
+```text
+ACR + x402 are both required for responsible retrieval
+```
+
+as a universal rule.
+
+A better interpretation is:
+
+```text
+ACR governs provenance where applicable
+x402 governs protected payment where applicable
+```
+
+A public resource may use ACR provenance without x402.
+
+A protected resource may use both.
+
+---
+
+# 31. RRIP Relationship
+
+Current canonical orientation:
+
+```text
+MRD v2.0 §12.8
+→ Recursive Registry Inheritance Principle (RRIP™)
+```
+
+RRIP may govern inheritance relationships among explicitly registered resources.
+
+Avoid:
+
+```text
+RRIP determines what relationships exist
+```
+
+RRIP governs an inheritance principle.
+
+It does not define all possible semantic relationships in Naturepedia.
+
+---
+
+# 32. Graph Registry™ Relationship
+
+A Graph Registry™ may represent typed governed relationships.
+
+It does not automatically determine:
+
+- protected endpoints;
+- prices;
+- access classes;
+- payment eligibility.
+
+Required distinction:
+
+```text
+Graph Registry
+≠
+pricing engine
+```
+
+---
+
+# 33. Knowledge Mesh Relationship
+
+A Knowledge Mesh may organize higher-order governed relationships where explicitly implemented.
+
+Avoid:
+
+```text
+Knowledge Mesh determines how large-scale intelligence emerges
+```
+
+Preferred:
+
+```text
+Knowledge Mesh may organize higher-order machine-readable relationships
+```
+
+A Knowledge Mesh is infrastructure, not automatically cognition.
+
+---
+
+# 34. RKCA Structural Orientation
+
+A possible architecture may include:
+
+```text
+Plate™
+→ Registry
+→ Meta-Registry
+→ Graph Registry™
+→ Knowledge Mesh
+```
+
+This should be interpreted as:
+
+```text
+possible governed resource progression
+```
+
+not:
+
+```text
+mandatory automatic evolution
+```
+
+Required distinction:
+
+```text
+architecture permits layer
+≠
+resource exists
+```
+
+---
+
+# 35. Registry Is Not Automatically Memory
+
+A Registry may preserve state useful for later retrieval.
+
+But:
+
+```text
+Registry
+≠
+memory automatically
+```
+
+Useful memory requires:
+
+- stable identity;
+- retrievability;
+- freshness;
+- interpretation;
+- validation appropriate to the task.
+
+---
+
+# 36. Knowledge Mesh Is Not Automatically Intelligence
+
+Avoid:
+
+```text
+Knowledge Mesh
+=
+large-scale intelligence structure
+```
+
+Preferred terminology:
+
+```text
+higher-order relationship infrastructure
+```
+
+or:
+
+```text
+governed structured knowledge infrastructure
+```
+
+---
+
+# 37. State Synchronization Model
+
+A public state-token workflow may help reduce unnecessary refreshes.
+
+Example:
+
+```text
+Agent
+↓
+State Check
+↓
+Registry Changed?
+```
+
+If no:
+
+```text
+cached state may remain usable
+subject to resource validity and freshness rules
+```
+
+If yes:
+
+```text
+refresh or revalidation may be appropriate
+```
+
+This is a synchronization pattern, not a truth-verification system.
+
+---
+
+# 38. Cache Boundary
+
+A matching registry state does not establish that:
+
+- externally changing facts remain current;
+- cached conclusions remain correct;
+- scientific evidence has not changed.
+
+Required distinction:
+
+```text
+registry unchanged
+≠
+world unchanged
+```
+
+---
+
+# 39. MCP Relationship
+
+The Naturepedia MCP server is a separate protocol interface.
+
+Required distinctions:
+
+```text
+MCP
+≠
+x402
+```
+
+```text
+MCP discovery
+≠
+payment
+```
+
+```text
+HTTP endpoint
+≠
+MCP tool automatically
+```
+
+A wallet-capable agent may combine MCP discovery with x402 retrieval where appropriate.
+
+---
+
+# 40. Agent-Wallet Boundary
+
+Receiving a `402` does not itself authorize payment.
+
+A wallet-capable agent may evaluate:
+
+- resource identity;
+- price;
+- policy;
+- user authorization;
+- budget;
+- rights.
+
+Required distinction:
+
+```text
+402
+≠
+automatic wallet authorization
+```
+
+---
+
+# 41. Historical Settlement Evidence
+
+Production records include a historical successful Base USDC settlement.
+
+Historical transaction:
+
+```text
+0x4b43cc4b1d891219b372699791e7e4127836935262bdd5747850d9143ea87376
+```
+
+This demonstrates:
+
+```text
+production settlement capability
+```
+
+It does not demonstrate:
+
+```text
+every current protected route settled
+```
+
+---
+
+# 42. Challenge vs Settlement vs Delivery
+
+These states must remain separate.
+
+```text
+402 challenge
+≠
+settlement
+```
+
+```text
+settlement
+≠
+protected delivery on every route
+```
+
+```text
+historical end-to-end success
+≠
+new-route end-to-end test
+```
+
+---
+
+# 43. Retrieval Rights Boundary
+
+One successful x402 payment grants the identified endpoint-level retrieval under the applicable access conditions.
+
+It does not automatically grant:
+
+- training rights;
+- embedding rights;
+- bulk ingestion;
+- redistribution;
+- resale;
+- synchronization;
+- private-dataset construction;
+- derivative-dataset rights;
+- commercial implementation rights;
+- framework implementation rights;
+- ownership rights.
+
+---
+
+# 44. Attribution Boundary
+
+Payment does not remove attribution or provenance.
+
+Required distinction:
+
+```text
+payment
+≠
+authorship transfer
+```
+
+Likewise:
+
+```text
+public access
+≠
+origin-free content
+```
+
+The applicable provenance rules remain relevant.
+
+---
+
+# 45. Evidence Boundary
+
+Successful machine commerce demonstrates machine-commerce behavior.
+
+It does not independently establish:
+
+- scientific validity;
+- Grand Compression universal correctness;
+- external consensus;
+- causal superiority;
+- economic superiority.
+
+Canonical orientation:
+
+```text
+RC-21 — Reference Implementation Distinction
+```
+
+---
+
+# 46. Commercial Success Boundary
+
+A transaction demonstrates:
+
+```text
+at least one successful transaction
+```
+
+It does not automatically demonstrate:
+
+- broad market demand;
+- product-market fit;
+- sustainable revenue;
+- agent adoption at scale.
+
+Those require separate evidence.
+
+---
+
+# 47. Machine Retrieval Efficiency
+
+Structured protected retrieval may reduce some retrieval burden in particular workflows.
+
+That is a testable claim.
+
+Do not assume:
+
+```text
+x402
+→ lower compute
+```
+
+or:
+
+```text
+paid retrieval
+→ better answer
+```
+
+The payment mechanism itself does not determine retrieval quality.
+
+---
+
+# 48. Graph Presence vs Resource Availability
+
+A resource appearing in:
+
+- a Registry;
+- Graph Registry;
+- Knowledge Mesh;
+- AI catalog;
+
+does not automatically establish that a paid resource exists.
+
+The availability gate remains authoritative.
+
+---
+
+# 49. Production Resource Rule
+
+Before a resource is payment-eligible, verify:
+
+```text
+canonical identity
+explicit registration
+complete governed payload
+resource class
+availability
+price
+rights scope
+```
+
+Only then:
+
+```text
+eligible 402
+```
+
+---
+
+# 50. New Protected Resource Checklist
+
+```text
+[ ] canonical identifier
+[ ] canonical authority
+[ ] resource registration
+[ ] complete governed payload
+[ ] resource-class assignment
+[ ] deterministic price
+[ ] availability state
+[ ] 404 behavior
+[ ] 409 behavior where applicable
+[ ] 402 challenge validation
+[ ] provenance
+[ ] rights notice
+[ ] version
+[ ] settlement status recorded separately
+[ ] delivery status recorded separately
+```
+
+---
+
+# 51. Enriched Activation Checklist
+
+Enriched currently remains:
+
+```text
+RESERVED
+```
+
+Before activation:
+
+```text
+[ ] explicit resource exists
+[ ] governed deterministic payload exists
+[ ] availability gate implemented
+[ ] 404 tested
+[ ] 409 tested
+[ ] 402 / 25000 tested
+[ ] fidelity requirements defined
+[ ] machine discovery synchronized
+[ ] settlement status recorded
+[ ] protected delivery status recorded
+```
+
+Do not mark Enriched active merely because its price is configured.
+
+---
+
+# 52. Current Production Summary
+
+```text
+NETWORK
+Base
+eip155:8453
+
+ASSET
+USDC
+
+PRICING MANIFEST
+v3.0.0
+
+DISCOVERY
+Free where exposed
+
+ATOMIC
+0.005 USDC
+5000 atomic units
+active only for explicitly registered deterministic resources
+
+ENRICHED
+0.025 USDC
+25000 atomic units
+RESERVED
+
+STRUCTURED PLATE
+0.25 USDC
+250000 atomic units
+active only for explicitly registered validated payloads
+
+BOUNDED MULTI-RECORD CLASS
+5.00 USDC
+5000000 atomic units
+resource-specific availability
+
+LARGE SNAPSHOT CLASS
+25.00 USDC
+25000000 atomic units
+resource-specific availability
+
+TREE SYSTEM MAP
+$5 challenge verified
+historical settlement/delivery evidence exists
+
+GEOLOGY KNOWLEDGE MESH
+$25 challenge verified
+
+AVAILABILITY
+unknown → 404
+known incomplete → 409
+registered complete protected resource → eligible 402
+```
+
+---
+
+# 53. Final Interpretation Rules
+
+This document must preserve:
+
+```text
+x402
+≠
+Commercial Data License
+```
+
+```text
+x402
+≠
+Framework License
+```
+
+```text
+public control plane
+≠
+paid endpoint
+```
+
+```text
+pricing class
+≠
+resource existence
+```
+
+```text
+route pattern
+≠
+product
+```
+
+```text
+Registry
+≠
+memory automatically
+```
+
+```text
+Graph Registry
+≠
+pricing engine
+```
+
+```text
+Knowledge Mesh
+≠
+intelligence automatically
+```
+
+```text
+RRIP
+≠
+all semantic relationships
+```
+
+```text
+402 challenge
+≠
+settlement
+```
+
+```text
+settlement
+≠
+all-route protected delivery
+```
+
+```text
+payment
+≠
+training rights
+```
+
+```text
+payment
+≠
+authorship transfer
+```
+
+```text
+payment
+≠
+scientific validation
+```
+
+```text
+reference implementation
+≠
+independent confirmation
+```
+
+---
+
+# Related Resources
+
+x402 production architecture:
+
+```text
+docs/examples/x402/README.md
+```
+
+Live endpoint record:
+
+```text
+docs/examples/x402/live-endpoints.md
+```
+
+Worker architecture:
+
+```text
+docs/examples/x402/worker-architecture.md
+```
+
+MCP compatibility:
+
+```text
+docs/examples/x402/mcp-compatibility.md
+```
+
+Pricing mirror:
+
+```text
+docs/examples/x402/pricing-map-example.json
+```
+
+ACR:
+
+```text
 docs/examples/framework/acr-governance.md
+```
 
-Graph Registry™:
+Graph Registry:
 
+```text
 docs/examples/framework/graph-registry.md
+```
 
-Plate Registry JSON-LD:
+Knowledge Mesh:
 
-docs/examples/json-ld/plate-registry.json
+```text
+docs/examples/framework/knowledge-mesh.md
+```
 
-Repository:
+Framework Licensing:
 
-https://github.com/RobbieRazor/robbies-razor-benchmarks
+https://www.robbiegeorgephotography.com/robbies-razor-framework-licensing
+
+Commercial Data License:
+
+https://www.robbiegeorgephotography.com/commercial-data-license
+
+---
+
+# Attribution
+
+Naturepedia™, Robbie’s Razor™, RKCA™, RRIP™, Plate™ Architecture, Graph Registry™, Knowledge Mesh terminology as used within the Grand Compression framework, ACR, and associated original Grand Compression implementation concepts originate with:
+
+**Robbie George**  
+Author and Originator  
+The Grand Compression Cosmology — Master Reference Document, MRD v2.0  
+Canonical identifier: `GC-MRD-v2.0`
+
+The **Authorship Conservation Rule (ACR)** governs preservation of that framework provenance.
+
+x402, Base, USDC, Cloudflare, MCP, HTTP, JSON, cryptographic payment methods, and other external standards and technologies retain their independent provenance.
+
+Implementation, payment, licensing, settlement, machine transformation, retrieval, or similarity does not by itself establish empirical validation, derivation, shared authorship, or ownership transfer.
