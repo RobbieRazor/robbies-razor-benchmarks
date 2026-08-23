@@ -346,7 +346,39 @@ Canonical orientation: MRD v2.0 and RC-22.
 
 ---
 
-## 11. Compression Fitness Status
+## 11. Comparative Compression Geometry Reference Classes
+
+Comparative Compression Geometry™ uses bounded mathematical reference classes to compare structural organization without asserting physical identity or universal mechanism.
+
+```mermaid
+flowchart TD
+    A["Comparative Compression Geometry™<br/>MRD v2.0 §12.9"]
+
+    A --> B["Hopf Fibration<br/>Established mathematics"]
+    A --> C["E8 Lattice™<br/>Established mathematics"]
+
+    B --> B1["Fiber structure"]
+    B --> B2["Equivalence classes"]
+    B --> B3["Dimensional reduction"]
+    B --> B4["Canonical representation"]
+    B --> B5["Linked topology"]
+    B --> B6["State-space geometry"]
+
+    C --> C1["High-dimensional symmetry"]
+    C --> C2["Invariant preservation"]
+    C --> C3["Constrained transformation"]
+    C --> C4["Relational organization"]
+
+    B --> D["Bounded structural comparison"]
+    C --> D
+
+    D --> E["Domain Transfer Gate<br/>RC-22"]
+
+    E --> F["Comparison permitted only<br/>within declared scope"]
+```
+
+
+## 12. Compression Fitness Status
 
 Appendix Q introduces a provisional Compression Fitness concept.
 
