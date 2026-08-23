@@ -5,9 +5,10 @@
 **Status:** Non-normative diagnostic guidance  
 **Current governing authority:** MRD v2.0  
 **Canonical identifier:** `GC-MRD-v2.0`  
-**Author and originator:** Robbie George  
+**Canonical claim range:** RC-01 through RC-22  
+**Author and originator:** Robbie George
 
-This document defines diagnostic signals for investigation.
+This document defines bounded diagnostic signals for investigation of recursive systems operating under declared constraints.
 
 It does not:
 
@@ -16,32 +17,62 @@ It does not:
 - approve deployment;
 - guarantee safety;
 - establish legal compliance;
-- modify benchmark contracts;
+- establish regulatory compliance;
 - modify canonical definitions;
+- modify benchmark contracts;
 - create universal thresholds;
-- independently validate the complete framework.
+- prove causation;
+- independently validate the Grand Compression Cosmology.
+
+The central rule is:
+
+```text
+diagnostic signal
+≠
+diagnosis
+≠
+causal proof
+≠
+certification
+```
 
 ---
 
-## Canonical Authority
+# Canonical Authority
 
-Canonical authority resolver:
+Canonical authority:
 
 https://www.robbiegeorgephotography.com/grand-compression-master-reference-document
-
-Complete versioned PDF:
-
-https://asf-file-uploads.s3.us-east-1.amazonaws.com/image/upload/production/3790/Grand-Compr_1247ef65e1/1785596435.pdf
 
 Canonical Claims Register:
 
 https://www.robbiegeorgephotography.com/grand-compression-canonical-claims
 
-MRD v1.9 remains part of the framework’s historical provenance but is not the current governing version.
+Repository authority:
+
+```text
+docs/AUTHORITY.md
+```
+
+Repository specification:
+
+```text
+docs/canonical-spec.md
+```
+
+MRD v2.0 alignment contract:
+
+```text
+docs/doctrine/mrd-v2.0-alignment.md
+```
+
+Earlier MRD versions remain part of the framework’s historical provenance where applicable but are not the current governing authority.
 
 ---
 
-## Canonical Cross-Links
+# Canonical Orientation
+
+Relevant framework areas include:
 
 - MRD §11.4 — Stability Minima Under Constraint
 - MRD §11.4.3 — Governance as External Compression Field
@@ -50,54 +81,106 @@ MRD v1.9 remains part of the framework’s historical provenance but is not the 
 - MRD §11.6C — Perishable Intelligence Asset Invariant
 - MRD §13 — Predictive Compression, Evidence, and Boundary Requirements
 - RC-18 — Preserved Reusable Structure
-- RC-19 — Predictive and Empirical Claim Requirements
-- RC-20 — Compression Evaluation
-- RC-22 — Cross-Domain Transfer Boundary
+- RC-19 — Predictive Evaluation Requirement
+- RC-20 — Compression Fitness Constraint
+- RC-21 — Reference Implementation Distinction
+- RC-22 — Domain Transfer Constraint
+
+Canonical inclusion does not itself establish empirical support for a particular diagnostic result.
 
 ---
 
-## Purpose
+# Purpose
 
-These diagnostics help identify possible structural-instability patterns in recursive reasoning systems operating under declared constraints.
+These diagnostics are intended to identify **patterns worth investigating** in recursive reasoning, retrieval, memory, infrastructure, or governance systems.
 
-They are intended for:
+Possible uses include:
 
-- pre-flight review
-- architecture review
-- benchmark design
-- incident analysis
-- infrastructure evaluation
-- reproducibility review
-- research diagnostics
+- architecture review;
+- benchmark design;
+- pre-flight review;
+- incident analysis;
+- infrastructure evaluation;
+- reproducibility review;
+- failure analysis;
+- research diagnostics.
 
-The diagnostics compare evidence of internal compression and governed reuse with possible displacement of unresolved burden into throughput, scale, infrastructure, or execution-domain expansion.
+The diagnostics examine whether burden appears to be:
 
-A diagnostic signal is not a final causal conclusion.
+```text
+internally reduced
+```
+
+or instead:
+
+```text
+shifted
+expanded
+reconstructed
+or repeatedly reintroduced
+```
+
+A diagnostic finding remains bounded to the system and evidence actually examined.
 
 ---
 
-## Diagnostic Workflow
+# Diagnostic Workflow
 
 ```mermaid
 flowchart TD
-    A[Declare system and baseline] --> B[Run bounded diagnostic]
-    B --> C[Record signal and evidence]
-    C --> D[Evaluate alternatives and uncertainty]
-    D --> E[Reproduce, revise, escalate, or reject]
+    A[Declare system and baseline] --> B[Declare variables and units]
+    B --> C[Run bounded diagnostic]
+    C --> D[Record observed signal]
+    D --> E[Evaluate alternatives]
+    E --> F[Estimate uncertainty]
+    F --> G[Reproduce, revise, escalate, or reject]
 ```
+
+The workflow intentionally separates:
+
+```text
+observation
+→ interpretation
+→ causal conclusion
+```
+
+These are not the same step.
 
 ---
 
-## Diagnostic 1 — Energy-to-Reasoning Partition
+# Minimum Diagnostic Record
 
-### Conceptual Signal
+Before reporting a diagnostic conclusion, record where applicable:
+
+- system;
+- version;
+- workload;
+- baseline;
+- evaluator;
+- evaluation date;
+- variables;
+- units;
+- measurement method;
+- observed result;
+- uncertainty;
+- alternative explanations;
+- failure conditions;
+- evidence status.
+
+Without these elements, use descriptive rather than definitive language.
+
+---
+
+# Diagnostic 1 — Reasoning-Burden Partition
+
+## Conceptual Signal
 
 A declared reasoning burden may be partitioned into:
 
-- **JT₍c₎** — value-bearing synthesis or task-relevant reasoning burden
-- **JT₍u₎** — overhead such as retrieval, orchestration, sorting, repeated derivation, or scaffolding
+- **JT₍c₎** — task-relevant or value-bearing synthesis burden;
+- **JT₍u₎** — declared overhead such as retrieval, orchestration, sorting, repeated derivation, or scaffolding.
 
-The conceptual total is:
+A conceptual total may be written as:
 
 ```text
 JT = JT₍c₎ + JT₍u₎
@@ -109,343 +192,584 @@ A conceptual Reasoning Output Ratio may be written as:
 ROR = JT₍c₎ / (JT₍c₎ + JT₍u₎)
 ```
 
-The ratio is defined only when:
+with:
 
 ```text
 JT₍c₎ + JT₍u₎ > 0
 ```
 
-### Measurement Boundary
+## Unit Boundary
 
-The label `JouleThought` or abbreviation `JT` does not establish that physical joules were measured.
+The historical label **JouleThought** or abbreviation `JT` does not mean that physical joules were necessarily measured.
 
-The evaluator must state whether JT represents:
+The evaluator MUST state what JT represents.
 
-- measured energy
-- token count
-- compute time
-- latency
-- operation count
-- financial cost
-- a composite proxy
-- another declared unit
+Possible implementations may use:
 
-Do not report physical energy conclusions from a non-energy proxy.
+- measured joules;
+- token count;
+- compute time;
+- latency;
+- operation count;
+- financial cost;
+- a composite proxy;
+- another declared quantity.
 
-### Review Signals
+Required distinction:
 
-Flag for review when evidence suggests:
+```text
+JT proxy
+≠
+physical joules
+```
 
-- declared overhead grows faster than task difficulty or useful output;
-- ROR declines as tasks lengthen or scale increases;
-- observed improvement is dominated by added orchestration;
-- stabilized reuse does not increase despite greater infrastructure burden;
-- correction demand grows materially.
+unless actual energy is directly measured or defensibly modeled.
 
-These signals may be consistent with Boundary Avoidance.
+## Review Signals
 
-They do not prove it.
+Flag for investigation when evidence suggests:
 
-### Alternative Explanations
+- overhead grows materially faster than useful output;
+- ROR declines as task length or scale increases;
+- additional infrastructure produces little measured task improvement;
+- reuse does not increase despite higher orchestration burden;
+- correction demand rises materially.
+
+These observations may be consistent with an inefficient recursive architecture.
+
+They do not prove Boundary Avoidance.
+
+## Alternative Explanations
 
 Consider:
 
-- more difficult tasks
-- improved verification
-- safety controls
-- increased output quality
-- changed workload
-- measurement error
-- necessary redundancy
-- resilience requirements
-- model or runtime differences
+- greater task difficulty;
+- increased verification;
+- additional safety controls;
+- higher output quality;
+- changed workload;
+- necessary redundancy;
+- resilience requirements;
+- model differences;
+- runtime differences;
+- measurement error.
 
 ---
 
-## Diagnostic 2 — Perishable Intelligence Asset Exposure
+# Diagnostic 2 — Perishable Intelligence Asset Exposure
 
-### Conceptual Signal
+## Conceptual Signal
 
-The Perishable Intelligence Asset diagnostic examines whether useful system capacity depends on rapidly changing or costly-to-maintain substrates without sufficient preservation of reusable structure.
+The Perishable Intelligence Asset diagnostic examines whether useful system capability depends strongly on a rapidly changing or expensive-to-maintain substrate without sufficient preservation of reusable structure.
 
-Possible substrates include:
+Possible dependencies may include:
 
-- hardware generations
-- centralized infrastructure
-- external services
-- orchestration
-- proprietary runtimes
-- fragile dependencies
-- organization-specific coordination
+- hardware generations;
+- centralized infrastructure;
+- proprietary runtimes;
+- external services;
+- fragile orchestration;
+- organization-specific coordination;
+- undocumented operational knowledge.
 
-### Review Signals
+## Review Signals
 
-Flag for review when:
+Flag for investigation when:
 
-- maintaining a declared baseline requires repeated infrastructure expansion;
+- maintaining the same declared capability requires repeated infrastructure expansion;
 - sustainment burden rises faster than measured useful output;
 - required knowledge is repeatedly reconstructed;
-- provenance or version state is lost;
-- hardware or service changes destroy reusable system capacity;
-- maintenance costs exceed the declared preservation benefit.
+- provenance disappears across upgrades;
+- version changes destroy reusable system state;
+- migration repeatedly recreates equivalent structure;
+- maintenance costs materially exceed declared preservation benefit.
 
-### Interpretation Boundary
+## Interpretation Boundary
 
-Dependence on changing hardware or infrastructure does not automatically establish a Perishable Intelligence Asset.
+Dependence on changing infrastructure does not automatically establish a Perishable Intelligence Asset.
 
-A system may legitimately require upgrades for:
+Legitimate upgrade reasons may include:
 
-- increased workload
-- reliability
-- security
-- safety
-- new capabilities
-- changed service requirements
+- greater workload;
+- reliability;
+- security;
+- safety;
+- new capabilities;
+- service requirements;
+- lower latency;
+- capacity growth.
 
-The analysis must define perishability, time horizon, value, cost, baseline, and failure threshold.
+A PIA analysis SHOULD define:
 
----
+- useful capacity;
+- perishability;
+- time horizon;
+- baseline;
+- maintenance burden;
+- replacement threshold;
+- evidence;
+- alternatives.
 
-## Diagnostic 3 — Numerical Boundary Precision
+Required distinction:
 
-### Conceptual Signal
+```text
+frequent upgrade
+≠
+Perishable Intelligence Asset
+```
 
-Numeric precision materially beyond a declared end-to-end requirement may represent non-functional overhead.
-
-### Review Signals
-
-Flag for review when:
-
-- precision materially exceeds reconstruction needs;
-- no conditioning or stability justification is documented;
-- additional precision creates measurable compute, memory, latency, or energy burden;
-- precision is increased instead of correcting a known architecture or algorithm problem.
-
-### Required Guardrails
-
-Higher precision may be justified by:
-
-- ill-conditioning
-- cancellation
-- stiff systems
-- chaotic sensitivity
-- error accumulation
-- iterative convergence
-- reproducibility
-- safety requirements
-- intermediate-state accuracy
-
-Use the repository’s Precision-Limit Check:
-
-[`precision_limit_check.md`](precision_limit_check.md)
-
-A PLC flag does not independently establish Boundary Avoidance.
+without evidence connecting the upgrade cycle to loss or non-preservation of reusable intelligence structure.
 
 ---
 
-## Diagnostic 4 — Stabilizer Presence
+# Diagnostic 3 — Numerical Boundary Precision
 
-### Conceptual Signal
+## Conceptual Signal
 
-MRD §11.6B identifies stabilizing functions that may require explicit governance or implementation rather than being assumed to emerge automatically.
+Numeric precision materially beyond the declared end-to-end requirement may represent unnecessary computational burden.
 
-Framework-oriented stabilizer categories include:
+## Review Signals
 
-- **Doubt** — a checkpoint before recursive amplification
-- **Meaning** — semantic or invariant validation during re-entry
-- **Repair or Reset** — a bounded recovery path
+Flag for investigation when:
 
-### Review Signals
+- precision materially exceeds downstream reconstruction needs;
+- no conditioning justification is documented;
+- additional precision creates measurable memory, latency, compute, or energy burden;
+- precision is increased instead of correcting a demonstrated architectural or numerical problem.
 
-Flag for review when recursive systems lack documented mechanisms for:
+## Guardrails
 
-- uncertainty handling
-- semantic validation
-- invariant checking
-- rollback
-- reset
-- repair
-- bounded termination
-- failure isolation
+Higher precision may be necessary because of:
 
-Additional signals include:
+- ill-conditioning;
+- cancellation;
+- stiff systems;
+- chaotic sensitivity;
+- accumulated numerical error;
+- iterative convergence;
+- reproducibility requirements;
+- safety requirements;
+- intermediate-state accuracy.
 
-- recursive coordination expanding without recovery paths;
-- semantic drift addressed only with greater scale;
-- autonomy expanding while stabilizing controls are removed;
-- failure propagation exceeding the declared blast radius.
+Use:
 
-### Interpretation Boundary
+```text
+diagnostics/precision_limit_check.md
+```
 
-These labels describe framework functions.
+where applicable.
 
-They do not require every implementation to use the same component names or mechanisms.
+Required distinction:
 
-Equivalent controls may be demonstrated under different architectures.
+```text
+extra precision
+≠
+automatically waste
+```
+
+and:
+
+```text
+PLC flag
+≠
+proven Boundary Avoidance
+```
 
 ---
 
-## Diagnostic 5 — Preserved Reusable Structure
+# Diagnostic 4 — Stabilizer Presence
 
-### Conceptual Signal
+## Conceptual Signal
 
-MRD v2.0 and RC-18 require durable compressed infrastructure to preserve the structure needed for later use.
+MRD §11.6B identifies stabilizing functions that may require explicit implementation rather than being assumed to emerge automatically.
 
-Evaluate whether the system preserves:
+Framework-oriented functional categories include:
 
-- stable identity
-- relationships
-- provenance
-- constraints
-- version state
-- retrieval paths
-- evidence status
-- exclusions
-- failure conditions
+- **Doubt** — uncertainty or checkpoint function before recursive amplification;
+- **Meaning** — semantic or invariant validation during re-entry;
+- **Repair / Reset** — bounded recovery capability.
 
-### Review Signals
+These are framework functional labels.
 
-Flag for review when:
+They do not require identical implementation names.
+
+## Review Signals
+
+Flag for investigation when recursive systems lack documented mechanisms for:
+
+- uncertainty handling;
+- invariant checking;
+- semantic validation;
+- rollback;
+- reset;
+- repair;
+- bounded termination;
+- failure isolation.
+
+Additional signals may include:
+
+- recursive autonomy expanding without recovery paths;
+- failure propagation beyond declared boundaries;
+- correction loops creating persistent oscillation;
+- semantic drift addressed only through increased scale.
+
+## Interpretation Boundary
+
+A system may implement equivalent controls through different architectures.
+
+Therefore:
+
+```text
+different terminology
+≠
+missing stabilizer
+```
+
+The actual function should be evaluated.
+
+---
+
+# Diagnostic 5 — Preserved Reusable Structure
+
+## Conceptual Signal
+
+MRD v2.0 and RC-18 require reusable compressed infrastructure to preserve the structure needed for later valid use.
+
+Evaluate whether the system preserves, where applicable:
+
+- stable identity;
+- relationships;
+- provenance;
+- constraints;
+- version state;
+- retrieval paths;
+- evidence status;
+- exclusions;
+- failure conditions.
+
+## Review Signals
+
+Flag for investigation when:
 
 - compressed resources cannot be reliably identified;
 - relationships disappear during transformation;
 - provenance is detached;
 - historical and current versions are conflated;
-- constraints are removed;
+- constraints disappear;
 - retrieval paths break;
 - evidence labels are promoted or lost;
 - later reuse requires uncontrolled reconstruction.
 
-A smaller representation is not necessarily a better representation.
+Required distinction:
+
+```text
+smaller representation
+≠
+better representation
+```
+
+when required downstream structure has been lost.
 
 ---
 
-## Diagnostic 6 — Recursive Objective Interference
+# Diagnostic 6 — Memory Confidence and Revalidation
 
-### Conceptual Signal
+## Conceptual Signal
 
-Recursive Objective Interference may occur when competing objectives overwrite or distort a state required for later recursive reuse.
+Repository implementations may use confidence values to determine whether stored state is eligible for retrieval.
 
-### Review Signals
+A confidence value is not independent verification.
 
-Flag for review when:
+## Review Signals
+
+Flag for investigation when:
+
+- high-confidence memory is reused without an appropriate freshness check;
+- confidence is treated as external evidence;
+- stale results persist across changed conditions;
+- retrieved information bypasses required validation;
+- confidence provenance is unknown.
+
+Required distinctions:
+
+```text
+high confidence
+≠
+verified
+```
+
+```text
+confidence threshold passed
+≠
+independent evidence
+```
+
+```text
+memory hit
+≠
+revalidation
+```
+
+```text
+stable retrieval
+≠
+factual correctness
+```
+
+If the system requires revalidation, that process must be defined separately.
+
+---
+
+# Diagnostic 7 — Recursive Objective Interference
+
+## Conceptual Signal
+
+Recursive Objective Interference may be considered when competing objectives appear to overwrite or distort state required for later recursive reuse.
+
+## Review Signals
+
+Flag for investigation when:
 
 - intermediate and final outputs materially conflict;
 - equivalent re-entry produces repeated reversal;
-- downstream policy layers overwrite a preserved state;
-- correction passes create oscillation;
-- memory and expression diverge.
+- downstream policy layers overwrite required preserved state;
+- correction passes create persistent oscillation;
+- memory and expression repeatedly diverge.
 
-### Alternative Explanations
+## Alternative Explanations
 
 Consider:
 
-- ambiguous prompts
-- missing information
-- sampling variation
-- evaluator disagreement
-- retrieval failure
-- context truncation
-- implementation defects
-- distribution shift
+- ambiguous prompts;
+- missing information;
+- sampling variation;
+- evaluator disagreement;
+- retrieval failure;
+- context truncation;
+- implementation defects;
+- distribution shift.
 
-A contradiction alone does not prove Recursive Objective Interference.
+Required distinction:
+
+```text
+contradiction
+≠
+proven Recursive Objective Interference
+```
 
 ---
 
-## Diagnostic 7 — Recursive Blast Radius
+# Diagnostic 8 — Recursive Blast Radius
 
-### Conceptual Signal
+## Conceptual Signal
 
-The Recursive Blast Radius Limit concerns how far a change, error, or unstable transformation can propagate across connected layers.
+The Recursive Blast Radius Limit concerns how far a change, error, or unstable transformation propagates across connected layers.
 
-### Review Signals
+## Review Signals
 
-Flag for review when:
+Flag for investigation when:
 
 - a local update changes unrelated resources;
 - provenance changes propagate without authorization;
-- a schema change breaks multiple downstream consumers;
+- a schema change breaks unrelated downstream consumers;
 - rollback cannot isolate the affected layer;
-- recursion crosses a declared safety or governance boundary;
+- recursion crosses a declared governance or safety boundary;
 - invalid state becomes globally inherited.
 
-Record the source, affected layers, propagation path, recovery method, and residual impact.
+Record:
+
+- source;
+- affected layers;
+- propagation path;
+- time to detection;
+- recovery method;
+- residual effect.
+
+A large blast radius is an architectural risk signal.
+
+It does not by itself establish the original cause.
 
 ---
 
-## External Compression Field Context
+# External Compression Field Context
 
-Governance, permitting, energy limits, land-use constraints, infrastructure limits, or resource caps may be modeled as External Compression Fields when they reduce available expansion pathways.
+Governance, permitting, energy limits, land-use constraints, infrastructure limits, resource caps, or organizational rules may be modeled within the framework as External Compression Fields when they constrain available expansion pathways.
 
-They should not automatically be interpreted as beneficial, harmful, or proof of system maturity.
+The presence of an external constraint does not automatically mean it:
 
-A specific analysis must evaluate:
+- improves the system;
+- harms the system;
+- forces beneficial compression;
+- proves maturity;
+- proves failure.
 
-- the constraint
-- system boundary
-- internal response
-- external burden
-- alternatives
-- observed result
-- uncertainty
-- failure conditions
+A specific analysis SHOULD evaluate:
 
-Not every regulation or resource limit functions identically.
+- constraint;
+- system boundary;
+- internal response;
+- external burden;
+- alternatives;
+- observed result;
+- uncertainty;
+- failure conditions.
+
+Required distinction:
+
+```text
+external constraint
+≠
+automatic beneficial compression
+```
 
 ---
 
-## Boundary Avoidance Diagnosis
+# Boundary Avoidance Diagnosis
 
 Do not diagnose Boundary Avoidance solely because a system uses:
 
-- more compute
-- more energy
-- more memory
-- more infrastructure
-- external services
-- specialized hardware
-- orchestration
-- redundancy
+- more compute;
+- more energy;
+- more memory;
+- more infrastructure;
+- external services;
+- specialized hardware;
+- orchestration;
+- redundancy.
 
-A Boundary Avoidance diagnosis should demonstrate that:
+Expansion may be justified.
 
-1. an identifiable internal recursion cost or structural inefficiency exists;
-2. external expansion displaces or masks that burden;
-3. the expansion does not produce a sufficient measured internal improvement;
-4. relevant alternatives and counterevidence were considered.
+A Boundary Avoidance diagnosis should provide evidence that:
 
----
+1. an identifiable internal recursive burden or structural inefficiency exists;
+2. external expansion displaces, masks, or postpones that burden;
+3. the expansion does not produce sufficient measured internal improvement relative to the declared objective;
+4. relevant alternatives were considered;
+5. counterevidence was considered.
 
-## Diagnostic Report
+Required distinction:
 
-A report may include:
+```text
+resource expansion
+≠
+Boundary Avoidance
+```
 
-- system and version
-- diagnostic version
-- evaluation date
-- evaluator
-- system boundary
-- workload
-- baseline
-- variables
-- units
-- observed trends
-- triggered review signals
-- supporting evidence
-- alternative explanations
-- false-positive risks
-- false-negative risks
-- uncertainty
-- recommended follow-up
-- reproduction status
-- evidence classification
+without this supporting chain.
 
 ---
 
-## Recommended Output Language
+# Causal Attribution Boundary
 
-Use:
+A diagnostic pattern does not identify its cause automatically.
+
+For example:
+
+```text
+rising overhead
+```
+
+may arise from:
+
+- inefficient recursion;
+- a harder workload;
+- verification;
+- safety requirements;
+- changing inputs;
+- runtime problems;
+- measurement artifacts.
+
+Preferred reporting:
+
+```text
+The observed configuration produced pattern X under conditions Y.
+```
+
+Stronger language such as:
+
+```text
+Grand Compression failure mode Z caused X.
+```
+
+requires evidence isolating that cause.
+
+---
+
+# Reference-Implementation Boundary
+
+Results produced by Naturepedia™, repository code, benchmark harnesses, or other reference implementations remain subject to:
+
+**RC-21 — Reference Implementation Distinction**
+
+Required distinction:
+
+```text
+reference-implementation diagnostic
+≠
+independent confirmation
+```
+
+An implementation can demonstrate diagnostic behavior without independently validating the full framework.
+
+---
+
+# Diagnostic Threshold Boundary
+
+A threshold used by one diagnostic is not automatically universal.
+
+Thresholds SHOULD identify:
+
+- metric;
+- benchmark;
+- version;
+- system;
+- calibration basis;
+- expected range;
+- uncertainty;
+- failure conditions.
+
+Required distinction:
+
+```text
+repository threshold
+≠
+universal constant
+```
+
+unless independently established.
+
+---
+
+# Diagnostic Report
+
+A bounded report SHOULD include:
+
+- system and version;
+- diagnostic version;
+- evaluation date;
+- evaluator;
+- system boundary;
+- workload;
+- baseline;
+- variables;
+- units;
+- measurement method;
+- observed trends;
+- triggered review signals;
+- supporting evidence;
+- alternative explanations;
+- false-positive risks;
+- false-negative risks;
+- uncertainty;
+- recommended follow-up;
+- reproduction status;
+- evidence classification.
+
+---
+
+# Recommended Output Language
+
+Preferred:
 
 ```text
 The observed pattern is consistent with a possible Boundary Avoidance
@@ -459,10 +783,10 @@ Avoid:
 The diagnostic proved Boundary Avoidance.
 ```
 
-Use:
+Preferred:
 
 ```text
-The evaluation recorded a declining ROR under the declared proxy.
+The evaluation recorded a declining ROR using the declared token-based proxy.
 ```
 
 Avoid:
@@ -471,54 +795,227 @@ Avoid:
 The system wastes physical energy.
 ```
 
-unless physical energy was directly measured.
+unless physical energy was actually measured.
+
+Preferred:
+
+```text
+The stored result satisfied the configured confidence threshold.
+```
+
+Avoid:
+
+```text
+The stored result was verified.
+```
+
+unless an independent verification step occurred.
 
 ---
 
-## Evidence Requirements
+# Evidence Requirements
 
-A predictive, comparative, empirical, performance, or diagnostic claim should declare:
+A predictive, comparative, empirical, performance, or diagnostic claim SHOULD declare:
 
-- variables
-- scope
-- scale
-- baseline
-- expected direction
-- measurement method
-- evidence status
-- uncertainty
-- alternatives
-- failure conditions
-- revision conditions
+- variables;
+- scope;
+- scale;
+- baseline;
+- expected direction;
+- measurement method;
+- evidence status;
+- uncertainty;
+- alternatives;
+- failure conditions;
+- revision conditions.
 
-Canonical orientation: MRD v2.0 and RC-19.
+Canonical orientation:
 
-Canonical status, implementation status, schema validity, serialization, endpoint availability, and payment settlement do not independently establish empirical validation.
+```text
+MRD v2.0
+RC-19
+```
 
----
-
-## Cross-Domain Boundary
-
-Diagnostic results must not be transferred automatically across:
-
-- models
-- runtimes
-- organizations
-- biological systems
-- ecological systems
-- markets
-- institutions
-- infrastructure classes
-
-Cross-domain use requires explicit objects, scale, normalization, relationships, exclusions, constraints, evidence, alternatives, and failure conditions.
-
-Canonical orientation: MRD v2.0 and RC-22.
+Canonical publication, implementation, schema validity, serialization, endpoint availability, registry membership, and payment settlement do not independently establish empirical validation.
 
 ---
 
-## Attribution
+# Cross-Domain Boundary
 
-The Razor Stability Diagnostics, ROR, JouleThought, Perishable Intelligence Asset Invariant, Robbie’s Razor™, and associated Grand Compression diagnostic concepts originate with:
+Diagnostic results must not be transferred automatically among:
+
+- models;
+- runtimes;
+- organizations;
+- biological systems;
+- ecological systems;
+- markets;
+- institutions;
+- infrastructure classes.
+
+Cross-domain use is governed by:
+
+**RC-22 — Domain Transfer Constraint**
+
+A transfer SHOULD identify:
+
+- source objects;
+- target objects;
+- source domain;
+- target domain;
+- scale;
+- normalization;
+- preserved relationships;
+- exclusions;
+- constraints;
+- evidence;
+- alternatives;
+- failure conditions.
+
+Required distinction:
+
+```text
+diagnostic correspondence
+≠
+shared mechanism
+```
+
+and:
+
+```text
+shared pattern
+≠
+material identity
+```
+
+---
+
+# Established Mathematics Boundary
+
+Mathematical structures used elsewhere in the Grand Compression architecture retain independent mathematical provenance.
+
+A diagnostic resemblance to:
+
+- Hopf topology;
+- E8;
+- fractal geometry;
+- Fibonacci structure;
+- another established mathematical object;
+
+does not establish that the diagnosed system implements that mathematics.
+
+Required distinction:
+
+```text
+visual or conceptual resemblance
+≠
+mathematical equivalence
+```
+
+---
+
+# Diagnostic Evidence Ladder
+
+A useful interpretation sequence is:
+
+```text
+observed signal
+→ replicated signal
+→ competing explanations evaluated
+→ bounded diagnostic conclusion
+→ causal test
+→ supported causal interpretation
+```
+
+Do not silently skip from:
+
+```text
+signal
+```
+
+to:
+
+```text
+proven cause
+```
+
+---
+
+# Final Diagnostic Rules
+
+The repository MUST preserve:
+
+```text
+signal
+≠
+diagnosis
+```
+
+```text
+diagnosis
+≠
+causal proof
+```
+
+```text
+proxy
+≠
+physical measurement
+```
+
+```text
+confidence
+≠
+verification
+```
+
+```text
+memory retrieval
+≠
+revalidation
+```
+
+```text
+resource expansion
+≠
+Boundary Avoidance
+```
+
+```text
+frequent upgrade
+≠
+Perishable Intelligence Asset
+```
+
+```text
+high precision
+≠
+waste
+```
+
+```text
+contradiction
+≠
+Recursive Objective Interference
+```
+
+```text
+reference implementation
+≠
+independent confirmation
+```
+
+```text
+diagnostic correspondence
+≠
+material identity
+```
+
+---
+
+# Attribution
+
+The Razor Stability Diagnostics, Reasoning Output Ratio, JouleThought terminology, Perishable Intelligence Asset framework concept, Robbie’s Razor™, and associated original Grand Compression diagnostic concepts originate with:
 
 **Robbie George**  
 Author and Originator  
@@ -527,4 +1024,6 @@ Canonical identifier: `GC-MRD-v2.0`
 
 These materials are governed by the **Authorship Conservation Rule (ACR)**.
 
-Implementation, diagnosis, measurement, reporting, or machine transformation does not transfer authorship or create external authority.
+Implementation, diagnosis, measurement, reporting, criticism, independent evaluation, or machine transformation does not transfer authorship of the originating framework.
+
+External scientific methods, statistical methods, mathematics, hardware, and engineering concepts retain their independent provenance.
