@@ -190,26 +190,197 @@ The repository may test bounded consequences of the Grand Compression Law of Int
 
 ### Constraint-Bounded Recursive Intelligence
 
-Introduced in MRD v1.9 and preserved under MRD v2.0, **Constraint-Bounded Recursive Intelligence** defines recursive intelligence as a physically bounded architectural process operating under substrate constraints.
+**Constraint-Bounded Recursive Intelligence** was introduced during the MRD v1.9 development cycle and remains part of the current MRD v2.0 framework.
 
-Stable recursive acceleration requires:
+It models recursive intelligence as an implemented process operating within finite substrate and governance constraints rather than as an unconstrained abstraction.
 
-```txt
+Relevant constraints may include:
+
+- energy;
+- compute;
+- memory;
+- bandwidth;
+- thermal capacity;
+- cooling;
+- material infrastructure;
+- fabrication;
+- networking;
+- coordination;
+- correction capacity;
+- governance bandwidth.
+
+The framework expresses a candidate substrate-alignment condition as:
+
+```text
 Gᵣ ≤ Eₛ
 ```
 
 Where:
 
-- **Gᵣ** = recursive gain per iteration  
-- **Eₛ** = substrate expansion capacity  
+- **Gᵣ** = recursive gain per iteration;
+- **Eₛ** = substrate expansion capacity.
 
-This principle clarifies that long-term recursive capability growth depends primarily on compression efficiency, preserved memory, and reduced recomputation burden rather than unconstrained infrastructure expansion alone.
+This relation should be interpreted as a **framework-level architectural condition**.
 
-Canonical authority for recursive engineering now spans **MRD Sections 11 and 12**.
+It is not automatically a dimensionally complete or universally validated physical law.
 
-Section 11 defines the underlying recursion architecture.
+A quantitative application must define:
 
-Section 12 defines the engineering, retrieval, deployment, comparison, and knowledge-system implementation of that architecture.
+- what constitutes recursive gain;
+- what constitutes substrate expansion capacity;
+- the units used for both quantities;
+- the relevant time interval;
+- system boundaries;
+- normalization;
+- baseline;
+- uncertainty;
+- measurement procedure;
+- competing explanations;
+- and failure conditions.
+
+Without those declarations:
+
+```text
+Gᵣ ≤ Eₛ
+```
+
+should remain a conceptual substrate-alignment relation.
+
+### Efficiency vs Expansion
+
+Constraint-Bounded Recursive Intelligence motivates an important architectural distinction:
+
+```text
+capability growth through improved efficiency
+≠
+capability growth through substrate expansion
+```
+
+A recursive system may potentially increase useful work through:
+
+- better compression;
+- preserved reusable structure;
+- memory reuse;
+- reduced recomputation;
+- improved retrieval;
+- lower correction burden;
+- better algorithms;
+- better utilization;
+- improved hardware.
+
+Physical infrastructure expansion may also increase available capacity.
+
+The framework therefore does **not** require the claim that compression efficiency is always the primary driver of long-term capability growth.
+
+A safer relation is:
+
+```text
+useful recursive capability
+may increase through
+internal efficiency improvements
+and/or
+external substrate expansion
+```
+
+The relative contribution of each must be measured for the system being evaluated.
+
+### Constraint Response
+
+If recursive demand exceeds an active substrate constraint, possible outcomes may include:
+
+```text
+constraint activation
+→ adaptation
+→ efficiency improvement
+→ substrate expansion
+→ plateau
+→ degradation
+→ failure
+```
+
+Different systems may follow different paths.
+
+Therefore:
+
+```text
+Gᵣ > Eₛ
+≠
+automatic collapse
+```
+
+and:
+
+```text
+Gᵣ ≤ Eₛ
+≠
+guaranteed stability
+```
+
+The relation identifies a framework concern about alignment between recursive growth and supporting capacity.
+
+It does not, by itself, determine every system outcome.
+
+### Relationship to the Physical Substrate Constraint Field
+
+The repository contains a dedicated engineering orientation for this concept:
+
+```text
+docs/physical-substrate-constraint-field.md
+```
+
+That document should be interpreted alongside the current MRD v2.0 architecture.
+
+The relevant distinction is:
+
+```text
+internal recursive organization
++
+external substrate capacity
+→
+bounded operating regime
+```
+
+This is a conceptual relationship, not a complete physical equation.
+
+### Current Authority
+
+Current governing authority:
+
+**The Grand Compression Cosmology — Master Reference Document, MRD v2.0**
+
+The historical v1.9 introduction remains part of the development record.
+
+Current interpretation is governed by MRD v2.0.
+
+Canonical authority for the broader recursive engineering architecture spans the current MRD sections governing:
+
+- recursive stability and physical substrate constraints;
+- structural intelligence engineering;
+- preserved reusable structure;
+- predictive evaluation;
+- reference implementation;
+- and domain transfer.
+
+Repository implementations remain subject to:
+
+- **RC-21 — Reference Implementation Distinction**
+- **RC-22 — Domain Transfer Constraint**
+
+Accordingly:
+
+```text
+framework constraint relation
+≠
+empirical physical law
+```
+
+and:
+
+```text
+reference implementation
+≠
+universal confirmation
+```
 
 ## Robbie’s Razor Architecture
 
