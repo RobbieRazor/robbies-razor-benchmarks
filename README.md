@@ -384,52 +384,253 @@ universal confirmation
 
 ## Robbie’s Razor Architecture
 
-Recursive intelligence systems described by the Grand Compression Cosmology operate as a closed-loop compression architecture.
+Within the **Grand Compression Cosmology**, Robbie’s Razor™ provides a reference architecture for organizing recursive information processing around:
 
+```text
+compression → expression → memory → recursion
+```
+
+A broader implementation-oriented loop may be represented as:
+
+```text
 Environment
-│
-▼
+    │
+    ▼
 Observation
-│
-▼
+    │
+    ▼
 Compression
-│
-▼
+    │
+    ▼
 Expression
-│
-▼
+    │
+    ▼
 Memory
-│
-▼
+    │
+    ▼
 Recursion
-│
-▼
+    │
+    ▼
 Prediction
-│
-▼
+    │
+    ▼
 Action
-│
-▼
+    │
+    ▼
 Feedback
-│
-▼
+    │
+    ▼
 Memory Update
-│
-▼
+    │
+    ▼
 Recompression
+    └──────────────→ renewed observation / processing
+```
 
+This is a **Grand Compression reference architecture**.
 
-Recursive stability emerges when this loop operates within the **Safe Recursion Envelope**:
+It should not be interpreted as a claim that every intelligent, biological, computational, ecological, or physical system has been empirically demonstrated to implement this exact loop.
 
-R ≤ min(E/JCT , S/C)
+The architecture instead provides a structured way to ask whether a system:
 
+- compresses information or operating burden;
+- expresses that compressed structure in a usable form;
+- preserves sufficient state for later reuse;
+- recursively reuses prior structure;
+- produces predictions, decisions, or actions;
+- receives feedback;
+- and updates its preserved state.
+
+Different implementations may realize these functions through different mechanisms.
+
+Accordingly:
+
+```text
+shared functional sequence
+≠
+identical implementation
+```
+
+and:
+
+```text
+architectural correspondence
+≠
+shared physical mechanism
+```
+
+### Closed-Loop Interpretation
+
+A Robbie’s Razor implementation may be described as **closed-loop** when outputs, feedback, or evaluated consequences can influence preserved state and subsequent recursive processing.
+
+Conceptually:
+
+```text
+state
+→ transformation
+→ output
+→ feedback
+→ state update
+→ renewed transformation
+```
+
+Closure in this repository is an engineering concept concerning governed re-entry and state reuse.
+
+It must not automatically be equated with specialized mathematical meanings of closure in topology, algebra, dynamical systems, category theory, or physics.
+
+Cross-domain transfer remains governed by **RC-22**.
+
+### Recursive Stability
+
+Within the framework, recursive stability is not produced merely by repeating the cycle.
+
+A stable implementation may require sufficient preservation of:
+
+- identity;
+- relationships;
+- provenance;
+- constraints;
+- version state;
+- retrieval accessibility;
+- correction state;
+- task-relevant information.
+
+The relevant engineering question is:
+
+> Does repeated reuse preserve enough required structure for the system to continue operating within its declared correctness and resource boundaries?
+
+This makes stability an evaluable property rather than an automatic consequence of recursion.
+
+Accordingly:
+
+```text
+recursion
+≠
+stability
+```
+
+```text
+memory
+≠
+correct memory
+```
+
+and:
+
+```text
+stable internal state
+≠
+factual truth
+```
+
+### Safe Recursion Envelope
+
+The framework defines a conceptual **Safe Recursion Envelope** using energetic and stabilization constraints.
+
+An energetic ceiling may be represented as:
+
+```text
+R ≤ E / JCT
+```
+
+A stabilization or governance ceiling may be represented as:
+
+```text
+R × C ≤ S
+```
+
+Their combined framework relation is:
+
+```text
+R ≤ min(E / JCT, S / C)
+```
 
 Where:
 
-- **E** — available energy per unit time  
-- **JCT** — Joules per Coherent Transition  
-- **S** — stabilization bandwidth  
-- **C** — correction demand per transition  
+- **R** = recursion rate within the declared system;
+- **E** = available energy within the declared system boundary;
+- **JCT** = Joules per Coherent Transition;
+- **S** = available stabilization or governance bandwidth;
+- **C** = correction demand per transition.
+
+The Safe Recursion Envelope should be interpreted as a **framework-level constraint model**.
+
+It does not mean that satisfying the inequality automatically guarantees stability.
+
+Likewise, violating an estimated boundary does not by itself establish the cause of an observed failure.
+
+Therefore:
+
+```text
+inside modeled envelope
+≠
+guaranteed stability
+```
+
+and:
+
+```text
+outside modeled envelope
+≠
+proven failure mechanism
+```
+
+### Quantitative Boundary
+
+A quantitative application of the Safe Recursion Envelope must define:
+
+- the system being evaluated;
+- recursion rate;
+- energy boundary;
+- coherent transition;
+- JCT measurement method;
+- stabilization bandwidth;
+- correction demand;
+- units;
+- normalization;
+- time interval;
+- baseline;
+- uncertainty;
+- expected relationship;
+- alternative explanations;
+- and failure conditions.
+
+Without these declarations:
+
+```text
+R ≤ min(E / JCT, S / C)
+```
+
+remains an architectural research relation rather than a universally validated physical law.
+
+### Reference-Implementation Boundary
+
+Repository code and Naturepedia™ implementations may demonstrate operational forms of:
+
+```text
+compression
+→ expression
+→ memory
+→ recursion
+```
+
+Successful implementation demonstrates that a declared architecture can operate.
+
+It does not independently establish that:
+
+- the architecture is universal;
+- the Safe Recursion Envelope is a universally validated law;
+- stable operation proves factual correctness;
+- or the complete Grand Compression Cosmology has been empirically confirmed.
+
+This distinction is governed by:
+
+- **RC-21 — Reference Implementation Distinction**
+- **RC-22 — Domain Transfer Constraint**
+
+Current governing authority remains:
+
+**The Grand Compression Cosmology — Master Reference Document, MRD v2.0**  
 
 The historical MRD v1.9 development cycle introduced the **Recursive Stability Attractor** and **Unified Recursion Efficiency Relation**.
 
