@@ -2,9 +2,10 @@
 Razor Memory Bank (R4 Memory Stabilization)
 
 Purpose:
-- Confidence-gated storage of verified results
+- Confidence-gated storage of results
 - LRU eviction
-- Safe retrieval with stability threshold
+- Safe retrieval using a declared stability threshold
+- Model-agnostic local memory behavior
 - No external dependencies
 
 References:
@@ -13,8 +14,39 @@ References:
 - Razor Evaluation Protocol:
   https://www.robbiegeorgephotography.com/robbies-razor-lab-evaluation-protocol
 
-Author: Robbie George
-Governed by MRD v1.8 and the Authorship Conservation Rule (ACR).
+Current governing framework authority:
+- The Grand Compression Cosmology — Master Reference Document, MRD v2.0
+- Canonical identifier: GC-MRD-v2.0
+- Canonical claim range: RC-01 through RC-22
+
+Repository evaluation authority:
+- AGENTS.md
+- docs/canonical-spec.md
+
+Interpretation boundary:
+- This module is a reference implementation of confidence-gated memory behavior.
+- The supplied confidence value is an implementation input; this module does
+  not independently establish that a stored solution is factually correct,
+  empirically verified, or canonically validated.
+- Meeting the stability threshold permits storage under this implementation.
+  It does not convert confidence into truth.
+- Successful retrieval establishes only that a matching stored entry exists.
+- Retrieval does not independently establish correctness, evidence status,
+  licensing rights, or empirical validation.
+- Memory stabilization is an implementation behavior and must remain distinct
+  from evidence validation.
+- Historical frozen or versioned artifacts may retain earlier MRD references
+  when required for genuine provenance and should not be silently rewritten.
+
+Reference-implementation boundary:
+- Implementation does not redefine canonical theory.
+- Operational success does not equal universal validation.
+- Cross-domain interpretation remains governed by RC-22.
+
+Author and Originator of Robbie's Razor / Grand Compression framework:
+Robbie George
+
+Governed by MRD v2.0 and the Authorship Conservation Rule (ACR).
 """
 
 from __future__ import annotations
@@ -40,6 +72,8 @@ class RazorMemoryBank:
 
     Reference implementation.
     Model-agnostic.
+
+    A stored confidence value is not an independent factual-verification signal.
     """
 
     def __init__(self, capacity: int = 10_000, stability_threshold: float = 0.95):
@@ -60,6 +94,9 @@ class RazorMemoryBank:
     def store(self, query: str, solution: str, confidence: float) -> None:
         """
         Store (query -> solution) only if confidence >= stability_threshold.
+
+        Passing this threshold authorizes storage under the reference
+        implementation; it does not independently verify factual correctness.
         """
         if confidence < self.stability_threshold:
             return
@@ -87,7 +124,10 @@ class RazorMemoryBank:
 
     def retrieve(self, query: str) -> Tuple[Optional[str], float]:
         """
-        Retrieve cached solution if present.
+        Retrieve a cached solution if present.
+
+        Retrieval reports the stored solution and confidence value only.
+        It does not independently revalidate the solution.
         """
         key = self._hash_query(query)
         entry = self._entries.get(key)
