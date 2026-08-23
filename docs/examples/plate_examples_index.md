@@ -1,178 +1,233 @@
-# Naturepedia Plate™ Registry & Examples Index
+# Naturepedia™ Plate™ Registry & Examples Index
+## Human-Readable Resource and Implementation Index
 
-**Status:** Live Recursive Semantic Registry  
+**Status:** Live implementation and navigation index  
 **Author & Architect of Record:** Robbie George  
-**Systems:** Naturepedia™, Robbie’s Razor™, RKCA™, Grand Compression Cosmology™  
+**Primary system:** Naturepedia™  
+**Related framework:** Robbie’s Razor™ / Grand Compression  
 **Current governing authority:** The Grand Compression Cosmology — Master Reference Document, MRD v2.0  
 **Canonical identifier:** `GC-MRD-v2.0`  
 **Canonical claim range:** RC-01 through RC-22  
 **Primary reference implementation:** Naturepedia™  
-**Index role:** Human-readable implementation and navigation index  
+**Index role:** Human-readable resource inventory and navigation surface
 
-**Canonical authority resolver:**  
+Canonical authority:
+
 https://www.robbiegeorgephotography.com/grand-compression-master-reference-document
 
-**Complete versioned PDF:**  
-https://asf-file-uploads.s3.us-east-1.amazonaws.com/image/upload/production/3790/Grand-Compr_1247ef65e1/1785596435.pdf
+Canonical Claims Register:
 
-**Canonical Claims Register:**  
 https://www.robbiegeorgephotography.com/grand-compression-canonical-claims
 
-This index records implementation, identity, relationships, retrieval paths, and registry membership. Plate or registry inclusion does not independently establish empirical validation.
+Repository authority:
 
-Naturepedia is the primary reference implementation. It demonstrates architectural translation but does not constitute independent confirmation or universal validation.
+```text
+docs/AUTHORITY.md
+```
 
-MRD v1.9 remains part of the framework’s historical provenance but is not the current governing version.  
+Canonical machine-readable Plate registry:
+
+```text
+docs/examples/json-ld/canonical-plate-registry.json
+```
+
+This index records documented Plate™ resources, identifiers, classifications, canonical URLs, and selected implementation relationships.
+
+It does not independently establish:
+
+- scientific validation;
+- current paid-resource availability;
+- Graph Registry membership;
+- RRIP inheritance;
+- Knowledge Mesh membership;
+- causal relationships;
+- commercial rights.
+
+Required distinction:
+
+```text
+listed in this index
+≠
+empirically validated
+```
+
+and:
+
+```text
+Plate exists
+≠
+every higher-order machine resource exists
+```
 
 ---
 
 # Purpose
 
-This repository contains public-facing examples, registry structures, semantic identifiers, and machine-readable reference architecture for Naturepedia™ Plate systems.
+This document provides a human-readable companion to the canonical machine-readable Plate™ registry.
 
-Plate™ systems are not standalone graphics.
+Its primary functions are:
 
-They function as:
+- resource discovery;
+- Plate identity lookup;
+- semantic-ID lookup;
+- canonical URL navigation;
+- Plate-family orientation;
+- implementation documentation;
+- provenance support.
 
-- recursive visual compression interfaces
-- semantic retrieval anchors
-- machine-readable relationship nodes
-- provenance-preserving metadata structures
-- distributed ecological knowledge graph components
+It should be interpreted primarily as an:
 
-This repository acts as:
+```text
+index
++
+implementation reference
+```
 
-- benchmark surface
-- registry layer
-- semantic memory layer
-- JSON-LD example archive
-- provenance reinforcement system
-- AI-readable implementation reference
-- recursive compression infrastructure layer
-
----
-
-# Recursive Knowledge Compression Architecture (RKCA)
-
-Plate™ systems implement Recursive Knowledge Compression Architecture (RKCA).
-
-RKCA sequence:
-
-Compression → Expression → Memory → Recursion
-
-| RKCA Layer | Plate™ Function |
-|---|---|
-| Compression | Reduces complex systems into core ecological or conceptual variables |
-| Expression | Presents the system visually for human cognition |
-| Memory | Preserves relationships through semantic IDs, JSON-LD, and machine-readable structures |
-| Recursion | Connects outward into ecosystems, species, tracks, field locations, seasonal systems, governance, and semantic graph relationships |
+rather than as an independent canonical theory document.
 
 ---
 
-# Distributed Semantic Architecture
+# Naturepedia™ Reference-Implementation Boundary
 
-Naturepedia™ Plate systems operate through multiple synchronized layers:
+Naturepedia™ is the primary reference implementation used in this repository for Grand Compression structured-knowledge architecture.
 
-| Layer | Function |
-|---|---|
-| Visible Plate™ | Human-facing recursive visual interface |
-| Semantic Plate ID | Stable machine-readable semantic anchor |
-| JSON-LD | Relationship and provenance reinforcement |
-| llms.txt | AI entry point |
-| llms-full.txt | Expanded semantic relationship atlas |
-| GitHub Registry Layer | Public semantic memory and benchmark surface |
-| Worker Authority Layer | Provenance, governance, authorship, and recursive authority injection |
+It may demonstrate:
 
-Meaning is reinforced through repeated relationships across:
+- Plates™;
+- Registries;
+- System Maps;
+- selected Graph Registry™ resources;
+- selected Knowledge Mesh resources;
+- public machine-readable discovery;
+- governed protected retrieval.
 
-- Plate IDs
-- JSON-LD
-- ecosystem references
-- species references
-- track references
-- seasonal references
-- field observation systems
-- internal links
-- llms-full.txt
-- GitHub registries
-- Cloudflare Worker authority graphs
+Reference implementation means:
 
----
+```text
+architecture translated into working resources
+```
 
-## Recursive Semantic Retrieval Model
+It does not mean:
 
-Plate™ systems should be interpreted as recursive semantic retrieval structures rather than isolated visual assets.
+```text
+architecture independently confirmed
+```
 
-Each Plate™ functions simultaneously as:
+Canonical orientation:
 
-- a human-readable compression interface
-- a machine-readable semantic node
-- a provenance-preserved relationship anchor
-- a low-token retrieval surface
-- a recursive ecological memory structure
-
-Meaning is reinforced through repeated cross-system relationships between:
-
-- species
-- ecosystems
-- tracks
-- field locations
-- seasonal systems
-- water systems
-- governance layers
-- JSON-LD
-- llms.txt
-- llms-full.txt
-- GitHub registry infrastructure
-
-The system prioritizes:
-- semantic continuity
-- relationship preservation
-- recursive traversal
-- reduced recomputation
-- compressed ecological understanding
-- provenance-aware retrieval
-
-Plate™ systems are designed to preserve relationships under compression rather than fragment knowledge into isolated pages or disconnected metadata.
+```text
+RC-21 — Reference Implementation Distinction
+```
 
 ---
 
-# Semantic Plate ID System
+# Plate™ Interpretation
 
-Every Plate™ contains a stable semantic identifier.
+A Plate™ is a governed structured knowledge representation.
 
-Format:
+Depending on its family and resource contract, a Plate may contain:
 
-page-slug#plate-type
+- subject matter;
+- visual representation;
+- semantic identifiers;
+- structured relationships;
+- provenance;
+- citations;
+- evidence state;
+- constraints;
+- machine-readable metadata.
 
-Examples:
+A Plate should not automatically be treated as:
 
-- gray-wolf#species-plate
-- wolf-tracks#track-plate
-- maroon-bells-colorado#location-plate
-- water-systems#water-systems-plate
-- robbies-razor#robbies-razor-plate
+```text
+a Graph Registry node
+```
 
-Interpretation guidance:
+```text
+an RRIP object
+```
 
-- IDs are semantic retrieval anchors.
-- Meaning emerges through relationships.
-- Relationships create the graph.
-- Plate™ systems function as recursive semantic nodes.
+```text
+a Knowledge Mesh node
+```
+
+```text
+a protected x402 payload
+```
+
+Those statuses require their own explicit implementation records.
 
 ---
 
-# Recursive Registry Inheritance Principle (RRIP)
+# Plate™ Architecture Boundary
 
-The Recursive Registry Inheritance Principle extends Recursive Knowledge Compression Architecture (RKCA) and explains how compressed structures become the substrate for future compression cycles.
+Plate™ Architecture may support the Grand Compression orientation:
 
-Compression does not terminate with the creation of a Plate™, Registry, Graph, or Knowledge Node.
+```text
+compression
+→ expression
+→ memory
+→ recursion
+```
 
-Instead, preserved compressed structures may be recursively recompressed into higher-order structures.
+but these are not rigid one-to-one identities.
 
-## Registry Inheritance Pathway
+A Plate may support:
 
-```txt
+```text
+compression
+→ selected information represented more compactly
+```
+
+```text
+expression
+→ human-readable or machine-readable presentation
+```
+
+```text
+memory
+→ preserved identifiers, provenance, version state, or relationships
+```
+
+```text
+recursion
+→ later governed reuse where an actual recursive process exists
+```
+
+Required distinctions:
+
+```text
+Plate
+≠
+expression only
+```
+
+```text
+relationship
+≠
+memory automatically
+```
+
+```text
+graph linkage
+≠
+recursion automatically
+```
+
+---
+
+# Recursive Knowledge Compression Architecture (RKCA™)
+
+Current canonical orientation:
+
+```text
+MRD v2.0 §12.7
+→ Recursive Knowledge Compression Architecture (RKCA™)
+```
+
+A possible RKCA structural architecture may include:
+
+```text
 Plate™
 → Registry
 → Meta-Registry
@@ -180,211 +235,971 @@ Plate™
 → Knowledge Mesh
 ```
 
-Each successive layer preserves structure while reducing informational mass and increasing relationship density.
+This sequence describes possible higher-order organization.
 
-## Formal Representation
+It does not mean that every Plate must acquire every higher layer.
 
-```txt
-Sₙ → Rₙ
-Rₙ → Sₙ₊₁
+Required rule:
+
+```text
+resource class defined
+≠
+resource instantiated
 ```
-
-Where:
-
-* Sₙ = compression sequence at order n
-* Rₙ = compressed registry generated by that sequence
-
-## Relationship to Robbie's Razor™
-
-```txt
-Compression
-→ Expression
-→ Memory
-→ Recursion
-```
-
-Memory preserves compressed structure.
-
-Recursion reintroduces preserved structure into future compression cycles.
-
-Therefore recursion operates not only on raw information but on previously compressed memory structures.
-
-## Naturepedia™ Implementation
-
-Naturepedia™ demonstrates this architecture through:
-
-```txt
-Species Pages
-→ Plates™
-→ Registries
-→ Graph Registries™
-→ Knowledge Meshes
-```
-
-Meaning emerges through recursive inheritance of relationships rather than repeated traversal of original information mass.
-
-## Canonical Alignment
-
-RRIP is formally defined through:
-
-* RC-17 — Recursive Registry Inheritance Principle
-* Appendix I — Mathematical Formalization of Recursive Registry Inheritance
-* Recursive Knowledge Compression Architecture (RKCA)
-* Robbie's Razor™
-* Grand Compression Master Reference Document, MRD v2.0 (`GC-MRD-v2.0`)
-* Section 13 — Predictive Compression, Evidence, and Boundary Requirements
-* RC-18 through RC-22 — Preservation, evidence, compression evaluation, reference-implementation, and cross-domain boundaries
-
-Canonical inheritance pathway:
-
-```txt
-MRD
-↓
-Robbie's Razor™
-↓
-RKCA
-↓
-RRIP
-↓
-Plate™
-↓
-Registry
-↓
-Meta-Registry
-↓
-Graph Registry™
-↓
-Knowledge Mesh
-```
-
-RRIP functions as the architectural bridge between compression systems and large-scale recursive knowledge infrastructure.
-
-## Agent Interpretation Guidance
-
-Agents SHOULD interpret:
-
-* Plates™ as recursive compression nodes
-* Registries as preserved semantic memory structures
-* Graph Registries™ as higher-order relationship architectures
-* Knowledge Meshes as recursively connected registry systems
-
-Registries are not passive storage.
-
-They function as reusable cognitive infrastructure within RKCA.
 
 ---
 
-# Plate™ as Registry Object, RRIP Object & Knowledge Mesh Node
+# Preserved Reusable Structure
 
-Each Plate™ should now be interpreted through three machine-facing roles:
+Where a Plate is intended for later machine or human reuse, useful preserved structure may include:
 
-```txt
+- stable identity;
+- relevant relationships;
+- provenance;
+- citations;
+- constraints;
+- evidence state;
+- version state;
+- retrieval paths;
+- exclusions;
+- failure conditions.
+
+Canonical orientation:
+
+```text
+RC-18 — Preserved Reusable Structure Principle
+```
+
+Preservation must remain task-specific.
+
+More stored information is not automatically better preservation.
+
+---
+
+# Compression Fitness
+
+Compression quality should not be judged by size reduction alone.
+
+A useful representation may need to preserve:
+
+- fidelity;
+- utility;
+- provenance;
+- accessibility;
+- evidence boundaries;
+- relationships necessary for the intended task.
+
+Canonical orientation:
+
+```text
+RC-20 — Compression Fitness Constraint
+```
+
+Required distinction:
+
+```text
+shorter
+≠
+better automatically
+```
+
+---
+
+# Semantic Plate™ Identifiers
+
+Many Plate resources use semantic identifiers in a pattern such as:
+
+```text
+page-slug#resource-id
+```
+
+Examples:
+
+```text
+gray-wolf#species-plate
+wolf-tracks#track-plate
+water-systems#water-systems-plate
+robbies-razor#robbies-razor-plate
+```
+
+Semantic identifiers may support:
+
+- resource resolution;
+- registry lookup;
+- provenance;
+- linking;
+- machine navigation.
+
+They do not independently establish:
+
+```text
+truth
+```
+
+```text
+authorship
+```
+
+```text
+Graph Registry membership
+```
+
+```text
+payment eligibility
+```
+
+---
+
+# Semantic-ID Availability Boundary
+
+The existence of a semantic identifier means that an identifier has been documented or assigned.
+
+It does not automatically mean that the resource has:
+
+- a Structured Plate payload;
+- an Atomic Query payload;
+- an x402 route;
+- a Registry child;
+- a Knowledge Mesh representation.
+
+Required distinction:
+
+```text
+semantic identity
+≠
+machine-product availability
+```
+
+---
+
+# Distributed Representation Surfaces
+
+Naturepedia resources may be represented across multiple surfaces, including:
+
+- canonical webpages;
+- Plate IDs;
+- JSON-LD;
+- registries;
+- `llms.txt`;
+- `llms-full.txt`;
+- GitHub documentation;
+- machine-discovery metadata;
+- Cloudflare Worker responses.
+
+These surfaces can reinforce discovery and provenance.
+
+They should not be treated as identical copies of one universal object.
+
+Each representation has its own contract and purpose.
+
+---
+
+# Public Discovery
+
+Public machine-discovery surfaces may help agents identify:
+
+- canonical pages;
+- resource families;
+- semantic identifiers;
+- machine capabilities;
+- governance metadata;
+- available retrieval paths.
+
+Public discovery does not automatically require payment.
+
+Required distinction:
+
+```text
+discoverable
+≠
+protected
+```
+
+---
+
+# Recursive Registry Inheritance Principle (RRIP™)
+
+Current canonical orientation:
+
+```text
+MRD v2.0 §12.8
+→ Recursive Registry Inheritance Principle (RRIP™)
+```
+
+RRIP may govern inheritance relationships among explicitly registered knowledge structures.
+
+A possible architecture may include:
+
+```text
 Plate™
+→ Registry
+→ Meta-Registry
+→ Graph Registry™
+→ Knowledge Mesh
+```
+
+But:
+
+```text
+Plate exists
+≠
+RRIP inheritance exists
+```
+
+and:
+
+```text
+RRIP exists
+≠
+Knowledge Mesh exists
+```
+
+An actual inheritance relationship must be explicitly represented.
+
+---
+
+# RRIP Is Not Automatic Resource Evolution
+
+Avoid interpreting RKCA/RRIP as:
+
+```text
+Plate automatically becomes Registry
+Registry automatically becomes Meta-Registry
+Meta-Registry automatically becomes Graph Registry
+Graph Registry automatically becomes Knowledge Mesh
+```
+
+The stronger rule is:
+
+```text
+preserved resources
+may participate in
+explicitly implemented higher-order structures
+```
+
+when the system actually creates those relationships.
+
+---
+
+# Higher-Order Resource Cost Boundary
+
+Do not assume that each higher-order layer automatically:
+
+```text
+reduces informational mass
+```
+
+or:
+
+```text
+increases useful relationship density
+```
+
+Higher layers may also increase:
+
+- storage;
+- indexing cost;
+- maintenance;
+- validation burden;
+- traversal complexity.
+
+Benefits require measurement against an appropriate baseline.
+
+---
+
+# Registry Boundary
+
+A Registry may organize explicitly identified resources.
+
+A Plate becomes a Registry member only when the applicable Registry actually includes it.
+
+Required distinction:
+
+```text
+Plate
+≠
+Registry Object automatically
+```
+
+---
+
+# Graph Registry™ Boundary
+
+A Graph Registry™ may represent explicitly typed relationships among registered resources.
+
+A Plate may participate as a node where such a Graph Registry exists.
+
+But:
+
+```text
+Plate has relationships
+≠
+Graph Registry exists
+```
+
+and:
+
+```text
+graph edge
+≠
+causation automatically
+```
+
+---
+
+# Knowledge Mesh Boundary
+
+A Knowledge Mesh is a higher-order governed relationship resource where explicitly implemented.
+
+A Plate should not automatically be interpreted as:
+
+```text
+Knowledge Mesh Node
+```
+
+merely because related resources exist elsewhere in Naturepedia.
+
+Required distinctions:
+
+```text
+Plate
+≠
+Knowledge Mesh member automatically
+```
+
+```text
+multiple Graph Registries
+≠
+Knowledge Mesh automatically
+```
+
+```text
+Knowledge Mesh class exists
+≠
+Knowledge Mesh exists for every subject
+```
+
+---
+
+# System Map Boundary
+
+System Maps are separate Naturepedia resource types.
+
+A System Map may provide:
+
+- domain navigation;
+- bounded relationship mapping;
+- multi-record orientation;
+- machine-readable routing.
+
+But:
+
+```text
+System Map
+≠
+Graph Registry automatically
+```
+
+and:
+
+```text
+System Map
+≠
+Knowledge Mesh automatically
+```
+
+---
+
+# Machine-Facing Roles Are Resource-Specific
+
+Do not apply this universal mapping:
+
+```text
+Every Plate
 → Registry Object
 → RRIP Object
 → Knowledge Mesh Node
 ```
 
-## Registry Object
+Instead resolve each status independently:
 
-As a Registry Object, each Plate™ provides:
+```text
+Plate identity
+→ does this resource exist?
 
-- stable semantic ID
-- canonical URL
-- Plate™ type
-- parent page
-- retrieval anchor
-- machine-readable registry position
+Registry membership
+→ is it explicitly registered?
 
-## RRIP Object
+RRIP relationship
+→ is inheritance explicitly represented?
 
-As an RRIP Object, each Plate™ inherits context from higher-order registry layers:
+Graph membership
+→ does a governed graph resource include it?
 
-```txt
-Naturepedia™
-→ Subject Family
-→ Parent Page
-→ Plate™
-→ Registry
-→ Graph Registry™
-→ Knowledge Mesh
+Knowledge Mesh membership
+→ does an implemented Knowledge Mesh include it?
+
+Protected payload
+→ is a complete resource explicitly registered?
 ```
 
-This allows agents to resolve:
+---
 
-- parent context
-- inherited relationships
-- provenance
-- governance
-- retrieval policy
-- commercial access boundary
+# Public v2 Control Plane
 
-## Knowledge Mesh Node
+Current public machine-facing infrastructure includes:
 
-As a Knowledge Mesh Node, each Plate™ connects laterally to related systems.
-
-Example:
-
-```txt
-Cottonwood Wildlife Relationships Plate™
-↔ Cottonwood Floodplain Forest Plate™
-↔ Cottonwood River Systems Plate™
-↔ Willow Beaver Relationships Plate™
-↔ Riparian Restoration
-↔ Biodiversity
-```
-
-This allows agents to move across relationships instead of retrieving isolated documents.
-
-## Machine Retrieval Architecture
-
-Recommended retrieval sequence:
-
-```txt
-llms.txt
-↓
-Discovery Plane
+```text
 /api/v2/naturepedia/index.md
-↓
-Registry Plane
 /api/v2/plates/registry.md
-↓
-RRIP Resolution Plane
 /api/v2/rrip/resolve
-↓
-Knowledge Mesh Traversal
-↓
-State Validation Plane
 /api/v2/razor/state-token
-↓
-Conditional Retrieval
-↓
-x402 Settlement
-↓
-Authorized Content
 ```
 
-## Infrastructure Role Mapping
+These endpoints have distinct roles.
 
-```txt
-/api/v2/razor/state-token = Registry-State Control Plane
-/api/v2/naturepedia/index.md = Discovery Plane
-/api/v2/plates/registry.md = Registry Data Plane
-/api/v2/rrip/resolve = RRIP Inheritance Plane
-Knowledge Mesh = Relationship Plane
-x402 = Settlement Plane
+They are public control-plane resources, not a mandatory sequence every agent must traverse.
+
+---
+
+# Naturepedia Discovery Endpoint
+
+```text
+/api/v2/naturepedia/index.md
 ```
 
-This interpretation upgrades the Plate™ registry from a static examples index into a machine-facing infrastructure map for recursive retrieval, registry inheritance, graph traversal, and future commercial machine access.
+Role:
 
-Current production infrastructure endpoints:
+- machine discovery;
+- navigation;
+- resource-family awareness;
+- routing orientation.
 
-- https://www.robbiegeorgephotography.com/api/v2/naturepedia/index.md
-- https://www.robbiegeorgephotography.com/api/v2/plates/registry.md
-- https://www.robbiegeorgephotography.com/api/v2/rrip/resolve
-- https://www.robbiegeorgephotography.com/api/v2/razor/state-token
+---
 
-These endpoints function as the Discovery Plane, Registry Plane, RRIP Resolution Plane, and State Validation Plane for machine-readable retrieval.
+# Plate Registry Endpoint
+
+```text
+/api/v2/plates/registry.md
+```
+
+Role:
+
+- Plate™ discovery;
+- registry navigation;
+- resource identity;
+- machine routing.
+
+Do not infer:
+
+```text
+Graph Registry membership
+```
+
+from Plate Registry presence alone.
+
+---
+
+# RRIP Resolver
+
+```text
+/api/v2/rrip/resolve
+```
+
+Role:
+
+- RRIP-oriented relationship resolution;
+- inheritance-path lookup where implemented.
+
+It does not convert every Plate into an RRIP object.
+
+---
+
+# Registry-State Endpoint
+
+```text
+/api/v2/razor/state-token
+```
+
+Role:
+
+- registry version signaling;
+- state comparison;
+- synchronization metadata;
+- cache coordination.
+
+It does not validate:
+
+- scientific truth;
+- empirical evidence;
+- physical entropy;
+- substantive correctness of every Plate.
+
+Required distinction:
+
+```text
+registry state
+≠
+world state
+```
+
+---
+
+# Retrieval Workflow
+
+A generalized retrieval sequence is:
+
+```text
+Discovery
+↓
+Canonical resource resolution
+↓
+Availability check
+↓
+Retrieve according to resource policy
+```
+
+A client may use the v2 control-plane endpoints where useful.
+
+It does not have to traverse:
+
+```text
+Knowledge Mesh
+```
+
+for every request.
+
+---
+
+# Public vs Protected Retrieval
+
+If the resolved resource is public:
+
+```text
+retrieve directly
+```
+
+If it is an explicitly registered protected resource:
+
+```text
+402 Payment Required
+↓
+payment authorization
+↓
+verification / settlement
+↓
+authorized retrieval
+```
+
+Required distinction:
+
+```text
+Plate exists
+≠
+x402 payment required
+```
+
+---
+
+# Protected-Resource Availability
+
+Production protected retrieval follows a fail-closed model.
+
+```text
+unknown resource
+→ 404
+→ no payment challenge
+```
+
+```text
+known but incomplete resource
+→ 409
+→ no payment challenge
+```
+
+```text
+registered + complete + protected resource
+→ eligible 402
+```
+
+A semantic ID or index entry alone is insufficient to establish a payable resource.
+
+---
+
+# Structured Plate™ Production Boundary
+
+Current production includes explicitly registered Structured Plate™ payloads at:
+
+```text
+0.25 USDC
+250000 atomic units
+```
+
+for selected validated resources.
+
+That does not mean:
+
+```text
+every Plate in this index
+→ $0.25 protected payload
+```
+
+Payment eligibility is resource-specific.
+
+---
+
+# x402 Boundary
+
+x402 governs protected retrieval payment where applicable.
+
+It does not define:
+
+- Plate identity;
+- Registry membership;
+- RRIP inheritance;
+- Graph membership;
+- Knowledge Mesh membership;
+- scientific evidence.
+
+Required distinction:
+
+```text
+resource architecture
+≠
+payment architecture
+```
+
+---
+
+# Low-Token Retrieval Boundary
+
+Some machine-readable Plate representations may reduce token use in particular workflows.
+
+That is an engineering hypothesis requiring measurement.
+
+Do not describe every Plate as:
+
+```text
+a low-token retrieval surface
+```
+
+without evidence.
+
+Required distinction:
+
+```text
+structured
+≠
+token-efficient automatically
+```
+
+---
+
+# Reduced Recomputation Boundary
+
+Likewise, structured retrieval may reduce repeated reconstruction in some workloads.
+
+But:
+
+```text
+Plate exists
+→ reduced recomputation
+```
+
+is not automatic.
+
+Measurement should consider:
+
+- retrieval cost;
+- validation cost;
+- freshness;
+- maintenance;
+- task quality;
+- reconstruction baseline.
+
+---
+
+# Meaning and Relationships
+
+Avoid the deterministic statement:
+
+```text
+Meaning emerges through relationships.
+```
+
+A safer interpretation is:
+
+```text
+relationships can add important context
+to identified resources
+```
+
+Meaning may also depend on:
+
+- definitions;
+- attributes;
+- provenance;
+- evidence;
+- constraints;
+- domain knowledge.
+
+---
+
+# Evidence-State Boundary
+
+Plate inclusion does not determine evidence status.
+
+Possible repository evidence states include:
+
+- Proposed;
+- Testing;
+- Provisionally Supported;
+- Supported;
+- Challenged;
+- Inconclusive;
+- Retired.
+
+Established external mathematics may be identified separately as established mathematics.
+
+Required distinction:
+
+```text
+registered
+≠
+Supported
+```
+
+---
+
+# Cross-Domain Boundary
+
+Plate™ resources may represent many domains.
+
+Cross-domain interpretation remains governed by:
+
+```text
+RC-22 — Domain Transfer Constraint
+```
+
+Where appropriate, declare:
+
+- objects;
+- scale;
+- normalization;
+- relationships;
+- exclusions;
+- constraints;
+- evidence;
+- alternatives;
+- failure conditions.
+
+A common Plate format does not imply a common physical mechanism.
+
+---
+
+# Hopf Fibration Boundary
+
+Hopf Fibration is an established mathematical reference.
+
+Classical structure:
+
+```text
+S¹ ↪ S³ → S²
+```
+
+Naturepedia may expose it publicly under Geometry of Nature™.
+
+Its public presence does not create:
+
+```text
+Hopf Plate family
+Hopf Registry
+Hopf System Map
+Hopf Knowledge Mesh
+Hopf x402 resource
+```
+
+unless those resources are separately created.
+
+---
+
+# Authorship Conservation Rule
+
+Current doctrine name:
+
+```text
+Authorship Conservation Rule (ACR)
+```
+
+ACR preserves provenance in both directions.
+
+```text
+Grand Compression material
+→ preserve Grand Compression authorship
+
+external science / mathematics
+→ preserve external provenance
+
+independent evidence
+→ preserve evaluator provenance
+```
+
+An index entry does not transfer authorship of externally established knowledge.
+
+---
+
+# Index vs Canonical Registry
+
+This human-readable file is useful for navigation.
+
+The canonical machine-readable Plate registry remains:
+
+```text
+docs/examples/json-ld/canonical-plate-registry.json
+```
+
+When exact current machine inventory matters, use the canonical registry rather than assuming this prose index is exhaustive.
+
+Required distinction:
+
+```text
+human-readable examples index
+≠
+canonical machine inventory automatically
+```
+
+---
+
+# Agent Interpretation Guidance
+
+Agents should interpret this index as:
+
+```text
+resource discovery
++
+human-readable implementation documentation
+```
+
+Agents should resolve separately:
+
+```text
+identity
+registry membership
+RRIP status
+Graph Registry membership
+Knowledge Mesh membership
+availability
+pricing
+rights
+evidence state
+```
+
+Agents should not infer one from another.
+
+---
+
+# Core Interpretation Rules
+
+This index must preserve:
+
+```text
+Plate
+≠
+Registry Object automatically
+```
+
+```text
+Plate
+≠
+RRIP Object automatically
+```
+
+```text
+Plate
+≠
+Knowledge Mesh Node automatically
+```
+
+```text
+semantic ID
+≠
+machine product
+```
+
+```text
+Registry
+≠
+memory automatically
+```
+
+```text
+Graph Registry
+≠
+Knowledge Mesh automatically
+```
+
+```text
+relationship
+≠
+causation
+```
+
+```text
+structured representation
+≠
+low-token automatically
+```
+
+```text
+Plate
+≠
+reduced recomputation automatically
+```
+
+```text
+public v2 control plane
+≠
+mandatory retrieval chain
+```
+
+```text
+Plate exists
+≠
+protected payload exists
+```
+
+```text
+resource class
+≠
+resource availability
+```
+
+```text
+reference implementation
+≠
+independent validation
+```
+
+```text
+structural correspondence
+≠
+material identity
+```
+
+---
+
+# Attribution
+
+Naturepedia™, Plate™ Architecture, Robbie’s Razor™, Recursive Knowledge Compression Architecture (RKCA™), RRIP™, Graph Registry™, Knowledge Mesh terminology as used within the Grand Compression framework, the Authorship Conservation Rule (ACR), the Grand Compression Cosmology, and associated original Grand Compression formulations originate with:
+
+**Robbie George**  
+Author and Originator  
+The Grand Compression Cosmology — Master Reference Document, MRD v2.0  
+Canonical identifier: `GC-MRD-v2.0`
+
+External mathematics, science, evidence, standards, protocols, technologies, and independently developed knowledge architectures retain their independent provenance.
+
+Implementation, indexing, semantic identification, graph linkage, payment, machine transformation, or retrieval does not by itself establish empirical validation, causation, derivation, shared authorship, or ownership transfer.
 
 ---
 
