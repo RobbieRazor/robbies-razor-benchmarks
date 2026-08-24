@@ -1058,7 +1058,7 @@ Current fixed-price retrieval architecture:
 |---|---:|---:|---|
 | Discovery and previews | Free | `0` | Active |
 | Atomic canonical query | `$0.005 USDC` | `5000` | Active for registered deterministic payloads |
-| Enriched relationship query | `$0.025 USDC` | `25000` | Reserved |
+| Enriched relationship query | `$0.025 USDC` | `25000` | Active for the explicitly registered Biography Enriched Query |
 | Structured Plate™ payload | `$0.25 USDC` | `250000` | Active for registered and validated payloads |
 | Bounded subtree, registry, or System Map | `$5.00 USDC` | `5000000` | Active |
 | Full registry or Knowledge Mesh snapshot | `$25.00 USDC` | `25000000` | Active |
@@ -1147,16 +1147,16 @@ The verified `402` challenge therefore establishes the live Atomic pricing and a
 
 #### Enriched Query Status
 
-The Enriched Query class remains reserved.
+The Enriched Query class is active only for explicitly registered, governed, deterministic payloads. The currently registered production route is `/v1/query/enriched/robbie-george-biography-plate`; unregistered identifiers remain fail-closed.
 
 Current configuration:
 
     Access class: enriched
     Price: 0.025 USDC
     Atomic units: 25000
-    Route status: reserved
+    Route status: active for the registered Biography Enriched Query
 
-Enriched resources must not issue payment challenges until governed deterministic payloads are explicitly registered, availability-gated, fidelity-bound, and production validated.
+Other Enriched resources must not issue payment challenges until governed deterministic payloads are explicitly registered, availability-gated, fidelity-bound, and production validated.
 
 A configured Enriched price does not establish resource availability.
 

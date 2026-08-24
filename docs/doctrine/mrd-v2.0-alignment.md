@@ -811,7 +811,7 @@ Current access classes:
 |---|---:|---:|---|
 | Public discovery / previews | Free | `0` | Public |
 | Atomic canonical query | `$0.005 USDC` | `5000` | Active for explicitly registered deterministic resources |
-| Enriched relationship query | `$0.025 USDC` | `25000` | Reserved |
+| Enriched relationship query | `$0.025 USDC` | `25000` | Active for the explicitly registered Biography Enriched Query |
 | Structured Plate™ payload | `$0.25 USDC` | `250000` | Active for registered and validated resources |
 | Bounded subtree / registry / System Map | `$5.00 USDC` | `5000000` | Governed protected class |
 | Full registry / Knowledge Mesh snapshot | `$25.00 USDC` | `25000000` | Governed protected class |
@@ -891,10 +891,10 @@ Enriched Query is configured at:
 Current status:
 
 ```text
-Reserved
+Active for the explicitly registered Biography Enriched Query
 ```
 
-An Enriched resource MUST NOT issue a payment challenge until a governed deterministic payload has been explicitly:
+Any additional Enriched resource MUST NOT issue a payment challenge until a governed deterministic payload has been explicitly:
 
 - registered;
 - availability-gated;
@@ -1330,7 +1330,7 @@ https://www.robbiegeorgephotography.com/grand-compression-canonical-claims
 **Historical versions:** Preserve genuine provenance  
 **Hopf Fibration:** Established mathematics / bounded CCG comparison class  
 **E8:** Established mathematics / separate bounded CCG reference  
-**Enriched Query:** Reserved  
+**Enriched Query:** Active only for explicitly registered, governed, deterministic payloads; the Biography Enriched Query is currently registered
 **Current x402 pricing authority:** `/.well-known/x402-pricing.json` version 3.0.0
 
 Canonical definitions remain governed by MRD v2.0 and the Canonical Claims Register.

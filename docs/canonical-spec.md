@@ -983,7 +983,7 @@ Current classes:
 |---|---:|---:|---|
 | Public discovery / previews | Free | `0` | Public |
 | Atomic canonical query | `$0.005 USDC` | `5000` | Active for registered deterministic resources |
-| Enriched relationship query | `$0.025 USDC` | `25000` | Reserved |
+| Enriched relationship query | `$0.025 USDC` | `25000` | Active for the explicitly registered Biography Enriched Query |
 | Structured Plate™ payload | `$0.25 USDC` | `250000` | Active for registered and validated resources |
 | Bounded subtree / registry / System Map | `$5.00 USDC` | `5000000` | Governed protected class |
 | Full registry / Knowledge Mesh snapshot | `$25.00 USDC` | `25000000` | Governed protected class |
@@ -1192,7 +1192,7 @@ E8:
 Established mathematics / separate comparative reference
 
 Enriched Query:
-Reserved
+Active for the explicitly registered Biography Enriched Query
 
 Pricing authority:
 /.well-known/x402-pricing.json

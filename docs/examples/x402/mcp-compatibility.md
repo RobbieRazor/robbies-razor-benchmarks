@@ -11,7 +11,7 @@
 **x402 pricing manifest:** v3.0.0  
 **Network:** Base — `eip155:8453`  
 **Asset:** USDC  
-**Enriched Query status:** Reserved
+**Enriched Query status:** Active for the explicitly registered Biography Enriched Query
 
 This document explains how the Naturepedia™ MCP interface, public HTTP control plane, and x402 protected-retrieval layer relate to one another.
 
@@ -508,7 +508,7 @@ Current production pricing version:
 |---|---:|---:|---|
 | Discovery / previews | Free | `0` | Public where exposed |
 | Atomic canonical query | `$0.005 USDC` | `5000` | Active only for registered deterministic payloads |
-| Enriched relationship query | `$0.025 USDC` | `25000` | Reserved |
+| Enriched relationship query | `$0.025 USDC` | `25000` | Active for the explicitly registered Biography Enriched Query |
 | Structured Plate™ payload | `$0.25 USDC` | `250000` | Active only for registered and validated payloads |
 | Bounded subtree / Registry / System Map class | `$5.00 USDC` | `5000000` | Pricing class defined; availability is resource-specific |
 | Full Registry / Knowledge Mesh snapshot class | `$25.00 USDC` | `25000000` | Pricing class defined; availability is resource-specific |
@@ -611,20 +611,20 @@ Atomic units: 25000
 Current state:
 
 ```text
-RESERVED
+ACTIVE FOR THE REGISTERED BIOGRAPHY ENRICHED QUERY
 ```
 
-MCP-compatible agents must not infer Enriched availability from the published price.
+MCP-compatible agents must not infer blanket Enriched availability from the published price.
 
 Required rule:
 
 ```text
 price published
 ≠
-Enriched resource active
+every Enriched resource active
 ```
 
-Enriched payment challenges remain disabled until applicable governed payloads are explicitly registered and production validated.
+Enriched payment challenges remain disabled for unregistered resources. The governed Biography Enriched Query is explicitly registered and production challenge-validated.
 
 ---
 
@@ -1489,7 +1489,7 @@ active for explicitly registered deterministic payloads
 Enriched Query:
 0.025 USDC
 25000 units
-RESERVED
+active for the registered Biography Enriched Query
 
 Structured Plate:
 0.25 USDC

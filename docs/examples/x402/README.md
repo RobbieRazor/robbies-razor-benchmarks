@@ -427,7 +427,7 @@ Production pricing uses fixed atomic-unit amounts.
 |---|---:|---:|---|
 | Discovery / previews | Free | `0` | Public where exposed |
 | Atomic canonical query | `$0.005` | `5000` | Active only for explicitly registered deterministic payloads |
-| Enriched query | `$0.025` | `25000` | Reserved |
+| Enriched query | `$0.025` | `25000` | Active for the explicitly registered Biography Enriched Query |
 | Structured Plate™ payload | `$0.25` | `250000` | Active only for registered and validated Plate payloads |
 | Bounded subtree / Registry / System Map class | `$5.00` | `5000000` | Pricing class available; actual resource availability is registration-specific |
 | Full Registry / Knowledge Mesh snapshot class | `$25.00` | `25000000` | Pricing class available; actual resource availability is registration-specific |
@@ -550,10 +550,10 @@ Atomic units: 25000
 Current state:
 
 ```text
-RESERVED
+ACTIVE FOR THE REGISTERED BIOGRAPHY ENRICHED QUERY
 ```
 
-Enriched resources must not issue payment challenges merely because the route class exists.
+Enriched resources must not issue payment challenges merely because the route class exists. Only an explicitly registered, governed, deterministic payload is payment-eligible.
 
 Activation requires an explicitly governed resource with:
 
@@ -1150,7 +1150,7 @@ active only for registered deterministic payloads
 Enriched:
 0.025 USDC
 25000 units
-reserved
+active for the registered Biography Enriched Query
 
 Structured Plate:
 0.25 USDC

@@ -787,7 +787,7 @@ Current production pricing:
 |---|---:|---:|---|
 | Free discovery and previews | `$0.00 USDC` | `0` | Public |
 | Atomic canonical query | `$0.005 USDC` | `5000` | Active only for explicitly registered deterministic resources |
-| Enriched relationship query | `$0.025 USDC` | `25000` | Reserved |
+| Enriched relationship query | `$0.025 USDC` | `25000` | Active for the explicitly registered Biography Enriched Query |
 | Structured Plate™ retrieval | `$0.25 USDC` | `250000` | Active only for registered and validated resources |
 | Bounded subtree, registry, or System Map | `$5.00 USDC` | `5000000` | Governed protected class; resource-specific availability required |
 | Full registry or Knowledge Mesh snapshot | `$25.00 USDC` | `25000000` | Governed protected class; resource-specific availability required |
@@ -938,18 +938,18 @@ Production configuration:
 Access class: enriched
 Price: 0.025 USDC
 Atomic units: 25000
-Route status: reserved
+Route status: active for the registered Biography Enriched Query
 ```
 
 The Enriched Query class remains:
 
 ```text
-Reserved
+Resource-specific; no blanket route-family activation
 ```
 
 A configured price does not establish active availability.
 
-Enriched resources must not issue payment challenges until their governed deterministic payloads are explicitly:
+Additional Enriched resources must not issue payment challenges until their governed deterministic payloads are explicitly:
 
 - registered;
 - availability-gated;
