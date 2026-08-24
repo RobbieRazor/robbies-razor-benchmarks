@@ -605,23 +605,97 @@ Reproduction status:
 
 ## Canonical Linkage
 
-This diagnostic is derived from concepts associated with:
+This diagnostic is an experimental implementation and evaluation surface informed by the current Grand Compression framework.
 
-- MRD §11.4.5 — Energetic Recursion Ceiling
-- MRD §11.4.5A — Memory–Compute Trade Curve
-- MRD §11.6C — Perishable Intelligence Asset
-- MRD §11.6C.15 — Infrastructure Phase Transition
-- MRD §11.6C.16 — Token–Energy Economics
-- MRD §11.6C.17 — Inference vs Memory Collapse Boundary
-- MRD §11.10 — Razor vs Brute-Force Doctrine
-- MRD §11.11 — Economic Recursion Constraint
-- MRD §13 — Predictive Compression and Evidence Requirements
-- RC-18 — Preserved Reusable Structure
-- RC-19 — Predictive and Empirical Claim Requirements
-- RC-20 — Compression Evaluation
-- RC-22 — Cross-Domain Transfer Boundary
+Primary current canonical claim orientation:
 
-This diagnostic does not modify those canonical concepts.
+```text
+RC-03 — Constraint-Bounded Intelligence
+RC-13 — Stability Minimum
+```
+
+RC-03 provides the framework-level orientation for evaluating whether recursive intelligence remains bounded by declared energetic, informational, governance, economic, operational, and propagation constraints.
+
+RC-13 provides the current Stability Minimum orientation.
+
+The diagnostic may also evaluate concepts associated with repository architecture and historical doctrine labels concerning:
+
+```text
+Energetic Recursion Ceiling
+Memory–Compute Trade Curve
+Perishable Intelligence Asset
+Infrastructure Phase Transition
+Token–Energy Economics
+Inference vs Memory Collapse Boundary
+Razor vs Brute-Force Doctrine
+Economic Recursion Constraint
+```
+
+Where an exact MRD subsection number is material, the current MRD v2.0 authority governs. Historical repository filenames or labels must not independently establish current canonical subsection placement.
+
+Current additional canonical claim orientation:
+
+```text
+RC-18 — Preserved Reusable Structure Principle
+RC-19 — Predictive Evaluation Requirement
+RC-20 — Compression Fitness Constraint
+RC-21 — Reference Implementation Distinction
+RC-22 — Domain Transfer Constraint
+```
+
+MRD §13 provides the current Predictive Evaluation and Evidence Governance boundary for repository interpretation.
+
+RC-18 requires preservation of the structure necessary for valid future reuse.
+
+RC-19 requires predictive, comparative, empirical, or performance-related propositions to be evaluated under declared variables, scope, scale, baselines, methods, uncertainty, and failure conditions.
+
+RC-20 requires compression benefits to remain accountable to utility, fidelity, provenance, accessibility, cost, governance burden, distortion, and risk.
+
+RC-21 requires reference-implementation results to remain distinct from independent confirmation.
+
+RC-22 governs transfer across domains and scales.
+
+Required distinctions:
+
+```text
+canonical claim
+≠
+diagnostic question
+```
+
+```text
+diagnostic profile
+≠
+canonical evidence state
+```
+
+```text
+Profile A
+≠
+framework validation
+```
+
+```text
+Profile C
+≠
+regulatory non-compliance
+```
+
+```text
+reference-implementation result
+≠
+independent confirmation
+```
+
+```text
+structural similarity
+≠
+shared causal mechanism
+```
+
+This diagnostic may operationalize or test bounded aspects of the framework.
+
+It does not modify, replace, or independently validate the canonical concepts from which it is derived.
 
 ---
 
