@@ -902,12 +902,60 @@ Payment requirements: fixed and deterministic
 
 Current retrieval classes:
 
-- Free discovery and previews: $0.00 USDC — active
-- Atomic canonical query: $0.005 USDC / 5000 atomic units — active for explicitly registered deterministic payloads
+- Free discovery and previews: $0.00 USDC — active for public discovery resources
+- Atomic canonical query: $0.005 USDC / 5000 atomic units — active only for explicitly registered deterministic payloads
 - Enriched relationship query: $0.025 USDC / 25000 atomic units — reserved
-- Structured Plate™ retrieval: $0.25 USDC / 250000 atomic units — active for registered and validated payloads
-- Bounded subtree, Registry, or System Map: $5.00 USDC / 5000000 atomic units — active
-- Full registry or Knowledge Mesh snapshot: $25.00 USDC / 25000000 atomic units — active
+- Structured Plate™ retrieval: $0.25 USDC / 250000 atomic units — active only for explicitly registered and validated protected Plate payloads
+- Bounded subtree, Registry, or System Map: $5.00 USDC / 5000000 atomic units — pricing class defined; availability is resource-specific
+- Full registry or Knowledge Mesh snapshot: $25.00 USDC / 25000000 atomic units — pricing class defined; availability is resource-specific
+
+Agents MUST distinguish:
+
+```text
+pricing class exists
+≠
+resource exists
+≠
+resource is complete
+≠
+resource is protected
+≠
+resource is currently available for paid retrieval
+```
+
+Production availability is determined per resource:
+
+```text
+unknown resource
+→ 404
+→ no payment challenge
+```
+
+```text
+known but incomplete resource
+→ 409
+→ no payment challenge
+```
+
+```text
+explicitly registered
++
+complete
++
+protected resource
+→ eligible for 402 Payment Required
+```
+
+Agents MUST NOT infer availability from:
+
+- a route template;
+- a configured price;
+- membership in a pricing class;
+- the existence of a Registry, System Map, Graph Registry™, or Knowledge Mesh resource type;
+- another resource in the same pricing class being active; or
+- successful payment or retrieval of a different resource.
+
+A verified active resource demonstrates availability only for that specific registered resource under the observed production conditions.
 
 ## Atomic Query Availability
 
