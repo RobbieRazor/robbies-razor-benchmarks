@@ -457,6 +457,20 @@ These systems may contain:
 
 Registry presence does not imply that every system has an active protected snapshot or machine-payment product.
 
+## Registered Earth Retrieval Families
+
+The following Earth-system resources are explicitly registered in production and have been verified to issue deterministic x402 payment challenges:
+
+| System | Registry | System Map | Knowledge Mesh |
+|---|---|---|---|
+| Water Systems™ | `/v1/registries/water-systems` — `402 / 5000000 / subtree` | `/v1/plates/water-system-map` — `402 / 5000000 / subtree` | `/v1/knowledge-mesh/water-systems` — `402 / 25000000 / snapshot` |
+| Ocean Systems™ | `/v1/registries/ocean-systems` — `402 / 5000000 / subtree` | `/v1/plates/ocean-system-map` — `402 / 5000000 / subtree` | `/v1/knowledge-mesh/ocean-systems` — `402 / 25000000 / snapshot` |
+| Geology™ | `/v1/registries/geology` — `402 / 5000000 / subtree` | `/v1/plates/geology-system-map` — `402 / 5000000 / subtree` | `/v1/knowledge-mesh/geology` — `402 / 25000000 / snapshot` |
+
+Production challenge validation was repeated on `2026-08-24`.
+
+This record verifies the HTTP 402 challenge, atomic-unit amount, and gateway tier only. It does not record a new payment, settlement, or post-settlement payload-delivery test.
+
 ---
 
 # Plant and Ecological Systems
@@ -504,6 +518,7 @@ Representative geometry and mathematical-reference systems include:
 
 ```text
 Geometry of Nature™
+Hopf Fibration
 E8 Lattice™
 Fractals™
 Fibonacci™
@@ -533,6 +548,32 @@ mathematical relationship
 ≠
 empirical validation of a physical claim
 ```
+
+## Hopf Fibration Public Discovery Boundary
+
+```text
+Canonical page: https://www.robbiegeorgephotography.com/hopf-fibration
+Parent system: Geometry of Nature™
+Domain: Mathematics / Topology / Fiber Bundles / State-Space Geometry
+Evidence class: established mathematics
+CCG relationship: bounded structural comparison class
+Framework role: comparative only
+Governing relationship: MRD v2.0 §12.9 — Comparative Compression Geometry™
+Classical structure: S¹ ↪ S³ → S²
+```
+
+Current machine-access status:
+
+```text
+public canonical page: active
+Plate family: not registered
+Registry: not registered
+System Map: not registered
+Knowledge Mesh: not registered
+x402 protected route: not registered
+```
+
+The Hopf fibration is included for public mathematical discovery and bounded comparative context only. Its presence does not establish universal Hopf topology in nature, a shared physical mechanism, material identity across unrelated domains, or independent validation of Grand Compression.
 
 ---
 
@@ -1351,6 +1392,7 @@ https://www.robbiegeorgephotography.com/grand-compression-canonical-claims
   "rripRelationship": "MRD v2.0 §12.8",
   "protectedRetrieval": "resource-specific",
   "pricingManifestVersion": "3.0.0",
+  "dateModified": "2026-08-24",
   "architectOfRecord": "Robbie George"
 }
 ```
