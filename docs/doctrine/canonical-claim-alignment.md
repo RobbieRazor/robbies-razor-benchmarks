@@ -271,127 +271,375 @@ This repository evaluates reasoning systems to determine whether they demonstrat
 
 ---
 
-## RC-03 — Recursion as the Stability Architecture
+## RC-03 — Constraint-Bounded Intelligence
 
-### Canonical Claim
+### Canonical Alignment
 
-Recursion is not merely repetition within the Grand Compression Cosmology; it is the stability architecture by which compressed structure is preserved, expressed, remembered, and renewed across scale.
+RC-03 is currently titled:
+
+```text
+Constraint-Bounded Intelligence
+```
+
+Current authority:
+
+```text
+MRD v2.0
+GC-MRD-v2.0
+Canonical Claims Register
+```
+
+RC-03 governs the principle that recursive intelligence remains stable only within declared energetic, informational, governance, economic, and propagation constraints.
 
 ### Repository Role
 
-Experiments and examples in this repository evaluate how recursive reasoning structures affect stability, efficiency, retrieval, and coherence across repeated model outputs and inherited knowledge structures.
+This repository may evaluate:
+
+- energetic constraints;
+- information-fidelity constraints;
+- governance limits;
+- economic constraints;
+- propagation or recursive-blast-radius limits;
+- stability under bounded operating conditions.
+
+Repository experiments do not automatically establish universal validity.
+
+Any empirical interpretation must remain bounded by:
+
+```text
+declared system
+scale
+variables
+baseline
+measurement method
+uncertainty
+failure conditions
+evidence state
+```
 
 ---
 
-## MRD §12.7 — Recursive Knowledge Compression Architecture
+## RC-13 — Stability Minimum
 
-### Doctrine Alignment
+### Canonical Alignment
 
-Recursive Knowledge Compression Architecture (RKCA) defines how complex knowledge systems are transformed into reusable human-readable and machine-readable cognitive structures.
+RC-13 is currently titled:
 
-RKCA operationalizes:
+```text
+Stability Minimum
+```
 
-compression → expression → memory → recursion
+Current authority:
 
-through Recursive Compression Interfaces, Plates™, registries, system maps, graph structures, and knowledge meshes.
+```text
+MRD v2.0
+GC-MRD-v2.0
+Canonical Claims Register
+```
+
+RC-13 concerns bounded balance among factors such as:
+
+```text
+memory preservation
+recomputation
+adaptability
+energy
+governance
+```
+
+within a declared recursive system.
 
 ### Repository Role
 
-This repository treats the following as reusable compressed knowledge structures:
+The repository may evaluate whether a system exhibits stable operating behavior under declared constraints.
 
-- Plate™ systems;
-- semantic registries;
-- JSON-LD structures;
-- system maps;
-- Graph Registries™;
-- Naturepedia™ relationship systems;
-- Knowledge Meshes;
-- machine-readable retrieval endpoints.
+Relevant evaluation surfaces may include:
 
-RKCA is an MRD doctrine component. It does not currently receive a repository-created RC identifier.
+- memory preservation;
+- recomputation burden;
+- adaptation;
+- energetic cost;
+- governance demand;
+- recursive stability;
+- failure thresholds.
+
+A repository benchmark may identify a bounded stability condition.
+
+It must not silently promote that result into a universal stability constant.
+
+Required distinction:
+
+```text
+bounded benchmark result
+≠
+universal stability law
+```
+
+---
+
+## RC-15 — Canonical System Definition
+
+### Canonical Alignment
+
+RC-15 is currently titled:
+
+```text
+Canonical System Definition
+```
+
+Current authority:
+
+```text
+MRD v2.0
+GC-MRD-v2.0
+Canonical Claims Register
+```
+
+RC-15 defines the Grand Compression Framework as a framework for structural conditions under which systems may remain coherent and persistent across declared:
+
+```text
+scale
+substrate
+domain
+recursive depth
+```
+
+This canonical framework definition does not independently validate every proposed application or cross-domain correspondence.
+
+Cross-domain application remains subject to:
+
+```text
+RC-22 — Domain Transfer Constraint
+```
+
+### Repository Role
+
+The repository may encode, implement, benchmark, or compare structures derived from the canonical framework.
+
+It must preserve the distinction:
+
+```text
+canonical framework definition
+≠
+empirical validation of every application
+```
+
+and:
+
+```text
+repository implementation
+≠
+canonical authority
+```
+
+---
+
+## RC-16 — Recursive Knowledge Compression Architecture
+
+### Canonical Alignment
+
+RC-16 is currently titled:
+
+```text
+Recursive Knowledge Compression Architecture
+```
+
+Primary MRD relationship:
+
+```text
+MRD v2.0 §12.7
+```
+
+RKCA™ describes how complex knowledge may become reusable through stable, attributable, accessible, relationally coherent, and recursively available structured representations.
+
+Naturepedia™ provides the primary reference implementation of selected RKCA principles.
+
+A common Naturepedia implementation sequence is:
+
+```text
+Plate™
+→ Registry
+→ System Map
+→ Knowledge Mesh
+```
+
+This sequence should be interpreted as a **reference-implementation architecture**, not as proof that every Plate automatically instantiates every higher-order resource.
+
+Accordingly:
+
+```text
+Plate exists
+≠
+System Map automatically exists
+```
+
+```text
+Registry exists
+≠
+Knowledge Mesh automatically exists
+```
+
+```text
+reference implementation
+≠
+universal theoretical validation
+```
+
+### Repository Role
+
+The repository may operationalize RKCA through resources such as:
+
+- Plates™;
+- canonical registries;
+- structured JSON-LD;
+- System Maps where explicitly implemented;
+- Graph Registries™ where explicitly implemented;
+- Knowledge Meshes where explicitly implemented;
+- indexes;
+- provenance metadata;
+- machine-readable retrieval resources.
+
+Each resource should preserve the structure required for its declared purpose.
+
+Depending on the resource, this may include:
+
+```text
+identity
+relationships
+provenance
+constraints
+version state
+canonical paths
+retrieval paths
+evidence status
+known exclusions
+failure conditions
+```
+
+RKCA implementation does not itself establish empirical validation.
 
 ---
 
 ## RC-17 — Recursive Registry Inheritance Principle
 
-### Canonical Claim
+### Canonical Alignment
 
-Compressed registries may become the substrate for future compression cycles, enabling inherited knowledge structures to compound into Meta-Registries, Graph Registries™, and Knowledge Meshes while preserving bounded structural fidelity.
+RC-17 is currently titled:
 
-The canonical inheritance pathway is:
-
-```txt
-Plate™
-→ Registry
-→ Meta-Registry
-→ Graph Registry™
-→ Knowledge Mesh
+```text
+Recursive Registry Inheritance Principle
 ```
 
-Within the Grand Compression Cosmology, recursion operates not only on raw information but also on previously compressed memory structures.
+Primary MRD authority:
 
-Registry inheritance allows compressed knowledge to become reusable cognitive infrastructure rather than passive storage.
+```text
+MRD v2.0 §12.8
+Appendix I
+```
 
-### Formal RRIP Notation
+Formal RRIP notation:
 
-```txt
+```text
 Sₙ → Rₙ
 Rₙ → Sₙ₊₁
 ```
 
-Where:
+where:
 
-- `Sₙ` represents a compression sequence at recursive order `n`;
-- `Rₙ` represents the compressed registry produced by that sequence; and
-- `Sₙ₊₁` represents a future compression sequence operating on the inherited registry.
+```text
+Sₙ
+=
+a compression sequence at recursive order n
 
-### Relationship to RC-03
+Rₙ
+=
+the validated compressed registry produced by that sequence
 
-RC-03 defines recursion as the architecture through which compressed structure is preserved, expressed, remembered, and renewed across scale.
+Sₙ₊₁
+=
+a later sequence operating on the inherited registry
+```
 
-RC-17 defines how preserved compressed registries become reusable substrates for future compression cycles.
+RRIP permits validated compressed registries to serve as substrates for later compression cycles when required structure remains sufficiently preserved.
+
+Registry inheritance is conditional.
+
+It is not an automatic promotion pathway through every available machine-resource type.
+
+Required distinction:
+
+```text
+registry inheritance
+≠
+Meta-Registry automatically instantiated
+```
+
+```text
+registry inheritance
+≠
+Graph Registry™ automatically instantiated
+```
+
+```text
+registry inheritance
+≠
+Knowledge Mesh automatically instantiated
+```
+
+Higher-order resources require explicit implementation and registration.
+
+### Relationship to RC-18
+
+RRIP inheritance remains subject to:
+
+```text
+RC-18 — Preserved Reusable Structure Principle
+```
+
+Inherited structure must preserve the information required for valid future reuse.
+
+Depending on the resource, this may include:
+
+- identity;
+- relationships;
+- provenance;
+- constraints;
+- version state;
+- retrieval pathways;
+- evidence status;
+- known exclusions;
+- failure conditions.
 
 ### Repository Role
 
-This repository operationalizes RC-17 by preserving:
+The repository may operationalize RRIP through:
 
-- Plate™ structures;
 - canonical registries;
-- Meta-Registries;
-- System Maps;
-- JSON-LD resources;
-- Graph Registries™;
+- Plate™ identity;
+- parent-registry context;
+- provenance;
+- declared relationships;
+- version-aware resolution;
 - machine-readable indexes;
-- Knowledge Meshes; and
-- inherited retrieval structures.
+- RRIP resolver infrastructure;
+- explicitly implemented higher-order resources.
 
-These resources are treated as recursively reusable memory structures rather than passive storage artifacts.
+Public RRIP resolution is exposed through:
 
-### Fidelity Boundary
+```text
+/api/v2/rrip/resolve
+```
 
-Registry inheritance does not independently prove that the inherited structure is correct, complete, empirically supported, or transferable across domains.
+Successful inheritance or resolution does not independently establish that the inherited information is:
 
-Every inherited structure remains subject to:
+```text
+correct
+complete
+empirically supported
+universally transferable
+```
 
-- canonical validation;
-- provenance preservation;
-- evidence-state classification;
-- declared scope and exclusions;
-- fidelity requirements;
-- version control;
-- failure conditions; and
-- domain-transfer constraints.
-
-Successful inheritance, retrieval, payment, or payload delivery does not constitute empirical validation.
-
-### Canonical Authority
-
-- MRD v2.0 — current governing authority;
-- RC-17 — Recursive Registry Inheritance Principle;
-- MRD Appendix I — Mathematical Formalization of Recursive Registry Inheritance;
-- Grand Compression Canonical Claims Register.
-
-MRD v2.0 preserves RC-17 without renumbering. Its historical development under MRD v1.9 remains part of the claim’s provenance.
+Successful retrieval, payment, settlement, or delivery also does not constitute empirical validation.
 
 ---
 
@@ -399,95 +647,141 @@ MRD v2.0 preserves RC-17 without renumbering. Its historical development under M
 
 ### Doctrine Alignment
 
-Comparative Compression Geometry™ defines a method for evaluating structural correspondence between systems after normalization through Robbie’s Razor.
+Comparative Compression Geometry™ (CCG) is governed by:
 
-Formal relationship:
-
-```txt
-A ~ℛ B
-iff
-Σℛ(A) = Σℛ(B)
+```text
+MRD v2.0 §12.9
 ```
 
-This denotes equality of declared normalized recursive signatures under stated comparison rules. It does not assert material, causal, mechanistic, or ontological identity between the source systems.
+CCG provides a bounded framework for comparing normalized structural relationships across systems.
+
+A comparative relationship may preserve selected structure without asserting that the compared systems share:
+
+```text
+material identity
+causal identity
+physical mechanism
+ontological identity
+universal applicability
+```
 
 ### Repository Role
 
-The repository supports Comparative Compression Geometry through:
+The repository may support CCG through:
 
-- cross-domain benchmark comparisons;
-- Recursive Knowledge Compression Architecture;
-- Plate™ systems;
-- semantic registries;
-- system maps and knowledge meshes;
+- bounded cross-domain benchmark comparisons;
 - comparative geometry documentation;
-- E8 Lattice™ examples.
+- Plate™ systems;
+- registries;
+- System Maps where explicitly implemented;
+- mathematical reference classes;
+- E8 examples;
+- Hopf Fibration examples;
+- declared normalization and comparison rules.
 
-### E8 Application
+### Established Mathematical Reference Classes
 
-E8 Lattice™ is retained as a bounded comparative geometry example illustrating constrained symmetry, invariant preservation, and high-dimensional relational organization.
+Established mathematical structures may be used as bounded comparative references.
 
-The E8 lattice and root system are eight-dimensional. The associated E8 Lie algebra has dimension 248.
+Examples include:
 
-E8 does not define the full scope of Comparative Compression Geometry, and repository materials MUST NOT represent it as the literal physical substrate of biological, geological, ecological, or cosmological systems.
+```text
+Hopf Fibration
+E8
+Fractals
+Fibonacci
+```
 
-### Boundary
+Their use within CCG does not transfer authorship of the underlying mathematics to Grand Compression.
 
-Comparative Compression Geometry does not assert that:
+It also does not independently validate the Grand Compression Framework.
 
-- structurally corresponding systems are materially identical;
-- visual resemblance proves mathematical isomorphism;
-- all systems instantiate one physical substrate;
-- natural systems perform explicit E8 calculations;
-- phase correspondence alone establishes full Razor isomorphism;
-- mathematical analogy establishes causal identity.
+### E8 Boundary
 
-### Canonical Authority
+E8 may be used as a bounded mathematical reference involving:
 
-- MRD §12.9 — Comparative Compression Geometry™;
-- MRD §7.6 — E8 Lattice as a bounded comparative geometry example.
+```text
+symmetry
+invariant structure
+high-dimensional organization
+constrained transformation
+```
 
-Comparative Compression Geometry does not currently receive an RC identifier in this repository. Any future identifier must originate in the public Canonical Claims Register.
+The E8 lattice and root system are eight-dimensional.
 
----
+The associated E8 Lie algebra has dimension 248.
 
-## RC-13 — Canonical Authority of the Master Reference Document
+Repository materials must not represent E8 as:
 
-### Canonical Claim
+- a universal physical substrate;
+- literal geometry instantiated by every natural system;
+- empirical confirmation of Grand Compression;
+- mathematically interchangeable with Hopf Fibration.
 
-The Master Reference Document serves as the authoritative specification for the structure, terminology, definitions, and governance of the Grand Compression Cosmology.
+### Hopf Boundary
 
-### Repository Role
+The classical Hopf fibration:
 
-All terminology and conceptual definitions used in this repository derive from the MRD.
+```text
+S¹ ↪ S³ → S²
+```
 
-This repository does not redefine canonical concepts.
+is established mathematics.
 
----
+Within CCG it may serve as a bounded structural comparison involving:
 
-## RC-15 — Compliance as Semantic Integrity Preservation
+```text
+fiber structure
+equivalence classes
+quotient structure
+state-space geometry
+linked topology
+canonical representation
+```
 
-### Canonical Claim
+Its inclusion does not establish:
 
-Compliance within Robbie’s Razor and the Grand Compression Cosmology exists to preserve semantic integrity, authorship fidelity, and implementation alignment.
+```text
+universal Hopf topology in nature
+shared physical mechanism
+material identity
+causal equivalence
+validation of Grand Compression
+```
 
-### Repository Role
+### Domain-Transfer Boundary
 
-Repository documentation, experiments, examples, machine-readable resources, and derived implementations must maintain semantic alignment with the MRD and Canonical Claims Register.
+Cross-domain CCG applications remain governed by:
 
----
+```text
+RC-22 — Domain Transfer Constraint
+```
 
-## RC-16 — Environmental Reciprocity as Governance Extension
+Where applicable, declare:
 
-### Canonical Claim
+```text
+objects
+scale
+normalization
+preserved relationships
+exclusions
+constraints
+evidence
+alternative explanations
+failure conditions
+```
 
-The Grand Compression Cosmology extends governance beyond technical and legal control by requiring environmental reciprocity, recognizing that recursive intelligence systems remain accountable to the ecological substrates that sustain them.
+Required distinction:
 
-### Repository Role
+```text
+structural correspondence
+≠
+material identity
+```
 
-Repository architecture should evaluate energy use, infrastructure demand, externalized ecological cost, and constraint ownership when describing recursive intelligence systems.
+Comparative Compression Geometry does not receive a separate repository-created RC identifier.
 
-RC-16 MUST NOT be reassigned to Comparative Compression Geometry or any other doctrine component.
+Any canonical RC assignment must originate in the MRD and public Canonical Claims Register.
 
 ---
 
