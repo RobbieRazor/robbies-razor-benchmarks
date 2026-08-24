@@ -33,6 +33,19 @@ A system-specific application must operationalize and measure each relevant cons
 
 ## Core Recursion Constraints
 
+Current canonical claim orientation includes:
+
+```text
+RC-03 — Constraint-Bounded Intelligence
+RC-13 — Stability Minimum
+```
+
+RC-03 provides the framework-level orientation that recursive intelligence must remain bounded by declared constraints.
+
+RC-13 provides the current canonical Stability Minimum orientation.
+
+The Recursion Stability Envelope is an architectural visualization and evaluation surface for these ideas. It does not replace either canonical claim or establish that the same quantitative envelope applies universally.
+
 The conceptual envelope includes:
 
 - **Energetic Recursion Ceiling** — MRD §11.4.5
@@ -42,7 +55,7 @@ The conceptual envelope includes:
 - **Information Fidelity Limit** — MRD §11.4.11A
 - **Recursive Blast Radius Limit** — MRD §11.11A
 
-Each constraint addresses a different dimension of recursive stability.
+Each constraint addresses a different dimension of bounded recursive operation.
 
 | Constraint | Architectural concern |
 |---|---|
@@ -52,6 +65,26 @@ Each constraint addresses a different dimension of recursive stability.
 | Optionality Preservation Principle | Preservation of reachable future states |
 | Information Fidelity Limit | Integrity of information across recursive transformations |
 | Recursive Blast Radius Limit | Maximum acceptable propagation depth or scope |
+
+Required distinctions:
+
+```text
+canonical Stability Minimum
+≠
+one universal numerical optimum
+```
+
+```text
+constraint satisfied in one benchmark
+≠
+complete Recursion Stability Envelope validated
+```
+
+```text
+similar envelope structure across domains
+≠
+shared quantitative thresholds or mechanism
+```
 
 ---
 
