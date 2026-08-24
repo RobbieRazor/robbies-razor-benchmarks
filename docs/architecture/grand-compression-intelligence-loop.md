@@ -442,8 +442,22 @@ Canonical orientation:
 
 ```text
 MRD v2.0
-RC-21 — Reference-Implementation Boundary
+RC-21 — Reference Implementation Distinction
 ```
+
+Required distinction:
+
+```text
+reference implementation
+≠
+independent confirmation
+≠
+universal validation
+```
+
+Naturepedia™ demonstrates that selected Grand Compression architectural concepts can be implemented.
+
+Its implementation status does not independently establish the empirical correctness, universality, or external validation of those concepts.
 
 ---
 
