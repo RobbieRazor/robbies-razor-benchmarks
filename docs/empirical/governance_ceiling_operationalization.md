@@ -76,7 +76,48 @@ GC-MRD-v2.0
 RC-01 through RC-22
 ```
 
-Exact canonical section numbering and wording remain governed by the current MRD.
+Primary current canonical claim orientation:
+
+```text
+RC-03 — Constraint-Bounded Intelligence
+RC-13 — Stability Minimum
+```
+
+RC-03 provides the framework-level orientation for evaluating recursive activity under declared energetic, informational, governance, economic, operational, and propagation constraints.
+
+RC-13 provides the current Stability Minimum orientation.
+
+This OSR operationalization may be used to investigate one bounded governance-capacity component relevant to those concepts.
+
+It does not define the complete meaning of either canonical claim.
+
+Required distinctions:
+
+```text
+OSR demand-to-capacity ratio
+≠
+RC-03 in full
+```
+
+```text
+OSR near 1
+≠
+RC-13 Stability Minimum established
+```
+
+```text
+governance capacity
+≠
+complete system stability
+```
+
+```text
+operational proxy
+≠
+canonical law
+```
+
+Exact canonical section numbering, wording, claim identity, and scope remain governed by the current MRD v2.0 authority and Canonical Claims Register.
 
 This document must not silently create or revise canonical subsection identities.
 
