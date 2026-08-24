@@ -72,19 +72,60 @@ Earlier MRD versions remain part of the framework’s historical provenance wher
 
 # Canonical Orientation
 
-Relevant framework areas include:
+Relevant current framework areas include:
 
-- MRD §11.4 — Stability Minima Under Constraint
-- MRD §11.4.3 — Governance as External Compression Field
-- MRD §11.6A — Boundary Avoidance vs Recursive Compression
-- MRD §11.6B — Non-Automatic Recursion Stabilizers
-- MRD §11.6C — Perishable Intelligence Asset Invariant
-- MRD §13 — Predictive Compression, Evidence, and Boundary Requirements
-- RC-18 — Preserved Reusable Structure
-- RC-19 — Predictive Evaluation Requirement
-- RC-20 — Compression Fitness Constraint
-- RC-21 — Reference Implementation Distinction
-- RC-22 — Domain Transfer Constraint
+```text
+RC-03 — Constraint-Bounded Intelligence
+```
+
+```text
+RC-13 — Stability Minimum
+```
+
+```text
+MRD §11.4 — Stability Minima Under Constraint
+MRD §11.4.3 — Governance as External Compression Field
+MRD §11.6A — Boundary Avoidance vs Recursive Compression
+MRD §11.6B — Non-Automatic Recursion Stabilizers
+MRD §11.6C — Perishable Intelligence Asset Invariant
+MRD §13 — Predictive Compression, Evidence, and Boundary Requirements
+```
+
+Additional governing claims include:
+
+```text
+RC-18 — Preserved Reusable Structure Principle
+RC-19 — Predictive Evaluation Requirement
+RC-20 — Compression Fitness Constraint
+RC-21 — Reference Implementation Distinction
+RC-22 — Domain Transfer Constraint
+```
+
+RC-03 provides the current canonical constraint-bounded-intelligence orientation.
+
+RC-13 provides the current canonical Stability Minimum orientation.
+
+The diagnostic material in this file remains an implementation and evaluation surface. It does not replace the exact canonical definitions of those claims.
+
+Required distinctions:
+
+```text
+canonical claim
+≠
+diagnostic result
+```
+
+```text
+diagnostic signal
+≠
+empirical validation of the canonical claim
+```
+
+```text
+stability pattern observed
+≠
+universal stability law
+```
 
 Canonical inclusion does not itself establish empirical support for a particular diagnostic result.
 
