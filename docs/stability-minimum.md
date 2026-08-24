@@ -67,9 +67,27 @@ GC-MRD-v2.0
 RC-01 through RC-22
 ```
 
-The framework contains material concerning stability under constraint.
+Current canonical claim orientation:
 
-Exact canonical wording, mathematical status, and subsection or appendix placement remain governed by the current MRD v2.0 authority.
+```text
+RC-13 — Stability Minimum
+```
+
+This document is an experimental interpretation and evaluation surface for stability-minimum behavior under declared constraints.
+
+It does not replace the canonical RC-13 definition or promote any particular memory–compute allocation, curve shape, metric, or optimum into canonical doctrine.
+
+Exact canonical wording, mathematical status, scope, and any applicable subsection or appendix placement remain governed by the current MRD v2.0 authority and Canonical Claims Register.
+
+Required distinction:
+
+```text
+RC-13 canonical framework claim
+≠
+candidate experimental curve
+≠
+empirically established universal optimum
+```
 
 ---
 
