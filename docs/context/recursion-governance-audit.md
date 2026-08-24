@@ -83,6 +83,53 @@ GC-MRD-v2.0
 RC-01 through RC-22
 ```
 
+Current canonical claim orientation:
+
+```text
+RC-03 — Constraint-Bounded Intelligence
+RC-13 — Stability Minimum
+```
+
+RC-03 provides the current framework-level orientation for evaluating recursive systems under declared energetic, informational, governance, economic, operational, and propagation constraints.
+
+RC-13 provides the current canonical Stability Minimum orientation.
+
+This Recursion Governance Audit is an illustrative structural-review implementation informed by those concepts.
+
+It does not replace their canonical definitions or establish that a particular control architecture, threshold, allocation, or audit result is universally required.
+
+Required distinctions:
+
+```text
+canonical claim
+≠
+audit framework
+```
+
+```text
+audit signal
+≠
+system instability established
+```
+
+```text
+constraint violation
+≠
+root cause established automatically
+```
+
+```text
+candidate stability condition
+≠
+universal stability minimum
+```
+
+```text
+structural-review alignment
+≠
+empirical validation of RC-03 or RC-13
+```
+
 ---
 
 # 1. Purpose
