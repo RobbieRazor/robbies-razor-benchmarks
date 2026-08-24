@@ -397,21 +397,86 @@ A rubric score may be one input to a broader review only when the receiving orga
 
 ## Section 7 — Canonical Linkage
 
-The draft rubric is derived from concepts associated with:
+The draft rubric draws on framework concepts associated with:
 
-- MRD §11.4.5 — Energetic Recursion Ceiling
-- MRD §11.4.5A — Memory–Compute Trade Curve
-- MRD §11.6C — Perishable Intelligence Asset
-- MRD §11.6C.15 — Infrastructure Phase Transition
-- MRD §11.6C.16 — Token–Energy Economics
-- MRD §11.6C.17 — Collapse Boundary
-- MRD §11.10 — Razor vs Brute-Force Doctrine
-- MRD §11.11 — Economic Recursion Constraint
-- MRD §13 — Predictive Compression and Evidence Requirements
-- RC-18 — Preserved Reusable Structure
-- RC-19 — Predictive and Empirical Claim Requirements
-- RC-20 — Compression Evaluation
-- RC-22 — Cross-Domain Transfer Boundary
+```text
+RC-03 — Constraint-Bounded Intelligence
+RC-13 — Stability Minimum
+```
+
+and architectural material including:
+
+```text
+MRD §11.4.5 — Energetic Recursion Ceiling
+MRD §11.4.5A — Memory–Compute Trade Curve
+MRD §11.6C — Perishable Intelligence Asset
+MRD §11.6C.15 — Infrastructure Phase Transition
+MRD §11.6C.16 — Token–Energy Economics
+MRD §11.6C.17 — Collapse Boundary
+MRD §11.10 — Razor vs Brute-Force Doctrine
+MRD §11.11 — Economic Recursion Constraint
+MRD §13 — Predictive Evaluation and Evidence Governance
+```
+
+Current additional canonical claim orientation:
+
+```text
+RC-18 — Preserved Reusable Structure Principle
+RC-19 — Predictive Evaluation Requirement
+RC-20 — Compression Fitness Constraint
+RC-21 — Reference Implementation Distinction
+RC-22 — Domain Transfer Constraint
+```
+
+RC-03 provides the framework-level orientation for evaluating whether recursive intelligence remains bounded by declared constraints.
+
+RC-13 provides the current Stability Minimum orientation.
+
+RC-18 requires preservation of the structure necessary for valid future reuse.
+
+RC-19 requires predictive, comparative, empirical, or performance-related propositions to be evaluated under declared conditions.
+
+RC-20 requires compression benefits to remain accountable to utility, fidelity, provenance, accessibility, cost, and risk rather than rewarding reduction alone.
+
+RC-21 requires reference-implementation evidence to remain distinct from independent confirmation.
+
+RC-22 governs transfer across domains and scales.
+
+This rubric may operationalize or evaluate aspects of those concepts within a declared scope.
+
+It does not redefine their canonical meaning.
+
+Required distinctions:
+
+```text
+canonical claim
+≠
+rubric dimension
+```
+
+```text
+rubric score
+≠
+canonical evidence state
+```
+
+```text
+high rubric score
+≠
+empirical validation of the Grand Compression Framework
+```
+
+```text
+rubric alignment
+≠
+safety, regulatory, legal, or deployment certification
+```
+
+```text
+reference-implementation result
+≠
+independent confirmation
+```
 
 A repository rubric derived from canonical concepts is not itself an independent canonical authority.
 
