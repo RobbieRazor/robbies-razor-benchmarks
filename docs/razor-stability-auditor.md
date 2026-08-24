@@ -83,6 +83,53 @@ GC-MRD-v2.0
 RC-01 through RC-22
 ```
 
+Current canonical claim orientation:
+
+```text
+RC-03 — Constraint-Bounded Intelligence
+RC-13 — Stability Minimum
+```
+
+RC-03 provides the current framework-level orientation for evaluating whether recursive intelligence remains bounded by declared energetic, informational, governance, economic, propagation, and operational constraints.
+
+RC-13 provides the current canonical Stability Minimum orientation.
+
+The Razor Stability Auditor is an experimental diagnostic implementation informed by these framework concepts.
+
+It does not replace either canonical claim.
+
+Required distinctions:
+
+```text
+canonical claim
+≠
+auditor rubric
+```
+
+```text
+auditor score
+≠
+probability of stability
+```
+
+```text
+structural risk signal
+≠
+predicted failure
+```
+
+```text
+favorable audit result
+≠
+deployment approval
+```
+
+```text
+diagnostic alignment with RC-03 or RC-13
+≠
+empirical validation of those claims
+```
+
 Earlier MRD versions remain historical provenance where applicable but are not the current governing authority.
 
 ---
