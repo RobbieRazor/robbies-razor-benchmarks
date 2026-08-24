@@ -242,8 +242,28 @@ A compression strategy can fail if it destroys required:
 Canonical orientation:
 
 ```text
-RC-18 — Preserved Reusable Structure
+RC-18 — Preserved Reusable Structure Principle
 RC-20 — Compression Fitness Constraint
+```
+
+RC-18 requires compression and reuse to preserve the structure necessary for valid future use.
+
+RC-20 requires any claimed compression benefit to remain accountable to the complete declared utility, fidelity, provenance, accessibility, cost, governance burden, distortion, maintenance, and risk boundary.
+
+Required distinction:
+
+```text
+smaller representation
+≠
+valid compression automatically
+```
+
+and:
+
+```text
+reduced internal burden
+≠
+Compression Fitness established automatically
 ```
 
 ---
