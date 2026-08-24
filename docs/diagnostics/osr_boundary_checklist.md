@@ -82,7 +82,10 @@ Relevant canonical orientations include:
 - MRD §11.4.5 — Energetic Recursion Ceiling
 - MRD §11.4.6 — Stabilization Bandwidth Constraint
 - MRD §11.10A–B — Sovereign Recursion Doctrine
-- MRD §13 — Predictive Compression and Evidence Requirements
+- MRD §13 — current predictive-evaluation and evidence-governance requirements
+- RC-19 — Predictive Evaluation Requirement
+- RC-21 — Reference Implementation Distinction
+- RC-22 — Domain Transfer Constraint
 
 Current governing framework:
 
@@ -92,7 +95,7 @@ GC-MRD-v2.0
 RC-01 through RC-22
 ```
 
-Exact canonical wording remains governed by MRD v2.0 and the Canonical Claims Register.
+Exact canonical section headings and claim wording remain governed by MRD v2.0 and the Canonical Claims Register.
 
 ---
 
