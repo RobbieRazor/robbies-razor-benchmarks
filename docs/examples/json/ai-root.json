@@ -89,35 +89,41 @@
     "catalog": "https://www.robbiegeorgephotography.com/.well-known/ai-catalog.json",
     "naturepediaIndex": "https://www.robbiegeorgephotography.com/naturepedia-index.json",
     "geometryIndex": "https://www.robbiegeorgephotography.com/geometry-index.json",
-"geometryDiscovery": {
-  "parentSystem": "Geometry of Nature™",
-  "parentUrl": "https://www.robbiegeorgephotography.com/geometry-of-nature",
-  "index": "https://www.robbiegeorgephotography.com/geometry-index.json",
-  "mathematicalReferences": [
-    {
-      "name": "Hopf Fibration",
-      "slug": "hopf-fibration",
-      "url": "https://www.robbiegeorgephotography.com/hopf-fibration",
-      "domain": "Mathematics / Topology / Fiber Bundles / State-Space Geometry",
-      "evidenceClass": "established-mathematics",
-      "ccgRelationship": "bounded-structural-comparison-class",
-      "frameworkRole": "comparative-only",
-      "governingRelationship": "MRD v2.0 §12.9 — Comparative Compression Geometry™",
-      "establishedStructure": "S¹ ↪ S³ → S²",
-      "requiresPayment": false
+    "geometryDiscovery": {
+      "parentSystem": "Geometry of Nature™",
+      "parentUrl": "https://www.robbiegeorgephotography.com/geometry-of-nature",
+      "index": "https://www.robbiegeorgephotography.com/geometry-index.json",
+      "mathematicalReferences": [
+        {
+          "name": "Hopf Fibration",
+          "slug": "hopf-fibration",
+          "url": "https://www.robbiegeorgephotography.com/hopf-fibration",
+          "domain": "Mathematics / Topology / Fiber Bundles / State-Space Geometry",
+          "evidenceClass": "established-mathematics",
+          "ccgRelationship": "bounded-structural-comparison-class",
+          "frameworkRole": "comparative-only",
+          "governingRelationship": "MRD v2.0 §12.9 — Comparative Compression Geometry™",
+          "establishedStructure": "S¹ ↪ S³ → S²",
+          "requiresPayment": false
+        },
+        {
+          "name": "E8 Lattice™",
+          "slug": "e8-lattice",
+          "url": "https://www.robbiegeorgephotography.com/e8-lattice",
+          "classification": "bounded-mathematical-reference"
+        }
+      ],
+      "interpretationBoundary": "Hopf Fibration and E8 are distinct mathematical reference classes. Their inclusion within Naturepedia and Comparative Compression Geometry™ does not establish universal physical identity, shared mechanism, causation, or independent empirical validation of the Grand Compression Framework."
     },
-    {
-      "name": "E8 Lattice™",
-      "slug": "e8-lattice",
-      "url": "https://www.robbiegeorgephotography.com/e8-lattice",
-      "classification": "bounded-mathematical-reference"
-    }
-  ],
-  "interpretationBoundary": "Hopf Fibration and E8 are distinct mathematical reference classes. Their inclusion within Naturepedia and Comparative Compression Geometry™ does not establish universal physical identity, shared mechanism, causation, or independent empirical validation of the Grand Compression Framework."
-},
     "changeLog": "https://www.robbiegeorgephotography.com/change-log.json",
     "canonicalPublicationManifest": "https://www.robbiegeorgephotography.com/canonical-publication-manifest.json",
-    "canonicalPublicationManifestAlias": "https://www.robbiegeorgephotography.com/.well-known/canonical-publication-manifest.json"
+    "canonicalPublicationManifestAlias": "https://www.robbiegeorgephotography.com/.well-known/canonical-publication-manifest.json",
+    "aiCatalog": "https://www.robbiegeorgephotography.com/.well-known/ai-catalog.json",
+    "openApi": "https://www.robbiegeorgephotography.com/.well-known/openapi.json",
+    "apiCatalog": "https://www.robbiegeorgephotography.com/.well-known/api-catalog",
+    "x402Pricing": "https://www.robbiegeorgephotography.com/.well-known/x402-pricing.json",
+    "mcpServerCard": "https://www.robbiegeorgephotography.com/.well-known/mcp/server-card.json",
+    "agentSkills": "https://www.robbiegeorgephotography.com/.well-known/agent-skills/index.json"
   },
   "documentation": {
     "llms": "https://www.robbiegeorgephotography.com/llms.txt",
@@ -128,46 +134,46 @@
     "mrdManifest": "https://github.com/RobbieRazor/robbies-razor-benchmarks/blob/main/docs/mrd/mrd-v2.0-manifest.json"
   },
   "mcpServer": {
-  "name": "com.robbiegeorgephotography/naturepedia",
-  "title": "Naturepedia Canonical Discovery",
-  "version": "0.1.2",
-  "status": "active",
-  "isLatest": true,
-  "publishedAt": "2026-08-12",
-  "publisher": "Robbie George Photography",
-  "creator": "Robbie George",
-  "publisherIdentifier": "urn:ai:robbiegeorgephotography:publisher",
-  "domainVerified": true,
-  "verifiedDomain": "robbiegeorgephotography.com",
-  "registry": "Official MCP Registry",
-  "registryIsPreview": true,
-  "registryRecord": "https://registry.modelcontextprotocol.io/v0/servers?search=com.robbiegeorgephotography%2Fnaturepedia",
-  "transport": "streamable-http",
-  "endpoint": "https://mcp.robbiegeorgephotography.com/mcp",
-  "health": "https://mcp.robbiegeorgephotography.com/health",
-  "serverDescriptor": "https://github.com/RobbieRazor/robbies-razor-benchmarks/blob/main/mcp-server/server.json",
-  "repository": "https://github.com/RobbieRazor/robbies-razor-benchmarks/tree/main/mcp-server",
-  "access": "public-read-only",
-  "authentication": "none",
-  "currentToolsRequirePayment": false,
-  "premiumResolvedResourcesMayRequireX402": true,
-  "tools": [
-    {
-      "name": "about_naturepedia",
-      "purpose": "Return Naturepedia publisher, authority, access, catalog, and rights information."
-    },
-    {
-      "name": "search_naturepedia",
-      "purpose": "Search the live public Naturepedia AI Catalog."
-    },
-    {
-      "name": "resolve_naturepedia_resource",
-      "purpose": "Resolve a catalog item to its canonical endpoint and associated metadata."
-    }
-  ],
-  "governingAuthority": "GC-MRD-v2.0",
-  "rightsBoundary": "MCP access, tool invocation, x402 settlement, or successful retrieval does not grant training, embedding, resale, derivative-dataset, or Robbie's Razor framework-implementation rights."
-},
+    "name": "com.robbiegeorgephotography/naturepedia",
+    "title": "Naturepedia Canonical Discovery",
+    "version": "0.1.2",
+    "status": "active",
+    "isLatest": true,
+    "publishedAt": "2026-08-12",
+    "publisher": "Robbie George Photography",
+    "creator": "Robbie George",
+    "publisherIdentifier": "urn:ai:robbiegeorgephotography:publisher",
+    "domainVerified": true,
+    "verifiedDomain": "robbiegeorgephotography.com",
+    "registry": "Official MCP Registry",
+    "registryIsPreview": true,
+    "registryRecord": "https://registry.modelcontextprotocol.io/v0/servers?search=com.robbiegeorgephotography%2Fnaturepedia",
+    "transport": "streamable-http",
+    "endpoint": "https://mcp.robbiegeorgephotography.com/mcp",
+    "health": "https://mcp.robbiegeorgephotography.com/health",
+    "serverDescriptor": "https://github.com/RobbieRazor/robbies-razor-benchmarks/blob/main/mcp-server/server.json",
+    "repository": "https://github.com/RobbieRazor/robbies-razor-benchmarks/tree/main/mcp-server",
+    "access": "public-read-only",
+    "authentication": "none",
+    "currentToolsRequirePayment": false,
+    "premiumResolvedResourcesMayRequireX402": true,
+    "tools": [
+      {
+        "name": "about_naturepedia",
+        "purpose": "Return Naturepedia publisher, authority, access, catalog, and rights information."
+      },
+      {
+        "name": "search_naturepedia",
+        "purpose": "Search the live public Naturepedia AI Catalog."
+      },
+      {
+        "name": "resolve_naturepedia_resource",
+        "purpose": "Resolve a catalog item to its canonical endpoint and associated metadata."
+      }
+    ],
+    "governingAuthority": "GC-MRD-v2.0",
+    "rightsBoundary": "MCP access, tool invocation, x402 settlement, or successful retrieval does not grant training, embedding, resale, derivative-dataset, or Robbie's Razor framework-implementation rights."
+  },
   "machineInfrastructure": {
     "discovery": "https://www.robbiegeorgephotography.com/api/v2/naturepedia/index.md",
     "registry": "https://www.robbiegeorgephotography.com/api/v2/plates/registry.md",
@@ -198,10 +204,18 @@
       "https://mcp.robbiegeorgephotography.com/health"
     ],
     "paidMachineRetrieval": {
-      "compactStructuredResourcesUsd": 1,
-      "registriesAndSystemMapsUsd": 5,
-      "knowledgeMeshesAndHigherOrderResourcesUsd": 25
-    }
+  "pricingVersion": "3.0.0",
+  "pricingManifest": "https://www.robbiegeorgephotography.com/.well-known/x402-pricing.json",
+  "currency": "USDC",
+  "network": "eip155:8453",
+  "atomicCanonicalQueryUsd": 0.005,
+  "enrichedRelationshipQueryUsd": 0.025,
+  "structuredPlateUsd": 0.25,
+  "registriesAndSystemMapsUsd": 5,
+  "knowledgeMeshesAndHigherOrderResourcesUsd": 25,
+  "availabilityPolicy": "Pricing and route publication do not activate every resource. Payment eligibility remains limited to explicitly registered, complete, production-ready resources.",
+  "retrievalRightsOnly": true
+}
   },
   "governance": {
     "principle": "Gr <= Es",
@@ -212,5 +226,39 @@
     "authorshipConservationRuleRequired": true,
     "appendixQProvisional": true,
     "domainTransferDeclarationsRequired": true
+  },
+  "x402": {
+    "protocol": "x402",
+    "network": "eip155:8453",
+    "asset": "USDC",
+    "pricingManifest": "https://www.robbiegeorgephotography.com/.well-known/x402-pricing.json",
+    "activeRetrievalClasses": {
+      "atomic": {
+        "priceUSDC": "0.005",
+        "atomicUnits": "5000",
+        "accessClass": "atomic",
+        "routeStatus": "active",
+        "routeTemplate": "https://www.robbiegeorgephotography.com/v1/query/atomic/{resource}",
+        "activeRoutes": [
+          "https://www.robbiegeorgephotography.com/v1/query/atomic/robbie-george-biography-plate"
+        ]
+      },
+      "enriched": {
+        "priceUSDC": "0.025",
+        "atomicUnits": "25000",
+        "accessClass": "enriched",
+        "routeStatus": "active",
+        "resourceClass": "enriched-query",
+        "schemaVersion": "naturepedia.enriched-query.v1",
+        "routeTemplate": "https://www.robbiegeorgephotography.com/v1/query/enriched/{resource}",
+        "activeRoutes": [
+          "https://www.robbiegeorgephotography.com/v1/query/enriched/robbie-george-biography-plate"
+        ],
+        "availabilityPolicy": "Payment challenges are issued only for explicitly registered Enriched Query resources with complete governed deterministic payloads. Known but incomplete resources return 409 without payment. Unknown resources return 404 without payment."
+      }
+    },
+    "reservedRetrievalClasses": {},
+    "retrievalRightsOnly": true,
+    "rightsBoundary": "x402 payment grants one endpoint-level retrieval only and does not grant training, embedding, bulk-ingestion, redistribution, resale, synchronization, private-dataset, derivative-dataset, commercial-implementation, or framework-implementation rights."
   }
 }

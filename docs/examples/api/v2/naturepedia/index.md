@@ -784,7 +784,7 @@ active only for explicitly registered deterministic resources
 Enriched relationship query
 0.025 USDC
 25000 atomic units
-RESERVED
+active for the registered Biography Enriched Query
 
 Structured Plate™ payload
 0.25 USDC

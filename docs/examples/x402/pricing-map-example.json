@@ -71,10 +71,23 @@
       "name": "Enriched Relationship Query",
       "amountUSDC": "0.025",
       "atomicUnits": "25000",
-      "classStatus": "reserved",
-      "resourceAvailability": "none-active-until-explicit-registration",
+      "classStatus": "active",
+      "resourceAvailability": "explicit-registration-required",
       "routeTemplate": "/v1/query/enriched/{resource}",
-      "availabilityPolicy": "Published pricing does not activate an Enriched resource. Payment challenges remain disabled until a governed deterministic payload is explicitly registered, availability-gated, fidelity-bound, and production validated.",
+      "activeRoutes": [
+        "/v1/query/enriched/robbie-george-biography-plate"
+      ],
+      "canonicalInternalRoutes": [
+        "/x402/query/enriched/robbie-george-biography-plate"
+      ],
+      "availabilityPolicy": "Published pricing does not activate every Enriched resource. Payment challenges are enabled only for a governed deterministic Enriched Query payload that is explicitly registered, availability-gated, fidelity-bound, and production validated.",
+      "failureBehavior": {
+        "unknownResource": "404 without payment challenge",
+        "knownIncompleteResource": "409 without payment challenge where the resource is explicitly recognized as incomplete",
+        "registeredCompleteResource": "402 Payment Required with amount 25000 and gateway tier enriched"
+      },
+      "resourceClass": "enriched-query",
+      "schemaVersion": "naturepedia.enriched-query.v1",
       "useCase": "Multiple relationships, citations, provenance, or modest enrichment."
     },
     {
@@ -174,7 +187,7 @@
   },
 
   "productionValidation": {
-    "date": "2026-08-20",
+    "date": "2026-08-24",
     "scope": "Challenge and availability behavior recorded for the resources listed below. This record does not imply settlement testing for every current pricing class.",
     "atomicAvailableResource": {
       "route": "/v1/query/atomic/robbie-george-biography-plate",
@@ -193,6 +206,21 @@
       "result": "PASS"
     },
     "atomicUnknownResource": {
+      "status": 404,
+      "paymentRequired": false,
+      "result": "PASS"
+    },
+    "enrichedAvailableResource": {
+      "route": "/v1/query/enriched/robbie-george-biography-plate",
+      "status": 402,
+      "amountAtomicUnits": "25000",
+      "gatewayTier": "enriched",
+      "paymentRequired": true,
+      "settlementTestedInThisValidation": false,
+      "protectedPayloadDeliveryTestedInThisValidation": false,
+      "result": "PASS"
+    },
+    "enrichedUnknownResource": {
       "status": 404,
       "paymentRequired": false,
       "result": "PASS"

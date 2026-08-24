@@ -1219,10 +1219,10 @@ compact deterministic answer
 ```text
 Price: 0.025 USDC
 Atomic units: 25000
-Status: RESERVED
+Status: ACTIVE FOR THE REGISTERED BIOGRAPHY ENRICHED QUERY
 ```
 
-This class exists in the pricing architecture but should not be interpreted as currently active merely because the price is published.
+This class is payment-eligible only for explicitly registered, governed, deterministic payloads. The current registered production route is `/v1/query/enriched/robbie-george-biography-plate`; the published price alone does not activate other Enriched resources.
 
 ---
 

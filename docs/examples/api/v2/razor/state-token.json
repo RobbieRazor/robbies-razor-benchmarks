@@ -1,187 +1,171 @@
 {
   "version": "2.0.0",
-  "last_updated": "2026-08-23T20:36:00Z",
-
+  "registry_version": "2026.08.20-v3",
+  "registry_hash": "static-state-757-2026-08-20-enriched-v1",
+  "state_signature": "robbies-razor-v2-state-2026-08-20-enriched-v1",
+  "signature_mode": "static",
+  "future_signature_mode": "cryptographic",
+  "last_updated": "2026-08-20T15:39:00Z",
   "endpoint": "/api/v2/razor/state-token",
   "state_token": "robbies-razor-v2-registry-state",
-
-  "authority": {
-    "framework": "Grand Compression",
-    "master_reference_document": "MRD v2.0",
-    "canonical_identifier": "GC-MRD-v2.0",
-    "canonical_claim_range": "RC-01 through RC-22",
-    "architect_of_record": "Robbie George"
-  },
-
+  "architect_of_record": "Robbie George",
+  "framework": "Robbie's Razor",
+  "primitive": "compression → expression → memory → recursion",
   "governance": {
-    "expression": "Gr <= Es",
-    "status": "framework-governance-metadata",
-    "interpretation": "Governance metadata does not establish empirical or scientific validation."
+    "principle": "Gr <= Es",
+    "status": "active"
   },
-
+  "rrip": {
+    "status": "active",
+    "principle": "Recursive Registry Inheritance Principle"
+  },
   "registry_state": {
     "status": "active",
-    "registry_version": "2026.08.19",
-    "canonical_plate_count": 757,
+    "synchronization": "x402-v3-atomic-enriched-and-structured-plate-synchronized",
+    "canonical_keep_count": 757,
+    "registry_reference_count": 761,
+    "canonical_system_count": 111,
     "duplicate_removed_count": 33,
-    "canonical_registry": "docs/examples/json-ld/canonical-plate-registry.json",
-    "public_discovery": true,
-    "protected_retrieval": "resource-specific"
+    "intentional_cross_reference_count": 4,
+    "total_asset_count": 757,
+    "hickories_inventory": "active",
+    "geometry_of_nature_inventory": "active",
+    "e8_lattice_inventory": "active",
+    "fractals_inventory": "active",
+    "fibonacci_inventory": "active",
+    "weather_inventory": "active",
+    "water_systems_inventory": "active",
+    "ocean_systems_inventory": "active",
+    "geology_inventory": "active",
+    "field_location_wildlife_systems_inventory": "active",
+    "registry_layers": [
+      "Plate™",
+      "Registry",
+      "Meta-Registry",
+      "Graph Registry™",
+      "Knowledge Mesh"
+    ]
   },
-
-  "state_signature": {
-    "mode": "static-metadata",
-    "cryptographic": false,
-    "registry_hash": null,
-    "interpretation": "This state token provides registry-state and synchronization metadata. It is not a cryptographic proof, truth oracle, or evidence-validation mechanism."
+  "registry_count": {
+    "core_v2_infrastructure_endpoints": 4,
+    "total_v2_routes": 8,
+    "v1_compatibility_routes": 93,
+    "x402_payload_routes": 89,
+    "payment_gated_url_surfaces": 182,
+    "total_machine_routes": 190
   },
-
-  "resource_layers": {
-    "plate": {
-      "defined": true,
-      "instantiation": "inventory-specific"
-    },
-    "registry": {
-      "defined": true,
-      "instantiation": "resource-specific"
-    },
-    "meta_registry": {
-      "defined": true,
-      "instantiation": "resource-specific"
-    },
-    "graph_registry": {
-      "defined": true,
-      "instantiation": "resource-specific"
-    },
-    "knowledge_mesh": {
-      "defined": true,
-      "instantiation": "resource-specific"
-    }
-  },
-
-  "resource_availability_policy": {
-    "unknown": {
-      "http_status": 404,
-      "payment_challenge": false
-    },
-    "known_incomplete": {
-      "http_status": 409,
-      "payment_challenge": false
-    },
-    "registered_complete_protected": {
-      "http_status": 402,
-      "payment_challenge": true
-    }
-  },
-
   "retrieval_architecture": [
-    "State Awareness",
+    "State Validation",
     "Discovery",
-    "Registry or Resolution",
-    "Resource Selection",
-    "Availability Check",
-    "Public Retrieval or Protected x402 Flow"
+    "Registry",
+    "Resolution",
+    "Knowledge Mesh Traversal",
+    "Conditional Retrieval",
+    "Settlement"
   ],
-
-  "public_control_plane": {
-    "status": "live",
-    "endpoints": [
-      "/api/v2/naturepedia/index.md",
-      "/api/v2/plates/registry.md",
-      "/api/v2/rrip/resolve",
-      "/api/v2/razor/state-token"
-    ],
-    "interpretation": "Public control-plane endpoints are distinct from protected commercial resources."
+  "commercial_layers": {
+    "commercial_data_license": {
+      "purpose": "Knowledge assets and commercial intelligence rights"
+    },
+    "framework_license": {
+      "purpose": "Framework architecture and implementation rights"
+    },
+    "x402": {
+      "purpose": "Machine retrieval access and settlement layer"
+    }
   },
-
-  "rrip": {
-    "principle": "Recursive Registry Inheritance Principle",
-    "canonical_relationship": "MRD v2.0 §12.8",
-    "status": "active-framework-and-resolution-layer",
-    "higher_order_layers": "resource-specific",
-    "interpretation": "RRIP resolution does not imply that every Plate has an instantiated Graph Registry or Knowledge Mesh."
-  },
-
   "payment_state": {
+    "currency_mode": "REAL",
     "payment_protocol": "x402",
-    "production_status": "live",
     "settlement_asset": "USDC",
     "settlement_network": "eip155:8453",
-    "network_name": "Base",
-    "pricing_manifest": "https://www.robbiegeorgephotography.com/.well-known/x402-pricing.json",
+    "facilitator": "coinbase",
     "pricing_manifest_version": "3.0.0",
-
-    "pricing_classes": {
-      "discovery": {
-        "price_usdc": "0",
-        "status": "public-where-exposed"
+    "pricing_effective_date": "2026-08-17",
+    "pricing_schedule": {
+      "free_discovery": {
+        "price_usdc": "0.00",
+        "atomic_units": "0",
+        "access_class": "discovery",
+        "route_status": "active",
+        "purpose": "Metadata, endpoint descriptions, previews, health, licensing signals, and public discovery."
       },
-      "atomic": {
+      "atomic_query": {
         "price_usdc": "0.005",
-        "atomic_units": 5000,
-        "status": "active-for-explicitly-registered-deterministic-resources"
+        "atomic_units": "5000",
+        "access_class": "atomic",
+        "route_status": "active",
+        "active_routes": [
+          "/v1/query/atomic/robbie-george-biography-plate"
+        ],
+        "availability_policy": "Payment challenges are issued only for explicitly registered Atomic Query resources with complete deterministic payloads. Known but incomplete resources return 409 without payment. Unknown resources return 404 without payment.",
+        "purpose": "One narrowly bounded canonical fact, identifier resolution, routing result, or compact canonical answer."
       },
-      "enriched": {
+      "enriched_query": {
         "price_usdc": "0.025",
-        "atomic_units": 25000,
-        "status": "reserved"
+        "atomic_units": "25000",
+        "access_class": "enriched",
+        "route_status": "active",
+        "route_template": "/v1/query/enriched/{resource}",
+        "active_routes": [
+          "/v1/query/enriched/robbie-george-biography-plate"
+        ],
+        "availability_policy": "Payment challenges are issued only for explicitly registered Enriched Query resources with complete governed deterministic payloads. Known but incomplete Enriched resources return 409 without payment. Unknown Enriched resources return 404 without payment.",
+        "purpose": "One modest relationship-aware response containing explicitly bounded canonical relationships, provenance, authority references, or related enrichment."
       },
-      "single_plate": {
+      "structured_plate": {
         "price_usdc": "0.25",
-        "atomic_units": 250000,
-        "status": "active-for-explicitly-registered-and-validated-resources"
+        "atomic_units": "250000",
+        "access_class": "single-plate",
+        "route_status": "active",
+        "route_template": "/v1/plates/item/{plate-id}",
+        "active_routes": [
+          "/v1/plates/item/commercial-data-license-plate",
+          "/v1/plates/item/commercial-intelligence-pricing-plate",
+          "/v1/plates/item/robbie-george-biography-plate"
+        ],
+        "availability_policy": "Payment challenges are issued only for Plates with registered and successfully validated complete structured payload sources. Known Plates without a complete registered payload return 409 without payment. Unknown Plate identifiers return 404 without payment.",
+        "purpose": "One complete registered and validated structured Plate™ payload."
       },
-      "subtree": {
+      "bounded_subtree": {
         "price_usdc": "5.00",
-        "atomic_units": 5000000,
-        "status": "pricing-class-defined-resource-specific"
+        "atomic_units": "5000000",
+        "access_class": "subtree",
+        "route_status": "active",
+        "purpose": "One bounded taxonomy subtree, registry, or System Map retrieval."
       },
-      "snapshot": {
+      "registry_snapshot": {
         "price_usdc": "25.00",
-        "atomic_units": 25000000,
-        "status": "pricing-class-defined-resource-specific"
+        "atomic_units": "25000000",
+        "access_class": "snapshot",
+        "route_status": "active",
+        "purpose": "One complete registry snapshot, expanded registry, Knowledge Mesh, RRIP resource, or sovereign state payload."
       }
     },
-
-    "historical_settlement_capability": "verified",
-    "historical_protected_delivery_capability": "verified",
-
-    "interpretation": "A pricing class, route family, or prior settlement does not imply that every syntactically valid resource is active or settlement-tested."
+    "retrieval_rights_only": true,
+    "commercial_reuse_requires_separate_license": true,
+    "commercial_data_license": "https://www.robbiegeorgephotography.com/commercial-data-license",
+    "framework_license": "https://www.robbiegeorgephotography.com/robbies-razor-framework-licensing",
+    "live_settlement_enabled": true,
+    "request_binding_required": true,
+    "replay_protection": true
   },
-
-  "commercial_boundaries": {
-    "x402_retrieval_access": "one identified protected endpoint retrieval under applicable terms",
-    "commercial_data_license": "separate rights layer",
-    "framework_license": "separate framework implementation rights layer",
-    "training_embedding_redistribution_rights": "not_granted_by_x402_retrieval_alone"
+  "machine_endpoints": {
+    "discovery": "/api/v2/naturepedia/index.md",
+    "registry": "/api/v2/plates/registry.md",
+    "rrip_resolution": "/api/v2/rrip/resolve",
+    "state_validation": "/api/v2/razor/state-token"
   },
-
-  "canonical_resources": {
-    "json_ld_registry": "docs/examples/json-ld/canonical-plate-registry.json",
+  "canonical_registries": {
+    "canonical_json_ld_registry": "docs/examples/json-ld/canonical-plate-registry.json",
+    "secondary_json_ld_registry": "docs/examples/json-ld/plate-registry.json",
     "llms": "https://www.robbiegeorgephotography.com/llms.txt",
-    "llms_full": "https://www.robbiegeorgephotography.com/llms-full.txt",
-    "pricing_manifest": "https://www.robbiegeorgephotography.com/.well-known/x402-pricing.json"
+    "llms_full": "https://www.robbiegeorgephotography.com/llms-full.txt"
   },
-
-  "system_status": {
-    "naturepedia": "active",
-    "canonical_plate_registry": "active",
-    "public_v2_control_plane": "live",
-    "x402_production_gateway": "live",
-    "graph_registry_resources": "resource-specific",
-    "knowledge_mesh_resources": "resource-specific"
+  "attribution": {
+    "required": true,
+    "creator": "Robbie George",
+    "website": "https://www.robbiegeorgephotography.com"
   },
-
-  "interpretation_boundaries": {
-    "registry_inclusion_does_not_imply_payment": true,
-    "registry_inclusion_does_not_imply_empirical_validation": true,
-    "plate_existence_does_not_imply_protected_payload": true,
-    "route_pattern_does_not_imply_resource_existence": true,
-    "higher_order_resource_layers_require_explicit_registration": true,
-    "state_signature_does_not_imply_truth": true,
-    "payment_does_not_imply_canonical_authority": true,
-    "successful_retrieval_does_not_imply_independent_confirmation": true
-  },
-
   "status": "active"
 }

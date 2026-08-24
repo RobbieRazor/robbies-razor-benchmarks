@@ -904,7 +904,7 @@ Current retrieval classes:
 
 - Free discovery and previews: $0.00 USDC — active for public discovery resources
 - Atomic canonical query: $0.005 USDC / 5000 atomic units — active only for explicitly registered deterministic payloads
-- Enriched relationship query: $0.025 USDC / 25000 atomic units — reserved
+- Enriched relationship query: $0.025 USDC / 25000 atomic units — active for the explicitly registered Biography Enriched Query
 - Structured Plate™ retrieval: $0.25 USDC / 250000 atomic units — active only for explicitly registered and validated protected Plate payloads
 - Bounded subtree, Registry, or System Map: $5.00 USDC / 5000000 atomic units — pricing class defined; availability is resource-specific
 - Full registry or Knowledge Mesh snapshot: $25.00 USDC / 25000000 atomic units — pricing class defined; availability is resource-specific
@@ -1041,16 +1041,16 @@ Agents MUST NOT interpret the successful Atomic `402` challenge test as proof th
 
 ## Enriched Query Availability
 
-The Enriched Query class remains reserved.
+The Enriched Query class is active only for explicitly registered, governed, deterministic payloads. The currently registered production route is `/v1/query/enriched/robbie-george-biography-plate`.
 
 Current configuration:
 
     Price: 0.025 USDC
     Atomic units: 25000
     Access class: enriched
-    Route status: reserved
+    Route status: active for the registered Biography Enriched Query
 
-Agents MUST NOT initiate or represent Enriched Query retrieval as active until an explicitly registered production resource declares that class available.
+Agents MUST NOT initiate or represent another Enriched Query retrieval as active until an explicitly registered production resource declares that specific payload available.
 
 A configured price does not by itself establish resource availability.
 

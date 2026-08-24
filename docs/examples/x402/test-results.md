@@ -340,7 +340,7 @@ Current pricing authority:
 |---|---:|---:|---|
 | Discovery / previews | Free | `0` | Public where exposed |
 | Atomic canonical query | `$0.005 USDC` | `5000` | Active only for explicitly registered deterministic payloads |
-| Enriched relationship query | `$0.025 USDC` | `25000` | Reserved |
+| Enriched relationship query | `$0.025 USDC` | `25000` | Biography Enriched Query challenge verified; other resources require explicit registration |
 | Structured Plate™ payload | `$0.25 USDC` | `250000` | Active only for registered and validated payloads |
 | Bounded subtree / Registry / System Map class | `$5.00 USDC` | `5000000` | Pricing class defined; specific resources require explicit availability |
 | Full Registry / Knowledge Mesh snapshot class | `$25.00 USDC` | `25000000` | Pricing class defined; specific resources require explicit availability |
@@ -571,7 +571,8 @@ This is one of the strongest current production safety validations in the x402 a
 
 ---
 
-# 19. Enriched Query
+# 19. Historical Enriched Query State
+## 2026-08-20
 
 Current price class:
 
@@ -580,13 +581,13 @@ Current price class:
 25000 atomic units
 ```
 
-Current production state:
+State observed during the August 20 validation:
 
 ```text
 RESERVED
 ```
 
-The Enriched Query class must not be treated as active merely because:
+At that time, the Enriched Query class could not be treated as active merely because:
 
 - a route template exists;
 - a pricing variable exists;
@@ -996,7 +997,8 @@ Geology Knowledge Mesh:
 ```
 
 ```text
-Enriched Query remains reserved.
+Enriched Biography Query:
+402 / 25000 / enriched — verified on 2026-08-24.
 ```
 
 ---
@@ -1054,7 +1056,7 @@ Atomic class
 
 ```text
 Enriched class
-→ reserved
+→ active for the explicitly registered Biography Enriched Query
 ```
 
 ```text
@@ -1306,9 +1308,9 @@ A missing settlement or delivery test must remain explicitly marked as untested.
 
 ---
 
-# 47. Enriched Activation Requirement
+# 47. Historical Enriched Activation Requirement
 
-If Enriched Query is activated later, this document should add a new dated record rather than rewriting the earlier reserved state.
+The August 20 record required any later Enriched Query activation to add a new dated record rather than rewriting the earlier reserved state.
 
 The new record should include at minimum:
 
@@ -1326,6 +1328,67 @@ delivery status
 ```
 
 Historical reserved records should remain in Git history.
+
+---
+
+# 47A. Enriched Production Activation
+## 2026-08-24
+
+Registered production route:
+
+```text
+/v1/query/enriched/robbie-george-biography-plate
+```
+
+Configuration:
+
+```text
+Access class: enriched
+Price: 0.025 USDC
+Atomic units: 25000
+Resource class: enriched-query
+Schema: naturepedia.enriched-query.v1
+```
+
+Observed challenge behavior:
+
+```text
+STATUS: 402
+AMOUNT: 25000
+TIER: enriched
+PAYMENT REQUIRED: true
+```
+
+Unknown Enriched identifier behavior:
+
+```text
+STATUS: 404
+PAYMENT REQUIRED: false
+```
+
+Validation boundary:
+
+```text
+payment supplied: no
+settlement attempted: no
+protected Enriched payload delivery tested: no
+```
+
+Result:
+
+```text
+PASS
+```
+
+Interpretation:
+
+```text
+Biography Enriched Query challenge verified
+≠
+every Enriched resource active
+```
+
+Only explicitly registered, governed, deterministic Enriched payloads are payment-eligible.
 
 ---
 
@@ -1469,7 +1532,9 @@ New settlement in regression round: not performed
 ENRICHED QUERY
 Price: 0.025 USDC
 Units: 25000
-Status: RESERVED
+Status: ACTIVE FOR THE REGISTERED BIOGRAPHY ENRICHED QUERY
+Challenge: 402 / 25000 / enriched verified on 2026-08-24
+Settlement in activation round: not performed
 ```
 
 ---

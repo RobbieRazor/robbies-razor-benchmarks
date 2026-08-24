@@ -990,7 +990,7 @@ Current classes:
 |---|---:|---:|---|
 | Public discovery / previews | Free | `0` | Public |
 | Atomic canonical query | `$0.005 USDC` | `5000` | Active only for explicitly registered deterministic resources |
-| Enriched relationship query | `$0.025 USDC` | `25000` | Reserved |
+| Enriched relationship query | `$0.025 USDC` | `25000` | Active for the explicitly registered Biography Enriched Query |
 | Structured Plate™ payload | `$0.25 USDC` | `250000` | Active only for registered and validated resources |
 | Bounded subtree / registry / System Map | `$5.00 USDC` | `5000000` | Governed protected class; resource-specific availability required |
 | Full registry / Knowledge Mesh snapshot | `$25.00 USDC` | `25000000` | Governed protected class; resource-specific availability required |
@@ -1251,7 +1251,7 @@ version 3.0.0
 Enriched Query:
 
 ```text
-Reserved
+Active for the explicitly registered Biography Enriched Query
 ```
 
 Historical preprints and frozen artifacts:

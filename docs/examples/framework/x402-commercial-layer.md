@@ -233,7 +233,7 @@ A repository document must not create a second independent pricing authority.
 |---|---:|---:|---|
 | Public discovery / previews | Free | `0` | Public where exposed |
 | Atomic canonical query | `$0.005 USDC` | `5000` | Active only for explicitly registered deterministic resources |
-| Enriched relationship query | `$0.025 USDC` | `25000` | Reserved |
+| Enriched relationship query | `$0.025 USDC` | `25000` | Active for the explicitly registered Biography Enriched Query |
 | Structured Plate™ payload | `$0.25 USDC` | `250000` | Active only for explicitly registered and validated Plate payloads |
 | Bounded subtree / Registry / System Map class | `$5.00 USDC` | `5000000` | Pricing class defined; individual resource availability is registration-specific |
 | Full Registry / Knowledge Mesh snapshot class | `$25.00 USDC` | `25000000` | Pricing class defined; individual resource availability is registration-specific |
@@ -435,17 +435,17 @@ Current pricing:
 Current state:
 
 ```text
-RESERVED
+ACTIVE FOR THE REGISTERED BIOGRAPHY ENRICHED QUERY
 ```
 
-A published price does not activate an Enriched resource.
+A published price does not activate every Enriched resource. Activation remains resource-specific.
 
 Required rule:
 
 ```text
-Enriched pricing class exists
+Enriched pricing class and one registered resource exist
 ≠
-Enriched product exists
+every possible Enriched product exists
 ```
 
 Activation requires:
@@ -1402,15 +1402,15 @@ eligible 402
 
 ---
 
-# 51. Enriched Activation Checklist
+# 51. Enriched Resource Activation Checklist
 
-Enriched currently remains:
+Enriched currently is:
 
 ```text
-RESERVED
+ACTIVE FOR THE REGISTERED BIOGRAPHY ENRICHED QUERY
 ```
 
-Before activation:
+Before activation of any additional Enriched resource:
 
 ```text
 [ ] explicit resource exists
@@ -1453,7 +1453,7 @@ active only for explicitly registered deterministic resources
 ENRICHED
 0.025 USDC
 25000 atomic units
-RESERVED
+active for the registered Biography Enriched Query
 
 STRUCTURED PLATE
 0.25 USDC

@@ -7,8 +7,8 @@
   "headline": "Commercial Intelligence Pricing Plate™ — Deterministic x402 Retrieval Pricing for Naturepedia™, Robbie’s Razor™, Grand Compression, and Plate™ Systems",
   "url": "https://www.robbiegeorgephotography.com/commercial-data-license",
   "version": "3.0.0",
-  "dateModified": "2026-08-20",
-  "description": "A machine-readable pricing and rights-boundary Plate defining deterministic x402 retrieval prices for Naturepedia discovery, active Atomic Queries, reserved Enriched Queries, Structured Plates, bounded registries, System Maps, Knowledge Meshes, and full registry snapshots. Retrieval payments remain separate from commercial data reuse and framework implementation rights.",
+  "dateModified": "2026-08-24",
+  "description": "A machine-readable pricing and rights-boundary Plate defining deterministic x402 retrieval prices for Naturepedia discovery, active registered Atomic and Enriched Queries, Structured Plates, bounded registries, System Maps, Knowledge Meshes, and full registry snapshots. Retrieval payments remain separate from commercial data reuse and framework implementation rights.",
   "creator": {
     "@type": "Person",
     "name": "Robbie George",
@@ -74,8 +74,9 @@
         "name": "Enriched Relationship Query",
         "price": "0.025",
         "priceCurrency": "USD",
-        "availability": "https://schema.org/PreOrder",
-        "description": "Reserved x402 tier priced at 0.025 USDC on Base for multiple relationships, citations, provenance, or modest enrichment. This class remains unavailable for payment challenges until governed deterministic Enriched Query payloads are explicitly registered and production validated.",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.robbiegeorgephotography.com/v1/query/enriched/robbie-george-biography-plate",
+        "description": "Active x402 tier priced at 0.025 USDC on Base for one bounded relationship-aware response. Availability is limited to explicitly registered, governed, deterministic Enriched Query payloads; the Robbie George Biography Plate Enriched Query is the current registered production route.",
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -90,7 +91,17 @@
           {
             "@type": "PropertyValue",
             "name": "route status",
-            "value": "reserved"
+            "value": "active for the registered Biography Enriched Query"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "resource class",
+            "value": "enriched-query"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "schema version",
+            "value": "naturepedia.enriched-query.v1"
           }
         ]
       },
@@ -181,8 +192,8 @@
     },
     {
       "@type": "Thing",
-      "name": "Enriched Query Reservation",
-      "description": "The Enriched Query class remains reserved at 0.025 USDC or 25000 USDC atomic units and must not issue payment challenges until governed deterministic payloads are registered and available."
+      "name": "Enriched Query Production Activation",
+      "description": "The Enriched Query class is active at 0.025 USDC or 25000 USDC atomic units only for explicitly registered governed deterministic payloads. The production Robbie George Biography Plate Enriched Query has been verified to return HTTP 402 with amount 25000 and gateway tier enriched."
     }
   ],
   "usageInfo": "An x402 payment grants one endpoint-level retrieval only. It does not grant training, embedding, bulk ingestion, redistribution, resale, synchronization, private-dataset construction, derivative-dataset creation, commercial implementation, or framework-implementation rights.",

@@ -618,7 +618,7 @@ Repository documentation should defer to this manifest when a pricing conflict o
 |---|---:|---:|---|
 | Discovery / previews | Free | `0` | Public where exposed |
 | Atomic canonical query | `$0.005` | `5000` | Active only for registered deterministic payloads |
-| Enriched relationship query | `$0.025` | `25000` | **Reserved** |
+| Enriched relationship query | `$0.025` | `25000` | Active for the explicitly registered Biography Enriched Query |
 | Structured Plate™ payload | `$0.25` | `250000` | Active only for registered and validated Plate payloads |
 | Bounded subtree / Registry / System Map class | `$5.00` | `5000000` | Pricing class defined; resource availability is registration-specific |
 | Full Registry / Knowledge Mesh snapshot class | `$25.00` | `25000000` | Pricing class defined; resource availability is registration-specific |
@@ -754,7 +754,7 @@ Price class:
 Current production state:
 
 ```text
-RESERVED
+ACTIVE FOR ONE EXPLICITLY REGISTERED RESOURCE
 ```
 
 The existence of:
@@ -763,13 +763,13 @@ The existence of:
 X402_ENRICHED_PRICE=25000
 ```
 
-or a route template does not activate a sellable Enriched resource.
+or a route template does not activate every possible Enriched resource.
 
 ---
 
-# 28. Enriched Activation Requirement
+# 28. Enriched Resource Registration Requirement
 
-Before any Enriched resource becomes payment-eligible, it should have:
+Before an Enriched resource becomes payment-eligible, it should have:
 
 ```text
 canonical identifier
@@ -784,32 +784,37 @@ fidelity requirements
 rights notice
 ```
 
-Until that activation is completed and reflected in the current production record:
+For the currently registered Biography Enriched Query, that activation is reflected in the production record:
 
 ```text
-Enriched Query
-→ reserved
-→ no payment challenge
+/v1/query/enriched/robbie-george-biography-plate
+→ 402
+→ 25000
+→ enriched
 ```
 
 ---
 
-# 29. Remove Stale Enriched-Active Claims
+# 29. Prevent Blanket Enriched-Availability Claims
 
-Do not describe the current Enriched class as:
+Do not describe the entire Enriched route family as:
 
 ```text
 active
-verified 402
-control-plane synchronized
+universally registered
+blanket payment-eligible
 ```
 
-unless those states are re-established through a newer production validation record.
+The active state belongs only to explicitly registered and validated resources.
 
 The current live-endpoint record governs:
 
 ```text
-Enriched Query class remains reserved
+Biography Enriched Query
+→ challenge verified
+
+unregistered Enriched resource
+→ not payment-eligible
 ```
 
 ---
@@ -1464,9 +1469,9 @@ Settlement and post-settlement delivery may be tested and recorded separately.
 
 ---
 
-# 57. Enriched Re-Activation Checklist
+# 57. Enriched Activation Synchronization Checklist
 
-If Enriched Query is activated in the future, update all relevant production records together:
+When an Enriched Query resource is activated, update all relevant production records together. This checklist was applied to the Biography Enriched Query and remains required for any later Enriched resource:
 
 ```text
 [ ] pricing manifest status
@@ -1638,7 +1643,7 @@ active for explicitly registered deterministic resources
 Enriched Query:
 0.025 USDC
 25000 atomic units
-RESERVED
+active for the registered Biography Enriched Query
 
 Structured Plate:
 0.25 USDC

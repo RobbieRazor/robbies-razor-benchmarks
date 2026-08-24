@@ -53,7 +53,6 @@ type AccessClass =
 
 type PricingClassStatus =
   | "active"
-  | "reserved"
   | "pricing-class-defined";
 
 type ResourceState =
@@ -68,8 +67,7 @@ type PricingTier = {
   classStatus: PricingClassStatus;
   availabilityMode:
     | "public"
-    | "explicit-registration-required"
-    | "reserved";
+    | "explicit-registration-required";
   description: string;
 };
 
@@ -136,10 +134,10 @@ const PRICING: Record<AccessClass, PricingTier> = {
     priceUSDC: "0.025",
     atomicUnits: "25000",
     currency: "USDC",
-    classStatus: "reserved",
-    availabilityMode: "reserved",
+    classStatus: "active",
+    availabilityMode: "explicit-registration-required",
     description:
-      "Multiple relationships, citations, provenance, or modest enrichment. The class is reserved and must not issue payment challenges until governed payloads are explicitly registered and production validated."
+      "Multiple relationships, citations, provenance, or modest enrichment. Only explicitly registered, governed, deterministic payloads are payment-eligible."
   },
 
   "single-plate": {
@@ -207,6 +205,29 @@ const PROTECTED_RESOURCES: ResourceRecord[] = [
       status: 402,
       amountAtomicUnits: "5000",
       gatewayTier: "atomic",
+      paymentRequired: true,
+      settlementTestedInThisValidation: false,
+      protectedPayloadDeliveryTestedInThisValidation: false,
+      result: "PASS"
+    }
+  },
+
+  {
+    id: "robbie-george-biography-enriched-query",
+    canonicalAuthority:
+      "https://www.robbiegeorgephotography.com/who-is-robbie-george",
+    accessClass: "enriched",
+    state: "registered-complete",
+    schemaVersion: "naturepedia.enriched-query.v1",
+    paths: [
+      "/v1/query/enriched/robbie-george-biography-plate",
+      "/x402/query/enriched/robbie-george-biography-plate"
+    ],
+    productionChallengeValidation: {
+      date: "2026-08-24",
+      status: 402,
+      amountAtomicUnits: "25000",
+      gatewayTier: "enriched",
       paymentRequired: true,
       settlementTestedInThisValidation: false,
       protectedPayloadDeliveryTestedInThisValidation: false,
@@ -312,12 +333,12 @@ const PUBLIC_CONTROL_PLANE = new Set([
 ]);
 
 /**
- * Reserved route families.
+ * Protected route families.
  *
- * A published route family and published price do not make a protected
- * resource active.
+ * A published route family and published price do not make every resource
+ * in that family active.
  */
-function isReservedEnrichedPath(pathname: string): boolean {
+function isEnrichedFamily(pathname: string): boolean {
   return (
     pathname.startsWith("/v1/query/enriched/") ||
     pathname.startsWith("/x402/query/enriched/")
@@ -413,27 +434,6 @@ function incompleteResourceResponse(
   );
 }
 
-function reservedEnrichedResponse(
-  pathname: string
-): Response {
-  return jsonResponse(
-    {
-      status: "reference-only",
-      enforcement: false,
-      error: "Enriched Query class is reserved",
-      code: "ENRICHED_CLASS_RESERVED",
-      route: pathname,
-      accessClass: "enriched",
-      pricing: PRICING.enriched,
-      paymentRequired: false,
-
-      productionRule:
-        "Published Enriched pricing does not activate an Enriched resource. Payment challenges remain disabled until a governed resource is explicitly registered and production validated."
-    },
-    409
-  );
-}
-
 function registeredReferenceResponse(
   resource: ResourceRecord,
   pathname: string
@@ -519,20 +519,6 @@ export default {
     }
 
     /**
-     * Enriched is currently RESERVED.
-     *
-     * Most importantly, no route is allowed to become a payable Enriched
-     * resource merely because:
-     *
-     * X402_ENRICHED_PRICE = 25000
-     *
-     * or because its path matches the Enriched route template.
-     */
-    if (isReservedEnrichedPath(url.pathname)) {
-      return reservedEnrichedResponse(url.pathname);
-    }
-
-    /**
      * Explicit resource lookup occurs BEFORE pricing.
      */
     const resource = findProtectedResource(url.pathname);
@@ -561,6 +547,13 @@ export default {
       return unknownResourceResponse(
         url.pathname,
         "atomic"
+      );
+    }
+
+    if (isEnrichedFamily(url.pathname)) {
+      return unknownResourceResponse(
+        url.pathname,
+        "enriched"
       );
     }
 

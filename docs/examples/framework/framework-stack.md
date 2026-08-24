@@ -952,7 +952,7 @@ Atomic Query
 
 Enriched Query
 → 0.025 USDC
-→ reserved
+→ active for the explicitly registered Biography Enriched Query
 
 Structured Plate
 → 0.25 USDC

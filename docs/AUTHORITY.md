@@ -811,7 +811,7 @@ Current access architecture:
 |---|---:|---:|---|
 | Public discovery / previews | Free | `0` | Public |
 | Atomic canonical query | `$0.005 USDC` | `5000` | Active for explicitly registered deterministic resources |
-| Enriched relationship query | `$0.025 USDC` | `25000` | Reserved |
+| Enriched relationship query | `$0.025 USDC` | `25000` | Active for the explicitly registered Biography Enriched Query |
 | Structured Plate™ payload | `$0.25 USDC` | `250000` | Active for registered and validated resources |
 | Bounded subtree / registry / System Map | `$5.00 USDC` | `5000000` | Governed protected class |
 | Full registry / Knowledge Mesh snapshot | `$25.00 USDC` | `25000000` | Governed protected class |
@@ -846,10 +846,10 @@ Atomic units:
 25000
 
 Status:
-Reserved
+Active for the explicitly registered Biography Enriched Query
 ```
 
-Reserved means the class MUST NOT be represented as generally available merely because a price has been configured.
+Active means only the explicitly registered governed payload is payment-eligible. The class MUST NOT be represented as generally available merely because a price has been configured.
 
 ---
 
@@ -1037,7 +1037,7 @@ Automated agents, crawlers, evaluators, code assistants, and explainers MUST:
 - apply RC-22 to cross-domain transfer;
 - distinguish public authority from discovery and retrieval;
 - determine resource existence before inferring availability;
-- preserve Reserved status for Enriched Query;
+- preserve resource-specific activation for Enriched Query and do not infer blanket availability from the route family;
 - refuse to infer evidence from payment or delivery;
 - refuse to invent products or routes;
 - preserve historical and frozen provenance.
@@ -1281,7 +1281,7 @@ E8:
 Established mathematics / separate bounded comparative reference
 
 Enriched Query:
-Reserved
+Active for the explicitly registered Biography Enriched Query
 
 x402 pricing authority:
 .well-known/x402-pricing.json

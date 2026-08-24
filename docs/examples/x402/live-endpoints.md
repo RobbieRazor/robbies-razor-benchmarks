@@ -47,7 +47,7 @@ Atomic Query:
 ACTIVE for explicitly registered deterministic resources
 
 Enriched Query:
-RESERVED
+ACTIVE for the explicitly registered Biography Enriched Query
 
 Structured Plate™:
 ACTIVE for explicitly registered and validated resources
@@ -370,10 +370,25 @@ Current pricing:
 Current production state:
 
 ```text
-RESERVED
+ACTIVE FOR ONE EXPLICITLY REGISTERED RESOURCE
 ```
 
-No agent should infer an active Enriched resource merely because:
+Current registered production route:
+
+```text
+/v1/query/enriched/robbie-george-biography-plate
+```
+
+Verified challenge behavior:
+
+```text
+STATUS: 402
+AMOUNT: 25000
+TIER: enriched
+PAYMENT REQUIRED: true
+```
+
+No agent should infer that another Enriched resource is active merely because:
 
 - the route template exists;
 - the price is published;
@@ -382,12 +397,12 @@ No agent should infer an active Enriched resource merely because:
 Required rule:
 
 ```text
-published Enriched price
+published Enriched price or route template
 ≠
-active Enriched product
+blanket Enriched resource availability
 ```
 
-Activation requires an explicitly registered, governed, deterministic payload plus production validation.
+Activation remains resource-specific and requires an explicitly registered, governed, deterministic payload plus production validation.
 
 ---
 
@@ -552,7 +567,7 @@ every Knowledge Mesh active
 |---|---:|---:|---|
 | Discovery / previews | Free | `0` | Public where exposed |
 | Atomic canonical query | `$0.005 USDC` | `5000` | Active for explicitly registered deterministic resources |
-| Enriched relationship query | `$0.025 USDC` | `25000` | Reserved |
+| Enriched relationship query | `$0.025 USDC` | `25000` | Biography Enriched Query challenge verified; other resources require explicit registration |
 | Structured Plate™ payload | `$0.25 USDC` | `250000` | Active for explicitly registered and validated Plate resources |
 | Bounded subtree / Registry / System Map class | `$5.00 USDC` | `5000000` | Pricing class defined; Tree System Map challenge specifically verified |
 | Full Registry / Knowledge Mesh snapshot class | `$25.00 USDC` | `25000000` | Pricing class defined; Geology Knowledge Mesh challenge specifically verified |
@@ -886,7 +901,7 @@ challenge verified
 new settlement not tested in regression round
 
 Enriched:
-reserved
+Biography Enriched Query challenge verified; other resources require explicit registration
 ```
 
 ---
@@ -1040,7 +1055,9 @@ Verified
 ENRICHED QUERY
 Price: 0.025 USDC
 Units: 25000
-Status: RESERVED
+Status: ACTIVE FOR THE REGISTERED BIOGRAPHY ENRICHED QUERY
+Challenge: 402 / 25000 / enriched verified
+Settlement in activation validation: not performed
 
 STRUCTURED PLATES
 Price: 0.25 USDC
