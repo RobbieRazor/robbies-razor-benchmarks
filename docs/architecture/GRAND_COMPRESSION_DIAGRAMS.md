@@ -191,32 +191,100 @@ A study should identify the threshold, baseline, variables, expected direction, 
 
 ## 6. Recursive Knowledge Compression Architecture
 
-The primary Naturepedia implementation sequence is:
+Recursive Knowledge Compression Architecture (RKCA™) is governed by:
+
+```text
+MRD v2.0 §12.7
+```
+
+Naturepedia™ may implement RKCA-oriented structure through multiple distinct machine-resource types.
+
+Possible resource layers include:
 
 ```mermaid
-flowchart LR
-    A[Plate] --> B[Registry]
-    B --> C[System Map]
-    C --> D[Knowledge Mesh]
+flowchart TD
+    A[Plate™] --> B[Registry]
+    B -. optional when explicitly implemented .-> C[System Map]
+    B -. optional when explicitly implemented .-> D[Graph Registry™]
+    B -. optional when explicitly implemented .-> E[Knowledge Mesh]
+    C -. may participate in .-> E
+    D -. may participate in .-> E
 ```
+
+The dashed relationships indicate **possible implementation relationships**, not mandatory inheritance or automatic resource creation.
 
 ### Plate™
 
-A bounded visual and conceptual knowledge interface with stable identity and links to deeper resources.
+An authored visual, textual, or machine-readable knowledge interface with stable identity, provenance, and declared relationships appropriate to the individual resource.
 
 ### Registry
 
-A structured collection preserving identifiers, metadata, provenance, relationships, version state, and retrieval paths.
+A structured inventory or lookup layer that may preserve:
+
+- identifiers;
+- metadata;
+- provenance;
+- family membership;
+- declared relationships;
+- version state;
+- retrieval paths;
+- resource-specific access metadata.
 
 ### System Map
 
-A structured representation of relationships within a declared system boundary.
+An explicitly implemented representation of relationships within a declared system boundary.
+
+A System Map exists only where the resource has actually been authored, registered, and made available.
+
+### Graph Registry™
+
+An explicitly implemented graph-oriented registry resource.
+
+Ordinary JSON-LD relationships or registry membership do not automatically instantiate a Graph Registry™.
 
 ### Knowledge Mesh
 
-A higher-order network connecting Plates, registries, System Maps, provenance, constraints, and retrieval paths.
+An explicitly implemented higher-order resource that may connect multiple registered objects, registries, System Maps, Graph Registries, provenance records, constraints, or retrieval paths.
 
-Progression through these implementation layers does not automatically increase empirical certainty.
+A Knowledge Mesh exists only where it is explicitly implemented and registered.
+
+Required distinctions:
+
+```text
+Plate exists
+≠
+System Map exists
+```
+
+```text
+Registry exists
+≠
+Graph Registry exists
+```
+
+```text
+Registry exists
+≠
+Knowledge Mesh exists
+```
+
+```text
+resource type defined
+≠
+resource instantiated
+```
+
+```text
+relationship declared
+≠
+higher-order resource automatically created
+```
+
+Higher-order resource availability must be resolved independently.
+
+Progression through implementation layers also does not automatically increase empirical certainty.
+
+A more complex or higher-order machine resource may organize additional relationships while remaining subject to the same evidence, provenance, validation, and interpretation boundaries as its underlying sources.
 
 ---
 
