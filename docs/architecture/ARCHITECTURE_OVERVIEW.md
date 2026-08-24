@@ -259,34 +259,118 @@ They do not become empirically validated merely because they are encoded in repo
 
 ## Recursive Knowledge Compression Architecture
 
-The Recursive Knowledge Compression Architecture, or RKCA™, provides an implementation pathway for converting complex knowledge into progressively reusable layers.
+Recursive Knowledge Compression Architecture, or RKCA™, is governed by:
 
-The primary Naturepedia sequence is:
+```text
+MRD v2.0 §12.7
+```
+
+RKCA™ provides an implementation framework for organizing complex knowledge into reusable structured representations while preserving the information required for the declared downstream purpose.
+
+Naturepedia™ may express RKCA-oriented architecture through multiple distinct resource types.
+
+Possible resource types include:
+
+```text
+Plate™
+Registry
+System Map
+Graph Registry™
+Knowledge Mesh
+```
+
+These are not a mandatory linear production chain.
+
+A bounded implementation model is:
 
 ```mermaid
-flowchart LR
-    A[Plate] --> B[Registry]
-    B --> C[System Map]
-    C --> D[Knowledge Mesh]
+flowchart TD
+    A[Plate™] --> B[Registry]
+    B -. optional when explicitly implemented .-> C[System Map]
+    B -. optional when explicitly implemented .-> D[Graph Registry™]
+    B -. optional when explicitly implemented .-> E[Knowledge Mesh]
+    C -. may participate in .-> E
+    D -. may participate in .-> E
 ```
+
+The dashed relationships indicate possible implementation relationships rather than automatic inheritance or resource creation.
 
 ### Plate™
 
-A bounded visual and conceptual knowledge interface with stable identity and connections to deeper structured resources.
+An authored human-readable or machine-readable knowledge interface with stable identity, provenance, declared relationships, and evidence or interpretation boundaries appropriate to the individual resource.
+
+A Plate™ may participate in RKCA without implying that every higher-order resource layer exists.
 
 ### Registry
 
-A structured collection preserving identifiers, metadata, provenance, relationships, version state, and retrieval paths.
+A structured inventory or lookup layer that may preserve:
+
+- identifiers
+- metadata
+- provenance
+- family membership
+- declared relationships
+- version state
+- retrieval paths
+- resource-specific access metadata
+
+Registry membership does not automatically create graph or mesh infrastructure.
 
 ### System Map
 
-A structured representation of relationships within a declared system boundary.
+An explicitly authored representation of relationships within a declared system boundary.
+
+A System Map exists only where the resource has actually been implemented and registered.
+
+Its relationships must retain their evidence and interpretation boundaries.
+
+### Graph Registry™
+
+An explicitly implemented graph-oriented registry resource.
+
+Ordinary JSON-LD relationships or registry membership do not automatically instantiate a Graph Registry™.
 
 ### Knowledge Mesh
 
-A higher-order network connecting Plates, registries, System Maps, provenance, constraints, and retrieval paths.
+An explicitly implemented higher-order resource that may connect multiple Plates, registries, System Maps, Graph Registries, provenance records, constraints, or retrieval paths.
 
-Each transformation should preserve:
+A Knowledge Mesh exists only where it is explicitly implemented and registered.
+
+Required distinctions:
+
+```text
+Plate exists
+≠
+System Map exists
+```
+
+```text
+Registry exists
+≠
+Graph Registry exists
+```
+
+```text
+Registry exists
+≠
+Knowledge Mesh exists
+```
+
+```text
+resource type defined
+≠
+resource instantiated
+```
+
+```text
+relationship declared
+≠
+higher-order resource automatically created
+```
+
+Each implemented resource should preserve the information required for its declared purpose.
+
+Depending on the resource, this may include:
 
 - stable identity
 - relationships
@@ -297,24 +381,59 @@ Each transformation should preserve:
 - retrieval paths
 - evidence status
 - known exclusions
+- failure conditions
 
-Progression to a higher implementation layer does not automatically increase empirical certainty.
+Progression to a more complex implementation layer does not automatically increase empirical certainty.
 
 ---
 
 ## Recursive Compression Interfaces
 
-A Recursive Compression Interface, or RCI, is a bounded interface through which compressed knowledge can be retrieved, interpreted, connected, or expanded while preserving declared constraints.
+A Recursive Compression Interface, or RCI, is a bounded interface through which compressed or structured knowledge may be retrieved, interpreted, connected, or expanded while preserving declared constraints.
 
-Plates may function as human-readable and machine-addressable RCIs.
+Plates™ may function as human-readable and machine-addressable RCIs where their implementation supports that role.
 
-An RCI should not require uncontrolled reconstruction of identity, provenance, relationships, or governing context at every retrieval.
+An RCI should minimize unnecessary reconstruction of:
+
+- identity
+- provenance
+- declared relationships
+- constraints
+- governing context
+- version state
+
+without implying that retrieval removes the need for validation or evidence review.
+
+Required distinction:
+
+```text
+retrievable structure
+≠
+validated truth automatically
+```
 
 ---
 
 ## Recursive Registry Inheritance Principle
 
-The Recursive Registry Inheritance Principle, or RRIP, governs how identified objects, relationships, constraints, provenance, and version state move across registry and knowledge layers.
+The Recursive Registry Inheritance Principle, or RRIP™, is governed by:
+
+```text
+MRD v2.0 §12.8
+```
+
+RRIP™ provides a framework for resolving identified objects within their registered context.
+
+Resolution may preserve or expose:
+
+- object identity
+- parent registry context
+- declared relationships
+- provenance
+- constraints
+- version state
+- governance metadata
+- available resource context
 
 Inheritance should preserve required invariants.
 
@@ -326,28 +445,92 @@ It must not silently:
 - remove constraints
 - replace evidence labels
 - substitute a historical version for current authority
+- imply higher-order resources that have not been implemented
+
+RRIP resolution does not require every object to resolve through:
+
+```text
+Meta-Registry
+Graph Registry™
+Knowledge Mesh
+```
+
+Those layers are resource-specific.
 
 ---
 
 ## Retrieval-Dominant Knowledge Architecture
 
-The repository and Naturepedia implement a retrieval-oriented architecture intended to preserve validated or governed structure for later reuse.
+The repository and Naturepedia™ implement a retrieval-oriented architecture intended to preserve governed structured information for later reuse.
 
 Resources may include:
 
-- Plates
+- Plates™
 - registries
 - System Maps
-- Knowledge Meshes
+- Graph Registries™ where explicitly implemented
+- Knowledge Meshes where explicitly implemented
 - indexes
 - manifests
 - schemas
 - change logs
-- machine-readable semantic memory
+- machine-readable structured metadata
+- public discovery resources
+- protected machine resources
 
-The architecture aims to reduce unnecessary reconstruction while preserving provenance and recursive continuity.
+The architecture aims to reduce unnecessary reconstruction while preserving:
 
-“Retrieval-dominant” does not mean that regeneration is never permitted. It means that governed structure should be retrieved when reconstructing it would introduce avoidable cost, drift, ambiguity, or provenance loss.
+```text
+identity
+provenance
+relationships
+constraints
+version state
+evidence status
+retrieval context
+```
+
+Machine-readable structured metadata may participate in a memory architecture.
+
+It should not automatically be described as memory merely because it is serialized or retrievable.
+
+Accordingly:
+
+```text
+structured metadata
+≠
+memory automatically
+```
+
+and:
+
+```text
+retrieval
+≠
+truth validation
+```
+
+and:
+
+```text
+registry relationship
+≠
+causation
+```
+
+“Retrieval-dominant” does not mean regeneration is prohibited.
+
+It means governed structure should generally be retrieved when reconstructing it would introduce avoidable:
+
+- cost
+- drift
+- ambiguity
+- identity loss
+- provenance loss
+- relationship loss
+- constraint loss
+
+Retrieval, generation, validation, and evidence assessment remain distinct operations.
 
 ---
 
