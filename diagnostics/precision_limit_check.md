@@ -1163,14 +1163,49 @@ Current framework cross-links include:
 - MRD §11.6A — Boundary Avoidance
 - MRD §1.13 — Rotational Reset Symmetry
 - MRD §1.13 Addendum — Finite Representation Invariant
-- MRD §13 — Predictive Compression and Evidence Requirements
-- RC-18 — Preserved Reusable Structure
+- MRD §13 — current predictive-evaluation and evidence-governance requirements
+- RC-18 — Preserved Reusable Structure Principle
 - RC-19 — Predictive Evaluation Requirement
 - RC-20 — Compression Fitness Constraint
 - RC-21 — Reference Implementation Distinction
 - RC-22 — Domain Transfer Constraint
 
-Exact canonical wording remains governed by MRD v2.0 and the Canonical Claims Register.
+For PLC interpretation:
+
+RC-18
+→ numerical compression must preserve the structure required for valid downstream use
+
+RC-19
+→ empirical or performance claims require declared variables, scope, method, uncertainty, and failure conditions
+
+RC-20
+→ reduced representation burden must be evaluated against fidelity, utility, risk, and total system cost
+
+RC-21
+→ successful repository implementation does not independently validate PLC universally
+
+RC-22
+→ precision conclusions must not be transferred automatically across systems, workloads, hardware, or domains
+
+Required distinctions:
+
+smaller representation
+≠
+better representation automatically
+
+extra nominal precision
+≠
+unnecessary precision automatically
+
+PLC screening result
+≠
+complete numerical analysis
+
+reference implementation
+≠
+independent confirmation
+
+Exact canonical section headings and claim wording remain governed by MRD v2.0 and the Canonical Claims Register.
 
 ---
 
