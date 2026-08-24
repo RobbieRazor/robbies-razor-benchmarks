@@ -204,10 +204,18 @@
       "https://mcp.robbiegeorgephotography.com/health"
     ],
     "paidMachineRetrieval": {
-      "compactStructuredResourcesUsd": 1,
-      "registriesAndSystemMapsUsd": 5,
-      "knowledgeMeshesAndHigherOrderResourcesUsd": 25
-    }
+  "pricingVersion": "3.0.0",
+  "pricingManifest": "https://www.robbiegeorgephotography.com/.well-known/x402-pricing.json",
+  "currency": "USDC",
+  "network": "eip155:8453",
+  "atomicCanonicalQueryUsd": 0.005,
+  "enrichedRelationshipQueryUsd": 0.025,
+  "structuredPlateUsd": 0.25,
+  "registriesAndSystemMapsUsd": 5,
+  "knowledgeMeshesAndHigherOrderResourcesUsd": 25,
+  "availabilityPolicy": "Pricing and route publication do not activate every resource. Payment eligibility remains limited to explicitly registered, complete, production-ready resources.",
+  "retrievalRightsOnly": true
+}
   },
   "governance": {
     "principle": "Gr <= Es",
