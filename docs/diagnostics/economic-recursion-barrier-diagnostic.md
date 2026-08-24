@@ -474,12 +474,87 @@ Required evidence was insufficient to determine whether the barrier was crossed.
 
 ## Canonical References
 
-- MRD §11.11 — Economic Recursion Constraint
-- MRD §11.6A — Boundary Avoidance vs Recursive Compression
-- MRD §11.6C — Perishable Intelligence Asset Invariant
-- MRD §11.4.1 — Truth as Stability Under Recursion
-- MRD §13 — Predictive Compression and Evidence Requirements
-- RC-18 through RC-22
+Primary current canonical orientation:
+
+```text
+RC-03 — Constraint-Bounded Intelligence
+RC-13 — Stability Minimum
+```
+
+Relevant Grand Compression architecture includes:
+
+```text
+MRD §11.4.1 — Truth as Stability Under Recursion
+MRD §11.6A — Boundary Avoidance vs Recursive Compression
+MRD §11.6C — Perishable Intelligence Asset Invariant
+MRD §11.11 — Economic Recursion Constraint
+MRD §13 — Predictive Evaluation and Evidence Governance
+```
+
+Additional current canonical claim orientation:
+
+```text
+RC-18 — Preserved Reusable Structure Principle
+RC-19 — Predictive Evaluation Requirement
+RC-20 — Compression Fitness Constraint
+RC-21 — Reference Implementation Distinction
+RC-22 — Domain Transfer Constraint
+```
+
+For this diagnostic:
+
+```text
+RC-18
+→ preserved benefit must retain structure required for valid future use
+
+RC-19
+→ economic, predictive, comparative, and performance claims require declared evidence conditions
+
+RC-20
+→ marginal benefit must be evaluated against the complete declared burden and risk
+
+RC-21
+→ repository or Naturepedia implementation results remain distinct from independent confirmation
+
+RC-22
+→ barrier behavior must not be transferred automatically across domains or scales
+```
+
+Required distinctions:
+
+```text
+Economic Recursion Barrier review signal
+≠
+economic instability established
+```
+
+```text
+rising marginal burden
+≠
+Boundary Avoidance automatically
+```
+
+```text
+barrier signal
+≠
+Perishable Intelligence Asset automatically
+```
+
+```text
+reference-implementation result
+≠
+independent economic or empirical confirmation
+```
+
+```text
+similar marginal-cost behavior across domains
+≠
+shared causal mechanism
+```
+
+This diagnostic operationalizes a bounded evaluation surface.
+
+It does not redefine the governing canonical claims.
 
 ---
 
