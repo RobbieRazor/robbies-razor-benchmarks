@@ -312,11 +312,17 @@ Canonical orientation: MRD v2.0 §11.4.5.
 
 ---
 
-## Constraint-Bounded Recursive Intelligence
+## Constraint-Bounded Intelligence
 
-A Grand Compression framework concept modeling implemented recursive intelligence as operating within finite physical, informational, computational, and governance constraints.
+A Grand Compression framework concept describing intelligence as operating within declared constraints rather than independently of the physical, informational, computational, economic, governance, and operational conditions that support it.
 
-Relevant constraints may include:
+Canonical orientation:
+
+```text
+RC-03 — Constraint-Bounded Intelligence
+```
+
+Relevant constraints may include, depending on the evaluated system:
 
 - energy;
 - compute;
@@ -328,22 +334,58 @@ Relevant constraints may include:
 - materials;
 - networking;
 - correction capacity;
-- governance bandwidth.
+- governance bandwidth;
+- economic resources;
+- operational limits.
 
-The framework may express substrate alignment as:
+Recursive intelligence is one important implementation context for this claim, but the canonical claim name is:
+
+```text
+Constraint-Bounded Intelligence
+```
+
+not:
+
+```text
+Constraint-Bounded Recursive Intelligence
+```
+
+A system-specific application must declare which constraints are actually relevant and measured.
+
+The framework may use candidate relations such as:
 
 ```text
 Gᵣ ≤ Eₛ
 ```
 
-Where:
+where:
 
-- **Gᵣ** = recursive gain per iteration;
-- **Eₛ** = substrate expansion capacity.
+- **Gᵣ** = a declared recursive-gain quantity;
+- **Eₛ** = a declared substrate-expansion-capacity quantity.
 
-This is a framework-level architectural relation.
+Such relations require explicit operational definitions, compatible units where quantitative comparison is intended, system boundaries, measurement procedures, uncertainty, and failure conditions.
 
-It is not automatically a dimensionally complete or universally validated physical law.
+Required distinctions:
+
+```text
+canonical framework relation
+≠
+universally validated physical law
+```
+
+```text
+constraint identified
+≠
+constraint shown to be binding
+```
+
+```text
+recursive implementation
+≠
+complete definition of RC-03
+```
+
+The complete canonical wording and scope remain governed by MRD v2.0 and the Canonical Claims Register.
 
 ---
 
