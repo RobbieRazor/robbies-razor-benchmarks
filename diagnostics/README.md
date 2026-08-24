@@ -48,14 +48,32 @@ MRD v1.9 remains part of the framework’s historical provenance but is not the 
 
 Diagnostic interpretation is associated primarily with:
 
-- MRD §11 — Meta-Recursion Architecture
-- MRD §12 — Structural Intelligence Engineering
-- MRD §13 — Predictive Compression, Evidence, and Boundary Requirements
-- RC-18 — Preserved Reusable Structure
-- RC-19 — Predictive and Empirical Claim Requirements
-- RC-20 — Compression Evaluation
-- RC-21 — Reference-Implementation Boundary
-- RC-22 — Cross-Domain Transfer Boundary
+```text
+MRD §11 — Meta-Recursion Architecture
+MRD §12 — Structural Intelligence Engineering
+MRD §13 — Predictive Evaluation and Evidence Governance
+```
+
+Primary current canonical claim orientation includes:
+
+```text
+RC-03 — Constraint-Bounded Intelligence
+RC-13 — Stability Minimum
+```
+
+RC-03 provides the framework-level orientation for evaluating recursive systems under declared constraints.
+
+RC-13 provides the current Stability Minimum orientation.
+
+Additional governing claims include:
+
+```text
+RC-18 — Preserved Reusable Structure Principle
+RC-19 — Predictive Evaluation Requirement
+RC-20 — Compression Fitness Constraint
+RC-21 — Reference Implementation Distinction
+RC-22 — Domain Transfer Constraint
+```
 
 Relevant diagnostic concepts may include:
 
@@ -71,6 +89,42 @@ Relevant diagnostic concepts may include:
 - provenance loss
 - retrieval drift
 - correction-demand growth
+
+These diagnostics may operationalize or investigate bounded aspects of the framework.
+
+They do not redefine the canonical claims from which they are derived.
+
+Required distinctions:
+
+```text
+diagnostic signal
+≠
+canonical claim
+```
+
+```text
+diagnostic result
+≠
+empirical validation of the framework
+```
+
+```text
+observed instability
+≠
+root cause established automatically
+```
+
+```text
+reference-implementation result
+≠
+independent confirmation
+```
+
+```text
+similar diagnostic behavior across domains
+≠
+shared causal mechanism
+```
 
 ---
 
