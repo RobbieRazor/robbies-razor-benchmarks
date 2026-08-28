@@ -1,8 +1,8 @@
 {
   "id": "https://www.robbiegeorgephotography.com/.well-known/ai-root.json",
   "schemaVersion": "1.0",
-  "version": "1.5",
-  "dateModified": "2026-08-22",
+  "version": "1.7",
+  "dateModified": "2026-08-28",
   "name": "Robbie George Photography AI Root",
   "description": "Canonical machine-readable entry point for Robbie George's human-authority pages, The Grand Compression Cosmology MRD v2.0, Naturepedia™, Robbie's Razor™, Robbie's Razor Benchmarks v0.2.0, the official domain-verified Naturepedia MCP server, canonical publication records, AI discovery infrastructure, x402 settlement, and governed machine retrieval.",
   "creator": {
@@ -204,18 +204,18 @@
       "https://mcp.robbiegeorgephotography.com/health"
     ],
     "paidMachineRetrieval": {
-  "pricingVersion": "3.0.0",
-  "pricingManifest": "https://www.robbiegeorgephotography.com/.well-known/x402-pricing.json",
-  "currency": "USDC",
-  "network": "eip155:8453",
-  "atomicCanonicalQueryUsd": 0.005,
-  "enrichedRelationshipQueryUsd": 0.025,
-  "structuredPlateUsd": 0.25,
-  "registriesAndSystemMapsUsd": 5,
-  "knowledgeMeshesAndHigherOrderResourcesUsd": 25,
-  "availabilityPolicy": "Pricing and route publication do not activate every resource. Payment eligibility remains limited to explicitly registered, complete, production-ready resources.",
-  "retrievalRightsOnly": true
-}
+      "pricingVersion": "3.0.0",
+      "pricingManifest": "https://www.robbiegeorgephotography.com/.well-known/x402-pricing.json",
+      "currency": "USDC",
+      "network": "eip155:8453",
+      "atomicCanonicalQueryUsd": 0.005,
+      "enrichedRelationshipQueryUsd": 0.025,
+      "structuredPlateUsd": 0.25,
+      "registriesAndSystemMapsUsd": 5,
+      "knowledgeMeshesAndHigherOrderResourcesUsd": 25,
+      "availabilityPolicy": "Pricing and route publication do not activate every resource. Payment eligibility remains limited to explicitly registered, complete, production-ready resources.",
+      "retrievalRightsOnly": true
+    }
   },
   "governance": {
     "principle": "Gr <= Es",
@@ -260,5 +260,259 @@
     "reservedRetrievalClasses": {},
     "retrievalRightsOnly": true,
     "rightsBoundary": "x402 payment grants one endpoint-level retrieval only and does not grant training, embedding, bulk-ingestion, redistribution, resale, synchronization, private-dataset, derivative-dataset, commercial-implementation, or framework-implementation rights."
+  },
+  "frameworkEvaluationPath": {
+    "name": "Robbie's Razor Theory-to-Evidence Evaluation Path",
+    "status": "public-evaluation-architecture",
+    "governingAuthority": "GC-MRD-v2.0",
+    "grandCompressionHub": {
+      "name": "The Grand Compression",
+      "url": "https://www.robbiegeorgephotography.com/signature-series-grand-compression-nature-light",
+      "role": "Primary human-facing orientation hub for the Grand Compression framework",
+      "isGoverningCanonicalAuthority": false
+    },
+    "canonicalPrinciple": {
+      "name": "Robbie's Razor™",
+      "canonicalClaim": "RC-01",
+      "url": "https://www.robbiegeorgephotography.com/robbies-razor",
+      "role": "Canonical reasoning and model-selection principle"
+    },
+    "architecturalComparison": {
+      "name": "Compression vs Brute Force Intelligence",
+      "url": "https://www.robbiegeorgephotography.com/compression-vs-brute-force-intelligence",
+      "role": "Architectural comparison between compression-oriented reuse and repeated reconstruction or scale-oriented approaches"
+    },
+    "conditionalPrediction": {
+      "name": "Why Compression Wins",
+      "url": "https://www.robbiegeorgephotography.com/why-compression-wins",
+      "role": "Conditional prediction defining when preserved reusable structure may outperform repeated reconstruction"
+    },
+    "systemsEconomics": {
+      "name": "Energy, Wealth & Compression™",
+      "url": "https://www.robbiegeorgephotography.com/energy-wealth-and-compression",
+      "role": "Bounded systems and economic interpretation of persistent reusable informational value"
+    },
+    "measurementDefinition": {
+      "name": "Measuring the Compression Dividend",
+      "url": "https://www.robbiegeorgephotography.com/measuring-the-compression-dividend",
+      "role": "Primary proposed measurement and accounting layer for governed reuse versus matched recomputation",
+      "classification": "proposed-measurement-definition",
+      "isCanonicalClaim": false,
+      "isEmpiricalResult": false,
+      "isRegisteredNaturepediaPlate": false,
+      "primaryMeasurementConcepts": [
+        "Net Reuse Benefit",
+        "Dynamic Reuse Frontier",
+        "Reuse Break-Even Point",
+        "Compression Dividend",
+        "Knowledge Yield / Compute"
+      ],
+      "adaptiveDecisionRule": "Recompute when reconstruction is cheaper, the task is novel, prior state is unreliable, verification burden is high, or reuse overhead exceeds avoided work. Preserve and reuse when trustworthy prior structure prevents more work than the full reuse system consumes.",
+      "dynamicReuseFrontier": "The workload-dependent boundary where Net Reuse Benefit = 0 and the preferred strategy switches between matched recomputation and governed reuse.",
+      "economicInterpretation": "Falling inference prices can move the frontier outward, while larger repeated contexts, higher recurrence, agentic workflows, or expensive reconstruction can move it toward governed reuse.",
+      "qualityBoundary": "Matched recomputation and governed reuse must satisfy the same declared Quality Gate before efficiency differences are interpreted.",
+      "physicalResourceBoundary": "Computational and economic measurements do not automatically establish lower energy, water, emissions, or lifecycle impact.",
+      "evidenceBoundary": "This measurement architecture is proposed and falsifiable. It is not itself a canonical claim, empirical result, or registered Naturepedia Plate."
+    },
+    "evaluationProtocol": {
+      "name": "Robbie's Razor Lab Evaluation Protocol",
+      "url": "https://www.robbiegeorgephotography.com/robbies-razor-lab-evaluation-protocol",
+      "role": "Preregistration, matched baselines, Quality Gates, metrics, uncertainty, failure conditions, and reproducibility"
+    },
+    "benchmarkHub": {
+      "name": "Robbie's Razor Benchmarks",
+      "url": "https://www.robbiegeorgephotography.com/robbies-razor-benchmarks",
+      "role": "Versioned benchmark execution, result records, evidence-state reporting, and reproducibility"
+    },
+    "environmentalExtension": {
+      "name": "Robbie's Razor — Environmental Impact & Computational Ecology",
+      "url": "https://www.robbiegeorgephotography.com/robbies-razor-environmental-impact-computational-ecology",
+      "role": "Downstream evaluation of whether measured computational effects propagate into physical resource and environmental effects",
+      "requiresSeparatePhysicalTelemetry": true
+    },
+    "sequence": [
+      "GC-MRD-v2.0",
+      "RC-01 — Robbie's Razor™",
+      "Architectural Comparison",
+      "Conditional Prediction",
+      "Systems and Economic Significance",
+      "Measurement Definition",
+      "Net Reuse Benefit",
+      "Dynamic Reuse Frontier",
+      "Reuse Break-Even Point",
+      "Cumulative Compression Dividend",
+      "Knowledge Yield / Compute",
+      "Adaptive Recompute-or-Reuse Decision",
+      "Preregistered Evaluation Protocol",
+      "Matched Recomputation Baseline",
+      "Governed-Reuse Treatment",
+      "Quality Gate",
+      "Matched Benchmark",
+      "Versioned Result",
+      "Evidence State",
+      "Replication",
+      "Environmental Extension When Applicable"
+    ],
+    "measurementConcepts": {
+      "netReuseBenefit": {
+        "status": "proposed-operational-measure",
+        "definition": "Whether avoided recomputation exceeds the complete cost required for valid reuse"
+      },
+      "dynamicReuseFrontier": {
+        "status": "proposed-operational-boundary",
+        "definition": "The moving workload-dependent boundary where the preferred strategy switches between matched recomputation and governed reuse",
+        "condition": "Net Reuse Benefit = 0"
+      },
+      "reuseBreakEvenPoint": {
+        "status": "proposed-operational-measure",
+        "definition": "The earliest valid reuse event at which cumulative avoided recomputation offsets initial and cumulative reuse-system cost"
+      },
+      "compressionDividend": {
+        "status": "proposed-operational-measure",
+        "definition": "The cumulative advantage produced when valid reuse continues to reduce accepted-task cost after complete reuse-system cost is included"
+      },
+      "knowledgeYieldPerCompute": {
+        "status": "candidate-measurement-family",
+        "definition": "How productively computational resources create accepted, validated, persistent, reusable task-relevant knowledge"
+      }
+    },
+    "operationalAccounting": {
+      "baselineWork": "Matched Baseline Work",
+      "residualWorkAfterReuse": "Residual Work Required After Reuse",
+      "avoidedRecomputationFormula": "Avoided Recomputation = Matched Baseline Work - Residual Work Required After Reuse",
+      "netReuseBenefitFormula": "Net Reuse Benefit = Avoided Recomputation - Preservation - Retrieval - Verification - Maintenance - Repair",
+      "cumulativeDividendFormula": "D(k) = cumulative avoided recomputation - initial reusable-state cost - cumulative retrieval - cumulative verification - cumulative maintenance - cumulative repair",
+      "breakEvenCondition": "k* is the earliest valid reuse event where D(k) >= 0",
+      "dynamicReuseFrontierCondition": "Net Reuse Benefit = 0",
+      "accountingComponents": [
+        "Matched Baseline Work",
+        "Residual Work Required After Reuse",
+        "Avoided Recomputation",
+        "Preservation",
+        "Retrieval",
+        "Verification",
+        "Maintenance",
+        "Repair"
+      ],
+      "interpretationBoundary": "Avoided recomputation is not automatically equal to the full matched baseline because residual work can remain after retrieval and reuse.",
+      "qualityBoundary": "Both matched recomputation and governed reuse must pass the same declared Quality Gate before efficiency comparison.",
+      "universalityBoundary": "These are proposed operational accounting relationships, not universal physical, mathematical, or economic laws."
+    },
+    "matchedEvaluation": {
+      "baseline": "Matched Recomputation",
+      "treatment": "Governed Reuse",
+      "sameQualityGateRequired": true,
+      "qualityGatePurpose": "Efficiency or resource differences count only after both conditions satisfy the same declared acceptance requirements",
+      "residualComputationMustBeMeasured": true,
+      "workloadVariables": [
+        "inference or recomputation cost",
+        "task and context size",
+        "reuse frequency",
+        "agentic recurrence",
+        "retrieval cost",
+        "verification burden",
+        "state stability",
+        "maintenance burden",
+        "repair and invalidation probability"
+      ],
+      "validOutcomes": [
+        "recomputation advantage",
+        "governed-reuse advantage",
+        "break-even",
+        "delayed break-even",
+        "no break-even",
+        "negative",
+        "neutral",
+        "Quality Gate failure",
+        "inconclusive"
+      ],
+      "adaptiveDecisionRule": "Use the measured workload-dependent frontier rather than assuming reuse or recomputation always wins.",
+      "agenticBoundary": "High-recurrence agentic workflows may increase the value of trustworthy reusable state when repeated reconstruction is substantial.",
+      "complexityBoundary": "No universal asymptotic complexity class is assigned to all recomputation or reuse workloads; actual cumulative work should be measured."
+    },
+    "measurementBoundaries": {
+      "operationalAccountingTemplateIsUniversalEquation": false,
+      "measurementDefinitionCreatesCanonicalClaim": false,
+      "measurementDefinitionEstablishesEmpiricalSupport": false,
+      "measurementDefinitionIsRegisteredPlate": false,
+      "matchedConditionsRequireSameQualityGate": true,
+      "residualWorkAfterReuseMustBeMeasured": true,
+      "preservationCostMustBeIncluded": true,
+      "retrievalCostMustBeIncluded": true,
+      "verificationCostMustBeIncluded": true,
+      "maintenanceCostMustBeIncluded": true,
+      "repairAndInvalidationCostMustBeIncluded": true,
+      "frontierIsWorkloadDependent": true,
+      "fallingInferencePricesCanMoveFrontier": true,
+      "recomputationMayOutperformReuse": true,
+      "negativeResultsAreValid": true,
+      "neutralResultsAreValid": true,
+      "inconclusiveResultsAreValid": true,
+      "noUniversalComplexityClassAssumed": true,
+      "environmentalClaimsRequireSeparateTelemetry": true
+    },
+    "verificationComplexityBoundary": {
+      "digestComparisonMayBeConstantSized": true,
+      "hashComputationOverContentMayScaleWithContentSize": true,
+      "schemaValidationIsUniversallyConstantTime": false,
+      "interpretation": "Verification cost must be measured for the actual implementation rather than assumed away."
+    },
+    "operatingRegimes": [
+      {
+        "name": "Expensive Recomputation",
+        "interpretation": "Preservation and verification investment may be recovered after relatively few valid reuse events when reconstruction is costly."
+      },
+      {
+        "name": "Commodity Recomputation",
+        "interpretation": "Recomputation may correctly remain preferable when reconstruction is cheap, simple, infrequent, or rapidly changing."
+      },
+      {
+        "name": "High-Recurrence Agentic Work",
+        "interpretation": "Trustworthy reuse may become increasingly valuable when agents repeatedly rebuild long contexts, reasoning chains, tool sequences, or canonical state."
+      }
+    ],
+    "environmentalEvidenceBoundary": {
+      "computationalDividendAutomaticallyEstablishesEnvironmentalBenefit": false,
+      "fewerTokensAutomaticallyEstablishLowerCompute": false,
+      "lowerComputeAutomaticallyEstablishesLowerElectricity": false,
+      "lowerElectricityAutomaticallyEstablishesLowerEmissions": false,
+      "lowerElectricityAutomaticallyEstablishesLowerWaterUse": false,
+      "monetaryCostAutomaticallyEstablishesPhysicalEnergy": false,
+      "requiredProgression": [
+        "Measured Computational Work",
+        "IT Energy",
+        "Facility Energy",
+        "Cooling and Water When Relevant",
+        "Emissions or Other Physical Quantities",
+        "Rebound and Displacement",
+        "Lifecycle Effects",
+        "Bounded Environmental Result"
+      ]
+    },
+    "evidenceProgression": [
+      "Canonical Principle",
+      "Bounded Prediction",
+      "Systems and Economic Interpretation",
+      "Measurement Definition",
+      "Matched Baseline Work",
+      "Residual Work After Reuse",
+      "Avoided Recomputation",
+      "Net Reuse Benefit",
+      "Dynamic Reuse Frontier",
+      "Reuse Break-Even Point",
+      "Cumulative Compression Dividend",
+      "Knowledge Yield / Compute",
+      "Adaptive Recompute-or-Reuse Decision",
+      "Preregistered Protocol",
+      "Matched Recomputation Baseline",
+      "Governed-Reuse Treatment",
+      "Quality Gate",
+      "Matched Benchmark",
+      "Versioned Result",
+      "Evidence State",
+      "Replication",
+      "Environmental Extension When Applicable"
+    ],
+    "interpretationBoundary": "Canonical authority, measurement definition, a measured Dynamic Reuse Frontier, a reuse break-even crossing, a positive Net Reuse Benefit, a positive Compression Dividend, protocol publication, benchmark implementation, schema validity, machine discovery, licensing, x402 payment, settlement, retrieval, and successful delivery do not by themselves establish independent empirical validation, universal applicability, model certification, production certification, or guaranteed performance improvement. Each result remains bounded to the tested model, workload, implementation, Quality Gate, cost assumptions, measurement window, and evidence state."
   }
 }
