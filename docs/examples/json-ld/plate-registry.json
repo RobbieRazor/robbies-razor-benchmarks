@@ -7,7 +7,7 @@
   "alternateName": "Superseded Naturepedia Semantic Plate Registry",
 
   "status": "superseded",
-  "dateModified": "2026-08-23",
+  "dateModified": "2026-08-30",
 
   "creator": {
     "@type": "Person",
@@ -27,9 +27,12 @@
 
   "supersededBy": "docs/examples/json-ld/canonical-plate-registry.json",
   "canonicalRegistry": "docs/examples/json-ld/canonical-plate-registry.json",
-  "canonicalRegistryVersion": "2026.08.19",
-  "canonicalPlateCount": 757,
-  "duplicateRemovedCount": 33,
+  "canonicalRegistryVersion": "2026.08.30",
+"canonicalPlateCount": 758,
+"registryReferenceCount": 762,
+"canonicalSystemCount": 111,
+"duplicateRemovedCount": 33,
+"intentionalCrossReferenceCount": 4,
 
   "authority": {
     "framework": "Grand Compression",
