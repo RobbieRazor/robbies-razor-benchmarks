@@ -1,8 +1,8 @@
 {
   "@context": "https://schema.org",
   "@type": "Dataset",
-  "registryVersion": "2026.08.19",
-  "dateModified": "2026-08-19",
+  "registryVersion": "2026.08.30",
+  "dateModified": "2026-08-30",
   "name": "Naturepedia Canonical Plate Registry",
   "description": "Canonical machine-readable inventory of Naturepedia Plate assets, organized by system, canonical page URL, Plate identifier, Plate type, and resource-specific machine-access metadata where explicitly implemented.",
   "creator": {
@@ -49,7 +49,7 @@
     "routePatternDoesNotImplyResourceExistence": true,
     "higherOrderResourceLayersRequireExplicitRegistration": true
   },
-    "canonicalKeepCount": 757,
+    "canonicalKeepCount": 758,
   "duplicateRemovedCount": 33,
   "systems": [
     {
@@ -2644,16 +2644,21 @@
     }
   ]
 },
-        {
-      "name": "Fibonacci Plates",
-      "slug": "fibonacci",
-      "url": "https://www.robbiegeorgephotography.com/fibonacci",
-      "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/fibonacci",
-      "plates": [
+{
+  "name": "Fibonacci Plates",
+  "slug": "fibonacci",
+  "url": "https://www.robbiegeorgephotography.com/fibonacci",
+  "registryEndpoint": "https://www.robbiegeorgephotography.com/v1/plates/fibonacci",
+  "plates": [
     {
       "name": "Fibonacci Plate™",
       "id": "fibonacci#fibonacci-plate",
       "type": "Naturepedia™ Fibonacci Plate™"
+    },
+    {
+      "name": "Pisano Periods & Constraint Bifurcation Plate™",
+      "id": "fibonacci#pisano-periods-constraint-bifurcation-plate",
+      "type": "Naturepedia™ Pisano Periods & Constraint Bifurcation Plate™"
     },
     {
       "name": "Phyllotaxis Plate™",
