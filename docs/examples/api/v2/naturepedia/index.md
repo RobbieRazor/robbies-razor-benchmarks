@@ -142,62 +142,199 @@ universal empirical confirmation
 
 # RRIP Architecture
 
-Naturepedia™ uses the Recursive Registry Inheritance Principle (RRIP™) as a framework for resolving registered-object context and relationships.
+Naturepedia™ uses the Recursive Registry Inheritance Principle (RRIP™) as a framework and operational public-control-plane resolver for registered-object identity, parent context, declared relationships, resource availability, and inheritance boundaries.
 
 Canonical framework relationship:
 
-```text
 MRD v2.0 §12.8
 → Recursive Registry Inheritance Principle (RRIP™)
-```
 
-Naturepedia defines possible resource layers including:
+Public production resolver:
 
-```text
+https://www.robbiegeorgephotography.com/api/v2/rrip/resolve
+
+Current RRIP resolver version:
+
+2.1.0
+
+RRIP 2.1.0 supports two public operating modes:
+
+descriptor
+canonical-object-resolution
+
+## Descriptor Mode
+
+Request:
+
+/api/v2/rrip/resolve
+
+Response:
+
+HTTP 200
+mode: descriptor
+
+Descriptor mode publishes the RRIP principle, possible resource pathway, usage instructions, governance boundary, and retrieval sequence without resolving an individual Plate.
+
+The published architectural pathway is:
+
 Plate™
+↓
 Registry
+↓
 Meta-Registry
+↓
 Graph Registry™
+↓
 Knowledge Mesh
-```
 
-These are **defined architectural resource types**.
+These are defined architectural resource types.
 
-They are not a mandatory production chain for every Plate.
-
-A Plate may exist without an instantiated:
-
-```text
-Meta-Registry
-Graph Registry™
-Knowledge Mesh
-```
+They are not a mandatory instantiated production chain for every Plate.
 
 Accordingly:
 
-```text
 resource type defined
 ≠
 resource instantiated
-```
 
 and:
 
-```text
 Plate registered
 ≠
 Graph Registry automatically exists
-```
 
 and:
 
-```text
 Plate registered
 ≠
 Knowledge Mesh automatically exists
-```
 
-Higher-order resources should be resolved only where they are explicitly implemented and registered.
+## Canonical Object Resolution Mode
+
+Supply a Plate identifier through the id query parameter.
+
+When a canonical Plate ID contains #, encode the character as %23.
+
+Example:
+
+/api/v2/rrip/resolve?id=fibonacci%23pisano-periods-constraint-bifurcation-plate
+
+A unique canonical match returns:
+
+HTTP 200
+mode: canonical-object-resolution
+resolved: true
+match_count: 1
+
+RRIP may return public control-plane metadata including:
+
+canonical Plate identity
+parent family identity
+canonical page or fragment
+parent family preview
+declared Registry endpoint
+declared System Map
+declared Knowledge Mesh
+structured-payload availability
+individual Plate route status
+payment-eligibility signal
+governance boundary
+
+RRIP resolution does not return the protected structured payload itself.
+
+## Current Pisano Resolution Example
+
+Canonical Plate:
+
+fibonacci#pisano-periods-constraint-bifurcation-plate
+
+Current RRIP result:
+
+HTTP 200
+resolved: true
+parent family: Fibonacci™
+parent slug: fibonacci
+structured payload status: not-registered
+individual Plate route status: reserved
+payment eligibility: not-eligible-without-registered-structured-payload
+payment challenge issued: false
+complete structured payload included: false
+
+This demonstrates the required distinction:
+
+canonical identity resolved
+≠
+structured payload registered
+
+and:
+
+canonical Plate exists
+≠
+payment eligible
+
+## Unknown Object Behavior
+
+If no canonical Plate matches the supplied identifier:
+
+HTTP 404
+resolved: false
+error: PLATE_NOT_FOUND
+payment challenge issued: false
+
+Unknown resources therefore fail closed and are never converted into speculative payment requests.
+
+## Ambiguous Object Behavior
+
+If an abbreviated identifier matches more than one canonical Plate:
+
+HTTP 409
+resolved: false
+error: AMBIGUOUS_PLATE_IDENTIFIER
+payment challenge issued: false
+
+Agents should retry using the complete canonical Plate ID.
+
+## RRIP Access Boundary
+
+RRIP is a free public control-plane resolver.
+
+It may expose:
+
+identity
+provenance context
+inheritance context
+declared resource paths
+availability state
+governance state
+
+It does not itself expose:
+
+protected structured payload
+paid Registry payload
+paid System Map payload
+paid Knowledge Mesh payload
+settlement result
+commercial reuse rights
+
+Therefore:
+
+RRIP resolution
+≠
+protected retrieval
+
+and:
+
+resolver success
+≠
+settlement
+
+and:
+
+resource path discovery
+≠
+resource activation
+
+Higher-order resources should be treated as available only where they are explicitly implemented and registered.
 
 ---
 
@@ -333,7 +470,7 @@ Their roles are:
 → Plate registry discovery and navigation
 
 /api/v2/rrip/resolve
-→ registered-object relationship and context resolution
+→ RRIP 2.1.0 canonical-object identity, inheritance, relationship, and availability resolution
 
 /api/v2/razor/state-token
 → registry-state and synchronization signaling
