@@ -533,6 +533,112 @@ Purpose:
 
 Cross-system semantic reasoning.
 
+# RRIP 2.1.0 Canonical Resolution
+
+Naturepedia provides a free public canonical-object resolver through the Recursive Registry Inheritance Principle (RRIP™).
+
+Production endpoint:
+
+https://www.robbiegeorgephotography.com/api/v2/rrip/resolve
+
+Current resolver version:
+
+RRIP 2.1.0
+
+Access class:
+
+public-control-plane
+
+Requires payment:
+
+No
+
+RRIP supports two operating modes.
+
+Descriptor mode:
+
+/api/v2/rrip/resolve
+
+Returns:
+
+HTTP 200
+mode: descriptor
+
+Canonical-object resolution:
+
+/api/v2/rrip/resolve?id={canonical-plate-id}
+
+When a canonical Plate ID contains #, encode the character as %23.
+
+Example:
+
+/api/v2/rrip/resolve?id=fibonacci%23pisano-periods-constraint-bifurcation-plate
+
+A uniquely resolved canonical Plate returns:
+
+HTTP 200
+mode: canonical-object-resolution
+resolved: true
+
+RRIP may return:
+
+- canonical Plate identity
+- parent-family identity
+- canonical URL
+- parent-family preview
+- declared Registry endpoint
+- declared System Map
+- declared Knowledge Mesh
+- structured-payload availability
+- individual Plate route status
+- payment-eligibility state
+- governance metadata
+
+RRIP does not return protected structured payload contents.
+
+Failure behavior:
+
+Invalid identifier
+→ HTTP 400
+→ INVALID_PLATE_IDENTIFIER
+→ no payment challenge
+
+Unknown canonical object
+→ HTTP 404
+→ PLATE_NOT_FOUND
+→ no payment challenge
+
+Ambiguous identifier
+→ HTTP 409
+→ AMBIGUOUS_PLATE_IDENTIFIER
+→ no payment challenge
+
+Agents SHOULD use RRIP when a specific canonical Plate identity or inheritance context must be resolved before deciding whether another resource should be retrieved.
+
+Agents MUST preserve these distinctions:
+
+RRIP resolution
+≠
+protected retrieval
+
+canonical Plate registration
+≠
+structured payload registration
+
+resolver success
+≠
+payment eligibility
+
+resolver success
+≠
+x402 settlement
+
+declared resource path
+≠
+instantiated resource
+
+A successful RRIP response does not grant training, embedding, redistribution, commercial reuse, or framework-implementation rights.
+
 # Public Mathematical References
 
 Naturepedia includes established mathematical references that support discovery, explanation, and bounded structural comparison without necessarily constituting Plate™, Registry, System Map, Knowledge Mesh, or paid x402 retrieval families.
