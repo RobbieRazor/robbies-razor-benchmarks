@@ -1,8 +1,8 @@
 {
   "id": "https://www.robbiegeorgephotography.com/.well-known/ai-root.json",
   "schemaVersion": "1.0",
-  "version": "1.7",
-  "dateModified": "2026-08-28",
+  "version": "1.8",
+  "dateModified": "2026-08-30",
   "name": "Robbie George Photography AI Root",
   "description": "Canonical machine-readable entry point for Robbie George's human-authority pages, The Grand Compression Cosmology MRD v2.0, Naturepedia™, Robbie's Razor™, Robbie's Razor Benchmarks v0.2.0, the official domain-verified Naturepedia MCP server, canonical publication records, AI discovery infrastructure, x402 settlement, and governed machine retrieval.",
   "creator": {
@@ -112,8 +112,29 @@
           "url": "https://www.robbiegeorgephotography.com/e8-lattice",
           "classification": "bounded-mathematical-reference"
         }
+        {
+  "name": "Fibonacci™",
+  "slug": "fibonacci",
+  "url": "https://www.robbiegeorgephotography.com/fibonacci",
+  "domain": "Mathematics / Number Theory / Recurrence / Modular Arithmetic / Natural Growth",
+  "classification": "mathematical-recurrence-and-growth-pattern-reference",
+  "plateCount": 11,
+  "featuredMathematicalCaseStudy": {
+    "name": "Pisano Periods & Constraint Bifurcation Plate™",
+    "plateId": "fibonacci#pisano-periods-constraint-bifurcation-plate",
+    "url": "https://www.robbiegeorgephotography.com/fibonacci#pisano-periods-constraint-bifurcation-plate",
+    "evidenceClass": "first-party-published-mathematical-result",
+    "frameworkRole": "bounded-mathematical-case-study",
+    "ccgRelationship": "constraint-geometry-case-study",
+    "structuredPayloadStatus": "not-registered",
+    "requiresPayment": false
+  },
+  "geometryIndex": "https://www.robbiegeorgephotography.com/geometry-index.json",
+  "naturepediaV2Discovery": "https://www.robbiegeorgephotography.com/api/v2/naturepedia/index.md",
+  "requiresPayment": false
+}
       ],
-      "interpretationBoundary": "Hopf Fibration and E8 are distinct mathematical reference classes. Their inclusion within Naturepedia and Comparative Compression Geometry™ does not establish universal physical identity, shared mechanism, causation, or independent empirical validation of the Grand Compression Framework."
+      "interpretationBoundary": "Hopf Fibration, E8, and Fibonacci/Pisano are distinct mathematical reference classes. Pisano periodicity is presented as a number-theory phenomenon, while its relationship to Comparative Compression Geometry™ is a bounded structural comparison. Inclusion within Naturepedia or the Grand Compression Framework does not establish universal physical identity, shared biological or physical mechanism, causation, material equivalence, or independent empirical validation of the framework."
     },
     "changeLog": "https://www.robbiegeorgephotography.com/change-log.json",
     "canonicalPublicationManifest": "https://www.robbiegeorgephotography.com/canonical-publication-manifest.json",
