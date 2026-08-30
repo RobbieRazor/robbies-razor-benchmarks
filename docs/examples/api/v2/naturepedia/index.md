@@ -356,9 +356,12 @@ docs/examples/json-ld/canonical-plate-registry.json
 Current canonical registry metadata:
 
 ```text
-registryVersion: 2026.08.19
-canonicalKeepCount: 757
+registryVersion: 2026.08.30
+canonicalKeepCount: 758
 duplicateRemovedCount: 33
+registryReferenceCount: 762
+canonicalSystemCount: 111
+intentionalCrossReferenceCount: 4
 ```
 
 Expanded AI-readable discovery resources:
@@ -577,6 +580,89 @@ The Hopf fibration is included for public mathematical discovery and bounded com
 
 ---
 
+## Fibonacci™ / Pisano Periods Public Discovery Boundary
+
+Canonical Fibonacci page:
+
+https://www.robbiegeorgephotography.com/fibonacci
+
+Parent system:
+
+Geometry of Nature™
+
+Canonical Fibonacci Plate count:
+
+11
+
+Featured mathematical Plate:
+
+Pisano Periods & Constraint Bifurcation Plate™
+
+Canonical Plate ID:
+
+fibonacci#pisano-periods-constraint-bifurcation-plate
+
+Classification:
+
+Mathematics / Number Theory / Modular Arithmetic / Fibonacci Periodicity
+
+Evidence class:
+
+first-party-published-mathematical-result
+
+Comparative Compression Geometry™ relationship:
+
+constraint-geometry-case-study
+
+Framework role:
+
+bounded-mathematical-case-study
+
+Mathematical record:
+
+π(m) = 2m
+→ m = 12 × 5^k for k >= 0
+
+π(m²) = 2m
+→ unique solution m = 12
+→ corresponding modulus = 144
+→ π(144) = 24
+
+Prime 5 is the exceptional prime supporting recursive scaling in the first constraint regime.
+
+Current machine-access status:
+
+public Fibonacci page: active / free
+Fibonacci family preview: active / free
+canonical Pisano Plate: registered
+Pisano structured payload: not registered
+Pisano individual Structured Plate route: reserved
+current Pisano individual response: HTTP 409 PLATE_PAYLOAD_NOT_REGISTERED
+Pisano individual payment challenge: no
+planned Structured Plate price if later activated: 0.25 USDC
+Fibonacci Registry: active x402 resource
+Fibonacci Registry price: 5.00 USDC
+
+Required distinction:
+
+canonical Plate registration
+≠
+complete structured payload
+
+and:
+
+planned price
+≠
+active payable resource
+
+and:
+
+number-theory relationship
+≠
+shared physical, biological, causal, material, or universal mechanism
+
+The Pisano classification is presented as a number-theory result. Its use within Comparative Compression Geometry™ is a bounded structural comparison and does not independently establish a mechanism outside the mathematical domain.
+
 # Tree Family Systems
 
 Representative tree-family coverage includes:
@@ -769,7 +855,7 @@ GC-MRD-v2.0
 Current canonical Plate inventory:
 
 ```text
-757
+758
 ```
 
 Historical reconciliation metadata:
