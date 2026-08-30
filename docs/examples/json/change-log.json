@@ -1,7 +1,7 @@
 {
   "@context": "https://schema.org",
   "@type": "Dataset",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "name": "Naturepedia™ Change Log",
   "description": "Machine-readable incremental update feed for Naturepedia™, Robbie's Razor™, Plate™ systems, official MCP infrastructure, AI discovery infrastructure, x402 retrieval, and canonical registries.",
   "creator": {
@@ -18,6 +18,123 @@
   "lastUpdated": "2026-08-30",
   "currentCanonicalPlateCount": 758,
   "entries": [
+  {
+  "id": "2026-08-30-rrip-2-1-canonical-object-resolution",
+  "date": "2026-08-30",
+  "version": "1.5.0",
+  "category": "RRIP Operational Resolver Upgrade",
+
+  "summary": "Upgraded the public Recursive Registry Inheritance Principle (RRIP™) endpoint from a descriptive-only architecture document to RRIP 2.1.0, an operational canonical-object resolver capable of resolving registered Naturepedia™ Plate™ identities, parent-family context, inheritance boundaries, declared higher-order resources, structured-payload availability, and payment eligibility without exposing protected payloads or triggering speculative payment requests.",
+
+  "changes": [
+    "Upgraded /api/v2/rrip/resolve from RRIP 2.0.0 descriptive-only behavior to RRIP 2.1.0",
+    "Preserved backward-compatible descriptor mode when no id parameter is supplied",
+    "Added canonical-object-resolution mode using the id query parameter",
+    "Reused the GitHub-backed canonical Plate Registry as the primary resolution authority",
+    "Reused the existing canonical Plate lookup architecture rather than creating a parallel resolver registry",
+    "Added resolution by complete canonical Plate ID, fragment ID, explicit slug, or generated Plate-name slug where uniquely resolvable",
+    "Added canonical Plate identity, parent-family identity, canonical URL, parent preview, declared Registry, declared System Map, and declared Knowledge Mesh discovery metadata",
+    "Added structured-payload availability and individual Plate route-status signaling",
+    "Preserved RRIP as a free public control-plane endpoint",
+    "Prevented RRIP from returning protected structured payload contents",
+    "Prevented RRIP resolution from performing x402 settlement",
+    "Defined unknown canonical objects as HTTP 404 PLATE_NOT_FOUND with no payment challenge",
+    "Defined ambiguous identifiers as HTTP 409 AMBIGUOUS_PLATE_IDENTIFIER with no payment challenge",
+    "Defined empty identifiers as HTTP 400 INVALID_PLATE_IDENTIFIER",
+    "Changed the descriptor retrieval sequence from unconditional Settlement to Conditional Settlement",
+    "Added an explicit pathway boundary stating that Plate registration does not imply an instantiated Meta-Registry, Graph Registry™, Knowledge Mesh, structured payload, or paid resource",
+    "Validated canonical resolution using fibonacci#pisano-periods-constraint-bifurcation-plate",
+    "Confirmed Pisano resolution returns parent family Fibonacci Plates with structured payload status not-registered and individual Plate route status reserved",
+    "Confirmed Pisano RRIP resolution reports payment eligibility as not-eligible-without-registered-structured-payload",
+    "Confirmed Pisano RRIP resolution issues no payment challenge and includes no protected payload",
+    "Validated unknown-object fail-closed behavior with HTTP 404 and no payment challenge",
+    "Validated backward-compatible descriptor mode at HTTP 200",
+    "Updated the Naturepedia v2 Discovery Index to document RRIP 2.1.0 operating modes, resolution semantics, fail-closed behavior, and access boundaries"
+  ],
+
+  "affectedEndpoints": [
+    "https://www.robbiegeorgephotography.com/api/v2/rrip/resolve",
+    "https://www.robbiegeorgephotography.com/api/v2/naturepedia/index.md",
+    "https://www.robbiegeorgephotography.com/change-log.json"
+  ],
+
+  "affectedRepositoryFiles": [
+    "docs/examples/api/v2/naturepedia/index.md",
+    "docs/examples/json/change-log.json"
+  ],
+
+  "rripRecord": {
+    "versionBefore": "2.0.0",
+    "versionAfter": "2.1.0",
+    "endpoint": "/api/v2/rrip/resolve",
+    "descriptorMode": true,
+    "canonicalObjectResolutionMode": true,
+    "canonicalRegistryBacked": true,
+    "resolverRequiresPayment": false,
+    "protectedPayloadIncluded": false,
+    "settlementPerformedByResolver": false
+  },
+
+  "resolutionBehavior": {
+    "descriptorRequest": {
+      "condition": "no id parameter",
+      "httpStatus": 200,
+      "mode": "descriptor"
+    },
+    "uniqueCanonicalObject": {
+      "httpStatus": 200,
+      "mode": "canonical-object-resolution",
+      "resolved": true
+    },
+    "unknownObject": {
+      "httpStatus": 404,
+      "error": "PLATE_NOT_FOUND",
+      "paymentChallengeIssued": false
+    },
+    "ambiguousObject": {
+      "httpStatus": 409,
+      "error": "AMBIGUOUS_PLATE_IDENTIFIER",
+      "paymentChallengeIssued": false
+    },
+    "invalidIdentifier": {
+      "httpStatus": 400,
+      "error": "INVALID_PLATE_IDENTIFIER",
+      "paymentChallengeIssued": false
+    }
+  },
+
+  "validatedExample": {
+    "plateId": "fibonacci#pisano-periods-constraint-bifurcation-plate",
+    "resolved": true,
+    "matchCount": 1,
+    "parentSlug": "fibonacci",
+    "parentName": "Fibonacci Plates",
+    "structuredPayloadStatus": "not-registered",
+    "individualPlateRouteStatus": "reserved",
+    "paymentEligibility": "not-eligible-without-registered-structured-payload",
+    "paymentChallengeIssued": false,
+    "completeStructuredPayloadIncluded": false
+  },
+
+  "governanceBoundary": "RRIP resolution establishes canonical identity and declared inheritance context only. Resolver success does not establish empirical validation, instantiate undeclared higher-order resources, activate a protected payload, perform settlement, grant commercial reuse rights, or imply that a published pricing class is an active payable product.",
+
+  "impactBoundaries": {
+    "canonicalPlateCountChanged": false,
+    "registryReferenceCountChanged": false,
+    "canonicalSystemCountChanged": false,
+    "newCanonicalPlateCreated": false,
+    "newApiRouteCreated": false,
+    "existingApiBehaviorExpanded": true,
+    "newPaidRouteCreated": false,
+    "paidResourceCreated": false,
+    "x402PricingChanged": false,
+    "settlementBehaviorChanged": false,
+    "discoveryInfrastructureChanged": true,
+    "resolverCapabilityChanged": true
+  },
+
+  "canonicalPlateCount": 758
+},
   {
   "id": "2026-08-30-pisano-periods-constraint-bifurcation-integration",
   "date": "2026-08-30",
