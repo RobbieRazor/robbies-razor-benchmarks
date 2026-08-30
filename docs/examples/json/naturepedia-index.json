@@ -1,8 +1,8 @@
 {
   "@context": "https://schema.org",
   "@type": "Dataset",
-  "version": "1.1",
-  "dateModified": "2026-08-22",
+  "version": "1.2",
+  "dateModified": "2026-08-30",
   "name": "Naturepedia™ Index",
   "description": "Top-level machine-readable discovery index for Naturepedia™, organizing major knowledge systems, semantic families, AI discovery pathways, and recursive retrieval architecture.",
   "creator": {
@@ -19,7 +19,7 @@
   "systemFamilies": [
     {
   "name": "Geometry Systems",
-  "description": "Naturepedia mathematical and geometrical reference systems, including established mathematics, natural geometry, topology, symmetry, scaling, pattern formation, and bounded Comparative Compression Geometry™ reference classes.",
+  "description": "Naturepedia mathematical and geometrical reference systems spanning natural geometry, topology, symmetry, recurrence, modular arithmetic, Fibonacci periodicity, fractals, scaling, pattern formation, state-space geometry, and bounded Comparative Compression Geometry™ reference classes.",
   "systems": [
     {
       "name": "Geometry of Nature™",
@@ -53,11 +53,42 @@
       "role": "mathematical-and-natural-pattern-reference"
     },
     {
-      "name": "Fibonacci™",
-      "url": "https://www.robbiegeorgephotography.com/fibonacci",
-      "slug": "fibonacci",
-      "role": "mathematical-and-growth-pattern-reference"
-    }
+  "name": "Fibonacci™",
+  "url": "https://www.robbiegeorgephotography.com/fibonacci",
+  "slug": "fibonacci",
+  "parent": "Geometry of Nature™",
+  "role": "mathematical-recurrence-and-growth-pattern-reference",
+  "domain": "Mathematics / Number Theory / Recurrence / Modular Arithmetic / Natural Growth",
+  "geometryIndex": "https://www.robbiegeorgephotography.com/geometry-index.json",
+  "registry": "https://www.robbiegeorgephotography.com/v1/registries/fibonacci",
+  "plateMap": "https://www.robbiegeorgephotography.com/v1/plates/fibonacci-map",
+  "knowledgeMesh": "https://www.robbiegeorgephotography.com/v1/knowledge-mesh/fibonacci",
+  "plateCount": 11,
+  "mathematicalScope": [
+    "Fibonacci recurrence",
+    "modular arithmetic",
+    "finite-state recurrence",
+    "Pisano periods",
+    "constraint bifurcation",
+    "prime-factor structure"
+  ],
+  "biologicalScope": [
+    "phyllotaxis",
+    "spiral growth",
+    "efficient packing",
+    "plant development",
+    "pattern formation"
+  ],
+  "featuredPlate": {
+    "name": "Pisano Periods & Constraint Bifurcation Plate™",
+    "id": "fibonacci#pisano-periods-constraint-bifurcation-plate",
+    "url": "https://www.robbiegeorgephotography.com/fibonacci#pisano-periods-constraint-bifurcation-plate",
+    "classification": "number-theory-case-study",
+    "evidenceClass": "first-party-published-mathematical-result",
+    "ccgRelationship": "constraint-geometry-case-study"
+  },
+  "interpretationBoundary": "Pisano periodicity is a number-theory phenomenon. Its relationship to Comparative Compression Geometry™ is a bounded structural comparison and does not establish a shared physical, biological, or universal mechanism."
+}
   ]
 },
         {
