@@ -52,9 +52,12 @@ docs/examples/json-ld/canonical-plate-registry.json
 Current canonical registry metadata:
 
 ```text
-registryVersion: 2026.08.19
-canonicalKeepCount: 757
+registryVersion: 2026.08.30
+canonicalKeepCount: 758
 duplicateRemovedCount: 33
+registryReferenceCount: 762
+canonicalSystemCount: 111
+intentionalCrossReferenceCount: 4
 ```
 
 Expanded AI-readable discovery resources:
@@ -309,7 +312,7 @@ active payable resource
 The canonical registry contains:
 
 ```text
-757 canonical Plate records
+758 canonical Plate records
 ```
 
 organized across multiple Naturepedia™ systems and families.
@@ -396,6 +399,83 @@ x402 protected route: not registered
 Registry discovery of the Hopf Fibration does not imply that a Hopf Plate family, Registry, System Map, Knowledge Mesh, or paid x402 resource currently exists. Its Grand Compression relationship remains comparative only.
 
 ---
+
+### Fibonacci™ / Pisano Periods Registry Boundary
+
+Canonical Fibonacci page:
+
+https://www.robbiegeorgephotography.com/fibonacci
+
+Parent system:
+
+Geometry of Nature™
+
+Fibonacci canonical Plate count:
+
+11
+
+Featured mathematical Plate:
+
+Pisano Periods & Constraint Bifurcation Plate™
+
+Canonical Plate ID:
+
+fibonacci#pisano-periods-constraint-bifurcation-plate
+
+Classification:
+
+Mathematics / Number Theory / Modular Arithmetic / Fibonacci Periodicity
+
+Evidence class:
+
+first-party-published-mathematical-result
+
+Comparative Compression Geometry™ relationship:
+
+constraint-geometry-case-study
+
+Current registry state:
+
+canonical Plate: registered
+structured payload: not registered
+individual Structured Plate route: reserved
+current individual response: HTTP 409 PLATE_PAYLOAD_NOT_REGISTERED
+payment challenge issued: no
+planned Structured Plate price if activated: 0.25 USDC
+
+Fibonacci Registry state:
+
+active x402 protected resource
+access class: bounded subtree
+price: 5.00 USDC
+
+Mathematical summary:
+
+π(m) = 2m
+→ m = 12 × 5^k for k >= 0
+
+π(m²) = 2m
+→ unique solution m = 12
+→ modulus 144
+→ π(144) = 24
+
+Required distinction:
+
+registered canonical Plate
+≠
+registered structured payload
+
+and:
+
+planned price
+≠
+active payable Plate
+
+and:
+
+mathematical structural comparison
+≠
+shared physical, biological, causal, material, or universal mechanism
 
 # Tree Family Coverage
 
@@ -765,15 +845,15 @@ active payable product
 
 ```json
 {
-  "version": "2.0.0",
+  "version": "2.0.1",
   "registryType": "plate-discovery",
   "endpointClass": "public-control-plane",
   "canonicalRegistry": "docs/examples/json-ld/canonical-plate-registry.json",
-  "canonicalPlateCount": 757,
-  "registryVersion": "2026.08.19",
+  "canonicalPlateCount": 758,
+  "registryVersion": "2026.08.30",
   "authority": "GC-MRD-v2.0",
   "protectedRetrieval": "resource-specific",
-  "dateModified": "2026-08-24",
+  "dateModified": "2026-08-30",
   "architectOfRecord": "Robbie George"
 }
 ```
