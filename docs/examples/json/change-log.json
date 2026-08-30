@@ -1,7 +1,7 @@
 {
   "@context": "https://schema.org",
   "@type": "Dataset",
-  "version": "1.3.1",
+  "version": "1.4.0",
   "name": "Naturepedia™ Change Log",
   "description": "Machine-readable incremental update feed for Naturepedia™, Robbie's Razor™, Plate™ systems, official MCP infrastructure, AI discovery infrastructure, x402 retrieval, and canonical registries.",
   "creator": {
@@ -15,9 +15,133 @@
     "url": "https://www.robbiegeorgephotography.com"
   },
   "canonical": "https://www.robbiegeorgephotography.com/change-log.json",
-  "lastUpdated": "2026-08-22",
-  "currentCanonicalPlateCount": 757,
+  "lastUpdated": "2026-08-30",
+  "currentCanonicalPlateCount": 758,
   "entries": [
+  {
+  "id": "2026-08-30-pisano-periods-constraint-bifurcation-integration",
+  "date": "2026-08-30",
+  "version": "1.4.0",
+  "category": "Naturepedia Mathematical Plate and Registry Expansion",
+
+  "summary": "Added the Pisano Periods & Constraint Bifurcation Plate™ to the canonical Fibonacci™ system, expanding the canonical Plate count from 757 to 758 and the registry reference count from 761 to 762. The integration adds a bounded number-theory case study connecting Fibonacci recurrence, modular periodicity, Pisano periods, changed constraints, the recursive family m = 12 × 5^k, and unique closure at modulus 144 while preserving explicit interpretation and payment boundaries.",
+
+  "changes": [
+    "Added Pisano Periods & Constraint Bifurcation Plate™ as the eleventh canonical Fibonacci™ Plate",
+    "Registered canonical Plate ID fibonacci#pisano-periods-constraint-bifurcation-plate",
+    "Advanced canonicalKeepCount from 757 to 758",
+    "Advanced registry reference count from 761 to 762",
+    "Preserved canonical system count at 111",
+    "Preserved duplicate removed count at 33",
+    "Preserved intentional cross-reference count at 4",
+    "Expanded the Fibonacci™ page with Pisano periods, modular arithmetic, finite-state recurrence, and constraint bifurcation",
+    "Documented the constraint π(m) = 2m and recursive solution family m = 12 × 5^k for k >= 0",
+    "Documented the constraint π(m²) = 2m and unique closure at m = 12, corresponding to modulus 144 with π(144) = 24",
+    "Documented prime 5 as the exceptional prime supporting recursive scaling in the first constraint regime",
+    "Connected the Pisano case study to Comparative Compression Geometry™ as a bounded constraint-geometry comparison",
+    "Preserved the interpretation boundary between the number-theory result and physical, biological, causal, or universal mechanism claims",
+    "Expanded the Fibonacci™ free family preview from 10 to 11 canonical Plates",
+    "Preserved the Pisano individual Structured Plate™ route as reserved because a complete validated structured payload has not yet been registered",
+    "Confirmed that requests for the reserved Pisano Structured Plate™ return HTTP 409 with PLATE_PAYLOAD_NOT_REGISTERED and no payment challenge",
+    "Preserved the Fibonacci™ Registry as an active x402-protected bounded-subtree resource at 5.00 USDC",
+    "Updated the Fibonacci Registry, System Map, and Knowledge Mesh descriptions to include Pisano periods and constraint bifurcation",
+    "Updated the Geometry Index to version 1.2 with the expanded Fibonacci mathematical structure",
+    "Updated the Naturepedia Index to version 1.2 with the expanded Fibonacci discovery record",
+    "Expanded the public AI Catalog Fibonacci record with the featured Pisano Plate, evidence class, resource discovery paths, and structured-payload status",
+    "Updated llms-full.txt with the eleventh Fibonacci Plate, mathematical summary, registry state, and payment boundary",
+    "Updated the Robbie's Razor state token to registry version 2026.08.30-v4",
+    "Updated the static registry hash to static-state-758-2026-08-30-pisano-v1",
+    "Preserved existing route inventories, x402 pricing tiers, and settlement behavior"
+  ],
+
+  "affectedPages": [
+    "https://www.robbiegeorgephotography.com/fibonacci",
+    "https://www.robbiegeorgephotography.com/comparative-compression-geometry"
+  ],
+
+  "affectedEndpoints": [
+    "https://www.robbiegeorgephotography.com/change-log.json",
+    "https://www.robbiegeorgephotography.com/geometry-index.json",
+    "https://www.robbiegeorgephotography.com/naturepedia-index.json",
+    "https://www.robbiegeorgephotography.com/.well-known/ai-catalog.json",
+    "https://www.robbiegeorgephotography.com/llms-full.txt",
+    "https://www.robbiegeorgephotography.com/api/v2/razor/state-token",
+    "https://www.robbiegeorgephotography.com/v1/plates/fibonacci",
+    "https://www.robbiegeorgephotography.com/v1/plates/item/pisano-periods-constraint-bifurcation-plate",
+    "https://www.robbiegeorgephotography.com/x402/fibonacci-registry.json",
+    "https://www.robbiegeorgephotography.com/x402/fibonacci-map.json",
+    "https://www.robbiegeorgephotography.com/x402/knowledge-mesh/fibonacci"
+  ],
+
+  "affectedRepositoryFiles": [
+    "docs/examples/json-ld/canonical-plate-registry.json",
+    "docs/examples/json/geometry-index.json",
+    "docs/examples/json/naturepedia-index.json",
+    "docs/examples/json/change-log.json"
+  ],
+
+  "classification": {
+    "parent": "Fibonacci™",
+    "grandparent": "Geometry of Nature™",
+    "plate": "Pisano Periods & Constraint Bifurcation Plate™",
+    "plateId": "fibonacci#pisano-periods-constraint-bifurcation-plate",
+    "domain": "Mathematics / Number Theory / Modular Arithmetic / Fibonacci Periodicity",
+    "evidenceClass": "first-party-published-mathematical-result",
+    "frameworkRole": "bounded-mathematical-case-study",
+    "ccgRelationship": "constraint-geometry-case-study",
+    "structuredPayloadStatus": "not-registered"
+  },
+
+  "mathematicalRecord": {
+    "recurrence": "F(n+1) = F(n) + F(n-1)",
+    "periodMeasure": "Pisano period π(m)",
+    "constraintA": "π(m) = 2m",
+    "outcomeA": "m = 12 × 5^k for k >= 0",
+    "constraintB": "π(m²) = 2m",
+    "outcomeB": "unique solution m = 12, corresponding to modulus 144 and π(144) = 24",
+    "exceptionalPrime": 5
+  },
+
+  "interpretationBoundary": "The Pisano classification is presented as a number-theory result. Its use within Comparative Compression Geometry™ is a bounded structural comparison. This integration does not establish a shared physical, biological, causal, material, or universal mechanism.",
+
+  "paymentBoundary": {
+    "publicFibonacciPageRequiresPayment": false,
+    "publicFibonacciPreviewRequiresPayment": false,
+    "pisanoStructuredPlateRegistered": false,
+    "pisanoStructuredPlateRouteStatus": "reserved",
+    "pisanoStructuredPlateCurrentResponse": "409 PLATE_PAYLOAD_NOT_REGISTERED",
+    "pisanoStructuredPlatePaymentChallengeIssued": false,
+    "plannedStructuredPlatePriceUSDC": "0.25",
+    "fibonacciRegistryRequiresPayment": true,
+    "fibonacciRegistryPriceUSDC": "5.00",
+    "x402PricingChanged": false
+  },
+
+  "registryImpact": {
+    "canonicalPlateCountBefore": 757,
+    "canonicalPlateCountAfter": 758,
+    "registryReferenceCountBefore": 761,
+    "registryReferenceCountAfter": 762,
+    "canonicalSystemCount": 111,
+    "duplicateRemovedCount": 33,
+    "intentionalCrossReferenceCount": 4
+  },
+
+  "impactBoundaries": {
+    "canonicalPlateCountChanged": true,
+    "registryCountChanged": true,
+    "canonicalSystemCountChanged": false,
+    "newCanonicalPlateCreated": true,
+    "newApiRouteCreated": false,
+    "newPaidRouteCreated": false,
+    "structuredPlateActivated": false,
+    "x402PricingChanged": false,
+    "settlementBehaviorChanged": false,
+    "discoveryInfrastructureChanged": true
+  },
+
+  "canonicalPlateCount": 758
+},
   {
   "id": "2026-08-22-hopf-fibration-integration",
   "date": "2026-08-22",
