@@ -1605,17 +1605,20 @@ https://www.robbiegeorgephotography.com/grand-compression-canonical-claims
 
 ```json
 {
-  "version": "2.0.0",
+  "version": "2.1.0",
   "endpointClass": "public-control-plane",
-  "registryState": "canonical-757-plate-discovery",
+  "registryState": "canonical-758-plate-discovery",
   "canonicalRegistry": "docs/examples/json-ld/canonical-plate-registry.json",
-  "canonicalPlateCount": 757,
-  "registryVersion": "2026.08.19",
+  "canonicalPlateCount": 758,
+  "registryReferenceCount": 762,
+  "canonicalSystemCount": 111,
+  "registryVersion": "2026.08.30",
   "authority": "GC-MRD-v2.0",
   "rripRelationship": "MRD v2.0 §12.8",
+  "rripResolverVersion": "2.1.0",
   "protectedRetrieval": "resource-specific",
   "pricingManifestVersion": "3.0.0",
-  "dateModified": "2026-08-24",
+  "dateModified": "2026-08-30",
   "architectOfRecord": "Robbie George"
 }
 ```
