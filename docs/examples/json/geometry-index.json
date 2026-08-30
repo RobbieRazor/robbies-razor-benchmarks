@@ -1,10 +1,10 @@
 {
   "@context": "https://schema.org",
   "@type": "Dataset",
-  "version": "1.1",
-  "dateModified": "2026-08-22",
+  "version": "1.2",
+  "dateModified": "2026-08-30",
   "name": "Naturepedia™ Geometry Index",
-  "description": "Machine-readable discovery index for the Naturepedia™ Geometry Mesh, including Geometry of Nature™, Hopf Fibration, E8 Lattice™, Fractals™, Fibonacci™, topology, fiber bundles, state-space geometry, and related mathematical knowledge systems.",
+  "description": "Machine-readable discovery index for the Naturepedia™ Geometry Mesh, including Geometry of Nature™, Hopf Fibration, E8 Lattice™, Fractals™, Fibonacci™, Pisano periods, modular arithmetic, constraint geometry, topology, fiber bundles, state-space geometry, and related mathematical knowledge systems.",
   "creator": {
     "@type": "Person",
     "name": "Robbie George",
@@ -26,27 +26,27 @@
       "knowledgeMesh": "https://www.robbiegeorgephotography.com/v1/knowledge-mesh/geometry-of-nature"
     },
     {
-  "name": "Hopf Fibration",
-  "slug": "hopf-fibration",
-  "url": "https://www.robbiegeorgephotography.com/hopf-fibration",
-  "parent": "Geometry of Nature™",
-  "domain": "Mathematics / Topology / Fiber Bundles / State-Space Geometry",
-  "evidenceClass": "established-mathematics",
-  "ccgRelationship": "bounded-structural-comparison-class",
-  "frameworkRole": "comparative-only",
-  "governingRelationship": "MRD v2.0 §12.9 — Comparative Compression Geometry™",
-  "establishedStructure": "S¹ ↪ S³ → S²",
-  "comparisonDimensions": [
-    "fiber structure",
-    "equivalence classes",
-    "dimensional reduction",
-    "canonical representation",
-    "linked topology",
-    "state-space geometry",
-    "preservation of relational structure"
-  ],
-  "interpretationBoundary": "The Hopf fibration is established mathematics. Its relationship to Comparative Compression Geometry™ and the Grand Compression Framework is comparative and structural only. It does not independently validate Grand Compression, establish universal Hopf topology in nature, or establish a shared physical mechanism, material identity, or causal equivalence across unrelated domains."
-},
+      "name": "Hopf Fibration",
+      "slug": "hopf-fibration",
+      "url": "https://www.robbiegeorgephotography.com/hopf-fibration",
+      "parent": "Geometry of Nature™",
+      "domain": "Mathematics / Topology / Fiber Bundles / State-Space Geometry",
+      "evidenceClass": "established-mathematics",
+      "ccgRelationship": "bounded-structural-comparison-class",
+      "frameworkRole": "comparative-only",
+      "governingRelationship": "MRD v2.0 §12.9 — Comparative Compression Geometry™",
+      "establishedStructure": "S¹ ↪ S³ → S²",
+      "comparisonDimensions": [
+        "fiber structure",
+        "equivalence classes",
+        "dimensional reduction",
+        "canonical representation",
+        "linked topology",
+        "state-space geometry",
+        "preservation of relational structure"
+      ],
+      "interpretationBoundary": "The Hopf fibration is established mathematics. Its relationship to Comparative Compression Geometry™ and the Grand Compression Framework is comparative and structural only. It does not independently validate Grand Compression, establish universal Hopf topology in nature, or establish a shared physical mechanism, material identity, or causal equivalence across unrelated domains."
+    },
     {
       "name": "E8 Lattice™",
       "slug": "e8-lattice",
@@ -67,40 +67,89 @@
       "name": "Fibonacci™",
       "slug": "fibonacci",
       "url": "https://www.robbiegeorgephotography.com/fibonacci",
+      "parent": "Geometry of Nature™",
+      "role": "mathematical-recurrence-and-biological-growth-reference",
+      "domain": "Mathematics / Number Theory / Recurrence / Modular Arithmetic / Natural Growth",
       "registry": "https://www.robbiegeorgephotography.com/v1/registries/fibonacci",
       "plateMap": "https://www.robbiegeorgephotography.com/v1/plates/fibonacci-map",
-      "knowledgeMesh": "https://www.robbiegeorgephotography.com/v1/knowledge-mesh/fibonacci"
+      "knowledgeMesh": "https://www.robbiegeorgephotography.com/v1/knowledge-mesh/fibonacci",
+      "plateCount": 11,
+      "mathematicalLayers": [
+        "Fibonacci recurrence",
+        "modular arithmetic",
+        "finite-state recurrence",
+        "Pisano periods",
+        "constraint bifurcation",
+        "prime-factor structure"
+      ],
+      "biologicalLayers": [
+        "phyllotaxis",
+        "spiral growth",
+        "efficient packing",
+        "plant development",
+        "pattern formation"
+      ],
+      "featuredMathematicalCaseStudy": {
+        "name": "Pisano Periods & Constraint Bifurcation Plate™",
+        "plateId": "fibonacci#pisano-periods-constraint-bifurcation-plate",
+        "url": "https://www.robbiegeorgephotography.com/fibonacci#pisano-periods-constraint-bifurcation-plate",
+        "domain": "Mathematics / Number Theory / Modular Arithmetic / Fibonacci Periodicity",
+        "evidenceClass": "first-party-published-mathematical-result",
+        "frameworkRole": "bounded-mathematical-case-study",
+        "ccgRelationship": "constraint-geometry-case-study",
+        "sharedStructure": "Fibonacci recurrence and shared 12-skeleton",
+        "constraintA": "π(m) = 2m",
+        "outcomeA": "m = 12 × 5^k for k >= 0",
+        "constraintB": "π(m^2) = 2m",
+        "outcomeB": "unique closure at m = 12, corresponding to modulus 144 and π(144) = 24",
+        "exceptionalPrime": 5,
+        "interpretationBoundary": "The Pisano classification is presented as a number-theory result. Its use within Comparative Compression Geometry™ is a bounded structural comparison and does not establish a shared physical, biological, or universal mechanism."
+      }
     }
   ],
   "semanticRelationships": [
-  "Geometry of Nature™ → Hopf Fibration",
-  "Geometry of Nature™ → E8 Lattice™",
-  "Geometry of Nature™ → Fractals™",
-  "Geometry of Nature™ → Fibonacci™",
+    "Geometry of Nature™ → Hopf Fibration",
+    "Geometry of Nature™ → E8 Lattice™",
+    "Geometry of Nature™ → Fractals™",
+    "Geometry of Nature™ → Fibonacci™",
 
-  "Hopf Fibration → Topology",
-  "Hopf Fibration → Fiber Bundles",
-  "Hopf Fibration → S¹ ↪ S³ → S²",
-  "Hopf Fibration → Linked Circular Fibers",
-  "Hopf Fibration → Equivalence Classes",
-  "Hopf Fibration → Dimensional Reduction",
-  "Hopf Fibration → State-Space Geometry",
-  "Hopf Fibration → Bloch Sphere",
-  "Bloch Sphere → Pure Single-Qubit State Geometry",
-  "Hopf Fibration → Comparative Compression Geometry™",
+    "Hopf Fibration → Topology",
+    "Hopf Fibration → Fiber Bundles",
+    "Hopf Fibration → S¹ ↪ S³ → S²",
+    "Hopf Fibration → Linked Circular Fibers",
+    "Hopf Fibration → Equivalence Classes",
+    "Hopf Fibration → Dimensional Reduction",
+    "Hopf Fibration → State-Space Geometry",
+    "Hopf Fibration → Bloch Sphere",
+    "Bloch Sphere → Pure Single-Qubit State Geometry",
+    "Hopf Fibration → Comparative Compression Geometry™",
 
-  "E8 Lattice™ → Fractals™",
+    "E8 Lattice™ → Fractals™",
 
-  "Fractals™ → Self-Similarity™",
-  "Fractals™ → Branching Systems™",
-  "Fractals™ → Pattern Formation™",
+    "Fractals™ → Self-Similarity™",
+    "Fractals™ → Branching Systems™",
+    "Fractals™ → Pattern Formation™",
 
-  "Fibonacci™ → Phyllotaxis™",
-  "Fibonacci™ → Spiral Growth™",
-  "Fibonacci™ → Efficient Packing™",
-  "Fibonacci™ → Pattern Formation™",
+    "Fibonacci™ → Fibonacci Recurrence",
+    "Fibonacci™ → Pisano Periods",
+    "Fibonacci™ → Modular Arithmetic",
+    "Fibonacci™ → Finite-State Recurrence",
+    "Fibonacci™ → Constraint Bifurcation",
 
-  "Pattern Formation™ → Living Mathematics™",
-  "Living Mathematics™ → Natural Networks™"
-]
+    "Pisano Periods → Fibonacci Periodicity",
+    "Pisano Periods → π(m) = 2m",
+    "Pisano Periods → π(m²) = 2m",
+    "π(m) = 2m → 12 × 5^k",
+    "π(m²) = 2m → Unique Closure at 144",
+    "Prime 5 → Recursive Pisano Scaling",
+    "Constraint Bifurcation → Comparative Compression Geometry™",
+
+    "Fibonacci™ → Phyllotaxis™",
+    "Fibonacci™ → Spiral Growth™",
+    "Fibonacci™ → Efficient Packing™",
+    "Fibonacci™ → Pattern Formation™",
+
+    "Pattern Formation™ → Living Mathematics™",
+    "Living Mathematics™ → Natural Networks™"
+  ]
 }
