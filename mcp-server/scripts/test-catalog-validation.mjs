@@ -4,7 +4,7 @@ import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import { stripTypeScriptTypes } from "node:module";
 import { test } from "node:test";
-import { runInNewContext } from "node:vm";
+import { compileFunction, runInNewContext } from "node:vm";
 
 // Run from mcp-server with:
 // node --test scripts/test-catalog-validation.mjs
@@ -198,31 +198,35 @@ const serverJavaScript = stripTypeScriptTypes(source.slice(serverStart, serverEn
 
 async function sdkHarness(t, body, options = {}) {
   let fetchCount = 0;
-  const createServer = runInNewContext(serverJavaScript + "\ncreateServer;", {
-    McpServer,
-    z,
-    // Use the host Error classes so SDK instanceof checks match production.
-    Error,
-    SyntaxError,
-    fetch: async (url, init) => {
-      assert.equal(url, catalogUrl, "Unexpected upstream URL");
-      const headers = new Headers(init?.headers);
-      for (const name of ["authorization", "x-payment", "payment-signature"]) {
-        assert.equal(headers.has(name), false, "Unexpected credential/payment header");
-      }
-      fetchCount += 1;
-      if (options.networkError) throw new Error("Simulated network failure");
-      const status = options.status ?? 200;
-      return {
-        ok: status >= 200 && status < 300,
-        status,
-        json: async () => {
-          if (options.invalidJson) throw new SyntaxError("Simulated invalid JSON");
-          return structuredClone(body);
-        },
-      };
-    },
-  }, { timeout: 1000 });
+  const mockFetch = async (url, init) => {
+    assert.equal(url, catalogUrl, "Unexpected upstream URL");
+    const headers = new Headers(init?.headers);
+    for (const name of ["authorization", "x-payment", "payment-signature"]) {
+      assert.equal(headers.has(name), false, "Unexpected credential/payment header");
+    }
+    fetchCount += 1;
+    if (options.networkError) throw new Error("Simulated network failure");
+    const status = options.status ?? 200;
+    return {
+      ok: status >= 200 && status < 300,
+      status,
+      json: async () => {
+        if (options.invalidJson) throw new SyntaxError("Simulated invalid JSON");
+        return structuredClone(body);
+      },
+    };
+  };
+
+  // Compile only the repository source already read above, in the same
+  // JavaScript context as the imported SDK and Zod. A separate VM context
+  // creates different Object prototypes, which the SDK rejects as raw schemas.
+  // Dependency injection keeps fetch simulated without changing global fetch.
+  // This is test setup, not a sandbox for executing untrusted code.
+  const createServer = compileFunction(
+    '"use strict";\n' + serverJavaScript + "\nreturn createServer;",
+    ["McpServer", "z", "fetch"],
+    { filename: "naturepedia-sdk-test-factory.js" },
+  )(McpServer, z, mockFetch);
 
   const server = createServer();
   const pending = new Map();
