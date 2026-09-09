@@ -38,6 +38,9 @@ jobs:
       - name: Type-check
         run: npm run typecheck
 
+      - name: Test catalog validation
+        run: node --test scripts/test-catalog-validation.mjs
+
       - name: Validate MCP Registry metadata
         run: npm run validate:registry
 
