@@ -33,14 +33,71 @@ async function loadCatalog(): Promise<CatalogItem[]> {
   });
 
   if (!response.ok) {
-    throw new Error(`AI catalog returned HTTP ${response.status}`);
+    throw new Error("AI catalog returned HTTP " + response.status);
   }
 
-  const body = (await response.json()) as {
-    catalog?: { items?: CatalogItem[] };
-  };
+  let body: unknown;
 
-  return Array.isArray(body.catalog?.items) ? body.catalog.items : [];
+  try {
+    body = await response.json();
+  } catch {
+    throw new Error(
+      "AI catalog returned invalid JSON. Discovery is unavailable, not empty.",
+    );
+  }
+
+  const isRecord = (value: unknown): value is Record<string, unknown> =>
+    typeof value === "object" && value !== null && !Array.isArray(value);
+
+  if (
+    !isRecord(body) ||
+    !isRecord(body.catalog) ||
+    !Array.isArray(body.catalog.items)
+  ) {
+    throw new Error(
+      "AI catalog validation failed: expected catalog.items to be an array. " +
+        "This is not a no-results response.",
+    );
+  }
+
+  const items: unknown[] = body.catalog.items;
+  const stringFields = [
+    "id", "identifier", "slug", "type", "mediaType", "name", "description",
+    "url", "alternateUrl", "paymentProtocol", "network", "asset", "price",
+  ] as const;
+
+  for (let index = 0; index < items.length; index += 1) {
+    const item = items[index];
+    const itemPath = "catalog.items[" + index + "]";
+
+    if (!isRecord(item)) {
+      throw new Error(
+        "AI catalog validation failed: " + itemPath + " must be an object.",
+      );
+    }
+
+    for (const field of stringFields) {
+      if (field in item && typeof item[field] !== "string") {
+        throw new Error(
+          "AI catalog validation failed: " + itemPath + "." + field +
+            " must be a string when present.",
+        );
+      }
+    }
+
+    if (
+      "requiresPayment" in item &&
+      typeof item.requiresPayment !== "boolean"
+    ) {
+      throw new Error(
+        "AI catalog validation failed: " + itemPath +
+          ".requiresPayment must be a boolean when present.",
+      );
+    }
+  }
+
+  // Preserve valid empty catalogs and every original item field.
+  return items as CatalogItem[];
 }
 
 function normalize(value: unknown): string {

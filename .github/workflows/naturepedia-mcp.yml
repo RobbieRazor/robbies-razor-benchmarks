@@ -33,13 +33,166 @@ jobs:
           node-version: "22"
 
       - name: Install dependencies
+        id: install
         run: npm install
 
       - name: Type-check
         run: npm run typecheck
+
+      - name: Test catalog validation
+        run: node --test scripts/test-catalog-validation.mjs
 
       - name: Validate MCP Registry metadata
         run: npm run validate:registry
 
       - name: Build Worker bundle
         run: npx wrangler deploy --dry-run --outdir dist-worker
+
+      - name: Check live catalog compatibility
+        timeout-minutes: 2
+        run: |
+          node --input-type=module <<'NODE'
+          import assert from "node:assert/strict";
+          import { createHash } from "node:crypto";
+          import { readFileSync } from "node:fs";
+          import { stripTypeScriptTypes } from "node:module";
+          import { compileFunction } from "node:vm";
+
+          const url = "https://www.robbiegeorgephotography.com/.well-known/ai-catalog.json";
+          const source = readFileSync("src/index.ts", "utf8");
+          const marker = "async function loadCatalog(";
+          const start = source.indexOf(marker);
+          const end = source.indexOf("\nfunction normalize(", start);
+          assert.ok(start >= 0 && end > start, "Cannot locate catalog loader");
+          assert.equal(source.indexOf(marker, start + 1), -1, "Duplicate catalog loader");
+          const loaderSource = source.slice(start, end);
+          const report = {
+            check: "LIVE_CATALOG_COMPATIBILITY",
+            checkedAt: new Date().toISOString(),
+            testedCommit: process.env.GITHUB_SHA,
+            sourceUrl: url,
+            loaderSha256: createHash("sha256").update(loaderSource).digest("hex"),
+            requests: 0,
+          };
+
+          // Run the actual repository loader. Fetch only the public catalog, not its links.
+          const loadCatalog = compileFunction(
+            '"use strict";\n' + stripTypeScriptTypes(loaderSource) + "\nreturn loadCatalog;",
+            ["AI_CATALOG_URL", "fetch"],
+          )(url, async (requestedUrl, options) => {
+            assert.equal(requestedUrl, url, "Unexpected catalog URL");
+            assert.equal(report.requests, 0, "No automatic retries are permitted");
+            const headers = new Headers(options?.headers);
+            for (const name of ["authorization", "x-payment", "payment-signature"]) {
+              assert.equal(headers.has(name), false, "Unexpected credential/payment header");
+            }
+            report.requests += 1;
+            const response = await fetch(requestedUrl, {
+              ...options,
+              redirect: "error",
+              signal: AbortSignal.timeout(25000),
+            });
+            report.httpStatus = response.status;
+            report.contentType = response.headers.get("content-type");
+            report.responseDate = response.headers.get("date");
+            report.cacheStatus = response.headers.get("cf-cache-status");
+            report.cacheAge = response.headers.get("age");
+            const bytes = Buffer.from(await response.clone().arrayBuffer());
+            report.responseBytes = bytes.length;
+            report.responseSha256 = createHash("sha256").update(bytes).digest("hex");
+            return response;
+          });
+
+          try {
+            const items = await loadCatalog();
+            report.result = "PASS";
+            report.itemCount = items.length;
+            report.boundary = "Current public response accepted by the loader; not a deployment test.";
+            console.log(JSON.stringify(report, null, 2));
+          } catch (error) {
+            report.result = "FAIL";
+            report.error = error instanceof Error ? error.message : String(error);
+            console.log(JSON.stringify(report, null, 2));
+            process.exitCode = 1;
+          }
+          NODE
+
+      - name: Report dependency vulnerabilities (no fixes)
+        if: ${{ !cancelled() && steps.install.outcome == 'success' }}
+        timeout-minutes: 3
+        run: |
+          node --input-type=module <<'NODE'
+          import { spawnSync } from "node:child_process";
+          import { createHash } from "node:crypto";
+          import { readFileSync } from "node:fs";
+
+          // Report only: never run npm audit fix or update package versions here.
+          const lockBytes = readFileSync("package-lock.json");
+          const lock = JSON.parse(lockBytes.toString("utf8"));
+          console.log(JSON.stringify({
+            check: "DEPENDENCY_AUDIT_REPORT",
+            checkedAt: new Date().toISOString(),
+            testedCommit: process.env.GITHUB_SHA,
+            lockSha256: createHash("sha256").update(lockBytes).digest("hex"),
+            boundary: "Dependency findings require review; this report is not a security clearance.",
+          }, null, 2));
+
+          let reportFailed = false;
+          for (const [scope, flags] of [
+            ["all-dependencies", []],
+            ["excluding-dev-dependencies", ["--omit=dev"]],
+          ]) {
+            const run = spawnSync("npm", ["audit", "--json", ...flags], {
+              encoding: "utf8",
+              timeout: 60000,
+              maxBuffer: 10 * 1024 * 1024,
+              env: {
+                ...process.env,
+                npm_config_fetch_retries: "0",
+                npm_config_fetch_timeout: "25000",
+              },
+            });
+            try {
+              if (run.error) throw run.error;
+              const data = JSON.parse(run.stdout);
+              if (![0, 1].includes(run.status) || data.error ||
+                  !Number.isInteger(data.metadata?.vulnerabilities?.total) ||
+                  typeof data.vulnerabilities !== "object" || data.vulnerabilities === null) {
+                throw new Error("Audit did not return a complete report: " +
+                  JSON.stringify(data.error ?? { exitStatus: run.status }));
+              }
+              const packages = Object.entries(data.vulnerabilities).map(([name, finding]) => ({
+                name,
+                severity: finding.severity,
+                isDirect: finding.isDirect,
+                range: finding.range,
+                via: finding.via,
+                effects: finding.effects,
+                fixAvailable: finding.fixAvailable,
+                installed: (finding.nodes ?? []).map((path) => ({
+                  path,
+                  version: lock.packages?.[path]?.version ?? null,
+                  dev: lock.packages?.[path]?.dev ?? false,
+                })),
+              }));
+              console.log(JSON.stringify({
+                scope,
+                exitStatus: run.status,
+                counts: data.metadata.vulnerabilities,
+                packages,
+              }, null, 2));
+              if (data.metadata.vulnerabilities.total > 0) {
+                console.log("::warning::Dependency vulnerabilities reported for " + scope +
+                  "; review the details before merging or deploying. No fixes were applied.");
+              }
+            } catch (error) {
+              reportFailed = true;
+              console.log(JSON.stringify({
+                scope,
+                result: "REPORT_UNAVAILABLE",
+                error: error instanceof Error ? error.message : String(error),
+              }, null, 2));
+            }
+          }
+          if (reportFailed) process.exitCode = 1;
+          NODE
