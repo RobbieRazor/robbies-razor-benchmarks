@@ -3,7 +3,10 @@
   "name": "naturepedia-mcp",
   "main": "src/index.ts",
   "compatibility_date": "2026-08-12",
-  "compatibility_flags": ["nodejs_compat"],
+  "compatibility_flags": [
+    "nodejs_compat",
+    "global_fetch_strictly_public"
+  ],
   "routes": [
     {
       "pattern": "mcp.robbiegeorgephotography.com",
