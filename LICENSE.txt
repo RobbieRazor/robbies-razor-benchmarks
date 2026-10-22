@@ -170,49 +170,92 @@ GitHub Terms of Service:
 
 https://docs.github.com/en/site-policy/github-terms/github-terms-of-service
 
-## 9. Framework Licensing, Data Licensing, and Paid Retrieval
+## 9. Photography, Data, Framework, and Retrieval Licensing
 
-Repository evaluation permissions, framework implementation rights,
-commercial data-use rights, and paid endpoint retrieval are separate.
+This repository grants the limited permissions expressly stated in this
+license. Additional permissions may be available through the licensing
+programs below.
 
-### Framework Licensing
+The linked pages identify the appropriate licensing routes. Their inclusion
+here does not, by itself, grant additional rights or replace permissions
+already available under this license, a material-specific license,
+applicable law, an applicable platform agreement, or another valid agreement.
 
-Commercial or production use of protected framework Materials may
-require a separate written framework license specifying the permitted
-implementation, deployment, or integration.
+### Photography Licensing
 
-Framework licensing information:
+For permission to reproduce, publish, distribute, display, or otherwise
+use Robbie George’s photographs beyond permissions already granted for
+the relevant image, see:
 
-https://www.robbiegeorgephotography.com/robbies-razor-framework-licensing
+[Nature Photography Licensing](https://www.robbiegeorgephotography.com/nature-photography-licensing)
+
+The applicable photography agreement identifies the authorized images,
+project, media, distribution, territory, duration, and other conditions.
+
+Purchasing a physical print does not, by itself, grant reproduction
+rights. A data or framework license does not automatically include
+photography rights.
 
 ### Commercial Data Licensing
 
-Commercial reuse, redistribution, or other licensed uses of applicable
-data resources are governed by the relevant written data-license terms.
+For additional commercial permissions concerning Naturepedia content,
+structured knowledge assets, metadata, datasets, and related authored
+resources, see:
 
-Commercial data licensing information:
+[Commercial Data License](https://www.robbiegeorgephotography.com/commercial-data-license)
 
-https://www.robbiegeorgephotography.com/commercial-data-license
+Any licensed training, fine-tuning, embedding, persistent ingestion,
+synchronization, redistribution, or derivative-dataset use must fall
+within the scope of the applicable agreement.
 
-### Paid Endpoint Retrieval
+A commercial data license does not automatically include photography
+rights or framework implementation rights.
 
-Where an endpoint requires payment, including through x402, payment
-authorizes the identified retrieval under that endpoint’s applicable
-access terms.
+### Framework Implementation Licensing
 
-Payment does not automatically grant:
+For commercial or production use of covered framework Materials, or
+for additional implementation and deployment permissions, see:
 
-- Copyright ownership.
-- Unrestricted commercial reuse.
-- Redistribution or sublicensing rights.
-- AI-training or fine-tuning rights.
-- Framework implementation or production deployment rights.
+[Robbie’s Razor Framework Licensing](https://www.robbiegeorgephotography.com/robbies-razor-framework-licensing)
 
-Any broader permission must be expressly granted by the applicable
-license or agreement.
+The applicable framework agreement defines the covered materials,
+authorized implementation, deployment scope, and any associated
+services or support.
 
-Publicly accessible repository files are not made payment-restricted
-merely because they describe or link to a paid retrieval service.
+A framework license does not automatically include rights to
+photographs, Naturepedia content, datasets, or other separately
+licensed assets.
+
+### Paid Machine Retrieval
+
+Payment for an x402 endpoint authorizes the identified retrieval under
+the applicable access terms.
+
+That payment does not automatically grant photography rights, broader
+commercial data reuse, AI training, redistribution, or framework
+implementation rights. Any additional permissions must be expressly
+included in the applicable license or agreement.
+
+Publicly accessible repository files do not become payment-restricted
+merely because this repository describes or links to a paid service.
+
+### Scope and Separate Agreements
+
+Rights granted for one category do not automatically extend to another.
+A written agreement may expressly authorize multiple categories.
+
+External photographs, documents, datasets, and website resources do not
+become covered by this repository’s evaluation permissions merely
+because the repository links to them.
+
+Separately identified licenses and written agreements apply to the
+materials and uses within their stated scope. Nothing in this section
+retroactively withdraws permissions validly granted under earlier terms.
+
+For licensing inquiries, identify the materials, repository version
+where applicable, intended use, and permissions requested:
+
+[Contact Robbie George](https://www.robbiegeorgephotography.com/contact)
 
 ## 10. Separate Agreements and Rights Reserved
 
