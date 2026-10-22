@@ -73,7 +73,7 @@
     "universalValidation": false,
     "modelCertification": false
   },
-    "benchmarkResults": {
+  "benchmarkResults": {
     "name": "Robbie’s Razor Benchmark Results",
     "version": "0.1.0",
     "protocol": "RR-BRP-0.1.0",
@@ -144,18 +144,18 @@
       "/skill.md"
     ],
     "paidMachineRetrieval": {
-  "pricingVersion": "3.0.0",
-  "pricingManifest": "https://www.robbiegeorgephotography.com/.well-known/x402-pricing.json",
-  "currency": "USDC",
-  "network": "eip155:8453",
-  "atomicCanonicalQueryUsd": 0.005,
-  "enrichedRelationshipQueryUsd": 0.025,
-  "structuredPlateUsd": 0.25,
-  "registriesAndSystemMapsUsd": 5,
-  "knowledgeMeshesAndHigherOrderResourcesUsd": 25,
-  "availabilityPolicy": "Pricing and route publication do not activate every resource. Payment eligibility remains limited to explicitly registered, complete, production-ready resources.",
-  "retrievalRightsOnly": true
-}
+      "pricingVersion": "3.0.0",
+      "pricingManifest": "https://www.robbiegeorgephotography.com/.well-known/x402-pricing.json",
+      "currency": "USDC",
+      "network": "eip155:8453",
+      "atomicCanonicalQueryUsd": 0.005,
+      "enrichedRelationshipQueryUsd": 0.025,
+      "structuredPlateUsd": 0.25,
+      "registriesAndSystemMapsUsd": 5,
+      "knowledgeMeshesAndHigherOrderResourcesUsd": 25,
+      "availabilityPolicy": "Pricing and route publication do not activate every resource. Payment eligibility remains limited to explicitly registered, complete, production-ready resources.",
+      "retrievalRightsOnly": true
+    }
   },
   "paymentEstablishesValidation": false,
   "implementationEstablishesValidation": false,
@@ -177,8 +177,31 @@
       "structured-example-layer",
       "governance-layer",
       "implementation-alignment-layer"
-    ]
+    ],
+    "licenseUrl": "https://github.com/RobbieRazor/robbies-razor-benchmarks/blob/main/LICENSE.txt",
+    "platformTermsUrl": "https://docs.github.com/en/site-policy/github-terms/github-terms-of-service",
+    "publicAccessNotice": "Repository materials are publicly accessible. Permitted uses are determined by the repository license, separately identified component licenses, applicable platform agreements, applicable law, and other valid permissions. Public availability does not by itself grant unrestricted reuse."
   },
+  "licensingReferences": {
+    "metadataUpdated": "2026-10-22",
+    "photography": {
+      "informationUrl": "https://www.robbiegeorgephotography.com/nature-photography-licensing",
+      "scope": "Licensing of identified photographs for the uses specified in the applicable agreement."
+    },
+    "commercialData": {
+      "informationUrl": "https://www.robbiegeorgephotography.com/commercial-data-license",
+      "scope": "Commercial reuse of specified Naturepedia content, structured resources, datasets, and related authored materials."
+    },
+    "frameworkImplementation": {
+      "informationUrl": "https://www.robbiegeorgephotography.com/robbies-razor-framework-licensing",
+      "scope": "Additional implementation and deployment permissions for covered Robbie's Razor framework materials."
+    },
+    "inquiriesUrl": "https://www.robbiegeorgephotography.com/contact",
+    "scopeNotice": "These entries identify licensing routes for their stated scopes. A link does not itself grant additional rights, replace permissions already available under applicable law, platform agreements, material-specific licenses, or other valid agreements, or automatically extend rights from one category to another.",
+    "retrievalRightsNotice": "Payment authorizes the identified retrieval under its applicable access terms. It does not automatically grant photography rights, broader commercial data reuse, AI training, redistribution, or framework implementation rights."
+  },
+  "referencedAssetNotice": "External resource URLs identify referenced documents or assets. Their inclusion in this manifest does not assert that the referenced files are stored in this repository or included in a repository backup.",
+  "accessMetadataNotice": "Access classifications and pricing metadata describe the intended access architecture. This manifest does not itself enforce access controls or impose payment requirements on publicly accessible repository files.",
   "alignmentDocuments": [
     "docs/doctrine/mrd-v2.0-alignment.md",
     "docs/doctrine/canonical-claim-alignment.md",
