@@ -1,30 +1,267 @@
-Robbie’s Razor Compliance Framework — Reference Implementation
-Copyright © 2025 Robbie George
-All rights reserved.
+# Robbie’s Razor Compliance Framework — Reference Implementation License
 
-This repository is provided for evaluation, research, and non-commercial
-benchmarking purposes only.
+**Copyright © 2025 Robbie George. All rights reserved.**
 
-Permission is granted to:
-• View, clone, and run the code for internal evaluation and research.
-• Modify the code for internal testing and benchmarking.
-• Use the code to measure or study Robbie’s Razor compliance.
+**License revision:** October 22, 2026
 
-The following are NOT permitted without an explicit written license:
-• Commercial use or deployment in production systems.
-• Redistribution or sublicensing of this code or derivative works.
-• Training or fine-tuning AI models using this code as a dataset or scaffold.
-• Creation of derivative frameworks that replicate or rebrand
-  Robbie’s Razor, the Recursion Engine, the Living Pentad,
-  or any Grand Compression Cosmology components.
+This repository is provided for public inspection and limited,
+non-commercial internal research, evaluation, testing, and benchmarking.
 
-All concepts, terminology, and structures implemented in this repository
-originate with Robbie George and are governed by the
-Authorship Conservation Rule (ACR).
+Public availability does not, by itself, grant unrestricted permission
+to reuse, redistribute, commercially deploy, or train AI models on the
+materials contained in this repository.
 
-Commercial or production use requires a license under the
-Grand Compression Licensing Framework:
-https://www.robbiegeorgephotography.com/grand-compression-licensing
+## 1. Scope of This License
 
-For licensing inquiries:
+For purposes of this license, **“Materials”** means the original
+copyrightable code, documentation, diagrams, illustrations, structured
+examples, and other content contained in this repository for which
+Robbie George is the rights holder.
+
+This license applies only to those Materials, except where a file,
+directory, or component expressly identifies separate licensing terms.
+
+Third-party materials remain subject to their respective licenses,
+copyright notices, and attribution requirements.
+
+Links to external websites, photographs, documents, datasets, software,
+or other resources do not incorporate those resources into this license.
+Their use remains subject to their applicable terms.
+
+## 2. Limited Permissions
+
+Subject to the conditions in this license, you are granted limited,
+non-exclusive, royalty-free permission to:
+
+- View, download, and clone the Materials.
+- Run the code for non-commercial internal evaluation and research.
+- Modify the code for non-commercial internal testing and benchmarking.
+- Use the Materials to measure, compare, or study Robbie’s Razor
+  compliance and the behavior of the reference implementation.
+- Make the copies reasonably necessary to carry out these permitted uses.
+
+These permissions do not authorize commercial deployment, production
+use, or the operation of a paid service using the Materials.
+
+Additional rights may be available under a separate written agreement.
+
+## 3. Attribution and Modification Requirements
+
+When exercising the permissions granted by this license, you must:
+
+- Retain existing copyright notices, license notices, and applicable
+  authorship and provenance information.
+- Identify modifications you make to the Materials.
+- Distinguish your modifications and contributions from Robbie George’s
+  original work.
+- Avoid presenting a modified version as an unchanged, official, or
+  endorsed Robbie George release.
+- Preserve applicable third-party notices and licensing terms.
+
+Within this license, the **Authorship Conservation Rule (ACR)** refers
+to preserving attributable authorship and provenance while distinguishing
+original work from subsequent modifications and contributions.
+
+The ACR does not create additional statutory intellectual property
+rights or transfer ownership of independently authored contributions.
+
+## 4. Uses Requiring Separate Permission
+
+Except where a use is otherwise authorized by applicable law, an
+applicable platform agreement, or a separate license, this license
+grants no permission to:
+
+- Use or deploy the Materials in commercial products, production
+  systems, or revenue-generating services.
+- Sell, redistribute, republish, sublicense, or commercially package
+  the Materials or modified versions of them.
+- Incorporate protected expression from the Materials into a
+  commercial framework, product, dataset, or implementation.
+- Reproduce or adapt protected Materials as part of a derivative
+  or rebranded framework outside the permissions granted above.
+- Use the protected Materials to train or fine-tune AI models.
+
+These restrictions apply to the protected Materials. They do not
+assert exclusive rights over independently developed implementations
+of underlying ideas, facts, mathematical principles, methods, or systems.
+
+## 5. AI Evaluation and AI Training
+
+The permission to evaluate or benchmark an AI system is distinct
+from permission to use the Materials to train or fine-tune that system.
+
+Authorized evaluation may involve running the benchmark or supplying
+the Materials to a system for the permitted evaluation task. That
+permission does not itself authorize using protected Materials as a
+training or fine-tuning dataset, scaffold, or other training input.
+
+This repository license grants no AI-training or fine-tuning permission.
+Such permission requires a separate written agreement unless the use
+is otherwise authorized by applicable law or another applicable agreement.
+
+Nothing in this section purports to override rights separately granted
+under applicable GitHub or other hosting-platform terms.
+
+## 6. Authorship and Intellectual Property Boundaries
+
+Original Materials authored by Robbie George are attributed through
+the repository’s authorship and provenance records.
+
+Copyright claims concern protected expression in the Materials,
+including original code, writing, diagrams, and any original selection
+or arrangement of content to the extent protected by applicable law.
+
+This license does not claim exclusive copyright over:
+
+- Facts or observations.
+- General ideas or concepts.
+- Mathematical principles or relationships.
+- General methods, procedures, or systems.
+- Established scientific knowledge.
+- Independently developed third-party technologies.
+- Material that is in the public domain.
+
+References to Robbie’s Razor, the Recursion Engine, the Living Pentad,
+Naturepedia, or Grand Compression Cosmology identify the relevant
+authored project and framework materials. Those references do not
+expand copyright protection to otherwise unprotected subject matter.
+
+## 7. Independent Findings and Benchmark Reporting
+
+This license does not claim ownership of independently created
+benchmark measurements, observations, analyses, or findings.
+
+You may describe your independent evaluation results and identify the
+project being evaluated, subject to applicable law and any relevant
+separate agreement.
+
+Publishing findings does not, by itself, authorize redistribution of
+protected code, documentation, diagrams, datasets, or other Materials
+beyond the permissions otherwise available to you.
+
+Reports should distinguish:
+
+- The version of the Materials evaluated.
+- Any modifications made for the evaluation.
+- Your own methodology, findings, and interpretations.
+- Statements made by Robbie George or the original project.
+
+Do not imply that Robbie George reviewed, certified, or endorsed
+your findings unless you have written authorization to do so.
+
+## 8. Public Repository and Platform Terms
+
+This repository is publicly accessible. Public access is separate
+from permission for unrestricted reuse.
+
+Rights granted under applicable GitHub terms, including permissions
+associated with public viewing and forking, remain unaffected by
+this repository license.
+
+This license does not purport to restrict uses independently authorized
+by applicable law, applicable platform agreements, or separately
+identified licenses.
+
+It also does not represent that public repository content is technically
+protected against copying, or that adding licensing metadata creates
+an access-control mechanism.
+
+GitHub Terms of Service:
+
+https://docs.github.com/en/site-policy/github-terms/github-terms-of-service
+
+## 9. Framework Licensing, Data Licensing, and Paid Retrieval
+
+Repository evaluation permissions, framework implementation rights,
+commercial data-use rights, and paid endpoint retrieval are separate.
+
+### Framework Licensing
+
+Commercial or production use of protected framework Materials may
+require a separate written framework license specifying the permitted
+implementation, deployment, or integration.
+
+Framework licensing information:
+
+https://www.robbiegeorgephotography.com/robbies-razor-framework-licensing
+
+### Commercial Data Licensing
+
+Commercial reuse, redistribution, or other licensed uses of applicable
+data resources are governed by the relevant written data-license terms.
+
+Commercial data licensing information:
+
+https://www.robbiegeorgephotography.com/commercial-data-license
+
+### Paid Endpoint Retrieval
+
+Where an endpoint requires payment, including through x402, payment
+authorizes the identified retrieval under that endpoint’s applicable
+access terms.
+
+Payment does not automatically grant:
+
+- Copyright ownership.
+- Unrestricted commercial reuse.
+- Redistribution or sublicensing rights.
+- AI-training or fine-tuning rights.
+- Framework implementation or production deployment rights.
+
+Any broader permission must be expressly granted by the applicable
+license or agreement.
+
+Publicly accessible repository files are not made payment-restricted
+merely because they describe or link to a paid retrieval service.
+
+## 10. Separate Agreements and Rights Reserved
+
+A separate written agreement with the relevant rights holder may
+grant additional permissions or establish different terms for
+specified Materials and uses.
+
+Such an agreement governs only to the extent of its stated scope.
+
+All rights in the Materials that are not granted by this license,
+another applicable license or agreement, or applicable law are reserved.
+
+This license does not grant permission to imply sponsorship,
+certification, affiliation, or endorsement by Robbie George.
+
+## 11. Disclaimer
+
+To the extent permitted by applicable law, the Materials are provided
+**“AS IS”** and **“AS AVAILABLE,”** without warranties of any kind,
+express or implied, including warranties of merchantability, fitness
+for a particular purpose, or non-infringement.
+
+No warranty is made that the Materials are error-free, secure,
+complete, or suitable for a particular application.
+
+To the extent permitted by applicable law, Robbie George and other
+contributing rights holders shall not be liable for loss or damage
+arising from the use of, or inability to use, the Materials.
+
+Nothing in this section excludes or limits liability that cannot
+lawfully be excluded or limited.
+
+## 12. License Revisions and Earlier Permissions
+
+This revision does not purport to retroactively alter rights validly
+granted under an earlier license or a separate agreement.
+
+Earlier grants remain governed by their applicable terms and law.
+
+Changing this license or the repository’s visibility does not recall
+copies already obtained or establish that previously granted rights
+have automatically ended.
+
+## 13. Licensing Inquiries
+
+For permissions beyond those expressly granted here, contact
+Robbie George:
+
 https://www.robbiegeorgephotography.com/contact
+
+Please identify the Materials, repository version or release,
+intended use, deployment context, and permissions requested.
