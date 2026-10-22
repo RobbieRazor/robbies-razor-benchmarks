@@ -2420,12 +2420,12 @@ This material is explanatory context only and does not affect benchmarks or code
 
 ## Evaluation & Licensing Contact
 
-This repository is intentionally published as an **evaluation artifact** for internal benchmarking by research labs, infrastructure teams, and system designers.
+This repository provides reference implementations and evaluation materials for the non-commercial internal research, evaluation, testing, and benchmarking permitted by [LICENSE.txt](LICENSE.txt).
 
-For licensing discussions, extended evaluation access, or architectural review:
+For additional permissions, commercial or production use, extended evaluation access, or architectural review, contact Robbie George. Please identify the materials, repository version or release, intended use, deployment context, and permissions requested.
 
-**Contact:** robbiegeorgephotography@gmail.com  
-(Direct author contact — responses handled personally)
+**Licensing inquiries:** [Contact Robbie George](https://www.robbiegeorgephotography.com/contact)  
+**Email:** robbiegeorgephotography@gmail.com
 
 ---
 
@@ -2551,22 +2551,50 @@ These documents are explanatory, conservative, and non-advocacy in nature.
 
 ## Licensing & usage
 
-This repository is intentionally provided as an evaluation artifact prior to licensing or production integration discussions.
+This repository is publicly accessible and provides limited evaluation permissions under [LICENSE.txt](LICENSE.txt). The license covers Robbie George’s original copyrightable Materials, except where separate terms are expressly identified.
 
-This repository is provided under an **evaluation-only license**.
+This section summarizes the license. The full license, separately identified component licenses, applicable platform agreements, applicable law, and other valid permissions determine the rights available for a particular use.
 
-### Permitted
-- Internal research and benchmarking
-- Non-commercial experimentation
-- Measurement of Robbie’s Razor compliance
+### Permitted evaluation uses
 
-### Not permitted without license
-- Production deployment
-- Commercial use
-- Training or fine-tuning AI models using this code
-- Redistribution or derivative frameworks
+Within the scope and conditions of LICENSE.txt, you may:
 
-See `LICENSE.txt` for full terms.
+- View, download, and clone the covered Materials.
+- Run the code for non-commercial internal research and evaluation.
+- Modify the code for non-commercial internal testing and benchmarking.
+- Measure, compare, or study Robbie’s Razor compliance and reference implementation behavior within the permitted evaluation scope.
+- Make copies reasonably necessary for those permitted uses.
+
+Retain applicable copyright, license, authorship, and provenance notices. Identify modifications, distinguish them from the original work, and preserve applicable third-party notices.
+
+### Uses requiring additional permission
+
+Unless otherwise authorized by applicable law, an applicable platform agreement, or a separate license or agreement, the repository license grants no permission for:
+
+- Commercial use, production deployment, or operating a paid service using the covered Materials.
+- Redistribution, republication, sublicensing, or commercial packaging of the Materials or modified versions.
+- Incorporating protected expression into a commercial product or framework, or adapting protected Materials into a derivative or rebranded framework outside the permitted evaluation uses.
+- Using protected Materials to train or fine-tune AI models.
+
+Permission to evaluate or benchmark an AI system does not itself authorize training or fine-tuning with the Materials. Rights separately granted under applicable [GitHub Terms of Service](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) remain unaffected.
+
+This summary does not retroactively withdraw permissions validly granted under earlier terms or separate agreements.
+
+### Additional licensing routes
+
+| Licensing route | Scope |
+| --- | --- |
+| [Robbie’s Razor Framework Licensing](https://www.robbiegeorgephotography.com/robbies-razor-framework-licensing) | Additional permissions for covered framework implementation, commercial use, and production deployment. |
+| [Commercial Data License](https://www.robbiegeorgephotography.com/commercial-data-license) | Additional commercial permissions for specified Naturepedia content, structured resources, datasets, and related authored materials. |
+| [Nature Photography Licensing](https://www.robbiegeorgephotography.com/nature-photography-licensing) | Permissions for identified photographs and their specified uses. |
+
+Each license or agreement applies within its stated scope. Rights in one category do not automatically extend to another. Third-party materials and linked external assets remain subject to their own applicable terms; linking to an asset does not bring it under this repository’s evaluation license.
+
+Payment for an x402 endpoint authorizes the identified retrieval under its applicable access terms. It does not automatically grant broader commercial reuse, AI training, redistribution, photography, or framework implementation rights. Those uses depend on the permissions applicable to the materials and intended use.
+
+Public repository files do not become payment-restricted merely because the repository describes or links to a paid service.
+
+For additional permissions, [contact Robbie George](https://www.robbiegeorgephotography.com/contact).
 
 ---
 
@@ -2626,21 +2654,23 @@ Historical documents that specifically analyze MRD v1.9 may retain their origina
 
 ## Canonical attribution
 
-All concepts, terminology, claims, and framework-specific structures implemented in this repository originate with:
+The original Robbie’s Razor and Grand Compression Cosmology Materials identified in this repository as Robbie George’s work are attributed to:
 
 **Robbie George**  
 Author and originator — Robbie’s Razor™  
-Author and originator — The Grand Compression Cosmology  
-Current governing document — MRD v2.0  
+Author and originator — Grand Compression Cosmology  
+Canonical reference document — MRD v2.0  
 Identifier — `GC-MRD-v2.0`
 
-All repository documentation, benchmarks, schemas, machine-readable resources, implementations, and derivative evaluations are governed by the **Authorship Conservation Rule (ACR)**.
+Under [LICENSE.txt](LICENSE.txt), the **Authorship Conservation Rule (ACR)** means preserving attributable authorship and provenance while distinguishing original work from subsequent modifications and contributions.
 
-Implementation does not transfer authorship.
+Implementation, testing, or machine transformation does not transfer authorship of the preserved original Materials. Modifications, third-party materials, and independent contributions must remain distinguishable and appropriately attributed.
 
-Testing does not transfer authorship.
+The ACR does not create additional statutory intellectual property rights. Copyright claims concern protected expression in the Materials; the license does not claim exclusive rights over underlying ideas, facts, mathematical principles, methods, systems, established scientific knowledge, or public-domain material.
 
-Machine transformation does not create a new originating author for preserved canonical structure.
+The repository does not claim ownership of independently created benchmark measurements, observations, analyses, or findings. Evaluation reports should identify the version evaluated, relevant modifications, methodology, and the evaluator’s own findings.
+
+Publication of findings does not itself authorize redistribution of protected Materials or imply Robbie George’s review, certification, or endorsement.
 
 ---
 
