@@ -27,6 +27,24 @@ compression → expression → memory → recursion
 
 **Key concepts:** Robbie’s Razor · Grand Compression Cosmology · Recursive Stability · Compression Efficiency · Reasoning Benchmarks
 
+### The Containment Paradigm: Applied Architecture Reference
+
+[The Containment Paradigm: Bounded Authority for AI Systems](https://www.robbiegeorgephotography.com/containment-paradigm) is a public applied reference design for separating AI reasoning from the authority to retrieve, modify, publish, or invoke tools. It connects governed knowledge retrieval with explicit limits on what a model or connected service is permitted to do.
+
+Use the reference to frame deployment requirements for:
+
+- Scoped authorization covering named identities, resources, versions, and operations.
+- Enforcement of credential scope and permitted actions outside the model's control.
+- Defined budgets for requests, processing, retries, time, and spending, with the per-request or aggregate scope identified.
+- Verification of denied operations, revoked credentials, downstream effects, recovery, and legitimate task completion.
+
+**Evidence scope:** Claims about deployed authorization, isolation, or recovery require evidence from the specific implementation and test conditions. MRD v2.0 remains the governing framework authority.
+
+**Related engineering documentation:**
+
+- [Recursive Blast Radius Limit](docs/doctrine/recursive-blast-radius-limit.md) — propagation, permissions, persistence, isolation, and recovery.
+- [x402 Worker Architecture](docs/examples/x402/worker-architecture.md) — documented discovery, availability, payment, delivery, and production-evidence boundaries.
+
 ## Grand Compression Law of Intelligence
 
 Within the **Grand Compression Cosmology**, intelligence is modeled through the reuse of preserved compressed structure across recursive cycles under finite resource and stabilization constraints.
