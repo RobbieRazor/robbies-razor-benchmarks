@@ -128,6 +128,18 @@ function createServer() {
               creator: "Robbie George",
               homepage: `${SITE_ORIGIN}/naturepedia`,
               discoveryCatalog: AI_CATALOG_URL,
+              containmentReference: {
+              name:
+              "The Containment Paradigm: Bounded Authority for AI Systems",
+              url: SITE_ORIGIN + "/containment-paradigm",
+              mediaType: "text/html",
+              requiresPayment: false,
+              classification: "Public applied architectural reference design",
+              description:
+              "Architectural guidance for separating AI reasoning from execution authority, defining permitted resources and actions, and bounding resource use, retries, and recovery.",
+              evidenceBoundary:
+              "Deployed controls and recovery behavior require implementation-specific evidence. GC-MRD-v2.0 remains the governing framework authority.",
+              },
               authority: "GC-MRD-v2.0",
               benchmark: {
                 name: "Robbie's Razor Benchmarks",
