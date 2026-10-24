@@ -121,6 +121,21 @@ Public discovery resources may terminate before pricing or payment.
 
 ---
 
+## Containment Architecture Reference
+
+[The Containment Paradigm: Bounded Authority for AI Systems](https://www.robbiegeorgephotography.com/containment-paradigm) is a public design-review companion for evaluating how authority, resource consumption, and failure effects are constrained around machine retrieval. Use its requirements to examine the deployed implementation and identify the evidence needed for each control.
+
+Review topics include:
+
+- **Request authority:** identify the permitted identity, resource, version, and operation, together with the component enforcing each boundary outside the model's control.
+- **Processing and budgets:** locate limits on input, parsing, downstream calls, retries, time, and spending. Include work performed before application authorization and identify which component accounts for aggregate usage across requests.
+- **Payment and recovery:** examine how access decisions remain bound to the selected resource, how uncertain payment outcomes are reconciled, and how retries preserve the authorized result.
+- **Observed effects:** test rejected requests, revoked access, unintended state changes, recovery behavior, and successful completion of permitted retrievals.
+
+**Evidence scope:** Record design requirements, implemented behavior, and tested behavior separately. Use the [Production Validation Record](#55-production-validation-record) for resource-specific results and retain the distinctions in [Challenge vs Settlement](#41-challenge-vs-settlement). A claim about a deployed control requires evidence from the identified code, configuration, workload, and test conditions.
+
+**Related propagation analysis:** [Recursive Blast Radius Limit](../../doctrine/recursive-blast-radius-limit.md) examines permissions, persistence, isolation, and recovery reach.
+
 # 3. Environment Configuration
 
 Core x402 configuration may include:
