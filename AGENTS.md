@@ -912,6 +912,17 @@ They do **not** modify:
 - scoring rules
 - output schemas
 
+### Applied Containment Reference (Design Guidance)
+
+[The Containment Paradigm: Bounded Authority for AI Systems](https://www.robbiegeorgephotography.com/containment-paradigm) is a public applied reference design for separating AI reasoning from execution authority and evaluating resource, action, and budget boundaries.
+
+Related repository guidance:
+
+- [Recursive Blast Radius Limit](docs/doctrine/recursive-blast-radius-limit.md) — propagation, permissions, persistence, isolation, and recovery.
+- [x402 Worker Architecture](docs/examples/x402/worker-architecture.md) — documented discovery, availability, payment, delivery, and production-evidence boundaries.
+
+MRD v2.0 remains the governing framework authority. This reference does not create a canonical claim, change evaluation semantics, or establish that proposed controls are deployed or independently validated. Claims about deployed controls require evidence from the identified code, configuration, workload, and test conditions.
+
 ### Documentation Entry Point
 
 For structured repository navigation, agents SHOULD treat the following file as the documentation index:
@@ -2768,8 +2779,10 @@ recursive intelligence systems:
   preserve reachable future state space under constraint.
 
 • **Recursive Blast Radius Limit (§11.11A)**  
-  defines the maximum architectural depth that recursive modification
-  may penetrate before systemic instability propagates across layers.
+  describes a system-specific assessment of the downstream states, actions,
+  and resources that a recursive change can affect. The assessment considers
+  permissions, dependencies, persistence, isolation, and recovery.
+  Architectural depth alone does not establish blast radius.
 
 These constructs are **interpretive architectural constraints only**.
 
