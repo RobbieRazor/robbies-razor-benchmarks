@@ -102,6 +102,23 @@ It is not simply a question of how many architectural layers exist.
 
 ---
 
+## Applied Containment Architecture Companion
+
+[The Containment Paradigm: Bounded Authority for AI Systems](https://www.robbiegeorgephotography.com/containment-paradigm) is a public reference design for separating AI reasoning from execution authority. It complements this evaluation guide by asking where independent controls constrain permitted resources, operations, budgets, and potential effects.
+
+Use the documents together to connect:
+
+- [Permission Boundary](#11-permission-boundary) — identify credential scope, permitted operations, and limits on actions and resource use.
+- [Persistence Boundary](#12-persistence-boundary) — inspect which downstream changes survive the original execution, including changes to external services and stored records.
+- [Independent Recovery Control](#24-independent-recovery-control) — identify independent revocation, stopping, and recovery controls, then test whether the affected component can interfere with them.
+- [Testing Procedure](#33-testing-procedure) — observe downstream effects, verify rejected actions and recovery behavior, and check that permitted tasks can still complete.
+
+**Evidence scope:** Keep possible propagation, observed effects, and causal attribution distinct. A claim that a control bounds propagation requires results from the identified implementation, configuration, workload, and test conditions. MRD v2.0 remains the governing framework authority.
+
+**Related gateway documentation:** [x402 Worker Architecture](../examples/x402/worker-architecture.md) describes the gateway's discovery, availability, payment, delivery, and production-evidence boundaries.
+
+---
+
 # 2. Recursive Blast Radius
 
 For a declared system, **recursive blast radius** may be defined as the bounded set of downstream:
