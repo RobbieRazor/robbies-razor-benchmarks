@@ -1,0 +1,134 @@
+{
+  "recordFormat": "naturepedia-transaction-correlation-v1",
+  "documentedDate": "2026-11-14",
+  "eventDateUTC": "2026-11-13",
+  "evidenceClass": "Operator-supplied transfer export and production-log correlation",
+  "transactionHash": "0xd376185ef2bca0e0bb2f77e033984b03254461ca1c69a30180eef9ac6b9c55d0",
+  "transcriptionNotice": "Selected fields transcribed from operator-pasted records. Metric message JSON was decoded; keys were reordered and common request context deduplicated. This is not an original raw export or an independently authenticated receipt.",
+  "transferExport": {
+    "provenance": "One selected row from the operator-supplied BaseScan token-transfer CSV text.",
+    "independentlyRetrieved": false,
+    "selectedFields": {
+      "Transaction Hash": "0xd376185ef2bca0e0bb2f77e033984b03254461ca1c69a30180eef9ac6b9c55d0",
+      "Status": "Success",
+      "Method": "Transfer With Authorization",
+      "BlockNo": "56789662",
+      "DateTime (UTC)": "2026-11-13 05:38:28",
+      "To": "0xb0d0207bCd46c6a7009cA5c8294177D79aDc0807",
+      "Amount": "0.005",
+      "Token": "USDC (USDC)"
+    }
+  },
+  "workerLogs": {
+    "provenance": "Three operator-pasted Cloudflare production log records; no direct Cloudflare account retrieval was performed for this record.",
+    "independentlyRetrieved": false,
+    "commonSelectedContext": {
+      "scriptName": "cold-bird-7036",
+      "scriptVersion": {
+        "id": "d8a71782-86c8-4681-ad64-1ab6d9ab7c02"
+      },
+      "eventType": "fetch",
+      "request": {
+        "method": "GET",
+        "url": "https://www.robbiegeorgephotography.com/v1/query/atomic/robbie-george-biography-plate?resource=https%3A%2F%2Fwww.robbiegeorgephotography.com%2Fv1%2Fquery%2Fatomic%2Frobbie-george-biography-plate",
+        "path": "/v1/query/atomic/robbie-george-biography-plate",
+        "search": {
+          "resource": "https://www.robbiegeorgephotography.com/v1/query/atomic/robbie-george-biography-plate"
+        }
+      }
+    },
+    "metricMessageExcerpts": [
+      {
+        "metricType": "x402-pricing",
+        "pricingVersion": "3.0.0",
+        "timestamp": "2026-11-13T05:38:28.120Z",
+        "path": "/v1/query/atomic/robbie-george-biography-plate",
+        "canonicalPath": "/x402/query/atomic/robbie-george-biography-plate",
+        "gatewayTier": "atomic",
+        "resourceClass": "atomic-query",
+        "amountAtomic": 5000,
+        "amountUSDC": 0.005,
+        "transactionHash": "0xd376185ef2bca0e0bb2f77e033984b03254461ca1c69a30180eef9ac6b9c55d0",
+        "event": "payment_settled",
+        "status": "settled"
+      },
+      {
+        "metricType": "x402-pricing",
+        "pricingVersion": "3.0.0",
+        "timestamp": "2026-11-13T05:38:28.120Z",
+        "path": "/v1/query/atomic/robbie-george-biography-plate",
+        "canonicalPath": "/x402/query/atomic/robbie-george-biography-plate",
+        "gatewayTier": "atomic",
+        "resourceClass": "atomic-query",
+        "amountAtomic": 5000,
+        "amountUSDC": 0.005,
+        "transactionHash": "0xd376185ef2bca0e0bb2f77e033984b03254461ca1c69a30180eef9ac6b9c55d0",
+        "event": "payload_delivered",
+        "status": "delivered"
+      }
+    ],
+    "settlementResultExcerpt": {
+      "status": 200,
+      "network": "eip155:8453",
+      "transactionHash": "0xd376185ef2bca0e0bb2f77e033984b03254461ca1c69a30180eef9ac6b9c55d0",
+      "message": "x402 settlement result",
+      "success": true
+    },
+    "correlationReview": {
+      "transactionHashMatchesTransferRowAndAllThreeLogs": true,
+      "sameRequestTraceRayAndSpanIdentifiersInSuppliedRecords": true,
+      "metricTimestampsMatch": true,
+      "note": "Internal correlation identifier values were compared in the supplied records but are omitted from this public extract. This statement records the review, not independent authentication."
+    }
+  },
+  "sourceReview": {
+    "operatorSuppliedFilename": "Pasted text(20261114-133200).txt",
+    "sha256": "ec5c065c964457e9a736d4810f1b067c726cf3ec8430466ff62a593396055c98",
+    "lineCount": 26209,
+    "selectedLineReferences": {
+      "settlementLogStatus": "25953-25959",
+      "paidResponseConstruction": "25988-25991",
+      "responseReadinessComment": "26010",
+      "payloadDeliveredEventAndReturn": "26011-26037"
+    },
+    "sourceToCloudflareDeploymentIndependentlyVerified": false,
+    "note": "The uploaded source is interpretive evidence. A Cloudflare version UUID is not a Git commit, and this review did not independently retrieve the immutable deployed source for that UUID."
+  },
+  "redactionNotice": {
+    "omittedFromPublicWorkerExcerpts": [
+      "Cloudflare account identifier",
+      "walletHash",
+      "requestId",
+      "rayId",
+      "traceId",
+      "spanId",
+      "log metadata IDs",
+      "timestampNs",
+      "executionModel",
+      "eventSize",
+      "duplicated message envelopes and other nonessential metadata"
+    ],
+    "omittedFromSelectedTransferRow": [
+      "From",
+      "From_Nametag",
+      "To_Nametag",
+      "Value (USD)"
+    ],
+    "credentialsOrPaymentSignaturesIncluded": false,
+    "protectedPayloadIncluded": false,
+    "originalRecords": "Not included. The operator should retain original exports privately; private retention has not been independently verified."
+  },
+  "evidenceBoundary": {
+    "matchedTransactions": 1,
+    "serverRecordedSettlementSuccess": true,
+    "serverRecordedPayloadDeliveredEvent": true,
+    "clientReceiptObserved": false,
+    "clientPayloadValidationObserved": false,
+    "blockchainReceiptIndependentlyAuthenticated": false,
+    "finalClientFacingHttpStatusCaptured": false,
+    "buyerIdentityEstablished": false,
+    "autonomousAgentAttributionEstablished": false,
+    "generalizesToOtherTransactions": false,
+    "interpretation": "The supplied export and logs correlate one reported transfer with one atomic request, successful settlement logging, and a server response-readiness event. The uploaded code constructs an HTTP 200 response before that event, but client receipt and exact historical deployment-source identity remain unverified."
+  }
+}
