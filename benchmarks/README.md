@@ -81,6 +81,23 @@ They do not create or modify canonical Grand Compression claims.
 
 ---
 
+## SAT archive recovery evidence (v0.5.27)
+
+The frozen panel contains 24 SAT formulas. The warm recovery benchmark measured how long each reader took to reconstruct the required outputs from an archive already in memory. The original run measured an 18.51% reduction in recovery time for the reverse reader under the panel statistic. A fresh internal rerun measured 18.02%.
+
+- [Warm recovery timing manifest (JSON)](./sat-recovery-v0.5.27-manifest.json)
+
+A separate test limited each Linux process to 41 MiB of virtual address space. The baseline and reverse readers had the same completion counts in both passes. Changing how many recovered outputs the test held before checking and releasing them affected completion.
+
+| Outputs held per batch | Cases completed by each reader in each pass | Evidence |
+| --- | --- | --- |
+| 10 | 20 of 24 | [Batch-of-ten evidence (ZIP)](../sat-recovery-memory-limits-2026-11-22.zip) |
+| 5 | 24 of 24 | [Batch-of-five evidence (ZIP)](../sat-recovery-full-panel-batch5-41mib-2026-11-22.zip) |
+
+With batches of five, all 5,760 measured recoveries matched the reference outputs byte for byte. These are internal results on the tested host. Independent reproduction remains pending.
+
+---
+
 ## What This Benchmark Surface Measures
 
 Depending on the benchmark or fixture, repository evaluations may examine:
