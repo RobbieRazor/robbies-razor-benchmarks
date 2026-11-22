@@ -8,13 +8,15 @@ On a frozen panel of 24 synthetic SAT formulas, the v0.5.27 reverse reader recov
 
 [Read the study](https://www.robbiegeorgephotography.com/robbies-razor-sat-testing) · [Inspect the case-level JSON manifest](./benchmarks/sat-recovery-v0.5.27-manifest.json) · [Review the evidence and client audits](./benchmarks/README.md#sat-archive-recovery-evidence-v0527)
 
-## Run a Razor Audit
+## SAT recovery benchmark
 
-Evaluate any AI system using Robbie George’s Grand Compression Cosmology:
+On a frozen panel of 24 synthetic SAT formulas, Robbie’s Razor’s reverse reader recovered three outputs byte-for-byte: the original formula, the reduced formula, and the transformation record. Compared with the baseline reader, warm recovery took **18.51% less time** by the panel median in the original run and **18.02% less time** in an internal rerun.
 
-[![Run Razor Audit](https://img.shields.io/badge/Run-Razor%20Audit-black?style=for-the-badge&logo=google&logoColor=white)](https://gemini.google.com/gem-labs/1rRCe3P5aCIJEKAC2K_2aYoK-LRDBNPyS)
+The reverse archives used **826 additional bytes across the panel** (23,922 versus 23,096 bytes, a **3.58% increase**). The timed workload made zero SAT-solver calls. Independent execution of the original workload remains pending.
 
-Reference implementation and benchmarking framework for evaluating **Robbie’s Razor compliance**, recursive stability, and compression efficiency in reasoning systems operating under constrained compute, memory, and governance bandwidth.
+[View the SAT recovery study](https://www.robbiegeorgephotography.com/robbies-razor-sat-testing) · [Download the pinned v0.5.27 benchmark manifest (JSON)](https://raw.githubusercontent.com/RobbieRazor/robbies-razor-benchmarks/4bec57b979e637b9e23a0fe1090cb26f51330aed/benchmarks/sat-recovery-v0.5.27-manifest.json)
+
+This repository provides the reference implementation and benchmarking framework for evaluating **Robbie’s Razor compliance**, recursive stability, and compression efficiency in reasoning systems operating under constrained compute, memory, and governance bandwidth.
 
 ## System Architecture Overview
 
