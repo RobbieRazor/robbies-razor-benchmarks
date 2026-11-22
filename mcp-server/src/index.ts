@@ -287,6 +287,35 @@ function createServer() {
       };
     },
   );
+  const manifestUrl =
+    "https://raw.githubusercontent.com/RobbieRazor/robbies-razor-benchmarks/main/benchmarks/sat-recovery-v0.5.27-manifest.json";
+
+  server.registerResource(
+    "sat-recovery-v0.5.27",
+    manifestUrl,
+    {
+      title: "SAT Warm Archive Recovery Benchmark v0.5.27",
+      description: "24 frozen cases, two internal timing runs, and evidence fingerprints.",
+      mimeType: "application/json",
+    },
+    async () => {
+      const response = await fetch(manifestUrl);
+      if (!response.ok) {
+        throw new Error(`SAT recovery manifest returned HTTP ${response.status}`);
+      }
+
+      const text = await response.text();
+      const manifest = JSON.parse(text);
+      if (
+        manifest?.benchmark_id !== "robbies-razor-sat-warm-archive-recovery" ||
+        manifest.benchmark_version !== "0.5.27"
+      ) {
+        throw new Error("Unexpected SAT recovery benchmark manifest");
+      }
+
+      return { contents: [{ uri: manifestUrl, mimeType: "application/json", text }] };
+    },
+  );
 
   return server;
 }
