@@ -96,6 +96,12 @@ A separate test limited each Linux process to 41 MiB of virtual address space. T
 
 With batches of five, all 5,760 measured recoveries matched the reference outputs byte for byte. These are internal results on the tested host. Independent reproduction remains pending.
 
+### Simulated archive latency
+
+On the same 24-case panel, a local test introduced a 50 ms pause before the fifth archive read in a ten-read sequence. Across both readers, all 96 delayed reads and all 480 reads that followed them returned the expected outputs byte for byte. All 1,920 measured reads were exact. At the delayed position, the median increase over the matching control read was 50.43 ms.
+
+[Download the latency test protocol, raw observations, and verification script (ZIP)](../sat-recovery-latency-spike-v0.5.27-2026-11-22.zip)
+
 ---
 
 ## What This Benchmark Surface Measures
