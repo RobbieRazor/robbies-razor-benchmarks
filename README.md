@@ -2,6 +2,12 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21969841.svg)](https://doi.org/10.5281/zenodo.21969841)
 
+## Measured result: faster warm archive recovery
+
+On a frozen panel of 24 synthetic SAT formulas, the v0.5.27 reverse reader recovered the original formula, reduced formula, and transformation record in 18.51% less elapsed time under the study’s warm recovery measure. A fresh internal rerun measured an 18.02% reduction. The reverse archives used 23,922 bytes versus 23,096 bytes for the baseline, an increase of 826 bytes (3.58%). Both readers recovered the required outputs byte for byte. The timed task made zero SAT-solver calls. Independent execution of the workload remains pending.
+
+[Read the study](https://www.robbiegeorgephotography.com/robbies-razor-sat-testing) · [Inspect the case-level JSON manifest](./benchmarks/sat-recovery-v0.5.27-manifest.json) · [Review the evidence and client audits](./benchmarks/README.md#sat-archive-recovery-evidence-v0527)
+
 ## Run a Razor Audit
 
 Evaluate any AI system using Robbie George’s Grand Compression Cosmology:
