@@ -1,0 +1,1236 @@
+{
+  "manifest_version": "1.0.0",
+  "benchmark_id": "robbies-razor-sat-warm-archive-recovery",
+  "benchmark_version": "0.5.27",
+  "author": "Robbie George",
+  "title": "Robbie’s Razor SAT Testing — Frozen 24-Case Warm Archive Recovery Benchmark",
+  "as_of": "2026-11-22",
+  "study_url": "https://www.robbiegeorgephotography.com/robbies-razor-sat-testing",
+  "review_status": {
+    "independent_external_reproduction": "pending",
+    "reviewer_rehearsal": "skipped"
+  },
+  "scope": "Warm, in-memory exact archive recovery on fresh instances of six known synthetic constructions. The measured interval excludes setup, full external conformance checks, and network or payment latency. SAT-solver calls during recovery: zero.",
+  "output_contract": [
+    "original canonical DIMACS",
+    "exact canonical legacy JSON trace",
+    "reduced canonical DIMACS"
+  ],
+  "metric": {
+    "numerator": "R_independent wall elapsed nanoseconds",
+    "denominator": "B_recompute wall elapsed nanoseconds from the same paired round",
+    "unit": "dimensionless ratio",
+    "lower_is_better": true,
+    "per_pass_case": "Median of six within-round ratios.",
+    "combined_case": "Median of all twelve paired ratios for that case across the two passes.",
+    "panel": "Unweighted median of corresponding case medians over all 24 cases.",
+    "decision": {
+      "required_passes": [
+        1,
+        2
+      ],
+      "max_per_pass_panel_ratio": 0.95,
+      "all_correctness_checks_must_pass": true
+    }
+  },
+  "design": {
+    "cases": 24,
+    "construction_families": 6,
+    "passes_per_run": 2,
+    "paired_rounds_per_run": 288,
+    "timed_batches_per_run": 576,
+    "recoveries_per_timed_batch": 10,
+    "warmups_per_run": 96,
+    "source_protocol_in_original_bundle": "robbies-razor-sat-unseen-panel-v0.5.27/evidence/frozen/protocol.json",
+    "protocol_sha256": "a92464c48f7b39d24e42e16e81c3738b20b68f4966f24a26868327cb7a08bc3e"
+  },
+  "runs": [
+    {
+      "id": "original",
+      "activity": "internal_timing_run",
+      "completed_at_utc": "2026-10-29T01:58:02.200616+00:00",
+      "evidence_artifact": "original-bundle",
+      "evidence_directory": "robbies-razor-sat-unseen-panel-v0.5.27/outputs/unseen-panel-0527-001/",
+      "pass_panel_ratios": [
+        0.8136393785843625,
+        0.804357780336563
+      ],
+      "combined_panel_ratio": 0.8149107422466515,
+      "combined_reduction_percent": 18.51,
+      "case_medians_below_one": 24,
+      "passed_case_passes": 48,
+      "timed_recoveries_matching_reference": 5760,
+      "timing_criterion_met": true
+    },
+    {
+      "id": "internal-rerun",
+      "activity": "internal_timing_run",
+      "completed_at_utc": "2026-11-22T13:05:21.532913+00:00",
+      "evidence_artifact": "rerun-bundle",
+      "evidence_directory": "outputs/unseen-panel-0527-001/",
+      "pass_panel_ratios": [
+        0.8184051427269522,
+        0.8186174069534582
+      ],
+      "combined_panel_ratio": 0.8197705688227621,
+      "combined_reduction_percent": 18.02,
+      "case_medians_below_one": 24,
+      "passed_case_passes": 48,
+      "timed_recoveries_matching_reference": 5760,
+      "timing_criterion_met": true
+    }
+  ],
+  "derived_checks": [
+    {
+      "id": "original-timing-recalculation",
+      "activity": "recalculation",
+      "source_run": "original",
+      "date": "2026-11-22",
+      "new_measurements": 0,
+      "matched_report_batch_timings": 576,
+      "combined_panel_ratio": 0.8149107422466515,
+      "combined_reduction_percent": 18.51
+    }
+  ],
+  "frozen_panel_storage": {
+    "baseline_archive_bytes": 23096,
+    "reverse_archive_bytes": 23922,
+    "reverse_minus_baseline_bytes": 826,
+    "change_percent": 3.58
+  },
+  "evidence_access": "The study page and public PDF summarize the experiment. The raw measurement bundles are retained privately. Their fingerprints identify the files needed to verify individual timings.",
+  "artifacts": [
+    {
+      "id": "public-report",
+      "access": "public",
+      "url": "https://asf-file-uploads.s3.us-east-1.amazonaws.com/image/upload/production/3790/robbies-raz_7293f334c8/1793305504.pdf"
+    },
+    {
+      "id": "original-bundle",
+      "access": "retained_private",
+      "filename": "robbies-razor-sat-unseen-panel-v0.5.27.zip",
+      "size_bytes": 32829579,
+      "sha256": "c8916e81e706cbfe943a157537b2f1a2756d5a19e7dadc6c3dafd4efc1e02106"
+    },
+    {
+      "id": "rerun-bundle",
+      "access": "retained_private",
+      "filename": "razor-v0527-internal-rerun.zip",
+      "size_bytes": 3817004,
+      "sha256": "1bfec9af171b34c6b016a91631ebf57f453b7d76407cc08d71f14532e4317500"
+    },
+    {
+      "id": "technical-report",
+      "access": "retained_private",
+      "filename": "robbies-razor-sat-unseen-panel-v0.5.27.html",
+      "size_bytes": 444707,
+      "sha256": "02b6505b3d2553bdbb3af87e4a8685e54a8b9bfd514c2487341c5a5bd4696440"
+    }
+  ],
+  "cases": [
+    {
+      "id": "overlap_no_fold-g32-s52701",
+      "family": "overlap_no_fold",
+      "seed": 52701,
+      "initial_clauses": 128,
+      "variables": 16,
+      "source_directory_in_original_bundle": "robbies-razor-sat-unseen-panel-v0.5.27/sources/cases/overlap_no_fold-g32-s52701",
+      "files": {
+        "B_binary.zip": {
+          "sha256": "35cd1cc27902d117123e46fe30a8e4532e90b4d0523d1ccbe15a32ea57b8469e",
+          "size_bytes": 512
+        },
+        "R_reverse.zip": {
+          "sha256": "f816c83d5930c41bdc23624bcf42200b2356a0e45acbb475aab95e1389676eac",
+          "size_bytes": 572
+        },
+        "original.cnf": {
+          "sha256": "8ec8dae26444f96a0bfa5650c7a826f5ec8a898ee0830d149b6c63f05a1ff008",
+          "size_bytes": 1413
+        },
+        "transformation-trace.json": {
+          "sha256": "7c03f35d08339b64fa462112123d278f108bfba0cc7072f24dd0cfdf205c1634",
+          "size_bytes": 11308
+        },
+        "reduced.cnf": {
+          "sha256": "8ec8dae26444f96a0bfa5650c7a826f5ec8a898ee0830d149b6c63f05a1ff008",
+          "size_bytes": 1413
+        }
+      },
+      "measurements": {
+        "original": {
+          "pass_medians": [
+            0.776730479339314,
+            0.7798764827246122
+          ],
+          "combined_case_median": 0.776730479339314
+        },
+        "internal-rerun": {
+          "pass_medians": [
+            0.818280456102414,
+            0.8390884985646891
+          ],
+          "combined_case_median": 0.818280456102414
+        }
+      }
+    },
+    {
+      "id": "overlap_no_fold-g32-s52702",
+      "family": "overlap_no_fold",
+      "seed": 52702,
+      "initial_clauses": 128,
+      "variables": 16,
+      "source_directory_in_original_bundle": "robbies-razor-sat-unseen-panel-v0.5.27/sources/cases/overlap_no_fold-g32-s52702",
+      "files": {
+        "B_binary.zip": {
+          "sha256": "a0d55db24609d78ac3c5928da145cfd2d50870ac3311a4ec405f4a309d650cd1",
+          "size_bytes": 515
+        },
+        "R_reverse.zip": {
+          "sha256": "56c37219c538a98aa092347acf41475030df519c3e698edf5f98fad0deb66e4b",
+          "size_bytes": 578
+        },
+        "original.cnf": {
+          "sha256": "ba1e66736caaa279202eb7a0531c5883b1273969b0691197586ed6269f26d297",
+          "size_bytes": 1397
+        },
+        "transformation-trace.json": {
+          "sha256": "e4e3303b3aeb2644bcf1aa856e99d1706cfa14c532c0fcfd7d20e1c0bdc578e7",
+          "size_bytes": 11276
+        },
+        "reduced.cnf": {
+          "sha256": "ba1e66736caaa279202eb7a0531c5883b1273969b0691197586ed6269f26d297",
+          "size_bytes": 1397
+        }
+      },
+      "measurements": {
+        "original": {
+          "pass_medians": [
+            0.8392358183791133,
+            0.9113749080102512
+          ],
+          "combined_case_median": 0.8655307040185798
+        },
+        "internal-rerun": {
+          "pass_medians": [
+            0.8140039421967157,
+            0.8179783198078889
+          ],
+          "combined_case_median": 0.8179783198078889
+        }
+      }
+    },
+    {
+      "id": "overlap_no_fold-g96-s52701",
+      "family": "overlap_no_fold",
+      "seed": 52701,
+      "initial_clauses": 384,
+      "variables": 48,
+      "source_directory_in_original_bundle": "robbies-razor-sat-unseen-panel-v0.5.27/sources/cases/overlap_no_fold-g96-s52701",
+      "files": {
+        "B_binary.zip": {
+          "sha256": "c4dcef915d69914ddf1d03bb799829207e9b0ddbe0eea63ba64097ccdbdd11af",
+          "size_bytes": 1276
+        },
+        "R_reverse.zip": {
+          "sha256": "281f473a017990186a46ec2b8fed8f3c16f2301b89ab6bbb159709fa27e4f774",
+          "size_bytes": 1348
+        },
+        "original.cnf": {
+          "sha256": "f725d7d4306814916948d0f243c063477a22bb1bf0996d2fe86babb9380e3a14",
+          "size_bytes": 4597
+        },
+        "transformation-trace.json": {
+          "sha256": "5995a663505f1683d4e6cf3b2082bba235d6e3e1d58a1f3d0ce68b641657da6e",
+          "size_bytes": 33549
+        },
+        "reduced.cnf": {
+          "sha256": "f725d7d4306814916948d0f243c063477a22bb1bf0996d2fe86babb9380e3a14",
+          "size_bytes": 4597
+        }
+      },
+      "measurements": {
+        "original": {
+          "pass_medians": [
+            0.7679360268648645,
+            0.7590007338217954
+          ],
+          "combined_case_median": 0.7679360268648645
+        },
+        "internal-rerun": {
+          "pass_medians": [
+            0.7687515727501919,
+            0.7714298850301204
+          ],
+          "combined_case_median": 0.770642561912295
+        }
+      }
+    },
+    {
+      "id": "overlap_no_fold-g96-s52702",
+      "family": "overlap_no_fold",
+      "seed": 52702,
+      "initial_clauses": 384,
+      "variables": 48,
+      "source_directory_in_original_bundle": "robbies-razor-sat-unseen-panel-v0.5.27/sources/cases/overlap_no_fold-g96-s52702",
+      "files": {
+        "B_binary.zip": {
+          "sha256": "392918f23301f03147e416b738cc5b9af6ed4a2c52a2bcd4d82e5317c27d5e23",
+          "size_bytes": 1245
+        },
+        "R_reverse.zip": {
+          "sha256": "296137f95a8051bcfb1f752112f851cd94481ffdd953c7c7db4377b5bca550d7",
+          "size_bytes": 1325
+        },
+        "original.cnf": {
+          "sha256": "24ae6057ab1da35d06421a148731f9db242608094612a7983a39f4076bac955d",
+          "size_bytes": 4601
+        },
+        "transformation-trace.json": {
+          "sha256": "538728ffc1d038bb70f3ffed149a0ac994ee3aaffbdafb731288a1b4a234cece",
+          "size_bytes": 33557
+        },
+        "reduced.cnf": {
+          "sha256": "24ae6057ab1da35d06421a148731f9db242608094612a7983a39f4076bac955d",
+          "size_bytes": 4601
+        }
+      },
+      "measurements": {
+        "original": {
+          "pass_medians": [
+            0.7424698728990571,
+            0.7704376929059585
+          ],
+          "combined_case_median": 0.7606922885938909
+        },
+        "internal-rerun": {
+          "pass_medians": [
+            0.7867651574231538,
+            0.7740080475635387
+          ],
+          "combined_case_median": 0.7826011235330831
+        }
+      }
+    },
+    {
+      "id": "overlap_one_level-g32-s52701",
+      "family": "overlap_one_level",
+      "seed": 52701,
+      "initial_clauses": 128,
+      "variables": 16,
+      "source_directory_in_original_bundle": "robbies-razor-sat-unseen-panel-v0.5.27/sources/cases/overlap_one_level-g32-s52701",
+      "files": {
+        "B_binary.zip": {
+          "sha256": "1eefdad635af809976530aa99ce9a7e2ca3c1146751912174086ebd8cbdf2267",
+          "size_bytes": 537
+        },
+        "R_reverse.zip": {
+          "sha256": "4624953e480ef4a51367b4bde8828e0ab5bb0a02c0878afc222a758b060730af",
+          "size_bytes": 575
+        },
+        "original.cnf": {
+          "sha256": "aee8797e0e1a9ae842d692359268aac3e64ccd5c52298cd2bc5633fa4e5dfc8f",
+          "size_bytes": 1413
+        },
+        "transformation-trace.json": {
+          "sha256": "73597e72afdaad90c1bfe895428830ec911bb2544ff86d44e59884fee9b026d4",
+          "size_bytes": 23228
+        },
+        "reduced.cnf": {
+          "sha256": "6bf0236ace00d3672560b4a5af2b0c5f1d65da187515bf635560d8d45dc12017",
+          "size_bytes": 484
+        }
+      },
+      "measurements": {
+        "original": {
+          "pass_medians": [
+            0.8837117930589959,
+            0.9002215129962549
+          ],
+          "combined_case_median": 0.8837117930589959
+        },
+        "internal-rerun": {
+          "pass_medians": [
+            0.8512566876587176,
+            0.8613042289739032
+          ],
+          "combined_case_median": 0.8561150451144012
+        }
+      }
+    },
+    {
+      "id": "overlap_one_level-g32-s52702",
+      "family": "overlap_one_level",
+      "seed": 52702,
+      "initial_clauses": 128,
+      "variables": 16,
+      "source_directory_in_original_bundle": "robbies-razor-sat-unseen-panel-v0.5.27/sources/cases/overlap_one_level-g32-s52702",
+      "files": {
+        "B_binary.zip": {
+          "sha256": "8f7d193aa4e046100727b9afd4c85ca4515b04eb3818105de83d81b000b3bf37",
+          "size_bytes": 526
+        },
+        "R_reverse.zip": {
+          "sha256": "b0ddb11757c11a45bafe043a4d0d5e2fe8c07a766d632d3a255567a6b720882c",
+          "size_bytes": 564
+        },
+        "original.cnf": {
+          "sha256": "1e2295adcfa8e77ac62cc6ae8ea33f556a58ad3732413994a9c6e5b4ffb86884",
+          "size_bytes": 1397
+        },
+        "transformation-trace.json": {
+          "sha256": "2cfc2afc37bb2a3c57ec3e546a4952c2064148a94da1ff5de197b5b636064678",
+          "size_bytes": 23186
+        },
+        "reduced.cnf": {
+          "sha256": "26aa51e2168956591245320e163e982eab5da86d5d089d210a2741a996c476a5",
+          "size_bytes": 482
+        }
+      },
+      "measurements": {
+        "original": {
+          "pass_medians": [
+            0.8718353671747584,
+            0.8664223357418926
+          ],
+          "combined_case_median": 0.8664223357418926
+        },
+        "internal-rerun": {
+          "pass_medians": [
+            0.8454375384153142,
+            0.8300047478422511
+          ],
+          "combined_case_median": 0.8436329122213305
+        }
+      }
+    },
+    {
+      "id": "overlap_one_level-g96-s52701",
+      "family": "overlap_one_level",
+      "seed": 52701,
+      "initial_clauses": 384,
+      "variables": 48,
+      "source_directory_in_original_bundle": "robbies-razor-sat-unseen-panel-v0.5.27/sources/cases/overlap_one_level-g96-s52701",
+      "files": {
+        "B_binary.zip": {
+          "sha256": "20eb899f16a0e767ee97e0d7e0f005ed31426393d49c74ab2c6c9b723b465268",
+          "size_bytes": 1298
+        },
+        "R_reverse.zip": {
+          "sha256": "bf4ea298dd8e6166550fc65a033efac1d06a60967f1d3b3a4c1982aa12e3e74f",
+          "size_bytes": 1164
+        },
+        "original.cnf": {
+          "sha256": "d083def5b1765635fabca0298d717079d9a9e180d89cdad80a0067ed67d08e2c",
+          "size_bytes": 4597
+        },
+        "transformation-trace.json": {
+          "sha256": "b33a042a9511ab1aec270157174086f84f0de8bb1ad0a8572e44e04950a08411",
+          "size_bytes": 69419
+        },
+        "reduced.cnf": {
+          "sha256": "2f21a3e74059d419336e41210e3f6fc7518d2549b211f4511550ae49900a9cc2",
+          "size_bytes": 1485
+        }
+      },
+      "measurements": {
+        "original": {
+          "pass_medians": [
+            0.894098720307534,
+            0.8493945149451103
+          ],
+          "combined_case_median": 0.8528138154847423
+        },
+        "internal-rerun": {
+          "pass_medians": [
+            0.8212606815431103,
+            0.8159228394371587
+          ],
+          "combined_case_median": 0.8212606815431103
+        }
+      }
+    },
+    {
+      "id": "overlap_one_level-g96-s52702",
+      "family": "overlap_one_level",
+      "seed": 52702,
+      "initial_clauses": 384,
+      "variables": 48,
+      "source_directory_in_original_bundle": "robbies-razor-sat-unseen-panel-v0.5.27/sources/cases/overlap_one_level-g96-s52702",
+      "files": {
+        "B_binary.zip": {
+          "sha256": "4addeca74dcb1a0868565f07bbdd69b0dd20e2955baa6da61dde4e013f21df87",
+          "size_bytes": 1292
+        },
+        "R_reverse.zip": {
+          "sha256": "0d3341d76a8ba97f95f30a9665b7d01e92962068b18e6455ce4dae601e09bf93",
+          "size_bytes": 1195
+        },
+        "original.cnf": {
+          "sha256": "a3e65a7ca83380cbd399fb93df8267e92706735e6e8fe9b329d8b98839f4aa30",
+          "size_bytes": 4601
+        },
+        "transformation-trace.json": {
+          "sha256": "238269fe2224c59d9a075611284fabf4c9f9cc6f4b15ce4c1cfdcd91fa303d3e",
+          "size_bytes": 69815
+        },
+        "reduced.cnf": {
+          "sha256": "3dba08721481ce88056a222541f6fa4d974176546ca56ea95ae3ffd7e111d758",
+          "size_bytes": 1583
+        }
+      },
+      "measurements": {
+        "original": {
+          "pass_medians": [
+            0.8077289177713524,
+            0.803498544889338
+          ],
+          "combined_case_median": 0.8040385929343101
+        },
+        "internal-rerun": {
+          "pass_medians": [
+            0.8539050141559579,
+            0.8315620403802821
+          ],
+          "combined_case_median": 0.8512044790992773
+        }
+      }
+    },
+    {
+      "id": "overlap_recursive-g32-s52701",
+      "family": "overlap_recursive",
+      "seed": 52701,
+      "initial_clauses": 128,
+      "variables": 16,
+      "source_directory_in_original_bundle": "robbies-razor-sat-unseen-panel-v0.5.27/sources/cases/overlap_recursive-g32-s52701",
+      "files": {
+        "B_binary.zip": {
+          "sha256": "e82400e8147b691cb2004e4160971597d45834355968d2c8d60a9eec995a0559",
+          "size_bytes": 533
+        },
+        "R_reverse.zip": {
+          "sha256": "e350c0c2772487d5b16f9853f448ade7d0e65f93f01cb2895a84ccc0490e06a7",
+          "size_bytes": 540
+        },
+        "original.cnf": {
+          "sha256": "3632dd0bcf956363303bf5f001c247d405fc5cbaf88968fabbc4e5e0a0688d1f",
+          "size_bytes": 1349
+        },
+        "transformation-trace.json": {
+          "sha256": "0da022aa002952e0bbcd8570bd563f8e3a6122316dfd3919ebfc929c6723f702",
+          "size_bytes": 27829
+        },
+        "reduced.cnf": {
+          "sha256": "5966978e064427a6f9ce1e0f63da7feb179195ad6b28ab9b63919d6c4f645fb8",
+          "size_bytes": 90
+        }
+      },
+      "measurements": {
+        "original": {
+          "pass_medians": [
+            0.8591891178064457,
+            0.8728809639775859
+          ],
+          "combined_case_median": 0.8653666879828233
+        },
+        "internal-rerun": {
+          "pass_medians": [
+            0.880608690933745,
+            0.8400092213361635
+          ],
+          "combined_case_median": 0.8767932988192257
+        }
+      }
+    },
+    {
+      "id": "overlap_recursive-g32-s52702",
+      "family": "overlap_recursive",
+      "seed": 52702,
+      "initial_clauses": 128,
+      "variables": 16,
+      "source_directory_in_original_bundle": "robbies-razor-sat-unseen-panel-v0.5.27/sources/cases/overlap_recursive-g32-s52702",
+      "files": {
+        "B_binary.zip": {
+          "sha256": "a0bdc4fb54be2ff94b86f430ca0ea39bd0138e32dcc24a86ede093589fefec25",
+          "size_bytes": 528
+        },
+        "R_reverse.zip": {
+          "sha256": "6834a3321e55f631a29b6b393771b71b3f1835afe0778898963d6a27f2ee78d7",
+          "size_bytes": 538
+        },
+        "original.cnf": {
+          "sha256": "a1de18e6f99af96abc0675e6b4da9f29398b47840cf7276537535fe081194b59",
+          "size_bytes": 1333
+        },
+        "transformation-trace.json": {
+          "sha256": "583a6d8c9ce3631cfab903496df2507cde5c91ecbfc26e9f658a972fcbdb822c",
+          "size_bytes": 27369
+        },
+        "reduced.cnf": {
+          "sha256": "ac5ddce154c8078fceccc2b088cce187e7351feed849a396278f0c8fa959b93d",
+          "size_bytes": 89
+        }
+      },
+      "measurements": {
+        "original": {
+          "pass_medians": [
+            0.8310659823580226,
+            0.8110255822742077
+          ],
+          "combined_case_median": 0.8246080673535083
+        },
+        "internal-rerun": {
+          "pass_medians": [
+            0.8519896283794168,
+            0.8645964308395281
+          ],
+          "combined_case_median": 0.8569847727078161
+        }
+      }
+    },
+    {
+      "id": "overlap_recursive-g96-s52701",
+      "family": "overlap_recursive",
+      "seed": 52701,
+      "initial_clauses": 384,
+      "variables": 48,
+      "source_directory_in_original_bundle": "robbies-razor-sat-unseen-panel-v0.5.27/sources/cases/overlap_recursive-g96-s52701",
+      "files": {
+        "B_binary.zip": {
+          "sha256": "58e9eb652230e8a28ad7518eb73a9e3365b1f9d4606dc6b80a3079bb209506cd",
+          "size_bytes": 1265
+        },
+        "R_reverse.zip": {
+          "sha256": "c7220394a84e82fcf705cad255a96380c912fb64652cd0e48072888f3fda1968",
+          "size_bytes": 1084
+        },
+        "original.cnf": {
+          "sha256": "2e23ada87e6edcd45265db6a7bca03fc718446423bcf0ce24551594f8a73bbdb",
+          "size_bytes": 4405
+        },
+        "transformation-trace.json": {
+          "sha256": "74077e8e2829c2f160cf077759b66331df50604d902fe4d165fa9be348f26a50",
+          "size_bytes": 83706
+        },
+        "reduced.cnf": {
+          "sha256": "452a92a180a08b1606fe97bbd40c591060fc0d43e1c955627ad5ea37f3a9a86b",
+          "size_bytes": 220
+        }
+      },
+      "measurements": {
+        "original": {
+          "pass_medians": [
+            0.7258308577780084,
+            0.857992030656155
+          ],
+          "combined_case_median": 0.8390482095193998
+        },
+        "internal-rerun": {
+          "pass_medians": [
+            0.8528658401640375,
+            0.8565971949233728
+          ],
+          "combined_case_median": 0.8550085953341803
+        }
+      }
+    },
+    {
+      "id": "overlap_recursive-g96-s52702",
+      "family": "overlap_recursive",
+      "seed": 52702,
+      "initial_clauses": 384,
+      "variables": 48,
+      "source_directory_in_original_bundle": "robbies-razor-sat-unseen-panel-v0.5.27/sources/cases/overlap_recursive-g96-s52702",
+      "files": {
+        "B_binary.zip": {
+          "sha256": "51d37bc04f66ea3824fa0c79834e77bc7020d9e45dfac5d45978529e36a936a0",
+          "size_bytes": 1268
+        },
+        "R_reverse.zip": {
+          "sha256": "e2d50d8ce25b905545076a6369c1a9b7781001503f26daff2e681e4b77cac1f3",
+          "size_bytes": 1090
+        },
+        "original.cnf": {
+          "sha256": "338c86d35ab58056673f8c1936dea3e54615c7efd661a989818cbcc6f11dc5bf",
+          "size_bytes": 4409
+        },
+        "transformation-trace.json": {
+          "sha256": "291c61d7faa021130c8e5574d53d0bbe2ad284fded9f49891fca535f83382e61",
+          "size_bytes": 83619
+        },
+        "reduced.cnf": {
+          "sha256": "e8ff19fb4cae2b5cfdff184fe5991cc688138d9af60a55279c875f71ac61f022",
+          "size_bytes": 244
+        }
+      },
+      "measurements": {
+        "original": {
+          "pass_medians": [
+            0.8262793677014372,
+            0.831316172477274
+          ],
+          "combined_case_median": 0.8262793677014372
+        },
+        "internal-rerun": {
+          "pass_medians": [
+            0.8263945271162295,
+            0.8232074565167932
+          ],
+          "combined_case_median": 0.8263945271162295
+        }
+      }
+    },
+    {
+      "id": "overlap_mixed-g32-s52701",
+      "family": "overlap_mixed",
+      "seed": 52701,
+      "initial_clauses": 128,
+      "variables": 16,
+      "source_directory_in_original_bundle": "robbies-razor-sat-unseen-panel-v0.5.27/sources/cases/overlap_mixed-g32-s52701",
+      "files": {
+        "B_binary.zip": {
+          "sha256": "a6da29e94f040f5caf81c828f177e74f015bc88f18761a072a3f675d5f4ac6e4",
+          "size_bytes": 532
+        },
+        "R_reverse.zip": {
+          "sha256": "d786292c30037c547d78dc17af8ebbc470268eeb85821396ab108ddf156a58d5",
+          "size_bytes": 619
+        },
+        "original.cnf": {
+          "sha256": "3338f56cb534171599074f55e5e559013d5e7e8366f16aaa9e3a0855cd29c956",
+          "size_bytes": 1397
+        },
+        "transformation-trace.json": {
+          "sha256": "05bf8a13dabb659331b3ac0e4d1557d8bb501a774a021bddbce0a427f416f4b1",
+          "size_bytes": 18557
+        },
+        "reduced.cnf": {
+          "sha256": "3cf90c3c97bcdb778ffdb8d78a1487dcf6f5001156bba3975f5de236b4ea8d71",
+          "size_bytes": 869
+        }
+      },
+      "measurements": {
+        "original": {
+          "pass_medians": [
+            0.860214824105667,
+            0.8232781897543717
+          ],
+          "combined_case_median": 0.8420432858337079
+        },
+        "internal-rerun": {
+          "pass_medians": [
+            0.8374144992719942,
+            0.8189367751281417
+          ],
+          "combined_case_median": 0.8332409368002994
+        }
+      }
+    },
+    {
+      "id": "overlap_mixed-g32-s52702",
+      "family": "overlap_mixed",
+      "seed": 52702,
+      "initial_clauses": 128,
+      "variables": 16,
+      "source_directory_in_original_bundle": "robbies-razor-sat-unseen-panel-v0.5.27/sources/cases/overlap_mixed-g32-s52702",
+      "files": {
+        "B_binary.zip": {
+          "sha256": "55b798c6401507f494b59fe28b979dcac438350c72d876c84be7db794d32846c",
+          "size_bytes": 524
+        },
+        "R_reverse.zip": {
+          "sha256": "a3a900d6f846887838c305068be94787a412ddf71d97b795a57afc8bb7c58ffd",
+          "size_bytes": 623
+        },
+        "original.cnf": {
+          "sha256": "936e0c2ba590d5ddaa443913bb47f643e6039f0f9a110a8fd049b80f48cbce3d",
+          "size_bytes": 1381
+        },
+        "transformation-trace.json": {
+          "sha256": "e867a948248dee29dd35875da52a73d8e6fb05728b378f6209f0c108de31fba1",
+          "size_bytes": 18515
+        },
+        "reduced.cnf": {
+          "sha256": "263c70f587f7c9a3e7210f7270a9b1a34cd6d4b587bd00a459a179cae17710db",
+          "size_bytes": 864
+        }
+      },
+      "measurements": {
+        "original": {
+          "pass_medians": [
+            0.8394408707308777,
+            0.8488389320587924
+          ],
+          "combined_case_median": 0.8425079109245164
+        },
+        "internal-rerun": {
+          "pass_medians": [
+            0.8123558573408914,
+            0.8468354391593492
+          ],
+          "combined_case_median": 0.8337285958877367
+        }
+      }
+    },
+    {
+      "id": "overlap_mixed-g96-s52701",
+      "family": "overlap_mixed",
+      "seed": 52701,
+      "initial_clauses": 384,
+      "variables": 48,
+      "source_directory_in_original_bundle": "robbies-razor-sat-unseen-panel-v0.5.27/sources/cases/overlap_mixed-g96-s52701",
+      "files": {
+        "B_binary.zip": {
+          "sha256": "9791eceefbc1f5a3f7076aebe6c2478a11a74af083d4fe3bb973f7c3acb82d2b",
+          "size_bytes": 1286
+        },
+        "R_reverse.zip": {
+          "sha256": "26553003722f0cfdfe7f72334087b3405e07ac6c88233dc2f4b75e509363dbb0",
+          "size_bytes": 1360
+        },
+        "original.cnf": {
+          "sha256": "c95c4de1982ac5be8473e6d12f8b35241dae9174f34b8c6b8c07a62118388d7d",
+          "size_bytes": 4549
+        },
+        "transformation-trace.json": {
+          "sha256": "6a9c316d7fdc08968bc8323744dd3bbe5f74275c00783337df8d292520917d69",
+          "size_bytes": 55531
+        },
+        "reduced.cnf": {
+          "sha256": "5ec6ad22e9bfba89b5777d000a51f4fffe10857ff2564d2be6a19f98aeecf1a8",
+          "size_bytes": 2815
+        }
+      },
+      "measurements": {
+        "original": {
+          "pass_medians": [
+            0.8269164550630963,
+            0.794582128326035
+          ],
+          "combined_case_median": 0.8146077815488953
+        },
+        "internal-rerun": {
+          "pass_medians": [
+            0.836580661887621,
+            0.8124869854419178
+          ],
+          "combined_case_median": 0.8301908200002833
+        }
+      }
+    },
+    {
+      "id": "overlap_mixed-g96-s52702",
+      "family": "overlap_mixed",
+      "seed": 52702,
+      "initial_clauses": 384,
+      "variables": 48,
+      "source_directory_in_original_bundle": "robbies-razor-sat-unseen-panel-v0.5.27/sources/cases/overlap_mixed-g96-s52702",
+      "files": {
+        "B_binary.zip": {
+          "sha256": "eea11944197210d040f5e87d4d374e4ea5f5e07860ee2de1a5710762852d30eb",
+          "size_bytes": 1271
+        },
+        "R_reverse.zip": {
+          "sha256": "382480e69cd3e640c009555b785a1b305817dc7ea77a97c0891ad0ed4eaa61b0",
+          "size_bytes": 1351
+        },
+        "original.cnf": {
+          "sha256": "0a27abcb29580d7d61c19c77f3283d4e517273b98a972fff3715bf5aa39531b8",
+          "size_bytes": 4553
+        },
+        "transformation-trace.json": {
+          "sha256": "3cf6ea52e327a9898d01f879eb51c5d8282889666bc4929cd248567b72460a77",
+          "size_bytes": 55421
+        },
+        "reduced.cnf": {
+          "sha256": "242d4a1ce2f74410afe484a355bf2f9a7d2762cab5a60089c2d1862eef2766dd",
+          "size_bytes": 2779
+        }
+      },
+      "measurements": {
+        "original": {
+          "pass_medians": [
+            0.8177324541670008,
+            0.7884213503271215
+          ],
+          "combined_case_median": 0.8002297105559383
+        },
+        "internal-rerun": {
+          "pass_medians": [
+            0.8133274621236497,
+            0.8208857771720777
+          ],
+          "combined_case_median": 0.8169485474608831
+        }
+      }
+    },
+    {
+      "id": "sampled_overlap-g32-s52701",
+      "family": "sampled_overlap",
+      "seed": 52701,
+      "initial_clauses": 128,
+      "variables": 32,
+      "source_directory_in_original_bundle": "robbies-razor-sat-unseen-panel-v0.5.27/sources/cases/sampled_overlap-g32-s52701",
+      "files": {
+        "B_binary.zip": {
+          "sha256": "d26b85c122e81e3776de7d13708cfa0c25325e3ceb377ce6ddba43e4075d913e",
+          "size_bytes": 590
+        },
+        "R_reverse.zip": {
+          "sha256": "adcfc8ebdece03672f2d8ef9bf32a00faba664f9fe27f96bda56fb6ed451ec6b",
+          "size_bytes": 657
+        },
+        "original.cnf": {
+          "sha256": "b432d3103af678d49a1895ba77651711abdf9adadc64d842a13d1fa51bf80f6f",
+          "size_bytes": 1501
+        },
+        "transformation-trace.json": {
+          "sha256": "47c6ef48123ca562cde6416b88665eed9406e307e585a94b3fe8d717947dbc34",
+          "size_bytes": 11484
+        },
+        "reduced.cnf": {
+          "sha256": "b432d3103af678d49a1895ba77651711abdf9adadc64d842a13d1fa51bf80f6f",
+          "size_bytes": 1501
+        }
+      },
+      "measurements": {
+        "original": {
+          "pass_medians": [
+            0.8450827959972493,
+            0.805217015783788
+          ],
+          "combined_case_median": 0.8266172768207193
+        },
+        "internal-rerun": {
+          "pass_medians": [
+            0.8185298293514904,
+            0.7789618236634208
+          ],
+          "combined_case_median": 0.7968345088946825
+        }
+      }
+    },
+    {
+      "id": "sampled_overlap-g32-s52702",
+      "family": "sampled_overlap",
+      "seed": 52702,
+      "initial_clauses": 128,
+      "variables": 32,
+      "source_directory_in_original_bundle": "robbies-razor-sat-unseen-panel-v0.5.27/sources/cases/sampled_overlap-g32-s52702",
+      "files": {
+        "B_binary.zip": {
+          "sha256": "932b9b98d728e756e84c44f4c1ac836a2577e2e233a3fd3794773028752af695",
+          "size_bytes": 592
+        },
+        "R_reverse.zip": {
+          "sha256": "62f13f1d53672bba9850bca49bdaf385e54c6431ab2200de9125f83a11e220c4",
+          "size_bytes": 691
+        },
+        "original.cnf": {
+          "sha256": "60b575d95197d7a766ab15cf5c267de3ba4f0fd32e4d2d5f480edcecf38d46bb",
+          "size_bytes": 1508
+        },
+        "transformation-trace.json": {
+          "sha256": "a1aafdcbc5314483bf8ab7fb83679926e59d8b3568a1461af24b0c6deb8a3c50",
+          "size_bytes": 11689
+        },
+        "reduced.cnf": {
+          "sha256": "da9e33105b1a3670ce45b28b011e644f011f17ced8ba077d1fa867a057a0583c",
+          "size_bytes": 1493
+        }
+      },
+      "measurements": {
+        "original": {
+          "pass_medians": [
+            0.8095463030017243,
+            0.7810625371151473
+          ],
+          "combined_case_median": 0.7975326852954433
+        },
+        "internal-rerun": {
+          "pass_medians": [
+            0.8117906492329662,
+            0.7689361933915475
+          ],
+          "combined_case_median": 0.7905454961353605
+        }
+      }
+    },
+    {
+      "id": "sampled_overlap-g96-s52701",
+      "family": "sampled_overlap",
+      "seed": 52701,
+      "initial_clauses": 384,
+      "variables": 96,
+      "source_directory_in_original_bundle": "robbies-razor-sat-unseen-panel-v0.5.27/sources/cases/sampled_overlap-g96-s52701",
+      "files": {
+        "B_binary.zip": {
+          "sha256": "edd8d2d07f808356f3573b29ca9a9ef25db8651734d2c7d0780674b52e236585",
+          "size_bytes": 1581
+        },
+        "R_reverse.zip": {
+          "sha256": "76c95fcac6b5ba85334f863958c5d3d1ace97443b8d843b9322cc4664773049b",
+          "size_bytes": 1680
+        },
+        "original.cnf": {
+          "sha256": "81ef4caf7db914a225253abd61995483fd8cd42520cae8bd796d8373ba9f02b8",
+          "size_bytes": 4688
+        },
+        "transformation-trace.json": {
+          "sha256": "9d2fbaa9624a508982b43b01ba68706d149bb0c7ea9150f87141946c73ff3ae4",
+          "size_bytes": 33924
+        },
+        "reduced.cnf": {
+          "sha256": "cd454dea3e3f7ee25136906596087bd5d6845c807cb035f705a7fd2212fefccc",
+          "size_bytes": 4672
+        }
+      },
+      "measurements": {
+        "original": {
+          "pass_medians": [
+            0.7511501756710659,
+            0.7827556452157746
+          ],
+          "combined_case_median": 0.7511501756710659
+        },
+        "internal-rerun": {
+          "pass_medians": [
+            0.7741269474130424,
+            0.7687779999777292
+          ],
+          "combined_case_median": 0.7687779999777292
+        }
+      }
+    },
+    {
+      "id": "sampled_overlap-g96-s52702",
+      "family": "sampled_overlap",
+      "seed": 52702,
+      "initial_clauses": 384,
+      "variables": 96,
+      "source_directory_in_original_bundle": "robbies-razor-sat-unseen-panel-v0.5.27/sources/cases/sampled_overlap-g96-s52702",
+      "files": {
+        "B_binary.zip": {
+          "sha256": "95cf442bf879d2413ebf32608280798ea1337c8cc448aff10be125b5fe917e0e",
+          "size_bytes": 1594
+        },
+        "R_reverse.zip": {
+          "sha256": "9684d4146722a875690f1535959cc0a1f79d9e7a8dbac6f0f89d9d9e5d2b32ff",
+          "size_bytes": 1650
+        },
+        "original.cnf": {
+          "sha256": "0a4ece3155f99d7a01130d4c4aebeb087692cf6efdf026c2c2ceafabe12ee8f4",
+          "size_bytes": 4711
+        },
+        "transformation-trace.json": {
+          "sha256": "6bb19f453b776273fc5d01be7535cef37fab1b5a96fc02e0019fb9574dfd359c",
+          "size_bytes": 33777
+        },
+        "reduced.cnf": {
+          "sha256": "0a4ece3155f99d7a01130d4c4aebeb087692cf6efdf026c2c2ceafabe12ee8f4",
+          "size_bytes": 4711
+        }
+      },
+      "measurements": {
+        "original": {
+          "pass_medians": [
+            0.7791966074761382,
+            0.763763607420527
+          ],
+          "combined_case_median": 0.7718469779825662
+        },
+        "internal-rerun": {
+          "pass_medians": [
+            0.7693095246352537,
+            0.7788348978017737
+          ],
+          "combined_case_median": 0.7722953503902513
+        }
+      }
+    },
+    {
+      "id": "paired_noise-g32-s52701",
+      "family": "paired_noise",
+      "seed": 52701,
+      "initial_clauses": 128,
+      "variables": 32,
+      "source_directory_in_original_bundle": "robbies-razor-sat-unseen-panel-v0.5.27/sources/cases/paired_noise-g32-s52701",
+      "files": {
+        "B_binary.zip": {
+          "sha256": "d40af809eab53080a040ad1efb7cd90ab49d7d0cae4d49a937be60fb99d7d099",
+          "size_bytes": 583
+        },
+        "R_reverse.zip": {
+          "sha256": "db32bced14dd0fb8022d04a6cd115f4bbe86b7d2a4d47500d3f4aca4bf9629bd",
+          "size_bytes": 691
+        },
+        "original.cnf": {
+          "sha256": "6db4b0b19c52328225ce89d9ab243ac3c524a85813c82baccc0ac8231fc9b336",
+          "size_bytes": 1510
+        },
+        "transformation-trace.json": {
+          "sha256": "91b2782b1cafbacdde394252aa667566b53e4478ba3960d8527bbd2a0527726d",
+          "size_bytes": 13020
+        },
+        "reduced.cnf": {
+          "sha256": "fd8cac42979befd28cc0d05573ba1cd4b2f96cc16858c274f03491284d86b7d5",
+          "size_bytes": 1386
+        }
+      },
+      "measurements": {
+        "original": {
+          "pass_medians": [
+            0.7838390523954103,
+            0.7835408887419328
+          ],
+          "combined_case_median": 0.7838390523954103
+        },
+        "internal-rerun": {
+          "pass_medians": [
+            0.8576299066284664,
+            0.8204326082950409
+          ],
+          "combined_case_median": 0.8421731160120001
+        }
+      }
+    },
+    {
+      "id": "paired_noise-g32-s52702",
+      "family": "paired_noise",
+      "seed": 52702,
+      "initial_clauses": 128,
+      "variables": 32,
+      "source_directory_in_original_bundle": "robbies-razor-sat-unseen-panel-v0.5.27/sources/cases/paired_noise-g32-s52702",
+      "files": {
+        "B_binary.zip": {
+          "sha256": "c71e68e1a70c32b6f8fbbfe1b2d36c500a66196d9f303fddf41dac5fedfde059",
+          "size_bytes": 584
+        },
+        "R_reverse.zip": {
+          "sha256": "06686ce217e2518d3efa325777a7b83b76f3c54b9723f62711a3d44571dc2ff5",
+          "size_bytes": 688
+        },
+        "original.cnf": {
+          "sha256": "50f6f15b4154ee96f1684523ab1b8b1b13bb660daa23fb3451274fce7a8191aa",
+          "size_bytes": 1510
+        },
+        "transformation-trace.json": {
+          "sha256": "473ad1b56faa0d019c57001077acbdfde7ef42ef960262a24afc227214cccd2f",
+          "size_bytes": 13206
+        },
+        "reduced.cnf": {
+          "sha256": "4f770d854ea0829ab578bd364b53c542ba229bb8ae745fba406bba06f3901c32",
+          "size_bytes": 1372
+        }
+      },
+      "measurements": {
+        "original": {
+          "pass_medians": [
+            0.8006841275295795,
+            0.8350580824175264
+          ],
+          "combined_case_median": 0.8152137029444076
+        },
+        "internal-rerun": {
+          "pass_medians": [
+            0.7861395642507435,
+            0.8182980387787746
+          ],
+          "combined_case_median": 0.804311778438207
+        }
+      }
+    },
+    {
+      "id": "paired_noise-g96-s52701",
+      "family": "paired_noise",
+      "seed": 52701,
+      "initial_clauses": 384,
+      "variables": 96,
+      "source_directory_in_original_bundle": "robbies-razor-sat-unseen-panel-v0.5.27/sources/cases/paired_noise-g96-s52701",
+      "files": {
+        "B_binary.zip": {
+          "sha256": "66b81d607e9cb94ee91a9e9337aed040b6af7cb3e012daaaa75ff17f8c63bb13",
+          "size_bytes": 1579
+        },
+        "R_reverse.zip": {
+          "sha256": "a7c67f27065857ad247bd1f3635f19a684cd57e8a493027bf7e1fa79d2023062",
+          "size_bytes": 1673
+        },
+        "original.cnf": {
+          "sha256": "a2f4e23cfa201663d9512951af9c94ac788326635b4cb15ad8e76a108299a595",
+          "size_bytes": 4686
+        },
+        "transformation-trace.json": {
+          "sha256": "e2eb2f6db717d6c1a516a9cddb09a03f534538675adaacc310884710f4f8f6b5",
+          "size_bytes": 38292
+        },
+        "reduced.cnf": {
+          "sha256": "7e6212d07c143356bd5173bddf43271a328251af7e7527a19bcd1c7b7830d528",
+          "size_bytes": 4314
+        }
+      },
+      "measurements": {
+        "original": {
+          "pass_medians": [
+            0.7094342096766489,
+            0.7555023060092612
+          ],
+          "combined_case_median": 0.7516263026380807
+        },
+        "internal-rerun": {
+          "pass_medians": [
+            0.8112615906465447,
+            0.7637641713392934
+          ],
+          "combined_case_median": 0.7792961229498128
+        }
+      }
+    },
+    {
+      "id": "paired_noise-g96-s52702",
+      "family": "paired_noise",
+      "seed": 52702,
+      "initial_clauses": 384,
+      "variables": 96,
+      "source_directory_in_original_bundle": "robbies-razor-sat-unseen-panel-v0.5.27/sources/cases/paired_noise-g96-s52702",
+      "files": {
+        "B_binary.zip": {
+          "sha256": "430605fbe5a9b83fbf816a73f11e04e83dc4fc0fc38630cd8e1db67132a6c990",
+          "size_bytes": 1585
+        },
+        "R_reverse.zip": {
+          "sha256": "8f1c1d1c2e541e2443b1a2a5a32660ea845517742be238318928774357b8ee01",
+          "size_bytes": 1666
+        },
+        "original.cnf": {
+          "sha256": "4fb916433affd7baa80369a49314cebccae4274e27477e62de7c5cf5b995b9cf",
+          "size_bytes": 4706
+        },
+        "transformation-trace.json": {
+          "sha256": "81881cd06d2091e312fb14bbc51abfe28242e8b8b1b718ccc33bfe1caf22736d",
+          "size_bytes": 38323
+        },
+        "reduced.cnf": {
+          "sha256": "a44f92814a8d91bfa30e259d09a9599a376f8cfe07ca52e80ad7c472a5865f93",
+          "size_bytes": 4334
+        }
+      },
+      "measurements": {
+        "original": {
+          "pass_medians": [
+            0.7874699664737294,
+            0.7668711033874346
+          ],
+          "combined_case_median": 0.7749989529139545
+        },
+        "internal-rerun": {
+          "pass_medians": [
+            0.7840501922394565,
+            0.7635857989026048
+          ],
+          "combined_case_median": 0.7714893790608404
+        }
+      }
+    }
+  ]
+}
