@@ -102,6 +102,8 @@ On the same 24-case panel, a local test introduced a 50 ms pause before the fift
 
 [Download the latency test protocol, raw observations, and verification script (ZIP)](../sat-recovery-latency-spike-v0.5.27-2026-11-22.zip)
 
+[Grok-reported audit of the published records and production MCP delivery (November 22, 2026)](../docs/verification/mcp/2026-11-22-grok-sat-recovery-audit.md)
+
 ---
 
 ## What This Benchmark Surface Measures
